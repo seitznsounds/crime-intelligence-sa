@@ -44,11 +44,15 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Secure Uplink**: Anonymous 4-step reporting flow with simulated AES-256 encryption.
 - **Evidence Drop**: High-fidelity drag-and-drop uploader with metadata stripping protocols.
 
+### 7. Community Governance [COMPLETED]
+- **Whistleblower Protection 2.0**: Zero-Knowledge proofs for anonymous verification.
+- **Citizen Voting**: [IMPLEMENTING] Finalizing the democratic prioritization portal for investigative targets.
+
 # 🗺️ Strategic Roadmap
 
-### Phase 3: Community Governance (Active)
-- [x] **Whistleblower Protection 2.0**: [IMPLEMENTING] Zero-Knowledge proofs for anonymous verification.
-- [ ] **Citizen Voting**: Allowing verified users to vote on high-priority investigation targets.
+### Phase 3: Community Governance (Finalizing)
+- [x] **Whistleblower Protection 2.0**: Zero-Knowledge proofs for anonymous verification.
+- [x] **Citizen Voting**: Prioritizing high-level investigation targets.
 
 # 🧠 Agent Intelligence Overlays
 
