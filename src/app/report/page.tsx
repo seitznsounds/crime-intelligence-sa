@@ -154,7 +154,7 @@ export default function ReportPage() {
                   Your evidence has been securely stored. Case ID: <span className="font-mono text-white/80">#EV_772A_X</span>
                 </p>
                 <button 
-                  onClick={() => setIsComplete(false) || setStep(1)}
+                  onClick={() => { setIsComplete(false); setStep(1); }}
                   className="px-8 py-3 bg-white/5 border border-white/10 rounded-xl text-[10px] font-bold uppercase tracking-widest hover:bg-white/10 transition-all"
                 >
                   Return to Portal
