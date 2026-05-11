@@ -4,7 +4,7 @@ import { ExposureCard } from "@/components/ExposureCard";
 export const dynamic = "force-dynamic";
 
 export default async function ExposePage() {
-  const supabase = createServerClient();
+  const supabase = await createServerClient();
 
   // Fetch top 12 people by risk score or PEP tier
   const { data: people, error } = await supabase

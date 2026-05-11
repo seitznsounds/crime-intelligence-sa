@@ -17,6 +17,39 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Expose High-Level Corruption**: Document and highlight the links between organized crime and government officials.
 - **Systemic Accountability**: Track the "lifecycle" of crime—from the street to the official who legitimizes it.
 
+# 🚀 Operational Progress (May 2026)
+
+### 1. Ingestion Protocol [COMPLETED]
+- **Resilient Pipeline**: Processed 32k+ records with exponential backoff and smart date sanitization.
+- **Schema Hardening**: Automated metadata flattening for deeply nested intelligence points.
+
+### 2. UI/UX Design System [COMPLETED]
+- **Dossier Aesthetic**: Codified in `.agents/skills/ui-ux/SKILL.md`.
+- **Premium Tokens**: Custom glassmorphism, monospaced typography (JetBrains Mono), and high-precision icons (Lucide).
+
+### 3. Intelligence Hub [COMPLETED]
+- **Cinematic Landing**: Staggered Framer Motion entrances and operational counters.
+- **Expose Board**: Risk-ranked technical dossier cards for PEPs and syndicates.
+- **Network Map**: Interactive SVG-based visualization of corruption links and operational hubs.
+
+### 4. Citizen Evidence Portal [COMPLETED]
+- **Secure Uplink**: Anonymous 4-step reporting flow with simulated AES-256 encryption.
+- **Evidence Drop**: High-fidelity drag-and-drop uploader with metadata stripping protocols.
+
+# 🗺️ Strategic Roadmap
+
+### Phase 1: Geospatial Intelligence
+- [ ] **Global Crime Heatmap**: Interactive 3D visualization of crime density across South Africa.
+- [ ] **Station Performance Leaderboard**: Deep-dive audits and comparative ranking of all 1,154 SAPS stations.
+
+### Phase 2: Predictive Analysis
+- [ ] **AI Corruption Forecasting**: Utilizing pgvector to detect emerging corruption hubs based on historical link analysis.
+- [ ] **Syndicate Hierarchy Mapping**: Automated generation of organizational charts for major syndicates.
+
+### Phase 3: Community Governance
+- [ ] **Whistleblower Protection 2.0**: Integration of Zero-Knowledge proofs for anonymous verification.
+- [ ] **Citizen Voting**: Allowing verified users to vote on high-priority investigation targets.
+
 # 🧠 Agent Intelligence Overlays
 
 ## Next.js 16 ADR (Architectural Decision Record)
@@ -26,6 +59,6 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Metadata API**: Use the dynamic Metadata API for SEO rather than `next/head`.
 
 ## Database Strategy: Supabase `crime_intelligence`
-- **Schema**: All intelligence data resides in the `crime_intelligence` schema.
+- **Schema**: All intelligence data resides in the `public` schema.
 - **Privacy**: Implement strict RLS (Row Level Security) while ensuring public transparency where appropriate.
 - **Real-time**: Utilize Supabase Realtime for incident alerts.

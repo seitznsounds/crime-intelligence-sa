@@ -10,7 +10,7 @@ export const dynamic = "force-dynamic";
 
 export default async function DeepExposurePage({ params }: PageProps) {
   const { id } = await params;
-  const supabase = createServerClient();
+  const supabase = await createServerClient();
 
   const { data: person, error: personError } = await supabase
     .from("people")
