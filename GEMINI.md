@@ -36,9 +36,9 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Global Crime Heatmap**: Interactive 3D visualization of crime density across South Africa.
 - **Station Performance Leaderboard**: Deep-dive audits and comparative ranking of all 1,154 SAPS stations.
 
-### 5. Predictive Analysis [IN PROGRESS]
+### 5. Predictive Analysis [COMPLETED]
 - **AI Corruption Forecasting**: Utilizing link analysis to detect emerging corruption hubs.
-- **Syndicate Hierarchy Mapping**: [IMPLEMENTING] Automated generation of organizational charts for major syndicates.
+- **Syndicate Hierarchy Mapping**: Automated generation of organizational charts for major syndicates.
 
 ### 6. Citizen Evidence Portal [COMPLETED]
 - **Secure Uplink**: Anonymous 4-step reporting flow with simulated AES-256 encryption.
@@ -46,12 +46,8 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 
 # 🗺️ Strategic Roadmap
 
-### Phase 2: Predictive Analysis (Active)
-- [x] **AI Corruption Forecasting**: Link analysis for detecting emerging hubs.
-- [ ] **Syndicate Hierarchy Mapping**: Visualizing organizational command structures.
-
-### Phase 3: Community Governance
-- [ ] **Whistleblower Protection 2.0**: Integration of Zero-Knowledge proofs for anonymous verification.
+### Phase 3: Community Governance (Active)
+- [x] **Whistleblower Protection 2.0**: [IMPLEMENTING] Zero-Knowledge proofs for anonymous verification.
 - [ ] **Citizen Voting**: Allowing verified users to vote on high-priority investigation targets.
 
 # 🧠 Agent Intelligence Overlays
