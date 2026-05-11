@@ -45,6 +45,17 @@ const PERPETRATORS = [
   }
 ];
 
+const TRC_VOLUMES = [
+  { vol: 1, title: "Introductory & Rationale", status: "INDEXED", progress: 100 },
+  { vol: 2, title: "Gross Violations (1960-1994)", status: "INDEXING", progress: 68 },
+  { vol: 3, title: "Victim Perspectives", status: "QUEUED", progress: 0 },
+  { vol: 4, title: "Institutional Hearings", status: "QUEUED", progress: 0 },
+  { vol: 5, title: "Conclusions & Findings", status: "QUEUED", progress: 0 },
+  { vol: 6, title: "Amnesty & Financials", status: "QUEUED", progress: 0 },
+  { vol: 7, title: "Victim Tributes", status: "ACTIVE", progress: 12 },
+];
+
+
 export default function AccountabilityPage() {
   const [selectedPerp, setSelectedPerp] = useState<any>(null);
   const [isBackfilling, setIsBackfilling] = useState(false);
@@ -163,6 +174,32 @@ export default function AccountabilityPage() {
           <div className="space-y-8">
             <div className="glass-card p-8 border-white/5 bg-black/40 backdrop-blur-xl">
               <h3 className="text-xs font-bold uppercase tracking-[0.3em] text-white/20 mb-8 flex items-center gap-3">
+                <RefreshCw className={`w-4 h-4 ${isBackfilling ? 'animate-spin' : ''}`} /> TRC_REPORT_VAULT
+              </h3>
+              <div className="space-y-6">
+                {TRC_VOLUMES.map((item, i) => (
+                  <div key={i} className="space-y-3">
+                    <div className="flex justify-between items-center text-[9px] font-bold">
+                      <span className="text-white/80 uppercase">Vol {item.vol}: {item.title}</span>
+                      <span className={`tracking-widest ${item.status === 'INDEXED' ? 'text-accent-blue' : item.status === 'INDEXING' ? 'text-accent-gold animate-pulse' : 'text-white/20'}`}>
+                        {item.status}
+                      </span>
+                    </div>
+                    <div className="h-1 bg-white/5 rounded-full overflow-hidden">
+                      <motion.div 
+                        className={`h-full ${item.status === 'INDEXED' ? 'bg-accent-blue shadow-glow-blue' : item.status === 'INDEXING' ? 'bg-accent-gold shadow-glow-gold' : 'bg-white/10'}`}
+                        initial={{ width: 0 }}
+                        animate={{ width: `${item.progress}%` }}
+                        transition={{ duration: 2 }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="glass-card p-8 border-white/5 bg-white/[0.01]">
+              <h3 className="text-xs font-bold uppercase tracking-[0.3em] text-white/20 mb-8 flex items-center gap-3">
                 <RefreshCw className={`w-4 h-4 ${isBackfilling ? 'animate-spin' : ''}`} /> Backfill Monitor
               </h3>
               <div className="space-y-6">
@@ -187,6 +224,7 @@ export default function AccountabilityPage() {
                 ))}
               </div>
             </div>
+
 
             <div className="glass-card p-8 border-accent-crimson/20 bg-accent-crimson/[0.01]">
               <div className="flex items-center gap-3 mb-6">
