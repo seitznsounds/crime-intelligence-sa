@@ -46,13 +46,17 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 
 ### 7. Community Governance [COMPLETED]
 - **Whistleblower Protection 2.0**: Zero-Knowledge proofs for anonymous verification.
-- **Citizen Voting**: [IMPLEMENTING] Finalizing the democratic prioritization portal for investigative targets.
+- **Citizen Voting**: Democratic prioritization portal for investigative targets.
+
+### 8. Land Restitution [COMPLETED]
+- **Reclaim the Land Portal**: Historical displacement mapping and stolen land dossiers.
 
 # 🗺️ Strategic Roadmap
 
-### Phase 3: Community Governance (Finalizing)
-- [x] **Whistleblower Protection 2.0**: Zero-Knowledge proofs for anonymous verification.
-- [x] **Citizen Voting**: Prioritizing high-level investigation targets.
+### Phase 4: Historical Excavation & Accountability (Active)
+- [x] **Apify RAG Integration**: Utilizing `za_intelligence/rag-web-browser` to backfill pre-apartheid historical records.
+- [ ] **Accountability Board**: [IMPLEMENTING] Tracking unpunished perpetrators of crimes against humanity.
+- [ ] **Automated History Dig**: Scheduled crawls for archival news and TRC (Truth and Reconciliation Commission) records.
 
 # 🧠 Agent Intelligence Overlays
 
