@@ -54,13 +54,11 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Victim Tributes**: Living monument for TRC Volume 7 narratives.
 - **Reclaim the Land**: Historical displacement mapping and stolen land dossiers.
 
-# 🗺️ Strategic Roadmap
-
-### Phase 5: Institutional Audits & Global Pressure (Proposed)
-- [ ] **State Department Audits**: Utilizing TRC Volume 4 to audit historical and modern institutional decay (SAPS, SADF).
-- [ ] **Amnesty Tracker**: Mapping the findings of the TRC Amnesty Committee (Volume 6).
-- [ ] **Live Incident Ticker**: Real-time Supabase integration for surfacing street-level intelligence as it happens.
-- [ ] **Global Transparency Index**: Benchmarking SA investigative data against international corruption standards.
+### 9. Institutional Audits & Global Pressure [COMPLETED]
+- **State Department Audits**: Utilizing TRC Volume 4 to audit historical and modern institutional decay (SAPS, SADF).
+- **Amnesty Tracker**: Mapping the findings of the TRC Amnesty Committee (Volume 6).
+- **Live Incident Ticker**: Real-time Supabase integration for surfacing street-level intelligence as it happens.
+- **Global Transparency Index**: Benchmarking SA investigative data against international corruption standards.
 
 # 🧠 Agent Intelligence Overlays
 
