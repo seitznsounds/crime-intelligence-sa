@@ -48,15 +48,19 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Whistleblower Protection 2.0**: Zero-Knowledge proofs for anonymous verification.
 - **Citizen Voting**: Democratic prioritization portal for investigative targets.
 
-### 8. Land Restitution [COMPLETED]
-- **Reclaim the Land Portal**: Historical displacement mapping and stolen land dossiers.
+### 8. Historical Excavation & Accountability [COMPLETED]
+- **Apify RAG Integration**: Utilizing `za_intelligence/rag-web-browser` to backfill pre-apartheid historical records.
+- **Accountability Board**: Tracking unpunished perpetrators of crimes against humanity.
+- **Victim Tributes**: Living monument for TRC Volume 7 narratives.
+- **Reclaim the Land**: Historical displacement mapping and stolen land dossiers.
 
 # 🗺️ Strategic Roadmap
 
-### Phase 4: Historical Excavation & Accountability (Active)
-- [x] **Apify RAG Integration**: Utilizing `za_intelligence/rag-web-browser` to backfill pre-apartheid historical records.
-- [ ] **Accountability Board**: [IMPLEMENTING] Tracking unpunished perpetrators of crimes against humanity.
-- [ ] **Automated History Dig**: Scheduled crawls for archival news and TRC (Truth and Reconciliation Commission) records.
+### Phase 5: Institutional Audits & Global Pressure (Proposed)
+- [ ] **State Department Audits**: Utilizing TRC Volume 4 to audit historical and modern institutional decay (SAPS, SADF).
+- [ ] **Amnesty Tracker**: Mapping the findings of the TRC Amnesty Committee (Volume 6).
+- [ ] **Live Incident Ticker**: Real-time Supabase integration for surfacing street-level intelligence as it happens.
+- [ ] **Global Transparency Index**: Benchmarking SA investigative data against international corruption standards.
 
 # 🧠 Agent Intelligence Overlays
 
