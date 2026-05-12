@@ -1,0 +1,202 @@
+import {
+  Search,
+  Network,
+  Users,
+  Brain,
+  UserX,
+  Heart,
+  Scale,
+  MapPinned,
+  BookOpen,
+  BarChart3,
+  Globe,
+  Building2,
+  Award,
+  Megaphone,
+  Vote,
+  type LucideIcon,
+} from "lucide-react";
+
+export interface NavItem {
+  label: string;
+  href: string;
+  icon: LucideIcon;
+  description?: string;
+}
+
+export interface NavPillar {
+  id: string;
+  label: string;
+  color: "crimson" | "gold" | "blue";
+  icon: LucideIcon;
+  items: NavItem[];
+}
+
+export const NAV_PILLARS: NavPillar[] = [
+  {
+    id: "investigate",
+    label: "Investigate",
+    color: "crimson",
+    icon: Search,
+    items: [
+      {
+        label: "Expose Board",
+        href: "/expose",
+        icon: Search,
+        description: "Risk-ranked dossiers on high-value targets",
+      },
+      {
+        label: "Network Map",
+        href: "/network",
+        icon: Network,
+        description: "Interactive corruption link graph",
+      },
+      {
+        label: "Syndicates",
+        href: "/syndicates",
+        icon: Users,
+        description: "Organized crime hierarchy mapping",
+      },
+      {
+        label: "AI Forecast",
+        href: "/forecast",
+        icon: Brain,
+        description: "Predictive corruption modeling",
+      },
+    ],
+  },
+  {
+    id: "history",
+    label: "History & Justice",
+    color: "gold",
+    icon: Scale,
+    items: [
+      {
+        label: "Accountability Board",
+        href: "/accountability",
+        icon: UserX,
+        description: "Tracking unpunished perpetrators",
+      },
+      {
+        label: "Victim Tributes",
+        href: "/victims",
+        icon: Heart,
+        description: "Living monument for TRC narratives",
+      },
+      {
+        label: "Amnesty Tracker",
+        href: "/amnesty",
+        icon: Scale,
+        description: "TRC Amnesty Committee findings",
+      },
+      {
+        label: "Land Restitution",
+        href: "/restitution",
+        icon: MapPinned,
+        description: "Historical displacement mapping",
+      },
+      {
+        label: "TRC Vault",
+        href: "/vault",
+        icon: BookOpen,
+        description: "Sealed intelligence archive",
+      },
+    ],
+  },
+  {
+    id: "data",
+    label: "Data",
+    color: "blue",
+    icon: BarChart3,
+    items: [
+      {
+        label: "Station Audits",
+        href: "/stats",
+        icon: BarChart3,
+        description: "Performance ranking of 1,154 SAPS stations",
+      },
+      {
+        label: "Crime Heatmap",
+        href: "/map",
+        icon: Globe,
+        description: "Geospatial crime density visualization",
+      },
+      {
+        label: "Institutional Audits",
+        href: "/audits",
+        icon: Building2,
+        description: "SAPS & SADF department audits",
+      },
+      {
+        label: "Global Benchmarks",
+        href: "/benchmarks",
+        icon: Award,
+        description: "International transparency index",
+      },
+    ],
+  },
+];
+
+export const NAV_ACTIONS: NavItem[] = [
+  {
+    label: "Report Corruption",
+    href: "/report",
+    icon: Megaphone,
+    description: "Anonymous encrypted uplink",
+  },
+  {
+    label: "Citizen Voting",
+    href: "/vote",
+    icon: Vote,
+    description: "Democratic investigation priorities",
+  },
+];
+
+/** Determine which pillar is active based on current pathname */
+export function getActivePillar(pathname: string): string | null {
+  for (const pillar of NAV_PILLARS) {
+    if (pillar.items.some((item) => pathname.startsWith(item.href))) {
+      return pillar.id;
+    }
+  }
+  return null;
+}
+
+/** Get breadcrumb trail from pathname */
+export function getBreadcrumbs(
+  pathname: string
+): { label: string; href: string }[] {
+  const crumbs: { label: string; href: string }[] = [
+    { label: "Home", href: "/" },
+  ];
+
+  for (const pillar of NAV_PILLARS) {
+    const matchedItem = pillar.items.find((item) =>
+      pathname.startsWith(item.href)
+    );
+    if (matchedItem) {
+      crumbs.push({ label: pillar.label, href: matchedItem.href });
+      crumbs.push({ label: matchedItem.label, href: matchedItem.href });
+
+      // Handle dynamic segments like /stats/[id]
+      const subPath = pathname.slice(matchedItem.href.length);
+      if (subPath && subPath !== "/") {
+        crumbs.push({
+          label: "Detail",
+          href: pathname,
+        });
+      }
+      return crumbs;
+    }
+  }
+
+  // Check actions
+  const matchedAction = NAV_ACTIONS.find((a) =>
+    pathname.startsWith(a.href)
+  );
+  if (matchedAction) {
+    crumbs.push({ label: matchedAction.label, href: matchedAction.href });
+  }
+
+  return crumbs;
+}

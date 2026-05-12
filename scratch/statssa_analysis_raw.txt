@@ -1,0 +1,1191 @@
+--- Page 1 ---
+Private Bag X44, Pretoria, 0001, South Africa, ISIbalo House, Koch Street, Salvokop, Pretoria, 0002
+www.statssa.gov.za, info@statssa.gov.za, Tel +27 12 310 8911
+STATISTICAL RELEASE
+P0341 Victims of Crime
+Governance, Public Safety and
+Justice Survey
+GPSJS 2018/19
+Embargoed until:
+03 October
+10:30
+ENQUIRIES: FORTHCOMING ISSUE: EXPECTED RELEASE DATE
+User Information Services GPSJS 2019/20 August 2020
+Tel.: 012 310 8600/4892
+
+--- Page 2 ---
+STATISTICS SOUTH AFRICA ii P0341
+Governance, Public Safety and Justice Survey: 2018/19
+This statistical release presents a selection of key findings from the Governance, Public Safety and Justice
+Survey (GPSJS) 2018/19, which was conducted by Statistics South Africa (Stats SA) from April 2018 to March
+2019.
+Published by Statistics South Africa, Private Bag X44, Pretoria 0001
+© Statistics South Africa, 2019
+Users may apply or process this data, provided Statistics South Africa (Stats SA) is acknowledged as the
+original source of the data; that it is specified that the application and/or analysis is the result of the user's
+independent processing of the data; and that neither the basic data nor any reprocessed version or application
+thereof may be sold or offered for sale in any form whatsoever without prior permission from Stats SA.
+A complete set of Stats SA publications is available at Stats SA Library and the following libraries:
+National Library of South Africa, Pretoria Division
+National Library of South Africa, Cape Town Division
+Library of Parliament, Cape Town
+Bloemfontein Public Library
+Natal Society Library, Pietermaritzburg
+Johannesburg Public Library
+Eastern Cape Library Services, King William's Town
+Central Regional Library, Polokwane
+Central Reference Library, Mbombela
+Central Reference Collection, Kimberley
+Central Reference Library, Mmabatho
+This publication is available both in hard copy and on the Stats SA website, www.statssa.gov.za
+The data and metadata set from the Victims of Crime Survey 2017/18 will be available on CD-ROM. A charge
+may be made according to the pricing policy, which can be seen on the website.
+Stats SA also provides a subscription service.
+Enquiries
+User information services Telephone number: 012 310 8600
+Email address: info@statssa.gov.za
+Technical enquiries: kennethc@statssa.gov.za
+Postal address Private Bag X44, Pretoria, 0001
+Produced by Stats SA
+Victims of Crime Survey, 2018/19
+
+--- Page 3 ---
+STATISTICS SOUTH AFRICA iii P0341
+FOREWORD
+This is the first release of the Victims of Crime (VOC) statistics from the new Governance, Public Safety and
+Justice Survey (GPSJS) that was launched in April 2018. From the same survey we published the Governance
+and Access to Justice report in August 2019. The content in the VOCS portion of the survey was reduced in
+order to accommodate new content on governance and access to justice. For example, the types of household
+crime covered in this report is seven compared to eleven in VOCS prior to 2018. Crimes that affect the
+individual have been reduced from seven to six.
+Victims of crime statistics are population estimates of the level of crime in South Africa based on a sample of
+27 071 households. These estimates complement crime statistics provided by the South African Police Service
+(SAPS). VOCS is able to provide estimates of the total number of crime incidences while SAPS statistics
+provide total number of reported cases. For crimes such as consumer fraud, only a small proportion of the
+victims report the crime to the police. Moreover, VOCS statistics also report on feelings of safety, perceptions
+on crime and satisfaction with the police, courts and correctional services. Such information is indispensable
+in the monitoring of development goals.
+Since 2017/18 we have incorporated into our statistical releases SAPS statistics that are comparable to VOCS
+statistics. The main challenge is that SAPS and VOCS do not use the same definitions of crime. For example,
+murder in VOCS includes what is known as culpable homicide in SAPS statistics. So we combine murder and
+culpable homicide counts from SAPS in order to compare with VOCS murder statistics. There is a need to
+align crime definitions of the two institutions. Nevertheless, SAPS has an opportunity to use VOCS statistics
+to assess the quality of its crime data where definitions agree.
+Stats SA acknowledges the contribution of many stakeholders from both government and non-government
+organisations throughout the survey process, from questionnaire design to tabulation planning.
+Risenga Maluleke
+Statistician-General
+Victims of Crime Survey, 2018/19
+
+--- Page 4 ---
+STATISTICS SOUTH AFRICA iv P0341
+Table of Contents
+LIST OF ACRONYMS ................................................................................................................................................... VIII
+1. EXECUTIVE SUMMARY .............................................................................................................................................. 1
+2. INTRODUCTION .......................................................................................................................................................... 3
+3. METHODOLOGY ......................................................................................................................................................... 4
+4. HOUSEHOLD LIVING CONDITIONS .......................................................................................................................... 6
+5. GENERAL OVERVIEW OF CRIME ........................................................................................................................... 12
+5.1 TRENDS FOR HOUSEHOLD CRIMES ............................................................................................................................ 12
+5.2 TRENDS FOR INDIVIDUAL CRIMES .............................................................................................................................. 15
+6. HOUSEHOLD EXPERIENCE OF CRIME .................................................................................................................. 20
+6.1 HOUSEBREAKING OR BURGLARY ............................................................................................................................... 21
+6.2 HOME ROBBERY ..................................................................................................................................................... 24
+6.3 ASSAULT ............................................................................................................................................................... 29
+6.4 THEFT OF MOTOR VEHICLES ..................................................................................................................................... 32
+6.5 DELIBERATE DAMAGING, BURNING OR DESTRUCTION OF RESIDENTIAL DWELLINGS .......................................................... 35
+6.6 MURDER ................................................................................................................................................................ 38
+7. INDIVIDUAL EXPERIENCE OF CRIME..................................................................................................................... 40
+7.1 THEFT OF PERSONAL PROPERTY............................................................................................................................... 40
+7.2 ROBBERY .............................................................................................................................................................. 43
+7.3 ASSAULT ............................................................................................................................................................... 46
+7.4 CONSUMER FRAUD ................................................................................................................................................. 50
+7.5 HIJACKING OF MOTOR VEHICLE ................................................................................................................................. 50
+7.6 SEXUAL OFFENCES ................................................................................................................................................. 52
+8. INDIVIDUAL PERCEPTIONS ON CRIME .................................................................................................................. 54
+8.1 ACCESS AND PERCEPTIONS ABOUT COURTS .............................................................................................................. 54
+8.2 PERCEPTIONS OF SAFETY ........................................................................................................................................ 55
+8.3 ACTION AGAINST CRIME ........................................................................................................................................... 59
+ANNEXURE A: THE QUESTIONNAIRE AND BASIC STATISTICS .............................................................................. 61
+ANNEXURE B: THE WEIGHTING PROCESS AND RESPONSE RATES .................................................................... 83
+ANNEXURE C: SAPS AND VOCS CRIME TYPES ....................................................................................................... 90
+ANNEXURE D: SAPS AND VOCS DEFINITIONS OF CRIME ...................................................................................... 91
+Victims of Crime Survey, 2018/19
+
+--- Page 5 ---
+STATISTICS SOUTH AFRICA v P0341
+List of Tables
+TABLE 1: QUALITY CLASSIFICATION OF ESTIMATES .................................................................................................................... 4
+TABLE 2: PERCENTAGE OF HOUSEHOLDS IN VARIOUS INCOME GROUPS ..................................................................................... 10
+TABLE 3: NUMBER AND PERCENTAGE OF HOUSEHOLDS THAT EXPERIENCED SPECIFIC TYPE OF CRIME DURING THE PAST 5 YEARS,
+2014/15–2018/19 .................................................................................................................................................... 12
+TABLE 4: NUMBER AND PERCENTAGE OF INDIVIDUALS AGED 16 AND OLDER THAT EXPERIENCED SPECIFIC TYPE OF CRIME DURING
+THE PAST 5 YEARS, 2014/15–2018/19 ....................................................................................................................... 16
+TABLE 5: NUMBER AND PERCENTAGE OF HOUSEHOLDS THAT EXPERIENCED SPECIFIED TYPES OF CRIME DURING THE PAST 12
+MONTHS ................................................................................................................................................................... 20
+TABLE 6: NUMBER AND PERCENTAGE OF HOUSEHOLDS THAT EXPERIENCED HOUSEBREAKING DISAGGREGATED BY GENDER,
+LOCATION, POPULATION GROUP, INCOME LEVEL AND PROVINCE, 2018/19 ........................................................................ 21
+TABLE 7: HOUSEBREAKING OR BURGLARY REPORTED TO THE POLICE, 2014/15–2018/19 .......................................................... 23
+TABLE 8: NUMBER AND PERCENTAGE OF HOUSEHOLDS THAT EXPERIENCED HOME ROBBERY DISAGGREGATED BY GENDER,
+LOCATION, POPULATION GROUP, INCOME LEVEL AND PROVINCE, 2018/19 ........................................................................ 25
+TABLE 9: ROBBERY AT RESIDENTIAL PREMISES REPORTED TO THE POLICE BY PROVINCE, 2014/15–2018/19 ............................... 28
+TABLE 10: NUMBER AND PERCENTAGE OF HOUSEHOLDS THAT EXPERIENCED ASSAULT DISAGGREGATED BY GENDER, LOCATION,
+POPULATION GROUP, INCOME LEVEL AND PROVINCE, 2018/19 ........................................................................................ 29
+TABLE 11: NUMBER AND PERCENTAGE OF HOUSEHOLDS THAT EXPERIENCED THEFT OF MOTOR VEHICLE DISAGGREGATED BY
+GENDER, LOCATION, POPULATION GROUP AND INCOME LEVEL, 2018/19 .......................................................................... 32
+TABLE 12: THEFT OF MOTOR VEHICLES AND MOTORCYCLES REPORTED TO THE POLICE, 2014/15–2018/19 ................................. 34
+TABLE 13: NUMBER AND PERCENTAGE OF HOUSEHOLDS THAT EXPERIENCED DELIBERATE DAMAGING, BURNING OR DESTRUCTION
+OF RESIDENTIAL DWELLINGS DISAGGREGATED BY GENDER AND LOCATION, 2018/19 ......................................................... 35
+TABLE 14: MALICIOUS DAMAGE TO PROPERTY AND ARSON REPORTED TO THE POLICE BY PROVINCE, 2014/15–2018/19 ............... 36
+TABLE 15: MURDER STATISTICS FOR 2018/19 ....................................................................................................................... 38
+TABLE 16: MURDER AND CULPABLE HOMICIDE REPORTED TO THE POLICE, 2014/15–2018/19 .................................................... 38
+TABLE 17: NUMBER AND PERCENTAGE OF INDIVIDUALS AGED 16 AND OLDER WHO EXPERIENCED SPECIFIED TYPES OF CRIME
+DURING THE PAST 12 MONTHS ..................................................................................................................................... 40
+TABLE 18: NUMBER AND PERCENTAGE OF INDIVIDUALS THAT EXPERIENCED THEFT OF PERSONAL PROPERTY DISAGGREGATED BY
+GENDER, LOCATION, POPULATION GROUP, AGE GROUP, INCOME LEVEL AND PROVINCE 2018/19 ......................................... 41
+TABLE 19: SUMMARY OF STATISTICS ON THEFT OF PERSONAL PROPERTY .................................................................................. 42
+TABLE 20: NUMBER AND PERCENTAGE OF INDIVIDUALS THAT EXPERIENCED ROBBERY DISAGGREGATED BY GENDER, LOCATION,
+AGE GROUP AND PROVINCE 2018/19 ........................................................................................................................... 43
+TABLE 21: COMMON ROBBERY AND ROBBERY WITH AGGRAVATING CIRCUMSTANCES REPORTED TO THE POLICE BY PROVINCE,
+2014/15–2018/19 .................................................................................................................................................... 45
+TABLE 22: NUMBER AND PERCENTAGE OF INDIVIDUALS THAT EXPERIENCED ASSAULT DISAGGREGATED BY GENDER, LOCATION AND
+AGE GROUP 2018/19 ................................................................................................................................................. 47
+TABLE 23: ASSAULT WITH THE INTENT TO INFLICT GRIEVOUS BODILY HARM AND COMMON ASSAULT REPORTED TO THE POLICE,
+2014/15–2018/19 .................................................................................................................................................... 49
+TABLE 24: NUMBER AND PERCENTAGE OF INDIVIDUALS THAT EXPERIENCED CONSUMER FRAUD DISAGGREGATED BY GENDER AND
+LOCATION 2018/19 .................................................................................................................................................... 50
+TABLE 25: HIJACKING STATISTICS, 2018/19 .......................................................................................................................... 51
+TABLE 26: CARJACKING AND TRUCK HIJACKING REPORTED TO THE POLICE BY PROVINCE, 2014/15–2018/19 ............................... 51
+TABLE 27: SUMMARY OF STATISTICS FOR SEXUAL OFFENCES, 2018/19 .................................................................................... 52
+TABLE 28: SEXUAL OFFENCES REPORTED TO THE POLICE BY PROVINCE, 2013/14–2017/18 ...................................................... 53
+Victims of Crime Survey, 2018/19
+
+--- Page 6 ---
+STATISTICS SOUTH AFRICA vi P0341
+List of Figures
+FIGURE 1: TYPE OF MAIN DWELLING ........................................................................................................................................ 6
+FIGURE 2: MAIN SOURCE OF DRINKING WATER.......................................................................................................................... 7
+FIGURE 3: MAIN SOURCE OF ELECTRICITY ................................................................................................................................ 7
+FIGURE 4: TYPE OF TOILET FACILITY ........................................................................................................................................ 8
+FIGURE 5: MODE OF RUBBISH REMOVAL .................................................................................................................................. 8
+FIGURE 6: HOUSEHOLDS’ PERCEPTION OF ITS WELLBEING, 2018/19........................................................................................... 9
+FIGURE 7: MAIN SOURCE OF HOUSEHOLD INCOME, 2018/19 ...................................................................................................... 9
+FIGURE 8: TOTAL HOUSEHOLD INCOME PER MONTH, 2018/19 .................................................................................................. 10
+FIGURE 9: PERCEPTIONS OF WELLBEING BY INCOME CATEGORY ............................................................................................... 11
+FIGURE 10: TRENDS IN HOUSEBREAKING/BURGLARY, 2014/15–2018/19 ................................................................................. 13
+FIGURE 11: TRENDS IN HOME ROBBERY, 2014/15–2018/19 ................................................................................................... 13
+FIGURE 12: TRENDS IN THEFT OF MOTOR VEHICLE, 2014/15–2018/19 .................................................................................... 14
+FIGURE 13: TRENDS IN DELIBERATE DAMAGING, BURNING OR DESTRUCTION OF RESIDENTIAL DWELLINGS, 2014/15–2018/19 ....... 14
+FIGURE 14: TRENDS IN MURDER, 2014/15–2018/19 .............................................................................................................. 15
+FIGURE 15: TRENDS IN THEFT OF PERSONAL PROPERTY, 2014/15–2018/19 ............................................................................ 16
+FIGURE 16: TRENDS IN STREET ROBBERY, 2014/15–2018/19 ................................................................................................ 17
+FIGURE 17: TRENDS IN ASSAULT (EXCLUDING SEXUAL ASSAULT), 2014/15–2018/19 ................................................................. 17
+FIGURE 18: TRENDS IN CONSUMER FRAUD, 2014/15–2018/19 ............................................................................................... 18
+FIGURE 19: TRENDS IN HIJACKING, 2014/15–2018/19 ........................................................................................................... 18
+FIGURE 20: TRENDS IN SEXUAL OFFENCES, 2014/15–2018/19 ............................................................................................... 19
+FIGURE 21: PERCENTAGE OF TOTAL CRIME MEASURED BY GPSJS .......................................................................................... 20
+FIGURE 22: NUMBER OF INCIDENCES OF HOUSEBREAKING BY MONTH ....................................................................................... 22
+FIGURE 23: PERCENTAGE OF HOUSEHOLDS THAT REPORTED HOUSEBREAKING TO THE POLICE .................................................... 23
+FIGURE 24: PERCENTAGE CHANGE IN BURGLARY AT RESIDENTIAL PREMISES REPORTED TO SAPS, 2017/18–2018/19................. 24
+FIGURE 25: NUMBER OF INCIDENCES OF HOME ROBBERY BY MONTH ......................................................................................... 26
+FIGURE 26: USE OF WEAPONS DURING HOME ROBBERY .......................................................................................................... 26
+FIGURE 27: PERCENTAGE OF TIME SPECIFIED WEAPONS WERE USED DURING HOME ROBBERY ..................................................... 27
+FIGURE 28: PERCENTAGE OF HOUSEHOLDS THAT REPORTED HOME ROBBERY TO THE POLICE ..................................................... 27
+FIGURE 29: PERCENTAGE CHANGE IN ROBBERY AT RESIDENTIAL PREMISES REPORTED TO SAPS, 2017/18–2018/19 .................. 28
+FIGURE 30: NUMBER OF INCIDENCES OF ASSAULT BY MONTH ................................................................................................... 30
+FIGURE 31: PERCENTAGE OF ASSAULTS COMMITTED BY A SPECIFIED PERPETRATOR .................................................................. 30
+FIGURE 32: PERCENTAGE OF HOUSEHOLDS THAT EXPERIENCED ASSAULT WITH SPECIFIED WEAPON ............................................ 31
+FIGURE 33: PERCENTAGE OF HOUSEHOLDS THAT REPORTED ASSAULT TO THE POLICE ............................................................... 31
+FIGURE 34: NUMBER OF INCIDENCES OF THEFT OF MOTOR VEHICLE BY MONTH .......................................................................... 33
+FIGURE 35: PERCENTAGE OF HOUSEHOLDS THAT REPORTED THEFT OF MOTOR VEHICLES TO THE POLICE ..................................... 33
+FIGURE 36: PERCENTAGE CHANGE IN THEFT OF MOTOR VEHICLES AND MOTORCYCLES REPORTED TO SAPS, 2017/18–2018/19 .. 34
+FIGURE 37: NUMBER OF INCIDENCES OF DELIBERATE DAMAGING, BURNING OR DESTRUCTION OF RESIDENTIAL DWELLINGS BY
+MONTH ............................................................................................................................................................................... 35
+FIGURE 38: PERCENTAGE OF HOUSEHOLDS THAT REPORTED DELIBERATE DAMAGING, BURNING OR DESTRUCTION OF RESIDENTIAL
+DWELLINGS TO THE POLICE ................................................................................................................................................... 36
+FIGURE 39: PERCENTAGE CHANGE IN MALICIOUS DAMAGE OF PROPERTY REPORTED TO SAPS, 2017/18–2018/19 ..................... 37
+FIGURE 40: SATISFACTION WITH POLICE SERVICES AFTER REPORTING OF DELIBERATE DAMAGING, BURNING OR DESTRUCTION OF
+RESIDENTIAL DWELLINGS ...................................................................................................................................................... 37
+FIGURE 41: PERCENTAGE CHANGE IN MURDER AND CULPABLE HOMICIDE REPORTED TO SAPS, 2017/18–2018/19 ..................... 39
+FIGURE 42: PERCENTAGE OF VICTIMS OF THEFT OF PERSONAL PROPERTY IN DIFFERENT AGE GROUPS ......................................... 42
+FIGURE 43: NUMBER OF THEFT OF PERSONAL PROPERTY FOR INDIVIDUALS AGED 16 AND OLDER BY MONTH ................................. 42
+FIGURE 44: NUMBER OF STREET ROBBERIES FOR INDIVIDUALS AGED 16 AND OLDER BY MONTH ................................................... 44
+FIGURE 45: PERCENTAGE OF INCIDENCES WHERE SPECIFIC WEAPONS WERE USED DURING STREET ROBBERY .............................. 44
+FIGURE 46: PERCENTAGE OF VICTIMS THAT REPORTED STREET ROBBERY TO THE POLICE ........................................................... 45
+FIGURE 47: PERCENTAGE CHANGE IN COMMON ROBBERY AND ROBBERY WITH AGGRAVATING CIRCUMSTANCES REPORTED TO
+SAPS, 2017/18–2018/19 .................................................................................................................................................. 46
+Victims of Crime Survey, 2018/19
+
+--- Page 7 ---
+STATISTICS SOUTH AFRICA vii P0341
+FIGURE 48: NUMBER OF ASSAULTS FOR INDIVIDUALS AGED 16 AND OLDER BY MONTH ................................................................ 47
+FIGURE 49: PERCENTAGE OF INCIDENCES WHERE SPECIFIC WEAPONS WERE USED DURING ASSAULT ........................................... 48
+FIGURE 50: PERCENTAGE OF VICTIMS THAT REPORTED ASSAULT TO THE POLICE ........................................................................ 48
+FIGURE 51: PERCENTAGE CHANGE IN ASSAULT WITH THE INTENT TO INFLICT GRIEVOUS BODILY HARM AND COMMON ASSAULT
+REPORTED TO SAPS, 2017/18–2018/19 ............................................................................................................................. 49
+FIGURE 52: PERCENTAGE CHANGE IN CARJACKING AND TRUCK HIJACKING REPORTED TO SAPS, 2017/18–2018/19 .................... 52
+FIGURE 53: PERCENTAGE CHANGE IN SEXUAL OFFENCES REPORTED TO SAPS, 2017/18–2018/19 ........................................... 53
+FIGURE 54: TIME IT TAKES TO WALK TO THE NEAREST COURT................................................................................................... 54
+FIGURE 55: TIME IT TAKES TO WALK TO THE NEAREST COURT BY GEOGRAPHICAL LOCATION ........................................................ 55
+FIGURE 56: TREND OF PERCENTAGE OF INDIVIDUALS WHO FELT SAFE WALKING ALONE IN THEIR AREAS DURING THE DAY ................ 56
+FIGURE 57: TREND OF PERCENTAGE OF INDIVIDUALS WHO FELT SAFE WALKING ALONE IN THEIR AREAS WHEN IT WAS DARK ............ 56
+FIGURE 58: COMPARISON OF FEELINGS OF SAFETY WHEN WALKING ALONE IN THEIR AREAS OF RESIDENCE DURING THE DAY AND
+WHEN IT IS DARK ................................................................................................................................................................. 57
+FIGURE 59: FEELINGS OF SAFETY WHEN WALKING ALONE IN THEIR AREAS OF RESIDENCE WHEN IT IS DARK BY GENDER .................. 57
+FIGURE 60: FEELINGS OF SAFETY WHEN WALKING ALONE IN THEIR AREAS OF RESIDENCE WHEN IT IS DARK BY GEOGRAPHICAL
+LOCATION ........................................................................................................................................................................... 58
+FIGURE 61: FEELINGS OF SAFETY WHEN WALKING ALONE IN THEIR AREAS OF RESIDENCE WHEN IT IS DARK BY POPULATION GROUP . 58
+FIGURE 62: MEASURES TAKEN BY HOUSEHOLDS TO PROTECT THEMSELVES FROM CRIME ............................................................ 59
+FIGURE 63: REASONS HOUSEHOLDS DID NOT TAKE PROTECTION MEASURES AGAINST CRIME ....................................................... 59
+FIGURE 64: RELATIONSHIP BETWEEN FEELING OF SAFETY AND PROTECTION AGAINST CRIME ....................................................... 60
+FIGURE 65: INDIVIDUAL RESPONSE TO WITNESSING CRIME ....................................................................................................... 60
+Victims of Crime Survey, 2018/19
+
+--- Page 8 ---
+STATISTICS SOUTH AFRICA viii P0341
+List of acronyms
+CDC Continuous data collection
+CJS Criminal Justice System
+CV Coefficient of Variation
+DCS Department of Correctional Services
+DoJ & CD Department of Justice and Constitutional Development
+DPME Department of Monitoring and Evaluation
+DSD Department of Social Development
+DTS Domestic Tourism Survey
+DU Dwelling unit
+EA Enumeration area
+EC Eastern Cape
+FS Free State
+GCIS Government Communication and Information System
+GHS General Household Survey
+GP Gauteng
+HH/hh household
+HSRC Human Sciences Research Council
+ICVS International Crime Victims Survey
+ISS Institute for Security Studies
+JCPS Justice and Crime Prevention and Security
+KZN KwaZulu-Natal
+LP Limpopo
+MP Mpumalanga
+MRC Medical Research Council
+MS Master sample
+MTSF Medium Term Strategic Framework
+MVI Multiple victimisation index
+NC Northern Cape
+NDP National Development Plan
+NHTS National Household Travel Survey
+NPC National Planning Commission
+NW North West
+PPS Probability proportional to size
+PSU Primary sampling unit
+SA South Africa
+SAPS South African Police Service
+SASQAF South African Statistical Quality Assurance Framework
+Stats SA Statistics South Africa
+VOCS Victims of Crime Survey
+WC Western Cape
+Victims of Crime Survey, 2018/19
+
+--- Page 9 ---
+STATISTICS SOUTH AFRICA 1 P0341
+1. EXECUTIVE SUMMARY
+The Governance, Public Safety and Justice Survey (GPSJS) provides statistics for two of the trio crimes, that
+is, vehicle hijacking and home robbery. Business robbery is not covered by the GPSJS. Between 2017/18 and
+2018/19 hijacking of motor vehicles increased and home robbery decreased, but these changes were not
+statistically significant. However, street robbery increased significantly.
+Housebreaking, theft of motor vehicles, murder and consumer fraud all increased between 2017/18 and
+2018/19, but not significantly. Meanwhile, deliberate damaging, burning or destruction of residential dwellings
+and theft of personal property increased significantly. Assault and sexual offences both decreased, but not
+significantly. Note that murder in GPSJS includes what SAPS calls culpable homicide because it is not possible
+to separate murder and culpable homicide in household surveys.
+In 2018/19 an estimated 1 345 196 incidences of housebreaking occurred, affecting 969 567 households in
+South Africa. The number of affected households represents 5,8% of all households in the country. About 48%
+of households that experienced housebreaking reported it to the police. The total number of households that
+reported housebreaking to the police is estimated to be 467 599 (95% CI = [419 792, 515 406]). This estimate
+is significantly greater than the number of burglaries at residential premises reported by the South African
+Police Service (SAPS) (220 865).
+An estimated 264 054 incidences of home robberies occurred, affecting 183 998 households in 2018/19. The
+number of affected households represents 1,1% of all households in the country. About 60% of households
+that experienced home robbery reported it to the police. The total number of households that reported home
+robbery to the police is estimated to be 110 203 (95% CI = [85 590, 134 815]). This estimate is significantly
+greater than the number of robberies at residential premises reported by SAPS (22 431).
+Theft of motor vehicles was experienced by 68 030 households in 2018/19 in a total of 82 867 incidences.
+About 0,4% of all households in the country experienced theft of motor vehicles. About 86% of households
+that experienced theft of motor vehicles reported the crime to the police. There were a total of 69 896
+incidences of deliberate damaging, burning or destruction of residential dwellings affecting 53 651 households
+(0,32%). Almost 50% of the affected households reported the crime to the police. An estimated 12 079 people,
+known to households, were murdered in 2018/19 belonging to 11 500 households. The phrase “known to
+households” is added because murders of homeless people and immigrants may not be known to households.
+This explains the higher murder count by SAPS statistics compared to GPSJS estimates.
+An estimated 1 241 122 incidences of theft of personal property occurred in 2018/19, affecting 1 014 698
+individuals aged 16 and older. The number of affected individuals represents 2,5% of the population. About
+32% of individuals who experienced theft of personal property reported it to the police. A total of 451 512 (1,1%
+of adults aged 16 and older) individuals experienced street robbery in a total of 581 438 incidences. About
+35% of the victims reported the crime to the police. The total number of victims that reported street robbery to
+the police is estimated to be 156 770 (95% CI = [110 498, 203 041]). This estimate is not significantly different
+to the number of robberies (common robbery plus robbery with aggravating circumstances) reported by SAPS
+(191 797).
+There were 497 093 incidences of assault in 2018/19 experienced by 280 832 individuals (0,7% of adults aged
+16 and older). About 50% of the victims of assault reported the crime to the police. Assault is equivalent to
+SAPS common assault plus assault with the intent to inflict grievous bodily harm. However, assault cases
+recorded by SAPS include all age groups while GPSJS focuses on adults aged 16 and older. This explains
+Victims of Crime Survey, 2018/19
+
+--- Page 10 ---
+STATISTICS SOUTH AFRICA 2 P0341
+the higher (332 991) figure from SAPS statistics compared to GPSJS estimate (140 459 and 95% CI =
+[101 225, 179 694]).
+An estimated 32 465 hijackings occurred in 2018/19, affecting 32 465 (0,08%) persons aged 16 years and
+older. About 85% of the victims reported the crime to the police. The total number of victims that reported
+hijacking to the police is estimated to be 27 691 (95% CI = [11 979, 43 403]). This estimate is not significantly
+different to the number of hijackings (carjacking plus truck hijacking) from the SAPS statistics (17 208).
+Sexual offences incidences could not be estimated with acceptable precision because the number of sampled
+individuals that experienced this crime was very small. However, the percentage of individuals aged 16 and
+above who reported sexual offence to the police in 2018/19 was 88%. This is an increase of 15 percentage
+points from 73% in 2017/18.
+About 83% of the population felt safe walking alone in their neighbourhood during the day while 35% felt safe
+walking alone in their neighbourhood during the night. Both figures increased from 2017/18. Males in general
+felt safer walking alone in their neighbourhood than females.
+Victims of Crime Survey, 2018/19
+
+--- Page 11 ---
+STATISTICS SOUTH AFRICA 3 P0341
+2. INTRODUCTION
+Victims of crime statistics are population estimates of the level of crime in South Africa derived from GPSJS
+2018/19 data and previous VOCS data. These estimates complement crime statistics provided by the South
+African Police Service (SAPS). VOCS is able to provide estimates of the total number of crime incidences
+while SAPS statistics provide total number of reported cases. For crimes such as consumer fraud, only a small
+proportion of the victims report the crime to the police. Moreover, VOCS statistics also report on feelings of
+safety, perceptions on crime and satisfaction with the police, courts and correctional services. Such information
+is indispensable in the monitoring of development goals.
+Since 2011 the key questions on which household estimates of Victims of Crime statistics were based were
+“In the past 12 months have you or any member of the household experienced […….]. If yes, how many times?”
+followed by “How many were successful in the past 12 months?” The interviewer would replace the dots with
+a specific type of crime from a list of 12. We have long realised that this is not the best way to ask the questions
+but decided not to change to avoid breaking the series. The demand for international reporting such as SDGs,
+ShaSA and Agenda 2063 created an opportunity to change and align the questions with these demands while
+maintaining relevance to national demands. It was therefore decided to change the questions and take the risk
+of breaking the crime series. In the new GPSJS 2018/19 questionnaire, the first question is divided into two.
+The first is “Have you or any member of your household experienced housebreaking in the past 12 months?”
+and the second is “How many times have you or any member of your household experienced housebreaking
+in the past 12 months?” The follow-up question “How many were successful in the past 12 months?” has been
+dropped from the GPSJS survey because respondents would interpret the word ‘successful’ in different ways,
+and in some cases it would be considered insensitive to ask the question.
+Evidence from the GPSJS 2018/19 data has shown that the changes significantly affect the frequency of crime
+incidences captured, and consequently the estimates are also affected. There is therefore a break of series in
+the estimates of crime from VOCS to GPSJS. The statistics reported in this report must therefore be taken as
+baseline statistics for the GPSJS series. However, there is no break of series for questions that remained the
+same, for example questions on perceptions of crime. In particular, there is also no break to the five-year crime
+series arising from the question “In the past 5 years have you or any member of the household experienced
+any of the following crimes?” because no change was made to this question. Since the pattern of the five-year
+series is similar to that of the twelve-months series, it is possible to determine whether crime increased or
+decreased between 2017/18 and 2018/19 using the five-year series.
+Chapter 3 provides a brief description of the methodology used in the GPSJS survey. Household living
+conditions could provide important background that may help to understand the dynamics of crime committed
+against households and individuals within households. Chapter 4 presents a summary of household living
+conditions through statistics on type of dwelling, source of drinking water, source of electricity, type of toilet
+facility, mode of rubbish removal, main source of income, total household income per month and perceptions
+of wellbeing of a household.
+Chapter 5 presents a general overview of crime focusing on five-year trends, 2014/15–2018/19. The trends
+were constructed from estimates arising from “In the past 5 years …”. In the remaining chapters the focus is
+on crime that occurred during the past 12 months, except for SAPS statistics.
+Victims of Crime Survey, 2018/19
+
+--- Page 12 ---
+STATISTICS SOUTH AFRICA 4 P0341
+3. METHODOLOGY
+The Master Sample of 2013 (MS 2013) has been designed to satisfy the needs of all Statistics South Africa
+household surveys. It is a stratified two-stage design with sampling of primary sampling units (PSUs) at the
+first stage, and dwelling units (DUs) at the second stage. Its design caters for household surveys that would
+need a dwelling unit sample smaller or larger than the regular household survey. During the creation of MS
+2013, four additional samples of PSUs of the same size as the Master Sample were selected from the same
+design stratum to cater for any larger surveys.
+In the transition from Paper and Pencil Interviewing (PAPI) to Computer-Assisted Personal Interviewing (CAPI)
+and the use of the Geospatial Information Frame (GIF), one of the four PSU samples from the Census 2011
+PSU frame was identified as the new MS that will serve the needs for all the household surveys that are
+transitioning to CAPI in 2018. A new set of PSUs was used as the MS in order to avoid potential dwelling unit
+sample overlap across different surveys.
+The identified MS is based on a stratified two-stage design with probability proportional to size (PPS) sampling
+of primary sampling units (PSUs) in the first stage, and systematic sampling of dwelling units (DUs) in the
+second stage. The MS has 3 324 PSUs and it has been divided into four rotation groups. Thus, each rotation
+group has 831 PSUs.
+The selected 3 324 PSUs were sent to Geography division for the creation of the up-to-date DU frame to be
+used in the selection of the dwelling unit sample. There were three conceptually split PSUs (as per MS design)
+in the MS PSUs based on GIF information. This resulted in 3 324 PSUs, but on the ground they are represented
+by 3 321 unique PSUs. Out of the 3 324 PSUs, 3 313 PSUs had dwelling units to sample from while no sample
+could be drawn from 11 PSUs.
+The dwelling units were selected using the systematic sampling method with a specified sample take of around
+10 DUs per PSU. A total of 27 071 DUs were sampled.
+Quality flag
+In this report, every estimate will be assigned a quality level based on the coefficient of variation (CV) of the
+estimate. Coefficient of variation is a measure of the relative size of error defined as
+Standard error 
+100 
+Estimate value 
+The South African Statistical Quality Assurance Framework (SASQAF) prescribes four quality levels based on
+a number of criteria, including the coefficient of variation. Each quality level will be labelled by colour (flag) as
+defined in the table below.
+Table 1: Quality classification of estimates
+Coefficient of variation range Level Interpretation
+0 – 16,5 Quality statistics (reliable estimates)
+16,6 – 33,4 Acceptable estimate (use with caution)
+33,5 – 100,0 Poor estimate (not fit for use)
+Victims of Crime Survey, 2018/19
+
+--- Page 13 ---
+STATISTICS SOUTH AFRICA 5 P0341
+The survey package of the R software was used to calculate the estimates and the CVs. The package is
+specifically designed for analysis of data from complex surveys. Every computation using the survey package
+requires specification of three key design parameters, namely the strata, clusters (PSUs) and final weights.
+Estimates with CVs highlighted in orange must not be used as they are of poor quality. These poor quality
+estimates are left in the table just for completeness. The poor estimates are also presented in faint black as a
+further indication that they should not be used.
+Victims of Crime Survey, 2018/19
+
+--- Page 14 ---
+STATISTICS SOUTH AFRICA 6 P0341
+4. HOUSEHOLD LIVING CONDITIONS
+GPSJS measures crime that occurs in households or crime that has a direct impact on households. Household
+living conditions could provide important background that may help to understand the dynamics of crime
+committed against households and individuals within households. In this section we present a snapshot of
+living conditions prevailing during the 2018/19 GPSJS data collection season. These include type of dwelling,
+main source of drinking water, main source of electricity, type of toilet facility, mode of rubbish removal, main
+source of income and total household income per month.
+Figure 1: Type of main dwelling
+Dwelling/house or brick/concrete block structure on a… 70,2
+Informal dwelling/shack not in backyard (eg in an… 8,6
+Traditional dwelling hut/structure made of traditional… 5,5
+Flat or apartment in a block of flats 3,9
+Informal dwelling/shack in backyard 3,5
+Dwelling/house/flat/room in backyard 3,2
+Room/flat on a property or a larger dwelling/servants'… 1,9
+Semi-detached house 1,2
+Town house (semi-detached house in complex) 1,2
+Cluster house in complex 0,6
+Other (specify) 0,3
+0,0 10,0 20,0 30,0 40,0 50,0 60,0 70,0 80,0
+Per cent
+Note: For complete description of category see Annexure A
+Over 70% of South African households live in dwellings made of concrete blocks, while informal dwellings such
+as stand-alone shacks come a distant second at almost 9% of the households.
+Victims of Crime Survey, 2018/19
+
+--- Page 15 ---
+STATISTICS SOUTH AFRICA 7 P0341
+Figure 2: Main source of drinking water
+Piped (tap) water in dwelling/house 46,5
+Piped (tap) water in yard 27,9
+Public/communal tap 12,5
+Neighbour's tap 2,4
+Borehole in yard 2,0
+Water carrier/tanker 1,7
+Flowing water/stream/river 1,6
+Water vendor 1,4
+Borehole outside yard 1,1
+Rain-water tank in yard 1,1
+Spring 0,8
+Other (specify) 0,4
+Well 0,4
+Stagnant water/dam/pool 0,2
+0,0 5,0 10,0 15,0 20,0 25,0 30,0 35,0 40,0 45,0 50,0
+Per cent
+Piped water in the dwelling is a service enjoyed by about 47% of all households in the country. About 28% of
+households have piped water taps in their yard, 13% use a communal tap and 2% use a neighbour’s tap. Over
+89% of households have access to piped water.
+Figure 3: Main source of electricity
+Mains with in-house prepaid meter 65,9
+Mains with in-house conventional meter 20,6
+Do not have electricity 6,4
+Connected to other source which the household pays… 4,8
+Connected to other source which the household does… 1,7
+Home solar panels 0,4
+Other (specify) 0,2
+0,0 10,0 20,0 30,0 40,0 50,0 60,0 70,0
+Per cent
+Note: For complete description of category see Annexure A
+About 87% of South African households have access to electricity through mains in the house with a
+conventional meter or pre-paid meter, while 6,4% have no access to electricity.
+Victims of Crime Survey, 2018/19
+
+--- Page 16 ---
+STATISTICS SOUTH AFRICA 8 P0341
+Figure 4: Type of toilet facility
+Flush toilet connected to a public sewerage system 59,6
+Pit latrine/toilet with ventilation pipe 18,4
+Pit latrine/toilet without ventilation pipe 14,5
+Flush toilet connected to a septic or conservancy tank 3,7
+Open defecation (eg no facilities, field, bush) 1,5
+Bucket toilet (collected by municipality) 0,7
+Pour flush toilet connected to a septic tank (or septage… 0,5
+Other (specify) 0,5
+Chemical toilet 0,5
+Bucket toilet (emptied by your household) 0,1
+0,0 10,0 20,0 30,0 40,0 50,0 60,0 70,0
+Per cent
+Almost 60% of households have flush toilets connected to a public sewerage system while 4% have flush
+toilets connected to a septic or conservatory tank. About 33% of households use pit latrines.
+Figure 5: Mode of rubbish removal
+Removed by local authority/private company at least… 58,4
+Own refuse dump 29,8
+Communal refuse dump 3,4
+Dump or leave rubbish anywhere 2,4
+Removed by community members, contracted by the… 2,0
+Removed by local authority/private company less often… 1,8
+Communal container/central collection point 1,1
+Other (specify) 0,5
+Removed by community members, contracted by the… 0,4
+Removed by community members at least once a week 0,2
+Removed by community members less often than once… 0,1
+0,0 10,0 20,0 30,0 40,0 50,0 60,0 70,0
+Per cent
+Note: For complete description of category see Annexure A
+Rubbish removed by a local authority or a private company is a service enjoyed by over 58% of the households
+in South Africa. About 30% of households have their own refuse dumps.
+While tangible dwelling amenities such as water and electricity are important to the wellbeing of households,
+they do not provide a complete picture. Households’ perceptions of the status of their lives provide a
+complementary measure of wellbeing.
+Victims of Crime Survey, 2018/19
+
+--- Page 17 ---
+STATISTICS SOUTH AFRICA 9 P0341
+Figure 6: Households’ perception of its wellbeing, 2018/19
+60,0
+50,2
+50,0
+40,0
+t
+n
+e
+c 30,0
+r
+e
+P 20,0 20,0
+20,0
+10,0
+4,5 4,4
+0,9
+0,0
+Wealthy Very comfortable Reasonably Just getting along Poor Very poor
+comfortable
+It is estimated that over 50% of households think of their lives as “just getting along”, less than 1% think they
+are wealthy and 4% think they are very poor. The distribution in Figure 6 is almost symmetrical around “just
+getting along”.
+Figure 7: Main source of household income, 2018/19
+Salaries and wages 57,9
+Social grants (including old age grant) 21,2
+Net profit from business or professional… 8,6
+Regular allowance/remittances received from non-… 5,6
+Regular receipts from pension fund from previous… 2,7
+Maintenance, spousal support and similar allowances… 2,6
+Other income (eg royalties, interest, dividends on… 0,7
+Income from letting of fixed property 0,5
+Income from subsistence farming 0,3
+0,0 10,0 20,0 30,0 40,0 50,0 60,0 70,0
+Per cent
+Note: For complete description of category see Annexure A
+Figure 7 shows that salaries and wages are the main sources of income for most (58%) of the households,
+followed by social grants at 21%.
+Victims of Crime Survey, 2018/19
+
+--- Page 18 ---
+STATISTICS SOUTH AFRICA 10 P0341
+Figure 8: Total household income per month, 2018/19
+R1 - R200 0,3
+R201 - R500 2,7
+R501 - R1000 6,4
+R1001 - R1500 7,5
+R1501 - R2500 16,3
+R2501 - R3500 11,4
+R3501 - R4500 9,1
+R4501 - R6000 8,5
+R6001 - R8000 5,7
+R8001 - R11000 5,8
+R11001 - R16000 5,6
+R16001 - R30000 8,3
+R30001 OR MORE 4,8
+DO NOT KNOW 3,7
+REFUSED 4,0
+0,0 2,0 4,0 6,0 8,0 10,0 12,0 14,0 16,0 18,0
+Per cent
+Figure 8 shows that the majority of households belong to the low income groups (R 1 – 1500), with 16% having
+a monthly income of between R1 501 and R2 500.
+Table 2: Percentage of households in various income groups
+Income group
+1 - 1500 1501 - 3500 3501 - 6000 6001 - 16000 16001+ Total
+Male 27 22 17 18 16 100
+Female 28 33 16 14 8 100
+Metro 26 19 18 19 17 100
+Rural 25 27 18 19 11 100
+Urban 29 33 16 14 8 100
+Black African 29 30 18 15 7 100
+Coloured 17 21 21 25 17 100
+Indian/Asian 36 6 6 21 31 100
+White 19 4 4 25 47 100
+Western Cape 17 17 21 25 21 100
+Eastern Cape 29 37 15 12 6 100
+Northern Cape 21 31 18 17 12 100
+Free State 32 27 19 15 7 100
+KwaZulu-Natal 32 29 15 15 9 100
+North West 33 28 15 14 10 100
+Gauteng 26 19 18 19 18 100
+Mpumalanga 27 34 16 15 8 100
+Limpopo 30 37 16 10 7 100
+South Africa 27 27 17 16 13 100
+Victims of Crime Survey, 2018/19
+
+--- Page 19 ---
+STATISTICS SOUTH AFRICA 11 P0341
+Greater proportions of males are in the higher income groups than females, with 16% of males in the highest
+income group compared to only 8% of females in that group. Households in urban areas are more likely to
+belong to lower income groups than households in metros and rural areas. Table 2 also shows that income is
+correlated to the population group of a household. A greater proportion of white households fall in the higher
+income groups while greater proportions of black Africans fall in the lower income groups. The Western Cape
+tops provinces with the highest percentage (21%) of its households in the R16 000+ income group.
+Figure 9: Perceptions of wellbeing by income category
+100,0
+80,0
+t 60,0
+n
+e
+c
+r
+e
+P
+40,0
+20,0
+0,0
+1 - 1500 1501 - 3500 3501 - 6000 6001 - 16000 16001+
+Wealthy 0,7 0,6 0,6 1,1 2,1
+Very comfortable 3,0 1,2 2,2 5,7 16,5
+Reasonably comfortable 14,5 10,4 16,0 28,6 46,6
+Just getting along 44,0 53,9 60,5 57,2 32,7
+Poor 29,5 28,3 17,6 7,1 1,7
+Very poor 8,3 5,6 3,1 0,3 0,3
+Figure 9 confirms the expected, as well as depicting the unexpected. The greatest percentage (8%) of
+households that think they are poor is in the lowest income category while the greatest percentage (2%) of
+households that consider themselves wealthy are in the highest income group. The unexpected is that some
+households in the lowest income group consider themselves wealthy. Similarly, some households in the
+highest income group consider themselves very poor.
+Victims of Crime Survey, 2018/19
+
+--- Page 20 ---
+STATISTICS SOUTH AFRICA 12 P0341
+5. GENERAL OVERVIEW OF CRIME
+Crime is one of the most topical issues in the public discourse in South Africa. In this chapter we give an
+overview of the trends of various types of crime during the past five years. Due to the break in series for the
+12 months household experience of crime, the 5-year household experience of crime series will be used. There
+was no break in the later series between VOCS and GPSJS because the relevant question remained
+unchanged. Data for the 2013/14–2017/18 period from VOCS shows that the 12 month and the 5-year
+household experience of crime series follow similar patterns, hence the conclusions drawn from the latter will
+most likely be applicable to the former.
+5.1 Trends for household crimes
+In this section we present trends of household crimes for the period 2014/15 to 2018/19. The data used to
+calculate these estimates come from the question “Have you or your household experienced (housebreaking)
+during the past 5 years”. The reference period is five years.
+Table 3: Number and percentage of households that experienced specific type of crime during the
+past 5 years, 2014/15–2018/19
+Statistic 2014/15 2015/16 2016/17 2017/18 2018/19
+2 137 113 2 061 303 1 873 500 2 171 324 2 214 450
+Housebreaking
+(14%) (13%) (12%) (13%) (13%)
+552 782 505 698 459 902 458 704 448 507
+Home robbery
+(3,6%) (3,2%) (2,9%) (2,8%) (2,7%)
+294 435 252 849 213 526 233 228 255 917
+Theft of motor vehicle
+(1,9%) (1,6%) (1,3%) (1,4%) (1,5%)
+Deliberate damaging, burning or 134 622 116 782 111 039 98 247 159 506
+destruction of residential dwellings (0,88%) (0,74%) (0,69%) (0,59%) (0,95%)
+53 685 49 212 44 816 42 964 53 214
+Murder
+(0,35%) (0,31%) (0,28%) (0,26%) (0,32%)
+The trends will be analysed with the assistance of the charts below. The 95% confidence intervals will be used
+to determine whether the changes over time were statistically significant or otherwise.
+Victims of Crime Survey, 2018/19
+
+--- Page 21 ---
+STATISTICS SOUTH AFRICA 13 P0341
+Figure 10: Trends in housebreaking/burglary, 2014/15–2018/19
+2400000
+2300000
+s
+d 2200000
+lo
+h
+e
+s u 2100000
+o
+h
+f
+o
+r
+2000000
+e
+b
+m
+u 1900000
+N
+1800000
+1700000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL hbreak Upper_CL
+Figure 10 shows that housebreaking declined between 2014/15 and 2016/17, then increased between 2016/17
+and 2018/19. The decline from the 2014/15 level to the 2016/17 level was statistically significant. Similarly, the
+increase in housebreaking between 2016/17 and 2017/18 was also statistically significant; however, the
+increase between 2017/18 and 2018/19 was not statistically significant. Therefore there has not been a
+significant increase in housebreaking in South Africa between 2017/18 and 2018/19.
+Figure 11: Trends in home robbery, 2014/15–2018/19
+650000
+600000
+s
+d
+lo
+550000
+h
+e
+s
+u
+o
+h 500000
+f
+o
+r
+e
+b
+m 450000
+u
+N
+400000
+350000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL hrobbery Upper_CL
+Figure 11 shows that there was a statistically significant decrease in home robberies between 2014/15 and
+2016/17, however, a further decrease in home robberies after 2016/17 was not statistically significant.
+Victims of Crime Survey, 2018/19
+
+--- Page 22 ---
+STATISTICS SOUTH AFRICA 14 P0341
+Figure 12: Trends in theft of motor vehicle, 2014/15–2018/19
+350000
+330000
+310000
+s
+d
+lo 290000
+h
+e
+s
+u 270000
+o
+h
+f
+o 250000
+r
+e
+b
+m 230000
+u
+N
+210000
+190000
+170000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL Car theft Upper_CL
+Figure 12 shows that there was a statistically significant decrease of motor vehicle theft between 2014/15 and
+2016/17, however, the increase of motor vehicle theft between 2016/17 and 2018/19 was not statistically
+significant.
+Figure 13: Trends in deliberate damaging, burning or destruction of residential dwellings, 2014/15–
+2018/19
+190000
+170000
+s
+d
+lo
+h
+e 150000
+s
+u
+o
+h
+f o 130000
+r
+e
+b
+m
+110000
+u
+N
+90000
+70000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL DW damage Upper_CL
+Deliberate damaging, burning or destruction of residential dwellings declined between 2014/15 and 2017, but
+the decline was not statistically significant. However, the increase between 2017/18 and 2018/19 was
+statistically significant.
+Victims of Crime Survey, 2018/19
+
+--- Page 23 ---
+STATISTICS SOUTH AFRICA 15 P0341
+Figure 14: Trends in murder, 2014/15–2018/19
+70000
+65000
+60000
+s
+d
+lo 55000
+h
+e
+s
+u 50000
+o
+h
+f
+o 45000
+r
+e
+b
+m 40000
+u
+N
+35000
+30000
+25000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL Murder Upper_CL
+Figure 14 shows that the number of murders in South Africa between 2014/15 and 2018/19 did not change
+significantly. The decrease between 2014/15 and 2017/18 and the increase between 2017/18 and 2018/19
+were not statistically significant.
+5.2 Trends for individual crimes
+This section focus on crimes committed against members of households who were 16 years or older during
+the survey. Crimes committed against children under 16 are not captured by the GPSJS because they require
+special resources in order to comply with regulations concerning child welfare. Trends for seven crimes on
+individuals are reported in the table below.
+Victims of Crime Survey, 2018/19
+
+--- Page 24 ---
+STATISTICS SOUTH AFRICA 16 P0341
+Table 4: Number and percentage of individuals aged 16 and older that experienced specific type of
+crime during the past 5 years, 2014/15–2018/19
+Statistic 2014/15 2015/16 2016/17 2017/18 2018/19
+2 095 571 1 894 495 1 762 131 1 844 367 2 343 507
+Theft of personal property
+(5,70%) (5,06%) (4,62%) (4,78%) (5,87%)
+706 227 678 653 738 462 735 298 1 125 972
+Street robbery
+(1,92%) (1,81%) (1,94%) (1,91%) (2,82%)
+724 435 682 924 590 281 600 153 598 948
+Assault excluding sexual assault
+(1,97%) (1,82%) (1,55%) (1,56%) (1,50%)
+254 351 233 182 199 681 146 536 172 743
+Consumer fraud
+(0,69%) (0,62%) (0,52%) (0,38%) (0,43%)
+194 976 161 800 158 990 152 030 198 199
+Hijacking
+(0,53%) (0,43%) (0,42%) (0,39%) (0,50%)
+127 935 117 282 134 134 126 070 97 938
+Sexual offences
+(0,35%) (0,31%) (0,35%) (0,33%) (0,25%)
+Charts with confidence intervals on estimates will again be used to assess the significance of changes in crime
+levels.
+Figure 15: Trends in theft of personal property, 2014/15–2018/19
+2500000
+s 2300000
+la
+u
+d
+iv
+id
+2100000
+n
+i
+f
+o
+r
+e
+b 1900000
+m
+u
+N
+1700000
+1500000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL Theft Upper_CL
+Figure 15 shows that theft of personal property declined between 2014/15 and 2016/17, and the decline was
+statistically significant. It further shows that the increase between 2017/18 and 2018/19 was statistically
+significant.
+Victims of Crime Survey, 2018/19
+
+--- Page 25 ---
+STATISTICS SOUTH AFRICA 17 P0341
+Figure 16: Trends in street robbery, 2014/15–2018/19
+1300000
+1200000
+1100000
+s
+la
+u
+d 1000000
+iv
+id
+n
+i
+f
+900000
+o
+r
+e
+b 800000
+m
+u
+N
+700000
+600000
+500000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL Robbery Upper_CL
+There was no significant change in street robbery during the period 2014/15 to 2017/18, however, there was
+a statistically significant increase in street robberies between 2017/18 and 2018/19.
+Figure 17: Trends in assault (excluding sexual assault), 2014/15–2018/19
+900000
+850000
+800000
+s
+la
+u 750000
+d
+iv
+id 700000
+n
+i
+f
+o 650000
+r
+e
+b
+m 600000
+u
+N
+550000
+500000
+450000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL Assault Upper_CL
+According to Figure 17, the decrease in the number of victims of assault between 2014/15 and 2018/19 was
+not statistically significant. Moreover, the number of assault victims during the past three years remained the
+same.
+Victims of Crime Survey, 2018/19
+
+--- Page 26 ---
+STATISTICS SOUTH AFRICA 18 P0341
+Figure 18: Trends in consumer fraud, 2014/15–2018/19
+345000
+295000
+s
+la
+u
+d
+iv 245000
+id
+n
+i
+f
+o
+r
+e 195000
+b
+m
+u
+N
+145000
+95000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL Fraud Upper_CL
+The number of victims of consumer fraud significantly dropped between 2014/15 and 2017/18. The increase
+between 2017/18 and 2018/19 was, however, not statistically significant.
+Figure 19: Trends in hijacking, 2014/15–2018/19
+290000
+s 240000
+la
+u
+d
+iv
+id
+n
+i
+f 190000
+o
+r
+e
+b
+m
+u
+N
+140000
+90000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL Hijack Upper_CL
+The number of victims of hijacking among people aged 16 and older has not significantly changed during the
+past five years from 2014/15 to 2018/19.
+Victims of Crime Survey, 2018/19
+
+--- Page 27 ---
+STATISTICS SOUTH AFRICA 19 P0341
+Figure 20: Trends in sexual offences, 2014/15–2018/19
+190000
+170000
+s 150000
+la
+u
+d
+iv
+id 130000
+n
+i
+f
+o
+r 110000
+e
+b
+m
+u N 90000
+70000
+50000
+2014/15 2015/16 2016/17 2017/18 2018/19
+Lower_CL Sexual Upper_CL
+The number of victims of sexual offences decreased between 2014/15 and 2018/19, but the decrease was not
+statistically significant.
+Victims of Crime Survey, 2018/19
+
+--- Page 28 ---
+STATISTICS SOUTH AFRICA 20 P0341
+6. HOUSEHOLD EXPERIENCE OF CRIME
+In this chapter we focus on household crime experienced during the past twelve months from the GPSJS
+2018/19 survey. The reference period was April 2017 to February 2019. Seven types of crime were surveyed
+compared to thirteen types of crime in VOCS 2017/18. The number was reduced in order to accommodate
+new governance questions but maintain the questionnaire length. Some in-depth questions on each of the
+specific crimes were also dropped for the same reason. However, all these questions will be restored during
+the third year of the GPSJS. The third year of GPSJS will, to a great extent, resemble VOCS.
+Table 5 below presents a summary of the number of victims of various types of crime together with the
+percentage of the population that the number represents. Crimes are listed according to the quality of
+estimates, starting with the highest quality as measured by the CV.
+Table 5: Number and percentage of households that experienced specified types of crime during the
+past 12 months
+Number CV(%) Per cent CV(%)
+Housebreaking/burglary (No contact between perpetrator and victim) 969 567 4 5,77 4
+Home robbery (Contact between perpetrator and victim) 183 998 8 1,09 8
+Assault 103 311 11 0,61 11
+Theft of motor vehicle 68 030 13 0,40 13
+Deliberate damaging/burning/destruction of dwellings 53 651 16 0,32 16
+Sexual offences 14 885 26 0,09 26
+Murder 11 500 26 0,07 26
+Estimates for sexual offences and murder must be used with caution as the quality indicators for these
+estimated are low.
+Figure 21: Percentage of total crime measured by GPSJS
+3,8 1,1 0,8
+4,8
+7,4
+Housebreaking
+Home robbery
+Assault
+13,1
+Theft of motor vehicle
+Damaging of dwellings
+Sexual offence
+Murder
+69,0
+Housebreaking accounts for 69% of the household crimes measured by GPSJS. This distribution will change
+when all the household crimes covered by VOCS are included.
+Victims of Crime Survey, 2018/19
+
+--- Page 29 ---
+STATISTICS SOUTH AFRICA 21 P0341
+6.1 Housebreaking or burglary
+Only four questions were asked under housebreaking in GPSJS 2018/19. Respondents were asked whether
+they experienced housebreaking during the past 12 months, how many times, during which months and
+whether they reported any incidences to the police.
+Table 6: Number and percentage of households that experienced housebreaking disaggregated by
+gender, location, population group, income level and province, 2018/19
+Percentage
+Number of Number of
+Gender CV% CV% of CV%
+Incidences households
+households
+Male 859 150 6 608 908 5 6,24 5
+Female 486 046 6 360 659 6 5,11 6
+Location
+Metro 692 451 7 473 164 6 6,29 6
+Non-metro 652 745 5 496 403 5 5,34 5
+Population group
+Black African 991 339 5 755 831 4 5,58 4
+Coloured 97 360 19 58 224 14 4,74 14
+Indian/Asian 61 855 29 38 023 22 9,09 21
+White 194 643 15 117 488 13 7,28 13
+Age group
+16–24 82 485 20 58 007 19 5,97 19
+25–34 357 988 9 261 033 8 7,19 7
+35–54 602 667 6 433 464 5 5,85 5
+55–64 187 045 11 137 116 9 5,31 8
+65+ 115 010 14 79 947 10 3,60 10
+Income level
+R1 - 1500 417 154 8 297 202 7 6,41 7
+R1501 - 3500 270 579 8 211 433 7 4,73 7
+R3501 - 6000 205 094 11 149 869 9 5,29 9
+R6001 - 16000 238 246 10 169 564 8 6,13 8
+R16001+ 214 123 14 141 499 11 6,69 10
+(The table continues on the next page.)
+Victims of Crime Survey, 2018/19
+
+--- Page 30 ---
+STATISTICS SOUTH AFRICA 22 P0341
+Percentage
+Number of Number of
+Province CV% CV% of CV%
+Incidences households
+households
+Western Cape 167 786 13 111 343 12 6,01 12
+Eastern Cape 104 403 15 67 786 11 4,06 11
+Northern Cape 34 633 18 24 730 15 7,39 15
+Free State 43 222 19 34 800 16 3,75 15
+KwaZulu-Natal 289 605 11 195 599 8 6,50 8
+North West 72 814 15 59 678 14 4,95 14
+Gauteng 438 299 8 336 358 7 6,81 7
+Mpumalanga 105 534 15 69 207 11 5,36 12
+Limpopo 88 901 13 70 066 11 4,41 11
+SOUTH AFRICA 1 345 196 5 969 567 4 5,77 4
+Table 6 shows that male-headed households and households in metros were more likely to experience
+housebreaking than female-headed households and households in non-metro areas, respectively. Households
+headed by Indian/Asian and white people were more likely to experience housebreaking than households
+headed by black Africans and coloureds. Results seem to suggest that the likelihood of housebreaking
+diminishes with the age of the household head. Households headed by the elderly were the least likely to
+experience housebreaking. Households in the lowest income bracket and those in the highest income bracket
+were the most likely to experience housebreaking. A possible explanation may be that the lowest income
+households are easy to break into due to lack of necessary security while for those in the highest income
+bracket, despite having better security, they have possessions that attract thieves. The highest proportion
+(7,39%) of households that experienced housebreaking was in the Northern Cape, while Free State
+experienced the lowest proportion (3,75%) of households that experienced housebreaking.
+Figure 22: Number of incidences of housebreaking by month
+140000
+130000
+120000
+s
+e
+c
+n
+e 110000
+d
+ic
+n
+i
+f
+100000
+o
+r
+e b 90000
+m
+u
+N 80000
+70000
+60000
+Figure 22 shows that housebreaking peaked in June and December.
+Victims of Crime Survey, 2018/19
+

@@ -27,12 +27,15 @@ async function syncBackfills() {
   }
 
   if (!volumes || volumes.length === 0) {
-    console.log("No active indexing runs found.");
+    console.log("No volumes with status 'INDEXING' found in the database.");
     return;
   }
 
   for (const vol of volumes) {
-    if (!vol.apify_run_id) continue;
+    if (!vol.apify_run_id) {
+      console.warn(`[WARN] Volume ${vol.volume_number} is 'INDEXING' but has no apify_run_id. Please trigger it from the UI.`);
+      continue;
+    }
 
     console.log(`Checking run ${vol.apify_run_id} for Vol ${vol.volume_number}...`);
     
@@ -40,58 +43,60 @@ async function syncBackfills() {
       const run = await apify.run(vol.apify_run_id).get();
       
       if (!run) {
-        console.warn(`Run ${vol.apify_run_id} not found.`);
+        console.warn(`[WARN] Run ${vol.apify_run_id} for Vol ${vol.volume_number} not found on Apify.`);
         continue;
       }
 
+      console.log(`[INFO] Vol ${vol.volume_number} run status: ${run.status}`);
+
       if (run.status === 'SUCCEEDED') {
-        console.log(`Run ${vol.apify_run_id} succeeded. Ingesting results...`);
+        console.log(`[PROCESS] Run ${vol.apify_run_id} succeeded. Fetching results...`);
         
         const { items } = await apify.run(vol.apify_run_id).dataset().listItems();
+        console.log(`[PROCESS] Found ${items.length} items.`);
         
-        // Transform items into historical_records
-        const records = items.map((item: any) => ({
-          title: item.title || `TRC Vol ${vol.volume_number} Excerpt`,
-          summary: item.description || item.text?.substring(0, 200),
-          content: item.text || item.content,
-          category: 'TRC_REPORT',
-          backfill_source: `TRC_VOL_${vol.volume_number}`,
-          apify_run_id: vol.apify_run_id,
-          metadata: {
-            url: item.url,
-            volume: vol.volume_number,
-            timestamp: new Date().toISOString()
-          }
-        }));
-
-        // Insert into historical_records
-        const { error: insertError } = await supabase
-          .from('historical_records')
-          .insert(records);
-
-        if (insertError) {
-          console.error(`Failed to insert records for Vol ${vol.volume_number}:`, insertError.message);
+        if (items.length === 0) {
+          console.warn(`[WARN] No items found in dataset for Vol ${vol.volume_number}.`);
           continue;
         }
 
-        // Update volume status to INDEXED
+        // Save locally for agentic analysis
+        const fs = require('fs');
+        const path = require('path');
+        const dir = path.join(process.cwd(), '.intelligence', 'backfills');
+        
+        if (!fs.existsSync(dir)) {
+          fs.mkdirSync(dir, { recursive: true });
+        }
+
+        const fileName = `vol_${vol.volume_number}_${vol.apify_run_id}.json`;
+        const filePath = path.join(dir, fileName);
+        
+        fs.writeFileSync(filePath, JSON.stringify(items, null, 2));
+        console.log(`[SUCCESS] Crawled data saved to ${filePath}`);
+
+        // Update volume status to CRAWLED
         await supabase
           .from('trc_volumes')
-          .update({ status: 'INDEXED', progress: 100 })
+          .update({ 
+            status: 'CRAWLED', 
+            progress: 100,
+            updated_at: new Date().toISOString()
+          })
           .eq('id', vol.id);
 
-        console.log(`Successfully indexed Vol ${vol.volume_number}.`);
+        console.log(`[STATUS] Vol ${vol.volume_number} marked as CRAWLED. Ready for agentic analysis.`);
       } else if (run.status === 'FAILED' || run.status === 'ABORTED' || run.status === 'TIMED-OUT') {
-        console.error(`Run ${vol.apify_run_id} failed with status: ${run.status}`);
+        console.error(`[ERROR] Run ${vol.apify_run_id} for Vol ${vol.volume_number} failed with status: ${run.status}`);
         await supabase
           .from('trc_volumes')
-          .update({ status: 'QUEUED', progress: 0 })
+          .update({ status: 'QUEUED', progress: 0, apify_run_id: null })
           .eq('id', vol.id);
       } else {
-        console.log(`Run ${vol.apify_run_id} is still ${run.status}.`);
+        console.log(`[INFO] Run ${vol.apify_run_id} is still ${run.status}...`);
       }
     } catch (err: any) {
-      console.error(`Error processing run ${vol.apify_run_id}:`, err.message);
+      console.error(`[ERROR] Error processing run ${vol.apify_run_id} for Vol ${vol.volume_number}:`, err.message);
     }
   }
 }

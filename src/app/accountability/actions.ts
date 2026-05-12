@@ -4,8 +4,20 @@ import { createServerClient } from "@/lib/supabase-server";
 import { triggerHistoricalBackfill } from "@/lib/apify-rag";
 import { revalidatePath } from "next/cache";
 
+import { createClient } from "@supabase/supabase-js";
+
 export async function triggerVolumeBackfill(volumeNumber: number) {
-  const supabase = await createServerClient();
+  let supabase;
+  
+  try {
+    supabase = await createServerClient();
+  } catch (e) {
+    // Fallback for non-Next.js environments (like scripts)
+    supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!
+    );
+  }
 
   // 1. Update status to INDEXING
   const { error: updateError } = await supabase
@@ -34,7 +46,11 @@ export async function triggerVolumeBackfill(volumeNumber: number) {
       .update({ apify_run_id: run.id, progress: 10 })
       .eq("volume_number", volumeNumber);
 
-    revalidatePath("/accountability");
+    try {
+      revalidatePath("/accountability");
+    } catch (e) {
+      // Ignore if called outside of Next.js context
+    }
     return { success: true, runId: run.id };
   } catch (error: any) {
     console.error("Backfill error:", error);
@@ -47,7 +63,16 @@ export async function triggerVolumeBackfill(volumeNumber: number) {
 }
 
 export async function getTrcVolumes() {
-  const supabase = await createServerClient();
+  let supabase;
+  try {
+    supabase = await createServerClient();
+  } catch (e) {
+    supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!
+    );
+  }
+
   const { data, error } = await supabase
     .from("trc_volumes")
     .select("*")

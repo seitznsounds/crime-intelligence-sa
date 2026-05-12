@@ -1,0 +1,1137 @@
+--- Page 31 ---
+STATISTICS SOUTH AFRICA 23 P0341
+Figure 23: Percentage of households that reported housebreaking to the police
+Reported no incidences 51,8
+Reported some incidences 3,8
+Reported all incidences 44,4
+0,0 10,0 20,0 30,0 40,0 50,0 60,0
+Per cent
+Almost 48% of victims of housebreaking reported the crime to the police. The number of households that
+reported housebreaking is estimated to be 467 599 with 95% confidence interval (419 792, 515 406).
+SAPS uses the phrase “burglary at residential premises” for housebreaking. Table 5 gives five-year statistics
+for burglary at residential premises according to province extracted from the 2018/19 SAPS annual crime
+report.
+Table 7: Housebreaking or burglary reported to the police, 2014/15–2018/19
+Number of reported cases
+Province 2014/15 2015/16 2016/17 2017/18 2018/19
+Western Cape 47 783 47 569 46 043 42 662 39 418
+Eastern Cape 24 329 23 901 24 385 23 758 23 393
+Northern Cape 6 204 6 469 6 518 6 228 6 325
+Free State 15 618 15 323 14 635 13 463 13 244
+KwaZulu-Natal 43 274 42 429 41 013 38 545 38 790
+North West 15 687 15 568 15 908 15 267 15 436
+Gauteng 66 172 64 968 63 661 56 255 53 092
+Mpumalanga 18 183 18 162 18 507 17 565 16 533
+Limpopo 16 466 16 217 15 984 14 351 14 634
+SOUTH AFRICA 253 716 250 606 246 654 228 094 220 865
+Source: SAPS Crime Statistics, https://www.saps.gov.za/services/crimestats.php
+The SAPS number of reported cases of burglary at residential premises for 2018/19 is far outside the 95%
+confidence interval for the estimated number of reported cases. This implies that the estimated number of
+reported cases from GPSJS is significantly higher than the number of cases of burglary reported by SAPS.
+Victims of Crime Survey, 2018/19
+
+--- Page 32 ---
+STATISTICS SOUTH AFRICA 24 P0341
+Figure 24: Percentage change in burglary at residential premises reported to SAPS, 2017/18–2018/19
+-7,60 Western Cape
+Eastern Cape
+Northern Cape 1,56
+-1,63 Free State
+KwaZulu-Natal 0,64
+North West 1,11
+-5,62 Gauteng
+-5,88 Mpumalanga
+Limpopo 1,97
+-3,17 RSA
+-10,00 -8,00 -6,00 -4,00 -2,00 0,00 2,00 4,00
+Per cent change
+Figure 24 shows that between 2017/18 and 2018/19, burglary at residential premises reported to SAPS
+increased in the Northern Cape, KwaZulu-Natal, North West and Limpopo while it decreased in all other
+provinces and in South Africa as a whole.
+6.2 Home robbery
+The GPSJS 2018/19 had ten questions on home robbery. In addition to the four questions asked on
+housebreaking, there were questions on whether any weapons were used, the type of weapons used, whether
+anyone died during the home robbery, the number of people who died and whether any of the dead were
+members of the household.
+Victims of Crime Survey, 2018/19
+
+--- Page 33 ---
+STATISTICS SOUTH AFRICA 25 P0341
+Table 8: Number and percentage of households that experienced home robbery disaggregated by
+gender, location, population group, income level and province, 2018/19
+Percentage
+Number of Number of
+Gender CV% CV% of CV%
+incidences households
+households
+Male 159 485 16 101 336 11 1,04 11
+Female 104 569 12 82 662 12 1,17 12
+Location
+Metro 140 797 16 97 028 13 1,29 12
+Non-metro 123 257 15 86 970 11 0,94 11
+Population group
+Black African 219 544 12 150 043 9 1,11 9
+Coloured 7 372 36 6 942 37 0,57 37
+Indian/Asian 3 337 51 2 750 50 0,66 50
+White 33 801 30 24 263 26 1,50 26
+Age group
+16–24 47 567 35 21 308 26 2,19 25
+25–34 63 756 24 50 113 17 1,38 17
+35–54 96 269 14 71 903 12 0,97 12
+55–64 31 436 21 24 030 20 0,93 20
+65+ 25 026 28 16 644 26 0,75 26
+Income level
+R1 - 1500 89 674 17 61 076 14 1,32 14
+R1501 - 3500 61 618 25 37 598 15 0,84 15
+R3501 - 6000 40 808 37 26 301 24 0,93 24
+R6001 - 16000 47 702 20 37 199 19 1,35 19
+R16001+ 24 252 25 21 824 25 1,03 25
+Province
+Western Cape 39 075 38 26 448 24 1,43 24
+Eastern Cape 24 882 33 15 308 22 0,92 22
+Northern Cape 3 647 38 3 217 37 0,96 37
+Free State 5 324 47 4 421 44 0,48 43
+KwaZulu-Natal 41 820 24 29 259 20 0,97 20
+North West 7 363 45 5 493 42 0,46 42
+Gauteng 88 158 15 69 601 15 1,41 15
+Mpumalanga 34 774 40 18 134 24 1,40 24
+Limpopo 19 010 36 12 117 31 0,76 31
+SOUTH AFRICA 264 054 11 183 998 8 1,09 8
+Table 8 shows that households in metros were more likely to experience home robbery than households in
+non-metros. White-headed households were more likely to experience home robbery than black African-
+headed households. The likelihood of home robbery decreases with age of the head of the household.
+Households headed by the elderly were the least likely to experience home robbery.
+Victims of Crime Survey, 2018/19
+
+--- Page 34 ---
+STATISTICS SOUTH AFRICA 26 P0341
+Figure 25: Number of incidences of home robbery by month
+30000
+25000
+s
+e
+c
+n
+e
+d 20000
+ic
+n
+i
+f
+o
+r e 15000
+b
+m
+u
+N
+10000
+5000
+Figure 25 shows that home robbery peaked in February, June, September and December.
+Figure 26: Use of weapons during home robbery
+47,2
+52,8
+Weapons were used Weapons were not used
+Weapons were used in 47% of the households during home robberies.
+Victims of Crime Survey, 2018/19
+
+--- Page 35 ---
+STATISTICS SOUTH AFRICA 27 P0341
+Figure 27: Percentage of time specified weapons were used during home robbery
+60,0
+53,8
+50,0 46,7
+40,0
+t
+n
+e
+c 30,0
+r
+e
+P
+20,0
+12,2
+7,8
+10,0
+0,0
+Gun Knife Metal Bar Axe/Panga Stick/Club Other
+Type of weapon used
+Guns were the preferred weapons used in home robberies (54%), followed by knives (47%), metal bars (12%)
+and axe/panga (8%).
+Figure 28: Percentage of households that reported home robbery to the police
+Reported no incidences 40,1
+Reported some incidences 4,3
+Reported all incidences 55,6
+0,0 10,0 20,0 30,0 40,0 50,0 60,0
+Per cent
+Figure 28 shows that about 60% of households reported home robberies to the police. The number of
+households that reported home robbery is estimated to be 110 203 with 95% confidence interval (85 590, 134
+815).
+The term used by SAPS for home robbery is robbery at residential premises. Table 9 gives five-year statistics
+for robbery at residential premises according to province extracted from the SAPS 2018/19 annual crime
+report.
+Victims of Crime Survey, 2018/19
+
+--- Page 36 ---
+STATISTICS SOUTH AFRICA 28 P0341
+Table 9: Robbery at residential premises reported to the police by province, 2014/15–2018/19
+Number of reported cases
+Province 2014/15 2015/16 2016/17 2017/18 2018/19
+Western Cape 2 158 2 574 2 560 2 787 2 749
+Eastern Cape 1 811 2 054 2 171 2 184 2 188
+Northern Cape 123 106 142 159 157
+Free State 718 773 875 864 851
+KwaZulu-Natal 3 958 4 082 4 255 4 174 4 182
+North West 1 110 1 065 1 290 1 145 1 291
+Gauteng 8 174 7 896 8 731 8 333 8 644
+Mpumalanga 1 112 1 080 1 138 1 125 1 069
+Limpopo 1 117 1 190 1 181 1 490 1 300
+SOUTH AFRICA 20 281 20 820 22 343 22 261 22 431
+Source: SAPS Crime Statistics, https://www.saps.gov.za/services/crimestats.php
+The SAPS number of reported cases of robbery at residential premises for 2018/19 is far below the 95%
+confidence interval for the estimated number of reported cases. This implies that the estimated number of
+reported cases from GPSJS is significantly higher than the number of cases of robbery reported by SAPS.
+Figure 29: Percentage change in robbery at residential premises reported to SAPS, 2017/18–2018/19
+Western Cape
+Eastern Cape 0,18
+Northern Cape
+Free State
+KwaZulu-Natal 0,19
+North West 12,75
+Gauteng 3,73
+-4,98 Mpumalanga
+-12,75 Limpopo
+RSA 0,76
+-15,00 -10,00 -5,00 0,00 5,00 10,00 15,00
+Per cent change
+Figure 29 shows that between 2017/18 and 2018/19, robbery at residential premises reported to SAPS
+increased in the Eastern Cape, KwaZulu-Natal, North West, Gauteng and South Africa as a whole while it
+decreased in other provinces.
+Victims of Crime Survey, 2018/19
+
+--- Page 37 ---
+STATISTICS SOUTH AFRICA 29 P0341
+6.3 Assault
+There were eight questions on household experience of assault. All questions asked on home robbery were
+asked about assault and, in addition, there was a question regarding the perpetrator. Table 10 below presents
+disaggregated estimates of total number of victims, number of households and percentage of households that
+experienced assault during the past 12 months.
+Table 10: Number and percentage of households that experienced assault disaggregated by gender,
+location, population group, income level and province, 2018/19
+Percentage
+Number of Number of
+Gender of head of hh CV% CV% of CV%
+victims households
+households
+Male 66 999 15 54 594 0,56 14
+Female 62 780 19 48 717 0,69 17
+Location
+Metro 56 575 18 46 381 17 0,62 17
+Non-metro 73 204 17 56 930 14 0,61 14
+Population group
+Black African 96 855 14 75 025 12 0,55 12
+Coloured 24 084 28 20 274 27 1,65 27
+Indian/Asian
+White 8 841 44 8 012 45 0,50 45
+Age group
+16–24 4 965 64 3 586 59 0,37 59
+25–34 46 466 25 33 967 22 0,94 22
+35–54 53 116 16 45 286 15 0,61 15
+55–64 13 100 34 10 612 33 0,41 33
+65+ 12 132 29 9 860 27 0,44 27
+Income level
+R1 - 1500 43 782 25 27 010 21 0,58 21
+R1501 - 3500 31 495 19 30 318 19 0,68 19
+R3501 - 6000 27 221 21 24 155 21 0,85 21
+R6001 - 16000 21 468 29 16 016 30 0,58 30
+R16001+ 5 812 44 5 812 44 0,27 44
+Province
+Western Cape 28 791 27 24 471 26 1,32 26
+Eastern Cape 11 395 29 10 044 27 0,6 27
+Northern Cape 4 416 35 3 856 36 1,15 36
+Free State 6 987 46 5 352 49 0,58 48
+KwaZulu-Natal 21 226 40 13 237 30 0,44 30
+North West 14 193 30 12 814 28 1,06 28
+Gauteng 32 405 25 24 759 24 0,5 24
+Mpumalanga 4 760 43 4 760 43 0,37 43
+Limpopo 5 608 57 4 017 47 0,25 47
+SOUTH AFRICA 129 779 12 103 311 11 0,61 11
+Victims of Crime Survey, 2018/19
+
+--- Page 38 ---
+STATISTICS SOUTH AFRICA 30 P0341
+Table 10 shows that female-headed households were more likely to experience assault than male-headed
+households. There was no significant difference between metro and non-metro areas in terms of likelihood of
+assault. Coloured households had more than twice the likelihood of experiencing assault compared to black
+African households. Age of the head of the household seems to be an important factor for the likelihood of a
+household to experience assault. Households with younger heads were more likely to experience assault than
+households with elderly heads. Middle-income households had the greatest percentage of households that
+experienced assault. The Western Cape had the highest proportion of households that experienced assault
+compared to other provinces.
+Figure 30: Number of incidences of assault by month
+25000
+s 20000
+e
+c
+n
+e
+d
+ic 15000
+n
+i
+f
+o
+r 10000
+e
+b
+m
+u
+N 5000
+0
+Figure 30 shows that incidences of assault peaked in June and December.
+Figure 31: Percentage of assaults committed by a specified perpetrator
+Unknown person 28,8
+Friend/acquaintance 22,0
+Spouse or intimate partner 15,2
+Relative/other household member 12,6
+Other 10,6
+A mob (a group of people) 9,4
+Police 3,3
+0,0 5,0 10,0 15,0 20,0 25,0 30,0 35,0
+Per cent
+Victims of Crime Survey, 2018/19
+
+--- Page 39 ---
+STATISTICS SOUTH AFRICA 31 P0341
+Almost 50% of the assaults were committed by someone close such as a friend or acquaintance (22%), a
+spouse or intimate partner (15%), a relative or other household member (13%). About 29% of the assaults
+were committed by unknown persons. Assault by mobs were experienced in 9% of the cases while the police
+were responsible for 3% of the assaults. In 11% of the cases the perpetrator was indicated as “Other”. In future
+surveys it is recommended to ask the respondent to specify the “other” perpetrator.
+Figure 32: Percentage of households that experienced assault with specified weapon
+40,0
+35,2
+35,0 32,5
+30,0
+25,0 22,7
+t
+n
+e
+c 20,0
+r
+e 14,1
+P 15,0
+10,0
+5,0
+0,0
+Other Knife Stick/Club Gun Axe/Panga Metal Bar
+Assault weapon
+While in home robbery a gun was the weapon of choice, in assault a gun is the fourth most preferred weapon.
+Other weapons used include bottles, bricks, bush cutter, fist, cup, office chairs, sjamboks with chains at their
+tils, spade fork, stones and wall.
+Figure 33: Percentage of households that reported assault to the police
+Reported no incidences 31,1
+Reported some incidences 4,5
+Reported all incidences 64,5
+0,0 10,0 20,0 30,0 40,0 50,0 60,0 70,0
+Per cent
+Figure 33 shows that about 69% of households reported some or all incidences of assault to the police. The
+number of households that reported some or all incidences of assault is estimated to be 72 216 with 95%
+confidence interval (52 869, 89 563). Note that these are not estimated number of reported incidences, but
+estimated number of households that reported assault to the police. It is therefore not possible to compare
+these estimates with SAPS statistics.
+Victims of Crime Survey, 2018/19
+
+--- Page 40 ---
+STATISTICS SOUTH AFRICA 32 P0341
+6.4 Theft of motor vehicles
+Respondents were asked whether they experienced theft of motor vehicle during the past 12 months, how
+many times, during which months and whether they reported any incidences to the police.
+Table 11: Number and percentage of households that experienced theft of motor vehicle
+disaggregated by gender, location, population group and income level, 2018/19
+Percentage
+Number of Number of
+Gender CV% CV% of CV%
+incidences households
+households
+Male 68 449 17 54 260 15 0,56 15
+Female 14 417 25 13 770 25 0,20 25
+Location
+Metro 62 972 18 50 755 16 0,67 16
+Non-metro 19 895 23 17 275 21 0,19 21
+Population group
+Black African 52 053 17 46 442 16 0,34 16
+Coloured 7 085 48 5 137 48 0,42 48
+Indian/Asian 7 118 65 3 550 49 0,85 51
+White 16 611 35 12 901 31 0,80 31
+Age group
+16–24 1 864 100 1 864 100 0,19 100
+25–34 12 614 35 11 137 35 0,31 35
+35–54 47 314 21 35 505 19 0,48 19
+55–64 13 783 30 12 233 25 0,47 25
+65+ 7 291 32 7 291 32 0,33 32
+Income level
+R1 - 1500 15 565 32 12 343 32 0,27 32
+R1501 - 3500 8 741 35 8 741 35 0,20 35
+R3501 - 6000 4 842 42 4 842 42 0,17 41
+R6001 - 16000 22 131 28 17 774 24 0,64 24
+R16001+ 31 589 26 24 331 23 1,15 23
+SOUTH AFRICA 82 867 14 68 030 13 0,40 13
+Table 11 shows that male-headed households were more likely to experience theft of motor vehicle than
+female-headed households. Households in metros were more likely to experience theft of motor vehicle than
+households in non-metro areas, and white households were more likely to experience theft of motor vehicle
+than black African households. This may be due to difference in motor vehicle ownership between male- and
+female-headed households, metro and non-metro households, and white and black African households as
+results showed in the 2017/18 VOCS report.
+Victims of Crime Survey, 2018/19
+
+--- Page 41 ---
+STATISTICS SOUTH AFRICA 33 P0341
+Figure 34: Number of incidences of theft of motor vehicle by month
+14000
+12000
+s e 10000
+c
+n
+e
+d
+ic 8000
+n
+i
+f
+o
+r 6000
+e
+b
+m
+u 4000
+N
+2000
+0
+Figure 34 shows that theft of motor vehicle incidences peaked in February, June and September.
+Figure 35: Percentage of households that reported theft of motor vehicles to the police
+Reported no incidences 13,7
+Reported some incidences 6,1
+Reported all incidences 80,2
+0,0 10,0 20,0 30,0 40,0 50,0 60,0 70,0 80,0 90,0
+Per cent
+Over 86% of households reported some or all incidences of theft of motor vehicle to the police. The high rate
+of reporting of theft of motor vehicles may be due to insurance claim requirements. The number of households
+that reported theft of motor vehicles is estimated to be 58 719 with 95% confidence interval (42 088, 75 349).
+SAPS statistics do not separate counts of theft of motor vehicles and theft of motorcycles. This makes
+comparison with GPSJS estimates difficult as theft of motorcycles is not included in the survey. Table 12 gives
+five-year statistics for theft of motor vehicles and motorcycles according to province extracted from the SAPS
+2018/19 annual crime report.
+Victims of Crime Survey, 2018/19
+
+--- Page 42 ---
+STATISTICS SOUTH AFRICA 34 P0341
+Table 12: Theft of motor vehicles and motorcycles reported to the police, 2014/15–2018/19
+Number of reported cases
+Province 2014/15 2015/16 2016/17 2017/18 2018/19
+Western Cape 8 918 8 378 7 381 7 104 6 791
+Eastern Cape 3 276 2 678 2 739 2 443 2 384
+Northern Cape 327 246 219 233 215
+Free State 1 743 1 745 1 588 1 596 1 413
+KwaZulu-Natal 8 404 8 673 8 413 8 240 8 050
+North West 1 984 2 070 2 068 2 112 1 999
+Gauteng 27 147 26 646 27 674 25 705 24 321
+Mpumalanga 2 303 2 222 2 208 2 206 2 290
+Limpopo 988 1 151 1 017 1 024 861
+SOUTH AFRICA 55 090 53 809 53 307 50 663 48 324
+Source: SAPS Crime Statistics, https://www.saps.gov.za/services/crimestats.php
+The number of theft of motor vehicles and motorcycles reported to the police falls well within the 95%
+confidence interval of the estimated number of reported motor vehicle thefts. Not much can be said as the two
+measurements are different.
+Figure 36: Percentage change in theft of motor vehicles and motorcycles reported to SAPS, 2017/18–
+2018/19
+-4,41 Western Cape
+Eastern Cape
+-7,73 Northern Cape
+-11,47 Free State
+KwaZulu-Natal
+-5,35 North West
+-5,38 Gauteng
+Mpumalanga 3,81
+-15,92 Limpopo
+-4,62 RSA
+-20,00 -15,00 -10,00 -5,00 0,00 5,00
+Per cent change
+Figure 36 shows that between 2017/18 and 2018/19 theft of motor vehicles and motorcycles reported to SAPS
+increased in Mpumalanga while it decreased in all other provinces and in South Africa as a whole.
+Victims of Crime Survey, 2018/19
+
+--- Page 43 ---
+STATISTICS SOUTH AFRICA 35 P0341
+6.5 Deliberate damaging, burning or destruction of residential dwellings
+Four questions were asked for this household crime. Respondents were asked whether they experienced
+deliberate damaging, burning or destruction of residential dwellings during the past 12 months, how many
+times, during which months and whether they reported any incidences to the police.
+Table 13 below presents a summary of disaggregated statistics. It was not possible to disaggregate beyond
+gender and location because of the resulting poor estimates due to small number of observations.
+Table 13: Number and percentage of households that experienced deliberate damaging, burning or
+destruction of residential dwellings disaggregated by gender and location, 2018/19
+Percentage
+Number of Number of
+Gender CV% CV% of CV%
+incidences households
+households
+Male 34 481 26 26 580 21 0,27 21
+Female 35 414 22 27 071 20 0,38 20
+Location
+Metro 41 639 27 29 896 24 0,40 23
+Non-metro 28 257 21 23 755 19 0,26 19
+SOUTH AFRICA 69 896 19 53 651 16 0,32 16
+Female-headed households and households in metros were more likely to experience deliberate damaging,
+burning or destruction of residential dwellings than male-headed households and households in non-metros,
+respectively.
+Figure 37: Number of incidences of deliberate damaging, burning or destruction of residential
+dwellings by month
+12000
+10000
+s
+e
+c
+n
+e 8000
+d
+ic
+n
+i
+f
+6000
+o
+r
+e
+b 4000
+m
+u
+N 2000
+0
+Figure 37 shows that deliberate damaging, burning or destruction of residential dwellings peaked in January,
+April, June and November.
+Victims of Crime Survey, 2018/19
+
+--- Page 44 ---
+STATISTICS SOUTH AFRICA 36 P0341
+Figure 38: Percentage of households that reported deliberate damaging, burning or destruction of
+residential dwellings to the police
+Reported no incidences 50,2
+Reported some incidences 1,6
+Reported all incidences 48,3
+0,0 10,0 20,0 30,0 40,0 50,0 60,0
+Per cent
+Figure 38 shows that about 50% of households that experienced deliberate damaging, burning or destruction
+of residential dwellings reported some or all the incidences to the police. The number of households that
+reported deliberate damaging, burning or destruction of residential dwellings is estimated to be 26 734 with
+95% confidence interval (14 111, 39 357).
+Malicious damage to property and arson as reported by the South African Police Service (SAPS) includes
+damage and arson to non-residential properties, while deliberate damaging, burning or destruction of
+residential dwellings is only for residential property. It is therefore expected that the GPSJS estimate would be
+smaller than the number reported by SAPS. Table 14 gives five-year statistics for damage to property and
+arson according to province extracted from the SAPS 2018/19 annual crime report.
+Table 14: Malicious damage to property and arson reported to the police by province,
+2014/15–2018/19
+Number of reported cases
+Province
+2014/15 2015/16 2016/17 2017/18 2018/19
+Western Cape 30 071 29 974 29 997 28 763 29 356
+Eastern Cape 13 184 12 498 12 810 12 027 12 738
+Northern Cape 3 381 3 256 3 103 3 083 3 405
+Free State 7 942 7 816 6 838 6 232 6 116
+KwaZulu-Natal 15 459 15 534 14 709 13 637 14 458
+North West 6 231 6 076 6 064 6 144 6 632
+Gauteng 35 847 35 312 34 023 32 456 31 275
+Mpumalanga 6 130 6 113 5 834 5 773 6 031
+Limpopo 7 544 8 225 7 352 7 246 7 161
+SOUTH AFRICA 125 789 124 804 120 730 115 361 117 172
+Source: SAPS Crime Statistics, https://www.saps.gov.za/services/crimestats.php
+The number of reported cases for 2018/19 from SAPS is much higher than the GPSJS estimate, as expected.
+Victims of Crime Survey, 2018/19
+
+--- Page 45 ---
+STATISTICS SOUTH AFRICA 37 P0341
+Figure 39: Percentage change in malicious damage of property reported to SAPS, 2017/18–2018/19
+Western Cape 2,06
+Eastern Cape 5,91
+Northern Cape 10,44
+-1,86Free State
+KwaZulu-Natal 6,02
+North West 7,94
+-3,64 Gauteng
+Mpumalanga 4,47
+Limpopo
+RSA 1,57
+-6,00 -4,00 -2,00 0,00 2,00 4,00 6,00 8,00 10,00 12,00
+Per cent change
+Figure 39 shows that between 2017/18 and 2018/19, malicious damage of property and arson reported to
+SAPS decreased in the Free State, Gauteng and Limpopo while it increased in other provinces and in South
+Africa as a whole.
+Figure 40: Satisfaction with police services after reporting of deliberate damaging, burning or
+destruction of residential dwellings
+41%
+59%
+Satisfied Not satisfied
+Among households that reported deliberate damaging, burning or destruction of residential dwellings to the
+police, 41% were satisfied and 59% were not satisfied with the police service.
+Victims of Crime Survey, 2018/19
+
+--- Page 46 ---
+STATISTICS SOUTH AFRICA 38 P0341
+6.6 Murder
+The term "murder" in GPSJS includes what SAPS refers to as "culpable homicide or unintentional killing of a
+human being". Stats SA understands the importance of distinguishing between murder and culpable homicide,
+but it is not feasible to collect such information from household surveys where respondents may not understand
+the difference between the two. It may be a challenge even at police stations for an officer to determine whether
+the case being reported is murder or homicide.
+Nine questions were asked on murder, including a question about motive for murder. The number of
+households that experienced murder was 18. Since the murder count in the sample was small, it was not
+possible to calculate disaggregated estimates of acceptable quality.
+Table 15: Murder statistics for 2018/19
+Statistic 2018/19 CV % 95% CI
+Number of incidents 12 079 25 (6 259, 17 900)
+Number of victims 12 079 24 (6 259, 17 900)
+Number of households that reported murder to the police 11 500 26 (6 022, 16,978)
+Percentage of households that reported murder to the police 100 0
+Table 16: Murder and culpable homicide reported to the police, 2014/15–2018/19
+Number of reported cases
+Province 2014/15 2015/16 2016/17 2017/18 2018/19
+Western Cape 4 170 4 349 4 404 4 827 5 025
+Eastern Cape 4 715 5208 5 100 5 243 5 397
+Northern Cape 759 704 677 665 598
+Free State 1 679 1 791 1 728 1 825 1 771
+KwaZulu-Natal 6 043 6 333 6 449 6 823 6 793
+North West 1 709 1 802 1 852 1 837 1 803
+Gauteng 6 055 6 383 6 657 6 753 6 978
+Mpumalanga 1 954 2 096 2 221 2 113 2 137
+Limpopo 1 854 2 163 2 088 2 273 2 120
+SOUTH AFRICA 28 938 30 829 31 176 32 359 32 622
+Source: SAPS Crime Statistics, https://www.saps.gov.za/services/crimestats.php
+The difference between the GPSJS estimated murder and SAPS reported number of culpable homicide cases
+is due to a number of factors. The main reason is that the SAPS murder count includes murders identified by
+the police which households may not be aware of such as murders of the homeless, immigrants or temporary
+visitors that have no connection with any household in the sample frame. The GPSJS estimate for 2018/19 is
+significantly lower than the SAPS total, implying that a lot of murders and culpable homicides are those that
+are unknown to households.
+Victims of Crime Survey, 2018/19
+
+--- Page 47 ---
+STATISTICS SOUTH AFRICA 39 P0341
+Figure 41: Percentage change in murder and culpable homicide reported to SAPS, 2017/18–2018/19
+Western Cape 4,10
+Eastern Cape 2,94
+-10,08 Northern Cape
+-2,96 Free State
+KwaZulu-Natal
+North West
+Gauteng 3,33
+Mpumalanga 1,14
+-6,73 Limpopo
+South Africa 0,81
+-12,00 -10,00 -8,00 -6,00 -4,00 -2,00 0,00 2,00 4,00 6,00
+Per cent change
+Figure 41 shows that between 2017/18 and 2018/19, murder (SAPS murder plus culpable homicide) reported
+to SAPS decreased in the Northern Cape, Free State, KwaZulu-Natal, North West and Limpopo while it
+increased in other provinces and in South Africa as a whole.
+Victims of Crime Survey, 2018/19
+
+--- Page 48 ---
+STATISTICS SOUTH AFRICA 40 P0341
+7. INDIVIDUAL EXPERIENCE OF CRIME
+This chapter focuses on crimes experienced by individual members of households aged 16 years and older.
+As mentioned earlier in the report, the survey of children under 16 requires more resources due to legislation
+on child welfare. The respondent is a randomly selected member of a sampled household aged 16 years or
+older at the time of the interview.
+Table 17: Number and percentage of individuals aged 16 and older who experienced specified types
+of crime during the past 12 months
+Number CV(%) Percent CV(%)
+Theft of personal property (incl. pick-pocketing and bag snatching) 1 014 698 6 2,54 6
+Robbery (contact between perpetrator and victim; excl. home
+robbery and car/truck hijackings) 451 512 9 1,13 9
+Assault (excl. sexual assault) 280 832 11 0,70 11
+Consumer fraud 81 237 22 0,20 22
+Hijacking of motor vehicle (incl. attempted hijacking) 32 465 27 0,08 27
+Sexual offences (incl. rape, grabbing or touching without your
+consent) 26 460 38 0,07 38
+Table 17 shows that estimates for sexual offences are of poor quality and therefore must not be used. Other
+estimates are of acceptable and good quality. About a million persons aged 16 and older experienced theft of
+personal property in 2018/19. This was 2,54% of the population of persons aged 16 and older. About 450 000
+persons or 1% in the same population group experienced street robbery. Over 280 000 or 0,7% experienced
+assault, 81 000 or 0,2% experienced consumer fraud and 32 000 or 0,08% were victims of hijacking in
+2018/19.
+7.1 Theft of personal property
+In this section we analyse the victims of theft of personal property in order to understand more about the
+victims.
+Victims of Crime Survey, 2018/19
+
+--- Page 49 ---
+STATISTICS SOUTH AFRICA 41 P0341
+Table 18: Number and percentage of individuals that experienced theft of personal property
+disaggregated by gender, location, population group, age group, income level and province 2018/19
+Percentage
+Number of Number of of adults
+Gender CV% CV% CV%
+incidences individuals aged 16 and
+older
+Male 661 861 9 520 518 8 2,71 8
+Female 579 261 9 494 180 9 2,39 9
+Location
+Metro 721 130 9 580 671 8 3,26 8
+Non-metro 519 992 9 434 027 8 1,97 8
+Population group
+Black African 929 965 7 813 596 6 2,59 6
+Coloured 115 018 23 74 702 20 2,07 20
+Indian/Asian 26 633 70 12 720 70 1,10 68
+White 169 505 22 113 680 20 3,04 20
+Age group
+16–24 426 588 12 349 556 11 3,64 10
+25–34 326 475 11 276 627 10 2,76 10
+35–54 363 184 11 289 652 10 2,29 10
+55–64 68 941 23 61 689 23 1,43 23
+65+ 55 934 34 37 174 23 1,14 23
+Province
+Western Cape 215 842 16 172 935 14 3,59 14
+Eastern Cape 118 758 19 94 211 17 2,27 17
+Northern Cape 28 365 22 24 662 22 2,94 22
+Free State 62 588 22 50 751 21 2,49 21
+KwaZulu-Natal 155 515 18 130 865 17 1,72 17
+North West 45 072 30 31 855 25 1,19 25
+Gauteng 489 678 11 395 131 10 3,60 10
+Mpumalanga 52 164 22 52 164 22 1,72 22
+Limpopo 73 141 23 62 123 22 1,68 21
+SOUTH AFRICA 1 241 122 6 1 014 698 6 2,54 6
+Males were more likely to be victims of theft of personal property than females. Persons who live in metros
+were more likely to be victims of theft of personal property than persons living in non-metros. Whites were
+more likely to be victims of theft of personal property than black Africans and coloureds, and people in the
+Western Cape and Gauteng were more likely to be victims of theft of personal property than people in other
+provinces.
+Victims of Crime Survey, 2018/19
+
+--- Page 50 ---
+STATISTICS SOUTH AFRICA 42 P0341
+Figure 42: Percentage of victims of theft of personal property in different age groups
+4
+3,64
+3,5
+3 2,76
+2,5 2,29
+2
+1,43
+1,5
+1,14
+1
+0,5
+0
+16–24 25–34 35–54 55–64 65+
+Figure 42 depicts an interesting relationship between age and vulnerability to theft of personal property. The
+young were the most likely to lose personal property through theft.
+Figure 43: Number of theft of personal property for individuals aged 16 and older by month
+160000
+140000
+s
+e
+c
+n
+e 120000
+d
+ic
+n
+i
+f
+100000
+o
+r
+e
+b 80000
+m
+u
+N 60000
+40000
+Figure 43 shows that incidences of theft of personal property peaked in January, March, June, September and
+December.
+Table 19: Summary of statistics on theft of personal property
+Statistic 2018/19 CV %
+Number of incidents 1 241 122 6
+Number of victims 1 014 698 6
+Number of victims who reported at least one incidence 324 580 10
+Percentage of victims who reported at least one incidence 32 8
+Victims of Crime Survey, 2018/19
+
+--- Page 51 ---
+STATISTICS SOUTH AFRICA 43 P0341
+7.2 Robbery
+Street robbery or simply robbery is when there is contact between the perpetrator or perpetrators and the
+victim away from home. It excludes home robbery and car or truck hijacking. Seven questions were asked,
+most of them similar to questions asked about other contact crimes. An additional question here was whether
+the victim sustained any injury during the robbery.
+Table 20: Number and percentage of individuals that experienced robbery disaggregated by gender,
+location, age group and province 2018/19
+Percentage
+Number of Number of of adults
+Gender CV% CV% CV%
+incidences individuals aged 16 and
+older
+Male 405 556 14 302 586 11 1,57 11
+Female 175 881 18 148 927 16 0,72 16
+Location
+Metro 413 302 16 295 545 12 1,66 12
+Non-metro 168 135 13 155 967 14 0,71 13
+Age group
+16–24 186 503 18 164 410 18 1,71 17
+25–34 167 022 24 132 915 24 1,33 17
+35–54 127 011 18 106 013 18 0,84 16
+55–64 84 248 43 31 520 43 0,73 33
+65+ 16 654 39 16 654 39 0,51 39
+Province
+Western Cape 139 076 29 92 040 22 1,91 22
+Eastern Cape 57 520 19 54 931 19 1,32 19
+Northern Cape 9 581 32 9 581 32 1,14 32
+Free State 37 533 41 31 417 38 1,54 38
+KwaZulu-Natal 53 877 38 45 243 34 0,59 34
+North West 21 554 37 15 259 37 0,57 37
+Gauteng 200 761 22 144 942 18 1,32 18
+Mpumalanga 29 880 28 29 880 28 0,99 27
+Limpopo 31 654 28 28 220 30 0,76 29
+SOUTH AFRICA 581 438 12 451 512 9 1,13 9
+Table 20 shows that males were more likely to be victims of street robbery than females. Metro dwellers were
+more likely to be victims of robbery than people in non-metro areas. The young were more likely to be victims
+of robbery than the elderly. People in the Western Cape were more likely to be victims of robbery than people
+in other provinces.
+Victims of Crime Survey, 2018/19
+
+--- Page 52 ---
+STATISTICS SOUTH AFRICA 44 P0341
+Figure 44: Number of street robberies for individuals aged 16 and older by month
+70000
+60000
+s
+e
+c
+n
+e 50000
+d
+ic
+n
+i
+f
+40000
+o
+r
+e
+b 30000
+m
+u
+N 20000
+10000
+Figure 44 shows that street robberies peaked in February, June, September and December.
+Figure 45: Percentage of incidences where specific weapons were used during street robbery
+70,0
+62,1
+60,0
+50,0
+t n 40,0 36,7
+e
+c
+r
+e 30,0
+P
+20,0
+10,0 5,7 5,1
+0,0
+Knife Gun Axe/Panga Stick/Club Metal Bar Other
+Weapon used in robbery
+Knives and guns were used in 62% and 37% of street robberies, respectively. Estimates for Metal Bar and
+Other are not provided because they are “poor statistics”.
+Victims of Crime Survey, 2018/19
+
+--- Page 53 ---
+STATISTICS SOUTH AFRICA 45 P0341
+Figure 46: Percentage of victims that reported street robbery to the police
+Reported no incidences 65,3
+Reported some incidences 3,0
+Reported all incidences 31,8
+0,0 10,0 20,0 30,0 40,0 50,0 60,0 70,0
+Figure 46 shows that about 35% of victims of street robbery reported some or all the incidences to the police.
+The number of victims that reported street robbery is estimated to be 156 770 with 95% confidence interval
+(110 498, 203 041).
+Table 21: Common robbery and robbery with aggravating circumstances reported to the police by
+province, 2014/15–2018/19
+Number of reported cases
+Province 2014/15 2015/16 2016/17 2017/18 2018/19
+Western Cape 36 536 36 217 36 606 36 332 35 420
+Eastern Cape 16 998 16 467 17 395 16 945 17 347
+Northern Cape 2 708 2 735 3 011 2 924 3 188
+Free State 7 760 7 082 7 339 7 227 7 426
+KwaZulu-Natal 28 738 28 585 29 632 28 139 29 200
+North West 8 396 8 698 9 606 9 649 9 787
+Gauteng 64 741 67 843 71 160 68 690 69 797
+Mpumalanga 8 590 8 742 9 652 9 298 10 831
+Limpopo 9 505 10 268 9 973 9 887 9 914
+SOUTH AFRICA 183 972 186 637 194 374 189 094 191 797
+Source: SAPS Crime Statistics, https://www.saps.gov.za/services/crimestats.php
+The SAPS number of reported cases of common robbery and robbery with aggravating circumstances for
+2018/19 is within the 95% confidence interval of the GPSJS estimated number of reported cases. This means
+that there is no significant difference between the GPSJS estimated number of reported cases and the number
+of robbery cases reported by SAPS.
+Victims of Crime Survey, 2018/19
+
+--- Page 54 ---
+STATISTICS SOUTH AFRICA 46 P0341
+Figure 47: Percentage change in common robbery and robbery with aggravating circumstances
+reported to SAPS, 2017/18–2018/19
+Western Cape
+Eastern Cape 2,37
+Northern Cape 9,03
+Free State 2,75
+KwaZulu-Natal 3,77
+North West 1,43
+Gauteng 1,61
+Mpumalanga 16,49
+Limpopo 0,27
+RSA 1,43
+-5,00 0,00 5,00 10,00 15,00 20,00
+Per cent change
+Figure 47 shows that between 2017/18 and 2018/19, common robbery and robbery with aggravating
+circumstances reported to SAPS decreased in the Western Cape while it increased in all other provinces and
+in South Africa as a whole.
+7.3 Assault
+Assault is defined as direct or indirect application of force to the body of another person or threat of application
+of immediate personal violence to another, in circumstances in which the threatened person is prevailed upon
+to believe that the person who is threatening him/her has the intention and power to carry out his/her threat.
+SAPS calls this type of assault “common assault”. In addition to common assault, the word “assault” in GPSJS
+includes what SAPS refers to as “assault with the intent to inflict grievous bodily harm”.
+Seven questions were asked concerning individual experience of assault during the past 12 months, including
+the number of times the respondent has been assaulted, the month the incident took place, whether any
+weapons were used, who the perpetrator was and whether they reported the incident to the police. In Table
+21 below assault statistics are disaggregated by gender, location and age group of the victim. Disaggregation
+by income level, population group and province are omitted because they produced poor estimates.
+Victims of Crime Survey, 2018/19
+
+--- Page 55 ---
+STATISTICS SOUTH AFRICA 47 P0341
+Table 22: Number and percentage of individuals that experienced assault disaggregated by gender,
+location and age group 2018/19
+Percentage
+Number of Number of of adults
+Gender CV% CV% CV%
+incidences individuals aged 16 and
+older
+Male 240 605 19 165 253 13 0,86 13
+Female 256 488 32 115 579 17 0,56 17
+Location
+Metro 274 275 31 122 933 17 0,69 17
+Non-metro 222 818 16 157 899 13 0,72 13
+Age group
+16–24 129 118 28 87 165 28 0,91 21
+25–34 249 974 33 116 900 33 1,17 17
+35–54 95 228 24 63 776 24 0,50 18
+55–64 19 899 66 10 117 66 0,23 50
+65+ 2 875 88 2 875 88 0,09 88
+SOUTH AFRICA 497 093 19 280 832 10 0,70 10
+Table 22 shows that males were more likely to be victims of assault than females. There is no significant
+difference between people in metros and those living in non-metro areas in terms of likelihood of being
+assaulted. Data on the influence of age is inadequate, but it seems to suggest that the young were more likely
+to be assaulted than the elderly.
+Figure 48: Number of assaults for individuals aged 16 and older by month
+70000
+60000
+s
+e
+c
+n 50000
+e
+d
+ic
+40000
+n
+i
+f
+o 30000
+r
+e
+b
+m 20000
+u
+N
+10000
+0
+Figure 48 shows that incidences of assault peaked in June and November.
+Victims of Crime Survey, 2018/19
+
+--- Page 56 ---
+STATISTICS SOUTH AFRICA 48 P0341
+Figure 49: Percentage of incidences where specific weapons were used during assault
+60,0
+51,3
+50,0
+40,0
+t
+n
+e
+c 30,0
+r
+24,9
+e
+P 20,3
+20,0
+10,0
+3,8
+0,0
+Knife Other Stick/Club Metal Bar Gun Axe/Panga
+Assault weapon
+Knives were the most common weapons of assault. Over 51% of assaults were committed using knives.
+Estimates for Gun and Axe/Panga are not provided because they are “poor statistics”.
+Figure 50: Percentage of victims that reported assault to the police
+Reported no incidences 50,0
+Reported some incidences 2,8
+Reported all incidences 47,2
+0,0 10,0 20,0 30,0 40,0 50,0 60,0
+Per cent
+Figure 50 shows that about 50% of victims of assault reported some or all the incidences to the police. The
+number of victims that reported assault is estimated to be 140 459 with 95% confidence interval (101 225, 179
+694).
+Victims of Crime Survey, 2018/19
+
+--- Page 57 ---
+STATISTICS SOUTH AFRICA 49 P0341
+Table 23: Assault with the intent to inflict grievous bodily harm and common assault reported to the
+police, 2014/15–2018/19
+Number of reported cases
+Province 2014/15 2015/16 2016/17 2017/18 2018/19
+Western Cape 65 350 66 843 64 285 62 162 63 690
+Eastern Cape 37 279 36 293 34 341 34 304 36 068
+Northern Cape 13 616 13 487 12 613 12 098 12 271
+Free State 28 701 28 310 25 270 23 543 24 152
+KwaZulu-Natal 53 212 52 368 49 109 49 535 50 399
+North West 20 264 20 556 19 752 20 959 21 861
+Gauteng 84 748 87 045 81 767 83 139 85 395
+Mpumalanga 18 288 19 008 18 608 18 331 19 611
+Limpopo 22 584 23 981 21 321 19524 19 544
+SOUTH AFRICA 344 042 347 891 327 066 323 595 332 991
+Source: SAPS Crime Statistics, https://www.saps.gov.za/services/crimestats.php
+The number of assaults with the intent to inflict grievous bodily harm plus common assaults reported to the
+police is significantly higher than the GPSJS estimated number of reported cases of assault. The difference
+may be due to the fact that assault reported to the police includes assault of persons under the age of 16.
+Figure 51: Percentage change in assault with the intent to inflict grievous bodily harm and common
+assault reported to SAPS, 2017/18–2018/19
+Western Cape 2,46
+Eastern Cape 5,14
+Northern Cape 1,43
+Free State 2,59
+KwaZulu-Natal 1,74
+North West 4,30
+Gauteng 2,71
+Mpumalanga 6,98
+Limpopo 0,10
+RSA 2,90
+0,00 1,00 2,00 3,00 4,00 5,00 6,00 7,00 8,00
+Per cent change
+Figure 51 shows that between 2017/18 and 2018/19, assault with the intent to inflict grievous bodily harm and
+common assault reported to SAPS increased in all provinces and in South Africa as a whole.
+Victims of Crime Survey, 2018/19
+
+--- Page 58 ---
+STATISTICS SOUTH AFRICA 50 P0341
+7.4 Consumer fraud
+Consumer fraud happens when someone provides services or goods and cheats on quality or quantity. Adults
+aged 16 and older were asked whether they were victims of consumer fraud during the past 12 months. It is
+estimated that 101 115 incidences of consumer fraud occurred in South Africa in 2018/19, affecting 81 237
+(0,2%) adults aged 16 or older.
+Table 24: Number and percentage of individuals that experienced consumer fraud disaggregated by
+gender and location 2018/19
+Percentage
+Number of Number of of adults
+Gender CV% CV% CV%
+incidences individuals aged 16 and
+older
+Male 35 087 32 33 216 32 0,17 32
+Female 66 028 30 48 020 30 0,23 30
+Location
+Metro 64 220 29 53 086 29 0,30 29
+Non-metro 36 896 37 28 151 32 0,13 32
+SOUTH AFRICA 101 115 23 81 237 22 0,20 22
+Number of victims who reported at least one incidence 37 895 36
+Percentage of victims who reported at least one incidence 47 24
+Females were more likely to be victims of consumer fraud compared to males. People in the metro areas were
+more likely to be victims of fraud than people in the non-metro areas. An estimated 47% of consumer fraud
+victims reported it to the police.
+7.5 Hijacking of motor vehicle
+Hijacking of motor vehicles is a type of crime committed against an individual while driving their own vehicles
+or vehicles belonging to another person or institution. The question of ownership was not relevant when
+respondents were asked whether they had experienced incidents of hijacking during the past 12 months. The
+type of vehicle the victim was driving or riding in as a passenger is also not relevant. SAPS reports separate
+statistics for carjacking and truck hijacking. The numbers for the two types of hijacking must be added in order
+to compare with estimates in the current report. The added figures are reported in Table 25 below.
+The number of hijacking incidents in the sample were so small that any disaggregation of data would produce
+poor statistics.
+Victims of Crime Survey, 2018/19
+
+--- Page 59 ---
+STATISTICS SOUTH AFRICA 51 P0341
+Table 25: Hijacking statistics, 2018/19
+Statistic 2018/19 CV %
+Number of incidents 32 465 27
+Number of victims 32 465 27
+Hijacking victims as a percentage of the population (16+) 0,08 27
+Number of victims who reported at least one incidence 27 691 29
+95% confidence interval for the number of victims who reported to the police (11 979, 43 403)
+Percentage of victims who reported at least one incidence 85 12
+Table 26 below presents combined data of carjacking and truck hijacking.
+Table 26: Carjacking and truck hijacking reported to the police by province, 2014/15–2018/19
+Number of reported cases
+Province
+2014/15 2015/16 2016/17 2017/18 2018/19
+Western Cape 1 592 2 078 2 259 2 303 2 411
+Eastern Cape 803 1 010 1 037 1 091 1 158
+Northern Cape 15 49 29 40 43
+Free State 359 323 275 267 275
+KwaZulu-Natal 2 253 2 564 3 110 2 750 2 844
+North West 323 412 438 466 532
+Gauteng 7 671 8 062 9 278 8 977 8 423
+Mpumalanga 664 823 988 1 017 1 033
+Limpopo 372 465 486 616 489
+SOUTH AFRICA 14 052 15 786 17 900 17 527 17 208
+Source: SAPS Crime Statistics, https://www.saps.gov.za/services/crimestats.php
+Table 26 shows a decrease of 319 hijacking cases reported to the police between 2017/18 and 2018/19. The
+number of hijacking incidents reported to the police in 2018/19 (Table 26) is consistent with the estimated
+number of reported cases from the GPSJS as presented in Table 24.
+Victims of Crime Survey, 2018/19
+
+--- Page 60 ---
+STATISTICS SOUTH AFRICA 52 P0341
+Figure 52: Percentage change in carjacking and truck hijacking reported to SAPS, 2017/18–2018/19
+Western Cape 4,69
+Eastern Cape 6,14
+Northern Cape 7,50
+Free State 3,00
+KwaZulu-Natal 3,42
+North West 14,16
+-6,17 Gauteng
+Mpumalanga 1,57
+-20,62 Limpopo
+-1,82RSA
+-25,00 -20,00 -15,00 -10,00 -5,00 0,00 5,00 10,00 15,00 20,00
+Per cent change
+Figure 52 shows that between 2017/18 and 2018/19, carjacking and truck hijacking reported to SAPS
+decreased in Gauteng, Limpopo and in South Africa as a whole, while it increased in all other provinces.
+7.6 Sexual offences
+GPSJS uses a narrower definition of sexual offences limited to intentional sexual violation of individuals
+through grabbing, touching, rape or sexual assault. The SAPS definition of sexual offences is broader and
+includes attempted sexual offences. Therefore, statistics provided by these two organisations do not measure
+the same thing. Given the sensitive nature of this crime and the context of household-based interviews, sexual
+offences are thought to be underreported in the GPSJS, and it is likely that most of those individuals who have
+already reported sexual offences to the police will proceed to also report it to the survey officer who is collecting
+the data.
+The number of sexual offences incidents in the sample was not large enough to be able to produce quality
+estimates of key indicators, except for the percentage of victims who reported to the police.
+Table 27: Summary of statistics for sexual offences, 2018/19
+Statistic 2018/19 CV %
+Number of incidents 26 460 38
+Number of victims 26 460 38
+Sexual offence victims as a percentage of the population (16+) 0,07 38
+Number of victims who reported at least one incidence 23 237 42
+95% Confidence interval for the number of victims who reported to the police (4 168, 42 306)
+Percentage of victims who reported at least one incidence 88 12
+Table 27 shows that 88% of the victims of sexual offences reported it to the police. The other statistics in Table
+27 are not usable because of poor quality, as reflected by the CV values.
+Victims of Crime Survey, 2018/19
+

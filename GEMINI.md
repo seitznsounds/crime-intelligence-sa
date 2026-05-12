@@ -34,7 +34,7 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 
 ### 4. Geospatial Intelligence [COMPLETED]
 - **Global Crime Heatmap**: Interactive 3D visualization of crime density across South Africa.
-- **Station Performance Leaderboard**: Deep-dive audits and comparative ranking of all 1,154 SAPS stations.
+- **Station Performance Leaderboard**: Deep-dive audits and comparative ranking of all 1,154 SAPS stations (Note: Data currently covers 2005 - 2016).
 
 ### 5. Predictive Analysis [COMPLETED]
 - **AI Corruption Forecasting**: Utilizing link analysis to detect emerging corruption hubs.
@@ -60,16 +60,60 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Live Incident Ticker**: Real-time Supabase integration for surfacing street-level intelligence as it happens.
 - **Global Transparency Index**: Benchmarking SA investigative data against international corruption standards.
 
-### 10. TRC Report Vault Backfilling [IN PROGRESS]
+### 10. TRC Report Vault Backfilling [COMPLETED]
 - **Dynamic Ingestion**: Transitioned from hardcoded arrays to Supabase-backed orchestration for TRC Volumes 1-7.
 - **RAG Automation**: Implemented Server Actions to trigger the `za_intelligence/rag-web-browser` Apify actor.
-- **Live Monitoring**: Integrated Supabase Realtime for instant UI status updates (QUEUED -> INDEXING -> INDEXED).
+- **Live Monitoring**: Integrated Supabase Realtime for instant UI status updates (QUEUED -> INDEXING -> CRAWLED -> INDEXED).
+- **Agentic Analysis Protocol [COMPLETED]**: Successfully executed a three-stage local workflow for all 7 volumes:
+    1. **Stage 1: Local Capture**: Apify actor crawled TRC data and saved to `.intelligence/backfills/`.
+    2. **Stage 2: Agentic Distillation**: Antigravity (AI assistant) distilled raw markdown into 26+ high-fidelity structured intelligence records (Biko, Botha, Vlakplaas, Machel, etc.).
+    3. **Stage 3: Verified Upsert**: Executed custom ingestion scripts (`ingest-volN-distilled.ts`) to populate `historical_records`, marking all volumes as `INDEXED`.
+
+### 11. Database Architecture Hardening [COMPLETED]
+- **RLS Security**: Enabled Row Level Security on all 22 tables with public-read/service-role-write policies.
+- **Reference Tables**: Created `provinces` (9 seeded), `stations`, `organizations`, `locations`, `crime_categories` (28 SAPS categories seeded with severity weights).
+- **Network Graph Schema**: Created `person_incident_links`, `person_org_links`, `person_relationships`, `org_links`, `evidence_sources` — enabling full corruption network mapping.
+- **Index Optimization**: Added 30+ targeted indexes on `station_statistics` (339K rows), `people` (32K), `incidents`, `historical_records`, and `ai_news`.
+- **Materialized Views**: `mv_station_rankings`, `mv_crime_trends`, `mv_people_risk_summary`, `mv_platform_stats` with one-call `refresh_materialized_views()`.
+- **Full-Text Search**: pg_trgm fuzzy matching + tsvector GIN indexes on people/incidents/historical_records. `search_intelligence()` and `search_people_fuzzy()` functions deployed.
+- **Data Quality**: Auto-`updated_at` triggers, FK columns linking incidents to stations/locations/categories/provinces.
+
+### 12. Data Science Analysis & Quality [COMPLETED]
+- **Deep Analysis**: 13-finding report across 23.6M crime data points, 11 years of SAPS data, 1,143 stations.
+- **Knowledge Base Ingestion**: Ingested 3,540 records with 384-dim pgvector embeddings into new `ai_knowledge_base` table. Semantic search via `search_knowledge_base()`.
+- **Data Purge**: Removed 178 non-crime records (sports, weather) from incidents table.
+- **PEP Classification**: Tagged 3,702 people with PEP tiers (1,288 Tier 1 politicians, 1,453 Tier 2 executives/judges, 961 Tier 3 suspects/intermediaries).
+- **Key Findings**: Business robbery +349%, drug crime +173%, murder climbing back to 18,673/year. Top 10% of stations produce 42% of national crime.
+
+### 13. UI/UX Architecture Overhaul [COMPLETED]
+- **Navigation Redesign**: Restructuring 16 flat routes into logical information architecture with grouped navigation.
+- **Flow Optimization**: Implementing intuitive user journeys from landing → investigation → action.
+- **Mobile Responsiveness**: Ensuring all 20 pages are mobile-first with proper touch targets.
+- **Design System Enforcement**: Applying consistent glassmorphism tokens and spacing rhythm across all pages.
+- **PageShell Standardization**: Wrapped 13+ pages in a unified layout shell for consistent headers and navigation.
+
+### 14. UI/UX Interactions (Sprint 4) [COMPLETED]
+- **Skeleton Loaders**: Implementation of high-fidelity shimmer states for all data-fetching modules.
+- **Command Palette (⌘K)**: Global search and quick-action interface deployed.
+- **Defensive UI**: Error boundaries and consistent empty states for resilient data handling.
+
+### 15. StatsSA Intelligence & Reporting Gaps [COMPLETED]
+- **PDF Extraction Pipeline**: Ingested and analyzed GPSJS 2017/18/19 reports.
+- **Reporting Gap Analysis**: Identified a massive **4.9x discrepancy** in Home Robbery and **2.1x** in Housebreaking between StatsSA experienced crime and official SAPS stats.
+- **Network Link Population**: Established foundational links for the corruption web, linking key TRC figures (Eugene de Kock, Dirk Coetzee) to core organizations (Vlakplaas, CCB).
+- **Geocoding Backfill**: Spatially enriched incidents across major hotspots (Gauteng, Western Cape, Soweto) for heatmap accuracy.
+
+16. **Intelligence Ingestion Cycle (Sprint 5) [IN PROGRESS]**
+- **Strategic Mapping**: Initialized `INGEST.md` to track forensic analysis of 52 high-fidelity documents from PPLAAF, NACAC, and UNODC.
+- **Protocol Establishment**: Implementing the Agentic Intelligence Protocol (Extraction -> Distillation -> Research -> Ingestion).
+- **Target Zero**: Prioritizing Whistleblower Protection regimes and National Anti-Corruption strategy gaps.
 
 # 🔮 Next Operational Cycle
-1. **Automated Result Ingestion**: Finalize the worker to ingest Apify dataset results into `historical_records` upon completion.
-2. **Evidence Packaging Engine**: Build the backend to aggregate dossiers into signed PDF packages for international justice bodies.
-3. **Geospatial Displacement Mapping**: Enrich land restitution cases with interactive geospatial layers for the network map.
-4. **Institutional Audit Expansion**: Deep-dive into Volume 4 sector-specific hearings (Health, Business, Media).
+1. **PPLAAF Forensic Audit**: Extract and distill the South African whistleblower protection regime to identify systemic vulnerabilities.
+2. **NACAC Gap Analysis**: Cross-reference official 2025 reports with platform-identified reporting discrepancies.
+3. **Incentive Calculator**: Build a UI module for citizens to calculate potential rewards (15-25%) for exposing state capture.
+4. **WPU Vacancy Tracker**: Implement a dashboard module tracking funding deficits and leadership vacancies in the Witness Protection Unit.
+5. **Evidence Packaging Engine**: Build the backend to aggregate dossiers into signed PDF packages for international justice bodies (ICC/UN).
 
 # 🧠 Agent Intelligence Overlays
 
@@ -80,6 +124,12 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Metadata API**: Use the dynamic Metadata API for SEO rather than `next/head`.
 
 ## Database Strategy: Supabase `crime_intelligence`
-- **Schema**: All intelligence data resides in the `public` schema.
-- **Privacy**: Implement strict RLS (Row Level Security) while ensuring public transparency where appropriate.
-- **Real-time**: Utilize Supabase Realtime for incident alerts.
+- **Project ID**: `qanvvpojzirrdeofsmrb` | **Region**: `eu-west-1` | **DB Size**: ~347 MB
+- **Schema**: All intelligence data in `public` schema across 23 tables.
+- **Security**: RLS enabled on ALL tables. Public read for transparency, service-role-only writes.
+- **Real-time**: Supabase Realtime for incident alerts and TRC backfill status.
+- **Search**: `search_intelligence(query)` for cross-table full-text search, `search_people_fuzzy(name)` for similarity matching, `search_knowledge_base(embedding)` for semantic vector search.
+- **Analytics**: 4 materialized views for dashboards, refreshed via `refresh_materialized_views()`.
+- **Network Graph**: 5 join tables (`person_incident_links`, `person_org_links`, `person_relationships`, `org_links`, `evidence_sources`) enabling corruption network traversal.
+- **Extensions**: PostGIS (spatial), pgvector (embeddings), pg_trgm (fuzzy search), pgcrypto.
+

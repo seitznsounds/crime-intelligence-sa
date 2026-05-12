@@ -1,0 +1,1332 @@
+--- Page 1 ---
+Victims of Crime Survey
+2015/16
+
+--- Page 2 ---
+STATISTICAL RELEASE
+P0341
+Victims of Crime Survey
+2015/16
+Embargoed until:
+ENQUIRIES: FORTHCOMING ISSUE: EXPECTED RELEASE DATE
+User Information Services VOCS 2016/17 September 2017
+Tel.: (012) 310 8600/4892/8390
+www.statssa.gov.za
+info@statssa.gov.za
+T +27 12 310 8911
+F +27 12 310 8500
+Private Bag X44, Pretoria, 0001, South Africa
+ISIbalo House, Koch Street, Salvokop, Pretoria, 0002
+
+--- Page 3 ---
+Statistics South Africa ii P0341
+Published by Statistics South Africa, Private Bag X44, Pretoria 0001
+© Statistics South Africa, 2017
+Users may apply or process this data, provided Statistics South Africa (Stats SA) is acknowledged as the original
+source of the data; that it is specified that the application and/or analysis is the result of the user's independent
+processing of the data; and that neither the basic data nor any reprocessed version or application thereof may be
+sold or offered for sale in any form whatsoever without prior permission from Stats SA.
+A complete set of Stats SA publications is available at Stats SA Library and the following libraries:
+National Library of South Africa, Pretoria Division
+National Library of South Africa, Cape Town Division
+Library of Parliament, Cape Town
+Bloemfontein Public Library
+Natal Society Library, Pietermaritzburg
+Johannesburg Public Library
+Eastern Cape Library Services, King William's Town
+Central Regional Library, Polokwane
+Central Reference Library, Nelspruit
+Central Reference Collection, Kimberley
+Central Reference Library, Mmabatho
+This publication is available both in hard copy and on the Stats SA website www.statssa.gov.za
+The data and metadata set from the Victims of Crime Survey 2015/16 will be available on CD-ROM. A charge may
+be made according to the pricing policy, which can be seen on the website.
+Stats SA also provides a subscription service.
+For technical enquiries, please contact:
+Dr Raphael Kasonga
+Telephone number: (012) 336 0109
+Email address: kasonga@statssa.gov.za
+Victims of Crime Survey, 2015/16
+
+--- Page 4 ---
+Statistics South Africa iii P0341
+Contents
+List of tables in the key findings .............................................................................................................................. iv
+List of maps .............................................................................................................................................................. viii
+List of tables in addendum ....................................................................................................................................... ix
+Victims of crime survey: 2015/16 .............................................................................................................................. 1
+1. Introduction ....................................................................................................................................................... 1
+2. Target population and sample ........................................................................................................................ 1
+3. Summary of the key findings .......................................................................................................................... 2
+4. Households’ perceptions of crime and safety............................................................................................... 3
+5. Households’ perceptions of victim support services ................................................................................. 26
+6. Households’ perceptions of law enforcement............................................................................................. 34
+6.1 Households’ perceptions about the police ........................................................................................................ 34
+6.2 Households’ perceptions about courts ............................................................................................................. 45
+7. Trafficking in persons .................................................................................................................................... 52
+8. Perceptions of Correctional Services .......................................................................................................... 57
+9. Households’ perceptions about corruption in the public sector .............................................................. 59
+10. Crime levels and reporting of crimes in South Africa .................................................................................... 63
+10.1 Victimisation rates ............................................................................................................................................ 63
+10.2 Reporting crimes to the police .......................................................................................................................... 67
+10.3 Reasons for not reporting crime ....................................................................................................................... 70
+11. Overview of selected crime types ................................................................................................................. 74
+11.1 Vehicle related crimes ...................................................................................................................................... 74
+11.2 Housebreaking/burglary and other theft ........................................................................................................... 76
+11.3 Robbery and theft of personal property ............................................................................................................ 78
+11.4 Assault .............................................................................................................................................................. 79
+11.5 Murder .............................................................................................................................................................. 83
+11.6 Consumer fraud ................................................................................................................................................ 84
+11.7 Use of weapons in criminal activity .................................................................................................................. 85
+12. Technical notes .............................................................................................................................................. 86
+12.1 Response details ................................................................................................................................................ 86
+12.2 Survey requirements and design ...................................................................................................................... 86
+12.3 Questionnaire design ........................................................................................................................................ 86
+12.4 Sample design .................................................................................................................................................. 87
+12.5 Data collection .................................................................................................................................................. 89
+12.6 Editing and imputation ...................................................................................................................................... 90
+12.7 Construction of Household Sample Weights .................................................................................................... 90
+12.8 Individual sample weights ................................................................................................................................. 90
+12.9 Estimation ......................................................................................................................................................... 91
+12.10 Reliability of the survey estimates .................................................................................................................... 91
+12.11 Comparability with previous surveys ................................................................................................................ 91
+12.12 Sampling and the interpretation of the data ..................................................................................................... 91
+12.13 Limitations of crime victimisation surveys ........................................................................................................ 91
+12.14 Differences between victim surveys and police-reported data ......................................................................... 92
+13. Definition of terms .......................................................................................................................................... 93
+Glossary of abbreviations/acronyms ..................................................................................................................... 95
+Victims of Crime Survey, 2015/16
+
+--- Page 5 ---
+Statistics South Africa iv P0341
+List of tables in the key findings
+Table 1: Crimes perceived by households to be the most common and feared in South Africa, April 2015–
+March 2016 ................................................................................................................................................................... 8
+Table 2: Number and percentage of households prevented from doing daily activities because of fear of crime
+according to province .................................................................................................................................................. 14
+Table 3: Number and percentage of households prevented from doing daily activities because of fear of crime
+according to population group .................................................................................................................................... 15
+Table 4: Number and percentage of households who knew where to take a victim of crime to access medical
+services by type of institution and province ................................................................................................................ 28
+Table 5: Number and percentage of households who knew where to take a victim of crime to access medical
+services by type of institution and population group of the household head .............................................................. 29
+Table 6: Number and percentage of households who knew where to take a victim of crime to access
+counselling services by type of institution and province ............................................................................................. 30
+Table 7: Number and percentage of households who knew where to take a victim of crime to access
+counselling services by type of institution and population group of the household head ........................................... 31
+Table 8: Number and percentage distribution of the reasons for being dissatisfied with the way the police dealt
+with crime by province ................................................................................................................................................ 43
+Table 9: Number and percentage distribution of the reasons for being satisfied with the way the police dealt
+with crime by province ................................................................................................................................................ 44
+Table 10: Percentage distribution of services for which bribes were solicited from households............................... 62
+Table 11: Collection and reference periods for victimisation rates ............................................................................ 63
+Table 12: Number and percentage distribution of crime experiences and reporting rates, 2015/16 ........................ 65
+Table 13: Extent of repeat victimisation amongst households and individuals aged 16 years and older who
+had experienced a particular crime (per cent) ............................................................................................................ 66
+Table 14: Response rates by province, VOCS 2015/16 ............................................................................................ 86
+Table 15: Contents of the VOCS 2015/16 questionnaire .......................................................................................... 87
+Table 16: Comparison between the 2007 (old) Master Sample and the new Master Sample (designed in 2013) .... 88
+Victims of Crime Survey, 2015/16
+
+--- Page 6 ---
+Statistics South Africa v P0341
+List of figures in the key findings
+Figure 1: Percentage distribution of households’ perceptions about change in violent crime levels in their
+areas ............................................................................................................................................................................. 3
+Figure 2: Percentage distribution of households’ perceptions about violent crime levels in their area of
+residence in the three years prior to the survey, by province, 2015/16 ........................................................................ 4
+Figure 3: Percentage distribution of households’ perceptions about property crime levels in their area of
+residence ...................................................................................................................................................................... 5
+Figure 4: Percentage distribution of households’ perceptions about change in property crime levels in their
+area of residence, by province ...................................................................................................................................... 6
+Figure 5: Crimes perceived by households to be the most common in South Africa, 2011–2015/16 ......................... 7
+Figure 6: Comparison of feeling of safety when walking alone in their areas of residence during the day and
+when it is dark, April 2015–March 2016 ..................................................................................................................... 10
+Figure 7: Percentage distribution of households who felt safe walking alone in their areas of residence during
+the day and when it is dark, 2011–2015/16 ................................................................................................................ 11
+Figure 8: Percentage distribution of households who were prevented from engaging in daily activities when
+alone, as a result of crime in their area, 2011–2015/16 ............................................................................................. 12
+Figure 9: Percentage distribution of households’ perception on the most likely perpetrators of property crime,
+by province over a five year period ............................................................................................................................. 16
+Figure 10: Percentage distribution of households’ perception on the most likely perpetrators of property crime,
+by province .................................................................................................................................................................. 16
+Figure 11: Percentage distribution of households’ perception on the most likely perpetrators of violent crime........ 17
+Figure 12: Percentage distribution of households’ perception on the most likely perpetrators of violent crime,
+by province .................................................................................................................................................................. 17
+Figure 13: Percentage distribution of households’ perceptions of why perpetrators commit property crime ............ 18
+Figure 14: Percentage distribution of households’ perceptions of why perpetrators commit property crime by
+province ...................................................................................................................................................................... 20
+Figure 15: Percentage distribution of households’ perceptions of why perpetrators commit property crime by
+population group of the household head .................................................................................................................... 21
+Figure 16: Percentage distribution of households’ who took measures to protect themselves from crime,
+2011–2015/16 ............................................................................................................................................................. 22
+Figure 17: Percentage distribution of households who took measures to protect themselves from crime by
+province, April 2015–March 2016 ............................................................................................................................... 23
+Figure 18: Percentage distribution of households’ suggestions on where government should spend money in
+order to reduce crime, 2011–2015/16 ........................................................................................................................ 24
+Figure 19: Percentage distribution of entities contacted first to come to the household’s rescue in the event of
+being victimised by province ....................................................................................................................................... 25
+Figure 20: Percentage distribution of households who knew where to take victims of crime to access selected
+services ....................................................................................................................................................................... 26
+Figure 21: Percentage distribution of households who knew where to take a victim of crime to access selected
+services by province ................................................................................................................................................... 27
+Figure 22: Percentage distribution of households who knew of a place of safety/shelter where they could take
+a victim of domestic violence by type of institution and province ............................................................................... 32
+Figure 23: Percentage distribution of households who knew of a place of safety/shelter where they could take
+a victim of domestic violence by type of institution and population group of the household head ............................. 33
+Figure 24: Percentage distribution of households’ perceptions of the average length of time it takes to reach
+the nearest police station using their usual mode of transport, 2011 – 2015/16 ........................................................ 34
+Victims of Crime Survey, 2015/16
+
+--- Page 7 ---
+Statistics South Africa vi P0341
+Figure 25: Percentage distribution of households’ perceptions of the average length of time it takes to reach
+the nearest police station using their usual mode of transport by province ............................................................... 35
+Figure 26: Percentage distribution of households’ perceptions of the average length of time it takes the police
+to respond to an emergency call by province ............................................................................................................. 36
+Figure 27: Percentage distribution of households who saw the police, in uniform and on duty, in their area of
+residence, 2011–2015/16 ........................................................................................................................................... 37
+Figure 28: Percentage distribution of households who saw the police, in uniform and on duty, in their area of
+residence by province, April 2015–March 2016 ......................................................................................................... 38
+Figure 29: Percentage distribution of households who saw the police, in uniform and on duty, in their area of
+residence by population group of the household head ............................................................................................... 39
+Figure 30: Percentage distribution of households who were satisfied with the police in their area by province,
+2011–2015/16 ............................................................................................................................................................. 40
+Figure 31: Percentage distribution of households who were satisfied with the police in their area by population
+group of the household head, 2011–2015/16 ............................................................................................................. 42
+Figure 32: Percentage distribution of households who knew the location of their nearest magistrate court by
+province ...................................................................................................................................................................... 45
+Figure 33 : Percentage distribution of households’ satisfaction with the way courts generally deal with
+perpetrators of crime by province, 2011–2015/16 ...................................................................................................... 46
+Figure 34: Percentage distribution of reasons for households being satisfied with the way courts generally
+deal with perpetrators of crime by province ................................................................................................................ 48
+Figure 35 : Percentage distribution of reasons for household satisfaction with the way courts generally deal
+with perpetrators of crime by population group of the household head, April 2011–March 2016 .............................. 48
+Figure 36 : Percentage distribution of reasons for being dissatisfied with the way in which courts generally
+deal with perpetrators of crime by province, April 2015–March 2016 ........................................................................ 49
+Figure 37: Percentage distribution of reasons for being dissatisfied with the way in which courts generally deal
+with perpetrators of crime by population group of the household head ...................................................................... 50
+Figure 38: Percentage of households who thought that sentencing of violent crime was long enough to
+discourage people from committing these crimes ...................................................................................................... 51
+Figure 39: Percentage distribution of households who heard of trafficking in persons, by mode of
+communication and province ...................................................................................................................................... 52
+Figure 40: Percentage distribution of households’ views on why perpetrators engage in trafficking in persons ...... 53
+Figure 41: Percentage distribution of households’ views on how perpetrators of trafficking in persons recruit
+their victims, April 2015–March 2016.......................................................................................................................... 53
+Figure 42: Percentage distribution of households’ views on who is likely to be a victim of trafficking in persons .... 54
+Figure 43: Percentage distribution of households who knew a place of safety/shelter for victims of trafficking in
+persons, by institution and province ........................................................................................................................... 55
+Figure 44: Percentage distribution of the extent to which households knew of the law on trafficking in persons
+by province .................................................................................................................................................................. 56
+Figure 45: Percentage distribution of the perceptions about services provided by Correctional Services ............... 57
+Figure 46: Percentage distribution of households who were willing to welcome a former prisoner back in their
+community ................................................................................................................................................................... 58
+Figure 47: Percentage distribution of household willing to provide employment to a former prisoner by
+province ...................................................................................................................................................................... 58
+Figure 48: Percentage distribution of perceptions of the level of corruption in the last three calendar years ........... 59
+Figure 49: Percentage distribution of perceptions about why people are engaging in corruption, April 2015–
+March 2016 ................................................................................................................................................................. 60
+Figure 50: Percentage distribution of perceptions about why people are paying bribes ........................................... 61
+Victims of Crime Survey, 2015/16
+
+--- Page 8 ---
+Statistics South Africa vii P0341
+Figure 51: Percentage distribution of households who experienced at least one incident of crime by type of
+crime ........................................................................................................................................................................... 63
+Figure 52 : Distribution of incidents of crime by type and year experienced by selected individuals in
+households .................................................................................................................................................................. 64
+Figure 53: Percentage distribution of incidents of crime reported by the households to the police .......................... 67
+Figure 54: Percentage distribution of incidents of crime reported by the selected individuals to the police ............. 69
+Figure 55: Percentage distribution of households’ reasons for not reporting incidents of crime to the police per
+crime, 2015/16 ............................................................................................................................................................ 70
+Figure 56: Percentage distribution of individuals’ reasons for not reporting incidents of crime to the police per
+crime ........................................................................................................................................................................... 71
+Figure 57: Percentage distribution of household crimes that were reported to anyone else (other than the
+police), by institution reported to ................................................................................................................................. 72
+Figure 58: Percentage distribution of individual crimes that were reported to anyone else (other than the
+police) by institution reported to .................................................................................................................................. 73
+Figure 59: Percentage distribution of households who experienced crime by type of crime and place of
+occurrence, 2015/16 ................................................................................................................................................... 74
+Figure 60: Percentage distribution of time of the day when selected household crimes occurred ........................... 74
+Figure 61: Percentage distribution of the period of the week when household crimes occurred .............................. 75
+Figure 62: Percentage distribution of the time of the day that the housebreaking/burglary took place, by
+province ...................................................................................................................................................................... 76
+Figure 63: Percentage distribution of the manner in which the burglar gained entry into the house, by province .... 77
+Figure 64: Place where robbery or theft of personal property occurred by province (per cent) ................................ 78
+Figure 65: Percentage of selected individuals who knew the perpetrator, and their relationship, if any, to the
+perpetrator by victims of assault ................................................................................................................................. 79
+Figure 66: Place where assault occurred by type of crime ........................................................................................ 81
+Figure 67: Percentage distribution of the motivation behind the assault ................................................................... 82
+Figure 68: Percentage distribution of the motivation behind the murder ................................................................... 83
+Figure 69: Percentage distribution on how consumer fraud took place .................................................................... 84
+Figure 70: Percentage distribution of the weapons used by perpetrators when committing violent crimes .............. 85
+Figure 67: Distribution of primary sampling units by province, 2007 (old) Master Sample and the new Master
+Sample (designed in 2013) ......................................................................................................................................... 89
+Victims of Crime Survey, 2015/16
+
+--- Page 9 ---
+Statistics South Africa viii P0341
+List of maps
+Map 1: Number of households per 10 000 households, who felt safe walking alone when it is dark by province ...... 9
+Map 2: Number of households per 10 000 households, who were prevented from going to parks/open spaces
+due to fear of crime ..................................................................................................................................................... 13
+Map 3: Number of households per 10 000 households, who perceived property crime to be motivated by drug-
+related needs by province ........................................................................................................................................... 19
+Map 4: Number of households per 10 000 households, who saw the police officers on duty at least once a day
+by province, April 2015–March 2016 .......................................................................................................................... 38
+Map 5: Number of households per 10 000 households, who were satisfied with police by province ....................... 41
+Map 6: Number of households per 10 000 households, who were satisfied with courts by province ....................... 47
+Map 7: Number of households per 10 000 households, who reported incidents of housebreaking/burglary by
+province ...................................................................................................................................................................... 68
+Map 8: Number of individuals per 10 000 population, who reported assault to the police by province .................... 80
+Victims of Crime Survey, 2015/16
+
+--- Page 10 ---
+Statistics South Africa ix P0341
+List of tables in addendum
+1. Household crime experienced ......................................................................................................................... 96
+1.1 Number of households who experienced at least one household crime by province and type of crime,
+2015/16 ............................................................................................................................................................... 96
+1.2 Number of households who experienced at least one household crime by population group of the
+household head, 2015/16 ................................................................................................................................... 97
+2. Individual crime experienced ........................................................................................................................... 98
+2.1 Number of people aged 16 years and older who experienced at least one individual crime by province,
+2015/16 ............................................................................................................................................................... 98
+2.2 Number of people aged 16 years and older who experienced at least one individual crime by population
+group of the household head, 2015/16 ............................................................................................................... 99
+3. Public perceptions of crime and safety ........................................................................................................ 100
+3.1 Distribution of households’ feelings of safety when walking alone in their area of residence when it is dark
+by province, 2015/16 ......................................................................................................................................... 100
+3.2 Distribution of households’ feelings of safety when walking alone in their area of residence during the day
+by province, 2015/16 ......................................................................................................................................... 101
+3.3 Household perceptions about the origin of the perpetrators of violent crime in their neighbourhood by
+province, 2015/16 .............................................................................................................................................. 102
+3.4 Household perceptions about the origin of the perpetrators of property crime in their neighbourhood by
+province, 2015/16 .............................................................................................................................................. 103
+3.5 Household perceptions of what motivates people to commit property crime by province, 2015/16 ................. 104
+4. Individual and community response to crime ............................................................................................. 105
+4.1 Total number of measures taken by households to protect themselves against crime by province, 2015/16 . 105
+4.2 Household views on where government should spend money to reduce crime by province, 2015/16 ............ 106
+4.3 Household views on whom to contact first when they suspect that they may become victims of crime by
+province, 2015/16 .............................................................................................................................................. 107
+5. Perceptions of victim support services and citizen interaction/community cohesion ........................... 108
+5.1 Household knowledge of their next-door neighbours’ name by province, 2015/16 .......................................... 108
+5.2 Household involvement in community-based initiatives by province, 2015/16 ................................................. 109
+6. Public perceptions of law enforcement ........................................................................................................ 110
+6.1 Distribution of households' perceptions of correctional services by province, 2015/16 .................................... 110
+6.2 Distribution of households views about policing after having official contact with the police by province,
+2015/16 ............................................................................................................................................................. 111
+6.3 Total number of household perceptions of police response time to an emergency call by province,
+2015/16 ............................................................................................................................................................. 112
+6.4 Distribution of household reasons for being satisfied with the police by province, 2015/16 ............................. 113
+6.5 Distribution of households reasons for being dissatisfied with the police by province, 2015/16 ...................... 114
+6.6 Distribution of households’ knowledge about the location of the nearest magistrate court by province,
+2015/16 ............................................................................................................................................................. 115
+6.7 Distribution of household reasons for satisfaction with the courts by province, 2015/16 ................................. 116
+6.8 Distribution of household reasons for dissatisfaction with the courts by province, 2015/16 ............................. 117
+Victims of Crime Survey, 2015/16
+
+--- Page 11 ---
+Statistics South Africa 1 P0341
+Victims of crime survey: 2015/16
+This statistical release presents a selection of key findings from the Victims of Crime Survey (VOCS) 2015/16,
+which was conducted by Statistics South Africa (Stats SA) from April 2015 to March 2016.
+1. Introduction
+During the past two decades a number of surveys related to crime, crime victims and users of services provided by
+the safety and security cluster departments have been conducted by various service providers in South Africa.
+Statistics South Africa conducted its first Victims of Crime Survey (VOCS) in 1998, followed by the surveys in 2003
+and 2007 which were conducted by the Institute for Security Studies (ISS).The government regards crime
+prevention and safety as a high priority,the results from VOCS aim to assist the government to measure the extend
+and levels of crime.
+Stats SA started conducting the annual collection of the VOCS as from 2011. Data collections for VOCS 2011 and
+VOCS 2012 were conducted from January to March of that year and referred to incidents of crime experienced
+during the previous year (i.e. from January to December). Since 2013, Stats SA has changed the data collection
+methodology to continuous data collection. Data is collected from April of the current year to March of the
+proceeding year.
+The Victims of Crime Survey (VOCS) series is a countrywide household-based survey and has three main
+objectives:
+ Provide information about the dynamics of crime from the perspective of households and the victims of
+crime.
+ Explore public perceptions of the activities of the police, prosecutors, courts and correctional services in
+the prevention of crime and victimisation.
+ Provide complementary data on the level of crime within South Africa (SA) in addition to the statistics
+published annually by the South African Police Service (SAPS).
+The VOCS focuses on people’s perceptions and experiences of crime, as well as their views regarding their access
+to, and effectiveness of the police service and the criminal justice system. Households are also asked about
+community responses to crime. The survey profiled different aspects that are inherent in the different types of
+crime, such as the location and timing of the different crimes, the use of weapons and the nature and extent of the
+violence that takes place. The VOCS 2015/16 is comparable to the previous versions in cases where the questions
+remained largely unchanged.
+While the VOCS cannot replace police statistics, it can be a rich source of information which will assist in the
+planning of crime prevention as well as providing a more holistic picture of crime in South Africa. The data can be
+used for the development of policies and strategies, as well as for crime prevention and public education
+programmes. The VOCS 2015/16 will also be used to pilot the possibility of integrating the crime statistics obtained
+from administrative data with those of a sample survey in order to maximise our understanding of the extent of
+crime and the under-reporting of crime. The reference period for the experience of crime estimates is April 2015 to
+February 2016, while questions on perceptions referred to the collection period (i.e. April 2015 to March 2016).
+2. Target population and sample
+The target population of the survey consists of all private households in all nine provinces of South Africa and
+residents in workers’ hostels. The survey does not cover other collective living quarters such as students’ hostels,
+old-age homes, hospitals, prisons and military barracks, and is therefore only representative of non-institutionalised
+and non-military persons or households in South Africa.
+The VOCS 2015/16 sample was calibrated using the Population Estimates of Mid May 2015 (based on the 2015
+series). As a result, the previous instances (2011 to 2014/15), were also re-weighted and benchmarked to the
+National Household estimates to enhance comparability between the three sets of weights. More details about the
+methodology, the response rates and limitations to the study can be found in Section 12.
+Victims of Crime Survey, 2015/16
+
+--- Page 12 ---
+Statistics South Africa 2 P0341
+3. Summary of the key findings
+During the last five years South African households experienced a sharp decline of home robberies and
+housebreakings from 931 000 (6,8%) in 2010 to (807 000) 5,7% in 2015/16. The percentage of households
+experiencing other crimes remained constant or declined marginally over the same period. Theft of personal
+property also saw a steady decline from 889 000 (2,5%) in 2011 to 712 000 (2%) in 2015/16. Despite the good
+news about achievements over the last five years, South Africans feel that violent and property crime is increasing
+to the extent that the majority of households don’t feel safe to walk alone in parks or allow their children to play
+freely in their neighbourhoods; this is according to Statistics South Africa’s (Stats SA) Victims of Crime Survey
+(VOCS). The Statistician-General, Dr Pali Lehohla released the annual results of the VOCS 2015/16 on 14
+February 2016.
+VOCS provides information on crime trends and households’ perceptions about safety and law enforcement. When
+asked about their opinions on crime, households thought that housebreaking/burglary and home robbery were the
+most common and most feared types of crime. This is in agreement with the actual count of household experience
+of crime, where housebreaking/burglary and home robbery also emerged as the most prevalent household crimes.
+The prevalence of housebreaking/burglary essentially remained unchanged at about 5% between 2010 and
+2015/16, representing about 647 000 cases in 2015/2016. About 712 000 (2%) of individuals experienced theft of
+their personal property, while 254 000 (0,7%) experienced assault in 2015/16. Crime reporting rates varies a lot
+depending on the type of crime from 95% in the case of murder to 17,3% in the case of crop theft were reported to
+the police. The majority of households said they did not report crime incidents to the police because they believed
+the police could not or would not do anything.
+The survey showed declining trends in the households’ levels of satisfaction with the police and courts between
+2010 and 2015/16. In 2011, an estimated 64,2% of households were satisfied with the police in their area, while
+about 58,8% were satisfied with the police in 2105/16. The decline in satisfaction with the police was most severe
+in the Western Cape from 71,3% in 2011 to 57,1% in 2015/16. Those who were satisfied with the courts thought
+that courts passed appropriate sentences, while of those who were satisfied with the police were of the opinion that
+the police were gender and disability sensitive and tolerant. The survey also provide evidence of decline in police
+visibility during the last five years.
+From 2011 to 2015/16, a noticeable decline was observed in the percentage of households who felt safe walking
+alone both during the day or when it was dark while throughout the period the majority felt safer walking during the
+day than in darkness. Slightly more than a third of households felt safe walking alone in their area. As a result of
+fear of crime, households in South Africa take measures to protect themselves and their property. More than half of
+the households took physical protection measures for their homes and slightly more than a third of vehicle owners
+took protection measures for their vehicles. When asked about what they perceived to be the motive for
+perpetrators for committing property crimes, more than three-quarters of households in South Africa thought that
+property crimes were committed because of drug-related motives. The perception that drugs were a reason behind
+the high prevalence of violent and property crime featured predominantly in Eastern Cape (90,1%), Western Cape
+(84,6%) and Gauteng (80,8%).
+When households were asked about their knowledge of trafficking in persons, the majority indicated that they heard
+of trafficking in persons through the media. Most households thought that the perpetrators of trafficking in persons
+engaged in this crime for sexual exploitation of their victims and to extract their body parts. About 90% of
+households felt that young girls were most vulnerable to being victims of human trafficking.
+Dr Pali Lehohla
+Statistician-General
+Victims of Crime Survey, 2015/16
+
+--- Page 13 ---
+Statistics South Africa 3 P0341
+4. Households’ perceptions of crime and safety
+This section addresses the extent to which people in South Africa ‘are and feel safe’ as outlined in the Medium-
+Term Strategic Framework (MTSF) for the period 2014–2019. Households’ views about crime, types of crime that
+are perceived to be common and feared as well as their feeling of safety when alone in their areas are discussed.
+The impact of crime on households’ daily activities, their view about perpetrators of crime as well as their response
+to crime are also covered.
+4.1 Views about violent and non-violent crime levels
+The VOCS asked households about their perceptions of how the levels of violent crime have changed in the three
+years prior to the survey.
+Figure 1: Percentage distribution of households’ perceptions about change in violent crime levels in their areas
+50,0
+45,0
+40,0
+35,0
+30,0
+25,0
+20,0
+2011 2012 2013/14 2014/15 2015/16
+Increased 31,7 32,5 41,2 43,7 41,8
+Decreased 42,9 38,2 31,7 28,7 28,1
+Stayed the same 25,5 29,2 27,1 27,6 30,1
+Households’ perceptions about change in violent crime levels between 2011 and 2015/16 are depicted in Figure 1.
+In 2015/16 most households (41,8%) were of the view that violent crime in their area had increased in the last three
+years as compared to 31,7% for in 2011. Overall, during the period 2011–2014/15 the percentage of households
+who felt that violent crime levels had increased, grew steadily while those who felt the levels of violent crime
+decreased declined.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 14 ---
+Statistics South Africa 4 P0341
+Figure 2: Percentage distribution of households’ perceptions about violent crime levels in their area of residence in
+the three years prior to the survey, by province, 2015/16
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+WC EC NC FS KZN NW GP MP LP RSA
+Increased 52,2 45,5 43,8 48,0 35,6 47,4 36,6 38,4 45,8 41,8
+Decreased 12,9 18,8 23,1 31,0 33,1 25,8 33,6 31,8 29,6 28,1
+Stayed the same 34,9 35,6 33,1 21,0 31,3 26,8 29,8 29,8 24,6 30,1
+Figure 2 depicts a provincial distribution of households’ perceptions of the levels of violent crime in their areas of
+residence in 2015/16. Western Cape had the highest proportion of households who said that crime increased
+(52,2%), followed by Free State (48,0%) and North West (47,4%). Gauteng (33,6%) and KwaZulu-Natal (33,1%)
+had the highest percentage of households who felt that violent crime decreased during the past three years.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 15 ---
+Statistics South Africa 5 P0341
+Figure 3: Percentage distribution of households’ perceptions about property crime levels in their area of residence
+50,0
+45,0
+40,0
+35,0
+30,0
+25,0
+20,0
+15,0
+2011 2012 2013/14 2014/15 2015/16
+Increased 34,2 34,7 44,1 46,7 45,6
+Decreased 41,6 37 30,3 27,6 26,2
+Stayed the same 24,2 28,3 25,7 25,7 28,2
+Households’ perceptions about property crimes levels between 2011 and 2015/16 are shown in Figure 3. In
+2015/16 about 45,6% of households were of the view that property crime had increased in their area in the last
+three years as compared to 34,2% in 2011. There is a clear upward trend between 2011 and 2015 of those who
+believe that crime increased over the last three years and a downward trend for those believing that crime
+decreased.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 16 ---
+Statistics South Africa 6 P0341
+Figure 4: Percentage distribution of households’ perceptions about change in property crime levels in their area of
+residence, by province
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+WC EC NC FS KZN NW GP MP LP RSA
+Increased 57,6 49,8 44,9 47,7 41,2 49,1 40,6 45,0 45,8 45,6
+Decreased 12,2 18,1 22,1 32,6 29,1 23,6 31,6 27,2 29,0 26,2
+Stayed the same 30,3 32,1 33,0 19,7 29,7 27,3 27,8 27,8 25,1 28,2
+Figure 4 depicts a provincial distribution of households’ perceptions of the levels of property crime in their areas of
+residence in the period 2011–2015/16. The majority of households in South Africa indicated that property crime
+increased (45,6%). Western Cape had the highest proportion of households who said that property crime increased
+(57,6%), followed by Eastern Cape (49,8%) and North West (49,1%). The proportion of households that thought
+crime had decreased were higher in Free State (32,6%) and Gauteng (31,6%), as compared to other provinces.
+The graphs for violent and property crime are very similar implying that respondents seem to have the same views
+on the two types of crime. That is, if a respondent says violent crime is on the increase, he/she is more like to say
+the same thing about property crime.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 17 ---
+Statistics South Africa 7 P0341
+4.2 Crimes perceived to be the most common and most feared
+Figure 5: Crimes perceived by households to be the most common in South Africa, 2011–2015/16
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+2011 2012 2013/14 2014/15 2015/16
+Housebreaking/burglary 52,6 58,7 61,3 66,0 58,8
+Home robbery 49,4 45,5 43,0 43,5 38,5
+Street robbery 41,3 41,4 39,3 42,6 41,5
+Pick-pocketing or bag-snatching 29,0 32,2 24,4 26,5 17,9
+Assault 21,0 23,1 20,3 20,8 19,4
+Business robbery 15,9 17,9 16,4 19,6 17,9
+Murder 15,9 16,9 16,4 17,4 15,9
+A time series analysis of crime types perceived to be the most common by households in their area of residence
+between 2011 and 2015/16 is shown in Figure 5. The majority of households perceived housebreaking/burglary as
+the most common crime type followed by street robbery, home robbery and assault. The percentage of households
+who thought that housebreaking was the most common crime increased steadily from 52,6% in 2011 to 66,0% in
+2014/15 and then declined to 58,8% in 2015/16. On the other hand the perception that any other type of crime is
+the most common has either been declining or remained constant during the same period.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 18 ---
+Statistics South Africa 8 P0341
+Table 1: Crimes perceived by households to be the most common and feared in South Africa, April 2015–March 2016
+Crime perceived to be most common Crime feared most
+Crime type
+Number Per cent Number Per cent
+Housebreaking/burglary 9187 58,8 7711 49,2
+Street robbery 6499 41,5 6559 41,9
+Home robbery 6026 38,5 7124 45,5
+Assault 3037 19,4 3371 21,5
+Business robbery 2809 17,9 2469 15,8
+Pick-pocketing or bag-snatching 2795 17,9 2698 17,2
+Murder 2495 15,9 5590 35,7
+Livestock/poultry theft 1698 10,9 1659 10,6
+Car theft or any type of vehicle 1622 10,4 2001 12,8
+Vehicle hijacking 1592 10,2 2352 15
+Mob justice/vigilante group 890 5,7 1534 9,8
+Crop theft 712 4,6 1390 8,9
+Other 749 4,8 474 3,0
+Child abuse 658 4,2 1698 10,9
+Bicycle theft 635 4,1 1124 7,2
+Political violence 367 2,3 1223 7,8
+Deliberate damage to dwelling 343 2,2 1034 6,6
+White-collar crime 347 2,2 1033 6,6
+Identity document theft 213 1,4 1114 7,1
+Table 1 shows crimes that were perceived to be the most common and those that were feared by households.
+About 58,8% households perceived the most common crime to be housebreaking/burglary, followed by street
+robbery (41,5%) and home robbery (38,5%). Housebreaking/burglary (49,2%) and home robbery (45,5%) were the
+most feared crimes followed by street robbery (41,9%) and murder (35,7%). It appears that the fear is driven by
+experience rather than the severity of the crime. Housebreaking/burglary and home robbery being perceived as the
+most common crimes are also the most feared, even more than the serious crimes of murder and assault. Figure
+51 later actually shows household experience of crime correlates positively with perceptions of the type of crime
+that is considered most common. Housebreaking/burglary and home robbery also ranks top in terms of actual
+household experience.
+Victims of Crime Survey, 2015/16
+
+--- Page 19 ---
+Statistics South Africa 9 P0341
+Households’ feelings of safety
+Map 1: Number of households per 10 000 households, who felt safe walking alone when it is dark by province
+Map 1 depicts the extent to which households felt safe to walk alone in their areas of residence when it is dark per
+10 000 households. Feelings of insecurity were the highest in Limpopo while households in Free State were most
+likely to feel safe walking alone in the dark.
+Victims of Crime Survey, 2015/16
+
+--- Page 20 ---
+Statistics South Africa 10 P0341
+Figure 6: Comparison of feeling of safety when walking alone in their areas of residence during the day and when it is
+dark, April 2015–March 2016
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+Very safe Fairly safe A bit unsafe Very unsafe
+During the day 55,1 28,6 10,8 5,6
+When it is dark 10,3 20,4 19,1 50,2
+Figure 6 shows the percentage distribution of households’ feelings of safety when walking alone in their areas of
+residence during the day and when it is dark. About 83,7% of households felt safe in their area during the day
+(55,1% very safe and 28,6% fairly safe), while 69,3% felt unsafe when it is dark (19,1% a bit unsafe and 50,2%
+very unsafe). The graph shows the biggest gap between feeling of safety during the day and in the dark in the
+extremes, very safe and very unsafe. The majority feeling very safe during the day and very unsafe when it is dark.
+This result may be explained by actual household experience that most crimes happen when it is dark.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 21 ---
+Statistics South Africa 11 P0341
+Figure 7: Percentage distribution of households who felt safe walking alone in their areas of residence during the day
+and when it is dark, 2011–2015/16
+100,0
+90,0
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+2011 2012 2013/14 2014/15 2015/16
+Safe during the day 89,2 85,4 86,8 85,4 83,7
+Safe when it is dark 36,9 35,9 34,8 31,0 30,7
+The percentage of households who felt safe walking alone in their areas of residence during the day and when it is
+dark from 2011 to 2015/16 is shown in Figure 7. The graphs show that during the last five years people in South
+Africa consistently felt a lot safer walking in their neighbourhoods during the day than when it is dark. There is also
+evidence of a steadily declining trend for both series indicating that the feeling of safety when walking alone has
+been declining.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 22 ---
+Statistics South Africa 12 P0341
+4.3 Impact of crime
+Figure 8: Percentage distribution of households who were prevented from engaging in daily activities when alone, as a
+result of crime in their area, 2011–2015/16
+40,0
+35,0
+30,0
+25,0
+20,0
+15,0
+10,0
+5,0
+0,0
+2011 2012 2013/14 2014/15 2015/16
+Using public transport 10,8 11,7 11,8 12,8 11,9
+Walking to the shops 11,1 11,5 11,7 13,1 12,6
+Walking to the work/town 12,4 13,9 15,0 16,9 16,3
+Going to open spaces or parks 32,3 35,2 35,0 35,8 33,2
+Allowing children to play in area 21,0 23,0 24,9 24,6 22,7
+Allowing children to walk to school 13,4 15,4 17,1 17,9 15,4
+Keeping livestock/poultry 12,6 9,9 11,7 11,9 11,7
+Investing in/starting a home business 8,1 8,4 10,1 12,0 11,8
+Dressing in anyway you want 13,9
+Expressing your sexual orientation 11,4
+Note: Dressing in anyway you want and expressing your sexual orientation were not measured prior to 2015/16
+Figure 8 shows a time series analysis of the percentage of households who were prevented from engaging in daily
+activities as a result of crime in their area of residence. Generally, there was a slight percentage increase amongst
+households who were prevented from doing their daily activities alone in their areas of residence between 2011-
+2015/16. About 33,2% of households were prevented from going to open spaces or parks as a result of crime in
+their area of residence in 2015/16, while 22,6% of households were prevented from allowing children to play
+outside as a result of the prevalence of crime in their areas. Households who indicated that they were prevented in
+dressing in anyway they want was 13,9% while those who were prevented from expressing sexual orientation was
+about 11,4%.
+Going to open spaces or parks and allowing children to play outside are clearly the most affected activities as a
+result of fear of crime throughout the period 2011 – 2016. However the increase, since 2011, in the percentage of
+households prevented from doing any of the activities does not seem to be significant.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 23 ---
+Statistics South Africa 13 P0341
+Map 2: Number of households per 10 000 households, who were prevented from going to parks/open spaces due to
+fear of crime
+Map 2 shows households who were prevented from going to parks/open spaces due to the fear of crime per 10 000
+households. Households in Northern Cape, Western Cape and Eastern Cape were more likely to be prevented
+from going to parks/open spaces while Limpopo residents were the least likely to avoid parks/open spaces due to
+the fear of crime.
+Victims of Crime Survey, 2015/16
+
+--- Page 24 ---
+Statistics South Africa 14 P0341
+Table 2: Number and percentage of households prevented from doing daily activities because of fear of crime
+according to province
+Province
+Activity RSA
+Statistics WC EC NC FS KZN NW GP MP LP
+Number 421 132 16 111 318 77 520 146 36 1777
+Using public transport
+Per cent 27,1 8,0 5,5 12,7 12,4 6,9 12,5 12,5 2,4 11,9
+Number 376 193 32 112 360 75 609 137 38 1932
+Walking to the shops
+Per cent 22,5 11,7 10,2 12,6 13,9 6,6 13,9 11,6 2,6 12,6
+Number 286 284 75 150 347 93 723 201 45 2203
+Walking to the work/town
+Per cent 21,4 18,9 28,2 17,4 14,5 10,2 18,0 20,4 3,7 16,3
+Number 291 309 53 151 384 112 653 120 87 2159
+Dressing in anyway you want
+Per cent 16,7 18,5 16,4 16,9 14,7 9,4 14,8 10,2 5,9 13,9
+Expressing your sexual Number 167 285 42 130 371 60 534 81 87 1758
+orientation
+Per cent 9,7 17,2 13,2 14,5 14,3 5,1 12,2 7,0 5,9 11,4
+Number 803 748 164 275 575 256 1673 348 192 5033
+Going to open spaces or parks
+Per cent 48,4 46,0 52,5 31,2 22,2 22,1 38,7 29,9 13,1 33,2
+Number 467 329 70 189 387 88 1085 170 72 2858
+Allowing children to play in area
+Per cent 42,9 25,9 26,3 24,2 16,8 9,2 29,7 17,1 5,7 22,7
+Allowing children to walk to Number 342 186 42 126 294 52 739 89 12 1881
+school
+Per cent 34,7 14,7 16,8 16,5 12,9 5,5 21,0 9,2 0,9 15,4
+Number * 274 25 79 253 64 86 65 52 903
+Keeping livestock/poultry
+Per cent * 26,9 13,3 15,2 14,4 8,7 5,0 10,5 5,3 11,7
+Investing in/starting a home Number 240 283 28 73 243 70 388 171 75 1570
+business
+Per cent 18,7 19,9 8,8 10,2 10,5 6,4 10,8 15,4 5,3 11,8
+Number 13 134 12 21 78 13 41 153 98 563
+Walking to fetch wood/water
+Per cent 7,3 10,8 5,7 4,1 4,0 1,6 2,0 16,7 6,8 6,0
+*Numbers below 10 000 are too small to provide accurate estimates. Sensitive cells are indicated by an asterisk.
+Table 2 depicts a provincial distribution of households who were prevented from engaging in their daily activities in
+their area of residence due to fear of crime. In South Africa more than a third of the households (33,2%) avoided
+going to open spaces or parks because of fear of crime. Allowing children to play in their area is the second most
+affected activity (22,7%) in South Africa due to fear of crime.
+It is clear from the table that the most affected activity as a result of fear of crime, across all provinces except
+Limpopo, is going to open spaces or parks. About half the households in the Western Cape, Eastern Cape and
+Northern Cape say they no longer go to open spaces or parks due to fear of crime. This activity is least affected in
+Limpopo with only 13% of the households saying that they do not go to open spaces or parks because of fear of
+crime.
+Western Cape is the province with most activities heavily affected due to fear of crime. High percentages of
+households in the western Cape avoid going to open spaces or parks (48,4%), allowing children to play in their
+area (42,9%) and allowing children to walk to school (34,7%).
+Victims of Crime Survey, 2015/16
+
+--- Page 25 ---
+Statistics South Africa 15 P0341
+Table 3: Number and percentage of households prevented from doing daily activities because of fear of crime
+according to population group
+Population group
+Activity RSA
+African Indian/
+Statistics Coloured White
+Black Asian
+Number 1209 161 104 303 1777
+Using public transport
+Per cent 9,8 15,6 30,7 27,4 11,9
+Number 1325 176 117 315 1932
+Walking to the shops
+Per cent 10,6 16,3 31,9 22,7 12,6
+Number 1592 170 121 320 2203
+Walking to the work/town
+Per cent 14,5 18,9 34,2 25,0 16,3
+Number 1657 207 68 227 2159
+Dressing in anyway you want
+Per cent 13,3 19,1 18,6 14,4 13,9
+Number 1379 167 49 164 1758
+Expressing your sexual orientation
+Per cent 11,1 15,4 13,4 10,5 11,4
+Number 3729 450 158 697 5033
+Going to open spaces or parks
+Per cent 30,4 42,9 43,3 46,0 33,2
+Number 2052 318 95 393 2858
+Allowing children to play in area
+Per cent 19,6 37,1 31,3 40,3 22,7
+Number 1280 231 79 292 1881
+Allowing children to walk to school
+Per cent 12,5 28,4 26,8 33,8 15,4
+Number 833 19 * 42 903
+Keeping livestock/poultry
+Per cent 12,0 7,7 * 10,0 11,7
+Number 1255 139 51 125 1570
+Investing in/starting a home business
+Per cent 11,5 17,4 17,5 9,8 11,8
+Number 537 15 * * 563
+Walking to fetch wood/water
+Per cent 6,3 5,6 * * 6,0
+*Numbers below 10 000 are too small to provide accurate estimates. Sensitive cells are indicated by an asterisk.
+Table 3 summarises the number and percentage of households who were prevented from engaging in daily
+activities because of fear of crime, by population group of the household head. Generally, most of the households
+in South Africa indicated that they avoided going to open spaces or parks due to fear of crime. Households headed
+by white (46,0%) population groups were most likely to be in this position, followed by the Indian/Asian headed
+households (43,3%) and coloured household heads (42,9%). Due to fear of crime, the same trend was also
+observed whereby they would not allow children to play freely in the area.
+The percentage of households saying they do not use public transport, walk to the shops and walk to work or to
+town due to fear of crime are significantly higher for Indian/Asian and whites than Blacks and coloureds. The
+difference between the two population clusters may also be due to availability of alternative means of travel for
+Indian/Asian and whites while no such alternatives exist for black and coloured people. Going to open spaces or
+parks is the most affected activity for all races even though the magnitude differ between population groups with
+whites at 46% and blacks at 30,4%.
+Allowing children to play in the area of residence and allowing children to walk to school divides the population
+groups into two categories. Black Africans have significantly lower percentages than coloureds, Indian/Asians and
+whites. The structure of predominantly black communities may provide additional explanation as to why these
+communities feel safer to allow their children to play in area of residence and allow children to walk to school
+compared to other population groups.
+Victims of Crime Survey, 2015/16
+
+--- Page 26 ---
+Statistics South Africa 16 P0341
+4.4 Households’ views about perpetrators of crime
+Figure 9: Percentage distribution of households’ perception on the most likely perpetrators of property crime, by
+province over a five year period
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+2011 2012 2013/14 2014/15 2015/16
+People from outside South Africa 6,6 6,5 6,0 6,0 5,5
+People from other areas in South Africa 31,7 32,0 31,5 31,3 30,5
+People from this area 61,8 61,4 62,5 62,7 64,1
+Figure 9 shows households’ perceptions about people who were most likely to be perpetrators of property crimes
+over the five year period. There is clearly no significant difference, between years, on perception of who is most
+likely to commit property crime. Essentially the same distribution (64%, 31%, 6%) for “people from the area”, people
+from other areas in South Africa” and “people from outside South Africa” persisted for the entire period of five
+years.
+Figure 10: Percentage distribution of households’ perception on the most likely perpetrators of property crime, by
+province
+Figure 10 depicts the provincial distribution of households’ perception on the most likely perpetrators of property
+crime. The pattern is the same for all provinces where most households think that people from their area are the
+most likely to commit property crime, followed by people from other areas in South Africa and lastly people from
+outside South Africa. Gauteng, Limpopo and North West have the highest percentages of households who think
+Victims of Crime Survey, 2015/16
+egatnecreP
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+WC EC NC FS KZN NW GP MP LP RSA
+People from this area 58,1 69,6 75,4 74,9 73,2 69,4 48,7 71,5 70,2 64,1
+People from other areas in South Africa 40,3 29,7 23,1 21,2 25,9 24,2 39,3 26,3 18,8 30,4
+People from outside South Africa 1,6 0,7 1,5 3,9 0,9 6,5 12,1 2,2 11,0 5,5
+egatnecreP
+
+--- Page 27 ---
+Statistics South Africa 17 P0341
+that people from outside South Africa are most likely to commit property crime in their areas. These estimates may
+be used as predictors among others for the likelihood of violence against foreign nationals as crime has in the past
+used as one of the reasons local residents did not want foreigners in their area. While Gauteng has been in the
+news many times on xenophobic violence the same cannot be said about Limpopo and North West.
+Figure 11: Percentage distribution of households’ perception on the most likely perpetrators of violent crime
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+2011 2012 2013/14 2014/15 2015/16
+People from outside South Africa 6,6 6,7 5,8 6,1 5,7
+People from other areas in South Africa 32,3 32,9 32,0 32,1 31,8
+People from this area 61,1 60,4 62,1 61,7 62,5
+Figure 11 depicts a time series of households’ perceptions about the most likely perpetrators of violent crime. It is
+important to note that violent crime series follows the same pattern as property crime in Figure 9. Again there is no
+significant difference between years from 2011 to 2015/16.
+Figure 12: Percentage distribution of households’ perception on the most likely perpetrators of violent crime, by
+province
+Figure 12 shows the provincial distribution of households’ perceptions about perpetrators of violent crime. Again
+this is a repetition of the pattern in Figure 10.
+Victims of Crime Survey, 2015/16
+egatnecreP
+100,0
+90,0
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+WC EC NC FS KZN NW GP MP LP RSA
+People from this area 59,0 68,4 80,1 74,5 71,0 66,7 47,4 70,5 70,5 63,2
+People from other areas in South Africa 39,5 31,3 18,8 23,6 28,1 27,0 40,9 27,1 18,8 31,6
+People from outside South Africa 1,5 0,3 1,1 1,9 0,9 6,3 11,7 2,4 10,8 5,2
+egatnecreP
+
+--- Page 28 ---
+Statistics South Africa 18 P0341
+Figure 13: Percentage distribution of households’ perceptions of why perpetrators commit property crime
+100,0
+90,0
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+2011 2012 2013/14 2014/15 2015/16
+Drugs related need 66,3 74,8 76,7 77,5
+Real need 56,9 56,4 45,7 47,4 48,4
+Greed 45,8 37,7 43,4 43,1 42,1
+Non-financial motives 29,2 25,2 29,3 28,8 27,6
+Other 21,0 5,5 3,9 0,1 3,7
+Note: Drug- related need was not measured in 2011.
+Figure 13 shows a time series of households’ perceptions of reasons why perpetrators commit property crime. The
+ranking of reasons for commiting crime remained constant during the last five years with drugs related need being
+the top and other reasons being at the bottom. The percentage distribution for these various categories remained
+fairly constant over the five year period with “drug related need” at about 70% throughout.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 29 ---
+Statistics South Africa 19 P0341
+Map 3: Number of households per 10 000 households, who perceived property crime to be motivated by drug-related
+needs by province
+Map 3 shows the number of households per 10 000 households who thought that property crimes were committed
+for drug-related needs. Eastern Cape had the highest number of households who thought that property crime was
+motivated by drug-related needs.
+Victims of Crime Survey, 2015/16
+
+--- Page 30 ---
+Statistics South Africa 20 P0341
+Figure 14: Percentage distribution of households’ perceptions of why perpetrators commit property crime by province
+100,0
+90,0
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+WC EC NC FS KZN NW GP MP LP RSA
+Drugs related need 83,2 90,1 77,6 65,3 80,2 64,5 80,8 73,3 63,1 77,5
+Real need 35,8 34,6 34,1 55,4 39,0 56,5 56,9 51,3 59,6 48,4
+Greed 24,7 48,4 34,3 37,7 43,4 47,7 45,0 44,4 42,9 42,1
+Non-financial motives 12,7 34,3 31,9 26,4 37,0 32,9 26,2 21,5 25,9 27,6
+Other 9,1 1,3 14,8 6,5 3,0 1,7 2,4 6,1 1,3 3,7
+Households’ perceptions of why perpetrators commit property crime by province are shown in Figure 14. The
+pattern of household perceptions concerning reasons for commiting property crime is more or less the same for all
+nine provinces with minor exceptions for the Eastern Cape and KwaZulu-Natal where greed is ranked second
+instead of the third place.
+Eastern Cape had the highest percentage of households who thought that crime was committed because of drug-
+related needs (90,1%), followed by Western Cape (83,2%) and Gauteng (80,8%). Limpopo (59,6%), Gauteng
+(56,9%) and North West (56,5%) had the highest percentage of households who felt that perpetrators commit crime
+because of real need. With regard to households who said that perpetrators commit crimes for non-financial
+motives, again the Eastern Cape had the highest percentage (34,3%).
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 31 ---
+Statistics South Africa 21 P0341
+Figure 15: Percentage distribution of households’ perceptions of why perpetrators commit property crime by
+population group of the household head
+100,0
+90,0
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+Black African Coloured Indian/Asian White RSA
+Drugs related need 77,4 87,3 84,7 70,2 77,5
+Real need 49,2 36,0 44,4 51,1 48,4
+Greed 42,3 29,9 53,7 46,4 42,1
+Non-financial motives 28,7 20,2 34,3 22,9 27,6
+Other 3,0 9,1 3,3 5,5 3,7
+Figure 15 depicts households’ perceptions of why perpetrators commit property crime by population group of the
+household head. The distribution of perceptions for the various reasons for commiting property crime is the same
+across population groups except for a minor deviation for Indian/Asians where greed is ranked second instead of
+the third place.
+Households headed by coloured people (87,3%) and Indian/Asian (84,7%) population groups had the highest
+percentages of people who perceived that crime was perpetrated because of drug-related needs. However this was
+by far the most perceived reason across all population groups. Households headed by people from the white
+population group were further most likely to feel that ‘’real need’’ was the main reason why people perpetrated
+property crimes (51,1%).
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 32 ---
+Statistics South Africa 22 P0341
+4.5 Households’ response to crime
+Figure 16: Percentage distribution of households’ who took measures to protect themselves from crime, 2011–2015/16
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+2011 2012 2013/14 2014/15 2015/16
+Physical protection measures of home 49,0 48,4 49,4 51,6 51,2
+Physical protection measures of vehicle 21,7 22,0 25,0 29,1 31,5
+Carrying of weapon 5,1 4,2 5,2 4,0 5,5
+Private security 10,6 10,2 11,4 11,3 11,4
+Self-help group 9,6 8,0 7,2 7,4 6,2
+Figure 16 shows percentage distribution of households who took measures to protect themselves from crime
+between 2011 and 2015/16. Between 2014/15 and 2015/16, about half of the households took physical protection
+measures of home to protect themselves from crime. There was an increase of about 2,4 percentage points in the
+same period among those households who indicated that they took physical protection measures of vehicle. About
+11,4% of households opted to acquire private security services to protect themselves from crime while the number
+of households who contacted self-help groups declined from 9,6% in 2011 to 6,2% in 2015/16.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 33 ---
+Statistics South Africa 23 P0341
+Figure 17: Percentage distribution of households who took measures to protect themselves from crime by province,
+April 2015–March 2016
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+WC EC NC FS KZN NW GP MP LP RSA
+Physical protection measures of home 66,9 38,3 45,8 49,0 40,5 40,3 65,3 50,0 35,0 51,2
+Physical protection measures of vehicle 45,8 21,2 32,2 13,9 19,7 28,7 40,6 32,1 25,3 31,5
+Carrying of weapon 7,2 6,1 4,9 3,5 4,4 4,5 7,4 4,2 1,8 5,5
+Private security 18,3 4,9 5,2 5,9 9,7 4,9 19,4 6,8 1,7 11,4
+Self‐help group 5,3 3,7 1,3 2,8 1,4 2,6 12,3 5,6 5,8 6,2
+Other 2,9 4,2 8,7 4,0 1,5 0,3 1,9 4,5 0,9 2,5
+Figure 17 shows the distribution of households who took measures to protect themselves from crime in 2015/16.
+Most households in the country took physical protection measures for their homes (51,2%), the highest percentage
+amongst these being in Western Cape (66,9%), followed by Gauteng (65,3%) and Mpumalanga (50,0%). Physical
+protection measures of vehicles were mostly taken in Western Cape (45,8%) and Gauteng (40,6%). Households in
+Gauteng (19,4%) and Western Cape (18,3%) were most likely to hire private security. Gauteng had the highest
+percentage of households who carried weapons as a protection measure (7,4%), followed by Western Cape
+(7,2%).
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 34 ---
+Statistics South Africa 24 P0341
+Figure 18: Percentage distribution of households’ suggestions on where government should spend money in order to
+reduce crime, 2011–2015/16
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+2011 2012 2013/14 2014/15 2015/16
+Social development 6,6
+Economic development 61,1
+The judiciary/courts 13,0 13,6 15,3 15,7 13,1
+Law enforcement 21,3 20,2 21,1 15,2 19,2
+Social/economic development 65,7 66,2 63,6 65,1
+Note: Prior to 2015/16 Social/economic development was measured as one variable.
+Households’ suggestions on where government should spend money in order to reduce crime are summarised in
+Figure 18. The distribution of opinions of households on what the government should spend money on remained
+essentially the same between 2011 and 2014/15. In 2015/16 the question was modified by increasing the number
+of response options from three to four. The Social/Economic development option was split into two options, Social
+development and economic development. Therefore the blue and purple in the 2015/16 bar together represents the
+old Social/Economic development option.
+The 2015/16 results show that hidden under the Social/Economic development option is the fact that the majority of
+households feel that in order to reduce crime, government should spend money on economic development.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 35 ---
+Statistics South Africa 25 P0341
+Figure 19: Percentage distribution of entities contacted first to come to the household’s rescue in the event of being
+victimised by province
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+WC EC NC FS KZN NW GP MP LP RSA
+SAPS 66,7 39,6 70,7 69,3 60,7 51,1 53,2 48,3 44,7 54,5
+Relative/friend 14,5 15,2 11,3 7,2 18,0 17,9 14,4 24,3 32,2 17,4
+Other 0,6 14,7 10,3 14,0 2,2 17,6 8,5 10,6 11,4 8,7
+Private security companies 10,4 3,1 2,1 3,6 6,1 3,0 12,5 5,0 1,8 7,1
+Community Policing Forum 4,0 2,1 2,6 1,7 2,5 2,9 6,3 3,4 3,0 3,8
+Traditional authority 0,1 18,9 0,9 0,1 6,2 1,2 0,2 0,3 1,5 3,4
+Community group/organisation 0,7 4,5 0,8 1,2 2,6 4,5 2,6 5,2 4,2 3,0
+Nobody 2,4 1,4 1,0 2,2 1,1 1,1 1,7 2,1 0,6 1,6
+Metro police 0,6 0,6 0,2 0,7 0,5 0,6 0,6 0,8 0,6 0,6
+Figure 19 shows the entities that households would contact first to come to their rescue in the event of
+victimisation, depicted by province. In every province most households would first call the South African Police
+Service (SAPS) followed by “relative or friend” in seven of the nine provinces. In the Eastern Cape a significant
+(18,9%) would first call the traditional authority.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 36 ---
+Statistics South Africa 26 P0341
+5. Households’ perceptions of victim support services
+This section presents an analysis of the entities contacted first to come to the household’s rescue in the event of
+being victimised, households who knew where to take a victim of crime to access medical and counselling services,
+as well as a place of safety/shelter that households knew of that they could take victims of domestic violence,
+disaggregated by province and population group.
+Figure 20: Percentage distribution of households who knew where to take victims of crime to access selected services
+100,0
+90,0
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+2011 2012 2013/14 2014/15 2015/16
+Medical services 91,2 92,2 93,0 96,3 96,9
+Counselling services 53,8 53,8 57,3 63,0 65,9
+Shelter/place of safety 16,9 15,8 12,7 12,5 11,1
+The proportion of households who knew where to take victims of crime for medical and counselling services grew
+steadily between 2011 and 2016 while the proportion of households who knew the locations of shelters or places of
+safety for victims of crime declined.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 37 ---
+Statistics South Africa 27 P0341
+Figure 21: Percentage distribution of households who knew where to take a victim of crime to access selected
+services by province
+100,0
+90,0
+80,0
+70,0
+60,0
+50,0
+40,0
+30,0
+20,0
+10,0
+0,0
+WC EC NC FS KZN NW GP MP LP RSA
+Medical services 96,0 97,5 99,2 95,0 97,7 97,5 94,7 98,1 99,6 96,9
+Counselling services 53,7 62,7 63,8 63,0 75,7 62,4 66,0 68,9 68,9 65,9
+Shelter/place of safety 15,2 10,3 14,4 15,3 10,2 6,8 12,0 11,0 6,5 11,1
+The provincial distribution of the percentage of households who knew where to take a victim of crime to access
+selected services is depicted in Figure 21. The same pattern is repeated in all nine provinces where knowledge
+about medical services for victims of crime ranks highest (over 90%) followed by counselling services (about 60%)
+and last is the knowledge about the location of shelters or places (11%) of safety for victims of crime. Residents of
+KwaZulu-Natal (75,7%), Mpumalanga (68,9%) and Limpopo (68,9%) were the most likely to know where
+counselling services were. Nationally a much lower percentage of households in the country responded that they
+knew of a shelter or place of safety where they could take a victim of crime (11,1%); residents of Free State
+(15,3%) and Western Cape (15,2%) had the highest likelihood of knowing where the shelters or places of safety
+were.
+Victims of Crime Survey, 2015/16
+egatnecreP
+
+--- Page 38 ---
+Statistics South Africa 28 P0341
+Table 4: Number and percentage of households who knew where to take a victim of crime to access medical services
+by type of institution and province
+Province
+Institutions RSA
+Statistics WC EC NC FS KZN NW GP MP LP
+Number
+Police '000 441 350 127 367 918 368 1259 407 224 4461
+Per cent 26,1 21,4 39,9 42,8 35,9 31,9 29,7 34,6 15,1 29,5
+Number
+Hospital or trauma unit '000 1436 1315 243 708 1771 776 3262 854 909 11275
+Per cent 85,3 80,8 76,9 82,6 69,6 67,4 77,0 72,9 61,6 74,8
+Number
+Local clinic '000 863 1210 184 607 2188 1020 3330 939 1329 11671
+Per cent 51,1 74,3 58,0 70,8 86,2 88,6 78,6 80,1 90,1 77,5
+Number
+Private doctor '000 615 698 112 404 1014 423 2136 456 681 6539
+Per cent 36,5 42,8 35,5 47,1 39,7 36,7 50,3 38,8 46,0 43,3
+Number
+NGO/volunteer group '000 51 79 12 77 162 50 435 57 184 1106
+Per cent 3,0 4,8 3,8 9,0 6,3 4,3 10,2 4,9 12,4 7,3
+Victim empowerment Number
+centres/Thuthuzela '000 29 26 * 16 72 * 151 13 24 343
+centres Per cent 1,7 1,6 * 1,8 2,8 * 3,6 1,1 1,7 2,3
+Number
+Traditional
+'000 28 112 * * 186 56 293 27 94 807
+leader/authority
+Per cent 1,7 6,8 * * 7,3 4,8 6,9 2,3 6,3 5,3
+Number
+Courts '000 11 40 * 49 228 44 259 32 39 702
+Per cent 0,7 2,4 * 5,7 8,9 3,8 6,1 2,7 2,6 4,6
+Number
+Other '000 10 * 10 73 40 * 58 63 * 271
+Per cent 0,6 * 3,0 8,5 1,6 * 1,4 5,3 * 1,8
+Due to rounding, numbers do not necessarily add up to totals,
+*Numbers below 10 000 are too small to provide accurate estimates. Sensitive cells are indicated by an asterisk.
+Table 4 presents the number and percentage of households who knew where to take a victim of crime to access
+medical services by type of institution and province. Over three quarters of households responded that they could
+take victims to a hospital or trauma unit (74,8%) and a local clinic (77,5%). About four in every ten households said
+that they would take victims to a private doctor (43,3%) while about 29,5% of households responded that they
+could take victims to the police. About 5% of households responded that they would take victims to access medical
+services from a traditional leader/authority and courts.
+Victims of Crime Survey, 2015/16
+
+--- Page 39 ---
+Statistics South Africa 29 P0341
+Table 5: Number and percentage of households who knew where to take a victim of crime to access medical services
+by type of institution and population group of the household head
+Population group
+Institutions RSA
+Black
+Statistics Coloured Indian/Asian White
+African
+Number
+Police '000 3599 280 91 490 4461
+Per cent 29,7 26,6 25,0 31,2 29,5
+Number
+Hospital or trauma unit '000 8725 877 306 1367 11275
+Per cent 72,2 83,7 86,0 87,1 74,8
+Number
+Local clinic '000 9935 647 261 827 11671
+Per cent 82,2 61,7 73,4 52,6 77,5
+Number
+Private doctor '000 5140 389 192 817 6539
+Per cent 42,4 37,1 53,5 52,0 43,3
+Number
+NGO volunteer group '000 890 55 25 137 1106
+Per cent 7,3 5,2 6,8 8,7 7,3
+Number
+Victim empowerment centres/Thuthuzela centre '000 255 20 18 51 343
+Per cent 2,1 1,9 4,9 3,2 2,3
+Number
+Traditional leader/authority '000 663 25 33 86 807
+Per cent 5,5 2,4 9,1 5,4 5,3
+Number
+Courts '000 566 19 28 90 702
+Per cent 4,7 1,8 7,8 5,7 4,6
+Number
+Other '000 223 11 * 35 271
+Per cent 1,8 1,0 * 2,2 1,8
+*Numbers below 10 000 are too small to provide accurate estimates. Sensitive cells are indicated by an asterisk.
+An analysis of the number and percentage of households who knew where to take a victim of crime to access
+medical services, disaggregated by population group is shown in Table 5. Amongst those who said that they would
+take the victim to a hospital or trauma unit, a higher percentage was white (87,1%) and Indian/Asian (86,0%)
+household heads. A higher percentage of black African household heads said that they would take the victim to a
+local clinic (82,2%), while Indian/Asian (53,5%) and white (52,0%) household heads were more likely to take the
+victim to a private doctor. More household heads in the white (31,2%) and black African (29,7%) population groups
+reported that they would take a victim of crime to a police station in order for them access medical services.
+Victims of Crime Survey, 2015/16
+
+--- Page 40 ---
+Statistics South Africa 30 P0341
+Table 6: Number and percentage of households who knew where to take a victim of crime to access counselling
+services by type of institution and province
+Province
+Institutions RSA
+Statistics WC EC NC FS KZN NW GP MP LP
+Number
+Police '000 473 357 60 288 847 205 1085 289 142 3747
+Per cent 50,0 34,3 30,2 51,7 42,8 28,5 36,7 35,7 13,9 36,6
+Number
+Hospital or trauma unit '000 530 839 90 365 1257 458 2045 472 671 6727
+Per cent 55,8 80,8 44,9 65,6 63,8 63,9 69,5 58,5 66,1 66,0
+Number
+Local clinic '000 338 633 94 333 1484 567 2157 477 812 6895
+Per cent 35,6 60,9 47,0 59,7 75,5 79,0 73,3 58,6 80,9 67,7
+Number
+Private doctor '000 241 386 44 189 635 223 1352 170 373 3615
+Per cent 26,7 39,6 22,9 34,3 33,7 32,0 47,5 21,6 39,0 36,9
+Number
+NGO/volunteer group '000 117 170 15 49 92 29 291 58 86 907
+Per cent 12,3 16,3 7,7 8,8 4,6 4,0 9,8 7,1 8,4 8,9
+Number
+Victim empowerment centres/Thuthuzela ce '000 68 146 36 24 96 23 327 101 44 864
+Per cent 7,6 15,1 19,0 4,3 5,1 3,3 11,7 13,0 4,7 8,9
+Number
+Traditional leader/authority '000 69 118 21 51 193 73 537 85 195 1342
+Per cent 7,7 11,8 11,1 9,2 10,1 10,4 18,9 10,9 20,3 13,6
+Number
+Courts '000 10 113 12 79 212 31 229 64 31 782
+Per cent 1,1 10,9 5,9 14,1 10,7 4,4 7,8 7,8 3,1 7,6
+Number
+Other '000 28 121 17 102 41 23 89 58 * 480
+Per cent 2,9 11,5 8,6 18,4 2,1 3,1 3,0 7,1 * 4,7
+*Numbers below 10 000 are too small to provide accurate estimates. Sensitive cells are indicated by an asterisk.
+The number and percentage of households who knew where to take a victim of crime to access counselling
+services are depicted in Table 6. Almost seven in every ten households in the country would take a victim of crime
+to a local clinic to access counselling services (67,7%), while about 66,0% of households would take them to a
+hospital or trauma unit. Police (36,6%) and private doctor (36,9%) were also considered as places where victims of
+crime could access counselling services. Less than 10% of household cited NGO/volunteer group and Courts as
+places where they could take victims to access counselling services.
+Of those households who would take a victim to a local clinic, Limpopo had the highest percentage (80,9%),
+followed by North West (79,0%). Those who cited a hospital or trauma unit as the favoured place to take a victim
+were mostly in Eastern Cape (80,8%) and Gauteng (69,5%). Police were mainly preferred as a place to take a
+victim of crime to access counselling services by households in Free State (51,7%) and Western Cape (50,0%).
+Victims of Crime Survey, 2015/16
+

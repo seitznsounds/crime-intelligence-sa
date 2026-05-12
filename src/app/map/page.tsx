@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Globe, ShieldAlert, Target, Activity, Map as MapIcon, ChevronRight, Zap } from "lucide-react";
+import PageShell from "@/components/layout/PageShell";
 
 const HOTSPOTS = [
   { id: 1, name: "Johannesburg Central", x: 620, y: 320, risk: 94, incidents: 12402 },
@@ -12,26 +13,40 @@ const HOTSPOTS = [
   { id: 5, name: "Port Elizabeth", x: 520, y: 820, risk: 65, incidents: 3102 },
 ];
 
+interface Hotspot {
+  id: number;
+  name: string;
+  x: number;
+  y: number;
+  risk: number;
+  incidents: number;
+}
+
 export default function CrimeMapPage() {
-  const [selectedHotspot, setSelectedHotspot] = useState<any>(null);
+  const [selectedHotspot, setSelectedHotspot] = useState<Hotspot | null>(null);
 
   return (
-    <div className="relative min-h-screen bg-background overflow-hidden selection:bg-accent-crimson/30 font-sans transition-colors duration-300">
-      {/* Cinematic Map Background */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#ff3b3003,transparent_70%)]" />
-      <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:60px_60px]" />
-
-      {/* Main Map Container */}
-      <div className="relative z-10 w-full h-screen flex items-center justify-center p-20">
+    <PageShell
+      title="Geospatial Intelligence"
+      subtitle="Interactive 3D visualization of crime density across South Africa. Monitoring 324 active hotspots in real-time."
+      badge="Geospatial Intelligence"
+      badgeColor="crimson"
+      icon={<MapIcon className="w-6 h-6 text-accent-crimson" />}
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Data", href: "/stats" },
+        { label: "Geospatial Map", href: "/map" },
+      ]}
+    >
+      <div className="relative w-full h-[600px] sm:h-[800px] glass-card border-border-glass bg-bg-glass-heavy rounded-3xl overflow-hidden flex items-center justify-center p-4 sm:p-10">
+        {/* Map Canvas */}
         <motion.div 
-          className="relative w-full max-w-5xl aspect-[4/3]"
-          initial={{ opacity: 0, rotateX: 20, scale: 0.9 }}
-          animate={{ opacity: 1, rotateX: 0, scale: 1 }}
-          transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
-          style={{ perspective: "1000px" }}
+          className="relative w-full max-w-4xl aspect-[4/3]"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
         >
           <svg viewBox="0 0 1000 1000" className="w-full h-full drop-shadow-[0_0_50px_rgba(255,59,48,0.05)]">
-            {/* South Africa Stylized Map Path (Simplified) */}
             <motion.path 
               d="M200,750 L150,850 L250,950 L550,900 L850,550 L800,250 L650,150 L350,150 L200,450 Z" 
               fill="var(--bg-glass)"
@@ -42,23 +57,28 @@ export default function CrimeMapPage() {
               transition={{ duration: 2, ease: "easeInOut" }}
             />
             
-            {/* Heat Gradients */}
             {HOTSPOTS.map((spot) => (
               <g key={spot.id}>
                 <motion.circle 
                   cx={spot.x} cy={spot.y} r="60"
-                  className="fill-[radial-gradient(circle,rgba(255,59,48,0.1)_0%,transparent_70%)]"
+                  fill="url(#heatGradient)"
                   animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}
                   transition={{ duration: 4, repeat: Infinity, delay: spot.id * 0.5 }}
                 />
+                <defs>
+                  <radialGradient id="heatGradient">
+                    <stop offset="0%" stopColor="var(--accent-crimson)" stopOpacity="0.15" />
+                    <stop offset="100%" stopColor="var(--accent-crimson)" stopOpacity="0" />
+                  </radialGradient>
+                </defs>
                 <motion.circle 
-                  cx={spot.x} cy={spot.y} r="4" 
-                  className="fill-accent-crimson shadow-glow"
+                  cx={spot.x} cy={spot.y} r="5" 
+                  className="fill-accent-crimson cursor-pointer shadow-glow-crimson"
                   onClick={() => setSelectedHotspot(spot)}
                 />
                 <circle 
-                  cx={spot.x} cy={spot.y} r="15" 
-                  className="fill-transparent stroke-accent-crimson/20 cursor-pointer group hover:stroke-accent-crimson transition-all"
+                  cx={spot.x} cy={spot.y} r="20" 
+                  className="fill-transparent stroke-accent-crimson/10 stroke-1 cursor-pointer hover:stroke-accent-crimson/40 transition-all"
                   onClick={() => setSelectedHotspot(spot)}
                 />
               </g>
@@ -66,134 +86,116 @@ export default function CrimeMapPage() {
           </svg>
 
           {/* Map Controls */}
-          <div className="absolute bottom-0 right-0 p-8 space-y-4">
-            <button className="flex items-center gap-3 px-4 py-2 bg-bg-glass border border-border-glass rounded-lg text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-all backdrop-blur-md">
+          <div className="absolute bottom-6 right-6 flex flex-col gap-3">
+            <button className="flex items-center gap-3 px-4 py-2 bg-bg-glass border border-border-glass rounded-xl text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-all backdrop-blur-md">
               <Zap className="w-3.5 h-3.5" /> High Precision Mode
             </button>
-            <button className="flex items-center gap-3 px-4 py-2 bg-accent-crimson/10 border border-accent-crimson/20 rounded-lg text-[10px] font-bold uppercase tracking-widest text-accent-crimson transition-all backdrop-blur-md">
+            <button className="flex items-center gap-3 px-4 py-2 bg-accent-crimson/10 border border-accent-crimson/20 rounded-xl text-[11px] font-bold uppercase tracking-widest text-accent-crimson transition-all backdrop-blur-md">
               <Target className="w-3.5 h-3.5" /> Recalibrate Hotspots
             </button>
           </div>
         </motion.div>
 
-        {/* Tactical HUD Left */}
-        <div className="absolute top-20 left-20 space-y-8 max-w-sm pointer-events-none">
-          <div className="glass-card p-8 border-border-glass bg-background/40 backdrop-blur-xl">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="p-2 bg-accent-crimson/10 rounded-lg">
-                <ShieldAlert className="w-4 h-4 text-accent-crimson" />
-              </div>
-              <div>
-                <h2 className="text-xl font-bold tracking-tighter uppercase text-foreground">Geospatial Intelligence</h2>
-                <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-muted-foreground">Operational Status: ACTIVE</p>
-              </div>
-            </div>
-            
-            <div className="space-y-6">
-              {[
-                { label: "Active Hotspots", value: "324", color: "text-accent-crimson" },
-                { label: "Regional Risk Index", value: "CRITICAL", color: "text-accent-gold" },
-                { label: "Surveillance Load", value: "94.2%", color: "text-accent-blue" }
-              ].map((m, i) => (
-                <div key={i} className="flex justify-between items-center py-3 border-b border-border-glass">
-                  <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest">{m.label}</span>
-                  <span className={`text-[11px] font-mono font-bold ${m.color}`}>{m.value}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="glass-card p-6 border-border-glass bg-background/40 backdrop-blur-lg">
+        {/* HUD Overlay - Bottom Left */}
+        <div className="absolute bottom-6 left-6 space-y-4 max-w-[280px] hidden md:block pointer-events-none">
+          <div className="glass-card p-5 border-border-glass bg-background/40 backdrop-blur-xl">
             <div className="flex items-center gap-3 mb-4">
-              <Activity className="w-4 h-4 text-muted-foreground animate-pulse" />
-              <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-muted-foreground">Live Intercept Feed</span>
+              <Activity className="w-4 h-4 text-accent-crimson animate-pulse" />
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground">Live Intel Feed</span>
             </div>
-            <div className="space-y-3 font-mono text-[9px] text-muted-foreground uppercase">
-              <p className="flex justify-between"><span>#JHB_SUB_42</span> <span className="text-accent-crimson">ALERT</span></p>
-              <p className="flex justify-between"><span>#CPT_HARBOR_X</span> <span className="text-accent-blue">CLEAR</span></p>
-              <p className="flex justify-between"><span>#DBN_INTL_HUB</span> <span className="text-accent-gold">SCAN</span></p>
+            <div className="space-y-2.5 font-mono text-[10px] text-muted-foreground uppercase">
+              <p className="flex justify-between items-center"><span>#JHB_SUB_42</span> <span className="text-accent-crimson bg-accent-crimson/10 px-1.5 rounded">ALERT</span></p>
+              <p className="flex justify-between items-center"><span>#CPT_HARBOR_X</span> <span className="text-accent-blue bg-accent-blue/10 px-1.5 rounded">CLEAR</span></p>
+              <p className="flex justify-between items-center"><span>#DBN_INTL_HUB</span> <span className="text-accent-gold bg-accent-gold/10 px-1.5 rounded">SCAN</span></p>
             </div>
           </div>
         </div>
 
-        {/* Hotspot Dossier Overlay */}
-        {selectedHotspot && (
-          <motion.div 
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="absolute top-20 right-20 w-[400px] glass-card border-border-glass bg-background/60 backdrop-blur-2xl p-10 z-50 shadow-glow-crimson"
-          >
-            <div className="flex justify-between items-start mb-8">
-              <div className="inline-flex items-center gap-2 px-2 py-0.5 bg-accent-crimson/10 text-accent-crimson text-[9px] font-bold tracking-widest uppercase rounded border border-accent-crimson/20">
-                Hotspot_ID_{selectedHotspot.id}
-              </div>
-              <button 
-                onClick={() => setSelectedHotspot(null)}
-                className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Close_Intel [X]
-              </button>
-            </div>
-
-            <h3 className="text-4xl font-bold tracking-tighter uppercase mb-2 text-foreground">{selectedHotspot.name}</h3>
-            <div className="flex items-center gap-4 mb-10">
-              <div className="flex items-center gap-2 text-muted-foreground">
-                <Globe className="w-3.5 h-3.5" />
-                <span className="text-[10px] font-mono">LAT_LNG: {selectedHotspot.x}, {selectedHotspot.y}</span>
-              </div>
-            </div>
-
-            <div className="space-y-8">
-              <div className="p-6 bg-bg-glass border border-border-glass rounded-2xl">
-                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-4">Tactical Safety Index</p>
-                <div className="flex items-end justify-between gap-4 mb-4">
-                  <div className="flex-1 space-y-1">
-                    <div className="h-2 bg-bg-glass-heavy rounded-full overflow-hidden">
-                      <motion.div 
-                        className="h-full bg-accent-crimson"
-                        initial={{ width: 0 }}
-                        animate={{ width: `${selectedHotspot.risk}%` }}
-                        transition={{ duration: 1, delay: 0.2 }}
-                      />
-                    </div>
-                  </div>
-                  <span className="text-2xl font-bold font-mono tracking-tighter text-accent-crimson">{selectedHotspot.risk}%</span>
+        {/* Hotspot Dossier Side Panel */}
+        <AnimatePresence>
+          {selectedHotspot && (
+            <motion.div 
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 20 }}
+              className="absolute top-6 bottom-6 right-6 w-[340px] glass-card border-border-glass bg-background/80 backdrop-blur-2xl p-8 z-50 shadow-glow-crimson overflow-y-auto"
+            >
+              <div className="flex justify-between items-start mb-8">
+                <div className="inline-flex items-center gap-2 px-2 py-0.5 bg-accent-crimson/10 text-accent-crimson text-[10px] font-bold tracking-widest uppercase rounded border border-accent-crimson/20">
+                  Hotspot_ID_{selectedHotspot.id}
                 </div>
-                <div className="flex justify-between text-[10px] font-mono text-muted-foreground">
-                  <span>HISTORICAL_VOLATILITY</span>
-                  <span className="text-foreground/60">HIGH</span>
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest">Incident Breakdown</p>
-                <div className="flex justify-between items-center py-3 border-b border-border-glass">
-                  <span className="text-xs font-bold uppercase tracking-tight text-foreground">Total Crimes</span>
-                  <span className="text-sm font-bold font-mono tracking-tighter text-foreground/80">{selectedHotspot.incidents.toLocaleString()}</span>
-                </div>
-                <button className="w-full mt-6 flex items-center justify-center gap-3 py-4 bg-bg-glass border border-border-glass rounded-xl text-[10px] font-bold uppercase tracking-widest hover:bg-bg-glass-heavy transition-all group text-foreground">
-                  Open Detailed Sector Audit <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                <button 
+                  onClick={() => setSelectedHotspot(null)}
+                  className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Close [ESC]
                 </button>
               </div>
-            </div>
-          </motion.div>
-        )}
+
+              <h3 className="text-3xl font-bold tracking-tighter uppercase mb-2 text-foreground">{selectedHotspot.name}</h3>
+              <div className="flex items-center gap-4 mb-8">
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <Globe className="w-3.5 h-3.5" />
+                  <span className="text-[10px] font-mono uppercase">Coord_Sync: {selectedHotspot.x}, {selectedHotspot.y}</span>
+                </div>
+              </div>
+
+              <div className="space-y-6">
+                <div className="p-5 bg-bg-glass border border-border-glass rounded-2xl">
+                  <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-4 flex items-center gap-2">
+                    <ShieldAlert className="w-3.5 h-3.5 text-accent-crimson" /> Tactical Safety Index
+                  </p>
+                  <div className="flex items-center justify-between gap-4 mb-4">
+                    <div className="flex-1 h-2 bg-bg-glass-heavy rounded-full overflow-hidden">
+                      <motion.div 
+                        className="h-full bg-accent-crimson shadow-glow-crimson"
+                        initial={{ width: 0 }}
+                        animate={{ width: `${selectedHotspot.risk}%` }}
+                        transition={{ duration: 1 }}
+                      />
+                    </div>
+                    <span className="text-xl font-bold font-mono tracking-tighter text-accent-crimson">{selectedHotspot.risk}%</span>
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest border-b border-border-glass pb-2">Operational Metrics</p>
+                  <div className="flex justify-between items-center">
+                    <span className="text-[11px] font-bold uppercase tracking-tight text-muted-foreground">Total Incidents</span>
+                    <span className="text-lg font-bold font-mono tracking-tighter text-foreground">{selectedHotspot.incidents.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-[11px] font-bold uppercase tracking-tight text-muted-foreground">Anomaly Weight</span>
+                    <span className="text-[11px] font-mono text-accent-gold font-bold">SEVERE</span>
+                  </div>
+                  <button className="w-full mt-6 flex items-center justify-center gap-3 py-4 bg-foreground text-background rounded-2xl text-[11px] font-bold uppercase tracking-widest hover:bg-accent-crimson hover:text-white transition-all group">
+                    View Sector Audit <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  </button>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
 
-      {/* Floating Tactical Switcher */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-8 glass-card px-10 py-5 border-border-glass bg-background/40 backdrop-blur-md z-40">
-        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-accent-crimson group">
-          <MapIcon className="w-4 h-4" /> <span className="group-hover:tracking-[0.4em] transition-all">Tactical Map</span>
-        </button>
-        <div className="w-[1px] h-4 bg-border-glass mx-2" />
-        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted-foreground hover:text-foreground transition-all group">
-          <Activity className="w-4 h-4" /> <span className="group-hover:tracking-[0.4em] transition-all">Live Sensors</span>
-        </button>
-        <div className="w-[1px] h-4 bg-border-glass mx-2" />
-        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted-foreground hover:text-foreground transition-all group">
-          <Target className="w-4 h-4" /> <span className="group-hover:tracking-[0.4em] transition-all">Target Sync</span>
-        </button>
+      {/* Stats Summary HUD */}
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mt-8">
+        {[
+          { label: "Monitored Hotspots", value: "324", icon: <Target className="w-4 h-4 text-accent-crimson" /> },
+          { label: "National Risk Index", value: "CRITICAL", icon: <ShieldAlert className="w-4 h-4 text-accent-gold" /> },
+          { label: "Surveillance Uptime", value: "99.8%", icon: <Zap className="w-4 h-4 text-accent-blue" /> }
+        ].map((item, i) => (
+          <div key={i} className="glass-card p-5 border-border-glass bg-bg-glass flex items-center justify-between">
+            <div>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground block mb-1">{item.label}</span>
+              <p className="text-2xl font-bold tracking-tighter text-foreground">{item.value}</p>
+            </div>
+            <div className="p-3 bg-bg-glass-heavy rounded-xl border border-border-glass">
+              {item.icon}
+            </div>
+          </div>
+        ))}
       </div>
-    </div>
+    </PageShell>
   );
 }

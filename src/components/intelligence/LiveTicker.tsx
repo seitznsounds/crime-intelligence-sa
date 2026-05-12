@@ -26,6 +26,8 @@ export default function LiveTicker() {
   const supabase = createClient();
 
   useEffect(() => {
+    if (!supabase) return;
+
     // Initial fetch of recent incidents
     const fetchRecent = async () => {
       const { data } = await supabase
@@ -46,8 +48,8 @@ export default function LiveTicker() {
       .on(
         'postgres_changes',
         { event: 'INSERT', schema: 'public', table: 'incidents' },
-        (payload) => {
-          setIncidents((current) => [payload.new as Incident, ...current.slice(0, 9)]);
+        (payload: { new: Record<string, unknown> }) => {
+          setIncidents((current) => [payload.new as unknown as Incident, ...current.slice(0, 9)]);
         }
       )
       .subscribe();
@@ -55,7 +57,7 @@ export default function LiveTicker() {
     return () => {
       supabase.removeChannel(channel);
     };
-  }, []);
+  }, [supabase]);
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-2xl border-t border-border-glass h-16 flex items-center overflow-hidden">

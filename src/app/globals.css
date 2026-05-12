@@ -29,6 +29,16 @@
   
   --muted-foreground: rgba(255, 255, 255, 0.4);
   --accent-crimson-opacity: rgba(255, 59, 48, 0.05);
+
+  /* Spacing Tokens */
+  --space-page-y: 5rem;
+  --space-section: 3rem;
+  --space-card: 1.5rem;
+  --space-grid-gap: 1.5rem;
+  --space-header-bottom: 3rem;
+
+  /* Mobile bottom bar offset */
+  --bottom-bar-height: 64px;
 }
 
 .light {
@@ -105,7 +115,19 @@ p {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
 }
 
 /* Animations */
@@ -130,4 +152,18 @@ p {
 ::-webkit-scrollbar-thumb {
   background: var(--border-glass);
   border-radius: 10px;
+}
+
+/* Mobile bottom bar body offset */
+@media (max-width: 1023px) {
+  body {
+    padding-bottom: var(--bottom-bar-height);
+  }
+}
+
+/* Accessible focus styles */
+:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
