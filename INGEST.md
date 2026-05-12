@@ -7,8 +7,9 @@ This document tracks the strategic analysis, distillation, and ingestion of high
 | Source Group | Total Files | Analyzed | Ingested | Status |
 | :--- | :---: | :---: | :---: | :--- |
 | **PPLAAF** (Whistleblower Protection) | 9 | 9 | 9 | ✅ COMPLETED |
-| **Anticorruption-Govza** (National Strategy) | 18 | 6 | 6 | 🟡 ANALYZING |
+| **Anticorruption-Govza** (National Strategy) | 18 | 10 | 10 | 🟡 ANALYZING |
 | **UNODC / International** (Global Standards) | 25 | 0 | 0 | 🟥 QUEUED |
+| **Forensic Audits** (Real-time Intel) | 1 | 1 | 1 | ✅ COMPLETED |
 
 ---
 
@@ -85,6 +86,15 @@ For each document, we execute the **Agentic Intelligence Protocol**:
 - [ ] `FATF_2024_Horizontal_Review_of_Gatekeepers_Technical_Compliance.pdf`
 - [ ] `G20_2025_Accountability_Report_on_Whistleblower_Protection.pdf`
 - [ ] (Remaining 21 files...)
+
+### Forensic Audits (Real-time Operational Intelligence)
+- [x] `Major General Feroz Khan Arrest Dossier (May 2026)` (INGESTED)
+    - **Outcome**: 11 Tier-1 PEPs/Suspects, 11 Organizations (Cartels/SAPS), 3 Major Incidents (Gold/Drugs/Tenders).
+    - **Nexus Points**: Point Blank Security <-> SAPS SCM <-> Big Five Cartel.
+    - **UI**: Visualized in `SapsInfiltrationHub`.
+- [x] `CLEAR-AA / Mthente NACS M&E Framework (2025)` (INGESTED)
+    - **Outcome**: 6-pillar indicator framework, performance index.
+    - **UI**: Visualized in `AccountabilityDashboard`.
 
 ---
 

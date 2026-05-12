@@ -9,6 +9,8 @@ import {
 } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
 import IncentiveCalculator from "@/components/incentive-calculator/IncentiveCalculator";
+import SapsInfiltrationHub from "@/components/intel/SapsInfiltrationHub";
+import AccountabilityDashboard from "@/components/intel/AccountabilityDashboard";
 import Link from "next/link";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
@@ -154,6 +156,16 @@ export default function AnticorruptionPage() {
         ))}
       </div>
 
+      {/* ── Accountability Dashboard ── */}
+      <motion.section
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="mb-24"
+      >
+        <AccountabilityDashboard />
+      </motion.section>
+
       {/* ── Main Grid ── */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mb-16">
 
@@ -280,6 +292,16 @@ export default function AnticorruptionPage() {
           </motion.div>
         </div>
       </div>
+
+      {/* ── SAPS Infiltration Hub ── */}
+      <motion.section
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="mb-20"
+      >
+        <SapsInfiltrationHub />
+      </motion.section>
 
       {/* ── Zondo Reform Tracker ── */}
       <motion.section

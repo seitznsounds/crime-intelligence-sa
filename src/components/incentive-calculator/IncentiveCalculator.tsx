@@ -14,11 +14,8 @@ import {
   Coins
 } from 'lucide-react';
 
-// Logic derived from scratch/incentive_calculator_logic.ts
-// Values based on HSRC (62% Fear) and Zondo (15-25% Reward)
-
-const FEAR_MULTIPLIER = 0.62;
-const SOCIAL_OSTRACISM_FACTOR = 0.15;
+const FEAR_MULTIPLIER = 0.62; // HSRC 2026 Social Norms survey
+const ROCOSN_INDEX_BASE = 0.28; // Risk of Community and Social Neglect (Mthente 2024)
 const REWARD_MIN_PCT = 0.15;
 const REWARD_MAX_PCT = 0.25;
 
@@ -26,30 +23,30 @@ export default function IncentiveCalculator() {
   const [caseValue, setCaseValue] = useState<number>(100000);
   const [deptRisk, setDeptRisk] = useState<number>(0.5); // 0-1
   const [empSecurity, setEmpSecurity] = useState<number>(0.5); // 0-1
+  const [infiltrationLevel, setInfiltrationLevel] = useState<number>(0.3); // 0-1 (SAPS/Cartel nexus)
 
   const results = useMemo(() => {
     const grossMin = caseValue * REWARD_MIN_PCT;
     const grossMax = caseValue * REWARD_MAX_PCT;
     const avgGross = (grossMin + grossMax) / 2;
 
-    // Fear Penalty: scales with risk and inversely with security
-    // We add a safety clamp to prevent infinite division
-    const fearPenalty = avgGross * FEAR_MULTIPLIER * (deptRisk / Math.max(0.1, empSecurity));
+    // Fear Penalty: scales with risk, infiltration, and inversely with security
+    const fearPenalty = avgGross * FEAR_MULTIPLIER * (deptRisk + infiltrationLevel) / Math.max(0.1, empSecurity);
     
-    // Social Ostracism Penalty
-    const socialPenalty = avgGross * SOCIAL_OSTRACISM_FACTOR;
+    // Social Ostracism Penalty (RoCoSN Index)
+    const socialPenalty = avgGross * ROCOSN_INDEX_BASE * (1 + (1 - empSecurity));
 
     const riskAdjusted = avgGross - fearPenalty - socialPenalty;
     const score = Math.max(0, Math.min(100, (riskAdjusted / avgGross) * 100));
 
-    let verdict = "CRITICAL RISK: Retaliation risk outweighs financial incentive.";
+    let verdict = "CRITICAL RISK: Retaliation risk and social neglect outweigh financial incentive.";
     let color = "text-red-400";
-    if (score > 30) {
-      verdict = "HIGH RISK: Secure anonymity is mandatory before proceeding.";
+    if (score > 35) {
+      verdict = "HIGH RISK: Secure anonymity and relocation funding are mandatory.";
       color = "text-orange-400";
     }
-    if (score > 60) {
-      verdict = "VIABLE: Financial incentive provides significant safety buffer.";
+    if (score > 65) {
+      verdict = "VIABLE: Financial incentive provides a sufficient security and transition buffer.";
       color = "text-green-400";
     }
 
@@ -64,7 +61,7 @@ export default function IncentiveCalculator() {
       verdict,
       color
     };
-  }, [caseValue, deptRisk, empSecurity]);
+  }, [caseValue, deptRisk, empSecurity, infiltrationLevel]);
 
   return (
     <div className="glass-card p-8 border border-white/10 rounded-xl space-y-8 bg-black/40 backdrop-blur-md">
@@ -127,7 +124,7 @@ export default function IncentiveCalculator() {
           <div className="space-y-2">
             <div className="flex justify-between items-end">
               <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
-                <ShieldCheck className="w-4 h-4" /> Employment Security
+                <ShieldCheck className="w-4 h-4 text-accent-blue" /> Employment Security
               </label>
               <span className="text-sm font-mono text-white/90">{(empSecurity * 100).toFixed(0)}%</span>
             </div>
@@ -141,6 +138,25 @@ export default function IncentiveCalculator() {
               className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-blue"
             />
             <p className="text-[10px] text-white/30 italic">Vulnerability score based on tenure, contract type, and seniority.</p>
+          </div>
+
+          <div className="space-y-2">
+            <div className="flex justify-between items-end">
+              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+                <Users className="w-4 h-4 text-accent-gold" /> Institutional Infiltration
+              </label>
+              <span className="text-sm font-mono text-white/90">{(infiltrationLevel * 100).toFixed(0)}%</span>
+            </div>
+            <input 
+              type="range" 
+              min="0" 
+              max="1" 
+              step="0.1"
+              value={infiltrationLevel}
+              onChange={(e) => setInfiltrationLevel(Number(e.target.value))}
+              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-gold"
+            />
+            <p className="text-[10px] text-white/30 italic">Estimated level of criminal infiltration within the target department (e.g., SAPS 'Big Five' Cartel nexus).</p>
           </div>
         </div>
 
@@ -160,14 +176,14 @@ export default function IncentiveCalculator() {
 
             <div className="flex justify-between items-center text-red-400">
               <span className="text-xs font-bold uppercase flex items-center gap-2">
-                <AlertTriangle className="w-3 h-3" /> Fear Offset (62% Base)
+                <AlertTriangle className="w-3 h-3" /> Retaliation Offset (Fear x Risk)
               </span>
               <span className="text-sm font-mono">-R {results.fearPenalty.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
             </div>
 
             <div className="flex justify-between items-center text-red-400/70">
               <span className="text-xs font-bold uppercase flex items-center gap-2">
-                <TrendingDown className="w-3 h-3" /> Ostracism Penalty
+                <TrendingDown className="w-3 h-3" /> Ostracism Penalty (RoCoSN Index)
               </span>
               <span className="text-sm font-mono">-R {results.socialPenalty.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
             </div>
