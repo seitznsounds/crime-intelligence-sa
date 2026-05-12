@@ -37,11 +37,11 @@ export default function AboutPage() {
             <Shield className="w-3.5 h-3.5 text-accent-crimson" />
             <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent-crimson">Operational Manifesto</span>
           </div>
-          <h1 className="text-6xl md:text-7xl font-bold tracking-tighter leading-none uppercase mb-6">
+          <h1 className="text-6xl md:text-7xl font-bold tracking-tighter leading-none uppercase mb-6 text-foreground">
             Exposing the <br />
-            <span className="text-white/20">Helms of</span> Power.
+            <span className="text-foreground/20">Helms of</span> Power.
           </h1>
-          <p className="text-xl text-white/40 font-light leading-relaxed max-w-2xl">
+          <p className="text-xl text-muted-foreground font-light leading-relaxed max-w-2xl">
             Crime in South Africa is not just a street-level issue; it is a systemic failure engineered from the top.
           </p>
         </motion.header>
@@ -53,17 +53,17 @@ export default function AboutPage() {
                 <Fingerprint className="w-4 h-4" />
                 The Root Cause
               </h3>
-              <p className="text-sm text-white/50 leading-relaxed font-light">
+              <p className="text-sm text-muted-foreground leading-relaxed font-light">
                 Corruption at the highest helms of power allows crime to flourish. 
                 Hijackers and drug dealers are symptoms; the ones they work for—the police officers who make dockets disappear and the officials who turn stolen cars into "legal" assets—are the true targets.
               </p>
             </div>
-            <div className="glass-card p-8 border-white/5 bg-white/[0.01]">
-              <h3 className="text-sm font-bold uppercase tracking-widest text-white/40 mb-4 flex items-center gap-2">
+            <div className="glass-card p-8 border-border-glass bg-bg-glass">
+              <h3 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-4 flex items-center gap-2">
                 <Scale className="w-4 h-4" />
                 The Objective
               </h3>
-              <p className="text-sm text-white/50 leading-relaxed font-light">
+              <p className="text-sm text-muted-foreground leading-relaxed font-light">
                 If we do not expose the criminals in power, they will always roam free while the citizens suffer. 
                 We use data as our weapon to disrupt this cycle and demand systemic accountability.
               </p>
@@ -71,7 +71,7 @@ export default function AboutPage() {
           </motion.section>
 
           <motion.section variants={itemVariants} className="flex flex-col justify-center">
-            <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-white/20 mb-8">Mission: Radical Transparency</h2>
+            <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-foreground/20 mb-8">Mission: Radical Transparency</h2>
             <div className="space-y-8">
               {[
                 { 
@@ -85,7 +85,7 @@ export default function AboutPage() {
                   desc: "Document and highlight the links between organized crime and government officials." 
                 },
                 { 
-                  icon: <Database className="w-5 h-5 text-white/40" />, 
+                  icon: <Database className="w-5 h-5 text-muted-foreground" />, 
                   title: "Systemic Accountability", 
                   desc: "Track the 'lifecycle' of crime—from the street to the official who legitimizes it." 
                 }
@@ -94,7 +94,7 @@ export default function AboutPage() {
                   <div className="mt-1">{item.icon}</div>
                   <div>
                     <h4 className="text-sm font-bold uppercase tracking-widest mb-2">{item.title}</h4>
-                    <p className="text-xs text-white/30 leading-relaxed font-light">{item.desc}</p>
+                    <p className="text-xs text-muted-foreground leading-relaxed font-light">{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -102,12 +102,12 @@ export default function AboutPage() {
           </motion.section>
         </div>
 
-        <motion.footer variants={itemVariants} className="pt-12 border-t border-white/[0.03]">
+        <motion.footer variants={itemVariants} className="pt-12 border-t border-border-glass">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
-            <div className="font-mono text-[10px] text-white/20 uppercase tracking-[0.3em]">
+            <div className="font-mono text-[10px] text-foreground/20 uppercase tracking-[0.3em]">
               VERIFIED_VIGILANTE_PROTOCOL // 2026
             </div>
-            <p className="text-[10px] text-white/10 max-w-sm italic">
+            <p className="text-[10px] text-muted-foreground/50 max-w-sm italic">
               "Data is the ultimate weapon against those who pull the strings in the shadows."
             </p>
           </div>

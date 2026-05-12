@@ -23,30 +23,30 @@ export default async function DeepExposurePage({ params }: PageProps) {
   const { data: exposures } = await supabase.from("exposures").select("*").eq("person_id", id);
 
   const getRiskColor = (score: number | null) => {
-    if (!score) return "#34c759";
-    if (score > 80) return "#ff3b30";
-    if (score > 50) return "#ffcc00";
-    return "#34c759";
+    if (!score) return 'var(--border-glass)';
+    if (score > 80) return 'var(--accent-crimson)';
+    if (score > 50) return 'var(--accent-gold)';
+    return 'var(--accent-blue)';
   };
 
   return (
     <div className="container py-8 animate-fade-in max-w-6xl">
       {/* Breadcrumb - Precise & Small */}
-      <nav className="mb-8 flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] text-white/20">
+      <nav className="mb-8 flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground/20">
         <Link href="/expose" className="hover:text-accent-crimson transition-colors">Intelligence Hub</Link>
         <span className="opacity-50">/</span>
-        <span className="text-white/40 italic font-mono uppercase">Case_{person.id.split('-')[0]}</span>
+        <span className="text-muted-foreground/40 italic font-mono uppercase">Case_{person.id.split('-')[0]}</span>
       </nav>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
         {/* Profile Sidebar */}
         <div className="lg:col-span-4 space-y-6">
           <div className="glass-card p-1">
-            <div className="aspect-[4/5] bg-white/5 rounded-[18px] overflow-hidden flex items-center justify-center border border-white/5">
+            <div className="aspect-[4/5] bg-bg-glass rounded-[18px] overflow-hidden flex items-center justify-center border border-border-glass">
               {person.profile_image_url ? (
                 <img src={person.profile_image_url} alt={person.full_name} className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 opacity-70" />
               ) : (
-                <span className="text-7xl font-bold text-white/[0.03] uppercase tracking-tighter">{person.full_name.charAt(0)}</span>
+                <span className="text-7xl font-bold text-muted-foreground/[0.03] uppercase tracking-tighter">{person.full_name.charAt(0)}</span>
               )}
             </div>
           </div>

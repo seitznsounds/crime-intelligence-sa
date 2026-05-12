@@ -46,18 +46,18 @@ export default function VictimsPage() {
   const [tributeCount, setTributeCount] = useState(12402);
 
   return (
-    <div className="relative min-h-screen bg-[#050505] overflow-hidden selection:bg-accent-blue/30">
+    <div className="relative min-h-screen bg-background overflow-hidden selection:bg-accent-blue/30 transition-colors duration-300">
       {/* Somber Memorial Backdrop */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_100%,#007aff05,transparent_50%)]" />
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.01)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.01)_1px,transparent_1px)] bg-[size:80px_80px]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_100%,var(--accent-blue-opacity),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:80px_80px]" />
 
       <div className="container py-20 relative z-10 max-w-6xl">
         <header className="mb-16 text-center">
           <div className="inline-flex items-center gap-2 px-2 py-0.5 bg-accent-blue/5 border border-accent-blue/10 rounded mb-4">
             <span className="text-[8px] font-bold tracking-[0.4em] uppercase text-accent-blue font-mono">TRC Volume 7: Living Monument</span>
           </div>
-          <h1 className="text-6xl font-bold tracking-tighter uppercase mb-6">Victim Tributes</h1>
-          <p className="text-sm text-white/40 max-w-2xl mx-auto font-light leading-relaxed">
+          <h1 className="text-6xl font-bold tracking-tighter uppercase mb-6 text-foreground">Victim Tributes</h1>
+          <p className="text-sm text-muted-foreground max-w-2xl mx-auto font-light leading-relaxed">
             "A tribute to the victims of Apartheid and a living monument to those who sacrificed so much in order that we could all enjoy the fruits of democracy."
           </p>
         </header>
@@ -70,12 +70,12 @@ export default function VictimsPage() {
             { label: "Amnesty Applications", value: "7,112", icon: <History className="w-4 h-4 text-accent-gold" /> },
             { label: "Public Tributes", value: tributeCount.toLocaleString(), icon: <Heart className="w-4 h-4 text-accent-crimson" /> }
           ].map((item, i) => (
-            <div key={i} className="glass-card p-6 border-white/5 bg-white/[0.01]">
+            <div key={i} className="glass-card p-6 border-border-glass bg-bg-glass">
               <div className="flex justify-between items-start mb-4">
-                <span className="text-[10px] font-bold uppercase tracking-widest text-white/20">{item.label}</span>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">{item.label}</span>
                 {item.icon}
               </div>
-              <p className="text-2xl font-bold tracking-tighter uppercase">{item.value}</p>
+              <p className="text-2xl font-bold tracking-tighter uppercase text-foreground">{item.value}</p>
             </div>
           ))}
         </div>
@@ -83,7 +83,7 @@ export default function VictimsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Victim Wall */}
           <div className="lg:col-span-2 space-y-8">
-            <h3 className="text-xs font-bold uppercase tracking-[0.3em] text-white/20 mb-8 flex items-center gap-3">
+            <h3 className="text-xs font-bold uppercase tracking-[0.3em] text-muted-foreground mb-8 flex items-center gap-3">
               <Award className="w-4 h-4 text-accent-blue" /> The Wall of Remembrance
             </h3>
             
@@ -95,23 +95,23 @@ export default function VictimsPage() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: i * 0.1 }}
                   onClick={() => setSelectedVictim(victim)}
-                  className="glass-card p-10 border-white/5 bg-white/[0.01] hover:bg-white/[0.03] transition-all group relative overflow-hidden"
+                  className="glass-card p-10 border-border-glass bg-bg-glass hover:bg-bg-glass-bright transition-all group relative overflow-hidden"
                 >
-                  <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
+                  <div className="absolute top-0 right-0 p-8 text-muted-foreground opacity-5 group-hover:opacity-10 transition-opacity">
                     <Quote className="w-12 h-12" />
                   </div>
                   
                   <div className="mb-8">
-                    <span className="text-[9px] font-mono text-white/20 tracking-widest uppercase mb-2 block">{victim.date} // {victim.location}</span>
-                    <h4 className="text-3xl font-bold tracking-tighter uppercase mb-2">{victim.name}</h4>
+                    <span className="text-[9px] font-mono text-muted-foreground tracking-widest uppercase mb-2 block">{victim.date} // {victim.location}</span>
+                    <h4 className="text-3xl font-bold tracking-tighter uppercase mb-2 text-foreground">{victim.name}</h4>
                     <p className="text-[10px] font-bold text-accent-blue tracking-[0.2em] uppercase">{victim.violation}</p>
                   </div>
 
-                  <p className="text-xs text-white/40 leading-relaxed font-light mb-8 line-clamp-3">
+                  <p className="text-xs text-muted-foreground leading-relaxed font-light mb-8 line-clamp-3">
                     {victim.desc}
                   </p>
 
-                  <div className="flex justify-between items-center text-[9px] font-bold text-white/20 uppercase tracking-widest">
+                  <div className="flex justify-between items-center text-[9px] font-bold text-muted-foreground uppercase tracking-widest">
                     <span>Read Full Statement</span>
                     <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -119,15 +119,15 @@ export default function VictimsPage() {
               ))}
             </div>
 
-            <button className="w-full py-6 border border-dashed border-white/10 rounded-2xl text-[10px] font-bold uppercase tracking-widest text-white/20 hover:text-white hover:border-white/20 transition-all">
+            <button className="w-full py-6 border border-dashed border-border-glass rounded-2xl text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground hover:border-border-glass-bright transition-all">
               Load More Statements from Archive [Volume 7]
             </button>
           </div>
 
           {/* Right Sidebar: Memorial Integrity */}
           <div className="space-y-8">
-            <div className="glass-card p-8 border-white/5 bg-black/40 backdrop-blur-xl">
-              <h3 className="text-xs font-bold uppercase tracking-[0.3em] text-white/20 mb-8 flex items-center gap-3">
+            <div className="glass-card p-8 border-border-glass bg-bg-glass backdrop-blur-xl">
+              <h3 className="text-xs font-bold uppercase tracking-[0.3em] text-muted-foreground mb-8 flex items-center gap-3">
                 <Globe className="w-4 h-4 text-accent-blue" /> Truth Archive Status
               </h3>
               <div className="space-y-6">
@@ -138,10 +138,10 @@ export default function VictimsPage() {
                 ].map((item, i) => (
                   <div key={i} className="space-y-3">
                     <div className="flex justify-between items-center text-[9px] font-bold">
-                      <span className="text-white/80 uppercase">{item.label}</span>
+                      <span className="text-foreground/80 uppercase">{item.label}</span>
                       <span className={`tracking-widest ${item.status === 'VERIFIED' ? 'text-accent-blue' : 'text-accent-gold'}`}>{item.status}</span>
                     </div>
-                    <div className="h-1 bg-white/5 rounded-full overflow-hidden">
+                    <div className="h-1 bg-bg-glass-heavy rounded-full overflow-hidden">
                       <motion.div 
                         className={`h-full ${item.status === 'VERIFIED' ? 'bg-accent-blue shadow-glow-blue' : 'bg-accent-gold shadow-glow-gold'}`}
                         initial={{ width: 0 }}
@@ -158,7 +158,7 @@ export default function VictimsPage() {
                 <Heart className="w-4 h-4 text-accent-crimson" />
                 <span className="text-[10px] font-bold uppercase tracking-widest text-accent-blue">The Living Monument</span>
               </div>
-              <p className="text-xs text-white/40 leading-relaxed font-light italic mb-8">
+              <p className="text-xs text-muted-foreground leading-relaxed font-light italic mb-8">
                 "Their stories symbolize the greater experience and suffering of our people, many of whom were not able to come forward to tell their own story."
               </p>
               <button 
@@ -178,19 +178,19 @@ export default function VictimsPage() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 z-50 flex items-center justify-center p-8 bg-black/90 backdrop-blur-sm"
+              className="fixed inset-0 z-50 flex items-center justify-center p-8 bg-background/90 backdrop-blur-sm"
               onClick={() => setSelectedVictim(null)}
             >
               <motion.div 
                 initial={{ scale: 0.95, y: 20 }}
                 animate={{ scale: 1, y: 0 }}
                 exit={{ scale: 0.95, y: 20 }}
-                className="glass-card w-full max-w-2xl border-white/10 bg-black p-12 relative shadow-glow-blue"
+                className="glass-card w-full max-w-2xl border-border-glass bg-background p-12 relative shadow-glow-blue"
                 onClick={e => e.stopPropagation()}
               >
                 <button 
                   onClick={() => setSelectedVictim(null)}
-                  className="absolute top-8 right-8 text-[10px] font-bold uppercase tracking-widest text-white/20 hover:text-white"
+                  className="absolute top-8 right-8 text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground"
                 >
                   Close Statement [ESC]
                 </button>
@@ -200,29 +200,29 @@ export default function VictimsPage() {
                     <div className="inline-flex items-center gap-2 px-2 py-0.5 border border-accent-blue/20 rounded mb-4 bg-accent-blue/5">
                       <span className="text-[8px] font-bold tracking-[0.3em] uppercase text-accent-blue">GROSS_VIOLATION_FINDING</span>
                     </div>
-                    <h2 className="text-5xl font-bold tracking-tighter uppercase mb-2 leading-none">{selectedVictim.name}</h2>
-                    <p className="text-lg font-mono text-white/40 uppercase tracking-widest">{selectedVictim.location}</p>
+                    <h2 className="text-5xl font-bold tracking-tighter uppercase mb-2 leading-none text-foreground">{selectedVictim.name}</h2>
+                    <p className="text-lg font-mono text-muted-foreground uppercase tracking-widest">{selectedVictim.location}</p>
                   </div>
 
-                  <div className="p-10 bg-white/[0.02] border border-white/5 rounded-3xl relative">
-                    <Quote className="absolute top-8 left-8 w-8 h-8 text-white/5" />
-                    <p className="text-base text-white/60 leading-relaxed font-light italic text-center px-8">
+                  <div className="p-10 bg-bg-glass border border-border-glass rounded-3xl relative">
+                    <Quote className="absolute top-8 left-8 w-8 h-8 text-muted-foreground/10" />
+                    <p className="text-base text-foreground/60 leading-relaxed font-light italic text-center px-8">
                       "{selectedVictim.desc}"
                     </p>
                   </div>
 
                   <div className="grid grid-cols-2 gap-6">
-                    <div className="glass-card p-6 border-white/5">
-                      <p className="text-[9px] font-bold text-white/20 uppercase tracking-widest mb-2">Finding Date</p>
-                      <p className="text-2xl font-bold font-mono tracking-tighter">{selectedVictim.date}</p>
+                    <div className="glass-card p-6 border-border-glass bg-bg-glass">
+                      <p className="text-[9px] font-bold text-muted-foreground uppercase tracking-widest mb-2">Finding Date</p>
+                      <p className="text-2xl font-bold font-mono tracking-tighter text-foreground">{selectedVictim.date}</p>
                     </div>
-                    <div className="glass-card p-6 border-white/5 text-right">
-                      <p className="text-[9px] font-bold text-white/20 uppercase tracking-widest mb-2">Category</p>
+                    <div className="glass-card p-6 border-border-glass bg-bg-glass text-right">
+                      <p className="text-[9px] font-bold text-muted-foreground uppercase tracking-widest mb-2">Category</p>
                       <p className="text-2xl font-bold font-mono tracking-tighter text-accent-blue uppercase">{selectedVictim.violation.split(' ')[0]}</p>
                     </div>
                   </div>
 
-                  <button className="w-full py-5 border border-white/10 text-white/40 text-[10px] font-bold uppercase tracking-[0.2em] rounded-2xl hover:bg-white/5 transition-all">
+                  <button className="w-full py-5 border border-border-glass text-muted-foreground text-[10px] font-bold uppercase tracking-[0.2em] rounded-2xl hover:bg-bg-glass-heavy hover:text-foreground transition-all">
                     Download Full TRC Hearing Transcript
                   </button>
                 </div>

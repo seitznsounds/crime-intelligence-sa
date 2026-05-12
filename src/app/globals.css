@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  /* Core Palette */
+  /* Default: Dark Mode (Dossier Aesthetic) */
   --background: #050505;
   --foreground: #ffffff;
   
@@ -13,7 +13,7 @@
   --accent-gold: #ffcc00;
   --accent-blue: #007aff;
   
-  /* Refined Glassmorphism */
+  /* Refined Glassmorphism (Dark) */
   --bg-glass: rgba(255, 255, 255, 0.02);
   --bg-glass-heavy: rgba(255, 255, 255, 0.06);
   --border-glass: rgba(255, 255, 255, 0.08);
@@ -26,6 +26,28 @@
   /* Layout */
   --header-height: 64px;
   --sidebar-width: 260px;
+  
+  --muted-foreground: rgba(255, 255, 255, 0.4);
+  --accent-crimson-opacity: rgba(255, 59, 48, 0.05);
+}
+
+.light {
+  /* Light Mode (Premium High-Contrast) */
+  --background: #ffffff;
+  --foreground: #050505;
+  
+  /* Glassmorphism (Light) */
+  --bg-glass: rgba(0, 0, 0, 0.02);
+  --bg-glass-heavy: rgba(0, 0, 0, 0.05);
+  --border-glass: rgba(0, 0, 0, 0.06);
+  --border-glass-bright: rgba(0, 0, 0, 0.12);
+  
+  --muted-foreground: rgba(0, 0, 0, 0.45);
+  --accent-crimson-opacity: rgba(255, 59, 48, 0.03);
+  
+  /* Adjusted Glows for Light Mode */
+  --shadow-glow: 0 4px 20px rgba(255, 59, 48, 0.08);
+  --shadow-glow-blue: 0 4px 20px rgba(0, 122, 255, 0.08);
 }
 
 * {
@@ -56,7 +78,7 @@ h1, h2, h3, h4, h5 {
 
 p {
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--muted-foreground);
 }
 
 /* Glass Utility Classes */

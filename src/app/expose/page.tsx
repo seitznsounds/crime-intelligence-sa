@@ -14,16 +14,16 @@ export default async function ExposePage() {
     .limit(12);
 
   return (
-    <div className="container py-12 animate-fade-in">
+    <div className="container py-12 animate-fade-in transition-colors duration-300">
       <header className="mb-12">
-        <h1 className="text-4xl font-bold mb-2">Expose Board</h1>
-        <p className="text-white/40 max-w-2xl font-light">
+        <h1 className="text-4xl font-bold mb-2 text-foreground">Expose Board</h1>
+        <p className="text-muted-foreground max-w-2xl font-light">
           Real-time tracking of high-risk government officials, politicians, and verified crime syndicate facilitators.
         </p>
       </header>
 
       {error ? (
-        <div className="p-8 glass-card text-accent-crimson font-mono text-xs">
+        <div className="p-8 bg-bg-glass backdrop-blur-md border border-border-glass text-destructive font-mono text-xs">
           ERROR_ACCESSING_DATABASE: {error.message}
         </div>
       ) : (

@@ -16,10 +16,10 @@ export default function CrimeMapPage() {
   const [selectedHotspot, setSelectedHotspot] = useState<any>(null);
 
   return (
-    <div className="relative min-h-screen bg-[#020202] overflow-hidden selection:bg-accent-crimson/30 font-sans">
+    <div className="relative min-h-screen bg-background overflow-hidden selection:bg-accent-crimson/30 font-sans transition-colors duration-300">
       {/* Cinematic Map Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#ff3b3003,transparent_70%)]" />
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:60px_60px]" />
+      <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:60px_60px]" />
 
       {/* Main Map Container */}
       <div className="relative z-10 w-full h-screen flex items-center justify-center p-20">
@@ -34,8 +34,8 @@ export default function CrimeMapPage() {
             {/* South Africa Stylized Map Path (Simplified) */}
             <motion.path 
               d="M200,750 L150,850 L250,950 L550,900 L850,550 L800,250 L650,150 L350,150 L200,450 Z" 
-              fill="rgba(255,255,255,0.02)"
-              stroke="rgba(255,255,255,0.1)"
+              fill="var(--bg-glass)"
+              stroke="var(--border-glass-bright)"
               strokeWidth="1.5"
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
@@ -67,7 +67,7 @@ export default function CrimeMapPage() {
 
           {/* Map Controls */}
           <div className="absolute bottom-0 right-0 p-8 space-y-4">
-            <button className="flex items-center gap-3 px-4 py-2 bg-white/5 border border-white/10 rounded-lg text-[10px] font-bold uppercase tracking-widest text-white/40 hover:text-white transition-all backdrop-blur-md">
+            <button className="flex items-center gap-3 px-4 py-2 bg-bg-glass border border-border-glass rounded-lg text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-all backdrop-blur-md">
               <Zap className="w-3.5 h-3.5" /> High Precision Mode
             </button>
             <button className="flex items-center gap-3 px-4 py-2 bg-accent-crimson/10 border border-accent-crimson/20 rounded-lg text-[10px] font-bold uppercase tracking-widest text-accent-crimson transition-all backdrop-blur-md">
@@ -78,14 +78,14 @@ export default function CrimeMapPage() {
 
         {/* Tactical HUD Left */}
         <div className="absolute top-20 left-20 space-y-8 max-w-sm pointer-events-none">
-          <div className="glass-card p-8 border-white/5 bg-black/40 backdrop-blur-xl">
+          <div className="glass-card p-8 border-border-glass bg-background/40 backdrop-blur-xl">
             <div className="flex items-center gap-4 mb-6">
               <div className="p-2 bg-accent-crimson/10 rounded-lg">
                 <ShieldAlert className="w-4 h-4 text-accent-crimson" />
               </div>
               <div>
-                <h2 className="text-xl font-bold tracking-tighter uppercase">Geospatial Intelligence</h2>
-                <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-white/20">Operational Status: ACTIVE</p>
+                <h2 className="text-xl font-bold tracking-tighter uppercase text-foreground">Geospatial Intelligence</h2>
+                <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-muted-foreground">Operational Status: ACTIVE</p>
               </div>
             </div>
             
@@ -95,20 +95,20 @@ export default function CrimeMapPage() {
                 { label: "Regional Risk Index", value: "CRITICAL", color: "text-accent-gold" },
                 { label: "Surveillance Load", value: "94.2%", color: "text-accent-blue" }
               ].map((m, i) => (
-                <div key={i} className="flex justify-between items-center py-3 border-b border-white/[0.03]">
-                  <span className="text-[10px] font-bold text-white/20 uppercase tracking-widest">{m.label}</span>
+                <div key={i} className="flex justify-between items-center py-3 border-b border-border-glass">
+                  <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest">{m.label}</span>
                   <span className={`text-[11px] font-mono font-bold ${m.color}`}>{m.value}</span>
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="glass-card p-6 border-white/5 bg-black/40 backdrop-blur-lg">
+          <div className="glass-card p-6 border-border-glass bg-background/40 backdrop-blur-lg">
             <div className="flex items-center gap-3 mb-4">
-              <Activity className="w-4 h-4 text-white/20 animate-pulse" />
-              <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-white/20">Live Intercept Feed</span>
+              <Activity className="w-4 h-4 text-muted-foreground animate-pulse" />
+              <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-muted-foreground">Live Intercept Feed</span>
             </div>
-            <div className="space-y-3 font-mono text-[9px] text-white/40 uppercase">
+            <div className="space-y-3 font-mono text-[9px] text-muted-foreground uppercase">
               <p className="flex justify-between"><span>#JHB_SUB_42</span> <span className="text-accent-crimson">ALERT</span></p>
               <p className="flex justify-between"><span>#CPT_HARBOR_X</span> <span className="text-accent-blue">CLEAR</span></p>
               <p className="flex justify-between"><span>#DBN_INTL_HUB</span> <span className="text-accent-gold">SCAN</span></p>
@@ -121,7 +121,7 @@ export default function CrimeMapPage() {
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="absolute top-20 right-20 w-[400px] glass-card border-white/10 bg-black/60 backdrop-blur-2xl p-10 z-50 shadow-glow-crimson"
+            className="absolute top-20 right-20 w-[400px] glass-card border-border-glass bg-background/60 backdrop-blur-2xl p-10 z-50 shadow-glow-crimson"
           >
             <div className="flex justify-between items-start mb-8">
               <div className="inline-flex items-center gap-2 px-2 py-0.5 bg-accent-crimson/10 text-accent-crimson text-[9px] font-bold tracking-widest uppercase rounded border border-accent-crimson/20">
@@ -129,26 +129,26 @@ export default function CrimeMapPage() {
               </div>
               <button 
                 onClick={() => setSelectedHotspot(null)}
-                className="text-[10px] font-bold uppercase tracking-widest text-white/20 hover:text-white"
+                className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors"
               >
                 Close_Intel [X]
               </button>
             </div>
 
-            <h3 className="text-4xl font-bold tracking-tighter uppercase mb-2">{selectedHotspot.name}</h3>
+            <h3 className="text-4xl font-bold tracking-tighter uppercase mb-2 text-foreground">{selectedHotspot.name}</h3>
             <div className="flex items-center gap-4 mb-10">
-              <div className="flex items-center gap-2 text-white/40">
+              <div className="flex items-center gap-2 text-muted-foreground">
                 <Globe className="w-3.5 h-3.5" />
                 <span className="text-[10px] font-mono">LAT_LNG: {selectedHotspot.x}, {selectedHotspot.y}</span>
               </div>
             </div>
 
             <div className="space-y-8">
-              <div className="p-6 bg-white/[0.02] border border-white/5 rounded-2xl">
-                <p className="text-[10px] font-bold text-white/20 uppercase tracking-widest mb-4">Tactical Safety Index</p>
+              <div className="p-6 bg-bg-glass border border-border-glass rounded-2xl">
+                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-4">Tactical Safety Index</p>
                 <div className="flex items-end justify-between gap-4 mb-4">
                   <div className="flex-1 space-y-1">
-                    <div className="h-2 bg-white/5 rounded-full overflow-hidden">
+                    <div className="h-2 bg-bg-glass-heavy rounded-full overflow-hidden">
                       <motion.div 
                         className="h-full bg-accent-crimson"
                         initial={{ width: 0 }}
@@ -159,19 +159,19 @@ export default function CrimeMapPage() {
                   </div>
                   <span className="text-2xl font-bold font-mono tracking-tighter text-accent-crimson">{selectedHotspot.risk}%</span>
                 </div>
-                <div className="flex justify-between text-[10px] font-mono text-white/20">
+                <div className="flex justify-between text-[10px] font-mono text-muted-foreground">
                   <span>HISTORICAL_VOLATILITY</span>
-                  <span className="text-white/60">HIGH</span>
+                  <span className="text-foreground/60">HIGH</span>
                 </div>
               </div>
 
               <div className="space-y-4">
-                <p className="text-[10px] font-bold text-white/20 uppercase tracking-widest">Incident Breakdown</p>
-                <div className="flex justify-between items-center py-3 border-b border-white/[0.03]">
-                  <span className="text-xs font-bold uppercase tracking-tight">Total Crimes</span>
-                  <span className="text-sm font-bold font-mono tracking-tighter text-white/80">{selectedHotspot.incidents.toLocaleString()}</span>
+                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest">Incident Breakdown</p>
+                <div className="flex justify-between items-center py-3 border-b border-border-glass">
+                  <span className="text-xs font-bold uppercase tracking-tight text-foreground">Total Crimes</span>
+                  <span className="text-sm font-bold font-mono tracking-tighter text-foreground/80">{selectedHotspot.incidents.toLocaleString()}</span>
                 </div>
-                <button className="w-full mt-6 flex items-center justify-center gap-3 py-4 bg-white/5 border border-white/10 rounded-xl text-[10px] font-bold uppercase tracking-widest hover:bg-white/10 transition-all group">
+                <button className="w-full mt-6 flex items-center justify-center gap-3 py-4 bg-bg-glass border border-border-glass rounded-xl text-[10px] font-bold uppercase tracking-widest hover:bg-bg-glass-heavy transition-all group text-foreground">
                   Open Detailed Sector Audit <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>
@@ -181,16 +181,16 @@ export default function CrimeMapPage() {
       </div>
 
       {/* Floating Tactical Switcher */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-8 glass-card px-10 py-5 border-white/5 bg-black/40 backdrop-blur-md z-40">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-8 glass-card px-10 py-5 border-border-glass bg-background/40 backdrop-blur-md z-40">
         <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-accent-crimson group">
           <MapIcon className="w-4 h-4" /> <span className="group-hover:tracking-[0.4em] transition-all">Tactical Map</span>
         </button>
-        <div className="w-[1px] h-4 bg-white/10" />
-        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-white/20 hover:text-white transition-all group">
+        <div className="w-[1px] h-4 bg-border-glass mx-2" />
+        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted-foreground hover:text-foreground transition-all group">
           <Activity className="w-4 h-4" /> <span className="group-hover:tracking-[0.4em] transition-all">Live Sensors</span>
         </button>
-        <div className="w-[1px] h-4 bg-white/10" />
-        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-white/20 hover:text-white transition-all group">
+        <div className="w-[1px] h-4 bg-border-glass mx-2" />
+        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.3em] text-muted-foreground hover:text-foreground transition-all group">
           <Target className="w-4 h-4" /> <span className="group-hover:tracking-[0.4em] transition-all">Target Sync</span>
         </button>
       </div>

@@ -60,6 +60,17 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Live Incident Ticker**: Real-time Supabase integration for surfacing street-level intelligence as it happens.
 - **Global Transparency Index**: Benchmarking SA investigative data against international corruption standards.
 
+### 10. TRC Report Vault Backfilling [IN PROGRESS]
+- **Dynamic Ingestion**: Transitioned from hardcoded arrays to Supabase-backed orchestration for TRC Volumes 1-7.
+- **RAG Automation**: Implemented Server Actions to trigger the `za_intelligence/rag-web-browser` Apify actor.
+- **Live Monitoring**: Integrated Supabase Realtime for instant UI status updates (QUEUED -> INDEXING -> INDEXED).
+
+# 🔮 Next Operational Cycle
+1. **Automated Result Ingestion**: Finalize the worker to ingest Apify dataset results into `historical_records` upon completion.
+2. **Evidence Packaging Engine**: Build the backend to aggregate dossiers into signed PDF packages for international justice bodies.
+3. **Geospatial Displacement Mapping**: Enrich land restitution cases with interactive geospatial layers for the network map.
+4. **Institutional Audit Expansion**: Deep-dive into Volume 4 sector-specific hearings (Health, Business, Media).
+
 # 🧠 Agent Intelligence Overlays
 
 ## Next.js 16 ADR (Architectural Decision Record)

@@ -11,11 +11,16 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "muted-foreground": "var(--muted-foreground)",
         accent: {
           crimson: "#ff3b30",
           gold: "#ffcc00",
           blue: "#007aff",
-        }
+        },
+        "bg-glass": "var(--bg-glass)",
+        "bg-glass-heavy": "var(--bg-glass-heavy)",
+        "border-glass": "var(--border-glass)",
+        "border-glass-bright": "var(--border-glass-bright)",
       },
       fontFamily: {
         sans: ["var(--font-outfit)"],

@@ -26,11 +26,11 @@ export default function NetworkMapPage() {
   const [selectedNode, setSelectedNode] = useState<any>(null);
 
   return (
-    <div className="relative min-h-screen bg-black overflow-hidden selection:bg-accent-crimson/30">
+    <div className="relative min-h-screen bg-background overflow-hidden selection:bg-accent-crimson/30 transition-colors duration-300">
       {/* Background Grid & Radar Sweep */}
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:50px_50px]" />
+      <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:50px_50px]" />
       <motion.div 
-        className="absolute inset-0 bg-[conic-gradient(from_0deg,transparent_0deg,rgba(255,59,48,0.03)_10deg,transparent_20deg)]"
+        className="absolute inset-0 bg-[conic-gradient(from_0deg,transparent_0deg,var(--accent-crimson-opacity)_10deg,transparent_20deg)]"
         animate={{ rotate: 360 }}
         transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
       />
@@ -47,13 +47,14 @@ export default function NetworkMapPage() {
                 <motion.line
                   x1={fromNode.x} y1={fromNode.y}
                   x2={toNode.x} y2={toNode.y}
-                  stroke="rgba(255,255,255,0.05)"
+                  stroke="var(--border-glass)"
                   strokeWidth="1"
                 />
                 <motion.line
                   x1={fromNode.x} y1={fromNode.y}
                   x2={toNode.x} y2={toNode.y}
-                  stroke="rgba(255,59,48,0.4)"
+                  stroke="var(--accent-crimson)"
+                  strokeOpacity="0.4"
                   strokeWidth="2"
                   strokeDasharray="4 8"
                   animate={{ strokeDashoffset: -100 }}
@@ -75,22 +76,22 @@ export default function NetworkMapPage() {
             >
               <circle 
                 cx={node.x} cy={node.y} r="30" 
-                className={`fill-black stroke-[1.5px] ${node.type === 'CRIM' ? 'stroke-accent-crimson' : node.type === 'PEP' ? 'stroke-accent-gold' : 'stroke-accent-blue'}`}
+                className={`fill-background stroke-[1.5px] transition-colors duration-300 ${node.type === 'CRIM' ? 'stroke-accent-crimson' : node.type === 'PEP' ? 'stroke-accent-gold' : 'stroke-accent-blue'}`}
               />
               <circle 
                 cx={node.x} cy={node.y} r="38" 
-                className="fill-transparent stroke-white/5 stroke-[0.5px] group-hover:stroke-white/20 transition-all"
+                className="fill-transparent stroke-border-glass stroke-[0.5px] group-hover:stroke-border-glass-bright transition-all"
               />
               <text 
                 x={node.x} y={node.y + 50} 
-                className="fill-white/40 text-[9px] font-bold uppercase tracking-[0.2em] text-center"
+                className="fill-muted-foreground text-[9px] font-bold uppercase tracking-[0.2em] text-center"
                 textAnchor="middle"
               >
                 {node.name}
               </text>
               <text 
                 x={node.x} y={node.y + 4} 
-                className="fill-white/80 text-[10px] font-mono font-bold"
+                className="fill-foreground/80 text-[10px] font-mono font-bold"
                 textAnchor="middle"
               >
                 {node.risk}%
@@ -101,33 +102,33 @@ export default function NetworkMapPage() {
 
         {/* Technical HUD Overlay */}
         <div className="absolute top-10 left-10 space-y-6 max-w-sm pointer-events-none">
-          <div className="glass-card p-6 border-white/5 bg-black/40 backdrop-blur-md">
+          <div className="glass-card p-6 border-border-glass bg-background/40 backdrop-blur-md">
             <div className="flex items-center gap-3 mb-4 text-accent-crimson">
               <Activity className="w-4 h-4 animate-pulse" />
               <span className="text-[10px] font-bold tracking-[0.3em] uppercase">Network Link Analysis</span>
             </div>
             <div className="space-y-4">
               <div className="flex justify-between items-center text-[10px] font-mono">
-                <span className="text-white/20">ACTIVE_NODES</span>
-                <span className="text-white/60">324</span>
+                <span className="text-muted-foreground">ACTIVE_NODES</span>
+                <span className="text-foreground/60">324</span>
               </div>
               <div className="flex justify-between items-center text-[10px] font-mono">
-                <span className="text-white/20">DETECTED_LINKS</span>
-                <span className="text-white/60">1,204</span>
+                <span className="text-muted-foreground">DETECTED_LINKS</span>
+                <span className="text-foreground/60">1,204</span>
               </div>
               <div className="flex justify-between items-center text-[10px] font-mono">
-                <span className="text-white/20">INTEGRITY_INDEX</span>
+                <span className="text-muted-foreground">INTEGRITY_INDEX</span>
                 <span className="text-accent-gold font-bold">CRITICAL_OVERFLOW</span>
               </div>
             </div>
           </div>
 
-          <div className="glass-card p-4 border-white/5 bg-black/40">
-            <h4 className="text-[9px] font-bold uppercase tracking-widest text-white/20 mb-3">Operational Legend</h4>
+          <div className="glass-card p-4 border-border-glass bg-background/40">
+            <h4 className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground mb-3">Operational Legend</h4>
             <div className="flex gap-4">
-              <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-accent-crimson" /><span className="text-[8px] uppercase text-white/40">Syndicate</span></div>
-              <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-accent-gold" /><span className="text-[8px] uppercase text-white/40">PEP</span></div>
-              <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-accent-blue" /><span className="text-[8px] uppercase text-white/40">Agency</span></div>
+              <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-accent-crimson" /><span className="text-[8px] uppercase text-muted-foreground">Syndicate</span></div>
+              <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-accent-gold" /><span className="text-[8px] uppercase text-muted-foreground">PEP</span></div>
+              <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-accent-blue" /><span className="text-[8px] uppercase text-muted-foreground">Agency</span></div>
             </div>
           </div>
         </div>
@@ -137,11 +138,11 @@ export default function NetworkMapPage() {
           <motion.div 
             initial={{ x: 400 }}
             animate={{ x: 0 }}
-            className="absolute top-0 right-0 w-[400px] h-full glass-card border-l border-white/10 bg-black/60 backdrop-blur-2xl p-10 z-50 flex flex-col"
+            className="absolute top-0 right-0 w-[400px] h-full glass-card border-l border-border-glass bg-background/60 backdrop-blur-2xl p-10 z-50 flex flex-col"
           >
             <button 
               onClick={() => setSelectedNode(null)}
-              className="self-end text-[10px] font-bold uppercase tracking-widest text-white/20 hover:text-white transition-colors mb-10"
+              className="self-end text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors mb-10"
             >
               Close Dossier [ESC]
             </button>
@@ -150,13 +151,13 @@ export default function NetworkMapPage() {
               <div className="inline-flex items-center gap-2 px-2 py-0.5 bg-accent-crimson/10 text-accent-crimson text-[9px] font-bold tracking-widest uppercase rounded border border-accent-crimson/20 mb-4">
                 Node_Investigation_{selectedNode.id}
               </div>
-              <h2 className="text-4xl font-bold tracking-tighter uppercase mb-2">{selectedNode.name}</h2>
-              <p className="text-sm text-white/40 font-mono mb-8 uppercase tracking-widest">Type: {selectedNode.type}</p>
+              <h2 className="text-4xl font-bold tracking-tighter uppercase mb-2 text-foreground">{selectedNode.name}</h2>
+              <p className="text-sm text-muted-foreground font-mono mb-8 uppercase tracking-widest">Type: {selectedNode.type}</p>
 
               <div className="space-y-6">
-                <div className="p-5 bg-white/[0.02] border border-white/5 rounded-xl">
-                  <p className="text-[10px] font-bold text-white/20 uppercase tracking-widest mb-3">Threat Profile</p>
-                  <div className="h-1 bg-white/5 rounded-full overflow-hidden mb-4">
+                <div className="p-5 bg-bg-glass border border-border-glass rounded-xl">
+                  <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-3">Threat Profile</p>
+                  <div className="h-1 bg-bg-glass-heavy rounded-full overflow-hidden mb-4">
                     <motion.div 
                       className="h-full bg-accent-crimson"
                       initial={{ width: 0 }}
@@ -164,22 +165,22 @@ export default function NetworkMapPage() {
                     />
                   </div>
                   <div className="flex justify-between text-[10px] font-mono">
-                    <span className="text-white/40">Risk Probability</span>
+                    <span className="text-muted-foreground">Risk Probability</span>
                     <span className="text-accent-crimson font-bold">{selectedNode.risk}%</span>
                   </div>
                 </div>
 
                 <div className="space-y-4">
-                  <p className="text-[10px] font-bold text-white/20 uppercase tracking-widest">Established Links</p>
+                  <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest">Established Links</p>
                   {INITIAL_EDGES.filter(e => e.from === selectedNode.id || e.to === selectedNode.id).map((edge, i) => {
                     const linkedTo = INITIAL_NODES.find(n => n.id === (edge.from === selectedNode.id ? edge.to : edge.from))!;
                     return (
-                      <div key={i} className="flex justify-between items-center py-3 border-b border-white/[0.03]">
+                      <div key={i} className="flex justify-between items-center py-3 border-b border-border-glass">
                         <div className="flex items-center gap-3">
                           <Zap className="w-3.5 h-3.5 text-accent-gold" />
-                          <span className="text-xs font-bold uppercase tracking-tight">{linkedTo.name}</span>
+                          <span className="text-xs font-bold uppercase tracking-tight text-foreground">{linkedTo.name}</span>
                         </div>
-                        <span className="text-[9px] font-mono text-white/20 italic">{edge.label}</span>
+                        <span className="text-[9px] font-mono text-muted-foreground italic">{edge.label}</span>
                       </div>
                     );
                   })}
@@ -197,16 +198,16 @@ export default function NetworkMapPage() {
       </div>
 
       {/* Floating Action HUD */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-6 glass-card px-8 py-4 border-white/5 bg-black/40 backdrop-blur-md">
-        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest text-white/40 hover:text-white transition-colors">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-6 glass-card px-8 py-4 border-border-glass bg-background/40 backdrop-blur-md z-40">
+        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors">
           <Globe className="w-4 h-4" /> Global Map
         </button>
-        <div className="w-[1px] h-4 bg-white/10" />
+        <div className="w-[1px] h-4 bg-border-glass mx-2" />
         <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest text-accent-crimson font-bold">
           <Network className="w-4 h-4" /> Link Graph
         </button>
-        <div className="w-[1px] h-4 bg-white/10" />
-        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest text-white/40 hover:text-white transition-colors">
+        <div className="w-[1px] h-4 bg-border-glass mx-2" />
+        <button className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors">
           <Activity className="w-4 h-4" /> Live Intercepts
         </button>
       </div>
