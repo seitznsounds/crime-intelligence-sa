@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Calculator, 
@@ -11,8 +11,12 @@ import {
   ShieldCheck, 
   Info,
   AlertTriangle,
-  Coins
+  Coins,
+  ChevronDown,
+  Target,
+  Users
 } from 'lucide-react';
+import { getRecoveryTargets } from './actions';
 
 const FEAR_MULTIPLIER = 0.62; // HSRC 2026 Social Norms survey
 const ROCOSN_INDEX_BASE = 0.28; // Risk of Community and Social Neglect (Mthente 2024)
@@ -26,6 +30,25 @@ export default function IncentiveCalculator() {
   const [infiltrationLevel, setInfiltrationLevel] = useState<number>(0.3); // 0-1 (SAPS/Cartel nexus)
   const [wpIntegrity, setWpIntegrity] = useState<number>(0.4); // 0-1 (Section 7 Reporting Integrity)
   const [legalVulnerability, setLegalVulnerability] = useState<number>(0.6); // 0-1 (SLAPP/Blacklisting Audit)
+  const [proclamationLag, setProclamationLag] = useState<number>(0.5); // 0-1 (SIU Bottleneck)
+  const [recoveryVelocity, setRecoveryVelocity] = useState<number>(0.2); // 0-1 (GNU 5x target)
+  
+  const [targets, setTargets] = useState<any[]>([]);
+  const [selectedTarget, setSelectedTarget] = useState<any>(null);
+
+  useEffect(() => {
+    const fetchTargets = async () => {
+      const data = await getRecoveryTargets();
+      setTargets(data);
+    };
+    fetchTargets();
+  }, []);
+
+  const handleTargetSelect = (target: any) => {
+    setSelectedTarget(target);
+    setCaseValue(target.value);
+    setDeptRisk(target.riskScore / 10); // Normalizing 0-10 to 0-1
+  };
 
   const results = useMemo(() => {
     const grossMin = caseValue * REWARD_MIN_PCT;
@@ -44,7 +67,14 @@ export default function IncentiveCalculator() {
     const slappRisk = legalVulnerability * 0.4;
     const legalPenalty = avgGross * slappRisk;
 
-    const riskAdjusted = avgGross - fearPenalty - socialPenalty - legalPenalty;
+    // Proclamation & Velocity Multiplier
+    const lagPenalty = avgGross * proclamationLag * 0.3;
+    const velocityBonus = avgGross * recoveryVelocity * 0.5;
+
+    // Ghost Vendor Risk (Administrative Concealment)
+    const concealmentRisk = (deptRisk > 0.7 ? 0.2 : 0) * avgGross;
+
+    const riskAdjusted = avgGross - fearPenalty - socialPenalty - legalPenalty - lagPenalty + velocityBonus - concealmentRisk;
     const score = Math.max(0, Math.min(100, (riskAdjusted / avgGross) * 100));
 
     let verdict = "CRITICAL RISK: Retaliation risk and social neglect outweigh financial incentive.";
@@ -72,9 +102,11 @@ export default function IncentiveCalculator() {
       score,
       verdict,
       color,
-      legalPenalty
+      legalPenalty,
+      lagPenalty,
+      velocityBonus
     };
-  }, [caseValue, deptRisk, empSecurity, infiltrationLevel, wpIntegrity, legalVulnerability]);
+  }, [caseValue, deptRisk, empSecurity, infiltrationLevel, wpIntegrity, legalVulnerability, proclamationLag, recoveryVelocity]);
 
   return (
     <div className="glass-card p-8 border border-white/10 rounded-xl space-y-8 bg-black/40 backdrop-blur-md">
@@ -97,6 +129,42 @@ export default function IncentiveCalculator() {
         {/* INPUTS */}
         <div className="space-y-6">
           <div className="space-y-2">
+            <label className="text-xs font-bold text-white/50 uppercase tracking-widest flex items-center gap-2 mb-4">
+              <Target className="w-4 h-4 text-accent-crimson" /> Select Recovery Target (Optional)
+            </label>
+            <div className="grid grid-cols-1 gap-2">
+              {targets.map((target) => (
+                <button
+                  key={target.id}
+                  onClick={() => handleTargetSelect(target)}
+                  className={`flex flex-col p-4 rounded-xl border transition-all text-left ${
+                    selectedTarget?.id === target.id 
+                      ? 'bg-accent-crimson/20 border-accent-crimson shadow-glow-crimson' 
+                      : 'bg-white/5 border-white/10 hover:bg-white/10'
+                  }`}
+                >
+                  <div className="flex justify-between items-center mb-1">
+                    <span className="text-xs font-bold text-white uppercase">{target.name}</span>
+                    <span className="text-[10px] font-mono text-accent-gold">{target.caseRef}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-[10px] text-white/50 italic">Est. Value: R {(target.value / 1000000).toFixed(1)}M</span>
+                    <span className="text-[10px] text-accent-crimson font-bold uppercase">Risk: {(target.riskScore * 10).toFixed(0)}%</span>
+                  </div>
+                </button>
+              ))}
+            </div>
+            {selectedTarget && (
+              <button 
+                onClick={() => { setSelectedTarget(null); setCaseValue(100000); }}
+                className="text-[10px] font-bold text-accent-crimson uppercase tracking-widest mt-2 hover:underline"
+              >
+                [X] Clear Selection
+              </button>
+            )}
+          </div>
+
+          <div className="space-y-2">
             <div className="flex justify-between items-end">
               <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
                 <Coins className="w-4 h-4" /> Case Value (ZAR)
@@ -106,8 +174,8 @@ export default function IncentiveCalculator() {
             <input 
               type="range" 
               min="10000" 
-              max="10000000" 
-              step="10000"
+              max="1000000000" 
+              step="1000000"
               value={caseValue}
               onChange={(e) => setCaseValue(Number(e.target.value))}
               className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-gold"
@@ -190,6 +258,44 @@ export default function IncentiveCalculator() {
             />
             <p className="text-[10px] text-white/30 italic">Phase 2 Audit: SLAPP suit fragility and industry blacklisting risk (outside PDA scope).</p>
           </div>
+
+          <div className="space-y-2">
+            <div className="flex justify-between items-end">
+              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+                <TrendingDown className="w-4 h-4 text-accent-gold" /> Proclamation Lag
+              </label>
+              <span className="text-sm font-mono text-white/90">{(proclamationLag * 100).toFixed(0)}%</span>
+            </div>
+            <input 
+              type="range" 
+              min="0" 
+              max="1" 
+              step="0.1"
+              value={proclamationLag}
+              onChange={(e) => setProclamationLag(Number(e.target.value))}
+              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-gold"
+            />
+            <p className="text-[10px] text-white/30 italic">BRICS 2024 Audit: Shortcoming in investigations due to Presidential Proclamation bottlenecks.</p>
+          </div>
+
+          <div className="space-y-2">
+            <div className="flex justify-between items-end">
+              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+                <TrendingUp className="w-4 h-4 text-green-400" /> Recovery Velocity
+              </label>
+              <span className="text-sm font-mono text-white/90">{(recoveryVelocity * 100).toFixed(0)}%</span>
+            </div>
+            <input 
+              type="range" 
+              min="0" 
+              max="1" 
+              step="0.1"
+              value={recoveryVelocity}
+              onChange={(e) => setRecoveryVelocity(Number(e.target.value))}
+              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-green-400"
+            />
+            <p className="text-[10px] text-white/30 italic">GNU 2028 Target: 5x increase in asset recovery speed and data-driven investigation efficiency.</p>
+          </div>
         </div>
 
         {/* OUTPUTS */}
@@ -227,6 +333,20 @@ export default function IncentiveCalculator() {
               <span className="text-sm font-mono">-R {results.legalPenalty?.toLocaleString(undefined, { maximumFractionDigits: 0 }) || 0}</span>
             </div>
 
+            <div className="flex justify-between items-center text-accent-gold/50">
+              <span className="text-xs font-bold uppercase flex items-center gap-2">
+                <TrendingDown className="w-3 h-3" /> Proclamation Delay Adjustment
+              </span>
+              <span className="text-sm font-mono">-R {results.lagPenalty?.toLocaleString(undefined, { maximumFractionDigits: 0 }) || 0}</span>
+            </div>
+
+            <div className="flex justify-between items-center text-green-400/50">
+              <span className="text-xs font-bold uppercase flex items-center gap-2">
+                <TrendingUp className="w-3 h-3" /> Velocity Bonus (GNU 5x Benchmark)
+              </span>
+              <span className="text-sm font-mono">+R {results.velocityBonus?.toLocaleString(undefined, { maximumFractionDigits: 0 }) || 0}</span>
+            </div>
+
             <div className="pt-4 border-t border-white/20">
               <div className="flex justify-between items-center">
                 <span className="text-sm font-black text-white uppercase tracking-tighter">Risk-Adjusted Incentive</span>
@@ -249,9 +369,9 @@ export default function IncentiveCalculator() {
           <div className="flex items-start gap-2 p-3 bg-white/5 rounded-lg">
             <Info className="w-4 h-4 text-accent-blue flex-shrink-0 mt-0.5" />
             <p className="text-[10px] text-white/50 leading-tight">
-              Calculations assume the Zondo Commission's recommendation for financial incentives (15-25%) is implemented. 
-              The <span className="text-white">Fear Offset</span> uses HSRC's 62% retaliation risk finding, weighted against 
-              environmental factors.
+              Calculations based on Zondo Commission (15-25%) and OECD (10-30%) global reward benchmarks. 
+              The <span className="text-white">Proclamation Lag</span> accounts for SIU bottlenecks identified in BRICS 2024. 
+              Ghost Vendor risk is applied for high-risk departments (Administrative Concealment).
             </p>
           </div>
         </div>

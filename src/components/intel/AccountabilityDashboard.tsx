@@ -13,8 +13,17 @@ import {
   AlertCircle,
   CheckCircle2,
   ExternalLink,
-  Info
+  Info,
+  AlertTriangle
 } from 'lucide-react';
+import { ReformTicker } from './ReformTicker';
+import { GhostVendorTracker } from './GhostVendorTracker';
+import { SCMHeatmap } from './SCMHeatmap';
+import { OPITransitionTracker } from './OPITransitionTracker';
+import { MunicipalSCMTracker } from './MunicipalSCMTracker';
+import { AssetRecoveryTracker } from './AssetRecoveryTracker';
+import { ReformFeed } from './ReformFeed';
+import { PredictiveReformModel } from './PredictiveReformModel';
 
 const NACS_PILLARS = [
   { id: 1, name: "Citizen Participation", progress: 42, color: "bg-accent-blue" },
@@ -170,6 +179,18 @@ export default function AccountabilityDashboard() {
             ))}
           </div>
 
+          <div className="flex items-start gap-3 p-3 bg-accent-crimson/10 border border-accent-crimson/20 rounded-lg">
+            <AlertTriangle className="w-4 h-4 text-accent-crimson flex-shrink-0 mt-0.5" />
+            <div className="space-y-1">
+              <p className="text-[10px] font-bold text-accent-crimson uppercase">Administrative Concealment Alert</p>
+              <p className="text-[9px] text-white/60 leading-tight">
+                Forensic Analysis indicates that the R12.4 Bn backlog is not merely administrative delay. Delayed payments serve as 
+                critical concealment nodes, allowing for the redirection of funds into syndicate-controlled sub-accounts and 
+                the masking of ghost vendor transactions before final audit settlement.
+              </p>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-6 border-t border-white/5">
             {[
               { label: "Vetting Compliance", value: 92, status: "GOOD" },
@@ -185,6 +206,29 @@ export default function AccountabilityDashboard() {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8 border-t border-white/5">
+            <ReformTicker />
+            <SCMHeatmap />
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8 border-t border-white/5">
+            <OPITransitionTracker />
+            <MunicipalSCMTracker />
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8 border-t border-white/5">
+            <AssetRecoveryTracker />
+            <PredictiveReformModel />
+          </div>
+
+          <div className="pt-8 border-t border-white/5">
+            <ReformFeed />
+          </div>
+
+          <div className="pt-8 border-t border-white/5">
+            <GhostVendorTracker />
           </div>
         </div>
       </div>

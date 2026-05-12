@@ -1,0 +1,450 @@
+--- Page 1 ---
+On the Take
+Criminalizing Illicit Enrichment to
+Fight Corruption
+Lindy Muzila
+Michelle Morales
+Marianne Mathias
+Tammar Berger
+
+--- Page 3 ---
+On the Take
+
+--- Page 4 ---
+Stolen Asset Recovery (StAR) Series
+StAR—the Stolen Asset Recovery Initiative—is a partnership between the World Bank
+Group and the United Nations Offi ce on Drugs and Crime (UNODC) that supports
+international eff orts to end safe havens for corrupt funds. StAR works with developing
+countries and fi nancial centers to prevent the laundering of the proceeds of corruption
+and to facilitate more systematic and timely return of stolen assets.
+Th e Stolen Asset Recovery (StAR) Series supports the eff orts of StAR and UNODC by
+providing practitioners with knowledge and policy tools that consolidate international
+good practice and wide-ranging practical experience on cutting edge issues related to
+anticorruption and asset recovery eff orts. For more information, visit www.worldbank
+.org/star.
+Titles in the Stolen Asset Recovery (StAR) Series
+Stolen Asset Recovery: A Good Practices Guide for Non-Conviction Based Asset Forfeiture
+(2009) by Th eodore S. Greenberg, Linda M. Samuel, Wingate Grant, and Larissa Gray
+Politically Exposed Persons: Preventive Measures for the Banking Sector (2010) by Th eo-
+dore S. Greenberg, Larissa Gray, Delphine Schantz, Carolin Gardner, and Michael
+Latham
+Asset Recovery Handbook: A Guide for Practitioners (2011) by Jean-Pierre Brun, Larissa
+Gray, Clive Scott, and Kevin Stephenson
+Barriers to Asset Recovery: An Analysis of the Key Barriers and Recommendations for
+Action (2011) by Kevin Stephenson, Larissa Gray, and Ric Power
+Th e Puppet Masters: How the Corrupt Use Legal Structures to Hide Stolen Assets and
+What to Do About It (2011) by Emile van der Does de Willebois, J.C. Sharman, Robert
+Harrison, Ji Won Park, and Emily Halter
+Public Offi ce, Private Interests: Accountability through Income and Asset Disclosure
+(2012)
+On the Take: Criminalizing Illicit Enrichment to Fight Corruption (2012) by Lindy
+Muzila, Michelle Morales, Marianne Mathias, and Tammar Berger
+
+--- Page 5 ---
+On the Take
+Criminalizing Illicit Enrichment to
+Fight Corruption
+Lindy Muzila
+Michelle Morales
+Marianne Mathias
+Tammar Berger
+
+--- Page 6 ---
+© 2012 International Bank for Reconstruction and Development/Th e World Bank
+1818 H Street NW, Washington DC 20433
+Telephone: 202-473-1000; Internet: www.worldbank.org
+Some rights reserved
+1 2 3 4 15 14 13 12
+Th is work is a product of the staff of Th e World Bank with external contributions. Note that Th e World
+Bank does not necessarily own each component of the content included in the work. Th e World Bank
+therefore does not warrant that the use of the content contained in the work will not infringe on the rights
+of third parties. Th e risk of claims resulting from such infringement rests solely with you.
+Th e fi ndings, interpretations, and conclusions expressed in this work do not necessarily refl ect the views of
+Th e World Bank, its Board of Executive Directors, or the governments they represent. Th e World Bank
+does not guarantee the accuracy of the data included in this work. Th e boundaries, colors, denominations,
+and other information shown on any map in this work do not imply any judgment on the part of Th e World
+Bank concerning the legal status of any territory or the endorsement or acceptance of such boundaries.
+Nothing herein shall constitute or be considered to be a limitation upon or waiver of the privileges and
+immunities of Th e World Bank, all of which are specifi cally reserved.
+Rights and Permissions
+Th is work is available under the Creative Commons Attribution 3.0 Unported license (CC BY 3.0) http://
+creativecommons.org/licenses/by/3.0. Under the Creative Commons Attribution license, you are free to
+copy, distribute, transmit, and adapt this work, including for commercial purposes, under the following
+conditions:
+Attribution—Please cite the work as follows: Muzila, Lindy, Michelle Morales, Marianne Mathias, and
+Tammar Berger. 2012. On the Take: Criminalizing Illicit Enrichment to Fight Corruption. Washington, DC:
+World Bank. DOI: 10.1596/978-0-8213-9454-0. License: Creative Commons Attribution CC BY 3.0
+Translations—If you create a translation of this work, please add the following disclaimer along with the
+attribution: Th is translation was not created by Th e World Bank and should not be considered an offi cial
+World Bank translation. Th e World Bank shall not be liable for any content or error in this translation.
+All queries on rights and licenses should be addressed to the Offi ce of the Publisher, Th e World Bank, 1818
+H Street NW, Washington, DC 20433, USA; fax: 202-522-2625; e-mail: pubrights@worldbank.org.
+ISBN (paper): 978-0-8213-9454-0
+ISBN (electronic): 978-0-8213-9596-7
+DOI: 10.1596/978-0-8213-9454-0
+Cover photos: Shutterstock and photos.com
+Cover design: Naylor Design
+Library of Congress Cataloging-in-Publication Data
+On the take : Criminalizing illicit enrichment to fi ght corruption / Lindy Muzila . . . [et al.].
+p. cm.
+Includes bibliographical references.
+ISBN 978-0-8213-9454-0 — ISBN 978-0-8213-9596-7 (electronic)
+1. Unjust enrichment (International law) I. Muzila, Lindy.
+K920.O5 2012
+345'.02323—dc23
+2012028809
+
+--- Page 7 ---
+Contents
+Acknowledgments ix
+Abbreviations xi
+Executive Summary xiii
+Introduction: Purpose of the Study 1
+Methodology 2
+How to Use This Study 4
+1. The Basis of Illicit Enrichment 5
+1.1 The Rationale for Criminalizing Illegal Enrichment 5
+1.2 The Prosecution of Illicit Enrichment 6
+1.3 Origins and Development of the Offense 7
+2. Defining Illicit Enrichment 11
+2.1 International and Domestic Definitions 11
+2.2 Elements of the Offense 13
+2.2.1 Persons of Interest 13
+2.2.2 Period of Interest or Period of Check 16
+2.2.3 Significant Increase in Assets 18
+2.2.4 Intent 21
+2.2.5 Absence of Justification 22
+2.3 Observations 26
+3. Human Rights and Constitutional Aspects 27
+3.1 The Main Principles at Stake 30
+3.1.1 Presumption of Innocence 30
+3.1.2 Protection against Self-Incrimination 32
+3.1.3 The Principle of Legality 33
+3.2 Legal Presumptions Contained in Offenses Other Than Illicit
+Enrichment 34
+3.3 Protection of the Rights of the Accused in Illicit Enrichment
+Proceedings 36
+3.4 Observations 38
+v
+
+--- Page 8 ---
+4. Operational Aspects 41
+4.1 Triggering Investigations on Illicit Enrichment 41
+4.1.1 Income and Asset Disclosures 41
+4.1.2 Lifestyle Checks and Complaints 43
+4.1.3 Suspicious Transaction Reports 44
+4.1.4 Other Investigations 44
+4.2 Strengthening Investigations on Illicit Enrichment 45
+4.2.1 Domestic Coordination 45
+4.2.2 Building a Financial Profile 46
+4.2.3 Tools and Skills to Facilitate Investigations 47
+4.3 Process and Interaction with the Public Official during the Investigation 48
+4.3.1 Stages of the Procedure 48
+4.4 Enforcing Illicit Enrichment: The Challenges 49
+4.4.1 Access to Registries and Relevant Databases 50
+4.4.2 Cash Economies and Valuation of Properties 51
+4.4.3 The Use of Third Parties 51
+4.4.4 Original Solutions to Overcome Challenges 53
+4.5 Assessing the Effectiveness of an Illicit Enrichment Regime 53
+4.5.1 Penalties and Forfeiture 53
+4.5.2 Performance 56
+4.6 Observations 58
+5. International Cooperation 61
+5.1 Addressing Dual Criminality 62
+5.2 Meeting Evidentiary and Due Process Standards 63
+5.3 Legal Cooperation Regime 65
+5.4 Observations 66
+Appendix A Illicit Enrichment Provisions 67
+Appendix B J urisdictions with Illicit Enrichment Provisions
+and Rankings for Rule of Law, Control of
+Corruption, and GDP per Capita, 2009 89
+Appendix C The Illicit Enrichment Questionnaire 91
+Background Information 91
+Legal Framework 91
+Application Data 92
+International Cooperation 92
+Asset Recovery 93
+Challenges 93
+Bibliography 95
+vi I Contents
+
+--- Page 9 ---
+Boxes
+1.1 The State v. Mzumar: Malawi 6
+3.1 Administrative Forfeiture in Switzerland 37
+4.1 Related Offenses 50
+4.2 The Benamis in India 52
+4.3 The Alsogaray Case in Argentina 55
+5.1 U.S. and International Cooperation on Illicit Enrichment 64
+Figures
+2.1 General Sequence of Events in an Illicit Enrichment Case 23
+4.1 Triggers of Illicit Enrichment Investigations in India 45
+Tables
+2.1 Definitions of Illicit Enrichment in International Conventions 12
+2.2 Definitions of Illicit Enrichment in National Legislation 12
+4.1 I nvestigation, Prosecution, and Conviction of Illicit Enrichment
+and Other Corruption Offenses in Argentina, 2000–09 57
+4.2 Status of Illicit Enrichment Cases in Pakistan, 1999–2011 57
+Contents I vii
+
+--- Page 11 ---
+Acknowledgments
+Th is study is the result of collaborative eff orts from colleagues around the world.
+Th eir time and expertise enabled practitioners to impart their knowledge and expe-
+riences about the reality of the illicit enrichment off ense in the jurisdictions that
+criminalize it.
+Th is publication was written by Lindy Muzila (team leader, Stolen Asset Recovery Ini-
+tiative [StAR]), Michelle Morales (StAR), Marianne Mathias (project consultant, StAR),
+and Tammar Berger (project consultant, StAR).
+Th e authors are especially grateful to Adrian Fozzard (coordinator, StAR), Jean Pesme
+(coordinator, StAR), Dimitri Vlassis (chief of the Corruption and Economic Crime
+Branch, United Nations Offi ce on Drugs and Crime [UNODC]), and Brigitte Strobel-
+Shaw (chief, Conference Support Section, Corruption and Economic Crime Branch,
+UNODC) for their ongoing support and guidance on this project.
+Th e study benefi ted from the collaboration with the United Nations Offi ce of the High
+Commissioner for Human Rights (OHCHR), which generously shared its time and
+experience under the guidance of Ayuush Bat-Erdene (chief, Right to Development
+Section, OHCHR), assisted by Basil Fernando (project consultant, OHCHR).
+During the course of this study, valuable contributions that helped to shape the study
+were received from Matthew Adler (project consultant, United States), Yassine Allam
+(Tunisia), Noemie Apollon (project consultant, Canada), Silvina Coarsi (project con-
+sultant, Argentina), Chantal Herberstein (Austria), Rutherford Hubbard (United
+States), Guillermo Jorge (project consultant, Argentina), Eva Melis (Germany), Hari
+Mulukutla (project consultant, United States), Yousef Nasrallah (project consultant),
+and Chiara Redini (Italy).
+Th e team is also grateful to all the authorities who took the time to fi ll out the question-
+naire regarding the implementation of illicit enrichment in their jurisdictions. Special
+thanks go, in particular, to the authorities in Argentina; Hong Kong SAR, China; India;
+and Pakistan, who provided extensive information on their illicit enrichment frame-
+works, jurisprudence, and statistics.
+ix
+
+--- Page 12 ---
+As part of the draft ing and consultation process for this document, a practitioners
+workshop was held in Washington, DC, during April 2011. Th e practitioners brought
+experience in conducting illicit enrichment investigations and prosecutions in both
+civil and common law jurisdictions. Th e workshop also allowed fruitful dialogue
+between practitioners and researchers. Th e participants were Ayuush Bat-Erdene
+(OHCHR), Bertrand de Speville (United Kingdom/Hong Kong SAR, China), Ghulam
+Farooq (Pakistan), Basil Fernando (project consultant, OHCHR), Augustin Flah (World
+Bank), Clara Garrido (Colombia), Guillermo Jorge (project consultant, Argentina),
+Pranvera Kirkbride (United States), Rick Messick (World Bank), Laura Pop (World
+Bank), Venkata Rama Sastry (India), and Balwinder Singh (India).
+Th e team also benefi ted from many insightful comments during the peer review pro-
+cess. Th e peer reviewers were Oliver Stolpe (UNODC), Rick Messick (World Bank),
+Clara Garrido (Colombia), Agustin Flah (World Bank), Roberta Solis Ribeiro (Brazil
+Offi ce of the Comptroller General), Ayuush Bat-Erdene (OHCHR), Basil Fernando
+(consultant, OHCHR), Ted Greenberg (consultant, StAR), Panagiotis Papadimitriou
+(UNODC), Lisa Bhansali (World Bank), Tim Steele (StAR), and Jacinta Oduor (StAR).
+A special thanks also to Eli Bielasiak for arranging the logistics of the workshop in
+Washington, DC, as well as for his continued support in this project.
+Lindy Muzila
+Task Team Leader
+StAR
+x I Acknowledgments
+
+--- Page 13 ---
+Abbreviations
+ANI National Integrity Agency, Romania
+AML anti-money-laundering
+AUCPCC A frican Union Convention on Preventing and Combating
+Corruption
+ECOWAS Economic Community of West African States
+FATF Financial Access Task Force
+FIU fi nancial intelligence unit
+GDP gross domestic product
+IACAC Inter-American Convention against Corruption
+ICCPR International Covenant on Civil and Political Rights
+INTERPOL International Criminal Police Organization
+MLA mutual legal assistance
+NAB National Accountability Bureau
+NGO nongovernmental organization
+OHCHR Offi ce of the High Commissioner for Human Rights
+POCA Proceeds of Crime Act
+SAR Special Administrative Region
+StAR Stolen Asset Recovery Initiative
+STR suspicious transaction report
+UNCAC United Nations Convention against Corruption
+xi
+
+--- Page 15 ---
+Executive Summary
+Illicit enrichment is criminalized under Article 20 of the United Nations Convention
+against Corruption (UNCAC), which defi nes it as the “signifi cant increase in the assets
+of a public offi cial that he or she cannot reasonably explain in relation to his or her law-
+ful income.” Illicit enrichment is also prescribed as an off ense in the Inter-American
+Convention against Corruption (IACAC) and the African Union Convention on Pre-
+venting and Combating Corruption (AUCPCC) under comparable defi nitions. Despite
+such broad international recognition, the criminalization of illicit enrichment is not
+universally accepted as an anticorruption measure. Instead, it continues to generate
+extensive debate and controversy.
+Against this background and based on country experience, this study aims to analyze
+how the criminalization of illicit enrichment works and to shed light on its contribu-
+tions to the fi ght against corruption and the recovery of stolen assets. Th is study does
+not delve deeply into the theoretical debates around illicit enrichment, but instead
+analyzes practice, case law, and the literature to add new perspective to the ongoing
+discussions.
+Th is study does not seek to recommend or oppose the adoption of particular illicit
+enrichment provisions. Rather, it aims to assist jurisdictions that are considering such
+steps by highlighting key questions that might arise during implementation, including
+how states defi ne and enforce the off ense. Similarly, this study does not endorse or
+criticize any practice carried out by states in implementing the criminalization of illicit
+enrichment. Ultimately, it seeks to provide useful information for policy makers and
+practitioners as well as for upcoming discussions of the Conference of State Parties of
+the UNCAC and its working groups.
+Th is study found that 44 jurisdictions have criminalized illicit enrichment, most of
+them in developing countries. Several jurisdictions that prosecute illicit enrichment
+and that were contacted during the course of this study perceive it as a valuable com-
+plement to the traditional toolkit for combating corruption. However, the statistical
+information collected for this study indicates that only a limited number of these
+jurisdictions regularly investigate or prosecute the off ense. Several elements of the
+illicit enrichment off ense are common to the jurisdictions that prosecute it. Th ose ele-
+ments are persons of interest, period of interest, signifi cant increase in assets, intent,
+and absence of justifi cation.
+One critical issue subject to ongoing debate relates to the compatibility of illicit enrich-
+ment with human rights principles and related concerns regarding the perceived rever-
+sal of the burden of proof. Experience in several jurisdictions that have overcome these
+xiii
+
+--- Page 16 ---
+challenges shows that illicit enrichment off enses can be defi ned and implemented in a
+manner that fully respects the rights of the accused.
+Considered in a broader context, there is the question of whether the public interest in
+the fi ght against corruption justifi es the criminalization of illicit enrichment, an off ense
+that contains some form of presumption. In this respect, several practices as well as
+jurisprudence have emerged that reconcile such presumptions with the respect for and
+protection of human rights. For instance, the jurisprudence of the European Court of
+Human Rights clearly delineates that the presumption of innocence does not prevent
+legislatures from creating criminal off enses containing a presumption by law as long as
+the principles of rationality and proportionality are duly respected. Similarly, many
+countries that do not criminalize illicit enrichment have enacted other off enses that do
+reverse the burden of proof to some extent. Th ese related presumptions indicate that
+measures to shift the burden of proof can be considered as valid and legitimate tools for
+combating crime when justifi ed by the public interest. Th erefore, parallels may be
+drawn between these presumptions and the principle of illicit enrichment.
+Apart from substantive aspects of the off ense, research conducted for this study revealed
+that the design and implementation of government structures are critical to ensure full
+respect of Article 2 of the International Covenant on Civil and Political Rights (ICCPR).
+Th e status and existence of legislative, administrative, and judicial measures for the
+implementation of these rights must be considered from the point of view of the elimi-
+nation of corruption. Of particular relevance is whether institutions involved in the
+investigation, prosecution, and adjudication of illicit enrichment are properly moni-
+tored, accountable, resourced, and trained so that they are in a position to implement
+the obligations taken under the ICCPR and to pursue corrupt money eff ectively and
+fairly. Any illicit enrichment legislation should be tailored to suit the particular needs
+and concerns of the country, specifi cally with regard to legislative, administrative, and
+judicial measures, including the role and limits of the prosecution.
+Dual criminality remains a hurdle in international cooperation involving illicit enrich-
+ment. Th is is a challenge facing many of the countries prosecuting this off ense, particu-
+larly when eff orts are not made, before seeking assistance, to verify that the conduct
+underlying the request constitutes an off ense in the requested jurisdiction. Several
+jurisdictions have publicly indicated their willingness to provide mutual legal assis-
+tance, even if they have not criminalized illicit enrichment themselves, provided that
+the conduct in question can be classifi ed as an off ense within their legal system. Trans-
+lating such openness into actual information sharing requires a strong capacity to
+deconstruct the criminal conduct and to ensure the quality of the request for mutual
+legal assistance accordingly.
+In all jurisdictions reviewed, the illicit enrichment law addresses the recovery of the
+assets illicitly acquired. However, there remains an absence of solid statistical data with
+which to establish whether such laws have actually contributed to the recovery of assets.
+Th e available evidence is mixed, and the underlying reasons for the mixed results are
+diffi cult to determine. One possibility is that convictions for illicit enrichment lead to
+xiv I Executive Summary
+
+--- Page 17 ---
+penalties other than confi scation. Th ese examples confi rm that illicit enrichment laws
+can be useful in asset recovery, but there is still a long way to go before they are used
+systematically.
+In sum, the limited experience available demonstrates that illicit enrichment can be a
+useful anticorruption and asset recovery tool that is implemented in full respect of
+human rights. It is hoped that the experiences documented in this study will promote
+greater understanding of how illicit enrichment works in practice. Further work may be
+carried out on institutional issues relating to investigations, prosecutions, and the judi-
+ciary as important agencies in the prosecution of illicit enrichment and the protection
+of the rule of law. Ultimately, more countries will gain experience in this arena and
+more statistics and information will become available. In the meantime, it is hoped that
+this study will provide the foundation for further examination of how illicit enrichment
+frameworks could help countries to facilitate the recovery of corruption proceeds.
+Executive Summary I xv
+
+--- Page 19 ---
+Introduction:
+Purpose of the Study
+In November 2009, the third session of the Conference of State Parties of the United
+Nations Convention against Corruption (UNCAC) adopted Resolution 3/3, which
+urged “further study and analysis of, inter alia, the results of asset recovery actions and,
+where appropriate, how legal presumptions, measures to shift the burden of proof, and
+the examination of illicit enrichment frameworks could facilitate the recovery of cor-
+ruption proceeds.”1 Th e resolution responded to interest expressed by many state par-
+ties in how diff erent jurisdictions have implemented the criminalization of illicit
+enrichment.
+Th is study responds to the call for such analysis. Its objectives are, fi rst, to promote a
+broader understanding of the off ense of illicit enrichment, its application, benefi ts, and
+the challenges it poses and, second, based on country experience, to identify key issues
+that jurisdictions should consider when developing an institutional and legal regime
+for criminalizing illicit enrichment.
+In particular, the study looks at whether the criminalization of illicit enrichment has
+facilitated the recovery of assets by national authorities and examines the related chal-
+lenges they have experienced in this respect. Th e study also addresses key issues iden-
+tifi ed by these authorities, which include putting in place eff ective institutional and
+legislative regimes for criminalizing, identifying, and prosecuting illicit enrichment
+with the help of mutual legal assistance.
+Further, this publication examines how the concept of illicit enrichment is applied in
+those jurisdictions currently implementing and enforcing the off ense, particularly in
+view of expressed and documented concerns. It describes risks posed to the fairness
+of the trial process if the accused is required to provide a “reasonable explanation” of
+his assets. Building on existing legislation and case law, the study identifi es the safe-
+guards used by states and related measures intended to ensure a balanced and fair
+trial. In order to contextualize the debate with regard to the burden of proof, the
+study also outlines measures that some jurisdictions have used instead of the concept
+of illicit enrichment, such as reversing some of the burden of proof in eff orts to con-
+fi scate the proceeds of crime and to prosecute crimes related to the abuse of positions
+of trust.2
+1. UNCAC, Resolution 3/3, para. 13.
+2. See UNCAC, Article 31(8), which provides that state parties may wish to consider shift ing the burden of
+proof to the accused, who then must show that proceeds were obtained from legitimate sources.
+
+--- Page 20 ---
+Th is review does not seek to rank one approach over another nor single out any juris-
+diction. Instead, by providing an overview of diff erent approaches, it seeks to identify
+lessons learned, to highlight the challenges of using the criminalization of illicit enrich-
+ment as a framework for anticorruption and asset recovery eff orts, and to inform the
+debate surrounding illicit enrichment.
+Methodology
+Th is study builds on published research on the criminalization of illicit enrichment.
+Most of this literature focuses on constitutional and human rights implications of the
+off ense. Th e practical issues related to the investigation and prosecution of illicit enrich-
+ment have received scant attention, save in a few instances. Given the focus of the World
+Bank’s Stolen Asset Recovery Initiative (StAR) on operational issues related to asset
+recovery, as well as the objective of adding value to ongoing discussions, the study
+focuses primarily on learning from the experiences of states that have implemented a
+legal framework for prosecuting illicit enrichment.
+Th is study also draws upon a review of the records of negotiations for the UNCAC, the
+draft ing decisions of the key international conventions, and existing jurisprudence on
+illicit enrichment. An extensive search was conducted to identify jurisdictions that
+have legislation criminalizing illicit enrichment. Th e review draws extensively on the
+legal library of the United Nations Offi ce on Drugs and Crime, a parallel project sup-
+ported by StAR that was launched in the second half of 2011. It also surveyed 45
+national authorities, receiving 30 responses. Th e questionnaire is presented as appen-
+dix C to this study.
+Appendix A lists the jurisdictions where, in the view of the team, illicit enrichment has
+been criminalized. Without endorsing any particular defi nition of “criminalization,” in
+order to work with a distinct or more clearly defi ned standard, the team focused on
+countries that criminalize illicit enrichment by imposing the possibility of prison sanc-
+tions. Some provisions that are very similar to illicit enrichment were not included in
+appendix A. Implementation of these provisions was not subjected to an in-depth anal-
+ysis, but is discussed where relevant. Some of these jurisdictions, such as Romania, have
+illicit enrichment provisions in their legal systems, but the related sanctions are not
+criminal in nature.3 Brazil, for example, has adopted illicit enrichment as an act of
+administrative misconduct.4 Burundi does not include the illicit enrichment provision,
+as it is considered unenforceable due to diffi culties in its phrasing and the absence of
+3. In Sudan, the Unlawful and Suspicious Enrichment (Combating) Act of 1989, Section 7, defi nes the
+crime of “suspicious enrichment” as “every such property, as may vest into any person, and he cannot
+explain any lawful aspect for acquiring the same.” If the accused is convicted, the court may confi scate the
+property.
+4. Law no. 8429 of 2 June 1992, Article 9, Section VII, defi nes illicit enrichment as “to secure for oneself
+or a third party, in the performance of a public offi ce, position, post, or function, assets of any nature, the
+total value of which is disproportionate to the public offi cial’s past or present declared income or earn-
+ings.” Brazil is considering criminalizing illicit enrichment by adding penal sanctions to the current
+2 I On the Take
+

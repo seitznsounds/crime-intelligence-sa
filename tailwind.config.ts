@@ -21,6 +21,7 @@ const config: Config = {
         "bg-glass-heavy": "var(--bg-glass-heavy)",
         "border-glass": "var(--border-glass)",
         "border-glass-bright": "var(--border-glass-bright)",
+        "accent-crimson-opacity": "var(--accent-crimson-opacity)",
       },
       fontFamily: {
         sans: ["var(--font-outfit)"],
@@ -28,7 +29,9 @@ const config: Config = {
       },
       boxShadow: {
         glow: "0 0 20px rgba(255, 59, 48, 0.15)",
-        "glow-blue": "0 0 20px rgba(0, 122, 255, 0.15)",
+        "glow-crimson": "0 0 25px rgba(255, 59, 48, 0.2)",
+        "glow-blue": "0 0 25px rgba(0, 122, 255, 0.15)",
+        "glow-gold": "0 0 25px rgba(255, 204, 0, 0.15)",
       },
     },
   },
