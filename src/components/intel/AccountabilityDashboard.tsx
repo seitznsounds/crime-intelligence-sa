@@ -21,8 +21,8 @@ const NACS_PILLARS = [
   { id: 2, name: "Professional Conduct", progress: 28, color: "bg-accent-gold" },
   { id: 3, name: "Ethical Governance", progress: 35, color: "bg-accent-crimson" },
   { id: 4, name: "Procurement Integrity", progress: 15, color: "bg-accent-blue" },
-  { id: 5, name: "Strong Agencies", progress: 55, color: "bg-accent-gold" },
-  { id: 6, name: "Vulnerable Sectors", progress: 12, color: "bg-accent-crimson" },
+  { id: 5, name: "Asset Recovery Speed", progress: 22, color: "bg-accent-gold" },
+  { id: 6, name: "Witness Protection", progress: 12, color: "bg-accent-crimson" },
 ];
 
 const REFORM_MILESTONES = [
@@ -154,9 +154,9 @@ export default function AccountabilityDashboard() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {[
               { label: "Vetting Compliance", value: 92, status: "GOOD" },
-              { label: "SCM Transparency", value: 45, status: "WARNING" },
+              { label: "Witness Integrity", value: 12, status: "CRITICAL" },
               { label: "Investigation Rate", value: 78, status: "CRITICAL" },
-              { label: "Asset Recovery", value: 22, status: "WARNING" }
+              { label: "Asset Recovery", value: 1, status: "CRITICAL" }
             ].map((stat, i) => (
               <div key={i} className="p-4 rounded-xl border border-white/5 bg-black/20 space-y-3">
                 <span className="text-[9px] font-bold text-muted-foreground uppercase">{stat.label}</span>

@@ -24,14 +24,16 @@ export default function IncentiveCalculator() {
   const [deptRisk, setDeptRisk] = useState<number>(0.5); // 0-1
   const [empSecurity, setEmpSecurity] = useState<number>(0.5); // 0-1
   const [infiltrationLevel, setInfiltrationLevel] = useState<number>(0.3); // 0-1 (SAPS/Cartel nexus)
+  const [wpIntegrity, setWpIntegrity] = useState<number>(0.4); // 0-1 (Section 7 Reporting Integrity)
 
   const results = useMemo(() => {
     const grossMin = caseValue * REWARD_MIN_PCT;
     const grossMax = caseValue * REWARD_MAX_PCT;
     const avgGross = (grossMin + grossMax) / 2;
 
-    // Fear Penalty: scales with risk, infiltration, and inversely with security
-    const fearPenalty = avgGross * FEAR_MULTIPLIER * (deptRisk + infiltrationLevel) / Math.max(0.1, empSecurity);
+    // Fear Penalty: scales with risk, infiltration, and inversely with security + WP Integrity loss
+    const wpRiskFactor = (1 - wpIntegrity) * 2; // Section 7 reporting loop multiplier
+    const fearPenalty = avgGross * FEAR_MULTIPLIER * (deptRisk + infiltrationLevel + wpRiskFactor) / Math.max(0.1, empSecurity);
     
     // Social Ostracism Penalty (RoCoSN Index)
     const socialPenalty = avgGross * ROCOSN_INDEX_BASE * (1 + (1 - empSecurity));
@@ -41,7 +43,11 @@ export default function IncentiveCalculator() {
 
     let verdict = "CRITICAL RISK: Retaliation risk and social neglect outweigh financial incentive.";
     let color = "text-red-400";
-    if (score > 35) {
+
+    if (wpIntegrity < 0.2) {
+      verdict = "CRITICAL REPORTING VOID: Section 7 of Act 112 (1998) requires reporting to investigators who may be syndicate-linked. DO NOT PROCEED.";
+      color = "text-red-600 animate-pulse";
+    } else if (score > 35) {
       verdict = "HIGH RISK: Secure anonymity and relocation funding are mandatory.";
       color = "text-orange-400";
     }
@@ -157,6 +163,25 @@ export default function IncentiveCalculator() {
               className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-gold"
             />
             <p className="text-[10px] text-white/30 italic">Estimated level of criminal infiltration within the target department (e.g., SAPS 'Big Five' Cartel nexus).</p>
+          </div>
+
+          <div className="space-y-2">
+            <div className="flex justify-between items-end">
+              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+                <ShieldAlert className="w-4 h-4 text-accent-crimson" /> Witness Protection Integrity
+              </label>
+              <span className="text-sm font-mono text-white/90">{(wpIntegrity * 100).toFixed(0)}%</span>
+            </div>
+            <input 
+              type="range" 
+              min="0" 
+              max="1" 
+              step="0.1"
+              value={wpIntegrity}
+              onChange={(e) => setWpIntegrity(Number(e.target.value))}
+              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-crimson"
+            />
+            <p className="text-[10px] text-white/30 italic text-accent-crimson">Vulnerability Audit (Act 112, 1998): High risk if reporting to investigating officers (Section 7).</p>
           </div>
         </div>
 

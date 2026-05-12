@@ -20,7 +20,10 @@ We prioritize ingestion based on the **Manifesto: Exposing the Helms of Power**.
 ### 1. High Priority: Protection & Law (PPLAAF)
 *Focus: Whistleblower protection and legal frameworks for witness safety.*
 *   **Rationale**: To democratize intelligence, we must understand the legal shield (or sword) facing those who speak out.
-*   **Key Targets**: `20230629-Whistleblower-Protection-Regime-South-Africa.pdf` [INGESTED], `Act No.112, 1998 Witness Protection Act.pdf` [INGESTED].
+*   **Key Targets**: 
+- [x] **Witness Protection Audit**: Act No.112, 1998 Forensic Extraction (Section 7 Pathology Identified).
+- [x] **Asset Recovery Benchmarking**: BRICS 2024 Analytical Note (1% Global Recovery Rate & Presidential Bottleneck Ingested).
+- [ ] **UNODC Global Standards**: 21 Files remaining (Batch Pipeline Initialized).
 
 ### 2. High Priority: The Accountability Gap (Anticorruption-Govza)
 *Focus: National Anti-Corruption Strategy (NACS) and NACAC reports.*
@@ -82,7 +85,7 @@ For each document, we execute the **Agentic Intelligence Protocol**:
 
 ### UNODC / International (Global Standards)
 - [ ] `UNODC_2011_Handbook_on_Police_Accountability_Oversight_and_Integrity.pdf`
-- [ ] `BRICS_2024Analytical_Note_on_Asset_Recovery.pdf`
+- [x] `BRICS_2024Analytical_Note_on_Asset_Recovery.pdf` (INGESTED)
 - [ ] `FATF_2024_Horizontal_Review_of_Gatekeepers_Technical_Compliance.pdf`
 - [ ] `G20_2025_Accountability_Report_on_Whistleblower_Protection.pdf`
 - [ ] (Remaining 21 files...)
@@ -94,6 +97,15 @@ For each document, we execute the **Agentic Intelligence Protocol**:
     - **UI**: Visualized in `SapsInfiltrationHub`.
 - [x] `CLEAR-AA / Mthente NACS M&E Framework (2025)` (INGESTED)
     - **Outcome**: 6-pillar indicator framework, performance index.
+    - **UI**: Visualized in `AccountabilityDashboard`.
+- [x] `SAPS Officer Violence and Mental Health.md` (INGESTED)
+    - **Outcome**: Extracted systemic decay metrics, 12+ high-profile people/PEPs, 4 major incidents, and statistical trends on suicide and GBVF.
+    - **Nexus Points**: Madlanga Commission findings linked to National Commissioner and "Big Five" Cartel.
+- [x] `Witness Protection Act (No. 112 of 1998) Forensic Audit` (INGESTED)
+    - **Outcome**: Identified Section 7 "Reporting Void" pathology.
+    - **UI**: Visualized in `IncentiveCalculator`.
+- [x] `BRICS 2024 Asset Recovery Benchmarking` (INGESTED)
+    - **Outcome**: Identified 1% global recovery rate and Presidential bottleneck.
     - **UI**: Visualized in `AccountabilityDashboard`.
 
 ---
