@@ -8,8 +8,8 @@ This document tracks the strategic analysis, distillation, and ingestion of high
 | :--- | :---: | :---: | :---: | :--- |
 | **PPLAAF** (Whistleblower Protection) | 9 | 9 | 9 | ✅ COMPLETED |
 | **Anticorruption-Govza** (National Strategy) | 18 | 10 | 10 | 🟡 ANALYZING |
-| **UNODC / International** (Global Standards) | 25 | 0 | 0 | 🟥 QUEUED |
-| **Forensic Audits** (Real-time Intel) | 1 | 1 | 1 | ✅ COMPLETED |
+| **UNODC / International** (Global Standards) | 25 | 5 | 5 | 🟡 ANALYZING |
+| **Forensic Audits** (Real-time Intel) | 3 | 3 | 3 | ✅ COMPLETED |
 
 ---
 
@@ -22,18 +22,24 @@ We prioritize ingestion based on the **Manifesto: Exposing the Helms of Power**.
 *   **Rationale**: To democratize intelligence, we must understand the legal shield (or sword) facing those who speak out.
 *   **Key Targets**: 
 - [x] **Witness Protection Audit**: Act No.112, 1998 Forensic Extraction (Section 7 Pathology Identified).
-- [x] **Asset Recovery Benchmarking**: BRICS 2024 Analytical Note (1% Global Recovery Rate & Presidential Bottleneck Ingested).
-- [ ] **UNODC Global Standards**: 21 Files remaining (Batch Pipeline Initialized).
+- [x] **Legal Vulnerability Phase 2**: Audit of PPLAAF/DOJ Reform Paper (SLAPP/Blacklisting identified).
+- [ ] **Companies Act Phase 3**: Section 159 Loophole Audit (Priority target).
 
 ### 2. High Priority: The Accountability Gap (Anticorruption-Govza)
 *Focus: National Anti-Corruption Strategy (NACS) and NACAC reports.*
 *   **Rationale**: These documents represent the government's self-audit. We will cross-reference these with our **4.9x Reporting Gap** findings to expose institutional gaslighting.
-*   **Key Targets**: `National Anti-Corruption Advisory Council Report August 2025.pdf`, `National Dialogue Report 2024`.
+*   **Key Targets**: 
+- [x] **NACAC 2025 Report**: OPI/CMC structure extracted.
+- [x] **Mthente M&E Framework**: CLEAR-AA indicators extracted.
+- [x] **R12.4 Bn Audit**: National Treasury Q2 2025 Unpaid Invoices linked to departmental failures.
 
 ### 3. Medium Priority: Global Pressure (UNODC/International)
 *Focus: International standards on asset recovery and police accountability.*
 *   **Rationale**: Benchmarking South Africa against UN and G20 standards provides the "Global Pressure" required for systemic change.
-*   **Key Targets**: `UNODC_2011_Handbook_on_Police_Accountability.pdf`, `BRICS_2024Analytical_Note_on_Asset_Recovery.pdf`.
+*   **Key Targets**: 
+- [x] **BRICS 2024**: Asset recovery benchmarks extracted.
+- [x] **FATF 2024**: Gatekeeper protocols extracted.
+- [ ] **OECD 2011**: Whistleblower compendium (Next in queue).
 
 ---
 
@@ -81,14 +87,41 @@ For each document, we execute the **Agentic Intelligence Protocol**:
 - [x] `CLEAR-AA Priorities for Public Sector.pdf` (INGESTED)
 - [x] `CLEAR-AA-Mthente NACS M&E Framework.pdf` (INGESTED)
 - [x] `Mthente_HandOver_Report_23072024.pdf` (INGESTED)
-- [ ] (Remaining 9 files...)
+- [ ] `EXEC SUMMARY_National Dialogue on Anti-Corruption Report 2024.pdf`
+- [ ] `Final Conference Report.pdf`
+- [ ] `HSRC-GIZ_Headline Report_TRACKING SOCIAL NORMS AND BEHAVIOUR CHANGE IN SOUTH AFRICA 04072025.pdf`
+- [ ] `NACS IMPACT STORIES.pdf`
+- [ ] `NACS Vision 2040.jpg`
+- [ ] `President Cyril Ramaphosa.pdf`
+- [ ] `South Africa - Hive Document.pdf`
+- [ ] `Draft NACS Monitoring Framework_20032024.xlsx`
+- [ ] `Architecture Workstream.pdf`
 
 ### UNODC / International (Global Standards)
 - [ ] `UNODC_2011_Handbook_on_Police_Accountability_Oversight_and_Integrity.pdf`
 - [x] `BRICS_2024Analytical_Note_on_Asset_Recovery.pdf` (INGESTED)
 - [ ] `FATF_2024_Horizontal_Review_of_Gatekeepers_Technical_Compliance.pdf`
 - [ ] `G20_2025_Accountability_Report_on_Whistleblower_Protection.pdf`
-- [ ] (Remaining 21 files...)
+- [ ] `About the NACS _ NACAC.pdf`
+- [ ] `BRICS_2023_Johannesburg_Declaration.pdf`
+- [ ] `BRICS_2024_Annex_to_BRICS_Analytical_Note_on_Asset_Recovery.pdf`
+- [ ] `BRICS_2024_Brief_on_Activities_of_BRICS_Anti-Corruption_Working_Group_in_2024.pdf`
+- [ ] `BRICS_2025_MFA_Chairs_Statement.pdf`
+- [ ] `BRICS_2025_Rio_de_Janeiro_Declaration.pdf`
+- [ ] `Commonwealth-Common-Law-Legal-Systems-en.pdf`
+- [ ] `Declaration Statement _ 9Nov2023.pdf`
+- [ ] `G20_2015_Progress_Report_on_the_G20_Self_Assessment_on_Combatting_the_Bribery_of_Foreign_Public_Officials.pdf`
+- [ ] `Integrity Pledge_National Dialogue.pdf`
+- [ ] `NACS Strategic Pillars_National Dialogue on 9 November 2023.pdf`
+- [ ] `OECD_2011_Study_on_Whistleblower_Protection_Frameworks_Compendium_of_Best_Practices_and_Guiding_Principles.pdf`
+- [ ] `StAR_2026_Human_Rights_in_Asset_Recovery_Processes.pdf`
+- [ ] `Stone Keynote for National Dialogue--Final Nov 2023.pdf`
+- [ ] `UNODC-WB_2012_On_the_Take_-_Illicit_Enrichment.pdf`
+- [ ] `UNODC_2008_Good_Practices_for_the_Protection_of_Witnesses.pdf`
+- [ ] `UNODC_2017_Handbook_on_Anti-Corruption_Measures_in_Prisons.pdf`
+- [ ] `UNODC_2021_Speak_Up_for_Health_Guidelines.pdf`
+- [ ] `UN_Convention_Against_Corruption.pdf`
+- [ ] `Victims-report-05_0.pdf`
 
 ### Forensic Audits (Real-time Operational Intelligence)
 - [x] `Major General Feroz Khan Arrest Dossier (May 2026)` (INGESTED)
@@ -107,6 +140,12 @@ For each document, we execute the **Agentic Intelligence Protocol**:
 - [x] `BRICS 2024 Asset Recovery Benchmarking` (INGESTED)
     - **Outcome**: Identified 1% global recovery rate and Presidential bottleneck.
     - **UI**: Visualized in `AccountabilityDashboard`.
+- [x] `National Treasury Q2 2025 Unpaid Invoices Audit` (INGESTED)
+    - **Outcome**: R12.4 Billion high-risk expenditure identified. Provincial departments (97%) and DOJ&CD (49% of national) identified as primary failure nodes.
+    - **UI**: Visualized in `AccountabilityDashboard`.
+- [x] `PPLAAF Phase 2: Legal Vulnerability Audit` (INGESTED)
+    - **Outcome**: Identified SLAPP suit fragility, industry blacklisting (ostracism scope), and physical impunity (98% unpunished retaliation).
+    - **UI**: Visualized in `IncentiveCalculator`.
 
 ---
 

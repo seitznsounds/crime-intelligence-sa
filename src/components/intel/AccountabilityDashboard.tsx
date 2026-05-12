@@ -138,27 +138,46 @@ export default function AccountabilityDashboard() {
             <div className="space-y-2">
               <span className="text-[10px] font-bold text-accent-blue uppercase tracking-[0.4em]">Transparency Portal v2.0</span>
               <h3 className="text-2xl font-bold tracking-tighter">Public Expenditure Integrity Audit</h3>
+              <p className="text-[10px] text-muted-foreground font-mono uppercase">Source: National Treasury Q2 2025 Non-Compliance Report</p>
             </div>
             <div className="flex gap-8">
               <div className="text-right">
-                <div className="text-[10px] text-muted-foreground uppercase mb-1">High-Risk Spend</div>
+                <div className="text-[10px] text-muted-foreground uppercase mb-1">Unpaid Invoices (30+ Days)</div>
                 <div className="text-xl font-bold text-accent-crimson tracking-tighter font-mono">R 12.4 Bn</div>
               </div>
               <div className="text-right border-l border-white/10 pl-8">
-                <div className="text-[10px] text-muted-foreground uppercase mb-1">Audited Compliance</div>
-                <div className="text-xl font-bold text-accent-blue tracking-tighter font-mono">68.2%</div>
+                <div className="text-[10px] text-muted-foreground uppercase mb-1">PFMA Section 38(1)(f) Breach</div>
+                <div className="text-xl font-bold text-accent-blue tracking-tighter font-mono">95,399 Invoices</div>
               </div>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { label: "Eastern Cape Failure", value: "R 3.8 Bn", sub: "46,583 Invoices", status: "CRITICAL" },
+              { label: "Provincial Share", value: "97%", sub: "Systemic Non-Compliance", status: "CRITICAL" },
+              { label: "National DOJ&CD", value: "49%", sub: "of National Unpaid Total", status: "CRITICAL" },
+              { label: "SME Risk Multiplier", value: "8.4x", sub: "Liquidity Failure Trigger", status: "CRITICAL" }
+            ].map((node, i) => (
+              <div key={i} className="p-4 rounded-xl border border-white/5 bg-black/20 space-y-2">
+                <span className="text-[9px] font-bold text-muted-foreground uppercase">{node.label}</span>
+                <div className="flex items-center justify-between">
+                  <span className="text-lg font-bold font-mono">{node.value}</span>
+                  <div className={`w-2 h-2 rounded-full ${node.status === "GOOD" ? "bg-green-500" : "bg-accent-crimson animate-pulse"}`} />
+                </div>
+                <p className="text-[8px] text-white/30 uppercase tracking-tighter font-mono">{node.sub}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-6 border-t border-white/5">
             {[
               { label: "Vetting Compliance", value: 92, status: "GOOD" },
               { label: "Witness Integrity", value: 12, status: "CRITICAL" },
               { label: "Investigation Rate", value: 78, status: "CRITICAL" },
               { label: "Asset Recovery", value: 1, status: "CRITICAL" }
             ].map((stat, i) => (
-              <div key={i} className="p-4 rounded-xl border border-white/5 bg-black/20 space-y-3">
+              <div key={i} className="p-4 rounded-xl border border-white/5 bg-white/5 space-y-3">
                 <span className="text-[9px] font-bold text-muted-foreground uppercase">{stat.label}</span>
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold">{stat.value}%</span>

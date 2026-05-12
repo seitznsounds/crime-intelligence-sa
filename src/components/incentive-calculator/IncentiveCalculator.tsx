@@ -25,6 +25,7 @@ export default function IncentiveCalculator() {
   const [empSecurity, setEmpSecurity] = useState<number>(0.5); // 0-1
   const [infiltrationLevel, setInfiltrationLevel] = useState<number>(0.3); // 0-1 (SAPS/Cartel nexus)
   const [wpIntegrity, setWpIntegrity] = useState<number>(0.4); // 0-1 (Section 7 Reporting Integrity)
+  const [legalVulnerability, setLegalVulnerability] = useState<number>(0.6); // 0-1 (SLAPP/Blacklisting Audit)
 
   const results = useMemo(() => {
     const grossMin = caseValue * REWARD_MIN_PCT;
@@ -35,10 +36,15 @@ export default function IncentiveCalculator() {
     const wpRiskFactor = (1 - wpIntegrity) * 2; // Section 7 reporting loop multiplier
     const fearPenalty = avgGross * FEAR_MULTIPLIER * (deptRisk + infiltrationLevel + wpRiskFactor) / Math.max(0.1, empSecurity);
     
-    // Social Ostracism Penalty (RoCoSN Index)
-    const socialPenalty = avgGross * ROCOSN_INDEX_BASE * (1 + (1 - empSecurity));
+    // Social Ostracism Penalty (RoCoSN Index + Industry Blacklisting)
+    const blacklistingRisk = legalVulnerability * 0.5;
+    const socialPenalty = avgGross * ROCOSN_INDEX_BASE * (1 + (1 - empSecurity) + blacklistingRisk);
 
-    const riskAdjusted = avgGross - fearPenalty - socialPenalty;
+    // Legal & SLAPP Suit Penalty (Phase 2 Audit)
+    const slappRisk = legalVulnerability * 0.4;
+    const legalPenalty = avgGross * slappRisk;
+
+    const riskAdjusted = avgGross - fearPenalty - socialPenalty - legalPenalty;
     const score = Math.max(0, Math.min(100, (riskAdjusted / avgGross) * 100));
 
     let verdict = "CRITICAL RISK: Retaliation risk and social neglect outweigh financial incentive.";
@@ -65,9 +71,10 @@ export default function IncentiveCalculator() {
       riskAdjusted,
       score,
       verdict,
-      color
+      color,
+      legalPenalty
     };
-  }, [caseValue, deptRisk, empSecurity, infiltrationLevel]);
+  }, [caseValue, deptRisk, empSecurity, infiltrationLevel, wpIntegrity, legalVulnerability]);
 
   return (
     <div className="glass-card p-8 border border-white/10 rounded-xl space-y-8 bg-black/40 backdrop-blur-md">
@@ -168,20 +175,20 @@ export default function IncentiveCalculator() {
           <div className="space-y-2">
             <div className="flex justify-between items-end">
               <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
-                <ShieldAlert className="w-4 h-4 text-accent-crimson" /> Witness Protection Integrity
+                <Scale className="w-4 h-4 text-accent-blue" /> Legal Vulnerability Index
               </label>
-              <span className="text-sm font-mono text-white/90">{(wpIntegrity * 100).toFixed(0)}%</span>
+              <span className="text-sm font-mono text-white/90">{(legalVulnerability * 100).toFixed(0)}%</span>
             </div>
             <input 
               type="range" 
               min="0" 
               max="1" 
               step="0.1"
-              value={wpIntegrity}
-              onChange={(e) => setWpIntegrity(Number(e.target.value))}
-              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-crimson"
+              value={legalVulnerability}
+              onChange={(e) => setLegalVulnerability(Number(e.target.value))}
+              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-blue"
             />
-            <p className="text-[10px] text-white/30 italic text-accent-crimson">Vulnerability Audit (Act 112, 1998): High risk if reporting to investigating officers (Section 7).</p>
+            <p className="text-[10px] text-white/30 italic">Phase 2 Audit: SLAPP suit fragility and industry blacklisting risk (outside PDA scope).</p>
           </div>
         </div>
 
@@ -211,6 +218,13 @@ export default function IncentiveCalculator() {
                 <TrendingDown className="w-3 h-3" /> Ostracism Penalty (RoCoSN Index)
               </span>
               <span className="text-sm font-mono">-R {results.socialPenalty.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+            </div>
+
+            <div className="flex justify-between items-center text-red-400/50">
+              <span className="text-xs font-bold uppercase flex items-center gap-2">
+                <Scale className="w-3 h-3" /> SLAPP Suit Reserve (Est. Civil Costs)
+              </span>
+              <span className="text-sm font-mono">-R {results.legalPenalty?.toLocaleString(undefined, { maximumFractionDigits: 0 }) || 0}</span>
             </div>
 
             <div className="pt-4 border-t border-white/20">
