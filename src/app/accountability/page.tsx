@@ -12,7 +12,8 @@ import {
   Skull, 
   Scale, 
   RefreshCw,
-  Info
+  Info,
+  Fingerprint
 } from "lucide-react";
 import { getTrcVolumes, triggerVolumeBackfill } from "./actions";
 import { createClient } from "@/lib/supabase/client";
@@ -377,6 +378,56 @@ export default function AccountabilityPage() {
                 Read Full Science Audit <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
+          </div>
+        </div>
+        {/* CLEAR-AA M&E Framework Audit */}
+        <div className="mt-24 mb-16">
+          <div className="flex items-center gap-4 mb-12">
+            <div className="w-12 h-[1px] bg-accent-gold/30"></div>
+            <h3 className="text-xs font-bold uppercase tracking-[0.4em] text-accent-gold">NACS M&E Framework Audit — CLEAR-AA 2024</h3>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {[
+              { label: "Case Finalization", target: "75%", current: "52%", status: "STALLED", icon: <Scale className="w-5 h-5 text-accent-gold" /> },
+              { label: "Consequence Mgmt (90d)", target: "80%", current: "34%", status: "CRITICAL", icon: <ShieldAlert className="w-5 h-5 text-accent-crimson" /> },
+              { label: "Lifestyle Audits", target: "100%", current: "12%", status: "FAILURE", icon: <Fingerprint className="w-5 h-5 text-accent-blue" /> }
+            ].map((metric, i) => (
+              <div key={i} className="glass-card p-8 border-border-glass bg-bg-glass">
+                <div className="flex justify-between items-start mb-6">
+                  <div className="p-3 rounded-xl bg-white/5 border border-white/10">
+                    {metric.icon}
+                  </div>
+                  <span className={`px-2 py-0.5 text-[8px] font-bold tracking-widest rounded uppercase ${metric.status === 'FAILURE' || metric.status === 'CRITICAL' ? 'bg-accent-crimson/20 text-accent-crimson' : 'bg-accent-gold/20 text-accent-gold'}`}>
+                    {metric.status}
+                  </span>
+                </div>
+                <h4 className="text-lg font-bold tracking-tighter uppercase mb-1">{metric.label}</h4>
+                <div className="flex items-end justify-between mb-4">
+                  <span className="text-3xl font-bold text-foreground">{metric.current}</span>
+                  <span className="text-[10px] font-mono text-muted-foreground uppercase">Target: {metric.target}</span>
+                </div>
+                <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
+                  <motion.div 
+                    className={`h-full ${metric.status === 'FAILURE' || metric.status === 'CRITICAL' ? 'bg-accent-crimson' : 'bg-accent-gold'}`}
+                    initial={{ width: 0 }}
+                    whileInView={{ width: metric.current }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 1.5, delay: i * 0.1 }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 p-6 glass-card border-accent-blue/20 bg-accent-blue/[0.02]">
+            <div className="flex items-center gap-3 mb-4">
+              <Info className="w-4 h-4 text-accent-blue" />
+              <span className="text-[10px] font-bold uppercase tracking-widest text-accent-blue">GNU Strategic Context</span>
+            </div>
+            <p className="text-[11px] text-muted-foreground leading-relaxed italic">
+              "The transition to a Government of National Unity (GNU) presents a unique platform to institutionalize these M&E indicators into the Medium-Term Development Plan (MTDP). However, fragmented political will remains a primary risk factor for the 2030 targets." — <span className="text-white font-bold">CLEAR-AA Landscape Analysis (2024)</span>
+            </p>
           </div>
         </div>
         <AnimatePresence>

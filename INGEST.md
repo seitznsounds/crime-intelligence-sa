@@ -7,7 +7,7 @@ This document tracks the strategic analysis, distillation, and ingestion of high
 | Source Group | Total Files | Analyzed | Ingested | Status |
 | :--- | :---: | :---: | :---: | :--- |
 | **PPLAAF** (Whistleblower Protection) | 9 | 9 | 9 | ✅ COMPLETED |
-| **Anticorruption-Govza** (National Strategy) | 18 | 0 | 0 | 🟥 QUEUED |
+| **Anticorruption-Govza** (National Strategy) | 18 | 6 | 6 | 🟡 ANALYZING |
 | **UNODC / International** (Global Standards) | 25 | 0 | 0 | 🟥 QUEUED |
 
 ---
@@ -67,11 +67,17 @@ For each document, we execute the **Agentic Intelligence Protocol**:
 - [x] `south-africa.md` (INGESTED)
 
 ### Anticorruption-Govza (National Strategy)
-- [ ] `National Anti-Corruption Advisory Council Report August 2025.pdf`
-- [ ] `National Dialogue on Anti-Corruption Report 2024-Digital Version.pdf`
-- [ ] `HSRC-GIZ_Final Report_TRACKING SOCIAL NORMS AND BEHAVIOUR CHANGE.pdf`
-- [ ] `Mthente Literature Review Corruption in South Africa.pdf`
-- [ ] (Remaining 14 files...)
+- [x] `National Anti-Corruption Advisory Council Report August 2025.pdf` (INGESTED)
+- [x] `National Dialogue on Anti-Corruption Report 2024-Digital Version.pdf` (INGESTED)
+- [x] `HSRC Policy Brief Silent witness.pdf` (INGESTED)
+- [x] `HSRC-GIZ_Final Report_TRACKING SOCIAL NORMS AND BEHAVIOUR CHANGE.pdf` (INGESTED)
+- [x] `Mthente Literature Review Corruption in South Africa.pdf` (INGESTED)
+- [x] `CLEAR-AA Landscape Analysis.pdf` (INGESTED)
+- [x] `CLEAR-AA NACS Theory of Change.pdf` (INGESTED)
+- [x] `CLEAR-AA Priorities for Public Sector.pdf` (INGESTED)
+- [x] `CLEAR-AA-Mthente NACS M&E Framework.pdf` (INGESTED)
+- [x] `Mthente_HandOver_Report_23072024.pdf` (INGESTED)
+- [ ] (Remaining 9 files...)
 
 ### UNODC / International (Global Standards)
 - [ ] `UNODC_2011_Handbook_on_Police_Accountability_Oversight_and_Integrity.pdf`

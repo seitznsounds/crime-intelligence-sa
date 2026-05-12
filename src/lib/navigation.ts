@@ -14,6 +14,7 @@ import {
   Award,
   Megaphone,
   Vote,
+  ShieldCheck,
   type LucideIcon,
 } from "lucide-react";
 
@@ -71,6 +72,12 @@ export const NAV_PILLARS: NavPillar[] = [
     color: "gold",
     icon: Scale,
     items: [
+      {
+        label: "Anti-Corruption Hub",
+        href: "/anticorruption",
+        icon: ShieldCheck,
+        description: "NACAC, HSRC & Zondo reform intelligence",
+      },
       {
         label: "Accountability Board",
         href: "/accountability",
