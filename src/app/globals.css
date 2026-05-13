@@ -1,78 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  /* Default: Dark Mode (Dossier Aesthetic) */
-  --background: #050505;
-  --foreground: #ffffff;
+  /* Default: Lovable Warm Theme (Light) */
+  --background: #f7f4ed;
+  --foreground: #1c1c1c;
   
   --accent-crimson: #ff3b30;
   --accent-gold: #ffcc00;
-  --accent-blue: #007aff;
+  --accent-blue: #3b82f6;
   
-  /* Refined Glassmorphism (Dark) */
-  --bg-glass: rgba(255, 255, 255, 0.02);
-  --bg-glass-heavy: rgba(255, 255, 255, 0.06);
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-glass-bright: rgba(255, 255, 255, 0.15);
+  /* Restrained Depth (Lovable) */
+  --bg-glass: rgba(28, 28, 28, 0.03);
+  --bg-glass-heavy: rgba(28, 28, 28, 0.04);
+  --border-glass: #eceae4;
+  --border-glass-bright: rgba(28, 28, 28, 0.4);
   
-  /* Glows */
-  --shadow-glow: 0 0 15px rgba(255, 59, 48, 0.1);
-  --shadow-glow-blue: 0 0 15px rgba(0, 122, 255, 0.1);
+  /* Focus & Elevation */
+  --shadow-glow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
+  --shadow-glow-blue: rgba(59, 130, 246, 0.1) 0px 4px 12px;
+  --focus-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  /* Typography Scale */
+  --tracking-display: -1.5px;
+  --tracking-heading: -1.2px;
+  --tracking-subheading: -0.9px;
   
   /* Layout */
-  --header-height: 64px;
+  --header-height: 80px;
   --sidebar-width: 260px;
   
-  --muted-foreground: rgba(255, 255, 255, 0.4);
+  --muted-foreground: rgba(28, 28, 28, 0.82);
   --accent-crimson-opacity: rgba(255, 59, 48, 0.05);
 
   /* Spacing Tokens */
-  --space-page-y: 5rem;
-  --space-section: 3rem;
+  --space-page-y: 6rem;
+  --space-section: 5rem;
   --space-card: 1.5rem;
-  --space-grid-gap: 1.5rem;
-  --space-header-bottom: 3rem;
+  --space-grid-gap: 2rem;
 
   /* Mobile bottom bar offset */
   --bottom-bar-height: 64px;
 }
 
-.light {
-  /* Light Mode (Premium High-Contrast) */
-  --background: #ffffff;
-  --foreground: #050505;
+.dark {
+  /* Dark: Deep warm charcoal inversion */
+  --background: #0c0c0a;
+  --foreground: #f7f4ed;
   
-  /* Glassmorphism (Light) */
-  --bg-glass: rgba(0, 0, 0, 0.02);
-  --bg-glass-heavy: rgba(0, 0, 0, 0.05);
-  --border-glass: rgba(0, 0, 0, 0.06);
-  --border-glass-bright: rgba(0, 0, 0, 0.12);
+  --bg-glass: rgba(247, 244, 237, 0.03);
+  --bg-glass-heavy: rgba(247, 244, 237, 0.05);
+  --border-glass: rgba(247, 244, 237, 0.1);
+  --border-glass-bright: rgba(247, 244, 237, 0.3);
   
-  --muted-foreground: rgba(0, 0, 0, 0.45);
-  --accent-crimson-opacity: rgba(255, 59, 48, 0.03);
+  --muted-foreground: rgba(247, 244, 237, 0.7);
+  --accent-crimson-opacity: rgba(255, 59, 48, 0.1);
   
-  /* Adjusted Glows for Light Mode */
-  --shadow-glow: 0 4px 20px rgba(255, 59, 48, 0.08);
-  --shadow-glow-blue: 0 4px 20px rgba(0, 122, 255, 0.08);
+  --shadow-glow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  --focus-shadow: rgba(247, 244, 237, 0.05) 0px 0px 20px;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
+/* Base Styles */
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -81,30 +79,40 @@ code, .font-mono {
 }
 
 /* Base Typography */
-h1, h2, h3, h4, h5 {
+h1, h2 {
   font-weight: 600;
-  letter-spacing: -0.03em;
+  letter-spacing: var(--tracking-display);
+  line-height: 1.1;
+}
+
+h3 {
+  font-weight: 600;
+  letter-spacing: var(--tracking-heading);
+  line-height: 1.2;
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--muted-foreground);
 }
 
-/* Glass Utility Classes */
+/* Inset Shadow Technique for Primary Buttons */
+.btn-primary {
+  background: #1c1c1c;
+  color: #fcfbf8;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0.5px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 0px 0px 0.5px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+/* Lovable Card System */
 .glass-card {
-  background: var(--bg-glass);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: var(--background);
   border: 1px solid var(--border-glass);
-  border-radius: 20px;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
 }
 
 .glass-card:hover {
-  background: var(--bg-glass-heavy);
   border-color: var(--border-glass-bright);
-  transform: translateY(-2px);
 }
 
 .glow-text-crimson {

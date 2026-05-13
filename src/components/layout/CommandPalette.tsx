@@ -44,11 +44,11 @@ export function CommandPalette() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="flex items-center gap-3 px-4 py-2 bg-bg-glass border border-border-glass rounded-xl text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:bg-bg-glass-heavy hover:text-foreground transition-all group"
+        className="flex items-center gap-3 px-6 py-2.5 bg-charcoal-3 border border-border rounded-full text-[11px] font-black uppercase tracking-widest text-charcoal-40 hover:border-charcoal-40 hover:text-charcoal transition-all group"
       >
         <Search className="w-3.5 h-3.5 group-hover:scale-110 transition-transform" />
         <span className="hidden md:inline">Mission Control</span>
-        <kbd className="hidden md:flex items-center gap-1 px-1.5 py-0.5 bg-bg-glass-heavy border border-border-glass rounded text-[9px] font-mono opacity-60">
+        <kbd className="hidden md:flex items-center gap-1 px-2 py-0.5 bg-background border border-border rounded-full text-[9px] font-mono opacity-60">
           <CommandIcon className="w-2.5 h-2.5" /> K
         </kbd>
       </button>
@@ -57,31 +57,31 @@ export function CommandPalette() {
         {open && (
           <div className="fixed inset-0 z-[100] flex items-start justify-center pt-[15vh] p-4 bg-background/80 backdrop-blur-sm">
             <motion.div
-              initial={{ opacity: 0, scale: 0.95, y: -20 }}
+              initial={{ opacity: 0, scale: 0.98, y: -12 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.95, y: -20 }}
+              exit={{ opacity: 0, scale: 0.98, y: -12 }}
               className="w-full max-w-2xl"
             >
-              <Command className="glass-card bg-background border-border-glass overflow-hidden shadow-glow shadow-accent-crimson/5">
-                <div className="flex items-center gap-4 px-6 py-4 border-b border-border-glass bg-bg-glass">
-                  <Terminal className="w-4 h-4 text-accent-crimson" />
+              <Command className="glass-card bg-background border-border overflow-hidden shadow-focus-warm">
+                <div className="flex items-center gap-4 px-8 py-6 border-b border-border bg-charcoal-3">
+                  <Terminal className="w-4 h-4 text-accent-blue" />
                   <Command.Input
                     autoFocus
-                    placeholder="Execute command or search intelligence..."
-                    className="flex-1 bg-transparent text-sm font-mono tracking-tight text-foreground outline-none placeholder:text-muted-foreground/50"
+                    placeholder="Search intelligence database..."
+                    className="flex-1 bg-transparent text-sm font-black uppercase tracking-widest text-charcoal outline-none placeholder:text-charcoal-40"
                   />
                   <button 
                     onClick={() => setOpen(false)}
-                    className="p-1.5 hover:bg-bg-glass-heavy rounded-lg transition-colors"
+                    className="p-2 hover:bg-background rounded-full border border-transparent hover:border-border transition-all"
                   >
-                    <X className="w-4 h-4 text-muted-foreground" />
+                    <X className="w-4 h-4 text-charcoal-40" />
                   </button>
                 </div>
 
-                <Command.List className="max-h-[350px] overflow-y-auto p-2 scrollbar-hide">
-                  <Command.Empty className="px-6 py-12 text-center">
-                    <p className="text-xs font-mono text-muted-foreground uppercase tracking-widest">
-                      No results found for current query.
+                <Command.List className="max-h-[400px] overflow-y-auto p-4 scrollbar-hide bg-background">
+                  <Command.Empty className="px-6 py-16 text-center">
+                    <p className="text-[10px] font-black text-charcoal-40 uppercase tracking-[0.2em]">
+                      Zero dossiers matched query.
                     </p>
                   </Command.Empty>
 
@@ -89,8 +89,8 @@ export function CommandPalette() {
                     <Command.Group 
                       key={pillar.id}
                       heading={
-                        <div className="px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground/60 flex items-center gap-2">
-                          <pillar.icon className={cn("w-3 h-3", {
+                        <div className="px-4 py-3 text-[11px] font-black uppercase tracking-[0.25em] text-charcoal-40 flex items-center gap-3">
+                          <pillar.icon className={cn("w-3.5 h-3.5", {
                             "text-accent-crimson": pillar.color === "crimson",
                             "text-accent-gold": pillar.color === "gold",
                             "text-accent-blue": pillar.color === "blue"

@@ -31,10 +31,9 @@ interface PageShellProps {
 }
 
 const BADGE_COLORS = {
-  crimson:
-    "bg-accent-crimson/5 border-accent-crimson/15 text-accent-crimson",
-  gold: "bg-accent-gold/5 border-accent-gold/15 text-accent-gold",
-  blue: "bg-accent-blue/5 border-accent-blue/15 text-accent-blue",
+  crimson: "bg-accent-crimson/5 border-accent-crimson/20 text-accent-crimson",
+  gold: "bg-accent-gold/5 border-accent-gold/20 text-accent-gold",
+  blue: "bg-accent-blue/5 border-accent-blue/20 text-accent-blue",
 };
 
 export default function PageShell({
@@ -53,40 +52,35 @@ export default function PageShell({
   const isCentered = variant === "centered";
 
   return (
-    <div className="relative min-h-screen bg-background overflow-hidden transition-colors duration-300">
-      {/* Shared background grid */}
-      <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_85%)] pointer-events-none" />
-
-      {/* Subtle accent bloom */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[80%] h-[400px] bg-accent-crimson/[0.02] rounded-full blur-[120px] pointer-events-none" />
-
+    <div className="relative min-h-screen bg-background transition-colors duration-500 selection:bg-accent-blue/10 selection:text-accent-blue">
+      {/* Editorial breathing room via vertical padding */}
       <div
         className={`relative z-10 ${
           isFullscreen
             ? "w-full h-screen"
             : isCentered
-            ? "container max-w-3xl py-16 sm:py-20 px-4 sm:px-6"
-            : "container max-w-7xl py-16 sm:py-20 px-4 sm:px-6"
+            ? "container max-w-3xl py-24 sm:py-32 px-6 sm:px-8"
+            : "container max-w-7xl py-24 sm:py-32 px-6 sm:px-8"
         }`}
       >
-        {/* Breadcrumbs */}
+        {/* Breadcrumbs - Restrained opacity grays */}
         {breadcrumbs && breadcrumbs.length > 1 && !isFullscreen && (
           <nav
             aria-label="Breadcrumb"
-            className="mb-6 flex items-center gap-1.5 text-[12px] text-muted-foreground"
+            className="mb-10 flex items-center gap-2 text-[13px] text-charcoal-40 font-medium uppercase tracking-widest"
           >
             {breadcrumbs.map((crumb, i) => (
-              <span key={crumb.href} className="flex items-center gap-1.5">
-                {i > 0 && <ChevronRight className="w-3 h-3 opacity-40" />}
+              <span key={crumb.href} className="flex items-center gap-2">
+                {i > 0 && <ChevronRight className="w-3 h-3 opacity-30" />}
                 {i < breadcrumbs.length - 1 ? (
                   <Link
                     href={crumb.href}
-                    className="hover:text-foreground transition-colors font-medium"
+                    className="hover:text-charcoal transition-colors"
                   >
                     {crumb.label}
                   </Link>
                 ) : (
-                  <span className="text-foreground font-semibold">
+                  <span className="text-charcoal-83">
                     {crumb.label}
                   </span>
                 )}
@@ -95,40 +89,40 @@ export default function PageShell({
           </nav>
         )}
 
-        {/* Header */}
+        {/* Header - Editorial typography */}
         {!isFullscreen && (
-          <header className="mb-10 sm:mb-12 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
-            <div className="flex items-start gap-4">
+          <header className="mb-16 sm:mb-20 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-10">
+            <div className="flex items-start gap-6">
               {icon && (
                 <div
-                  className={`w-12 h-12 rounded-2xl flex items-center justify-center border shrink-0 ${
+                  className={`w-14 h-14 rounded-[22px] flex items-center justify-center border shrink-0 ${
                     BADGE_COLORS[badgeColor]
-                  }`}
+                  } shadow-sm`}
                 >
                   {icon}
                 </div>
               )}
-              <div>
+              <div className="space-y-4">
                 {badge && (
                   <div
-                    className={`inline-flex items-center px-2.5 py-0.5 rounded-md border mb-2 ${BADGE_COLORS[badgeColor]}`}
+                    className={`inline-flex items-center px-3 py-1 rounded-full border ${BADGE_COLORS[badgeColor]}`}
                   >
-                    <span className="text-[11px] font-bold tracking-[0.2em] uppercase">
+                    <span className="text-[10px] font-black tracking-[0.25em] uppercase">
                       {badge}
                     </span>
                   </div>
                 )}
-                <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
+                <h1 className="text-5xl sm:text-6xl font-black text-charcoal tracking-tight">
                   {title}
                 </h1>
                 {subtitle && (
-                  <p className="text-[14px] text-muted-foreground mt-1.5 max-w-2xl leading-relaxed font-light">
+                  <p className="text-lg sm:text-xl text-charcoal-82 max-w-2xl leading-relaxed font-normal">
                     {subtitle}
                   </p>
                 )}
               </div>
             </div>
-            {actions && <div className="flex items-center gap-3 shrink-0">{actions}</div>}
+            {actions && <div className="flex items-center gap-4 shrink-0 pb-2">{actions}</div>}
           </header>
         )}
 
