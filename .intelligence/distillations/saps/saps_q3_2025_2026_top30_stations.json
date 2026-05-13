@@ -1,0 +1,308 @@
+{
+  "source": "intelligence/saps/crime-stats/2025-2026_-_3rd_Quarter_WEB.xlsx",
+  "period": "Q3 2025-2026",
+  "date_analyzed": "2026-05-12",
+  "category": "17 Community reported serious Crime",
+  "top_30_stations": [
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 1,
+      "district": 1,
+      "province": "Delft",
+      "q_count": 13,
+      "count_diff": 16,
+      "percent_change": 16
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 2,
+      "district": 2,
+      "province": "Cape Town Central",
+      "q_count": 5,
+      "count_diff": 4,
+      "percent_change": 14
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 3,
+      "district": 3,
+      "province": "Philippi",
+      "q_count": 7,
+      "count_diff": 5,
+      "percent_change": 13
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 4,
+      "district": 1,
+      "province": "Alexandra",
+      "q_count": 5,
+      "count_diff": 8,
+      "percent_change": 13
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 5,
+      "district": 1,
+      "province": "Kwadukuza",
+      "q_count": 9,
+      "count_diff": 13,
+      "percent_change": 13
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 6,
+      "district": 2,
+      "province": "Inanda",
+      "q_count": 9,
+      "count_diff": 15,
+      "percent_change": 13
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 7,
+      "district": 1,
+      "province": "Park Road",
+      "q_count": 11,
+      "count_diff": 6,
+      "percent_change": 12
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 8,
+      "district": 4,
+      "province": "Kraaifontein",
+      "q_count": 11,
+      "count_diff": 8,
+      "percent_change": 12
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 9,
+      "district": 2,
+      "province": "Mamelodi East",
+      "q_count": 5,
+      "count_diff": 11,
+      "percent_change": 12
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 10,
+      "district": 3,
+      "province": "Durban Central",
+      "q_count": 7,
+      "count_diff": 5,
+      "percent_change": 11
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 11,
+      "district": 5,
+      "province": "Worcester",
+      "q_count": 8,
+      "count_diff": 9,
+      "percent_change": 11
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 12,
+      "district": 6,
+      "province": "Manenberg",
+      "q_count": 4,
+      "count_diff": 10,
+      "percent_change": 11
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 13,
+      "district": 3,
+      "province": "Temba",
+      "q_count": 11,
+      "count_diff": 11,
+      "percent_change": 11
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 14,
+      "district": 4,
+      "province": "Hillbrow",
+      "q_count": 5,
+      "count_diff": 12,
+      "percent_change": 11
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 15,
+      "district": 7,
+      "province": "Harare",
+      "q_count": 11,
+      "count_diff": 5,
+      "percent_change": 10
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 16,
+      "district": 1,
+      "province": "Kimberley",
+      "q_count": 6,
+      "count_diff": 6,
+      "percent_change": 10
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 17,
+      "district": 8,
+      "province": "Mfuleni",
+      "q_count": 7,
+      "count_diff": 6,
+      "percent_change": 10
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 18,
+      "district": 4,
+      "province": "Empangeni",
+      "q_count": 6,
+      "count_diff": 8,
+      "percent_change": 10
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 19,
+      "district": 9,
+      "province": "Gugulethu",
+      "q_count": 9,
+      "count_diff": 8,
+      "percent_change": 10
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 20,
+      "district": 5,
+      "province": "Phoenix",
+      "q_count": 10,
+      "count_diff": 13,
+      "percent_change": 10
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 21,
+      "district": 2,
+      "province": "Phuthaditjhaba",
+      "q_count": 2,
+      "count_diff": 1,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 22,
+      "district": 1,
+      "province": "Polokwane",
+      "q_count": 4,
+      "count_diff": 1,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 23,
+      "district": 10,
+      "province": "Thembalethu",
+      "q_count": 6,
+      "count_diff": 1,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 24,
+      "district": 5,
+      "province": "Kagiso",
+      "q_count": 5,
+      "count_diff": 3,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 25,
+      "district": 11,
+      "province": "Plettenberg Bay",
+      "q_count": 2,
+      "count_diff": 3,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 26,
+      "district": 6,
+      "province": "Springs",
+      "q_count": 5,
+      "count_diff": 3,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 27,
+      "district": 7,
+      "province": "Germiston",
+      "q_count": 5,
+      "count_diff": 4,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 28,
+      "district": 8,
+      "province": "Jeppe",
+      "q_count": 8,
+      "count_diff": 5,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 29,
+      "district": 12,
+      "province": "Paarl East",
+      "q_count": 6,
+      "count_diff": 6,
+      "percent_change": 9
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 30,
+      "district": 2,
+      "province": "Galeshewe",
+      "q_count": 3,
+      "count_diff": 7,
+      "percent_change": 9
+    }
+  ]
+}

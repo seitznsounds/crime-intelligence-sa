@@ -1,0 +1,30 @@
+{
+  "source": "intelligence/unodc/Commonwealth-Common-Law-Legal-Systems-en.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "Commonwealth model legislative provisions for money laundering and asset recovery, providing a modular framework for common law jurisdictions to align with FATF standards.",
+  "legislative_models": [
+    {
+      "area": "Asset Recovery",
+      "mechanisms": ["Criminal Forfeiture (Conviction-based)", "Civil Forfeiture (Non-conviction based)", "Unexplained Wealth Orders (UWO)"]
+    },
+    {
+      "area": "Preventive Measures",
+      "focus": ["Customer Due Diligence (CDD)", "Politically Exposed Persons (PEPs)", "Beneficial Ownership transparency"]
+    },
+    {
+      "area": "Institutional Architecture",
+      "focus": ["Financial Intelligence Unit (FIU) establishment", "National Cooperative Body for AML/CFT"]
+    }
+  ],
+  "definitions_and_standards": {
+    "beneficial_owner": "The natural person who ultimately owns or controls a customer or exercises effective control over a legal person/arrangement.",
+    "gatekeepers": "Lawyers, accountants, real estate agents, and TCSPs acting as entry points to the financial system.",
+    "currency": "Includes virtual currency as a medium of exchange (reflecting 2016 update)."
+  },
+  "operational_tools": [
+    "Production Orders",
+    "Monitoring Orders",
+    "Customer Information Orders",
+    "Search and Seizure powers"
+  ]
+}

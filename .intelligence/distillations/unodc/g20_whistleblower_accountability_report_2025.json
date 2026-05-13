@@ -1,0 +1,38 @@
+{
+  "source": "intelligence/unodc/G20_2025_Accountability_Report_on_Whistleblower_Protection.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "The G20 ACWG 2025 Accountability Report, led by the South African Presidency, benchmarks whistleblower protection across G20 nations, highlighting SA's legislative leadership.",
+  "south_africa_leadership": {
+    "presidency_priority": "Enhancing whistleblower protection mechanisms is a core priority of the 2025 South African G20 Presidency.",
+    "legal_standing": "The Protected Disclosures Act (PDA) 2000, as amended in 2017, is recognized as a primary and comprehensive legal framework.",
+    "unique_provisions": [
+      "Explicit duty to inform (provide feedback) to the whistleblower.",
+      "Immunity against civil and criminal liability for reasonable disclosures.",
+      "Criminalization of false reporting to balance system integrity.",
+      "Extension of protection to independent contractors and consultants (2017)."
+    ]
+  },
+  "global_trends_and_benchmarks": [
+    {
+      "pillar": "Scope",
+      "finding": "Increasing trend towards protecting former employees, job applicants, and associated third parties (SA compliant)."
+    },
+    {
+      "pillar": "Burden of Proof",
+      "finding": "Advocating for the shift of burden of proof to the employer/retaliator (SA is a key advocate)."
+    },
+    {
+      "pillar": "Confidentiality",
+      "finding": "Anonymous reporting is widely accepted among G20 members, including South Africa."
+    }
+  ],
+  "institutional_context_sa": {
+    "approach": "Decentralized, multi-agency, and collaborative.",
+    "prescribed_bodies": "Minister of Justice expanded the list to 33 institutions/bodies for protected disclosures in 2018."
+  },
+  "gaps_for_future_consideration": [
+    "Gender-sensitive reporting channels (sextortion focus).",
+    "Harmonizing data privacy (POPIA) with whistleblower confidentiality.",
+    "Technical support for implementation in developing countries (African context)."
+  ]
+}

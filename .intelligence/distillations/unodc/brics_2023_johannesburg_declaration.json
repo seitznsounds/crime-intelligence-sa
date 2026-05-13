@@ -1,0 +1,26 @@
+{
+  "source": "intelligence/unodc/BRICS_2023_Johannesburg_Declaration.pdf",
+  "date_analyzed": "2026-05-12",
+  "document_date": "2023-08-23",
+  "summary": "The XV BRICS Summit declaration outlining strategic partnerships, with specific commitments to anti-corruption, asset recovery, and financial system reform.",
+  "anti_corruption_commitments": {
+    "framework": "UN Convention Against Corruption (UNCAC)",
+    "priority_areas": [
+      "Combating illicit financial flows",
+      "Countering safe havens",
+      "Investigation, prosecution, and recovery of stolen assets",
+      "Mutual legal assistance and information-sharing networks"
+    ],
+    "capacity_building": "Conducting training programmes and sharing best practices among BRICS members."
+  },
+  "financial_system_reforms": {
+    "local_currencies": "Encouraging the use of local currencies in international trade and financial transactions to reduce reliance on global reserve currencies.",
+    "payment_systems": "BRICS Payment Task Force (BPTF) mapping cross-border payment interlinking.",
+    "correspondent_banking": "Strengthening networks between BRICS central banks for local currency settlements."
+  },
+  "security_and_ict": {
+    "cybercrime": "Support for a comprehensive UN convention on countering the use of ICTs for criminal purposes.",
+    "counter_terrorism": "Combating terrorism financing networks and safe havens under the BRICS Counter-Terrorism Strategy."
+  },
+  "geopolitical_context": "Call for reform of Bretton Woods institutions (IMF/World Bank) to increase representation of emerging markets and developing countries (EMDCs)."
+}

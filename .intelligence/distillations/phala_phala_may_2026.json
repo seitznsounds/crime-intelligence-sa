@@ -1,0 +1,156 @@
+{
+  "source": "intelligence/deep-research/Phala Phala Scandal_ Ramaphosa's Presidency.md",
+  "date_analyzed": "2026-05-12",
+  "people": [
+    {
+      "name": "Cyril Ramaphosa",
+      "role": "President of South Africa",
+      "tier": 1,
+      "status": "Under Impeachment Inquiry",
+      "tags": ["PEP", "Executive"]
+    },
+    {
+      "name": "Arthur Fraser",
+      "role": "Former National Intelligence Chief",
+      "tier": 1,
+      "status": "Active",
+      "tags": ["PEP", "Intelligence"]
+    },
+    {
+      "name": "Wally Rhoode",
+      "role": "Major General, Head of Presidential Protection Unit",
+      "tier": 2,
+      "status": "Implicated",
+      "tags": ["SAPS", "PPU"]
+    },
+    {
+      "name": "Feroz Khan",
+      "role": "Major General, Crime Intelligence (Counter-Intelligence)",
+      "tier": 2,
+      "status": "Arrested (2026-05-10)",
+      "tags": ["SAPS", "Crime Intelligence", "Big Five Cartel"]
+    },
+    {
+      "name": "Ebrahim Kadwa",
+      "role": "Major General, SAPS",
+      "tier": 2,
+      "status": "Arrested (2026-05-10)",
+      "tags": ["SAPS", "Precious Metals"]
+    },
+    {
+      "name": "Cat Matlala",
+      "role": "Head of Supply Chain Management, SAPS",
+      "tier": 2,
+      "status": "Arrested (2026-03-24)",
+      "tags": ["SAPS", "SCM", "Tender Fraud"]
+    },
+    {
+      "name": "Fadiel Adams",
+      "role": "Member of Parliament, National Coloured Congress Leader",
+      "tier": 1,
+      "status": "Arrested (2026-05-05)",
+      "tags": ["PEP", "Parliament", "Whistleblower"]
+    },
+    {
+      "name": "Sandile Ngcobo",
+      "role": "Retired Chief Justice, Section 89 Panel Chair",
+      "tier": 2,
+      "status": "Retired",
+      "tags": ["Judiciary"]
+    },
+    {
+      "name": "Nhlanhla Mkhwanazi",
+      "role": "KZN Provincial Police Commissioner",
+      "tier": 2,
+      "status": "Active",
+      "tags": ["SAPS", "KZN"]
+    },
+    {
+      "name": "Fannie Masemola",
+      "role": "National Police Commissioner",
+      "tier": 2,
+      "status": "Active (Under Investigation)",
+      "tags": ["SAPS", "National"]
+    },
+    {
+      "name": "Dumisani Khumalo",
+      "role": "Commander of Political Killings Task Team (PKTT)",
+      "tier": 2,
+      "status": "Active (Implicated by Adams)",
+      "tags": ["SAPS", "PKTT"]
+    },
+    {
+      "name": "Sindiso Magaqa",
+      "role": "Former ANC Youth League Secretary General",
+      "tier": 1,
+      "status": "Deceased (Murdered)",
+      "tags": ["ANCYL", "Political Killing"]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Big Five Cartel",
+      "type": "Organized Crime Syndicate",
+      "description": "Sophisticated syndicate that has infiltrated SAPS Crime Intelligence and SCM."
+    },
+    {
+      "name": "Medicare 24",
+      "type": "Private Health Company",
+      "description": "Involved in R360m tender fraud with SAPS SCM."
+    },
+    {
+      "name": "SAPS Crime Intelligence",
+      "type": "Government Agency",
+      "description": "Deeply infiltrated by Big Five Cartel (State Capture 2.0)."
+    },
+    {
+      "name": "Political Killings Task Team (PKTT)",
+      "type": "Government Agency",
+      "description": "Accused of factionalism and malicious prosecution of political rivals."
+    }
+  ],
+  "incidents": [
+    {
+      "title": "Phala Phala Burglary",
+      "date": "2020-02-09",
+      "location": "Phala Phala Farm, Limpopo",
+      "description": "Theft of foreign currency (USD) from sofa. Led to allegations of money laundering and abuse of power.",
+      "severity": "Critical"
+    },
+    {
+      "title": "Medicare 24 Tender Fraud",
+      "date": "2026-03-24",
+      "location": "SAPS SCM, National",
+      "description": "R360 million fraudulent contract for health services. Led to 12 arrests including Cat Matlala.",
+      "severity": "High"
+    },
+    {
+      "title": "Arrest of Feroz Khan and Ebrahim Kadwa",
+      "date": "2026-05-10",
+      "location": "Gauteng",
+      "description": "Arrest of senior intelligence generals linked to illicit precious metals and the Big Five Cartel.",
+      "severity": "Critical"
+    },
+    {
+      "title": "Arrest of Fadiel Adams",
+      "date": "2026-05-05",
+      "location": "Cape Town",
+      "description": "Arrest of MP Fadiel Adams by PKTT for alleged interference in Magaqa murder probe.",
+      "severity": "Medium"
+    },
+    {
+      "title": "Soweto Police Murder-Suicide",
+      "date": "2025-08-01",
+      "location": "Soweto, Gauteng",
+      "description": "SAPS Captain murdered intimate partner and brother before committing suicide with service weapon.",
+      "severity": "High",
+      "tags": ["GBVF", "SAPS Suicide"]
+    }
+  ],
+  "corruption_links": [
+    {"source": "Feroz Khan", "target": "Big Five Cartel", "relationship": "Collaborator / Agent"},
+    {"source": "Cat Matlala", "target": "Medicare 24", "relationship": "Tender Beneficiary"},
+    {"source": "Wally Rhoode", "target": "Cyril Ramaphosa", "relationship": "Security Parallel Operation"},
+    {"source": "Dumisani Khumalo", "target": "Sindiso Magaqa", "relationship": "Commander of Probe (Accused of Interference)"}
+  ]
+}

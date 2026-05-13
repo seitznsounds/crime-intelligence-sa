@@ -1,0 +1,557 @@
+--- Page 1 ---
+The United Nations Convention against Corruption
+Handbook on
+Anti-Corruption Measures
+in Prisons
+CRIMINAL JUSTICE HANDBOOK SERIES
+
+--- Page 3 ---
+UNITED NATIONS OFFICE ON DRUGS AND CRIME
+Vienna
+Handbook on
+Anti-Corruption Measures
+in Prisons
+UNITED NATIONS
+Vienna, 2017
+
+--- Page 4 ---
+© United Nations, October 2017. All rights reserved worldwide.
+The designations employed and the presentation of material in this publication do not
+imply the expression of any opinion whatsoever on the part of the Secretariat of the
+United Nations concerning the legal status of any country, territory, city or area, or of
+its authorities, or concerning the delimitation of its frontiers or boundaries.
+This publication has not been formally edited.
+Publishing production: English, Publishing and Library Section, United Nations Office
+at Vienna.
+
+--- Page 5 ---
+Acknowledgements
+This Handbook on Anti-Corruption Measures in Prisons was produced by the Imple-
+mentation Support Section, Corruption and Economic Crime Branch and the Justice
+Section of the United Nations Office on Drugs and Crime (UNODC).
+A first draft was written by the consultant John Podmore. The draft was reviewed at an
+expert group meeting held in Vienna from 15 to 16 September 2014 and enriched with
+further research material. UNODC wishes to acknowledge with appreciation the contri-
+butions received from the following experts who participated in the expert group meeting
+and/or provided additional written submissions: R iazuddin Ahmed, Emiliano Blanco,
+Matthew Coyte, Bob Evans, Andrea Huber, Pieter Kilian, Michael Macaulay, Mary
+Murphy, William Ntagungira, Roberta Palmisano, Franco Picardi, Martin Riemer and
+Eduardo Vetere.
+The final handbook was jointly prepared by Constanze von Söhnen and Philipp Meissner
+in collaboration with Katharina Peschke. Contributing throughout the development of
+the handbook were Piera Barzanò and Candice Welsch (UNODC). The research was
+also supported by UNODC colleagues Hyuk Joon Chung and Maria-Noel Rodriguez as
+well as interns Olga Kuzovkova, Feliciana Tafuri, Anastasia Leskova and Alessandro
+Iodice. UNODC wishes to thank the United Nations Department of Peacekeeping
+Operations and in particular Niklas Bolstedt, Lipi Chowdhury, Faisal Jama and Alessandro
+Tonutti for their useful comments and input.
+UNODC wishes to acknowledge the financial support provided by the Government of
+Australia and the Government of Qatar towards the development of the handbook, the
+latter through UNODC’s Global Programme on the Implementation of the Doha
+Declaration.
+iii
+
+--- Page 7 ---
+Contents
+Introduction  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Part I. Origins and manifestations of corruption in prisons ..................... 5
+1 . Unique features of the prison environment  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+1 .1 . Prisons as closed environments  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+1 .2 . Risks and needs within the prison population  . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+1 .3 . Prison staff and human resources management policies  . . . . . . . . . . . . . . . .10
+1 .4 . Staff-prisoner relationships and dynamic security  . . . . . . . . . . . . . . . . . . . . . 12
+1 .5 . Prison infrastructure and capacity  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Conclusion .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+2 . Manifestations of corruption in prison settings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .19
+2 .1 . Bribery, abuse of function and trading in influence .  . . . . . . . . . . . . . . . . . . . . 21
+2 .2 . Embezzlement and misappropriation  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Conclusion .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Part II. Anti-corruption measures .........................................25
+3 . Risk assessments and mitigation plans .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+3 .1 . Corruption risk mitigation plans  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+3 .2 . Anti-corruption units or focal points .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+3 .3 . Corruption risk assessments .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+Follow-up and monitoring  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+Recommendations  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+4 . Human resources management and staff integrity measures .  . . . . . . . . . . . . . . . . 37
+4 .1 . Recruitment and vetting .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+4 .2 . Remuneration, benefits and incentive awards programmes  . . . . . . . . . . . . . 48
+4 .3 . Codes of conduct  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+4 .4 . Training, including on integrity and accountability .  . . . . . . . . . . . . . . . . . . . . . 53
+4 .5 . Conflict of interest regulations and asset declaration systems  . . . . . . . . . . . 60
+4 .6 . Leadership and management  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+Recommendations  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+v
+
+--- Page 8 ---
+5 . Accountability measures  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+5 .1 . Prison intelligence  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+5 .2 . Reporting channels  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+5 .3 . Disciplinary and criminal procedures .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+Recommendations  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+6 . Oversight mechanisms in prisons .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+6 .1 . Internal inspections  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+6 .2 . External inspections .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 88
+6 .3 . The role of other actors  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91
+Recommendations  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96
+ANNEX .................................................................97
+ANNEX I  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+vi
+
+--- Page 9 ---
+Introduction
+“Corruption is an insidious plague that has a wide range of corrosive effects on societies.
+It undermines democracy and the rule of law, leads to violations of human rights, distorts
+markets, erodes the quality of life and allows organized crime, terrorism and other threats
+to human security to flourish.”1
+The risk of corruption in the specific environment of prison settings
+Imprisonment creates a situation in which prisoners depend upon prison authorities for the
+fulfilment of almost all of their day-to-day needs, including access to basic necessities,
+such as food and drinking water. By depriving individuals of their liberty, the State auto-
+matically assumes a heightened duty to ensure that custody is enforced in a secure, safe
+and humane manner. This must include due diligence to prevent abuse and corruption that
+may be committed by prison staff, public officials and other detainees, and it requires a
+considerably higher level of due diligence than in a non-custodial environment.2
+Prisons are particularly vulnerable to acts of corruption in comparison to other key justice
+institutions. This is due in part to the closed nature of imprisonment, the associated risk
+of insufficient public scrutiny and the fact that prisons, by definition, hold individuals
+accused of or sentenced for having committed criminal offences, including serious
+crimes. In addition—and despite their complex, difficult and sometimes dangerous
+work—prison staff tend to be held in lower regard than other public officials working
+in the criminal justice system. This often implies lower salaries, less training and fewer
+career opportunities, as well as difficulties in recruiting qualified staff which, in turn,
+further increases the risk of corruption taking root in prisons.
+Corruption in prisons poses a severe security risk to prisoners, prison staff and prison
+management alike. Unsurprisingly, therefore, corruption is often identified as one of the
+main obstacles to the practical application of international standards and norms related
+1 Kofi A. Annan, Foreword to the United Nations Convention against Corruption, General Assembly resolution 58/4
+of 31 October 2003 (2004).
+2 Interim Report of the Special Rapporteur on Extrajudicial, Summary or Arbitrary Executions, A/61/311, 5 September 2006,
+paras. 51-52.
+1
+
+--- Page 10 ---
+2 HANDBOOK ON ANTI-CORRUPTION MEASURES IN PRISONS
+to the management of prisons and the treatment of prisoners.3 Relevant examples include
+embezzlement of funds needed for necessary security measures and infrastructure; mis-
+appropriation of goods; hiring practices that do not consider the qualifications, merit and
+integrity of candidates; trafficking of mobile phones, drugs or weapons into and inside
+prison walls in exchange for bribes; and situations in which safety and the provision
+basic services are made subject to prisoners’ ability to pay bribes. This risk is further
+increased if members of organized crime groups or high-risk prisoners manage to come
+into a position of power and control with respect to prison officials.
+The international legal framework
+The United Nations Convention against Corruption (hereinafter “the Convention against
+Corruption”) is the only legally binding anti-corruption instrument of global scope. Since
+its adoption on 31 October 2003, the Convention against Corruption has been ratified by
+182 Parties4 and therefore is close to reaching universal application. The mandatory char-
+acter of many of its provisions makes the Convention against Corruption a unique tool for
+developing a comprehensive response to a global problem. Its key provisions on the
+prevention of corruption address the public sector and therefore include the prison system
+and prison management.
+The implementation of the Convention against Corruption is governed by the Conference
+of the States Parties to the United Nations Convention against Corruption. At its fifth and
+sixth sessions,5 the Conference in its resolutions 5/4 and 6/6 called upon States parties to
+devote special attention to strengthening integrity across the entire criminal justice system,
+including the police, prosecution, defence counsel, judiciary, court administration, and
+prison and probation services.6
+The United Nations Standard Minimum Rules for the Treatment of Prisoners (hereinafter
+the Nelson Mandela Rules), adopted by the General Assembly in December 2015, resulted
+from an extensive intergovernmental review process and represent a landmark harmoniza-
+tion of the original version of the Standard Minimum Rules (1957) with international law
+and good prison management practices. Despite their soft law nature, the 122 rules rep-
+resent the consensus of the United Nations on minimum standards in prison management
+and the treatment of prisoners. They are therefore an essential source of guidance for all
+aspects of prison management, including efforts to address corruption in prison settings.
+Upon the initiative of South Africa, a Vienna-based Group of Friends of the Nelson
+Mandela Rules was formed in the course of the twenty-sixth session of the Commission
+on Crime Prevention and Criminal Justice in May 2017. This informal, open-ended group
+of like-minded Member States has, as two of its main purposes, (a) to maintain the
+momentum generated by the adoption of the Nelson Mandela Rules for prison manage-
+ment, and to reform by raising awareness of the Rules and promoting their practical
+application worldwide; and (b) to convene expert consultations on priority aspects relat-
+ing to prison management during future sessions of the Commission on Crime Prevention
+and Criminal Justice and facilitate common positions, as appropriate.
+3 See, in particular, the United Nations Standard Minimum Rules for the Treatment of Prisoners (the Nelson Mandela
+Rules), adopted by General Assembly resolution 70/175 of 17 December 2015; also see the United Nations Rules for the
+Treatment of Women Prisoners and Non-Custodial Measures for Women Offenders (the Bangkok Rules), adopted by General
+Assembly resolution 65/229 of 21 December 2010; the Body of Principles for the Protection of All Persons under Any Form
+of Detention or Imprisonment, adopted by General Assembly resolution 43/173 of 9 December 1988; and the Code of
+Conduct for Law Enforcement Officials, adopted by General Assembly resolution 34/169 of 17 December 1979.
+4 As of 15 August 2017.
+5 Held in Panama City, Panama from 25 to 29 November 2013 and in St. Petersburg from 2 to 6 November 2015, respectively.
+6 Conference resolution 5/4, “Follow-up to the Marrakech declaration on the prevention of corruption”.
+
+--- Page 11 ---
+Introduction 3
+Purpose and objectives of this handbook
+The United Nations Office on Drugs and Crime (UNODC) supports Member States in
+their efforts to meet the requirements of the Convention against Corruption and in man-
+aging their prison systems in alignment with the Nelson Mandela Rules. In that capacity,
+and based on increasing requests for support in the fight against and the prevention of
+corruption in prisons, UNODC has developed this handbook. The result of a collaboration
+between the Corruption and Economic Crime Branch and the Justice Section of UNODC,
+it will complement both the Criminal Justice Handbook Series on prison reform and the
+publications on judicial and prosecutorial integrity and on police accountability, oversight
+and integrity.
+Through this handbook, UNODC seeks to formally acknowledge and articulate a problem
+endured by all jurisdictions and to underline the international commitment to addressing
+it. The aim of this handbook is not simply to address corruption once it occurs but also
+to help Member States prevent corruption and protect prisoners, staff and communities
+from its insidious consequences. This is without prejudice to the fact that the manage-
+ment of prisons is one of the most difficult and demanding tasks that societies require,
+and many prison leaders and staff work with great professionalism and commitment to
+provide safe, decent and just conditions in prisons.
+More specifically, the handbook highlights which articles of the Convention against
+Corruption7 and which provisions of the Nelson Mandela Rules are of particular relevance
+to preventing corruption in prisons and presents practical measures to implement those
+provisions to strengthen integrity, accountability, transparency and oversight in the prison
+system. While it is not a direct focus, this handbook also recognizes the correlation
+between the level of corruption and the prevalence of torture and ill-treatment: corruption
+breeds ill-treatment, disregard for human rights and contributes to the prevalence of
+corruption.8 Eradicating corruption and preventing torture and ill-treatment are therefore
+often interdependent, not disparate, processes. Corruption within a country in general,
+and the prison system in particular, seriously impedes the eradication of torture and
+ill-treatment. Therefore, in order to prevent torture and ill-treatment, it is also critical to
+prevent and eradicate corruption.9
+As the research for this handbook has shown, there is still a considerable gap in data
+collection and analysis of the extent of corruption in prisons. Only a few case examples
+and anti-corruption measures focusing on prisons are documented and available. It is
+hoped, therefore, that this handbook will motivate more Member States to proactively
+address the challenge of corruption in prisons and to contribute to the growing body of
+knowledge and experience in this field.
+Limitations of this handbook
+This handbook addresses corruption in prisons, herein defined as all authorized places of
+detention within a criminal justice system, holding all prisoners, including those who are
+held during the investigation of a crime, while awaiting trial, after conviction and before
+and after sentencing. The term does not cover detention centres holding people detained
+7 Those include, among others, articles 7 Public sector, 8 Codes of conduct for public officials, 10 Public reporting,
+13 Participation of society and 33 Protection of reporting persons.
+8 Seventh Annual Report of the Subcommittee on Prevention of Torture and Other Cruel, Inhuman or Degrading
+Treatment or Punishment. Committee against Torture, 52nd session 28 April–23 May 2014 (CAT/C/52/2). The report
+surveys the work of the Subcommittee during 2013.
+9 Ibid.
+
+--- Page 12 ---
+4 HANDBOOK ON ANTI-CORRUPTION MEASURES IN PRISONS
+due to their irregular immigration status; special health facilities where persons may be
+held against their will; or special facilities in the form of prevention detention, such as in
+the case of terrorism suspects. Many of the considerations discussed in the handbook,
+however, will be equally relevant and applicable to these other forms of detention.
+The focus of this handbook is on the prevention and elimination of corruption, herein
+defined as instances where the action of a person in his or her capacity as a public
+official or a person entrusted with the performance of a public function is influenced by
+his or her private interest in gaining an undue advantage (tangible or intangible, pecuniary
+or non-pecuniary) for himself, herself or another person or entity. The handbook will
+therefore not be able to cover all forms of misconduct, mismanagement and abuse of
+office. Nevertheless, it is understood that those actions and offences often overlap with
+corruption and reinforce each other. Several of the measures described in this handbook
+will specifically target the risk of corruption; others will be aimed at strengthening
+accountability, transparency and oversight more broadly, since those measures help to
+prevent and deter all forms of abuse and misconduct, including corruption.
+The particular and often wide-ranging challenges of reforming and rehabilitating prisons
+in a post-conflict situation or in a context where systematic human rights violations have
+occurred or continue to occur merit a more in-depth discussion than is possible within
+the scope of this publication. In such environments, it is likely that systems will have
+collapsed completely and institutional knowledge will be absent. Establishing or restoring
+a prison system based on order, constructive staff-prisoner relationships and respect for
+human rights, including efforts to address the potential for corruption, will be an enormous
+task that may also require the assistance of external advisers, including from the corrections
+component of a United Nations peacekeeping mission.10 Effective vetting, a subject dis-
+cussed in more general terms in chapter 4 of this handbook, is one measure of particular
+importance in such contexts. While the considerations relating to preventing and combating
+corruption in the prison context discussed in this handbook also apply in post-conflict
+settings, a more in-depth discussion of the additional challenges that are faced in such
+situations is likewise beyond the scope of this publication.
+10 For a discussion of how co-located UNMISS personnel provide technical support to prison staff in South Sudan,
+including by protecting the national prison administration against allegations of corruption and prisoner abuse, see e.g.
+DPKO Justice Corrections Update (2014), p. 38. Available at http://www.un.org/en/peacekeeping/publications/cljas/
+DPKO-Justice-Corrections-Update-2014.pdf.
+
+--- Page 13 ---
+Part I
+Origins and manifestations of
+corruption in prisons
+5
+
+--- Page 15 ---
+1
+1.
+Unique features of the prison environment
+United Nations Standard Minimum Rules for the Treatment of Prisoners
+(the Nelson Mandela Rules)
+Rule 4
+1 . The purpose and justification of a sentence of imprisonment or a similar measure
+deprivative of liberty is ultimately to protect society against crime . This end can only be
+achieved if the period of imprisonment is used to ensure, so far as possible, that upon
+his return to society, the offender is not only willing but able to lead a law abiding and
+self-supporting life .
+Imprisonment primarily serves to protect society against crime and to reduce recidivism.
+This requires both the safe, secure and humane custody of prisoners as well as efforts
+to support their rehabilitation and social reintegration upon release, as outlined in the
+Nelson Mandela Rules, Rule 4, cited above. Corruption can undermine both of these
+fundamental objectives.
+1.1. Prisons as closed environments
+Prisons are closed environments, guarded 24 hours a day, seven days a week, in order to
+prevent prisoners from escaping (security) or causing harm to themselves or others (safety).
+With limited and strictly regulated access from external parties, prisons throughout the
+world tend to be relatively isolated from society, with prisoners easily being forgotten by
+the general public. In many countries, proper monitoring and inspections of prison facilities,
+including by bodies independent of the prison administration,11 may be weak or even
+absent, and there may be little or no involvement of other external actors, including civil
+society, in the delivery of services in prisons. This can result in situations in which senior
+prison management, line ministries, other relevant State authorities and the general public
+are not made aware, on a regular basis, of the challenges encountered in prisons, including
+11 Rule 83 of the Nelson Mandela Rules establishes a twofold system of internal and external inspections for prisons
+(see chapter 6).
+7
+
+--- Page 16 ---
+8 HANDBOOK ON ANTI-CORRUPTION MEASURES IN PRISONS
+the scale and impact of corruption. In numerous Member States, the absence of effective
+monitoring and inspection systems or the lack of a meaningful follow-up to corresponding
+findings and recommendations impedes the ability to effectively address corruption in
+prisons, while prison settings are particularly vulnerable to corruption risks:
+The incentives for bribery and extortion rise as the threat of incarceration grows,
+reaching their peak when an individual is actually placed behind bars. Many prisoners
+will be willing to pay whatever it takes to win their freedom, or at least to gain extra
+privileges within the prison setting, and some prison personnel will be willing to sell
+freedom or privileges. This leads to considerable risks of corruption in the detention/
+incarceration phase of the criminal justice system in every country.12
+It is further important to note that deprivation is an inherent feature of imprisonment.
+In 1958, the American criminologist Gresham M. Sykes argued that five fundamental
+deprivations characterized daily prison life: the loss of (a) liberty; (b) desirable goods
+and services; (c) sexual relationships; (d) autonomy; and (e) security, collectively referred
+to as the “pains of imprisonment”.13 Similarly, the Nelson Mandela Rules, Rule 3
+acknowledges that “[i]mprisonment and other measures that result in cutting off persons
+from the outside world are afflictive by the very fact of taking from these persons the
+right of self-determination by depriving them of their liberty” and therefore require that
+“the prison system shall not, except as incidental to justifiable separation or the main-
+tenance of discipline, aggravate the suffering inherent in such a situation”.
+Reducing the “pains of imprisonment” as much as possible and regaining some degree
+of freedom is a natural and understandable goal for the majority of prisoners. Many will
+seek to achieve this goal through legitimate means, including through good behaviour
+so as to gain additional privileges or to be assigned to a less restrictive prison regime.
+Others, however, will seek to exploit the weaknesses of the system, including, for
+example, by attempting to corrupt prison staff, as they feel that they have much to gain
+but only little to lose, especially if faced with a long-term sentence. The concentration
+of so many individuals with a criminal background—many of whom have been confined
+for long periods of time, have suffered or continue to suffer from deprivation, and are
+often housed in overcrowded, poorly designed or even dilapidated buildings—creates
+exceptionally challenging circumstances that affect the state of mind and behaviour of
+both prisoners and prison staff. Indeed, the environment of prisons revolves around crime
+like no other institution.
+From an outside perspective, and due to their closed nature, prisons are often perceived
+as places of incapacitation, where crime presumably cannot be committed. However,
+reports of drug abuse, gang activities, violence and corruption taking place within prisons
+have put the particular vulnerability of prisons to crime, violence and corruption into
+the spotlight. Crime can and does take place in prison. Often, perpetrators who find
+themselves in prisons merely adapt to the change of environment, and corruption b ecomes
+a tool to commit criminal offences while in detention.
+12 Richard E. Messick and Sofie A. Schütte, Corruption Risks in the Criminal Justice Chain and Tools for Assessment,
+U4 Issue, No. 6, March 2015.
+13 Gresham M. Sykes, The Society of Captives (Princeton, New Jersey, Princeton University Press, 1958), p. xiv. While
+dated, the basic tenets of his appraisal of the impact of imprisonment still hold valid today: “[T]he prisoner’s loss of
+liberty is a double one — first, by confinement to the institution and second, by confinement within the institution. The
+mere fact that the individual’s movements are restricted, however, is far less serious than the fact that imprisonment
+means that the inmate is cut off from family, relatives, and friends … It is not difficult to see this isolation as painfully
+depriving or frustrating in terms of lost emotional relationships, of loneliness, and boredom. But what makes this pain
+of imprisonment bite most deeply is the fact that the confinement of the criminal represents a deliberate, moral rejection
+of the criminal by the free community” (ibid., page 65).
+
+--- Page 17 ---
+CHAPTER 1. Unique features of the prison environment 9
+It has been noted, for example, that unless a prison is properly managed, organized
+criminals may even strengthen their capacities while serving their sentence: “Through
+corruption, and particularly the use of mobile phones, organized criminals can easily
+continue to run operations from within their prison cells. Indeed, many organized crim-
+inals seek to take full advantage of the benefits available to them, such as education and
+qualifications, which can enhance their operations even further.”14
+The closed nature and impact of imprisonment create an environment that not only makes
+those deprived of their liberty prone to instigating corruption; it may equally serve as a
+catalyst for corrupt practices and abuse among prison service officers, particularly if
+coupled with a lack of accountability and oversight. Corrupt practices may take place
+in the area of hiring and managing staff, in the financial management of prisons, in
+procurement, or in day-to-day operations, with a direct negative impact on respect for
+the rights of prisoners (see chapter 2).
+1.2. Risks and needs within the prison population
+Prisons house a particularly challenging part of the national population, all of whom are
+suspected of, or have been convicted for, having committed a criminal offence. At the
+same time, prisoners are not a homogeneous group and differ significantly with regard
+to their legal status, gender, age and duration of sentence, as well as physical and mental
+health, literacy and numeracy, language, culture and ethnicity.
+The Nelson Mandela Rules require prison administrations to “take account of the individual
+needs of prisoners, in particular the most vulnerable categories in prison settings” (Rule 2(2)).
+Many prisoners will have poor social, educational and vocational skills, come from mar-
+ginalized groups in society, and/or have special needs, making them even more dependent
+on certain services and professional prison staff and at risk of being exploited as a result
+of corrupt activity. In addition to female prisoners and juveniles deprived of their liberty,
+the following categories, among others, should be kept in mind in this regard:
+• Prisoners with mental health care needs
+• Prisoners with drug dependence
+• Ethnic and racial minorities and indigenous peoples
+• Foreign national prisoners
+• Older prisoners
+• Lesbian, gay, bisexual and transgender prisoners
+For guidance on how to cater to special needs groups within the prison population, see the
+UNODC Handbook on Prisoners with Special Needs.15
+Who they are as individuals and where they stand in terms of their criminal proceedings
+will also significantly influence whether they are likely to become a victim of corruption
+or have a propensity to corrupt other prisoners or staff. Whether a prisoner is held on
+remand, has just started serving his or her sentence or is close to being released on
+parole, for example, affects his or her propensity toward engaging in corruption, with
+14 Transparency International, Corruption in the UK: Part 2—Assessment of Key Sectors (London, 2011), p. 29. Avail-
+able at http://www.transparency.org.uk/publications/corruption-in-the-uk-part-two-assessment-of-key-sectors.
+15 See UNODC Handbook on Prisoners with Special Needs (2009), available at https://www.unodc.org/pdf/criminal_jus-
+tice/Handbook_on_Prisoners_with_Special_Needs.pdf
+
+--- Page 18 ---
+10 HANDBOOK ON ANTI-CORRUPTION MEASURES IN PRISONS
+risks being particularly strong at the pretrial stage. The prospect of having a criminal
+record, paying a fine, or, in the worst case, losing one’s freedom may create a powerful
+incentive for suspects or defendants to resort to corruption and for those holding power over
+their fates to abuse this situation at different stages of the criminal justice process.16
+The (alleged) offences of prisoners will range from relatively minor transgressions to
+the most heinous crimes. Some will have been involved in just one offence; others may
+have committed many offences, possibly over extended periods of time. Some prisoners
+will belong to serious organized crime groups or other networks based on exploitation
+and abuse. Such individuals need not be many in number, but their impact on a prison
+can be severe if their efforts to condition, manipulate and corrupt others and to canvass
+networks both inside and outside the prisons are successful.
+There will therefore be prisoners with a propensity to exploit others or to develop a
+tendency towards such behaviour. For a few, this tendency will emanate from inherent
+psychopathic traits; for most, it will stem from their continued engagement in, or exposure
+to crime, including those belonging to serious organized crime groups or other networks
+based on exploitation and abuse.
+It is important to note that the hierarchy among prisoners plays a major role in shaping
+corruption in prisons. In many jurisdictions, strong hierarchies exist within which every
+prisoner is assigned his or her specific place.
+In practice, however, the above distinction into prisoners with special needs on the one
+hand, and high(er)-risk prisoners who may corrupt others on the other hand, is by no
+means clear-cut, nor will it necessarily remain stable over time. Accordingly, two points
+are important to bear in mind: (a) there is a wide spectrum among prisoners in terms
+of special needs and the risks that they may pose; and (b) the prison administration must
+continuously gather information in order to be able to effectively assess the risk of
+corruption taking place in prisons. Moreover, the risks and needs of prisoners may change
+over time.
+1.3. Prison staff and human resources management
+policies
+Prison administrations, managers and staff have a unique level of control and power over
+prisoners and their well-being. This situation creates an increased risk in terms of abuse of
+power and corruption and requires correspondingly high levels of diligence and oversight.
+As noted earlier, pretrial detainees may be particularly vulnerable to corrupt practices:
+Once in custody, pretrial detainees are often at the mercy of the detaining autho-
+rities, particularly in countries where legal aid or other forms or legal representa-
+tion are lacking or deficient. They or their families are frequently forced to pay
+for access to services and treatment to which they are entitled under national and
+international law, including food, drinking water, medication, or contact with fam-
+ily members. Additionally, they are forced to pay to “prevent” torture or other
+mistreatment, and demands for bribes are often combined with the threat or actual
+use of torture.17
+16 See, for instance, Open Society Foundations, “Fact-Sheet: Pretrial Detention and Corruption” (2013).
+17 Open Justice Foundations and UNDP. The Socioeconomic Impact of Pretrial Detention (New York, 2011), p. 19.
+
+--- Page 19 ---
+CHAPTER 1. Unique features of the prison environment 11
+In a 2009 report, the Working Group on Arbitrary Detention of the United Nations
+Human Rights Council noted that it had “observed, during the various visits conducted,
+the devastating effects caused by corruption on the effective fulfilment of human rights,
+including the right to be free from arbitrary detention” and “identified, as one main
+cause for this discrepancy between theory and practice, the issue of corruption”.18 The
+report called upon States to study the measures for the prevention and prosecution of
+corrupt practices comprised in the Convention against Corruption in order to eradicate
+corruption from their system of administration of justice. Acknowledging the significant
+risk of corruption in prisons and subsequently identifying and analysing specific chal-
+lenges and vulnerabilities (for example, in human resources management, standard
+operating procedures or independent oversight) are crucial steps for prison administra-
+tions to develop measures that mitigate corruption and enable a prison service to carry
+out its essential functions.
+Even though the Nelson Mandela Rules and the Convention against Corruption call for
+the careful selection of every grade of prison staff in order to ensure integrity, humanity,
+professional capacity and personal suitability,19 many jurisdictions give insufficient attention
+to the proper recruitment, training and management of prison officers. Very often, this goes
+hand in hand with the low social status that prison staff are afforded in many countries.
+In fact, a large majority of prison staff will originally not have sought a career in the
+prison service. Instead, they might be former military personnel in need of new employment
+or persons who have been unable to find other employment in the public sector. Salaries
+of prison staff are often inadequate—a deficiency which further contributes to dissatisfac-
+tion and corrupt practices. Moreover, tailored training courses for prison staff may not
+always be available, and prison staff may be expected to learn on the job with very little
+formal training or adequate supervision. This prevalence of informal or inconsistent training
+and inadequate human resources management is in stark contrast to the complex and
+demanding work of prison staff, who perform one of the most challenging and complex
+of public services. As a result, individuals may get appointed who are unsuitable to serve
+as prison officers, and prison staff may not be sufficiently prepared to carry out their day-
+to-day tasks or interact with prisoners in a professional manner. Moreover, prison staff
+may be unaware of where to find guidance in case of need, and the disciplinary manage-
+ment system may be ineffective. A low probability of sanctions can undermine any deterrent
+effect and create the perception that wrongdoing is tolerated. The consequences of such
+serious deficiencies in human resources management, including with regard to the risk of
+prison staff becoming vulnerable to corrupt practices, are obvious.
+Because prison staff exercise significant power over the individuals in their custody,
+prison management requires a high degree of formal structure and order, especially within
+medium and maximum security institutions, to ensure the safe, secure and humane cus-
+tody of prisoners. A strong structure based on clear responsibilities and procedures for
+all processes, including procedural security and disciplinary measures, is essential for
+curbing corruption. In an unstructured environment without clear rules, prison staff may
+see corrupt practices as “the way things are done,” and their behaviour may be influenced
+by the real or perceived unlikelihood of getting caught or getting punished if caught
+engaging in corruption. The tone from the top is paramount in creating a culture of
+integrity and rule adherence.
+Despite the need for a high degree of regulation in prisons, it is important that prison
+staff retain an appropriate degree of latitude to choose the course of action that will
+resolve problems and challenges in accordance with the imperative of keeping prisoners
+18 Report of the Working Group on Arbitrary Detention, A/HRC/10/21.m16 February 2009, paras. 56-64.
+19 In particular, Nelson Mandela Rules, Rule 74(1) and United Nations Convention against Corruption, article 7, para.1.
+See further details in chapter 4.
+
+--- Page 20 ---
+12 HANDBOOK ON ANTI-CORRUPTION MEASURES IN PRISONS
+safe, secure and treated humanely while in custody. Indeed, the ability to judge situations,
+to know when to allow for flexibility and when to adhere closely to rules and regulations,
+sets an exceptional prison officer apart from an officer just doing his or her job. In light
+of the aforementioned human resources management challenges in many prison admin-
+istrations, however, the incentives and opportunities for corrupt behaviour among prison
+employees engaged in low-visibility discretionary actions within prison systems are
+many. The importance of proper supervision of prison staff (including regular staff evalu-
+ation), reinforcement of rules and procedures through incentives and sanctions, and prison
+staff support systems (including counselling) cannot be overstated.
+Finally, it is important to note that the unique environment in which prison officers work
+can contribute to a strong team spirit among staff. This positive aspect of team spirit,
+however, can also turn into a suffocating corps mentality. Pacts of silence among staff,
+also known as “esprit de corps,” contribute to a culture of impunity.20 A similar phe-
+nomenon has been identified with regard to police corruption, for example, where officers
+follow the “blue code,” an unwritten rule that police officers do not to report or testify
+against alleged or actual unethical or illegal acts committed by colleagues. Prison staff
+may likewise refuse to cooperate in the investigation of critical events of staff misconduct
+in order to protect fellow staff members or fail to report information that may give rise
+to an allegation of staff misconduct. Many prison staff members would rather risk being
+subject to disciplinary sanctions themselves than violate a potential “code of silence”
+within the correctional community. In the most extreme cases, prison officers may not
+only be pressured to turn a blind eye to corrupt practices of colleagues or superiors, but
+even to take part in the corrupt act themselves.
+Equally dangerous is the reaction of prison management to classify every act of corruption
+that comes to light as an act of an individual, a “bad apple.” Undoubtedly, there are cases
+where an individual managed to pervert or circumvent even a well-designed corruption
+prevention system without the involvement or knowledge of colleagues. In many cases,
+others are involved. In fact, it is fair to say that a “bad apple” will only rarely be able
+to successfully carry out an act of corruption unless there is also an environment that, at
+the systemic level, enables him or her to do so. Any thorough analysis of corruption risks
+should therefore also analyse the circumstances surrounding that individual and design
+adequate measures to prevent and fight corruption at the systemic level.
+1.4. Staff-prisoner relationships and dynamic
+security
+The success of prison systems in achieving their key objectives, including safeguarding
+the prison population and creating an environment conducive to rehabilitation, relies to a
+significant degree on staff-prisoner relationships. Where those relationships are well-managed,
+controlled and constructive, a positive environment can be created. Where relationships
+between prison inmates and staff are poor or non-existent, prisons become dangerous places
+for prisoners and prison staff, as well as for the communities that they serve.
+It is often assumed that impregnable walls and fences, supplemented by advanced tech-
+nology in the form of security cameras and sensors, exemplify effective high security.
+Similarly, it is often assumed that issuing instructions to staff in the form of a manual
+on how to operate the prison automatically creates adherence to the procedures laid
+20 Penal Reform International, Institutional Culture in Detention: A Framework for Preventive Monitoring, a Detention
+Monitoring Tool Resource, 2nd edition (London, 2015), p. 9. Available at http://www.penalreform.org/wp-content/
+uploads/2016/01/culture-in-detention-2nd-ed-v6.pdf.
+

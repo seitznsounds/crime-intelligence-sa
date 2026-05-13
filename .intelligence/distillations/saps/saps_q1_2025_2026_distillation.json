@@ -1,0 +1,61 @@
+{
+  "source": "intelligence/saps/crime-stats/2025-2026_-_1st_Quarter_WEB.pdf",
+  "period": "First Quarter 2025-2026 (April 2025 to June 2025)",
+  "national_stats": {
+    "total_serious_crimes": 346182,
+    "total_murders": 5770,
+    "murder_weapons": {
+      "firearm": 2595,
+      "knife": 797,
+      "sharp_instrument": 421,
+      "blunt_instrument": 207
+    },
+    "police_murders": 18
+  },
+  "provincial_serious_crimes": {
+    "Eastern Cape": 35734,
+    "Free State": 19843,
+    "Gauteng": 92441,
+    "KwaZulu-Natal": 59398,
+    "Limpopo": 21587,
+    "Mpumalanga": 19320,
+    "North West": 22251,
+    "Northern Cape": 9836,
+    "Western Cape": 65772
+  },
+  "provincial_murders": {
+    "Eastern Cape": 1096,
+    "Free State": 186,
+    "Gauteng": 1429,
+    "KwaZulu-Natal": 1199,
+    "Limpopo": 185,
+    "Mpumalanga": 248,
+    "North West": 205,
+    "Northern Cape": 74,
+    "Western Cape": 1148
+  },
+  "top_stations_total_crime": [
+    {"name": "Cape Town Central", "province": "Western Cape", "count": 2605},
+    {"name": "Durban Central", "province": "KwaZulu-Natal", "count": 1989},
+    {"name": "Mfuleni", "province": "Western Cape", "count": 1777},
+    {"name": "Mitchells Plain", "province": "Western Cape", "count": 1756}
+  ],
+  "top_stations_murder": [
+    {"name": "Inanda", "province": "KwaZulu-Natal", "count": 78},
+    {"name": "Mfuleni", "province": "Western Cape", "count": 72},
+    {"name": "Delft", "province": "Western Cape", "count": 70},
+    {"name": "Nyanga", "province": "Western Cape", "count": 58}
+  ],
+  "causative_factors_murder": {
+    "Arguments/ Misunderstanding/ Road Rage / Provocation": 869,
+    "Retaliation/ Revenge/ Punishment": 327,
+    "Robbery": 317,
+    "Gang-related": 317
+  },
+  "place_of_occurrence_murder": {
+    "Public place": 2910,
+    "Residences": 1696,
+    "Liquor outlets": 211,
+    "Business premises": 101
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "source": "Manual Intelligence Extraction - SAPS Top Management Placement",
+  "date_analyzed": "2026-05-12",
+  "organization": {
+    "name": "South African Police Service (SAPS)",
+    "acronym": "SAPS",
+    "type": "National Police Agency"
+  },
+  "top_management": [
+    {
+      "name": "K.J. Sitole",
+      "rank": "General",
+      "role": "National Commissioner",
+      "tier": 1,
+      "tags": ["PEP", "SAPS", "Executive"]
+    },
+    {
+      "name": "Y. Matakata",
+      "rank": "Lieutenant General",
+      "role": "National Head, Directorate for Priority Crime Investigations (DPCI / Hawks)",
+      "tier": 1,
+      "tags": ["PEP", "SAPS", "Hawks", "Investigations"]
+    },
+    {
+      "name": "S.F. Masemola",
+      "rank": "Lieutenant General",
+      "role": "Deputy National Commissioner: Policing",
+      "tier": 2,
+      "tags": ["SAPS", "Policing"]
+    },
+    {
+      "name": "B.C. Mgwenya",
+      "rank": "Lieutenant General",
+      "role": "Deputy National Commissioner: Human Resource Management",
+      "tier": 2,
+      "tags": ["SAPS", "HRM"]
+    },
+    {
+      "name": "S.J.P. Schutte",
+      "rank": "Lieutenant General",
+      "role": "Deputy National Commissioner: Asset & Legal Management",
+      "tier": 2,
+      "tags": ["SAPS", "Legal", "Assets"]
+    },
+    {
+      "name": "G.J. Kruser",
+      "rank": "Lieutenant General",
+      "role": "Deputy National Commissioner: Management Interventions",
+      "tier": 2,
+      "tags": ["SAPS", "Interventions"]
+    }
+  ],
+  "provincial_commissioners": [
+    {
+      "province": "Eastern Cape (EC)",
+      "name": "B.M. Ntshinga",
+      "rank": "Lieutenant General"
+    },
+    {
+      "province": "Free State (FS)",
+      "name": "L.J. Tsumane",
+      "rank": "Lieutenant General"
+    },
+    {
+      "province": "Gauteng (GP)",
+      "name": "D.S. De Lange",
+      "rank": "Lieutenant General"
+    },
+    {
+      "province": "KwaZulu-Natal (KZN)",
+      "name": "B. Langa",
+      "rank": "Major General",
+      "status": "Acting"
+    },
+    {
+      "province": "Limpopo (LP)",
+      "name": "R.P. Shivuri",
+      "rank": "Lieutenant General"
+    },
+    {
+      "province": "Mpumalanga (MP)",
+      "name": "N.J. Ledwaba",
+      "rank": "Lieutenant General"
+    },
+    {
+      "province": "North West (NW)",
+      "name": "B.M. Zuma",
+      "rank": "Lieutenant General"
+    },
+    {
+      "province": "Northern Cape (NC)",
+      "name": "B.B. Motswenyane",
+      "rank": "Lieutenant General"
+    },
+    {
+      "province": "Western Cape (WC)",
+      "name": "K.E. Jula",
+      "rank": "Lieutenant General"
+    }
+  ],
+  "organizations_mentioned": [
+    {
+      "name": "Directorate for Priority Crime Investigations",
+      "acronym": "DPCI",
+      "alias": "Hawks",
+      "type": "Specialized Investigative Unit"
+    }
+  ]
+}

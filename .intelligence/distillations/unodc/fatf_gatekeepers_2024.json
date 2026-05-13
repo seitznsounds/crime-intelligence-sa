@@ -1,0 +1,30 @@
+{
+  "source": "intelligence/unodc/FATF_2024_Horizontal_Review_of_Gatekeepers_Technical_Compliance_Related_to_Corruption.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "FATF horizontal review assessing how gatekeepers (lawyers, accountants, TCSPs, real estate agents) comply with AML/CFT standards related to corruption.",
+  "south_africa_status": {
+    "score": "96%",
+    "performance_rank": "High (Top 10)",
+    "context": "SA successfully implemented gatekeeper risk-based supervision following its 2023 grey-listing, demonstrating effective public listing outcomes."
+  },
+  "global_vulnerabilities": [
+    {
+      "sector": "Legal",
+      "issue": "Low compliance with Politically Exposed Person (PEP) requirements; perceived conflict with legal privilege."
+    },
+    {
+      "sector": "TCSPs (Trust & Company Service Providers)",
+      "issue": "Lowest level of Customer Due Diligence (CDD) requirements despite high risk of shell company misuse."
+    },
+    {
+      "area": "Internal Controls",
+      "issue": "Lowest score across all measures; lack of independent audit for compliance systems in small firms."
+    }
+  ],
+  "critical_data_point": "128 out of 150 grand corruption cases involved the use of shell companies formed or maintained by gatekeepers.",
+  "benchmarks": {
+    "FATF_Average": "74%",
+    "Top_Performers": ["Portugal (100%)", "Luxembourg (100%)", "Malaysia (99%)", "South Africa (96%)"],
+    "Low_Performers_High_GDP": ["United States (0%)", "China (0%)", "Australia (0%)"]
+  }
+}

@@ -1,0 +1,500 @@
+--- Page 1 ---
+Vienna International Centre, P.O. Box 500, 1400 Vienna, Austria
+Tel.: (+43-1) 26060-0, Fax: (+43-1) 26060-5866, www.unodc.org
+Good practices
+protection
+for the
+of witnesses
+in criminal
+proceedings involving
+organized crime
+Printed in Austria
+V.07-85835—January 2008—1,000
+
+--- Page 3 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page i
+United Nations Office on Drugs and Crime
+Vienna
+Good Practices for
+the Protection of
+Witnesses in Criminal
+Proceedings Involving
+Organized Crime
+UNITED NATIONS
+New York, 2008
+
+--- Page 4 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page ii
+
+--- Page 5 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page v
+Foreword
+In recent years transnational organized crime has grown. Criminal organizations are
+becoming stronger and more diverse. They are engaging more and more frequently in
+systematic forms of cooperation designed to further their criminal activities. In the inves-
+tigation and prosecution of crime, particularly the more serious and complex forms of
+organized crime, it is essential that witnesses, the cornerstones for successful investiga-
+tion and prosecution, have trust in criminal justice systems.
+Witnesses need to have the confidence to come forward to assist law enforcement and
+prosecutorial authorities. They need to be assured that they will receive support and pro-
+tection from intimidation and the harm that criminal groups may seek to inflict upon them
+in attempts to discourage or punish them from cooperating.
+The United Nations Convention against Transnational Organized Crime and its Protocols call
+upon State Parties to introduce appropriate measures to prevent witness intimidation, coer-
+cion, corruption or bodily injury, and to strengthen international cooperation in this regard.
+Often though, even where such measures have been legislated, implementation remains less
+than satisfactory and further progress is needed particularly with regard to cross-border
+cooperation especially regarding the change of identity and relocation of at-risk witnesses.
+Experience has shown that in witness protection there are no easy solutions. However this
+publication, developed by the United Nations Office on Drugs and Crime following a series
+of regional meetings with expert representatives from law enforcement, prosecutorial and
+judicial authorities, has been designed to assist and support Member States in the estab-
+lishment and operation of effective witness protection programs. It provides a useful
+account of available measures and offers practical options suitable for adaptation and
+incorporation in the legal system, operational procedures and particular social, political
+and economic circumstances of Member States.
+I am confident that the publication should serve as a useful and valuable tool for policy-
+makers, legislators, legal practitioners, senior law enforcement and justice officials
+involved in the protection of witnesses.
+Antonio Maria Costa
+Executive Director
+United Nations Office on Drugs and Crime
+Vienna – January 2008
+iii
+
+--- Page 6 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page iv
+
+--- Page 7 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page iii
+Preface
+The compilation by the United Nations Office on Drugs and Crime (UNODC) of these good practices
+for the protection of witnesses in criminal proceedings involving organized crime was made possible
+thanks to the active support and contributions of dedicated professionals of Member States of the
+United Nations, international criminal tribunals and international organizations involved in this
+field. Their participation in the meetings of the UNODC expert groups and their thoughtful commen-
+tary during the drafting process were a source of inspiration and served to create a text that goes
+beyond the usual general theoretical approaches to witness protection and addresses the opera-
+tional aspects of setting up and implementing witness protection programmes. For security reasons,
+it is not possible to publish the names of the contributing subject matter experts but UNODC extends
+to them its appreciation and gratitude.
+The Good Practices for the Protection of Witnesses in Criminal Proceedings involving Organized
+Crime were produced by the Anti-Trafficking Section of UNODC under the supervision of Brian
+Taylor. The text was prepared by Ilias Chatzis and revised by Karin Kramer. Silke Albert,
+Demostenes Chryssikos, Stuart Gilman and Filipe De La Torre offered comments, and Nicole Maric
+and Tejal Jesrani conducted research.
+v
+
+--- Page 8 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page vi
+
+--- Page 9 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page vii
+Contents
+Foreword . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii
+Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . v
+II.. IInnttrroodduuccttiioonn .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 11
+A. The core issue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+B. Mandate of the United Nations Office on Drugs and Crime . . . . . . . . . . . . . . . . . . . . . . 1
+C. The process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+D. Objectives of the good practices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+E. Scope of the good practices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+F. Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+IIII.. WWiittnneessss pprrootteeccttiioonn:: oorriiggiinnss aanndd sseelleecctteedd aapppprrooaacchheess .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 77
+A. Origins: United States of America . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+B. Witness protection in various countries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+C. Witness protection at the permanent and ad hoc international criminal courts . . . . . 15
+IIIIII.. KKeeyy eelleemmeennttss .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 1199
+A. Participants . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+B. The crime . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+IIVV.. MMeeeettiinngg tthhee tthhrreeaatt .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 2277
+A. Witness assistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+B. Alternative measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+VV.. SSeettttiinngg uupp aa wwiittnneessss pprrootteeccttiioonn pprrooggrraammmmee .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 4433
+A. Need versus want . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+B. Legislation versus policy basis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+C. Programme location . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+D. Organizational structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+E. Personnel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+F. Funding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+G. Principles of operation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+vii
+
+--- Page 10 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page viii
+VVII.. EEnntteerriinngg wwiittnneessss pprrootteeccttiioonn .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 5599
+A. Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+B. Decision-making authority . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+C. Criteria for admission . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+D. Memorandum of understanding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+VVIIII.. RReessppoonnssiibbiilliittiieess ooff tthhee ppaarrttiieess .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 6677
+A. The protection authority . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+B. The witness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71
+C. Termination of the programme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+VVIIIIII.. RReellooccaattiioonn aanndd iiddeennttiittyy cchhaannggee .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 7777
+A. A new identity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+B. International relocation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82
+C. Implications of relocation and identity change for the witness . . . . . . . . . . . . . . . . . . 86
+IIXX.. FFuuttuurree cchhaalllleennggeess .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 8899
+A. New forms of crime . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
+B. A global village . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
+C. Biometrics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90
+XX.. CCoonncclluussiioonn .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 9933
+A. Main elements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+B. Alternative measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+C. Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+D. Admission criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+E. Costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+F. Programme administration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+G. International relocation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+AAnnnneexxeess
+I. Consulted national authorities of Member States of the United Nations . . . . . . . . . . 97
+II. National legislation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101
+III. International tribunals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+IV. United Nations legal instruments and resolutions on standards and norms
+related to the protection of witnesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+viii
+
+--- Page 11 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 1
+I. Introduction
+What is witness protection? What are its main elements? How is it used to strengthen
+criminal investigations and prosecutions? Are there any universally applicable lessons
+that are the secret to successful witness protection programmes? Can countries with lim-
+ited human and financial resources afford programmes like the ones operated and prized
+by well-funded and well-resourced legal systems? These are some of the questions that the
+present publication seeks to answer. Some answers will come easily. In most cases, how-
+ever, experience has shown that, in actuality, practice is complicated.
+A. The core issue
+The ability of a witness to give testimony in a judicial setting or to cooperate with law
+enforcement investigations without fear of intimidation or reprisal is essential to main-
+taining the rule of law. Increasingly, countries are enacting legislation or adopting policies
+to protect witnesses whose cooperation with law enforcement authorities or testimony in
+a court of law would endanger their lives or those of their families.
+Protection may be as simple as providing a police escort to the courtroom, offering tempo-
+rary residence in a safe house or using modern communications technology (such as
+videoconferencing) for testimony. There are other cases, though, where cooperation by a
+witness is critical to successful prosecution but the reach and strength of the threatening
+criminal group is so powerful that extraordinary measures are required to ensure the
+witness’s safety. In such cases, resettlement of the witness under a new identity in a
+new, undisclosed place of residence in the same country or even abroad may be the only
+viable alternative.
+B. Mandate of the United Nations Office on Drugs and Crime
+Under article 24 of the United Nations Convention against Transnational Organized Crime
+(General Assembly resolution 55/25, annex I), States parties are to take appropriate meas-
+ures to provide effective protection from retaliation or intimidation for witnesses who give
+testimony in cases involving transnational organized crime. The measures envisaged
+include physical protection, the relocation and non-disclosure or limitations on the disclo-
+sure of the identity and whereabouts of the witness and the introduction of evidentiary
+rules to permit testimony to be given in a manner that ensures the witness’s safety. States
+parties are to consider entering into agreements or arrangements with other States for the
+relocation of witnesses (para. 3). The provisions of the article apply also to victims insofar
+as they are witnesses (para. 4).
+1
+
+--- Page 12 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 2
+Good Practices for the Protection of Witnesses in Criminal Proceedings Involving Organized Crime
+Under article 26 of the Organized Crime Convention, States parties are required to take
+appropriate measures to encourage persons who participate or have participated in
+organized criminal groups to cooperate with law enforcement authorities for investigative
+and evidentiary purposes. Pursuant to paragraph 4 of that article, such persons are to be
+afforded protection in accordance with the provisions of article 24.
+The protection of victims and/or witnesses is also explicitly addressed in the protocols to
+the Organized Crime Convention, specifically in the Protocol to Prevent, Suppress and
+Punish Trafficking in Persons, Especially Women and Children, supplementing the United
+Nations Convention against Transnational Organized Crime (General Assembly resolution
+55/25, annex II, articles 6 and 7) and the Protocol against the Smuggling of Migrants by
+Land, Sea and Air, supplementing the United Nations Convention against Transnational
+Organized Crime (Assembly resolution 55/25, annex III, articles 5 and 16).
+The Conference of the Parties to the United Nations Convention against Transnational
+Organized Crime, at its second session, held in Vienna from 10 to 21 October 2005, iden-
+tified witness protection as one of the areas that would be used to periodically review the
+status of implementation of the Convention and its related Protocols (CTOC/COP/2005/8,
+para. 1, decisions 2/1, 2/3 and 2/4). An overview of the responses of States parties is
+included in the analytical reports submitted to the Conference at its third session, held in
+Vienna from 9 to 18 October 2006 (CTOC/COP/2006/2, paras. 64-75; CTOC/COP/2006/6,
+paras. 12–38; and CTOC/COP/2006/7, paras. 11–18).
+At its third session, the Conference requested its secretariat to collect and make available
+to States parties successful practices in the investigation of offences covered by the
+Protocols and in the protection and assistance measures offered to victims of trafficking in
+persons and smuggled migrants. It also identified witness protection as an area in which
+technical assistance could be provided to support the implementation of the two Protocols
+and as a cross-cutting issue for both the Organized Crime Convention and the Protocols
+thereto (CTOC/COP/2006/14, para. 1, decisions 3/3 and 3/4).
+In addition, in the Bangkok Declaration on Synergies and Responses: Strategic Alliances in
+Crime Prevention and Criminal Justice (General Assembly resolution 60/177, annex),
+adopted by the Eleventh United Nations Congress on Crime Prevention and Criminal
+Justice, Member States recognized the importance of giving special attention to the need
+to protect witnesses and victims of crime and terrorism and committed themselves to
+strengthening, where needed, the legal and financial framework for providing support
+to such victims, taking into account, inter alia, the Declaration of Basic Principles of Justice
+for Victims of Crime and Abuse of Power (Assembly resolution 40/34, annex).
+On the recommendation of the Commission on Crime Prevention and Criminal Justice, the
+Economic and Social Council, in its resolution 2005/16, encouraged Member States to
+exchange their experiences with and information on action taken to provide effective pro-
+tection for witnesses in criminal proceedings involving transnational and national organ-
+ized crime and for their relatives and all other persons close to them.
+2
+
+--- Page 13 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 3
+Introduction
+C. The process
+Moving to implement those mandates, the United Nations Office on Drugs and Crime
+(UNODC) commenced a series of regional workshops in 2005 with the active participa-
+tion of expert representatives from law enforcement, prosecutorial and judicial author-
+ities of Member States to develop a set of internationally recognized good practices in
+the establishment and operation of witness protection programmes. The workshops
+were attended by officials from different geographical regions with varying degrees of
+exposure to organized crime and from different socio-political circumstances and legal
+systems. International organizations and agencies with an active engagement in the
+field of witness protection also made valuable contributions. Authorities from more than
+40 countries, 8 international organizations and 3 legal institutes participated in the con-
+sultation process (see annex I). Existing literature was also taken into account (see
+annex II)
+Witness protection
+No security measures
+Full-fledged
+programmes
+Other security measures Programmes under
+establishment
+Of the 43 systems examined in the consultation process for the development of the
+Good Practices for the Protection of Witnesses in Criminal Proceedings involving
+Organized Crime: 14 jurisdictions had full-fledged witness protection programmes that
+were able to relocate and change the identity of threatened witnesses; 4 jurisdictions
+had enacted new legislation providing for the establishment of witness protection pro-
+grammes but the programmes were not yet operational; 18 jurisdictions had no estab-
+lished programmes but had provided for some form of security measures, such as
+police measures or procedural in-court protection; and 7 jurisdictions had no witness
+protection measures at all.
+3
+
+--- Page 14 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 4
+Good Practices for the Protection of Witnesses in Criminal Proceedings Involving Organized Crime
+D. Objectives of the good practices
+This compendium of good practices is intended as a useful reference tool that draws upon
+the experience of Member States in setting up effective and sustainable programmes for
+the protection of witnesses. As experience varies from one country to the next, the good
+practices presented here do not advocate for any particular model of witness protection.
+Instead, they aspire:
+(a) To enhance understanding of the issues surrounding this sensitive field;
+(b) To provide an account of the challenges that countries face in their efforts to address
+the threat posed to witnesses by criminal groups, the measures and practices that
+have produced positive results and those that have proved ineffective, and the con-
+ditions and criteria for the establishment of covert programmes the sole purpose of
+which is to ensure the safety of threatened witnesses, mostly through relocation and
+change of identity;
+(c) To facilitate the gradual emergence of a common international approach to witness
+protection.
+The good practices are directed at policymakers, legislators, legal practitioners and senior
+law enforcement and justice officials. The intention is to provide those professionals with
+a comprehensive picture of the measures and options available for incorporation into their
+legal systems and operational procedures, subject to the specific social, political and eco-
+nomic circumstances of their countries.
+E. Scope of the good practices
+The good practices that follow take a holistic approach to witness protection. They identify
+a series of measures that may be adopted to safeguard from intimidation and threats
+against their lives the physical integrity of people who give testimony in criminal proceed-
+ings. These measures provide for a continuum of protection that starts with the early iden-
+tification of vulnerable or intimidated witnesses, continues with the management of
+witnesses by the police and the enactment of measures to protect the witness’s identity
+during courtroom testimony, and culminates with the adoption – in extreme cases – of
+measures for permanent change of identity and relocation.
+F. Definitions
+For purposes of the Good Practices for the Protection of Witnesses in Criminal Proceedings
+involving Organized Crime, the following definitions apply:
+(a) “Witness” or “participant”: any person, irrespective of his or her legal status
+(informant, witness, judicial official, undercover agent or other), who is eligible,
+under the legislation or policy of the country involved, to be considered for admis-
+sion to a witness protection programme;
+4
+
+--- Page 15 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 5
+Introduction
+(b) “Procedural measures”: action taken by the court during testimony to ensure that
+witnesses may testify free of intimidation or fear for their life; such measures
+include, but are not limited to, videoconferencing, voice and face distortion tech-
+niques and the withholding of details of a witness’s identity;
+(c) “Witness protection programme”: a formally established covert programme subject
+to strict admission criteria that provides for the relocation and change of identity of
+witnesses whose lives are threatened by a criminal group because of their coopera-
+tion with law enforcement authorities;
+(d) “Witness protection authority”: a government, police, prosecutorial or judicial
+authority overseeing and coordinating implementation of the witness protection
+programme and making decisions on such matters as admittance, duration of pro-
+tection, measures to be applied, operational policies and procedures;
+(e) “Witness protection unit”: a covert unit authorized to implement a witness protec-
+tion programme and responsible for the physical security, relocation to a new place
+of residence and change of identity of programme participants.
+5
+
+--- Page 16 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 6
+
+--- Page 17 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 7
+II. Witness protection:
+origins and selected approaches
+A. Origins: United States of America
+Witness protection first came into prominence in the United States of America, in the
+1970s, as a legally sanctioned procedure to be used in conjunction with a programme for
+dismantling Mafia-style criminal organizations. Until that time, the unwritten “code of
+silence” among members of the Mafia – known as omertà – held unchallenged sway,
+threatening death to anyone who broke ranks and cooperated with the police. Important
+witnesses could not be persuaded to testify for the state and key witnesses were lost to the
+concerted efforts of crime bosses targeted for prosecution. That early experience con-
+vinced the United States Department of Justice that a programme for the protection of wit-
+nesses had to be instituted.1
+Joseph Valachi was the first member of the Italian-American Mafia to break with
+omertà, the code of silence. In 1963, he testified before a United States congres-
+sional committee about the inner structure of the Mafia and organized crime. His
+cooperation was driven by the fear that he would be murdered by Vito Genovese,
+a powerful Mafia family boss. When Valachi appeared before the committee, he was
+guarded by 200 United States marshals. There were rumours that the Mafia had
+placed on his head a price tag of US$ 100,000. He was the first person in the United
+States to be offered protection for testimony prior to the establishment of a formal
+witness protection programme. Valachi entered protective custody and remained in
+prison until the end of his natural life. He was kept isolated from other inmates and
+his contacts were limited to agents of the Federal Bureau of Investigation and staff
+of the Federal Bureau of Prisons. Valachi was so terrified of the Mafia’s revenge
+that he insisted on preparing his own food in prison, out of fear that they would
+try to poison him. He died of a heart attack in 1971, having outlived Vito Genovese
+by two years.
+1Fred Montanino, “Unintended victims of organized crime witness protection”, Criminal Justice Policy
+Review, vol. 2, No. 4 (1987), pp. 392–408.
+7
+
+--- Page 18 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 8
+Good Practices for the Protection of Witnesses in Criminal Proceedings Involving Organized Crime
+In 1970, the Organized Crime Control Act empowered the United States Attorney General
+to provide for the security of witnesses who had agreed to testify truthfully in cases involv-
+ing organized crime and other forms of serious crime. Under the Attorney General’s
+authority, the Witness Security (WITSEC) Program of the United States ensures the physi-
+cal security of at-risk witnesses predominantly through their resettlement to a new, undis-
+closed place of residence under a changed name and new identity details.
+In 1984, after more than a decade of operations, a number of shortcomings that the
+WITSEC Program had experienced were addressed by the Witness Security Reform Act.
+The issues dealt with under the Act are still considered to lie at the heart of all witness pro-
+tection programmes, namely:
+(a) Strict admission criteria, including an assessment of the risks that relocated former
+criminals may pose to the public;
+(b) Creation of a fund to compensate victims of crimes committed by participants after
+their admission to the programme;
+(c) Signature of a memorandum of understanding outlining the witness’s obligations
+upon admission to the programme;
+(d) Development of procedures to be followed in case the memorandum is breached by
+the participant;
+(e) Establishment of procedures for the disclosure of information regarding
+programme participants and penalties for the unauthorized disclosure of such
+information;
+(f) Protection of the rights of third parties, especially the honouring of the witness’s
+debts and any non-relocated parent’s custody or visitation rights.
+For a witness to qualify for the WITSEC Program, the case in question must be extremely
+significant, the witness’s testimony must be crucial to the success of the prosecution and
+there must be no alternative way of securing the witness’s physical safety. There are also
+other conditions, such as the witness’s psychological profile and ability to abide by the
+rules and restrictions imposed by the programme. Over the years, eligibility for coverage
+under the WITSEC Program has been extended from witnesses to Mafia-style crimes to
+include witnesses to other types of organized crime, such as those perpetrated by drug
+cartels, motorcycle gangs, prison gangs and violent street gangs.
+B. Witness protection in various countries
+Today, witness protection is viewed as a crucial tool in combating organized crime, and a
+large number of countries around the world have established such specialized pro-
+grammes or have legislated their creation.
+Examples from different jurisdictions that have decided to establish witness protection
+programmes and their main elements are provided below.
+8
+
+--- Page 19 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 9
+Witness protection: origins and selected approaches
+1. Australia
+In 1983, a royal commission highlighted the need in Australia for better use to be made of
+informers in the fight against organized crime and, accordingly, for lower-level players to
+be given an incentive to inform on organizers. At that time, arrangements for witness pro-
+tection were a matter for individual police forces and approaches differed, with some plac-
+ing emphasis on 24-hour protection and others preferring relocation of witnesses under
+new identities. In 1988, a joint parliamentary committee conducted a comprehensive
+inquiry into the issue of witness protection and its report2led directly to the introduction at
+the Commonwealth level of the Witness Protection Act 1994 and the enactment of mirror
+legislation in several states and the Australian Capital Territory. The Act:
+(a) Establishes the National Witness Protection Program (NWPP) and sets threshold cri-
+teria for a person to be considered a witness eligible for inclusion in NWPP. A wit-
+ness becomes a “participant” once accepted into the programme;
+(b) Vests the Australian Federal Police with the authority to govern the placement of
+witnesses under and their removal from NWPP, including the signing of memoran-
+dums of understanding, the creation of new identities and the restoration of former
+identities;
+(c) Mandates the establishment of a register of participants currently or previously
+under NWPP, which must contain information such as the person’s name and new
+identity and details of offences of which the participant has been convicted;
+(d) Safeguards the integrity of Commonwealth identity documents (tax file numbers,
+passports) by providing that identity documents for participants in subnational wit-
+ness protection programmes may not be issued unless complementary legislation
+and ministerial arrangements are in place in the state or territory relating to the
+issue of identity documents;
+(e) Provides mechanisms to ensure that participants do not use their new identity to
+evade civil or criminal liability and stipulates that witnesses may not be included in
+NWPP as a means of encouraging or rewarding them for giving evidence or making
+a statement;
+(f) Creates offences relating to the unlawful divulging of information about participants
+and creates offences for participants who disclose information related to NWPP.
+In 1997, the Act was amended to allow NWPP participants to make disclosures for the pur-
+pose of filing a complaint or providing information to the Commonwealth Ombudsman. In
+2002, the Act was further amended to permit the inclusion of persons in NWPP at the
+request of the International Criminal Court. The process for considering a person nomi-
+nated by the Court for admission to NWPP is similar to the process for the inclusion of for-
+eign nationals or residents in NWPP.
+2Australia Parliamentary Joint Committee on the National Crime Authority, Witness Protection: Report
+by the Parliamentary Joint Committee on the National Crime Authority, Parliamentary paper No. 193/88
+(Canberra, Australian Government Publishing Service, 1988).
+9
+
+--- Page 20 ---
+07-85835_cb.qxp 17/1/08 12:11 pm Page 10
+Good Practices for the Protection of Witnesses in Criminal Proceedings Involving Organized Crime
+As of this writing, the following states and territories of Australia had enacted regional
+witness protection schemes complementary to NWPP:
+Australian Capital Territory: Witness Protection Act 1996
+New South Wales: Witness Protection Act 1995
+Northern Territory: Witness Protection (Northern Territory) Act 2002
+Queensland: Witness Protection Act 2000
+South Australia: Witness Protection Act 1996
+Tasmania: Witness Protection Act 2000
+Victoria: Witness Protection Act 1999
+Western Australia: Witness Protection (Western Australia) Act 1996
+2. China: Hong Kong Special Administrative Region
+In response to a call from the police for reform in 1994, the Hong Kong Police Force set up
+an ad hoc witness protection programme. A similar programme was set up in 1998 under
+the Independent Commission against Corruption (ICAC). In 2000, the Witness Protection
+Ordinance was enacted to provide the basis for protection and other assistance to wit-
+nesses and persons associated with witnesses. This single piece of legislation provides
+uniform criteria for the operation of the witness protection programmes established by the
+Hong Kong Police Force and ICAC. The Ordinance:
+(a) Establishes a witness protection programme to provide protection and other assis-
+tance to persons whose personal safety or well-being may be at risk as a result
+of their being witnesses. The programme is implemented, at the Police Force, by
+the Witness Protection Unit and, at ICAC, by the Witness Protection and Firearms
+Section. A third unit is currently being established by the Customs and Excise
+Department;
+(b) Stipulates that the person authorized to make decisions on the management of the
+programme and the inclusion or removal of witnesses is to be designated in writing
+by the Police Commissioner and the ICAC Commissioner. As of this writing, that
+authority lay with the Director of Crime and Security at the Police Force and with the
+Director of Investigation (Government Sector) at ICAC;
+(c) Defines the criteria for admission to the programme and the grounds for early
+termination, outlining the obligations of witnesses;
+(d) Authorizes the officer with approval authority to take necessary and reasonable
+action to protect the safety and welfare of witnesses who have been assessed or
+are being assessed for admission to the programme, including changing their iden-
+tity details;
+(e) Establishes an appeals procedure against decisions that disallow inclusion of a wit-
+ness in the programme, terminate protection or determine that a change of identity
+would not be among the applicable measures. The appeal is reviewed by a special
+10
+

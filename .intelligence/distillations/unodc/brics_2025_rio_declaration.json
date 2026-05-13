@@ -1,0 +1,45 @@
+{
+  "source": "intelligence/unodc/BRICS_2025_Rio_de_Janeiro_Declaration.pdf",
+  "date_analyzed": "2026-05-12",
+  "document_date": "2025-07-06",
+  "summary": "The XVII BRICS Summit declaration from Rio de Janeiro, consolidating the group's position on Global South cooperation, financial architecture reform, and anti-corruption measures.",
+  "anti_corruption_milestones": {
+    "deliverable": "Endorsement of the 'BRICS Common Vision and Joint Action on Enhanced Anti-Corruption Cooperation and Recovery and Return of Assets and Proceeds of Corruption'.",
+    "priorities": [
+      "Asset recovery and return (repatriation of proceeds)",
+      "Denial of safe haven for corrupt officials",
+      "Combatting the use of cryptocurrencies for illicit financial flows (IFFs)"
+    ],
+    "principles": "Non-politicized technical cooperation based on UNCAC."
+  },
+  "financial_innovation_and_resilience": {
+    "new_mechanisms": [
+      {
+        "name": "New Investment Platform (NIP)",
+        "status": "In development; technical-level efforts ongoing."
+      },
+      {
+        "name": "BRICS Multilateral Guarantees (BMG)",
+        "status": "Pilot initiative incubated within NDB to de-risk strategic investments."
+      },
+      {
+        "name": "BRICS Cross-Border Payments Initiative",
+        "status": "Interoperability focus; supported by the BPTF Technical Report."
+      }
+    ],
+    "local_currencies": "Tasked ICM to find acceptable mechanisms for financing in local currencies."
+  },
+  "global_governance_reforms": {
+    "imf_world_bank": "Call for quota realignment (17th GRQ) and 2025 World Bank Shareholding Review to correct Global South underrepresentation.",
+    "taxation": "Support for the UN Framework Convention on International Tax Cooperation to combat tax evasion and IFFs.",
+    "unsc": "Reiteration of support for Brazil, India, and Africa's aspirations for permanent seats."
+  },
+  "data_and_ai_governance": {
+    "data_economy": "Adoption of the 'BRICS Data Economy Governance Understanding' as a roadmap for data sovereignty and interoperability.",
+    "ai_framework": "Endorsement of the 'BRICS Leaders’ Statement on the Global Governance of AI', emphasizing UN central role."
+  },
+  "membership": {
+    "full_member": "Indonesia",
+    "partner_countries": ["Belarus", "Bolivia", "Kazakhstan", "Cuba", "Nigeria", "Malaysia", "Thailand", "Vietnam", "Uganda", "Uzbekistan"]
+  }
+}

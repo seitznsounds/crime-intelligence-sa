@@ -1,0 +1,18 @@
+{
+  "source": "intelligence/saps/crime-stats/PSiRA - Annual Report 2023-24.pdf",
+  "period": "2023-2024 Financial Year",
+  "industry_stats": {
+    "total_registered_security_officers": 2800000,
+    "total_employed_security_officers": 600000,
+    "total_registered_businesses": 15113,
+    "business_growth": "4.5% increase from 14,453"
+  },
+  "enforcement_metrics": {
+    "total_compliance_inspections": 47005,
+    "inspection_trend": "8% increase from 43,642",
+    "firearm_inspections": 2252,
+    "firearm_inspection_trend": "1% decrease from 2285",
+    "overall_compliance_rate": "83%"
+  },
+  "key_findings": "The private security industry in South Africa remains one of the largest in the world, with over 2.8 million registered officers. PSiRA conducted 47,005 compliance inspections, representing an 8% increase in regulatory oversight."
+}

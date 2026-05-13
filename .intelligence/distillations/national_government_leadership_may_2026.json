@@ -1,0 +1,79 @@
+{
+  "source": "intelligence/national-government.md",
+  "date_extracted": "2026-05-12",
+  "departments": [
+    {
+      "name": "Department of Justice and Constitutional Development (DoJ&CD)",
+      "leadership": [
+        {"name": "Mmamoloko Tryphosa Kubayi", "role": "Minister of Justice and Constitutional Development", "pep_tier": 1},
+        {"name": "Andries Carl Nel", "role": "Deputy Minister of Justice and Constitutional Development", "pep_tier": 1},
+        {"name": "Doctor Mashabane", "role": "Director General (Suspended)", "pep_tier": 1}
+      ]
+    },
+    {
+      "name": "National Prosecuting Authority (NPA)",
+      "leadership": [
+        {"name": "Shamila Batohi", "role": "National Director of Public Prosecutions", "pep_tier": 1},
+        {"name": "Anton du Plessis", "role": "Deputy National Director of Public Prosecutions (Strategy, Operations and Compliance)", "pep_tier": 1},
+        {"name": "Sibongile Mzinyathi", "role": "Acting Deputy National Director of Public Prosecutions (National Prosecutions Service)", "pep_tier": 1},
+        {"name": "Ouma Rabaji-Rasethaba", "role": "Deputy National Director of Public Prosecutions (Asset Forfeiture Unit [AFU])", "pep_tier": 1}
+      ]
+    },
+    {
+      "name": "Department of Police (SAPS)",
+      "leadership": [
+        {"name": "Edward Senzo Mchunu", "role": "Minister of Police (On leave of absence)", "pep_tier": 1},
+        {"name": "Firoz Cachalia", "role": "Acting Minister of Police", "pep_tier": 1},
+        {"name": "Shela Polly Boshielo", "role": "Deputy Minister of Police", "pep_tier": 1},
+        {"name": "Cassel Charlie Mathale", "role": "Deputy Minister of Police", "pep_tier": 1},
+        {"name": "Puleng Patricia Dimpane", "role": "Acting National Commissioner", "pep_tier": 1},
+        {"name": "SF Masemola", "role": "National Commissioner (Suspended)", "pep_tier": 1},
+        {"name": "Seswantsho Godfrey Lebeya", "role": "National Head: Directorate for Priority Crime Investigations (Hawks)", "pep_tier": 1}
+      ]
+    },
+    {
+      "name": "State Security Agency (SSA)",
+      "leadership": [
+        {"name": "Khumbudzo Phophi Silence Ntshavheni", "role": "Minister in The Presidency", "pep_tier": 1},
+        {"name": "Nozuko Bam", "role": "Acting Director General", "pep_tier": 1}
+      ]
+    },
+    {
+      "name": "Independent Police Investigative Directorate (IPID)",
+      "leadership": [
+        {"name": "Dikeledi Jennifer Ntlatseng", "role": "Executive Director", "pep_tier": 1}
+      ]
+    },
+    {
+      "name": "Special Investigating Unit (SIU)",
+      "leadership": [
+        {"name": "Andy JL Mothibi", "role": "Head of Unit / CEO", "pep_tier": 1}
+      ]
+    },
+    {
+      "name": "Department of Defence (DoD)",
+      "leadership": [
+        {"name": "Matsie Angelina Motshekga", "role": "Minister of Defence and Military Veterans", "pep_tier": 1},
+        {"name": "Bantubonke Harrington Holomisa", "role": "Deputy Minister of Defence", "pep_tier": 1},
+        {"name": "Thobekile Gamede", "role": "Acting Director General / Secretary for Defence", "pep_tier": 1},
+        {"name": "Rudzani Maphwanya", "role": "General, Chief of SANDF", "pep_tier": 1}
+      ]
+    },
+    {
+      "name": "Department of Correctional Services (DCS)",
+      "leadership": [
+        {"name": "Petrus Johannes Groenewald", "role": "Minister of Correctional Services", "pep_tier": 1},
+        {"name": "Leonah Lindiwe Ntshalintshali", "role": "Deputy Minister of Correctional Services", "pep_tier": 1},
+        {"name": "Makgothi Samuel Thobakgale", "role": "National Commissioner", "pep_tier": 1}
+      ]
+    },
+    {
+      "name": "Judiciary (High Courts)",
+      "leadership": [
+        {"name": "Mandisa Muriel Lindelwa Maya", "role": "Chief Justice", "pep_tier": 1},
+        {"name": "Mbuyiseli Madlanga", "role": "Acting Deputy Chief Justice", "pep_tier": 1},
+        {"name": "MB Molemela", "role": "President Supreme Court of Appeal", "pep_tier": 1}
+      ]
+    }
+  ]
+}

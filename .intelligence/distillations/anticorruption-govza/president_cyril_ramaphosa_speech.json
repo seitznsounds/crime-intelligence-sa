@@ -1,0 +1,41 @@
+{
+  "source": "intelligence/anticorruption-govza/President Cyril Ramaphosa.pdf",
+  "date_analyzed": "2026-05-12",
+  "document_date": "2023-11-08",
+  "summary": "Keynote address at the National Dialogue on Anti-Corruption outlining progress on Zondo Commission recommendations.",
+  "legislative_reforms": [
+    {
+      "name": "NPA Amendment Bill",
+      "purpose": "Permanent Investigating Directorate for Corruption within the NPA."
+    },
+    {
+      "name": "Public Procurement Bill",
+      "purpose": "Integrity and transparency in government spending."
+    },
+    {
+      "name": "Protected Disclosures Act Reform",
+      "purpose": "Enhanced whistleblower protection."
+    },
+    {
+      "name": "Witness Protection Act Reform",
+      "purpose": "Enhanced safety for witnesses in corruption cases."
+    }
+  ],
+  "institutional_targets": [
+    "Independent public procurement anti-corruption agency",
+    "Permanent commission on corruption and state capture"
+  ],
+  "impact_metrics": {
+    "court_cases": 9,
+    "individuals_charged": 47,
+    "companies_charged": 21,
+    "freezing_orders_value_zar": "14 Billion",
+    "recovered_funds_zar": "5.4 Billion",
+    "unpaid_taxes_collected_sars_zar": "4.9 Billion"
+  },
+  "key_entities": [
+    {"name": "Prof Somadoda Fikeni", "role": "Programme Director"},
+    {"name": "Chief Justice Raymond Zondo", "role": "Chief Justice"},
+    {"name": "Prof Firoz Cachalia", "role": "Chairperson of NACAC"}
+  ]
+}

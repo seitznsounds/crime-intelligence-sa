@@ -19,7 +19,7 @@ import {
 import { ReformTicker } from './ReformTicker';
 import { GhostVendorTracker } from './GhostVendorTracker';
 import { SCMHeatmap } from './SCMHeatmap';
-import { OPITransitionTracker } from './OPITransitionTracker';
+import OPITransitionTracker from './OPITransitionTracker';
 import { MunicipalSCMTracker } from './MunicipalSCMTracker';
 import { AssetRecoveryTracker } from './AssetRecoveryTracker';
 import { ReformFeed } from './ReformFeed';

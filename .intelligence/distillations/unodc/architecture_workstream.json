@@ -1,0 +1,30 @@
+{
+  "source": "intelligence/unodc/Architecture Workstream.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "NACA proposal for the institutional architecture of South Africa's anti-corruption framework, emphasizing independence and specialized agencies.",
+  "gaps_identified": [
+    "Prevention and policy advice",
+    "Lifestyle audits and disclosure management",
+    "M&E of NACS implementation",
+    "Dysfunction in SAPS Crime Intelligence and IPID"
+  ],
+  "proposed_agency_naca": {
+    "functions": [
+      "Policy advice",
+      "Public advocacy and education",
+      "Managing lifestyle audits",
+      "Investigating systemic corruption"
+    ],
+    "status": "Proposed Chapter 9 Institutional status for constitutional protection"
+  },
+  "structural_reforms": {
+    "investigation": "NPA/ID to lead serious corruption investigations (Prosecutor-led model)",
+    "organized_crime": "Hawks/SAPS to retain serious commercial and organized crime focus",
+    "new_bodies": [
+      "Permanent Commission of Enquiry",
+      "Anti-Corruption Procurement Agency",
+      "Whistleblower Support Agency"
+    ]
+  },
+  "critical_vulnerability": "Acknowledged dysfunction of SAPS Crime Intelligence and IPID as a barrier to existing architecture strength."
+}

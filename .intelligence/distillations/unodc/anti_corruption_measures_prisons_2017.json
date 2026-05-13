@@ -1,0 +1,29 @@
+{
+  "source": "intelligence/unodc/UNODC_2017_Handbook_on_Anti-Corruption_Measures_in_Prisons.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "UNODC handbook addressing the systemic risks and manifestations of corruption in prison settings, emphasizing the need for integrity, accountability, and oversight.",
+  "corruption_manifestations": [
+    "Trafficking of contraband (mobile phones, drugs, weapons) via staff bribery.",
+    "Embezzlement of funds for security, infrastructure, and basic necessities.",
+    "Selling of privileges, better conditions, or early release/parole outcomes.",
+    "Nepotism and patronage in staff recruitment and promotions.",
+    "Sexual extortion ('sex for privileges') in women's facilities."
+  ],
+  "pathologies_identified": {
+    "closed_environment": "Isolation from public scrutiny allows corruption to take root without detection.",
+    "staff_prisoner_asymmetry": "Prisoners' total dependence on staff for basics creates an environment prone to extortion.",
+    "esprit_de_corps": "A culture of silence among staff that prioritizes peer loyalty over reporting misconduct.",
+    "dynamic_security_perversion": "Positive staff-prisoner relations, meant for safety, being manipulated by organized crime figures to corrupt guards."
+  },
+  "benchmarks_and_standards": [
+    "The Nelson Mandela Rules (United Nations Standard Minimum Rules for the Treatment of Prisoners) 2015.",
+    "The United Nations Convention against Corruption (UNCAC).",
+    "Establishment of independent internal and external inspection bodies (Rule 83 of Mandela Rules)."
+  ],
+  "institutional_recommendations": [
+    "Comprehensive vetting and adequate remuneration for prison staff.",
+    "Implementation of clear Codes of Conduct and regular integrity training.",
+    "Protection for reporting persons (whistleblowers) within the prison service.",
+    "Moving beyond the 'bad apple' theory to address systemic corruption vulnerabilities."
+  ]
+}

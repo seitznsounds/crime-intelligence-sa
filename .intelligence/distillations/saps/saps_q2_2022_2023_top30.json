@@ -1,0 +1,278 @@
+{
+  "source": "intelligence/saps/crime-stats/2022-2023-Q2-crime-stats.xlsx",
+  "period": "Q2 2022-2023",
+  "date_analyzed": "2026-05-12",
+  "category": "17 Community reported serious Crime",
+  "top_30_stations": [
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": null,
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": "Above Limit",
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": "Within Limit",
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": "Below Limit",
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": null,
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": null,
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": null,
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": "Top 30 Stations ",
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": "Robbery at non-residential premises",
+      "q2_2022_count": null,
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": "July to September 2022",
+      "q2_2022_count": "Robbery at non-residential premises",
+      "count_diff": null,
+      "percent_change": null
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": null,
+      "province": 8,
+      "q2_2022_count": 29,
+      "count_diff": 30,
+      "percent_change": 128
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": "Position",
+      "province": "Station",
+      "q2_2022_count": "July to September 2021",
+      "count_diff": "July to September 2022",
+      "percent_change": "Count Diff"
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 1,
+      "province": "JHB CENTRAL",
+      "q2_2022_count": 53,
+      "count_diff": 64,
+      "percent_change": 11
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 2,
+      "province": "THOHOYANDOU",
+      "q2_2022_count": 21,
+      "count_diff": 54,
+      "percent_change": 33
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 3,
+      "province": "EAST LONDON",
+      "q2_2022_count": 41,
+      "count_diff": 48,
+      "percent_change": 7
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 4,
+      "province": "PIETERMARITZBURG",
+      "q2_2022_count": 28,
+      "count_diff": 43,
+      "percent_change": 15
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 5,
+      "province": "DURBAN CENTRAL",
+      "q2_2022_count": 41,
+      "count_diff": 42,
+      "percent_change": 1
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 6,
+      "province": "WITBANK",
+      "q2_2022_count": 29,
+      "count_diff": 41,
+      "percent_change": 12
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 7,
+      "province": "MADEIRA",
+      "q2_2022_count": 44,
+      "count_diff": 39,
+      "percent_change": -5
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 8,
+      "province": "BRAKPAN",
+      "q2_2022_count": 10,
+      "count_diff": 38,
+      "percent_change": 28
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 9,
+      "province": "LUSIKISIKI",
+      "q2_2022_count": 17,
+      "count_diff": 36,
+      "percent_change": 19
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 10,
+      "province": "KEMPTON PARK",
+      "q2_2022_count": 34,
+      "count_diff": 35,
+      "percent_change": 1
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 11,
+      "province": "RUSTENBURG",
+      "q2_2022_count": 50,
+      "count_diff": 33,
+      "percent_change": -17
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 12,
+      "province": "JEPPE",
+      "q2_2022_count": 27,
+      "count_diff": 33,
+      "percent_change": 6
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 13,
+      "province": "SPRINGS",
+      "q2_2022_count": 16,
+      "count_diff": 32,
+      "percent_change": 16
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 14,
+      "province": "PINETOWN",
+      "q2_2022_count": 31,
+      "count_diff": 29,
+      "percent_change": -2
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 15,
+      "province": "KLERKSDORP",
+      "q2_2022_count": 12,
+      "count_diff": 28,
+      "percent_change": 16
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 16,
+      "province": "GERMISTON",
+      "q2_2022_count": 25,
+      "count_diff": 27,
+      "percent_change": 2
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 17,
+      "province": "EMPANGENI",
+      "q2_2022_count": 11,
+      "count_diff": 26,
+      "percent_change": 15
+    },
+    {
+      "rsa_position": null,
+      "station": null,
+      "district": 18,
+      "province": "BOKSBURG NORTH",
+      "q2_2022_count": 23,
+      "count_diff": 25,
+      "percent_change": 2
+    }
+  ]
+}

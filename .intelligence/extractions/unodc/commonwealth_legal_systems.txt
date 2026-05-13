@@ -1,0 +1,705 @@
+--- Page 1 ---
+Common Law Legal Systems
+Model Legislative Provisions
+on Money Laundering, Terrorism
+Financing, Preventive Measures
+Corruption undermines the rule of law, good governance,
+and Proceeds of Crime
+and sustainable growth and development. Most countries
+have prohibited all forms of corruption, yet corruption
+persists due largely to a lack of appropriate strategies Commonwealth Secretariat
+and structures to inhibit it. Such strategies include effective
+and comprehensive legal frameworks to prevent, punish
+and take the profit out of corruption.
+Common Law Legal Systems Model Legislative Provisions
+aims to enable Commonwealth countries to evaluate
+measures that can be incorporated into domestic law to
+prevent, detect, and effectively sanction money laundering
+and terrorism financing and to recover the proceeds
+of crime.
+MODEL
+LEGISLATIVE
+PROVISIONS
+ON
+MONEY
+LAUNDERING,
+TERRORISM
+FINANCING,
+PREVENTIVE
+MEASURES
+AND
+PROCEEDS
+OF
+CRIME
+ISBN 978-1-84929-150-7
+9 781849 291507
+P14666_ROL_AMLFCT_Publication_Cover_S_Haruna.indd All Pages 18/08/2016 17:20:57
+
+--- Page 2 ---
+Common Law Legal
+Systems Model
+Legislative Provisions on
+Money Laundering,
+Terrorism Financing,
+Preventive Measures and
+Proceeds of Crime
+Commonwealth Secretariat
+
+--- Page 3 ---
+Commonwealth Secretariat
+Marlborough House
+Pall Mall
+London SW1Y 5HX
+United Kingdom
+© Commonwealth Secretariat 2016
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or
+transmitted in any form or by any means, electronic or mechanical, including photocopying, recording or
+otherwise without the permission of the publisher.
+Published by the Commonwealth Secretariat
+Edited by Prepress Projects Ltd
+Typeset by Nova Techset Private Limited, Bengaluru & Chennai, India
+Printed by Hobbs the Printers, Totton, Hampshire
+The views expressed in this document do not necessarily reflect the opinion or policy of the
+Commonwealth Secretariat or partner organisations.
+Wherever possible, the Commonwealth Secretariat uses paper sourced from responsible forests or from
+sources that minimise a destructive impact on the environment.
+Copies of this publication may be obtained from
+Publications Section
+Commonwealth Secretariat
+Marlborough House
+Pall Mall
+London SW1Y 5HX
+United Kingdom
+Tel: +44 (0)20 7747 6534
+Email: publications@commonwealth.int
+Web: www.thecommonwealth.org/publications
+A catalogue record for this publication is available from the British Library.
+ISBN (paperback): 978-1-84929-150-7
+ISBN (e-book): 978-1-84859-944-4
+
+--- Page 4 ---
+iii
+Preface
+These model legislative provisions relating to money laundering, terrorism financing,
+proceeds of crime, civil forfeiture and sanctions are the outcome of a collaboration
+between the Commonwealth Secretariat, the International Monetary Fund (IMF)
+and the United Nations Office on Drugs and Crime (UNODC).
+The model provisions form a starting point for states to evaluate the measures that
+should be incorporated into their domestic law to prevent, detect and effectively
+sanction money laundering and terrorism financing and to recover the proceeds of
+crime, with the overall objective of maintaining compliance with the revised Financial
+Action Task Force (FATF) Recommendations.
+Using the model legislative provisions
+The model legislative provisions aim to assist states in reviewing or updating their
+legislative framework so that it conforms with international standards. The model
+provisions revise and update the Common Law Model Provisions Joint Project of
+the IMF, UNODC and the Commonwealth Secretariat of April 2009 and are based
+upon the relevant international instruments concerning money laundering and
+terrorism financing, including confiscation and forfeiture, as set out in the FATF 40
+Recommendations of 2012 and FATF Best Practices.
+The model legislative provisions now include at Part XI legislative provisions for
+implementing United Nations (UN) financial sanctions under the Al-Qaida and 1988
+sanctions regimes. It should be borne in mind that there are also United Nations
+Security Council Resolutions (UNSCRs) related to the prevention, suppression and
+disruption of proliferation of weapons of mass destruction and its financing which,
+under FATF Recommendation 7, require implementation in the same manner.
+Jurisdictions considering these legislative provisions should take care to adapt
+the underlying concepts and specific language to accord with constitutional and
+fundamental legal principles in their systems and to ensure that the provisions are
+compatible with other legal concepts and existing legislation. These provisions can
+be supplemented with additional measures that jurisdictions consider are suited to
+recovering the proceeds of crime, money laundering and terrorism financing in the
+national context.
+The various parts of the model legislative provisions are intended to be free-standing
+modular units, although there is a degree of interdependence. Taken together they
+present a comprehensive legal framework. Definitions appear at the beginning of
+each part. If only selected parts are used, adjustments to definitions may be necessary.
+
+--- Page 5 ---
+iv Common Law Legal Systems Model Legislative Provisions on Money Laundering
+The model legislative provisions provide for the criminalisation of money laundering
+and terrorism financing and related offences, for the recovery of proceeds and
+instrumentalities of crime, for preventive and investigative measures, for the
+establishment of a financial intelligence unit (FIU), for the detection of cross-border
+transportation of cash and bearer negotiable instruments, for the implementation
+of international obligations in relation to financial sanctions, and for ancillary
+purposes. The model legislative provisions also set out two separate mechanisms for
+depriving criminals of the proceeds and instrumentalities of crime: first, through
+confiscation following a criminal conviction; and, second, through non-conviction-
+based measures pursuant to civil process, also referred to as civil forfeiture.
+However, the scope of these model legislative provisions does not extend to the
+following FATF 40 Recommendations:
+(i) FATF Recommendation 6 pertaining to the requirements under UNSCR
+1373 and successor resolutions to apply targeted financial sanctions related to
+terrorism and terrorism financing;
+(ii) FATF Recommendation 7 pertaining to targeted financial sanctions related to
+proliferation of weapons of mass destruction;
+(iii) FATF Recommendations 24 and 25 on transparency of legal persons and legal
+arrangements;
+(iv) FATF Recommendation 8 relating to non-profit organisations;
+(v) FATF Recommendation 14 pertaining to money and value transfer services; and
+(vi) a comprehensive framework for mutual legal assistance and extradition as
+required under FATF Recommendations 36–40.
+Included, as an annex, is a suggested constitution for an FIU.
+These model legislative provisions also include several features to assist drafters to
+understand the concepts and to assist in their consideration of the various alternatives:
+• ‘Drafting notes’ provide explanations of selected provisions and suggest
+background, context, good practice and variations.
+• Some provisions present ‘variants’ and ‘optional language’. A ‘variant’ provides
+two approaches for authorities to consider. Authorities should adopt one or the
+other, or their own separate approach. ‘Optional language’ is italicised and sets
+forth an addition that may be included or not.
+• Time periods for orders and other matters, whether days, months or years, appear
+in brackets. The bracketed number is a suggestion. Each jurisdiction will have
+its own time period norms, which should be incorporated into these model
+provisions.
+• A number of measures require the setting of thresholds above which supervisory
+and enforcement measures preventing currency and/or cash misuse ought to
+apply. These are referred to in the provisions as ‘the designated amount’. Setting the
+
+--- Page 6 ---
+Preface v
+correct threshold level is critical and individual to each jurisdiction; it necessarily
+depends on cultural behaviour, commercial practices and an assessment of risk.
+Where values are given, they are for the purposes of practical example only,
+leaving a margin of discretion for the drafter. It is strongly recommended that
+states take note of the current relevant FATF Recommendation when setting the
+right threshold.
+Experts, including participants from the Commonwealth Secretariat, the IMF and the
+UNODC, met in London between 2013 and 2015 and updated the model legislative
+provisions. While considerable effort was made to avoid inconsistencies and drafting
+errors, a review of the model legislative provisions by drafting authorities as well as
+the comparisons that are likely to take place with existing legislation and experience
+gained through actual use of these or similar provisions are all likely to lead to
+suggestions for further adjustments and change. Comments and suggestions and an
+active participation by users of the model legislative provisions are welcome in this
+endeavour, and should be directed to:
+Commonwealth Secretariat info@commonwealth.int
+International Monetary Fund amlcft@imf.org
+United Nations Office on Drugs and Crime gpml@unodc.org
+
+--- Page 7 ---
+vi
+Acknowledgements
+The Common Law Legal Systems Model Legislative Provisions on Money Laundering,
+Terrorism Financing, Preventive Measures and Proceeds of Crime is a product of a
+collaboration between the Commonwealth Secretariat, the United Nations Office
+on Drugs and Crime (UNODC) and the International Monetary Fund (IMF). These
+model provisions were first developed by a group of experts drawn from these
+organisations in April 2009. Since that time, the Financial Action Task Force’s (FATF)
+40 Recommendations have been revised, guidance notes for a risk-based approach
+to virtual currencies have been published by FATF, and jurisprudence on money
+laundering, terrorism financing, proceeds of crime and civil forfeiture has evolved.
+These developments necessitated the establishment of a Commonwealth Revision
+Working Group of the partners, who, in 2012 with the assistance of some individual
+and government experts and under the Chairmanship of Andrew Mitchell QC,
+undertook a comprehensive review of the model provisions.
+This publication is the revised and updated version of the 2009 edition.
+The Secretariat wishes to acknowledge with profound gratitude the efforts of all
+those who have contributed to the development and the subsequent revision of the
+model provisions, with particular reference to UNODC, whose unflinching supports
+and guidance led to the 2009 publication and this revised edition; the IMF, whose
+invaluable and painstaking scrutiny helped to develop both the original and revised
+versions; and the staff of the Secretariat’s Rule of Law Division (formerly the Legal
+and Constitutional Affairs Division), for their technical expertise and organisational
+ability in superintending and directing the affairs of the working groups that saw to
+the development of the original and revised versions.
+This acknowledgement would be incomplete without the specific mention of Andrew
+Mitchell QC, who chaired the working group that revised the model provisions; Jeff
+Simser, Legal Director at the Ministry of the Attorney General, Canada, who was a
+member of the original team that drafted the 2009 version and also of the Revision
+Working Group; Lorna Harris, who, as a representative of the United Kingdom
+Home Office, participated as an expert in the first edition, and, as a consultant to
+the IMF, in the Revision Working Group; Michiel van Dyk, Anti-Money Laundering
+Advisor, the Global Programme against Money Laundering, Proceeds of Crime
+and the Financing of Terrorism (GPML), UNODC, who participated as an expert
+and as the representative of the UNODC for both the first edition and the Revision
+Working Group; Richard Chinner, Legal Advisor in the Assets Forfeiture Unit of the
+National Prosecuting Authority of South Africa; and the following individual experts:
+Mr Faisal Osman, Barrister and counsel in the Chambers of Andrew Mitchell QC;
+
+--- Page 8 ---
+Acknowledgements vii
+Mr Fitzroy Drayton, Advisor, Asset Recovery Inter-Agency Network for Southern
+Africa (ARINSA); and Philip Divett, UNODC, whose contributions enriched these
+revised provisions.
+Final acknowledgement goes to the staff of the Justice Section of the Rule of Law
+Division: Mr Shadrach Haruna, Legal Adviser, and Ms Torwoli Dzuali and Mr Luke
+Bowyer, both Legal Assistants, who, as experts and representatives of the Secretariat
+in the working group, worked tirelessly in coordinating different strands of the work
+to produce this revised edition.
+Katalaina SAPOLU
+Director Rule of Law Division
+Commonwealth Secretariat
+
+--- Page 9 ---
+viii
+Contents
+Preface iii
+Acknowledgements vi
+List of abbreviations xii
+Part I: Preliminary 1
+Section 1 Extent, Commencement, Application and Interpretation 1
+Section 2 National Cooperative Body 2
+Part II: Preventive Measures 3
+Section 3 Definitions 3
+Section 4 Risk Assessment 12
+Section 5 Customer Due Diligence Requirements 13
+Section 6 Reliance on Identification by Third Parties 19
+Section 7 Politically Exposed Persons 20
+Section 8 Identification and Account Opening for Cross-border Correspondent
+Relationships 21
+Section 9 Inability to Fulfil Customer Identification Obligations 22
+Section 10 Record-keeping 22
+Section 11 Internal Controls to Combat Money Laundering and Terrorism Financing 23
+Section 12 On-going Due Diligence 24
+Section 13 Enhanced Customer Due Diligence 25
+Section 14 Obligations Regarding Wire Transfers 25
+Section 15 Compliance with Obligations by Foreign Subsidiaries and Branches 27
+Section 16 Prohibition against Shell Banks 27
+Section 17 Obligation to Report Suspicious Transactions 28
+Section 18 Obligation to Report Currency Transactions 31
+Section 19 Inapplicability of Confidentiality Provisions 31
+Section 20 Prohibition against Tipping-off 31
+Section 21 Protection of Identity of Persons and Information Relating to Suspicious
+Transaction Reports 32
+Section 22 Exemption from Liability for Good Faith Reporting of Suspicious Transactions 32
+Section 23 Authorities Responsible for Supervision 32
+Section 24 Administrative Sanctions 34
+Section 25 Failure to Comply with Identification Requirements 35
+Section 26 Failure to Fulfil Due Diligence Obligations or Maintain Internal Controls 36
+Section 27 Failure in Regard to Suspicious Transaction or Other Reporting 36
+Section 28 False or Misleading Statements 36
+
+--- Page 10 ---
+Contents ix
+Section 29 Confidentiality Violation 37
+Section 30 Other Sanctions 37
+Part III: Financial Intelligence Unit 38
+Section 31 Establishment and Structure 38
+Section 32 Obligation Regarding Confidentiality and Use of Information 39
+Section 33 Action Regarding Reports and Other Information Received 40
+Section 34 Access to Information and Analysis Function 40
+Section 35 Cooperation with Foreign Counterpart Agencies 41
+Part IV: Money Laundering and Terrorism Financing Offences 43
+Section 36 Money Laundering Offences 43
+Section 37 Terrorism Financing Offences 50
+Part V: Conviction-based Confiscation, Benefit Recovery and Extended
+Benefit Recovery Orders 55
+Section 38 Application of Part and Definitions 56
+Section 39 Application for Restraint Order 64
+Section 40 The Restraint Order 67
+Section 41 Restraint Orders and International Requests 71
+Section 42 Notice of Restraint Order 72
+Section 43 Further Orders 73
+Section 44 Exclusion of Property from Restraint 75
+Section 45 Contravention of Restraint Order 77
+Section 46 Seizure Order 77
+Section 47 Protection of the Appointed Person 78
+Section 48 Duration of Restraint Order 79
+Section 49 Application for Confiscation Order or Benefit Recovery
+[option: or Extended Benefit Recovery] Order 79
+Section 50 Application for Confiscation Order or Benefit Recovery Order
+in the Case of Absconding or Death 81
+Section 51 Service of Application and Appearances 82
+Section 52 Procedure on Application 83
+Section 53 Confiscation Order on Conviction 84
+Section 54 Enforcement of Confiscation Order Abroad 84
+Section 55 Effect of Confiscation Order 85
+Section 56 Exclusion of Property from a Confiscation Order 86
+Section 57 Benefit Recovery Order on Conviction 87
+Section 58 Rules for Determining the Value of Benefit 89
+Section 59 Option: Extended Benefit Recovery Orders 90
+Section 60 Amount Recovered under Benefit Recovery [option: and Extended
+Benefit Recovery] Orders 95
+Section 61 Satisfaction and Discharge of Orders 98
+Section 62 Appeals 98
+Section 63 Realisation of Property 99
+Section 64 Application of Monetary Sums 99
+Section 65 Compensation Order 100
+
+--- Page 11 ---
+x Common Law Legal Systems Model Legislative Provisions on Money Laundering
+Part VI: Civil Forfeiture 102
+Section 66 Definitions 102
+Section 67 Civil Forfeiture Order 104
+Section 68 Property Freezing Order 110
+Section 69 Further Provisions in Relation to Property Freezing Orders 112
+Section 70 Property Seizure Order 117
+Section 71 Applications for and Granting of a Civil Forfeiture Order 118
+Section 72 Orders Regarding Legitimate Owners 121
+Section 73 Fugitive Claims 121
+Section 74 Appeals 122
+Section 75 Realisation of Forfeited Property 122
+Section 76 Compensation and Protection of the Trustee 124
+Section 77 Obtaining Information from Foreign Authorities 125
+Section 78 Disclosure of Information 126
+Part VII: Investigative Orders 128
+Section 79 Customer Information Orders 129
+Section 80 Production Order 131
+Section 81 Failure to Comply with a Production Order 133
+Section 82 Power to Search for and Seize Property 133
+Section 83 Monitoring Orders 134
+Section 84 Customer Information Orders 137
+Section 85 Production Orders 140
+Section 86 Failure to Comply with a Production Order 142
+Section 87 Power to Search for and Seize Property 142
+Section 88 Disclosure Orders 144
+Part VIII: Cross-border Transportation of Currency and Bearer Negotiable
+Instruments 146
+Section 89 Obligation to [Declare/Disclose] Cross-border Transportation
+of Currency and Bearer Negotiable Instruments 146
+Section 90 Detention and Forfeiture of Currency and Other Bearer Negotiable
+Instruments 147
+Part IX: Cash Forfeiture 150
+Section 91 General Purpose of Cash Forfeiture under this Part 151
+Section 92 ‘Unlawful Conduct’ 151
+Section 93 ‘Property Obtained through Unlawful Conduct’ 152
+Section 94 Searches 152
+Section 95 Prior Approval 153
+Section 96 Seizure of Cash 154
+Section 97 Detention of Seized Cash 155
+Section 98 Interest 156
+Section 99 Release of Detained Cash 157
+Section 100 Forfeiture 157
+Section 101 Appeal against Forfeiture 158
+Section 102 Application of Forfeited Cash 158
+Section 103 Victims and Other Owners 159
+
+--- Page 12 ---
+Contents xi
+Section 104 Compensation 160
+Section 105 ‘The Minimum Amount’ 161
+Part X: Unexplained Wealth Orders 162
+Section 106 Making an Order Requiring a Person to Appear 162
+Section 107 Application to Revoke a Preliminary Unexplained Wealth Order 163
+Section 108 Unexplained Wealth Order 164
+Section 109 Property Subject to a Person’s Effective Control 165
+Section 110 Enforcement of an Unexplained Wealth Order 165
+Section 111 Procedure and Appeal 165
+Part XI: Asset Management 167
+Section 112 Application for a Property Manager 168
+Section 113 Powers of a Property Manager 168
+Section 114 Property Manager Costs and Expenditure 168
+Section 115 Duties of a Property Manager 170
+Section 116 Property Manager Liability 170
+Part XII: Recovered Assets Fund 171
+Section 117 Establishment of Fund 171
+Section 118 Receipts and Disbursements 171
+Section 119 Annual Report and Audit 172
+Part XIII: Sanctions 173
+Section 120 Definitions 175
+Section 121 Establishment of the Competent Authority 179
+Section 122 Powers and Functions of the Competent Authority 179
+Section 123 Dissemination of the United Nations Sanctions List 179
+Section 124 Listing Proposals 179
+Section 125 Notification of Listing 182
+Section 126 Freezing of the Assets of Listed Parties 182
+Section 127 Assets Freeze Exemptions 183
+Section 128 Exemptions Request to the Al-Qaida Sanctions Committee 184
+Section 129 Additions to Frozen Accounts 185
+Section 130 Mistaken Identity 185
+Section 131 Appointment of Administrator 186
+Section 132 State-sponsored Delisting 187
+Section 133 Non-state-sponsored Delisting 187
+Section 134 Delisting Requests for Dead Individuals and Defunct Entities 187
+Section 135 Notice of Delisting 188
+Section 136 Unfreezing of Frozen Assets 189
+Section 137 Exchange of Information 190
+Section 138 Supervision 190
+Section 139 Record-keeping 191
+Section 140 Confidentiality 191
+Section 141 Immunity 191
+Annex I: Criminal Assets Recovery Committee 192
+Annex II: Model Decree on the Financial Intelligence Unit 194
+
+--- Page 13 ---
+xii
+List of abbreviations
+AML/CFT anti-money laundering and countering financing of terrorism
+CDD customer due diligence
+DNFBP designated non-financial business or profession
+EOT Assets Freeze Explanation of Terms Paper
+FATF Financial Action Task Force
+FIU financial intelligence unit
+IMF International Monetary Fund
+PEP politically exposed person
+SRB self-regulated body
+TCSP trust and company service provider
+UN United Nations
+UNODC United Nations Office on Drugs and Crime
+UNSC United Nations Security Council
+UNSCR United Nations Security Council Resolution
+
+--- Page 14 ---
+1
+Part I
+Preliminary
+An Act to Criminalise Money Laundering and Terrorism
+Financing, to Establish Preventive Measures to Combat Money
+Laundering and Terrorism Financing, and to Recover the
+Proceeds of Crime, Instrumentalities and Terrorist Property
+ENACTED by the [insert method/name] of [insert name of state]
+Drafting note: This title will have to be amended if only selected parts of these
+model legislative provisions are used, so that the title reflects the actual content.
+Section 1 Extent, Commencement, Application and
+Interpretation
+This Act makes provision for the criminalisation of money laundering and terrorism
+financing and related offences, for the recovery of proceeds and instrumentalities
+of crime, for preventive and investigative measures, for the establishment of the
+Financial Intelligence Unit (FIU), for the detection of cross-border transportation
+of cash and bearer negotiable instruments, for the implementation of international
+obligations in relation to financial sanctions, and for ancillary purposes. This Act
+shall extend throughout [insert name of jurisdiction].
+This Act shall come into force on [insert date of enforcement].
+(1) This Act applies notwithstanding any other law.
+(2) In this Act, definitions provided for in any Part shall apply to the whole Act
+notwithstanding that the definition is within a particular Part.
+(3) In this Act the word ‘includes’ is a term of specification and not of limitation;
+any reference to the singular includes the plural and any reference to the plural
+includes the singular, and any reference to either gender includes a reference to
+the other.
+Drafting note: This provision eliminates the need to set out certain definitions
+multiple times. Should drafters opt to leave out one or more parts of the model
+legislative provisions, they must ensure that any definitions within those parts
+are brought forward into Section 1 unless such definitions are relevant only to
+the deleted part.
+
+--- Page 15 ---
+2 Common Law Legal Systems Model Legislative Provisions on Money Laundering
+Section 2 National Cooperative Body
+(1) A National Cooperative Body for Combating Money Laundering and Terrorism
+Financing shall be established, and shall comprise the following members:
+(a) a representative of the [insert relevant authority]
+(b) a representative of the [insert relevant authority]
+(c) …
+(d) …
+(2) The National Cooperative Body established under this Section shall have the
+following functions:
+(a) to coordinate measures to identify, assess and understand the national money
+laundering and terrorism financing risks;
+(b) to coordinate the development, regular review and implementation of
+national policies and activities to combat money laundering, terrorism
+financing and the financing of proliferation of weapons of mass destruction;
+(c) to collect and analyse statistics and other information from competent
+authorities to assess the effectiveness of the national anti-money laundering
+and countering financing of terrorism (AML/CFT) system;
+(d) …
+(3) The National Cooperative Body shall issue regulations to set up its internal
+structure and work procedures.
+Drafting note: Under the revised FATF standard, jurisdictions are required
+to have a designated authority or other coordination mechanism responsible
+for coordinating the development and implementation of national policies
+and activities on AML/CFT and for combating the financing of proliferation
+of weapons of mass destruction (FATF Recommendation 2); and to designate
+an authority or mechanisms to coordinate the national money laundering and
+terrorism financing risk assessment (FATF Recommendation 1). Both recom-
+mendations suggest that the designation of a competent authority as reflected
+in this section is one possible avenue for jurisdictions to comply with the rel-
+evant requirements.
+The language under Section 2 may be set out in primary law, as suggested in
+this model legislative provision, or in a regulation or administrative decision. In
+any case, the cooperative body should comprise representatives of all relevant
+authorities, including prosecution, law enforcement, all supervisory authorities,
+customs, judiciary and, where useful, other authorities such as the Ministry of
+Finance, the Ministry of Justice, etc. The powers given to the cooperative body
+in Section 2(2) could be expanded to include tasks such as coordination of the
+country’s mutual evaluation or other tasks. Operational and procedural aspects
+of the cooperative body’s work may be addressed through regulation issued
+under Section 2(3).
+
+--- Page 16 ---
+3
+Part II
+Preventive Measures
+Drafting note: Part II sets out preventive measures to be applied by financial
+institutions and designated non-financial businesses and professions (DNFBPs)
+to combat money laundering and terrorism financing. There is reference in the
+text to ‘this Act’ as it is envisaged that Part II could be adopted as a separate
+act or together with other parts of the model legislative provisions. Drafting
+authorities should review the use of the term in the provisions.
+The FATF standard generally grants jurisdictions discretion in choosing the
+legal tool for introducing preventive measures – whether through primary or
+secondary legislation, or other enforceable means. Certain aspects of the FATF
+standards, however, must be set out in primary legislation, namely:
+(1) the principle of undertaking customer due diligence (CDD);
+(2) record-keeping requirements for transactions and CDD information; and
+(3) the obligation to promptly report suspicious transactions to the FIU.
+It is important to note that the provisions in this model legislation not only
+introduce the general obligations for financial institution/DNFBPs to apply due
+diligence, keep records and file suspicious transaction reports (STRs), but pre-
+scribe these obligations in great detail. Drafting authorities may thus choose to
+include some of these detailed provisions in secondary legislation, regulations
+or other enforceable instruments rather than to address them through primary
+legislation. This approach would provide for a greater level of flexibility should
+an amendment to the relevant requirements become necessary.
+Section 3 Definitions
+(1) The following definitions shall apply in this Part:
+Account means any facility or arrangement by which a financial institution or a
+DNFBP does any of the following:
+(a) accepts deposits of funds;
+(b) allows withdrawals or transfers of funds;
+(c) pays negotiable or transferable instruments or other orders, or collects
+negotiable or transferable instruments or payment orders on behalf of any
+other person; or
+(d) makes any facility or arrangement for a safety deposit box or for any other
+form of safe deposit.
+
+--- Page 17 ---
+4 Common Law Legal Systems Model Legislative Provisions on Money Laundering
+Accountable person means a financial institution or a DNFBP.
+Bearer negotiable instrument means any monetary instrument in bearer form, such
+as travellers’ cheques; negotiable instruments, including cheques, promissory notes
+and money orders, that are in bearer form, endorsed without restriction, made out to
+a fictitious payee or otherwise in such form that title thereto passes upon delivery; or
+incomplete instruments such as cheques, promissory notes and money orders, signed
+but with the payee’s name omitted.
+Beneficial owner means a natural person who ultimately owns or controls a customer
+and/or the natural person on whose behalf a transaction is being conducted, or any
+person who exercises effective control over a legal person or legal arrangement.
+Business relationship means an association between individuals and/or companies
+entered into for any commercial purpose.
+Correspondent relationship means the provision of banking, payment, cash
+management, international wire transfers, cheque clearing, payable through accounts,
+foreign exchange, securities transactions, funds transfer or similar services by one
+financial institution (the correspondent institution) to another financial institution
+(the respondent institution).
+Drafting note: Under the revised FATF standard the requirements for cor-
+respondent banking relationships were expanded to cover also ‘other, similar
+relationships’, for example those established for securities transactions or funds
+transfers. The definition should reflect this change.
+For further information on correspondent banking see The Wolfsberg Group –
+Wolfsberg Anti-Money Laundering Principles for Correspondent Banking 2014.
+Currency or money means coin and paper money of any jurisdiction that is
+designated as legal tender or is customarily used and accepted as a medium of
+exchange, including virtual currency as a means of payment.
+Drafting note: The definition of currency should be drafted to cover both
+domestic and foreign currency and should include a reference to virtual cur-
+rencies. During the process of updating the model legislative provisions,
+the FATF Guidance on Virtual Currencies was published. In brief, the FATF
+guidance adopts the approach that AML/CFT frameworks may indirectly
+apply to persons using virtual currencies for commercial purposes when they
+interact with the established finance system. The FATF guidance makes clear
+that persons and institutions that facilitate interaction or exchange between
+virtual currency and the established finance system should be subject to exist-
+ing AML/CFT regimes.
+
+--- Page 18 ---
+Preventive Measures 5
+Customer means any of the following:
+(a) the person for whom a transaction or account is arranged, opened or undertaken;
+(b) a signatory to a transaction or account;
+(c) any person to whom an account or rights or obligations under a transaction have
+been assigned or transferred;
+(d) any person who is authorised to conduct a transaction or control an account;
+(e) any person who attempts to take any of the actions referred to in (a) to (d)
+above; or
+(f) such other person as may be prescribed by regulation by the [minister/competent
+authority].
+DNFBPs means any of the following:
+(a) casinos, including internet casinos and ship-based casinos;
+(b) real estate agents;
+(c) dealers in precious metals and dealers in precious stones when they engage in
+any currency transaction equal to or above [designated amount];
+Drafting note: The FATF-designated threshold for dealers in precious metals
+and dealers in precious stones is EUR/US$5,000. Jurisdictions may, however,
+set a lower threshold if this is deemed necessary in the specific jurisdictional
+context to properly mitigate the risks of money laundering or terrorism financ-
+ing through these sectors.
+(d) lawyers, notaries, other legal professionals, and accountants when they prepare
+for, engage in, or carry out transactions for a client concerning any of the
+following activities:
+(i) buying and selling of real estate;
+(ii) managing of client funds or securities;
+(iii) management of bank, savings or securities accounts;
+(iv) organisation of contributions for the creation, operation or management of
+legal persons;
+(v) creation, operation or management of legal persons or legal arrangements,
+and buying and selling of business entities;
+Drafting note: Drafting authorities shall ensure that the definition under (d)
+is sufficiently comprehensive to include any regulated professionally-qualified
+individual undertaking transactional work.
+
+--- Page 19 ---
+6 Common Law Legal Systems Model Legislative Provisions on Money Laundering
+(e) trust and company service providers (TCSPs) not otherwise covered by this Act
+which, as a business, prepare for or carry out or otherwise provide the following
+services or transactions to third parties:
+(i) acting as a formation, registration or management agent of legal persons;
+(ii) acting as, or arranging for another person to act as, a director or secretary
+of a company or a partner of a partnership, or to hold a similar position in
+relation to other legal persons;
+(iii) providing a registered office, business address or accommodation,
+correspondence or administrative address for a company, a partnership or
+any other legal person or legal arrangement;
+(iv) acting as, or arranging for another person to act as, a trustee of an express
+trust or performing the equivalent function for another, similar form of legal
+arrangement;
+(v) acting as, or arranging for another person to act as, a nominee shareholder
+for another person;
+(f) such other businesses and professions as may be prescribed by regulation by the
+[insert name of minister/competent authority].
+Drafting note: Businesses and professions listed under items (a) to (e) are cov-
+ered by the FATF definition DNFBPs and thus must be covered by jurisdictions’
+AML/CFT requirements.
+Item (f) of the definition includes the possibility of designating additional
+categories of DNFBPs if a particular jurisdiction identifies other service pro-
+viders that either act as gatekeepers to the financial sector or may be used for
+money laundering or terrorism financing purposes. Examples of such addi-
+tional categories are gaming and gambling houses, auction houses and lotter-
+ies, as well as businesses that sell high-value goods such as car dealerships.
+Although the FATF standard does not mandate the expansion of AML/CFT
+frameworks beyond those categories specifically covered under items (a) to
+(e) above, jurisdictions may nevertheless find it necessary or useful to do so. In
+making this policy choice, however, the need to mitigate existing risks needs
+to be carefully balanced against the oftentimes limited resources available to
+governments and individual authorities to ensure effective implementa tion
+of the law.
+For subsection (e) relating to TCSPs, the phrase ‘another, similar form of legal
+arrangement’ is included to cover legal arrangements such as the administra-
+tion of a Stiftung under German, Austrian, Swiss or Liechtenstein law. Although
+such structures are not used in common law jurisdictions, TCSPs in common
+law jurisdictions may be involved in forming or advising on or administering
+such arrangements.
+
+--- Page 20 ---
+Preventive Measures 7
+Document means a record of information kept in any form, including in electronic
+format.
+Financial institution means any person that conducts as a business one or more of
+the following activities or operations for or on behalf of a customer:
+(a) acceptance of deposits and other repayable funds from the public, including
+private banking;
+(b) lending, including, but not limited to, consumer credit, mortgage credit, factoring
+(with or without recourse), and financing of commercial transactions, including
+forfeiting;
+(c) financial leasing other than with respect to arrangements relating to consumer
+products;
+(d) money or value transfer services;
+(e) issuing and managing means of payment, including, but not limited to, credit
+and debit cards, cheques, travellers’ cheques, money orders and bankers’ drafts,
+and electronic money;
+(f) issuing financial guarantees and commitments;
+(g) trading in (i) money market instruments, including, but not limited to,
+cheques, bills, certificates of deposit and derivatives; (ii) foreign exchange; (iii)
+exchange, interest rate and index instruments; (iv) transferable securities; and (v)
+commodity futures trading;
+(h) participation in securities issues and the provision of financial services related to
+such issues;
+(i) individual and collective portfolio management;
+(j) safekeeping and administration of cash or liquid securities on behalf of other
+persons;
+(k) otherwise investing, administering or managing funds or money on behalf of
+other persons;
+(l) underwriting and placement of life insurance and other investment-related
+insurance, including insurance intermediation by agents and brokers;
+(m) money changing; and
+(n) carrying on such other activity, business or operation as prescribed by regulation
+by the minister/competent authority.
+Drafting note: The term ‘financial institution’ can be defined by describing
+either the types of financial activities or the types of businesses. The model pro-
+vision above adopts the former approach. One important advantage to defining
+the term through reference to the types of financial activities, as the recom-
+mended language suggests, is that the definition also covers persons engaged
+(continued)
+

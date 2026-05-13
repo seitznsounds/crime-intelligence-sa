@@ -1,0 +1,278 @@
+{
+  "source": "intelligence/saps/crime-stats/2022-2023-Q3-crime-stats.xlsx",
+  "period": "Q3 2022_2023",
+  "date_analyzed": "2026-05-12",
+  "category": "17 Community reported serious Crime",
+  "top_30_stations": [
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": NaN,
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": "Above Limit",
+      "province": NaN,
+      "q_count": "count higher",
+      "count_diff": "counts higher",
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": "Within Limit",
+      "province": NaN,
+      "q_count": "0 count",
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": "Below Limit",
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": NaN,
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": NaN,
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": NaN,
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": NaN,
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": "17 Community Reported Serious Crime",
+      "station": NaN,
+      "district": NaN,
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": "Comparison - 3rd quarter (October to December - 2018 to 2022)",
+      "district": NaN,
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": NaN,
+      "province": NaN,
+      "q_count": NaN,
+      "count_diff": NaN,
+      "percent_change": NaN
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": "RSA Position",
+      "province": "Prov Position",
+      "q_count": "October 2019 to December 2019",
+      "count_diff": "October 2020 to December 2020",
+      "percent_change": "October 2021 to December 2021"
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": "RSA",
+      "province": "PHO",
+      "q_count": "P2",
+      "count_diff": "P3",
+      "percent_change": "P4"
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 1,
+      "province": 1,
+      "q_count": 3328,
+      "count_diff": 1790,
+      "percent_change": 2289
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 2,
+      "province": 2,
+      "q_count": 2778,
+      "count_diff": 1918,
+      "percent_change": 1804
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 3,
+      "province": 1,
+      "q_count": 2697,
+      "count_diff": 2067,
+      "percent_change": 2101
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 4,
+      "province": 1,
+      "q_count": 2396,
+      "count_diff": 1947,
+      "percent_change": 1946
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 5,
+      "province": 1,
+      "q_count": 2372,
+      "count_diff": 2136,
+      "percent_change": 1897
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 6,
+      "province": 1,
+      "q_count": 1925,
+      "count_diff": 1681,
+      "percent_change": 1820
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 7,
+      "province": 3,
+      "q_count": 1604,
+      "count_diff": 1656,
+      "percent_change": 1625
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 8,
+      "province": 4,
+      "q_count": 1645,
+      "count_diff": 1508,
+      "percent_change": 1541
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 9,
+      "province": 2,
+      "q_count": 1770,
+      "count_diff": 1755,
+      "percent_change": 1722
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 10,
+      "province": 3,
+      "q_count": 2711,
+      "count_diff": 2381,
+      "percent_change": 2173
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 11,
+      "province": 4,
+      "q_count": 1789,
+      "count_diff": 1589,
+      "percent_change": 1467
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 12,
+      "province": 5,
+      "q_count": 1929,
+      "count_diff": 1714,
+      "percent_change": 1530
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 13,
+      "province": 6,
+      "q_count": 1688,
+      "count_diff": 1616,
+      "percent_change": 1692
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 14,
+      "province": 2,
+      "q_count": 1819,
+      "count_diff": 1411,
+      "percent_change": 1867
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 15,
+      "province": 5,
+      "q_count": 1737,
+      "count_diff": 1777,
+      "percent_change": 1518
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 16,
+      "province": 7,
+      "q_count": 1460,
+      "count_diff": 1461,
+      "percent_change": 1609
+    },
+    {
+      "rsa_position": NaN,
+      "station": NaN,
+      "district": 17,
+      "province": 6,
+      "q_count": 1930,
+      "count_diff": 1714,
+      "percent_change": 1646
+    }
+  ]
+}

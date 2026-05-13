@@ -15,6 +15,7 @@ import {
   Megaphone,
   Vote,
   ShieldCheck,
+  Calculator,
   type LucideIcon,
 } from "lucide-react";
 
@@ -76,7 +77,13 @@ export const NAV_PILLARS: NavPillar[] = [
         label: "Anti-Corruption Hub",
         href: "/anticorruption",
         icon: ShieldCheck,
-        description: "NACAC, HSRC & Zondo reform intelligence",
+        description: "OPI Transition Tracker & Reform KPIs",
+      },
+      {
+        label: "Incentive Calculator",
+        href: "/anticorruption#calculator",
+        icon: Calculator,
+        description: "Calculate rewards for state capture disclosure",
       },
       {
         label: "Accountability Board",
@@ -88,7 +95,7 @@ export const NAV_PILLARS: NavPillar[] = [
         label: "Victim Tributes",
         href: "/victims",
         icon: Heart,
-        description: "Living monument for TRC narratives",
+        description: "TRC narratives & Assassination Board",
       },
       {
         label: "Amnesty Tracker",
@@ -120,7 +127,7 @@ export const NAV_PILLARS: NavPillar[] = [
         label: "Station Audits",
         href: "/stats",
         icon: BarChart3,
-        description: "Performance ranking of 1,154 SAPS stations",
+        description: "True Crime vs Recorded Stats Leaderboard",
       },
       {
         label: "Crime Heatmap",

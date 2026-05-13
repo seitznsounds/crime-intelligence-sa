@@ -1,0 +1,23 @@
+{
+  "source": "intelligence/unodc/BRICS_2025_MFA_Chairs_Statement.pdf",
+  "date_analyzed": "2026-05-12",
+  "document_date": "2025-04-29",
+  "summary": "BRICS Foreign Ministers statement from Rio de Janeiro, April 2025, reinforcing the 'BRICS Common Vision' on asset recovery and the expansion of the group to include Indonesia.",
+  "anti_corruption_and_integrity": {
+    "deliverable": "BRICS Common Vision and Joint Action on Enhanced Anti-Corruption Cooperation and Recovery and Return of Assets and Proceeds of Corruption.",
+    "priorities": ["Denial of safe haven for corrupt officials", "Non-politicized anti-criminal cooperation", "Combating Illicit Financial Flows (IFFs)"]
+  },
+  "financial_architecture_reforms": {
+    "initiatives": ["BRICS Cross-Border payments initiative", "BRICS Clear", "Reinforcing BRICS reinsurance capacity"],
+    "local_currencies": "Reiteration of task to expand use of local currencies in trade settlements."
+  },
+  "technology_governance": {
+    "cybercrime": "Call for rapid ratification of the UN Convention against Cybercrime (Hanoi 2025).",
+    "ai_governance": "Proposal for UN-led inclusive framework for AI; focus on 'Sovereign AI' for digital industrialization."
+  },
+  "institutional_expansion": {
+    "new_member": "Indonesia",
+    "partner_countries": ["Belarus", "Bolivia", "Kazakhstan", "Cuba", "Nigeria", "Malaysia", "Thailand", "Uganda", "Uzbekistan"]
+  },
+  "political_context": "Call for UNSC reform to reflect legitimate aspirations of Global South, specifically Brazil, India, and Africa (Ezulwini Consensus)."
+}

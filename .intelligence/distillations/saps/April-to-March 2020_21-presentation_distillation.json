@@ -1,0 +1,187 @@
+{
+  "source": "intelligence/saps/crime-stats/April-to-March 2020_21-presentation.pdf",
+  "period": "POLICE RECORDED",
+  "national_stats": {
+    "total_serious_crimes": 0,
+    "total_murders": 0
+  },
+  "provincial_serious_crimes": {
+    "Eastern Cape": 0,
+    "Free State": 0,
+    "Gauteng": 0,
+    "KwaZulu-Natal": 0,
+    "Limpopo": 0,
+    "Mpumalanga": 0,
+    "North West": 0,
+    "Northern Cape": 0,
+    "Western Cape": 0
+  },
+  "provincial_murders": {
+    "Eastern Cape": 0,
+    "Free State": 0,
+    "Gauteng": 0,
+    "KwaZulu-Natal": 0,
+    "Limpopo": 0,
+    "Mpumalanga": 0,
+    "North West": 0,
+    "Northern Cape": 0,
+    "Western Cape": 0
+  },
+  "top_stations_murder": [
+    {
+      "name": "HONEYDEW",
+      "province": "GAUTENG",
+      "count": -2317
+    },
+    {
+      "name": "JHB CENTRAL",
+      "province": "GAUTENG",
+      "count": -3794
+    },
+    {
+      "name": "PARK ROAD",
+      "province": "FREE STATE",
+      "count": -3008
+    },
+    {
+      "name": "MITCHELLS PLAIN",
+      "province": "WESTERN CAPE",
+      "count": -4208
+    },
+    {
+      "name": "DURBAN CENTRAL",
+      "province": "KWAZULU-NATAL",
+      "count": -2723
+    },
+    {
+      "name": "WITBANK",
+      "province": "MPUMALANGA",
+      "count": -2148
+    },
+    {
+      "name": "PLESSISLAER",
+      "province": "KWAZULU-NATAL",
+      "count": -369
+    },
+    {
+      "name": "CAPE TOWN CENTRAL",
+      "province": "WESTERN CAPE",
+      "count": -6773
+    },
+    {
+      "name": "KRAAIFONTEIN",
+      "province": "WESTERN CAPE",
+      "count": -579
+    },
+    {
+      "name": "RUSTENBURG",
+      "province": "NORTH WEST",
+      "count": -1316
+    },
+    {
+      "name": "PINETOWN",
+      "province": "KWAZULU-NATAL",
+      "count": -1328
+    },
+    {
+      "name": "DELFT",
+      "province": "WESTERN CAPE",
+      "count": -1518
+    },
+    {
+      "name": "RANDFONTEIN",
+      "province": "GAUTENG",
+      "count": -663
+    },
+    {
+      "name": "TEMBA",
+      "province": "GAUTENG",
+      "count": -733
+    },
+    {
+      "name": "EMPANGENI",
+      "province": "KWAZULU-NATAL",
+      "count": -435
+    },
+    {
+      "name": "TEMBISA",
+      "province": "GAUTENG",
+      "count": -1336
+    },
+    {
+      "name": "AKASIA",
+      "province": "GAUTENG",
+      "count": -879
+    },
+    {
+      "name": "PHOENIX",
+      "province": "KWAZULU-NATAL",
+      "count": -1777
+    },
+    {
+      "name": "MFULENI",
+      "province": "WESTERN CAPE",
+      "count": -1005
+    },
+    {
+      "name": "MIDRAND",
+      "province": "GAUTENG",
+      "count": -1590
+    },
+    {
+      "name": "NYANGA",
+      "province": "WESTERN CAPE",
+      "count": -632
+    },
+    {
+      "name": "WORCESTER",
+      "province": "WESTERN CAPE",
+      "count": -1217
+    },
+    {
+      "name": "BROOKLYN",
+      "province": "GAUTENG",
+      "count": -1881
+    },
+    {
+      "name": "PRETORIA CENTRAL",
+      "province": "GAUTENG",
+      "count": -2631
+    },
+    {
+      "name": "IVORY PARK",
+      "province": "GAUTENG",
+      "count": -320
+    },
+    {
+      "name": "UMLAZI",
+      "province": "KWAZULU-NATAL",
+      "count": -915
+    },
+    {
+      "name": "KIMBERLEY",
+      "province": "NORTHERN CAPE",
+      "count": -1816
+    },
+    {
+      "name": "HILLBROW",
+      "province": "GAUTENG",
+      "count": -2517
+    },
+    {
+      "name": "KWADUKUZA",
+      "province": "KWAZULU-NATAL",
+      "count": -598
+    },
+    {
+      "name": "ALEXANDRA",
+      "province": "GAUTENG",
+      "count": -362
+    },
+    {
+      "name": "None",
+      "province": "None",
+      "count": 0
+    }
+  ]
+}

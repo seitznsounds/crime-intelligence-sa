@@ -1,0 +1,71 @@
+{
+  "source": "intelligence/unodc/NACS Strategic Pillars_National Dialogue on 9 November 2023.pdf",
+  "date_analyzed": "2026-05-12",
+  "strategy_period": "2020-2030",
+  "summary": "Detailed breakdown of the 6 strategic pillars of South Africa's National Anti-Corruption Strategy (NACS), presenting high-level outputs and institutional mandates.",
+  "strategic_pillars": [
+    {
+      "pillar": 1,
+      "title": "Citizen Participation & Whistleblowing",
+      "key_outputs": [
+        "Feasibility study for a centralised whistleblower agency.",
+        "Strengthening organisational policies for whistleblower support.",
+        "Establishment of mechanisms for Beneficial Ownership transparency.",
+        "Review of PAIA to align with African Model Law on Access to Information."
+      ]
+    },
+    {
+      "pillar": 2,
+      "title": "Professionalisation",
+      "key_outputs": [
+        "Chapter 13 NDP: Appointment reform and professionalisation of public service.",
+        "Competency assessments for senior public officials and SOE boards.",
+        "Ethics curricula integration in tertiary qualifications."
+      ]
+    },
+    {
+      "pillar": 3,
+      "title": "Good Governance & Consequence Management",
+      "key_outputs": [
+        "Finalisation of lifestyle audit framework and implementation.",
+        "Database of public sector officials found guilty of fraud/corruption (DPSA).",
+        "Resource DPSA Ethics, Integrity, and Disciplinary Technical Assistance Unit.",
+        "Integrity promotion as a KPI in senior management performance contracts."
+      ]
+    },
+    {
+      "pillar": 4,
+      "title": "Procurement System Integrity",
+      "key_outputs": [
+        "Strengthened debarment and blacklisting processes.",
+        "Research into incentivising whistleblowing in the procurement system.",
+        "Digital financial and procurement management system for open contracting.",
+        "Professionalisation of Supply Chain Management (SCM) occupations."
+      ]
+    },
+    {
+      "pillar": 5,
+      "title": "Anti-Corruption Agencies Resourcing",
+      "key_outputs": [
+        "Establishment of an overarching anti-corruption coordinating body.",
+        "Improved systems for capturing and analysing relevant intelligence data.",
+        "Specialised training for investigators in cybercrime and economic crime.",
+        "Safeguarding budget and independence of investigative agencies."
+      ]
+    },
+    {
+      "pillar": 6,
+      "title": "Protection of Vulnerable Sectors",
+      "key_outputs": [
+        "Sector-specific risk management frameworks.",
+        "Identification and auditing of most vulnerable state-owned entities (SOEs).",
+        "Collaboration between stakeholders to implement sector-specific AC strategies."
+      ]
+    }
+  ],
+  "nacac_mandate": [
+    "Advise on NACS implementation and Zondo Commission recommendations.",
+    "Advise on strengthening South Africa's anti-corruption architecture.",
+    "Host national anti-corruption summits."
+  ]
+}

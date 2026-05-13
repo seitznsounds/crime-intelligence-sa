@@ -1,0 +1,2846 @@
+[
+  {
+    "page": 11,
+    "data": [
+      [
+        null,
+        "Eastern Cape",
+        "Free State",
+        "Gauteng",
+        "KwaZulu-Natal",
+        "Limpopo",
+        "Mpumalanga",
+        "North West",
+        "Northern Cape",
+        "Western Cape",
+        "Republic Of\nSouth Africa"
+      ],
+      [
+        "April 2024 to June 2024",
+        "37 572",
+        "21 992",
+        "98 935",
+        "61 812",
+        "23 583",
+        "21 264",
+        "23 320",
+        "10 021",
+        "69 378",
+        "367 877"
+      ],
+      [
+        "April 2025 to June 2025",
+        "35 734",
+        "19 843",
+        "92 441",
+        "59 398",
+        "21 587",
+        "19 320",
+        "22 251",
+        "9 836",
+        "65 772",
+        "346 182"
+      ],
+      [
+        "Count diff",
+        "-1 838",
+        "-2 149",
+        "-6 494",
+        "-2 414",
+        "-1 996",
+        "-1 944",
+        "-1 069",
+        "-185",
+        "-3 606",
+        "-21 695"
+      ],
+      [
+        "(%) Change -4,9% -9,8% -6,6% -3,9% -8,5% -9,1% -4,6% -1,8% -5,2% -5,9%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "% contribution to RSA 10,3% 5,7% 26,7% 17,2% 6,2% 5,6% 6,4% 2,8% 19,0%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "data": [
+      [
+        "RSA Prov April 2021 to April 2022 to April 2023 to April 2024 to April 2025 to\nStation District Province Count Diff (%) Change\nPosition Position June 2021 June 2022 June 2023 June 2024 June 2025",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "RSA PHO Sta Dis Prov P1 P2 P3 P4 P5 Dif Cha\n1 1 Cape Town Central City of Cape Town District Western Cape 1 870 2 801 2 765 2 958 2 605 -353 -11,9%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "2",
+        "1",
+        "Durban Central",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "1 842",
+        "1 919",
+        "2 104",
+        "2 082",
+        "1 989",
+        "-93",
+        "-4,5%"
+      ],
+      [
+        "3",
+        "2",
+        "Mfuleni",
+        "City of Cape Town District",
+        "Western Cape",
+        "1 384",
+        "1 423",
+        "1 775",
+        "1 619",
+        "1 777",
+        "158",
+        "9,8%"
+      ],
+      [
+        "4",
+        "3",
+        "Mitchells Plain",
+        "City of Cape Town District",
+        "Western Cape",
+        "1 737",
+        "1 923",
+        "2 040",
+        "1 887",
+        "1 756",
+        "-131",
+        "-6,9%"
+      ],
+      [
+        "5",
+        "2",
+        "Phoenix",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "1 643",
+        "1 592",
+        "1 882",
+        "1 825",
+        "1 683",
+        "-142",
+        "-7,8%"
+      ],
+      [
+        "6",
+        "3",
+        "Chatsworth",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "1 199",
+        "1 235",
+        "1 451",
+        "1 392",
+        "1 679",
+        "287",
+        "20,6%"
+      ],
+      [
+        "7",
+        "1",
+        "Midrand",
+        "Johannesburg District",
+        "Gauteng",
+        "1 560",
+        "1 560",
+        "1 732",
+        "1 596",
+        "1 662",
+        "66",
+        "4,1%"
+      ],
+      [
+        "8",
+        "2",
+        "JHB Central",
+        "Johannesburg District",
+        "Gauteng",
+        "1 896",
+        "1 930",
+        "2 120",
+        "1 818",
+        "1 651",
+        "-167",
+        "-9,2%"
+      ],
+      [
+        "9",
+        "4",
+        "Delft",
+        "City of Cape Town District",
+        "Western Cape",
+        "1 563",
+        "1 596",
+        "1 595",
+        "1 451",
+        "1 598",
+        "147",
+        "10,1%"
+      ],
+      [
+        "10",
+        "3",
+        "Sandton",
+        "Johannesburg District",
+        "Gauteng",
+        "1 349",
+        "1 299",
+        "1 437",
+        "1 512",
+        "1 573",
+        "61",
+        "4,0%"
+      ],
+      [
+        "11",
+        "4",
+        "Honeydew",
+        "Johannesburg District",
+        "Gauteng",
+        "2 075",
+        "2 147",
+        "1 774",
+        "1 743",
+        "1 553",
+        "-190",
+        "-10,9%"
+      ],
+      [
+        "12",
+        "1",
+        "Park Road",
+        "Mangaung District",
+        "Free State",
+        "1 782",
+        "1 904",
+        "1 881",
+        "1 668",
+        "1 550",
+        "-118",
+        "-7,1%"
+      ],
+      [
+        "13",
+        "4",
+        "Inanda",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "1 256",
+        "1 173",
+        "1 265",
+        "1 558",
+        "1 540",
+        "-18",
+        "-1,2%"
+      ],
+      [
+        "14",
+        "5",
+        "Roodepoort",
+        "Johannesburg District",
+        "Gauteng",
+        "1 205",
+        "1 290",
+        "1 866",
+        "1 745",
+        "1 532",
+        "-213",
+        "-12,2%"
+      ],
+      [
+        "15",
+        "6",
+        "Brooklyn",
+        "Tshwane District",
+        "Gauteng",
+        "1 529",
+        "1 584",
+        "1 524",
+        "1 701",
+        "1 481",
+        "-220",
+        "-12,9%"
+      ],
+      [
+        "16",
+        "5",
+        "Kraaifontein",
+        "City of Cape Town District",
+        "Western Cape",
+        "1 515",
+        "1 338",
+        "1 533",
+        "1 649",
+        "1 477",
+        "-172",
+        "-10,4%"
+      ],
+      [
+        "17",
+        "1",
+        "Rustenburg",
+        "Bojanala District",
+        "North West",
+        "1 601",
+        "1 708",
+        "1 666",
+        "1 730",
+        "1 454",
+        "-276",
+        "-16,0%"
+      ],
+      [
+        "18",
+        "5",
+        "Pinetown",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "1 694",
+        "1 483",
+        "1 320",
+        "1 372",
+        "1 437",
+        "65",
+        "4,7%"
+      ],
+      [
+        "19",
+        "6",
+        "Stellenbosch",
+        "Cape Winelands District",
+        "Western Cape",
+        "1 464",
+        "1 560",
+        "1 588",
+        "1 497",
+        "1 433",
+        "-64",
+        "-4,3%"
+      ],
+      [
+        "20",
+        "7",
+        "Akasia",
+        "Tshwane District",
+        "Gauteng",
+        "1 385",
+        "1 367",
+        "1 400",
+        "1 324",
+        "1 416",
+        "92",
+        "6,9%"
+      ],
+      [
+        "21",
+        "6",
+        "Plessislaer",
+        "Umgungundlovu District",
+        "KwaZulu-Natal",
+        "1 606",
+        "1 357",
+        "1 496",
+        "1 514",
+        "1 412",
+        "-102",
+        "-6,7%"
+      ],
+      [
+        "22",
+        "1",
+        "Thohoyandou",
+        "Vhembe District",
+        "Limpopo",
+        "1 128",
+        "1 292",
+        "1 434",
+        "1 309",
+        "1 379",
+        "70",
+        "5,3%"
+      ],
+      [
+        "23",
+        "2",
+        "Polokwane",
+        "Capricorn District",
+        "Limpopo",
+        "1 156",
+        "1 230",
+        "1 312",
+        "1 413",
+        "1 346",
+        "-67",
+        "-4,7%"
+      ],
+      [
+        "24",
+        "7",
+        "Nyanga",
+        "City of Cape Town District",
+        "Western Cape",
+        "1 253",
+        "1 422",
+        "1 459",
+        "1 367",
+        "1 326",
+        "-41",
+        "-3,0%"
+      ],
+      [
+        "25",
+        "7",
+        "Empangeni",
+        "King Cetshwayo District",
+        "KwaZulu-Natal",
+        "1 463",
+        "1 317",
+        "1 319",
+        "1 236",
+        "1 325",
+        "89",
+        "7,2%"
+      ],
+      [
+        "26",
+        "8",
+        "Ivory Park",
+        "Ekurhuleni District",
+        "Gauteng",
+        "1 273",
+        "1 267",
+        "1 291",
+        "1 324",
+        "1 319",
+        "-5",
+        "-0,4%"
+      ],
+      [
+        "27",
+        "9",
+        "Tembisa",
+        "Ekurhuleni District",
+        "Gauteng",
+        "1 413",
+        "1 325",
+        "1 438",
+        "1 501",
+        "1 317",
+        "-184",
+        "-12,3%"
+      ],
+      [
+        "28",
+        "8",
+        "Kwadukuza",
+        "Ilembe District",
+        "KwaZulu-Natal",
+        "1 264",
+        "1 258",
+        "1 329",
+        "1 436",
+        "1 293",
+        "-143",
+        "-10,0%"
+      ],
+      [
+        "29",
+        "10",
+        "Kempton Park",
+        "Ekurhuleni District",
+        "Gauteng",
+        "1 299",
+        "1 430",
+        "1 340",
+        "1 386",
+        "1 232",
+        "-154",
+        "-11,1%"
+      ],
+      [
+        "30",
+        "8",
+        "Milnerton",
+        "City of Cape Town District",
+        "Western Cape",
+        "1 084",
+        "1 244",
+        "1 293",
+        "1 229",
+        "1 213",
+        "-16",
+        "-1,3%"
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "data": [
+      [
+        null,
+        "Eastern Cape",
+        "Free State",
+        "Gauteng",
+        "KwaZulu-Natal",
+        "Limpopo",
+        "Mpumalanga",
+        "North West",
+        "Northern Cape",
+        "Western Cape",
+        "Republic Of\nSouth Africa"
+      ],
+      [
+        "April 2024 to June 2024",
+        "16 804",
+        "9 547",
+        "40 463",
+        "27 529",
+        "9 119",
+        "8 490",
+        "10 132",
+        "4 350",
+        "27 203",
+        "153 637"
+      ],
+      [
+        "April 2025 to June 2025",
+        "15 517",
+        "8 510",
+        "38 296",
+        "26 428",
+        "8 600",
+        "8 088",
+        "9 523",
+        "4 020",
+        "26 464",
+        "145 446"
+      ],
+      [
+        "Count diff",
+        "-1 287",
+        "-1 037",
+        "-2 167",
+        "-1 101",
+        "-519",
+        "-402",
+        "-609",
+        "-330",
+        "-739",
+        "-8 191"
+      ],
+      [
+        "(%) Change -7,7% -10,9% -5,4% -4,0% -5,7% -4,7% -6,0% -7,6% -2,7% -5,3%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "% contribution to RSA 10,7% 5,9% 26,3% 18,2% 5,9% 5,6% 6,5% 2,8% 18,2%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "data": [
+      [
+        "RSA Prov April 2021 to April 2022 to April 2023 to April 2024 to April 2025 to\nStation District Province Count Diff (%) Change\nPosition Position June 2021 June 2022 June 2023 June 2024 June 2025",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "RSA PHO Sta Dis Prov P1 P2 P3 P4 P5 Dif Cha\n1 1 Mfuleni City of Cape Town District Western Cape 771 780 922 1 013 1 111 98 9,7%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "2",
+        "1",
+        "Inanda",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "761",
+        "723",
+        "782",
+        "936",
+        "956",
+        "20",
+        "2,1%"
+      ],
+      [
+        "3",
+        "2",
+        "Nyanga",
+        "City of Cape Town District",
+        "Western Cape",
+        "796",
+        "965",
+        "965",
+        "979",
+        "931",
+        "-48",
+        "-4,9%"
+      ],
+      [
+        "4",
+        "3",
+        "Delft",
+        "City of Cape Town District",
+        "Western Cape",
+        "919",
+        "802",
+        "820",
+        "833",
+        "907",
+        "74",
+        "8,9%"
+      ],
+      [
+        "5",
+        "1",
+        "JHB Central",
+        "Johannesburg District",
+        "Gauteng",
+        "909",
+        "955",
+        "1 109",
+        "865",
+        "813",
+        "-52",
+        "-6,0%"
+      ],
+      [
+        "6",
+        "4",
+        "Mitchells Plain",
+        "City of Cape Town District",
+        "Western Cape",
+        "661",
+        "735",
+        "797",
+        "788",
+        "804",
+        "16",
+        "2,0%"
+      ],
+      [
+        "7",
+        "5",
+        "Kraaifontein",
+        "City of Cape Town District",
+        "Western Cape",
+        "672",
+        "628",
+        "616",
+        "818",
+        "773",
+        "-45",
+        "-5,5%"
+      ],
+      [
+        "8",
+        "2",
+        "Umlazi",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "912",
+        "716",
+        "687",
+        "842",
+        "762",
+        "-80",
+        "-9,5%"
+      ],
+      [
+        "9",
+        "2",
+        "Ivory Park",
+        "Ekurhuleni District",
+        "Gauteng",
+        "719",
+        "676",
+        "658",
+        "730",
+        "750",
+        "20",
+        "2,7%"
+      ],
+      [
+        "10",
+        "3",
+        "Tembisa",
+        "Ekurhuleni District",
+        "Gauteng",
+        "813",
+        "759",
+        "855",
+        "825",
+        "732",
+        "-93",
+        "-11,3%"
+      ],
+      [
+        "11",
+        "3",
+        "Plessislaer",
+        "Umgungundlovu District",
+        "KwaZulu-Natal",
+        "816",
+        "767",
+        "793",
+        "809",
+        "730",
+        "-79",
+        "-9,8%"
+      ],
+      [
+        "12",
+        "6",
+        "Cape Town Central",
+        "City of Cape Town District",
+        "Western Cape",
+        "419",
+        "594",
+        "573",
+        "646",
+        "706",
+        "60",
+        "9,3%"
+      ],
+      [
+        "13",
+        "4",
+        "Chatsworth",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "485",
+        "474",
+        "535",
+        "578",
+        "701",
+        "123",
+        "21,3%"
+      ],
+      [
+        "14",
+        "5",
+        "Durban Central",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "653",
+        "805",
+        "868",
+        "728",
+        "689",
+        "-39",
+        "-5,4%"
+      ],
+      [
+        "15",
+        "4",
+        "Hillbrow",
+        "Johannesburg District",
+        "Gauteng",
+        "849",
+        "678",
+        "850",
+        "713",
+        "679",
+        "-34",
+        "-4,8%"
+      ],
+      [
+        "16",
+        "5",
+        "Jeppe",
+        "Johannesburg District",
+        "Gauteng",
+        "582",
+        "700",
+        "698",
+        "618",
+        "671",
+        "53",
+        "8,6%"
+      ],
+      [
+        "17",
+        "6",
+        "Roodepoort",
+        "Johannesburg District",
+        "Gauteng",
+        "401",
+        "413",
+        "762",
+        "701",
+        "666",
+        "-35",
+        "-5,0%"
+      ],
+      [
+        "18",
+        "7",
+        "Eldorado Park",
+        "Johannesburg District",
+        "Gauteng",
+        "543",
+        "534",
+        "703",
+        "653",
+        "647",
+        "-6",
+        "-0,9%"
+      ],
+      [
+        "19",
+        "7",
+        "Khayelitsha",
+        "City of Cape Town District",
+        "Western Cape",
+        "700",
+        "767",
+        "637",
+        "775",
+        "640",
+        "-135",
+        "-17,4%"
+      ],
+      [
+        "20",
+        "6",
+        "Empangeni",
+        "King Cetshwayo District",
+        "KwaZulu-Natal",
+        "604",
+        "570",
+        "611",
+        "556",
+        "628",
+        "72",
+        "12,9%"
+      ],
+      [
+        "21",
+        "7",
+        "Kwadukuza",
+        "Ilembe District",
+        "KwaZulu-Natal",
+        "614",
+        "613",
+        "658",
+        "708",
+        "620",
+        "-88",
+        "-12,4%"
+      ],
+      [
+        "22",
+        "1",
+        "Thohoyandou",
+        "Vhembe District",
+        "Limpopo",
+        "527",
+        "601",
+        "651",
+        "587",
+        "616",
+        "29",
+        "4,9%"
+      ],
+      [
+        "23",
+        "8",
+        "Alexandra",
+        "Johannesburg District",
+        "Gauteng",
+        "814",
+        "857",
+        "684",
+        "575",
+        "603",
+        "28",
+        "4,9%"
+      ],
+      [
+        "24",
+        "8",
+        "Phoenix",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "551",
+        "543",
+        "601",
+        "629",
+        "600",
+        "-29",
+        "-4,6%"
+      ],
+      [
+        "25",
+        "9",
+        "Mamelodi East",
+        "Tshwane District",
+        "Gauteng",
+        "670",
+        "653",
+        "636",
+        "621",
+        "580",
+        "-41",
+        "-6,6%"
+      ],
+      [
+        "26",
+        "10",
+        "Kagiso",
+        "West Rand District",
+        "Gauteng",
+        "701",
+        "633",
+        "484",
+        "637",
+        "579",
+        "-58",
+        "-9,1%"
+      ],
+      [
+        "27",
+        "9",
+        "Mountain Rise",
+        "Umgungundlovu District",
+        "KwaZulu-Natal",
+        "398",
+        "459",
+        "480",
+        "598",
+        "577",
+        "-21",
+        "-3,5%"
+      ],
+      [
+        "28",
+        "11",
+        "Akasia",
+        "Tshwane District",
+        "Gauteng",
+        "613",
+        "659",
+        "587",
+        "543",
+        "570",
+        "27",
+        "5,0%"
+      ],
+      [
+        "29",
+        "12",
+        "Orange Farms",
+        "Sedibeng District",
+        "Gauteng",
+        "423",
+        "415",
+        "439",
+        "535",
+        "546",
+        "11",
+        "2,1%"
+      ],
+      [
+        "30",
+        "10",
+        "Ntuzuma",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "507",
+        "456",
+        "562",
+        "588",
+        "546",
+        "-42",
+        "-7,1%"
+      ]
+    ]
+  },
+  {
+    "page": 16,
+    "data": [
+      [
+        "Causative factors",
+        "Murder",
+        "Attempted\nmurder",
+        "Assault GBH"
+      ],
+      [
+        "Arguments/ Misunderstanding/ Road Rage / Provocation",
+        "869",
+        "1 821",
+        "17 217"
+      ],
+      [
+        "Retaliation/ Revenge/ Punishment",
+        "327",
+        "230",
+        "3 159"
+      ],
+      [
+        "Robbery",
+        "317",
+        "773",
+        "593"
+      ],
+      [
+        "Gang-related",
+        "317",
+        "291",
+        "10"
+      ],
+      [
+        "Vigilantism/ Mob justice",
+        "289",
+        "46",
+        "189"
+      ],
+      [
+        "Taxi-related",
+        "78",
+        "32",
+        "25"
+      ],
+      [
+        "During commission of other crimes (not robbery or rape)",
+        "72",
+        "129",
+        "530"
+      ],
+      [
+        "Hijacking and attempts",
+        "55",
+        "168",
+        "22"
+      ],
+      [
+        "Law enforcement & security guards in the line of duty (excl. police murder)",
+        "27",
+        "82",
+        "128"
+      ],
+      [
+        "Intervention in an argument",
+        "25",
+        "99",
+        "1 564"
+      ],
+      [
+        "Rape-related",
+        "25",
+        "17",
+        "145"
+      ],
+      [
+        "Illicit mining",
+        "15",
+        "7",
+        "0"
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "data": [
+      [
+        "Place of occurrence",
+        "Murder",
+        "Attempted\nmurder",
+        "Assault GBH"
+      ],
+      [
+        "Public place e.g. street/open field/recreational centre/park/beach/parking area",
+        "2 910",
+        "2 760",
+        "9 621"
+      ],
+      [
+        "Residences of perpetrator/victim (including residence known by victims/\nperpetrator e.g. family/friends/neighbours)",
+        "1 696",
+        "1 888",
+        "13 260"
+      ],
+      [
+        "Liquor outlets e.g. shebeen/tavern/pub/night club/bottle store",
+        "211",
+        "328",
+        "3 913"
+      ],
+      [
+        "Business premises (e.g. mall/restaurants/workplace/office park/entertainment\ncentre e.g. movie theatre, gambling facility)",
+        "101",
+        "168",
+        "886"
+      ],
+      [
+        "Spaza/Tuck shop",
+        "91",
+        "135",
+        "438"
+      ],
+      [
+        "Agricultural land/farm/plot/small holding",
+        "66",
+        "82",
+        "358"
+      ],
+      [
+        "Public transport premises (Bus stop/taxi rank, railway premises e.g. track/station)",
+        "53",
+        "39",
+        "167"
+      ],
+      [
+        "Sea/river/lake/pool/dam",
+        "36",
+        "3",
+        "17"
+      ],
+      [
+        "Petrol station premises (incl. pumps, ATM site, convenience store and food courts)",
+        "14",
+        "25",
+        "89"
+      ],
+      [
+        "Dumping site/refuse site",
+        "13",
+        "6",
+        "19"
+      ],
+      [
+        "Educational institutions (schools, universities, college, day care facilities)",
+        "9",
+        "25",
+        "328"
+      ],
+      [
+        "Leisure premises e.g. hotel/guest house/bnb/motel/holiday resort",
+        "8",
+        "7",
+        "61"
+      ],
+      [
+        "Abandoned building",
+        "3",
+        "2",
+        "7"
+      ],
+      [
+        "Prison/holding cells",
+        "2",
+        "6",
+        "74"
+      ]
+    ]
+  },
+  {
+    "page": 18,
+    "data": [
+      [
+        null,
+        "Eastern Cape",
+        "Free State",
+        "Gauteng",
+        "KwaZulu-Natal",
+        "Limpopo",
+        "Mpumalanga",
+        "North West",
+        "Northern Cape",
+        "Western Cape",
+        "Republic Of\nSouth Africa"
+      ],
+      [
+        "April 2024 to June 2024",
+        "1 169",
+        "203",
+        "1 380",
+        "1 455",
+        "198",
+        "294",
+        "278",
+        "83",
+        "1 138",
+        "6 198"
+      ],
+      [
+        "April 2025 to June 2025",
+        "1 096",
+        "186",
+        "1 429",
+        "1 199",
+        "185",
+        "248",
+        "205",
+        "74",
+        "1 148",
+        "5 770"
+      ],
+      [
+        "Count diff",
+        "-73",
+        "-17",
+        "49",
+        "-256",
+        "-13",
+        "-46",
+        "-73",
+        "-9",
+        "10",
+        "-428"
+      ],
+      [
+        "(%) Change -6,2% -8,4% 3,6% -17,6% -6,6% -15,6% -26,3% 9 counts lower 0,9% -6,9%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "% contribution to RSA 19,0% 3,2% 24,8% 20,8% 3,2% 4,3% 3,6% 1,3% 19,9%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  {
+    "page": 20,
+    "data": [
+      [
+        "Province",
+        "Population",
+        "Ratio"
+      ],
+      [
+        "Eastern Cape",
+        "6 628 401",
+        "16.5"
+      ],
+      [
+        "Free State",
+        "2 973 086",
+        "6.3"
+      ],
+      [
+        "Gauteng",
+        "17 025 628",
+        "8.4"
+      ],
+      [
+        "KwaZulu-Natal",
+        "11 917 916",
+        "10.1"
+      ],
+      [
+        "Limpopo",
+        "6 060 938",
+        "3.1"
+      ],
+      [
+        "Mpumalanga",
+        "4 978 377",
+        "5.0"
+      ],
+      [
+        "Northern Cape",
+        "1 356 078",
+        "5.5"
+      ],
+      [
+        "North West",
+        "4 339 357",
+        "4.7"
+      ],
+      [
+        "Western Cape",
+        "7 568 548",
+        "15.2"
+      ],
+      [
+        "Republic Of South Africa",
+        "62 848 329",
+        "9.2"
+      ]
+    ]
+  },
+  {
+    "page": 21,
+    "data": [
+      [
+        "RSA Prov April 2021 to April 2022 to April 2023 to April 2024 to April 2025 to\nStation District Province Count Diff (%) Change\nPosition Position June 2021 June 2022 June 2023 June 2024 June 2025",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "RSA PHO Sta Dis Prov P1 P2 P3 P4 P5 Dif Cha\n1 1 Inanda eThekwini District KwaZulu-Natal 63 66 81 76 78 2 2,6%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "2",
+        "1",
+        "Mfuleni",
+        "City of Cape Town District",
+        "Western Cape",
+        "54",
+        "40",
+        "44",
+        "58",
+        "72",
+        "14",
+        "24,1%"
+      ],
+      [
+        "3",
+        "2",
+        "Delft",
+        "City of Cape Town District",
+        "Western Cape",
+        "63",
+        "62",
+        "61",
+        "61",
+        "70",
+        "9",
+        "14,8%"
+      ],
+      [
+        "4",
+        "3",
+        "Nyanga",
+        "City of Cape Town District",
+        "Western Cape",
+        "38",
+        "50",
+        "48",
+        "79",
+        "58",
+        "-21",
+        "-26,6%"
+      ],
+      [
+        "5",
+        "4",
+        "Gugulethu",
+        "City of Cape Town District",
+        "Western Cape",
+        "47",
+        "43",
+        "59",
+        "43",
+        "56",
+        "13",
+        "30,2%"
+      ],
+      [
+        "6",
+        "2",
+        "Umlazi",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "73",
+        "83",
+        "62",
+        "71",
+        "55",
+        "-16",
+        "-22,5%"
+      ],
+      [
+        "7",
+        "5",
+        "Philippi East",
+        "City of Cape Town District",
+        "Western Cape",
+        "33",
+        "46",
+        "34",
+        "60",
+        "54",
+        "-6",
+        "-10,0%"
+      ],
+      [
+        "8",
+        "6",
+        "Harare",
+        "City of Cape Town District",
+        "Western Cape",
+        "58",
+        "50",
+        "58",
+        "65",
+        "54",
+        "-11",
+        "-16,9%"
+      ],
+      [
+        "9",
+        "1",
+        "Ivory Park",
+        "Ekurhuleni District",
+        "Gauteng",
+        "38",
+        "40",
+        "23",
+        "48",
+        "52",
+        "4",
+        "8,3%"
+      ],
+      [
+        "10",
+        "1",
+        "Mthatha",
+        "OR Tambo District",
+        "Eastern Cape",
+        "37",
+        "69",
+        "51",
+        "38",
+        "50",
+        "12",
+        "31,6%"
+      ],
+      [
+        "11",
+        "7",
+        "Samora Machel",
+        "City of Cape Town District",
+        "Western Cape",
+        "31",
+        "35",
+        "15",
+        "36",
+        "47",
+        "11",
+        "11 counts higher"
+      ],
+      [
+        "12",
+        "8",
+        "Khayelitsha",
+        "City of Cape Town District",
+        "Western Cape",
+        "49",
+        "42",
+        "47",
+        "68",
+        "46",
+        "-22",
+        "22 counts lower"
+      ],
+      [
+        "13",
+        "9",
+        "Mitchells Plain",
+        "City of Cape Town District",
+        "Western Cape",
+        "35",
+        "20",
+        "23",
+        "43",
+        "45",
+        "2",
+        "2 counts higher"
+      ],
+      [
+        "14",
+        "10",
+        "Bishop Lavis",
+        "City of Cape Town District",
+        "Western Cape",
+        "11",
+        "12",
+        "15",
+        "20",
+        "43",
+        "23",
+        "23 counts higher"
+      ],
+      [
+        "15",
+        "11",
+        "Kraaifontein",
+        "City of Cape Town District",
+        "Western Cape",
+        "67",
+        "56",
+        "29",
+        "54",
+        "42",
+        "-12",
+        "12 counts lower"
+      ],
+      [
+        "16",
+        "2",
+        "Jeppe",
+        "Johannesburg District",
+        "Gauteng",
+        "22",
+        "39",
+        "51",
+        "36",
+        "38",
+        "2",
+        "2 counts higher"
+      ],
+      [
+        "17",
+        "2",
+        "Kwazakele",
+        "Nelson Mandela District",
+        "Eastern Cape",
+        "28",
+        "31",
+        "50",
+        "39",
+        "38",
+        "-1",
+        "1 count lower"
+      ],
+      [
+        "18",
+        "3",
+        "Moroka",
+        "Johannesburg District",
+        "Gauteng",
+        "17",
+        "19",
+        "25",
+        "28",
+        "34",
+        "6",
+        "6 counts higher"
+      ],
+      [
+        "19",
+        "4",
+        "Orange Farms",
+        "Sedibeng District",
+        "Gauteng",
+        "19",
+        "48",
+        "40",
+        "33",
+        "33",
+        "0",
+        "0 count diff"
+      ],
+      [
+        "20",
+        "3",
+        "New Brighton",
+        "Nelson Mandela District",
+        "Eastern Cape",
+        "28",
+        "29",
+        "30",
+        "53",
+        "33",
+        "-20",
+        "20 counts lower"
+      ],
+      [
+        "21",
+        "5",
+        "Kagiso",
+        "West Rand District",
+        "Gauteng",
+        "43",
+        "47",
+        "15",
+        "19",
+        "32",
+        "13",
+        "13 counts higher"
+      ],
+      [
+        "22",
+        "3",
+        "Mpumalanga KZN",
+        "eThekwini District",
+        "KwaZulu-Natal",
+        "42",
+        "36",
+        "32",
+        "25",
+        "32",
+        "7",
+        "7 counts higher"
+      ],
+      [
+        "23",
+        "4",
+        "Kwanobuhle",
+        "Nelson Mandela District",
+        "Eastern Cape",
+        "20",
+        "34",
+        "41",
+        "41",
+        "32",
+        "-9",
+        "9 counts lower"
+      ],
+      [
+        "24",
+        "5",
+        "Walmer",
+        "Nelson Mandela District",
+        "Eastern Cape",
+        "17",
+        "29",
+        "9",
+        "19",
+        "31",
+        "12",
+        "12 counts higher"
+      ],
+      [
+        "25",
+        "12",
+        "Lwandle",
+        "City of Cape Town District",
+        "Western Cape",
+        "25",
+        "29",
+        "17",
+        "21",
+        "31",
+        "10",
+        "10 counts higher"
+      ],
+      [
+        "26",
+        "6",
+        "Primrose",
+        "Ekurhuleni District",
+        "Gauteng",
+        "12",
+        "17",
+        "20",
+        "19",
+        "30",
+        "11",
+        "11 counts higher"
+      ],
+      [
+        "27",
+        "6",
+        "Kwadwesi",
+        "Nelson Mandela District",
+        "Eastern Cape",
+        "10",
+        "18",
+        "20",
+        "19",
+        "28",
+        "9",
+        "9 counts higher"
+      ],
+      [
+        "28",
+        "7",
+        "Tsolo",
+        "OR Tambo District",
+        "Eastern Cape",
+        "14",
+        "17",
+        "24",
+        "31",
+        "28",
+        "-3",
+        "3 counts lower"
+      ],
+      [
+        "29",
+        "7",
+        "Alexandra",
+        "Johannesburg District",
+        "Gauteng",
+        "26",
+        "34",
+        "19",
+        "15",
+        "27",
+        "12",
+        "12 counts higher"
+      ],
+      [
+        "30",
+        "8",
+        "Roodepoort",
+        "Johannesburg District",
+        "Gauteng",
+        "14",
+        "14",
+        "39",
+        "20",
+        "26",
+        "6",
+        "6 counts higher"
+      ]
+    ]
+  },
+  {
+    "page": 22,
+    "data": [
+      [
+        "Causative factors",
+        "EC",
+        "FS",
+        "GP",
+        "KZN",
+        "LP",
+        "MP",
+        "NW",
+        "NC",
+        "WC",
+        "RSA"
+      ],
+      [
+        "Arguments/ Misunderstanding/ Road Rage /\nProvocation",
+        "159",
+        "39",
+        "174",
+        "127",
+        "52",
+        "10",
+        "43",
+        "49",
+        "216",
+        "869"
+      ],
+      [
+        "Retaliation/ Revenge/ Punishment",
+        "26",
+        "10",
+        "58",
+        "36",
+        "2",
+        "3",
+        "10",
+        "4",
+        "178",
+        "327"
+      ],
+      [
+        "Robbery",
+        "24",
+        "10",
+        "102",
+        "70",
+        "7",
+        "10",
+        "16",
+        "3",
+        "75",
+        "317"
+      ],
+      [
+        "Gang-related",
+        "10",
+        "0",
+        "22",
+        "1",
+        "0",
+        "0",
+        "0",
+        "2",
+        "282",
+        "317"
+      ],
+      [
+        "Vigilantism/ Mob justice",
+        "60",
+        "9",
+        "74",
+        "44",
+        "15",
+        "16",
+        "17",
+        "2",
+        "52",
+        "289"
+      ],
+      [
+        "Taxi-related",
+        "1",
+        "0",
+        "35",
+        "15",
+        "3",
+        "0",
+        "0",
+        "0",
+        "24",
+        "78"
+      ],
+      [
+        "During commission of other crimes (not robbery\nor rape)",
+        "6",
+        "0",
+        "21",
+        "8",
+        "5",
+        "1",
+        "4",
+        "0",
+        "27",
+        "72"
+      ],
+      [
+        "Hijacking and attempts",
+        "3",
+        "0",
+        "32",
+        "4",
+        "3",
+        "5",
+        "1",
+        "2",
+        "5",
+        "55"
+      ],
+      [
+        "Law enforcement & security guards in the line of\nduty (excl. police murder)",
+        "2",
+        "0",
+        "12",
+        "6",
+        "0",
+        "1",
+        "3",
+        "0",
+        "3",
+        "27"
+      ],
+      [
+        "Rape-related",
+        "8",
+        "0",
+        "9",
+        "4",
+        "0",
+        "0",
+        "2",
+        "2",
+        "0",
+        "25"
+      ],
+      [
+        "Intervention in an argument",
+        "10",
+        "2",
+        "2",
+        "2",
+        "0",
+        "1",
+        "2",
+        "1",
+        "5",
+        "25"
+      ],
+      [
+        "Illicit mining",
+        "0",
+        "0",
+        "15",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "15"
+      ]
+    ]
+  },
+  {
+    "page": 23,
+    "data": [
+      [
+        "Place of occurrence",
+        "EC",
+        "FS",
+        "GP",
+        "KZN",
+        "LP",
+        "MP",
+        "NW",
+        "NC",
+        "WC",
+        "RSA"
+      ],
+      [
+        "Public place e.g. street/open field/recreational\ncentre/park/beach/parking area",
+        "443",
+        "84",
+        "744",
+        "570",
+        "95",
+        "129",
+        "83",
+        "39",
+        "723",
+        "2 910"
+      ],
+      [
+        "Residences of perpetrator/victim (including residence known by\nvictims/ perpetrator e.g. family/friends/neighbours)",
+        "377",
+        "50",
+        "303",
+        "450",
+        "50",
+        "59",
+        "65",
+        "26",
+        "316",
+        "1 696"
+      ],
+      [
+        "Liquor outlets e.g. shebeen/tavern/pub/night club/bottle store",
+        "62",
+        "16",
+        "42",
+        "34",
+        "12",
+        "13",
+        "12",
+        "6",
+        "14",
+        "211"
+      ],
+      [
+        "Business premises (e.g. mall/restaurants/workplace/office\npark/entertainment centre e.g. movie theatre, gambling facility)",
+        "26",
+        "2",
+        "27",
+        "15",
+        "9",
+        "10",
+        "2",
+        "0",
+        "10",
+        "101"
+      ],
+      [
+        "Spaza/Tuck shop",
+        "0",
+        "3",
+        "16",
+        "33",
+        "0",
+        "5",
+        "5",
+        "0",
+        "29",
+        "91"
+      ],
+      [
+        "Agricultural land/farm/plot/small holding",
+        "9",
+        "8",
+        "12",
+        "9",
+        "3",
+        "6",
+        "8",
+        "0",
+        "11",
+        "66"
+      ],
+      [
+        "Public transport premises (Bus stop/taxi rank, railway premises\ne.g. track/station)",
+        "11",
+        "0",
+        "19",
+        "10",
+        "1",
+        "1",
+        "1",
+        "0",
+        "10",
+        "53"
+      ],
+      [
+        "Sea/river/lake/pool/dam",
+        "12",
+        "1",
+        "1",
+        "17",
+        "1",
+        "0",
+        "1",
+        "0",
+        "3",
+        "36"
+      ],
+      [
+        "Petrol station premises (incl. pumps, ATM site, convenience store\nand food courts)",
+        "1",
+        "0",
+        "7",
+        "3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "3",
+        "14"
+      ],
+      [
+        "Dumping site/refuse site",
+        "2",
+        "1",
+        "7",
+        "0",
+        "0",
+        "1",
+        "1",
+        "0",
+        "1",
+        "13"
+      ],
+      [
+        "Educational institutions (schools, universities, college, day care\nfacilities)",
+        "2",
+        "1",
+        "4",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "9"
+      ],
+      [
+        "Leisure premises e.g. hotel/guest house/bnb/motel/holiday resort",
+        "1",
+        "0",
+        "4",
+        "2",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "8"
+      ],
+      [
+        "Abandoned building",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "0",
+        "0",
+        "3"
+      ],
+      [
+        "Prison/holding cells",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "2"
+      ]
+    ]
+  },
+  {
+    "page": 24,
+    "data": [
+      [
+        null,
+        "Counts of victims",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Dockets",
+        "Victims"
+      ],
+      [
+        null,
+        "2",
+        "3",
+        "4",
+        "5",
+        "7",
+        "8",
+        null,
+        null
+      ],
+      [
+        "Eastern Cape",
+        "28",
+        "4",
+        "1",
+        "1",
+        "0",
+        "0",
+        "34",
+        "77"
+      ],
+      [
+        "Free State",
+        "4",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "4",
+        "8"
+      ],
+      [
+        "Gauteng",
+        "58",
+        "13",
+        "1",
+        "0",
+        "0",
+        "0",
+        "72",
+        "159"
+      ],
+      [
+        "KwaZulu-Natal",
+        "40",
+        "2",
+        "1",
+        "0",
+        "0",
+        "1",
+        "44",
+        "98"
+      ],
+      [
+        "Limpopo",
+        "3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "3",
+        "6"
+      ],
+      [
+        "Mpumalanga",
+        "5",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "5",
+        "10"
+      ],
+      [
+        "North West",
+        "5",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "5",
+        "10"
+      ],
+      [
+        "Northern Cape",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "2"
+      ],
+      [
+        "Western Cape",
+        "47",
+        "9",
+        "3",
+        "0",
+        "1",
+        "0",
+        "60",
+        "140"
+      ],
+      [
+        "Dockets",
+        "191",
+        "28",
+        "6",
+        "1",
+        "1",
+        "1",
+        "228",
+        null
+      ],
+      [
+        "Victims",
+        "382",
+        "84",
+        "24",
+        "5",
+        "7",
+        "8",
+        null,
+        "510"
+      ]
+    ]
+  },
+  {
+    "page": 25,
+    "data": [
+      [
+        "Circumstance/causative factors",
+        "Number of\nvictims",
+        "Station",
+        "Other crimes\ncommitted"
+      ],
+      [
+        "Multiple murder at residence: Six males and two women gunned down in a\nshack while drinking alcohol. Additional four victims were injured and\nhospitalised.",
+        "8 x victims",
+        "Umlazi",
+        "4 x attempted\nmurder"
+      ],
+      [
+        "Multiple murder at residence: Seven men gunned down by two suspects in a\nhouse at Kanana, while socializing.",
+        "7 x victims",
+        "Gugulethu",
+        ""
+      ],
+      [
+        "Suspected stock thieves: Five men were found burnt beyond recognition in a\nvehicle. One body was discovered at back of vehicle and 4 bodies discovered\ninside vehicle. It is presumed that the suspects were attacked during a suspected\nstock theft incident.",
+        "5 x victims",
+        "Bell",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 26,
+    "data": [
+      [
+        "CRIME CATEGORY",
+        "April 2023 to June 2023",
+        "April 2024 to June 2024",
+        "April 2025 to June 2025",
+        "Count Diff"
+      ],
+      [
+        "CONTACT CRIMES (CRIMES AGAINST THE PERSON)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Murder",
+        "14",
+        "9",
+        "6",
+        "-3"
+      ],
+      [
+        "Sexual offences",
+        "1",
+        "1",
+        "1",
+        "0"
+      ],
+      [
+        "Attempted murder",
+        "7",
+        "12",
+        "4",
+        "-8"
+      ],
+      [
+        "Assault with the intent to inflict grievous bodily harm",
+        "5",
+        "10",
+        "2",
+        "-8"
+      ],
+      [
+        "Common assault",
+        "2",
+        "4",
+        "0",
+        "-4"
+      ],
+      [
+        "Common robbery",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "Robbery with aggravating circumstances",
+        "41",
+        "39",
+        "41",
+        "2"
+      ],
+      [
+        "Contact Crime (Crimes against the person)",
+        "70",
+        "75",
+        "54",
+        "-21"
+      ],
+      [
+        "Sexual Offences - Breakdown",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Rape & attempted rape",
+        "1",
+        "1",
+        "1",
+        "0"
+      ],
+      [
+        "Sexual assault",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "Some subcategories of aggravated robbery",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Carjacking",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "Robbery at residential premises",
+        "36",
+        "31",
+        "34",
+        "3"
+      ],
+      [
+        "Robbery at non-residential premises",
+        "1",
+        "3",
+        "4",
+        "1"
+      ],
+      [
+        "TRIO Crime",
+        "38",
+        "34",
+        "38",
+        "4"
+      ],
+      [
+        "CONTACT-RELATED CRIMES",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Arson",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "Malicious damage to property",
+        "1",
+        "3",
+        "4",
+        "1"
+      ],
+      [
+        "Contact-related Crime",
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      [
+        "PROPERTY-RELATED CRIMES",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Burglary at residential premises",
+        "2",
+        "0",
+        "3",
+        "3"
+      ],
+      [
+        "Theft of motor vehicle and motorcycle",
+        "3",
+        "7",
+        "4",
+        "-3"
+      ],
+      [
+        "Stock-theft",
+        "10",
+        "19",
+        "21",
+        "2"
+      ],
+      [
+        "Property-related Crime",
+        "15",
+        "26",
+        "28",
+        "2"
+      ],
+      [
+        "OTHER SERIOUS CRIMES",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "All theft not mentioned elsewhere",
+        "2",
+        "10",
+        "9",
+        "-1"
+      ],
+      [
+        "Other serious crime 2 10 9 -1",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "17 Community reported serious crime 89 114 95 -19",
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  {
+    "page": 27,
+    "data": [
+      [
+        null,
+        "Eastern Cape",
+        "Free State",
+        "Gauteng",
+        "KwaZulu-Natal",
+        "Limpopo",
+        "Mpumalanga",
+        "North West",
+        "Northern Cape",
+        "Western Cape",
+        "Republic Of\nSouth Africa",
+        ""
+      ],
+      [
+        "April 2024 to June 2024",
+        "0",
+        "5",
+        "1",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "9",
+        ""
+      ],
+      [
+        "April 2025 to June 2025",
+        "0",
+        "2",
+        "1",
+        "0",
+        "1",
+        "0",
+        "1",
+        "0",
+        "1",
+        "6",
+        ""
+      ],
+      [
+        "Count diff",
+        "0",
+        "-3",
+        "0",
+        "-2",
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "-3",
+        ""
+      ]
+    ]
+  },
+  {
+    "page": 28,
+    "data": [
+      [
+        null,
+        "EC",
+        "FS",
+        "GP",
+        "KZN",
+        "LP",
+        "MP",
+        "NW",
+        "NC",
+        "WC",
+        "RSA"
+      ],
+      [
+        "Firearm",
+        "366",
+        "43",
+        "673",
+        "613",
+        "43",
+        "85",
+        "56",
+        "6",
+        "710",
+        "2 595"
+      ],
+      [
+        "Knife",
+        "196",
+        "44",
+        "122",
+        "154",
+        "25",
+        "30",
+        "41",
+        "34",
+        "151",
+        "797"
+      ],
+      [
+        "Sharp Instrument",
+        "103",
+        "30",
+        "42",
+        "109",
+        "29",
+        "15",
+        "15",
+        "1",
+        "77",
+        "421"
+      ],
+      [
+        "Blunt Instrument",
+        "67",
+        "8",
+        "20",
+        "73",
+        "10",
+        "12",
+        "5",
+        "1",
+        "11",
+        "207"
+      ],
+      [
+        "Body part",
+        "26",
+        "8",
+        "18",
+        "19",
+        "5",
+        "3",
+        "10",
+        "6",
+        "21",
+        "116"
+      ],
+      [
+        "Stone/ Brick/ Rock",
+        "15",
+        "6",
+        "35",
+        "12",
+        "6",
+        "6",
+        "1",
+        "0",
+        "15",
+        "96"
+      ]
+    ]
+  },
+  {
+    "page": 29,
+    "data": [
+      [
+        null,
+        "Eastern Cape",
+        "Free State",
+        "Gauteng",
+        "KwaZulu-Natal",
+        "Limpopo",
+        "Mpumalanga",
+        "North West",
+        "Northern Cape",
+        "Western Cape",
+        "Republic Of\nSouth Africa",
+        ""
+      ],
+      [
+        "April 2024 to June 2024",
+        "5",
+        "0",
+        "2",
+        "4",
+        "2",
+        "2",
+        "1",
+        "1",
+        "4",
+        "21",
+        ""
+      ],
+      [
+        "April 2025 to June 2025",
+        "2",
+        "1",
+        "3",
+        "6",
+        "1",
+        "2",
+        "1",
+        "0",
+        "2",
+        "18",
+        ""
+      ],
+      [
+        "Count diff -3 1 1 2 -1 0 0 -1 -2 -3",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        ""
+      ],
+      [
+        "Off duty 2 1 3 5 1 1 1 0 2 16",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        ""
+      ],
+      [
+        "On duty",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "2",
+        null
+      ]
+    ]
+  },
+  {
+    "page": 30,
+    "data": [
+      [
+        "Circumstances \u201con duty\u201d",
+        "Total"
+      ],
+      [
+        "Member was a victim of crime, attacked while buying bread and his firearm was\nstolen",
+        "1"
+      ],
+      [
+        "The member was dressed in full uniform, in his private vehicle parked outside the\ntuckshop. When three suspects who were as robbing the shop were fleeing the\nscene. In the process multiple shots were fired at the member and he succumbed\nto his injuries.",
+        "1"
+      ],
+      [
+        "Total",
+        "2"
+      ]
+    ]
+  }
+]

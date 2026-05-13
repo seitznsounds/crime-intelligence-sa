@@ -1,0 +1,41 @@
+{
+  "source": "intelligence/anticorruption-govza/South Africa - Hive Document.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "Consolidated recommendations from the March 2025 PPLAAF/NACAC conference on strengthening whistleblower protection in South Africa.",
+  "key_recommendations": [
+    {
+      "title": "Independent Whistleblowing Authority",
+      "description": "Establish a centralized, independent body to coordinate protection, investigate retaliation, and manage support funds.",
+      "features": ["Binding protection orders", "Legal/Financial/Psychological support", "Whistleblower Support Fund"]
+    },
+    {
+      "title": "Legislative Overhaul",
+      "description": "Amend or replace the Protected Disclosures Act (PDA) with a comprehensive Whistleblower Protections Bill.",
+      "provisions": [
+        "Remove 'Good Faith' requirement",
+        "Reverse burden of proof in retaliation cases",
+        "Criminalize retaliation (min 5 years jail)",
+        "Civil/Criminal immunity for whistleblowers"
+      ]
+    },
+    {
+      "title": "Rewards and Recognition",
+      "description": "Introduce financial rewards based on a percentage of recovered assets and public recognition to shift cultural stigma.",
+      "target_percentage": "Percentage of recovered assets"
+    },
+    {
+      "title": "Broadened Scope of Retaliation",
+      "description": "Expand 'occupational detriment' to 'detrimental action' covering social ostracism, blacklisting, and online harassment."
+    }
+  ],
+  "stakeholders": [
+    "PPLAAF (Platform to Protect Whistleblowers in Africa)",
+    "NACAC (National Anti-Corruption Advisory Council)",
+    "Department of Justice and Constitutional Development (DOJ)",
+    "The Presidency"
+  ],
+  "cultural_pathology": {
+    "term": "impimpi / snitch",
+    "description": "Historical stigma associated with reporting wrongdoing, needing cultural transformation to 'Ubuntu hero' status."
+  }
+}

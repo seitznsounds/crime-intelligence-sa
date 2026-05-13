@@ -1,0 +1,63 @@
+{
+  "source": "intelligence/anticorruption-govza/NACS IMPACT STORIES.pdf",
+  "date_analyzed": "2026-05-12",
+  "entities": [
+    {
+      "name": "Busisiwe",
+      "organization": "National School of Government",
+      "contribution": "Revised ethics courses to include gender and launched webinars on gender and development."
+    },
+    {
+      "name": "Desmond",
+      "organization": "Ahmed Kathrada Foundation Youth Club",
+      "contribution": "Campaigned for rebuilding a local school unfinished for 10+ years."
+    },
+    {
+      "name": "Charmaine",
+      "organization": "Asivikelane",
+      "contribution": "Documented illegal waste burning and mobilized action; community group admin."
+    },
+    {
+      "name": "Ayesha",
+      "organization": "Commission for Gender Equality",
+      "contribution": "Advocating for law amendments to respond to abuses like sextortion."
+    },
+    {
+      "name": "Daniel",
+      "organization": "Bolwa Security Services",
+      "contribution": "Hired compliance officer and tightened documentation to mitigate corruption risks."
+    },
+    {
+      "name": "Naledi",
+      "organization": "Special Investigating Unit (SIU)",
+      "contribution": "Applied data analytics to produce trend reports; preparing SIU's first public corruption trend report."
+    },
+    {
+      "name": "Musa",
+      "organization": "Whistleblower House",
+      "contribution": "Co-created the Whistleblower Support Platform for Reform (WSPR)."
+    },
+    {
+      "name": "Kagiso",
+      "organization": "Special Investigating Unit (SIU)",
+      "contribution": "Applying specialized techniques to handle whistleblower disclosures and municipal outreach."
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Whistleblower Support Platform for Reform (WSPR)",
+      "type": "Multi-stakeholder Platform",
+      "description": "Co-creates whistleblower support measures and training for first responders."
+    }
+  ],
+  "findings": [
+    {
+      "category": "Sextortion",
+      "finding": "Need for amendments to laws regulating gender-based violence to better respond to sextortion."
+    },
+    {
+      "category": "Transparency",
+      "finding": "SIU is moving towards publishing its first public corruption trend report based on data analytics."
+    }
+  ]
+}

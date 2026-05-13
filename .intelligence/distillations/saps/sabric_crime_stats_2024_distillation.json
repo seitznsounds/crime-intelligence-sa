@@ -1,0 +1,26 @@
+{
+  "source": "intelligence/saps/crime-stats/SABRIC-CRIME-STATISTICS-REPORT-2024.pdf",
+  "period": "2024 Calendar Year",
+  "financial_crime_metrics": {
+    "digital_banking_fraud": {
+      "incidents_trend": "86% increase",
+      "losses_zar": "1.888 Billion",
+      "losses_trend": "74% increase"
+    },
+    "card_fraud": {
+      "losses_zar": "1.466 Billion",
+      "losses_trend": "26.2% increase",
+      "dominant_vector": "Card-not-present fraud"
+    },
+    "application_fraud": {
+      "potential_losses_zar": "23 Billion",
+      "actual_losses": "Sharp rise"
+    }
+  },
+  "contact_banking_crime": {
+    "atm_explosive_incidents": "Significant decrease",
+    "banking_robbery_incidents": "35% decline",
+    "client_losses": "64% decrease"
+  },
+  "key_findings": "2024 saw a massive shift towards digital financial crime, with an 86% increase in digital banking fraud incidents. Conversely, physical banking robberies and ATM attacks saw a decline, indicating a shift in syndicate tactics towards higher-yield, lower-risk digital vectors."
+}

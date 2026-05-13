@@ -1,0 +1,159 @@
+{
+  "source": "intelligence/saps/crime-stats/April-2022_23-presentation.pdf",
+  "period": "POLICE RECORDED CRIME STATISTICS",
+  "national_stats": {},
+  "provincial_serious_crimes": {},
+  "provincial_murders": {},
+  "top_stations_murder": [
+    {
+      "name": "CAPE TOWN CENTRAL",
+      "province": "WESTERN CAPE",
+      "count": 3380
+    },
+    {
+      "name": "HONEYDEW",
+      "province": "GAUTENG",
+      "count": 2472
+    },
+    {
+      "name": "JHB CENTRAL",
+      "province": "GAUTENG",
+      "count": 2731
+    },
+    {
+      "name": "MITCHELLS PLAIN",
+      "province": "WESTERN CAPE",
+      "count": 2717
+    },
+    {
+      "name": "DURBAN CENTRAL",
+      "province": "KWAZULU-NATAL",
+      "count": 2385
+    },
+    {
+      "name": "PARK ROAD",
+      "province": "FREE STATE",
+      "count": 2537
+    },
+    {
+      "name": "RUSTENBURG",
+      "province": "NORTH WEST",
+      "count": 1751
+    },
+    {
+      "name": "DELFT",
+      "province": "WESTERN CAPE",
+      "count": 1749
+    },
+    {
+      "name": "PHOENIX",
+      "province": "KWAZULU-NATAL",
+      "count": 1893
+    },
+    {
+      "name": "BROOKLYN",
+      "province": "GAUTENG",
+      "count": 1825
+    },
+    {
+      "name": "MIDRAND",
+      "province": "GAUTENG",
+      "count": 1684
+    },
+    {
+      "name": "STELLENBOSCH",
+      "province": "WESTERN CAPE",
+      "count": 1816
+    },
+    {
+      "name": "PINETOWN",
+      "province": "KWAZULU-NATAL",
+      "count": 1778
+    },
+    {
+      "name": "PRETORIA CENTRAL",
+      "province": "GAUTENG",
+      "count": 2035
+    },
+    {
+      "name": "RANDFONTEIN",
+      "province": "GAUTENG",
+      "count": 1502
+    },
+    {
+      "name": "KEMPTON PARK",
+      "province": "GAUTENG",
+      "count": 1636
+    },
+    {
+      "name": "MFULENI",
+      "province": "WESTERN CAPE",
+      "count": 1654
+    },
+    {
+      "name": "NYANGA",
+      "province": "WESTERN CAPE",
+      "count": 1433
+    },
+    {
+      "name": "EAST LONDON",
+      "province": "EASTERN CAPE",
+      "count": 1554
+    },
+    {
+      "name": "ALEXANDRA",
+      "province": "GAUTENG",
+      "count": 1205
+    },
+    {
+      "name": "AKASIA",
+      "province": "GAUTENG",
+      "count": 1498
+    },
+    {
+      "name": "WORCESTER",
+      "province": "WESTERN CAPE",
+      "count": 1510
+    },
+    {
+      "name": "TEMBA",
+      "province": "GAUTENG",
+      "count": 1490
+    },
+    {
+      "name": "PLESSISLAER",
+      "province": "KWAZULU-NATAL",
+      "count": 1555
+    },
+    {
+      "name": "KRAAIFONTEIN",
+      "province": "WESTERN CAPE",
+      "count": 1699
+    },
+    {
+      "name": "TEMBISA",
+      "province": "GAUTENG",
+      "count": 1590
+    },
+    {
+      "name": "EMPANGENI",
+      "province": "KWAZULU-NATAL",
+      "count": 1393
+    },
+    {
+      "name": "SUNNYSIDE",
+      "province": "GAUTENG",
+      "count": 1902
+    },
+    {
+      "name": "SANDTON",
+      "province": "GAUTENG",
+      "count": 1869
+    },
+    {
+      "name": "THOHOYANDOU",
+      "province": "LIMPOPO",
+      "count": 1101
+    }
+  ]
+}

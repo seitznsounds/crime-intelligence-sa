@@ -1,0 +1,393 @@
+--- Page 1 ---
+SPEAK UP
+FOR HEALTH!
+GUIDELINES TO ENABLE
+WHISTLE-BLOWER PROTECTION
+IN THE HEALTH-CARE SECTOR
+
+--- Page 3 ---
+UNITED NATIONS OFFICE ON DRUGS AND CRIME
+SPEAK UP FOR HEALTH!
+GUIDELINES TO ENABLE
+WHISTLE-B LOWER PROTECTION
+IN THE HEALTH-CARE SECTOR
+UNITED NATIONS
+Vienna, 2021
+
+--- Page 4 ---
+© United Nations, 2021.
+The designations employed and the presentation of material in this information product do not imply the expression
+of any opinion whatsoever on the part of the United Nations Office on Drugs and Crime (UNODC) concerning the
+legal or development status of any country, territory, city or area or of its authorities, or concerning the delimitation of
+its frontiers or boundaries.
+The contents of this publication do not necessarily reflect the views or policies of UNODC, Member States or
+contributory organizations, and neither do they imply any endorsement.
+UNODC encourages the use, reproduction and dissemination of material in this information product. Except where
+otherwise indicated, material may be copied, downloaded and printed for private study, research and teaching
+purposes, or for use in non-commercial products or services, provided that appropriate acknowledgement of UNODC
+as the source and copyright holder is given and that endorsement by UNODC of users’ views, products or services is
+not implied in any way.
+All photos: stock.adobe.com; Cover © Adi; p. vi, p. viii © fovito; p. 4 © Patrizio Martorana; p. 8 © Denis Yarkovoy;
+p. 16 © Evgeny Chernyshov; p. 26 © Patrick Daxenbichler; p. 32 © Grispb; p. 36 © Robert Demeter; p. 40 © Alexandra Giese;
+p. 52 © K.Ozawa; p. 56 © outdoorsman.
+Publishing production: English, Publishing and Library Section, United Nations Office at Vienna.
+
+--- Page 5 ---
+CONTENTS
+Acknowledgements ............................................................................................................... v
+Glossary ................................................................................................................................. vii
+Executive summary ............................................................................................................... ix
+INTRODUCTION ..................................................................................................................... 1
+PART ONE. ESTABLISHING A WHISTLE- BLOWER PROTECTION POLICY 3
+1. WHO IS A WHISTLE- BLOWER? ............................................................................................ 5
+1.1 A member of the organization ...................................................................................... 6
+1.2 Individuals external to the organization ....................................................................... 7
+2. WHAT CAN BE REPORTED? .................................................................................................. 9
+2.1 Determining the types of wrongdoing that can be reported ........................................ 10
+2.2 Determining what exactly constitutes serious wrongdoing in the organization .......... 13
+2.3 Defining and implementing the element of good faith ................................................ 14
+3. WHERE TO REPORT AND HOW? .......................................................................................... 17
+3.1 Establishing internal, open and inclusive reporting channels ..................................... 17
+3.2 Creating accessible and user-friendly reporting interfaces ........................................ 20
+3.3 Ensuring confidentiality throughout the reporting process ......................................... 20
+PART TWO. PROCESSING THE INFORMATION RECEIVED AND PROVIDING PROTECTION 25
+4. HANDLING A REPORT: INITIAL ASSESSMENT .................................................................... 27
+4.1 Acknowledging receipt ................................................................................................. 27
+4.2 Assessing the report ..................................................................................................... 28
+5. CONDUCTING INVESTIGATIONS AND REVIEWS: FACT-FINDING ....................................... 33
+5.1 Carrying out an investigation ........................................................................................ 33
+5.2 Choosing the ideal individual to perform investigations or reviews ............................ 35
+iii
+
+--- Page 6 ---
+SPEAK UP FOR HEALTH! GUIDELINES TO ENABLE WHISTLE- BLOWER PROTECTION IN THE HEALTH-CARE SECTOR
+6. ADDRESSING THE WRONGDOING AND CLOSING THE CASE ............................................. 37
+6.1 Addressing the wrongdoing .......................................................................................... 38
+6.2 Closing the case ............................................................................................................ 39
+7. PROVIDING PROTECTION TO WHISTLE- BLOWERS ............................................................ 41
+7.1 Protection against unjustified treatment ...................................................................... 42
+7.2 Mechanisms of protection to prevent or stop retaliation ............................................. 43
+7.3 Sanctioning against retaliation ..................................................................................... 45
+7.4 Providing support and feedback to the whistle- blower ................................................ 47
+PART THREE. TRAINING AND RAISING AWARENESS 51
+8. TRAINING INITIAL RECIPIENTS OF REPORTS, INVESTIGATORS AND PERSONNEL ........ 53
+8.1 Training initial recipients of reports ............................................................................. 53
+8.2 Training investigators .................................................................................................... 54
+8.3 Training all personnel ................................................................................................... 54
+9. RAISING AWARENESS ......................................................................................................... 57
+10. LEARNING FROM THE PROCESS: RISK ASSESSMENT ....................................................... 59
+iv
+
+--- Page 7 ---
+ACKNOWLEDGEMENTS
+These guidelines were produced by the United Nations Office on Drugs and Crime (UNODC). They were
+developed with generous funding from the Foreign, Commonwealth and Development Office of the United
+Kingdom of Great Britain and Northern Ireland and the Bureau of International Narcotics and Law
+Enforcement Affairs of the United States of America.
+UNODC acknowledges with profound gratitude all those who have contributed their expertise and experi-
+ence to the development of these guidelines.
+UNODC would especially like to thank the experts who participated in the expert group process, which
+included a virtual meeting held on 25 January 2021, and those who provided written and oral feedback:
+Juha Keränen, Ministerial Adviser, Ministry of Finance of Finland; Martin Fletcher, Chief Executive
+Officer, Australian Health Practitioner Regulation Agency, and Adjunct Professor, Royal Melbourne
+Institute of Technology (RMIT University); May Giuliani, Corporate Counsel, Australian Health
+Practitioner Regulation Agency; Aled Jones, Professor of Patient Safety and Healthcare Quality, School of
+Healthcare Sciences, Cardiff University; Brian Mdlalose, State Advocate, National Prosecuting Agency of
+South Africa; Cherese Thakur, Advocacy Coordinator, amaBhungane Centre for Investigative Journalism,
+South Africa; Georgia Georgiadou, Deputy Head of Unit, European Commission; Maria Mollica, Policy
+Officer, European Commission; Khadija Sharife, Investigative Journalist, Coordinator of the Platform to
+Protect Whistleblowers in Africa, South Africa; Gabriella Razzano, Director, OpenUp, South Africa;
+Helené Donnelly OBE, Ambassador for Cultural Change and Lead Freedom to Speak Up Guardian,
+Staffordshire and Stoke on Trent Partnership National Health Service (NHS) Trust; Leonie Raby, Senior
+Intelligence Adviser National Guardian’s Office, United Kingdom; and Sam Bereket, Intelligence and Case
+Review Manager, National Guardian’s Office, United Kingdom.
+UNODC also wishes to thank the experts Sheryl Goodman, President, Procurement Integrity Consulting
+Services, and Ashley Savage, a specialist in whistle-blowing, information rights and governance, as well as
+UNODC consultants Suhaas Ema and Alberto Martínez García, for their substantive contribution to the
+drafting of these guidelines.
+The guidelines benefited from the valuable input of UNODC staff members who reviewed and commented
+on various sections of this guide, including the following: Giovanni Gallo, Julia Pilgrim, Louise Portas,
+Kari Rotkin, Jennifer Sarvary-Bradford, Tim Steele and Brigitte Strobel-Shaw from the Corruption and
+Economic Crime Branch.
+v
+
+--- Page 9 ---
+GLOSSARY
+Health-care sector: a collective group of all legal or natural persons involved in providing and coordinating
+medical and related goods and services.
+Health-care sector organization: any entity, whether public or private, that provides or coordinates the pro-
+vision of medical or related goods and services. This term can also be used to refer to a health-care sector
+facility, defined as any facility, whether public or private, that provides medical or related goods and services,
+including, but not limited to, military hospitals, mental health units and prison medical wards.
+Internal investigation: an examination of reports conducted within an organization, with the aim of estab-
+lishing facts.
+Investigator or fact-finder: a person responsible for carrying out an internal investigation of reported wrong-
+doing or retaliation within the organization. The fact-finder is also in charge of drafting the final report and
+recommending further action to be taken after the investigation has concluded.
+Initial recipient of report: a person in charge of receiving a disclosure made by a reporting person and, in
+most cases, of handling the initial assessment of a report.
+Report: the disclosure of an irregularity that has occurred, is occurring or is likely to occur within an
+organization.
+Reportable wrongdoing: an instance of a work-related misconduct or wrongdoing, including an omission,
+that corresponds to the level of gravity established in the organization’s whistle-b lower protection policy.
+Reporting channel: a system established to disclose alleged wrongdoing and irregularities in a safe manner
+and designed to minimize the risk of retaliation.
+Reporting interface: a means by which a reporting person makes a report through a reporting mechanism.
+Examples of reporting interfaces: face-to-face, telephone, email, online and digital applications, among
+others.
+Reporting person: an individual who discloses a reportable wrongdoing in the workplace.
+Retaliation: unfair or unjustified treatment suffered by a whistle- blower as a consequence of a report previ-
+ously made.
+Whistle- blower: a reporting person, falling within the categories of defined persons able to report according
+to the organization’s whistle-b lower protection policy, who discloses a reportable wrongdoing in good faith
+and/or on reasonable grounds using the established reporting channels.
+vii
+
+--- Page 11 ---
+EXECUTIVE SUMMARY
+CORRUPTION: AN ENDEMIC PROBLEM IN THE HEALTH-CARE SECTOR
+The health-care sector is broad, complex and vulnerable to corruption.1 The sector’s vulnerabilities include
+the complexities of national health-care systems, the wide range of activities along the entire medical supply
+chain and the large number of actors, often from both the public and the private sectors. In addition, the vast
+quantities of assets involved make the sector particularly susceptible to corruption.2 These vulnerabilities
+can also weaken health-care systems, waste resources and make countries less resilient to – and less agile in
+– health emergencies, compromising coverage and access to essential health-care services.3 A lack of safe-
+guards and controls in the medical product supply chain can result in the purchase and distribution of low
+quality, expired or even falsified products and drugs.4 Corruption enables the production, purchase and use
+of falsified medical products.5 At best, such medical products are inefficient; at worst, they harm consumers.
+In both cases, they endanger the lives of the people who need them the most.
+The estimated cost of corruption in the health-care sector is already very high under normal circumstances.
+For instance, in 2008, the World Health Organization (WHO) estimated that out of $5.7 trillion spent world-
+wide on health, $415 billion (around 7.3 per cent) was lost to health-related fraud and abuse.6
+The risk of corruption in the health-care sector becomes even greater and its devastating effects become
+more evident in times of health and sanitary crises.
+REPORTING CORRUPTION IN THE HEALTH-CARE SECTOR: A CRITICAL STEP TO
+ADDRESS OFFENCES AND SAVE LIVES
+Preventing corruption in the health-care sector is critical because of the undue risk it poses to human lives.
+It is essential, therefore, that States and health-care sector organizations establish safeguards and oversight
+mechanisms to prevent corruption.7
+However, despite all the preventive measures that may be established, corruption or other serious wrong-
+doing can still occur. It is therefore critical that health-care sector organizations establish mechanisms to
+detect wrongdoing and address it at the earliest stage possible.
+1 Tim K. Mackey, Taryn Vian and Jillian Kohler, “The sustainable development goals as a framework to combat health-sector
+corruption”, Bulletin of the World Health Organization, vol. 96, No. 9 (September 2018), pp. 634–643.
+2 See, for instance, Oslo statement on corruption involving vast quantities of assets, in particular recommendation 8, in United
+Nations Office on Drugs and Crime (UNODC), “Preventing and combating corruption involving vast quantities of assets: expert
+recommendations” (Vienna, 2019).
+3 Mackey, Vian and Kohler, “The sustainable development goals as a framework to combat health-sector corruption”, Bulletin of
+the World Health Organization, vol. 96, No. 9 (September 2018), pp. 589–664.
+4 UNODC, Research and Trend Analysis Branch, “Report on the COVID-19-related trafficking of medical products as a threat to
+public health”, research brief (Vienna, 2020).
+5 UNODC, Combating Falsified Medical Product-related Crime: A Guide to Good Legislative Practices (Vienna, 2019).
+6 Ben Jones and Amy Jing, “Prevention not cure in tackling health-care fraud”, Bulletin of the World Health Organization, vol. 89,
+No. 12 (December 2011), pp. 858–859.
+7 UNODC, “Accountability and the prevention of corruption in the allocation and distribution of emergency economic rescue
+packages in the context and aftermath of the COVID-19 pandemic”, policy document (Vienna, 2020).
+ix
+
+--- Page 12 ---
+SPEAK UP FOR HEALTH! GUIDELINES TO ENABLE WHISTLE- BLOWER PROTECTION IN THE HEALTH-CARE SECTOR
+One such mechanism is aimed at encouraging personnel in health-care organizations to report suspected
+wrongdoing and protecting them from retaliation in any form.
+In this regard, under article 33 of the United Nations Convention against Corruption, States parties are
+required to consider incorporating into their domestic legal systems appropriate measures to provide pro-
+tection against any unjustified treatment for any person who reports in good faith and on reasonable grounds
+to the competent authorities any facts concerning offences established in accordance with the Convention.
+States parties are also required, under article 8, paragraph 4, to consider establishing measures and systems
+to facilitate the reporting by public officials of acts of corruption to appropriate authorities, when such acts
+come to their notice in the performance of their functions.
+Establishing an effective reporting system and a corresponding whistle-b lower protection mechanism is
+thus recognized as one of the strongest measures for detecting wrongdoing at an early stage8 and enabling
+the rapid implementation of mitigation measures that may prevent the reported wrongdoing from becom-
+ing a large-scale corruption case or causing harm to patients. In the health-care sector, establishing such a
+reporting mechanism can therefore prevent harm and save lives.
+The present guidelines provide a step-by-step process that an organization can follow to establish internal
+policies and procedures that facilitate the disclosure of allegations of wrongdoing and protect reporting
+persons. The guidelines include the information necessary to establish an open and fair reporting culture
+that encourages people to speak up early when they have a concern. The steps covered in the guidelines are:
+• Define who can report and what can be reported
+• Establish a positive reporting culture
+• Identify internal reporting channels and corresponding interfaces
+• Establish effective mechanisms to ensure confidentiality and ways in which disclosures can be
+made anonymously
+• Institute mechanisms to assess disclosures, investigate them internally and take the necessary
+corrective actions
+• Protect whistle- blowers effectively by
+■ preventing retaliation, or
+■ stopping retaliation if it has already occurred
+• Establish mechanisms to address retaliation
+• Provide guidance, support and feedback to whistle- blowers
+• Provide training on and raise awareness of the newly established reporting processes
+• Consider sustainable and innovative ways in which whistle- blower protection policies may evolve
+within the organization
+It is important to emphasize that there is no one-size-fits-all solution. Policymakers should take into consid-
+eration a variety of factors, which cater to both the specific context in which the whistle- blower protection
+policy is drafted by the organization and the unique cultural and societal norms that apply in each country.
+Such policies can be elaborated and enforced by an organization even when the country where the organi-
+zation is located has not adopted legislation on whistle-b lower protection. Where such laws exist, the policy
+should include clear references to them in order to properly inform potential whistle-b lowers.
+8 UNODC, Resource Guide on Good Practices in the Protection of Reporting Persons (Vienna, 2015).
+x
+
+--- Page 13 ---
+INTRODUCTION
+On 11 March 2020, the World Health Organization (WHO) declared the outbreak of the coronavirus disease
+(COVID-19), a respiratory illness caused by the severe acute respiratory syndrome coronavirus 2 (SARS-
+CoV-2), a pandemic.1 The resulting global health crisis forced States to take emergency measures to contain
+and mitigate the spread of the virus. As the risk of corruption in the health-care sector increases under such
+circumstances, the United Nations Office on Drugs and Crime (UNODC) warned that by taking such emer-
+gency measures, Member States had necessarily relaxed safeguards by trading compliance, oversight and
+accountability for speed of response and achievement of rapid impact, thus leading to the creation of signif-
+icant opportunities for corruption to thrive.2
+The health-care sector is already considered vulnerable to corruption under normal circumstances.3
+However, this vulnerability is amplified in times of health crises. Corruption can even exacerbate an outbreak
+or the spread of a virus and undermine efforts to contain a pandemic.4
+The focus of the present guidelines is on the importance of establishing an internal policy for whistle- blower
+protection in the health-care sector in order to detect serious instances of wrongdoing, including corrup-
+tion, that may occur, is occurring or will occur within an organization, address them as early as possible and
+take measures to mitigate their negative impact, including on patient safety and the organization’s reputation
+and finances.
+The guidelines are intended for all organizations in the health-care sector, whether public or private,5 that wish
+to adopt an effective whistle-b lower protection policy. While the guidelines can serve as a guide on how to
+draft such a policy, they are not intended to be a policy template. The specific target audience of these guide-
+lines is an organization’s management, policymakers, compliance officers and any other persons who are in
+charge of deciding, drafting and adopting internal policies and ensuring their effective implementation.
+Readers are guided through the process of adopting a whistle- blower protection policy, including determin-
+ing who can disclose information, what can be disclosed and how, implementing effective protective meas-
+ures, providing guidance and feedback to the whistle-b lower, completing an internal investigation and
+taking corrective action. The guidelines also inform readers as to how to provide the necessary training and
+raise awareness among all personnel of an organization and establish a positive reporting culture.
+As demonstrated in the guidelines, an organization can establish a reporting mechanism and correspond-
+ing protective measures even in the absence of a legislative framework in the countries where it is located.
+While the focus of these guidelines is on the health-care sector, they may benefit organizations in other
+sectors as well.
+1 UNODC, “Accountability and the prevention of corruption in the allocation and distribution of emergency economic rescue
+packages”.
+2 Ibid.
+3 Mackey, Vian and Kohler, “The sustainable development goals as a framework to combat health-sector corruption”.
+4 See, for instance, the role that corruption is alleged to have played during the Ebola crisis, Anti-Corruption Resource Centre,
+“Ebola and corruption overcoming critical governance challenges in a crisis situation”, U4 Brief, No. 4 (March 2015).
+5 Companies should also promote the detection and reporting of violations of their anti-corruption programmes. For more
+information, see UNODC, An Anti-Corruption Ethics and Compliance Programme for Business: A Practical Guide (Vienna, 2013), p. 82.
+1
+
+--- Page 15 ---
+PART ONE.
+ESTABLISHING A WHISTLE- BLOWER
+PROTECTION POLICY
+
+--- Page 17 ---
+Chapter 1.
+WHO IS A WHISTLE- BLOWER?
+Prior to designing any policy, implementers should ensure that any policy they develop is compliant with
+domestic legislation. Implementers should conduct a review of domestic law in the following areas:
+• Dedicated whistle- blower and/or protected disclosures legislation
+• Anti-corruption legislation, including financial-services-related legislation
+• Public service administration legislation
+• Any other legislation related to access to information and data protection which may apply to the
+organization
+Subject to such a review, every organization that wishes to adopt a policy to establish reporting channels for
+legal and administrative wrongdoing, as well as provide protection to persons who disclose reportable
+wrongdoing, needs first to determine who can report.
+Excessively limiting the definition of a whistle- blower could render protective measures ineffective.
+In article 33 of the United Nations Convention against Corruption, the term “whistle-b lower” is intention-
+ally not used; the broader term “reporting persons” is used instead. The Council of Europe defines “whistle-
+blower” as “any person who reports or discloses information on a threat or harm to the public interest in the
+context of their work-based relationship, whether it be in the public or private sector”.6 Directive (EU)
+2019/1937 of the European Parliament and of the Council of 23 October 2019 on the protection of persons
+who report breaches of Union law (also known as the European Union whistle-b lower directive) provides
+that the term “whistle- blower” applies to “reporting persons working in the private or public sector who
+acquired information on breaches in a work-related context”.7 Many jurisdictions do not use the term
+“whistle- blower”. For instance, under the Public Interest Disclosure Act of 1998 of the United Kingdom of
+Great Britain and Northern Ireland, the term is not used; instead, reference is made to employees or workers
+6 Council of Europe, recommendation CM/Rec (2014)7 of the Committee of Ministers to member States on the protection of
+whistle- blowers, adopted by the Committee on 30 April 2014.
+7 European Union, Directive (EU) 2019/1937 of the European Parliament and of the Council of 23 October 2019 on the
+protection of persons who report breaches of Union law, Official Journal of the European Union, L. 305 (26 November 2019), art. 4.
+This directive applies to a wide range of key European Union policy areas where breaches of European Union rules may cause harm
+to the public interest, including the area of public health.
+5
+
+--- Page 18 ---
+SPEAK UP FOR HEALTH! GUIDELINES TO ENABLE WHISTLE- BLOWER PROTECTION IN THE HEALTH-CARE SECTOR
+who disclose information in the public interest. 8 According to one of the most frequently cited academic
+definitions, “whistle- blowers” are “organization members (former or current) [who disclose] illegal, immoral
+or illegitimate practices under the control of their employers to persons or organizations that … effect
+action.”9
+1.1 A MEMBER OF THE ORGANIZATION
+In practice, a whistle-b lower is often a member of an organization who becomes aware of acts of wrongdoing
+in work-related contexts and decides to report them.
+The following categories of health-care professionals working in the private10 or public sector should there-
+fore be included, at a minimum, in the definition of a reporting person:
+• Personnel of the Ministry of Health, including civil servants, permanent and temporary staff,
+administrative staff, assistants, secretaries, facility management personnel, interns and volunteers
+• Personnel of health regulators and/or health-care authorities
+• Personnel of public and private pharmaceutical companies
+• Personnel of public and private health insurance companies
+• Personnel of public and private laboratories
+• Health- and social-care workers and practitioners
+• Personnel of hospitals and other health service facilities
+• Members of local and national governing health boards
+• Emergency and transport services personnel (ambulance drivers, paramedics, etc.)
+• Personnel of providers and distributors of drugs and medical supplies
+• Personnel of companies and organizations involved in the production, trade, sale and distribution
+of health-related products
+• Personnel from civil society organizations related to the health-care sector (Médecins sans fron-
+tières, the International Federation of Red Cross and Red Crescent Societies, etc.)11
+While the policy should focus on “organization members”, it should include all categories of personnel,
+without limitation. As such, the following categories of personnel should be able to report potential wrong-
+doing: permanent and temporary employees, consultants, contractors, experts, interns, facility management
+workers and volunteers.
+In other words, all individuals internal to the organization should be entitled to report instances of legal and
+disciplinary wrongdoing of which they may be aware.
+8 UNODC, Resource Guide on Good Practices in the Protection of Reporting Persons.
+9 This definition was developed by Maria P. Miceli and Janet P. Near in 1985 and is still, to date, the most widely used academic
+definition. See Maria P. Miceli and Janet P. Near, “Organizational dissidence: The case of whistle-blowing”, Journal of Business Ethics,
+vol. 4, No. 1 (February 1985).
+10 UNODC, An Anti-Corruption Ethics and Compliance Programme for Business, p. 82.
+11 The terms in this list should be read in conjunction with the definitions provided in the glossary of terms on pages vii and viii of
+the present guidelines.
+6
+
+--- Page 19 ---
+WHO IS A WHISTLE- BLOWER?
+For example, the National Health Service (NHS) of the United Kingdom defines a whistle-b lower as “an individual
+who works for an NHS organization”. The definition also includes “agency workers, temporary workers, students
+and volunteers”.a
+The United Nations policy on protection against retaliation for reporting misconduct and for cooperating with
+duly authorized audits or investigations applies to “any staff member (regardless the type of appointment or its
+duration), intern, United Nations volunteer, individual contractor or consultant”.b
+a United Kingdom of Great Britain and Northern Ireland, National Health Service (NHS) England, “External Whistle-blowing
+Policy”, (February 2017).
+b Secretary-General’s bulletin on protection against retaliation for reporting misconduct and for cooperating with duly authorized
+audits or investigations, ST/SGB/2017/2/Rev.1, sect. 2.1.
+In addition, the policy should include current and former members of the organization, as well as job appli-
+cants who may observe wrongdoing or malpractice during the recruitment process or other pre-contractual
+negotiations.12
+In defining the term “whistle- blower”, it is important that organizations provide clarity so that prospective
+reporting persons may easily determine the scope and remit of the policy.
+1.2 INDIVIDUALS EXTERNAL TO THE ORGANIZATION
+The policy may also expand the scope of reporting persons to include external individuals who are not
+employed by the organization but may be aware of instances of wrongdoing in a business or contractual
+context. This category can include, for example, intermediaries, business partners, service providers and
+suppliers, candidates in a public procurement process, patients of a hospital or their relatives and clients of
+a pharmaceutical company. It is important that the persons drafting the organization’s whistle-b lower pro-
+tection policy take into account how the policy will be disseminated to external individuals, how reports
+from external individuals may be received and handled and what, if any, means of redress may be
+available.
+During the coronavirus disease (COVID-19) crisis, new actors have come to light and are playing a key role
+in the purchase and distribution of essential medical supplies (e.g., face masks and gloves). Owing to the
+urgency of the situation, Governments and private companies have appointed intermediaries to contact
+foreign companies and make purchases on the international market on their behalf. Limiting the scope of
+individuals that can report may leave these vulnerable operations out of the remit of the reporting mecha-
+nism. A robust policy should be developed in such a way that it can be applied under exceptional
+circumstances.
+Irrespective of the existence of a law on whistle- blower protection, each organization or entity listed above
+will need to have a stand-alone policy for its own personnel. Moreover, a broader sectoral policy applicable
+to multiple organizations working at the same echelon of the medical supply chain could be envisaged.
+However, organizations that decide to implement such policies may face challenges, as they may have to
+harmonize or unify their procedures in order to ensure consistent reporting and handling of reports.
+12 See, for example, European Union, Directive of the European Parliament and of the Council on the protection of persons who
+report breaches of Union law, art. 4, para. 3.
+7
+

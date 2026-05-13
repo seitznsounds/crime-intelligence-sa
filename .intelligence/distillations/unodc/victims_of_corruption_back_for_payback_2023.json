@@ -1,0 +1,39 @@
+{
+  "source": "intelligence/unodc/Victims-report-05_0.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "StAR (Stolen Asset Recovery Initiative) report 'Victims of Corruption: Back for Payback', exploring the legal avenues for victims of grand corruption to obtain reparation and compensation.",
+  "legal_mechanisms": [
+    {
+      "type": "Civil Proceedings",
+      "focus": "Direct claims for damages, tort law, and contract rescission."
+    },
+    {
+      "type": "Criminal Proceedings",
+      "focus": "Compensation orders within criminal sentencing and victim participation in the trial."
+    },
+    {
+      "type": "Class Actions",
+      "focus": "Representative actions for collective damages suffered by communities."
+    },
+    {
+      "type": "Reparation Funds",
+      "focus": "Allocating confiscated assets to dedicated funds for victim benefit or social reuse."
+    }
+  ],
+  "definitions_and_standing": {
+    "victim_concept": "Broadening from natural persons to include legal persons and the State (representing citizens).",
+    "direct_vs_indirect": "Distinguishing between direct financial loss and indirect social/institutional damage.",
+    "standing": "Challenges in granting standing to NGOs or community groups to represent collective interests."
+  },
+  "international_benchmarks": [
+    "UNCAC Article 35: Mandates that persons/entities who suffered damage have the right to initiate legal proceedings for compensation.",
+    "UNCAC Article 53: Requires States to enable other States to initiate civil action in their courts to recover damages.",
+    "UNCAC Article 57: Gives priority to returning confiscated property to prior legitimate owners or compensating victims."
+  ],
+  "cases_mentioned_context": [
+    "Lava Jato (Brazil): Extensive use of leniency agreements and compensation for institutional damages.",
+    "Gürtel (Spain): Victim participation in complex corruption trials.",
+    "Alcatel (Costa Rica): Civil settlement for social damages caused by bribery."
+  ],
+  "critical_finding": "Significant dearth of public information and statistics regarding victim participation and compensation in grand corruption cases globally."
+}

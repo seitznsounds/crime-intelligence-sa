@@ -11,6 +11,7 @@ import PageShell from "@/components/layout/PageShell";
 import IncentiveCalculator from "@/components/incentive-calculator/IncentiveCalculator";
 import SapsInfiltrationHub from "@/components/intel/SapsInfiltrationHub";
 import AccountabilityDashboard from "@/components/intel/AccountabilityDashboard";
+import OPITransitionTracker from "@/components/intel/OPITransitionTracker";
 import Link from "next/link";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
@@ -135,7 +136,7 @@ export default function AnticorruptionPage() {
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
         {[
           { label: "Economic Impact", value: "R1.5T",    sub: "Annual corruption cost (NACAC 2025)", icon: <BarChart3 className="w-4 h-4 text-accent-crimson" />, accent: "crimson" },
-          { label: "Reporting Void",  value: "15%",      sub: "Aware but won't report (HSRC 2025)",  icon: <EyeOff className="w-4 h-4 text-accent-gold" />,    accent: "gold" },
+          { label: "Reporting Void",  value: "15%",      sub: "Aware but won't report (4.9x local gap)",  icon: <EyeOff className="w-4 h-4 text-accent-gold" />,    accent: "gold" },
           { label: "Fear Multiplier", value: "62%",      sub: "Fear retaliation if they report",     icon: <Lock className="w-4 h-4 text-accent-crimson" />,   accent: "crimson" },
           { label: "Zondo Progress",  value: `${enacted}/10`, sub: "Pillars enacted into law",       icon: <Scale className="w-4 h-4 text-emerald-400" />,     accent: "blue" },
         ].map((kpi, i) => (
@@ -237,34 +238,13 @@ export default function AnticorruptionPage() {
         {/* ── Right: OPI Architecture + Key Source Tags ── */}
         <div className="space-y-6">
 
-          {/* OPI Architecture */}
+          {/* OPI Transition Tracker */}
           <motion.div
             initial={{ opacity: 0, x: 16 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.15 }}
-            className="glass-card p-8 border-accent-gold/20 bg-accent-gold/[0.02]"
           >
-            <div className="flex items-center gap-3 mb-2">
-              <Landmark className="w-4 h-4 text-accent-gold" />
-              <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-accent-gold">OPI Architecture — NACAC 2025</h2>
-            </div>
-            <p className="text-[11px] text-muted-foreground mb-6 leading-relaxed">
-              The proposed Office of Public Integrity is South Africa's most ambitious institutional reform since 1994.
-            </p>
-            <div className="space-y-4">
-              {OPI_ARCHITECTURE.map((item, i) => (
-                <div key={i} className="flex items-start gap-3 p-3 rounded-xl border border-border-glass bg-bg-glass">
-                  <div className="mt-0.5 shrink-0">{item.icon}</div>
-                  <div>
-                    <p className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground mb-1">{item.role}</p>
-                    <p className="text-[11px] text-foreground/80 leading-snug">{item.detail}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="mt-6 pt-4 border-t border-border-glass">
-              <span className="text-[9px] font-bold uppercase tracking-widest text-accent-gold">Status: PROPOSED — Not Yet Enacted</span>
-            </div>
+            <OPITransitionTracker />
           </motion.div>
 
           {/* Intelligence Sources */}
@@ -469,6 +449,7 @@ export default function AnticorruptionPage() {
 
       {/* ── Incentive Calculator ── */}
       <motion.section
+        id="calculator"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}

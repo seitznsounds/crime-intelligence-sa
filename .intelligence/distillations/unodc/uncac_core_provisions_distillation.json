@@ -1,0 +1,28 @@
+{
+  "source": "intelligence/unodc/UN_Convention_Against_Corruption.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "The United Nations Convention against Corruption (UNCAC) is the only legally binding universal anti-corruption instrument.",
+  "key_chapters": [
+    {
+      "chapter": "Chapter II: Preventive Measures",
+      "articles": ["Article 6: Preventive anti-corruption body or bodies", "Article 8: Codes of conduct for public officials", "Article 9: Public procurement and management of public finances"]
+    },
+    {
+      "chapter": "Chapter III: Criminalization and Law Enforcement",
+      "articles": ["Article 15: Bribery of national public officials", "Article 20: Illicit enrichment", "Article 32: Protection of witnesses, experts and victims", "Article 33: Protection of reporting persons (whistleblowers)"]
+    },
+    {
+      "chapter": "Chapter IV: International Cooperation",
+      "articles": ["Article 44: Extradition", "Article 46: Mutual legal assistance (MLA)"]
+    },
+    {
+      "chapter": "Chapter V: Asset Recovery",
+      "articles": ["Article 51: General provision (Asset recovery as a fundamental principle)", "Article 53: Measures for direct recovery of property", "Article 57: Return and disposal of assets"]
+    }
+  ],
+  "critical_obligations": [
+    "Requirement for states to establish a dedicated, independent anti-corruption body.",
+    "Mandatory protection for whistleblowers and witnesses.",
+    "Framework for returning stolen assets to their country of origin."
+  ]
+}

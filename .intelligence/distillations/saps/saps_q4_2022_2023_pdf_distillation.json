@@ -1,0 +1,9 @@
+{
+  "source": "intelligence/saps/crime-stats/4th-Quarter-January 2023-March 2023.pdf",
+  "period": "Fourth Quarter 2022-2023 (January to March 2023)",
+  "national_stats": {
+    "total_murders": 6289,
+    "murder_trend": "3.4% increase from previous year"
+  },
+  "key_findings": "The fourth quarter of 2022-2023 saw 6,289 murders recorded nationally."
+}

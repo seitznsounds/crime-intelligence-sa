@@ -1,0 +1,33 @@
+{
+  "source": "intelligence/saps/crime-stats/IPID Annual Report 2022 - 2023.pdf",
+  "period": "2022-2023 Financial Year",
+  "total_case_intake": 5274,
+  "case_categories": [
+    {
+      "category": "Section 28(1)(a) - Deaths in police custody",
+      "count": "TBD (Likely in Table 3b)"
+    },
+    {
+      "category": "Section 28(1)(b) - Deaths as a result of police action",
+      "count": "TBD (Likely in Table 3c)"
+    },
+    {
+      "category": "Section 28(1)(g) - Corruption",
+      "count": 71,
+      "trend": "20% increase from 2021/2022"
+    },
+    {
+      "category": "Section 28(2) - Systemic corruption",
+      "count": 1
+    },
+    {
+      "category": "Section 28(1)(h) - Other criminal matter and misconduct",
+      "count": 144
+    }
+  ],
+  "institutional_nodes": [
+    "Financial Misconduct Committee (FMC)",
+    "National Specialised Investigation Team (NSIT)"
+  ],
+  "key_findings": "The IPID experienced an overall decrease of 0.4% in case intake compared to the previous financial year. However, formal corruption cases increased by 20%."
+}

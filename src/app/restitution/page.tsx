@@ -8,14 +8,15 @@ import PageShell from "@/components/layout/PageShell";
 import { DossierSkeleton } from "@/components/ui/Skeleton";
 
 export default function RestitutionPage() {
-  const [selectedZone, setSelectedZone] = useState<Record<string, unknown> | null>(null);
+  const [selectedZone, setSelectedZone] = useState<any | null>(null);
+  const [zones, setZones] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const supabase = createClient();
 
   useEffect(() => {
     if (!supabase) return;
     setLoading(true);
-    supabase.from("land_restitution_cases").select("*").order("created_at", { ascending: false }).then(({ data }) => { 
+    supabase.from("land_restitution_cases").select("*").order("created_at", { ascending: false }).then(({ data }: { data: any[] | null }) => { 
       if (data) setZones(data); 
       setLoading(false);
     });

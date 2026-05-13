@@ -1,0 +1,798 @@
+--- Page 1 ---
+PL
+G20 SOUTH AFRICA 2025 SHERPA TRACK | Anti-Corruption Working Group
+
+--- Page 2 ---
+G20 ACWG 2025 Accountability Report on Whistleblower Protection
+I. INTRODUCTION ..................................................................................................... 3
+A. OBJECTIVE ............................................................................................................... 3
+B. POLICY CONTEXT ...................................................................................................... 3
+C. METHODOLOGY ........................................................................................................ 4
+D. KEY FINDINGS........................................................................................................... 5
+II. PILLAR 1: LEGAL IMPLEMENTATION FRAMEWORK (Q1-2) ............................ 8
+III. PILLAR 2: SCOPE OF PROTECTED DISCLOSURES (Q3-5) ........................... 12
+IV. PILLAR 3: PROCEDURE FOR PROTECTED DISCLOSURES (Q6-12) ............ 16
+A. ORGANISATIONAL CULTURE .................................................................................... 17
+B. MONITORING OF INTERNAL REPORTING CHANNELS ..................................................... 18
+C. DIRECT REPORTING TO LAW ENFORCEMENT WITHOUT PRIOR INTERNAL DISCLOSURE ..... 20
+D. SAFEGUARDS AGAINST CONTRACTUAL AGREEMENTS BLOCKING REPORTING ............... 21
+E. CONFIDENTIALITY OF REPORTING PERSONS, REPORTS, AND PROVISIONS FOR
+ANONYMOUS REPORTING ............................................................................................. 21
+V. PILLAR 4: REMEDIES AND EFFECTIVE PROTECTION AGAINST
+RETALIATION (Q13-17) .......................................................................................... 23
+VI. PILLAR 5: EFFECTIVENESS, ENFORCEMENT, AND EVALUATION OF THE
+LEGAL FRAMEWORK (Q18-26) ............................................................................. 28
+VII. PROTECTIONS IN PRACTICE .......................................................................... 34
+VIII. CONCLUSIONS AND PROPOSED FUTURE AREAS FOR CONSIDERATION
+. ............................................................................................................................... 35
+REFERENCES ......................................................................................................... 37
+ANNEX 1. G20 ANTI-CORRUPTION WORKING GROUP QUESTIONNAIRE ON
+THE 2019 G20 HIGH-LEVEL PRINCIPLES FOR THE EFFECTIVE PROTECTION
+OF WHISTLEBLOWERS ......................................................................................... 39
+Box 1. Examples from Portugal and South Africa ................................................. 9
+Box 2. India’s interpretation of the “good faith” principle ...................................... 15
+Box 3. Republic of Korea: Limitations and exclusions for protections
+Box 4. Norway: Explicit requirement in legislation for a satisfactory climate
+Box 5. Monitoring internal reporting channels in Australia, India and the
+Republic of Korea
+1
+
+--- Page 3 ---
+Box 6. Brazil's reporting platform
+Box 7. Prohibited retaliations in France ............................................................... 24
+Box 8. Sanctions for retaliating against reporting persons in Indonesia .......... 26
+Box 9. Spain’s Independent Authority for the Protection of Whistleblowers ..... 29
+Box 10. Frameworks for facilitating whistleblower reports and protections
+while protecting personal data ............................................................................. 30
+Box 11. Examples of systems to assess the effectiveness and impact of
+whistleblower protection frameworks .................................................................. 33
+Box 12. Highlights of statistics on protections in practice ................................. 35
+Table 1. Country legislative frameworks for whistleblower protections .............. 9
+Table 2. Country responses on protections at work and third parties ............... 22
+Table 3. Country responses on good faith/reasonable grounds requirement ... 26
+Table 4. Country approaches to anonymous reporting (Q12) ............................ 27
+Table 5. Country examples on the burden of proof in whistleblower retaliation
+cases
+Table 6. Country responses regarding remedies and effective protection
+against retaliation
+Figure 1. Does your country provide for the burden of proof to be shifted to the
+person that has taken detrimental actions? (Yes/No) ......................................... 26
+2
+
+--- Page 4 ---
+I. Introduction
+A. Objective
+Effective protection of whistleblowers and handling protected disclosures are central
+to promoting public and private sector integrity, supporting an open organisational
+culture and preventing and detecting bribery and corruption1. Whistleblowers play an
+essential role in exposing fraud, corruption and other offences, often compromising
+financial and professional stability and, at times, personal safety.
+These are some of the reasons why the South African Presidency of the 2025 G20
+has identified enhancing whistleblower protection mechanisms as one of its core
+priorities for the G20 Anti-Corruption Working Group (ACWG) and chosen to make this
+the focus of the G20 ACWG Accountability Report 2025.
+The G20 ACWG Accountability Report is a self-reporting mechanism for countries to
+demonstrate progress made towards their commitments and areas for improvement.
+The G20 ACWG Accountability Report 2025 aims to provide an overview of the
+implementation by G20 countries of the 2019 G20 High-Level Principles for the
+Effective Protection of Whistleblowers2 and to facilitate the sharing of country
+experiences in this regard. The Report is based on country responses to an agreed-
+upon questionnaire and aims to facilitate the exchange of experiences and practices
+in developing and implementing legal and institutional frameworks for the protection of
+persons reporting corruption cases.
+B. Policy context
+The G20 High-Level Principles for the Effective Protection of Whistleblowers were
+developed during Japan’s Presidency in 2019. The 11 principles included in the High-
+Level Principles represent the G20 ACWG’s recognition of the baseline elements
+governments can consider when developing a legal and institutional framework for
+protecting reporting persons.
+The 2019 G20 High-Level Principles and the G20 ACWG Accountability Report 2025
+are supported by international standards on whistleblower protection. This includes
+the United Nations Convention against Corruption (UNCAC), in particular its article
+33,3 resolution 10/8, entitled “Protection of Reporting Persons”, adopted at the tenth
+session of the Conference of the States Parties (COSP) to UNCAC in December
+1 OECD (2011) Study on G20 Whistleblower Protection Frameworks: Compendium of Best Practices and Guiding
+Principles for Legislation. Available at: https://star.worldbank.org/publications/protection-whistleblowers-
+study-whistleblower-protection-frameworks-compendium-best (Accessed 27 Aug 2025)
+2 The G20 High-Level Principles were developed under Japan’s 2019 G20 Presidency and endorsed by the G20
+countries. Japan (2019) G20 High-Level Principles for the Effective Protection of Whistleblowers Available at:
+https://www.unodc.org/documents/corruption/G20-Anti-Corruption-Resources/Thematic-Areas/Public-Sector-
+Integrity-and-Transparency/G20_High-
+Level_Principles_for_the_Effective_Protection_of_Whistleblowers_2019.pdf (Accessed 28 Aug 2025)
+3 Article 33 of UNCAC states that each State Party shall consider incorporating into its domestic legal system
+appropriate measures to provide protection against any unjustified treatment for any person who reports in good
+faith and on reasonable grounds to the competent authorities any facts concerning offences established in
+accordance with this Convention.
+3
+
+--- Page 5 ---
+20234, as well as the OECD Anti-Bribery Recommendation (Sections XXI-XXII)5 and
+the OECD Recommendation on Public Integrity (Principle 9)6.
+C. Methodology
+Responses to the questionnaire on implementation of the High-Level Principles were
+received from 22 G20 and invited countries: Argentina, Australia, Brazil, Canada,
+China, France, Germany, India, Indonesia, Ireland, Italy, Japan, the Republic of Korea,
+the Netherlands, Nigeria, Norway, Portugal, Russia, Saudi Arabia, Spain, South Africa,
+Türkiye and United Kingdom.7 Countries were also invited to refer to the United
+Nations Office on Drugs and Crime (UNODC) questionnaire on good practices and
+challenges for the protection of reporting persons circulated between December 2024
+and March 20258, which led to the development of an international study on challenges
+and good practices on the protection of reporting persons that was presented at the
+sixteenth session of the Open-ended Intergovernmental Working Group on the
+Prevention of Corruption in June 2025, as requested by COSP resolution 10/8.
+Responses to the UNODC questionnaire have complemented country contributions to
+this report.
+The G20 ACWG questionnaire and country responses are annexed to this report and
+will be published online.
+The following sections provide an overview of countries’ responses to the G20 ACWG
+questionnaire structured around the five pillars of the High-Level Principles: (i) legal
+framework, ii) scope of protected persons, iii) procedure for protected disclosures, iv)
+remedies and effective protection against retaliation, and v) effective enforcement and
+self-evaluation of the legal framework, as well as two questions to assess the
+implementation of whistleblower protection in practice.
+This report was developed under the leadership of the South African G20 Presidency
+with the support of the OECD, AfDB, and UNODC.9
+4 Conference of the States Parties (COSP) resolution 10/8. Available at:
+https://www.unodc.org/corruption/en/cosp/conference/session10-resolutions.html#Res.10-8 (Accessed 27 Aug
+2025)
+5 OECD Recommendation of the Council for Further Combating Bribery of Foreign Public Officials in
+International Business Transactions (Sections XXI-XXII). Available at:
+https://legalinstruments.oecd.org/en/instruments/oecd-legal-0378 (Accessed 28 Aug 2025)
+6 OECD Recommendation on Public Integrity (Principle 9) Available at:
+https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0435 (Accessed 28 Aug 2025)
+7 For note, Directive (EU) 2019/1937 of the European Parliament and of the Council of 23 October 2019 on the
+protection of persons who report breaches of Union law (the ‘Whistleblower Protection Directive’) aims to set
+minimum standards at EU level. This would include in the European jurisdictions included in this report.
+8 Based on a request by the Conference of the States Parties in resolution 10/8 to develop a study on best practices
+and challenges identified on the protection of reporting persons, UNODC circulated a note verbale and
+questionnaire on the protection of whistle-blowers and other reporting persons. The findings of the study were
+presented at the sixteenth session of Open-ended Intergovernmental Working Group on the Prevention of
+Corruption, which was held from 17 to 20 June 2025. The study can be found at:
+https://www.unodc.org/corruption/en/cosp/WGP/session16.html
+9 For example, Article 5(5) of the African Union Convention for the Prevention and Combating of Corruption
+(AUCPCC) provides that state parties should adopt legislative and other measures to protect informants and
+witnesses in corruption and related offences, including protection of their identities.
+4
+
+--- Page 6 ---
+D. Key findings
+The 2025 G20 Accountability Report confirms that member countries have made
+significant progress in implementing the 2019 High-Level Principles on the Effective
+Protection of Whistleblowers. However, important variations remain in scope,
+procedures, and enforcement. The following is a synthesis of findings across the five
+pillars:
+1. Legal Frameworks:
+Most G20 countries have comprehensive whistleblower protection laws. Some
+have dedicated standalone laws, while others combine a dedicated public
+sector law with separate private sector provisions. Most OECD countries apply
+the EU Directive in Law 93/2021, which has a broad sectoral coverage.
+2. Scope of Protected Disclosures and Persons:
+Most countries protect disclosures covering a wide range of wrongdoing: fraud,
+corruption, health & safety, and environmental violations. Protection often
+extends to persons beyond current employees, including those whose
+employment has ended, those in recruitment stages, and associated third
+parties.
+3. Good Faith vs Reasonable Grounds:
+Over half the G20 countries require disclosures made in good faith and/or
+reasonable belief. A limited number of countries no longer require good faith
+but do require a reasonable belief that the disclosure is in the public interest.
+4. Reporting Procedures:
+Most G20 countries permit whistleblowers to report directly to law enforcement
+or competent authorities without exhausting internal channels, while some
+prefer internal reporting but allow external disclosure to prescribed entities,
+ministers, legal advisors, or media under exceptional circumstances. A
+significant number of countries permit anonymous reporting to protect the
+identity and information provided by reporting persons.
+5. Confidentiality and Anonymous Reporting:
+Most countries mandate the confidentiality of whistleblower identity and report
+details. Anonymous reporting is widely accepted with varying follow-up
+requirements.
+6. Protection Against Retaliation:
+Retaliation is prohibited in all twenty-one countries that responded to the
+questionnaire, with applicable sanctions ranging from civil, administrative, to
+criminal penalties. Remedies include compensation and reinstatement. In some
+countries, there is a legal requirement in the whistleblower act or other
+legislation permitting the courts to consider the shift in burden of proof to the
+alleged retaliator.
+5
+
+--- Page 7 ---
+7. Enforcement Institutions and Evaluation:
+More than half of the countries have dedicated bodies to implement
+whistleblower protections, while some rely on multiple prescribed persons
+(regulators) instead of a single authority. A significant number of countries
+reported that they conduct periodic reviews and training to improve frameworks.
+8. Protections in Practice:
+Data on whistleblower activity is uneven across countries. Only a handful of
+countries provided data on the percentage of reported cases that were linked
+to whistleblower protection and circumstances where anonymity was required.
+Proposed Future Areas for Consideration
+Pillar I
+Dedicated Legal Frameworks: Countries can enact more dedicated legal
+frameworks for the protection of reporting persons in both private and public sectors.
+The legal frameworks should aim at a minimum to cover a wide range of material and
+personnel scope.
+Pillar II
+• Expanding Coverage: Extend protections to former employees, individuals in
+advanced recruitment stages, third parties connected to whistleblowers, and
+informal or non-traditional work arrangements to close protection gaps.
+• Clarifying Good Faith/Reasonable Grounds Standards: Countries can
+develop clearer definitions and legal frameworks on “good faith” and
+“reasonable grounds” to enhance legal certainty.
+Pillar III
+• Enhancing Confidentiality and Anonymous Reporting: Strengthen uniform
+standards and mechanisms to protect whistleblower identities and support
+effective anonymous reporting to bolster reporting confidence.
+• Countries can cultivate organisational cultures that foster trust and enhance
+open reporting. Fostering organisation culture remains a critical dimension that
+requires sustained efforts across the public and private sectors, along with
+tailored measures to address diverse needs, including gender considerations.
+• Addressing Gender-Sensitive Reporting: Integrate gender-sensitive and
+inclusivity considerations into reporting channels and protection measures.
+Pillar IV
+• Shifting Burden of Proof and Remedy Improvements: Advocate wider
+adoption and application of provisions on shifting the burden, also with
+accessible and timely remedies, including interim relief and compensation
+covering both direct and indirect retaliation effects.
+Pillar V
+• Capacity Building and Resourcing: Invest consistently in training and
+resourcing of authorities and organisations entrusted with whistleblower
+protections to ensure proficient, impartial, and independent enforcement.
+6
+
+--- Page 8 ---
+• Gaps in Transition and Developing Countries: Provide technical support to
+address the gaps in the implementation of whistleblower protection in
+developing countries, particularly in Africa. This would provide an opportunity
+to undertake technical assistance similar to the asset recovery measures.
+• Balancing Data Privacy and Transparency: Develop harmonised
+frameworks balancing data protection laws with whistleblower confidentiality
+and reporting efficacy to avoid undue barriers.
+• International Cooperation and Knowledge Sharing: Enhance cross-border
+collaboration, peer learning, and technical assistance among G20 countries to
+disseminate best practices and elevate whistleblower protections globally.
+• Enhancing Evaluation, Periodic Assessments and Data on
+Whistleblowing: Whistleblowing laws should provide for regular evaluations
+and periodic assessments as well as a clear requirement for governments to
+maintain, publish and retain relevant data to support actions taken to protect
+reporting persons.
+7
+
+--- Page 9 ---
+II. Pillar 1: Legal Implementation Framework (Q1-2)
+Pillar 1 calls on countries to establish comprehensive legal frameworks and policies
+for the protection of whistleblowers, and preferably a dedicated framework. Principle
+1 also calls on countries to encourage organisations to establish and implement
+protections and provide guidance on the elements of these protections.
+According to country responses, most G20 countries have a legislative framework in
+place for the protection of whistleblowers. In many jurisdictions, whistleblowers can
+report a wide range of misconduct across both the public and private sectors, and most
+categories of personnel are eligible for protection. In most responding countries, these
+protections are established through standalone laws or policies, while in others, the
+framework is drawn from multiple legal or policy sources.
+For example, India applies a whistle-blower resolution and Canada applies a dedicated
+law for the public sector, complemented by additional provisions for the private sector.
+In Brazil, there is a law on the protection of users of public services, supplemented
+with other legal provisions, including a decree on safeguards to protect the identity of
+whistleblowers reporting illegal acts and irregularities committed against the federal
+public administration. The Republic of Korea has a dedicated whistleblower protection
+framework through the Public Interest Whistleblower Protection Act, complemented by
+the anti-corruption act and several related laws that extend protections to both public
+and private sectors. South Africa has a dedicated whistleblower protection law, the
+Protected Disclosures Act, which applies across public and private sectors, but
+protections are also reinforced through other legislation such as the Prevention and
+Combating of Corrupt Activities Act, the Companies Act, the Financial Intelligence
+Centre Act, and the Labour Relations Act. In China, regulations apply broadly to all
+citizens, without distinguishing between public and private sector whistleblowers.
+Moreover, the Kingdom of Saudi Arabia has adopted a dedicated, comprehensive
+framework for the protection of individuals reporting wrongdoing with the enactment of
+the "Law on the Protection of Informants, Witnesses, Experts, and Victims". The law
+applies to both the public and private sectors. The scope of the law covers information
+or evidence related to the commission of major offences requiring detention under law.
+A "Reporting Person" (also known as a whistleblower) is defined as an individual who
+voluntarily discloses information or provides evidence indicating that a crime has been,
+is being, or can be committed, or identifies those involved in a crime. Protection is
+provided to a broad range of individuals, including reporting persons, witnesses,
+experts, and victims, and additionally close relatives (spouses, relatives of the
+protected person, and any other persons whose close relationship with the informants,
+witnesses, experts, or victims might expose them to danger or harm). Protection also
+extends to former employees and individuals in advanced recruitment who suffer
+consequences due to reporting wrongdoing.
+8
+
+--- Page 10 ---
+Table 1. Country legislative frameworks for whistleblower protections10
+Countries Laws/Policies/ Dedicated (D) /Multiple Public sector
+Regulations (M) sources of protections (PU)
+law/policies Private sector
+protections (PR)
+Both (B)
+Australia M B
+Brazil M B
+Canada D PU
+China M Not specified
+France D B
+Germany D B
+India D+M B
+Ireland D B
+Italy D B
+Japan D B
+Republic of D+M B
+Korea
+Netherlands D B
+Nigeria M B
+Norway M B
+Portugal D B
+Russia M B
+Saudi Arabia D B
+South Africa D+M B
+Spain D B
+Türkiye M B
+United Kingdom P D B
+Box 1. Examples from Portugal and South Africa
+Portugal
+The whistleblower protection framework in Portugal consists of:
+• Law 93/2021 of 20 December, which establishes the general regime for the
+protection of whistleblowers, transposing Directive (EU) 2017/1937 of the
+European Parliament and of the Council, of 23 October 2019, on the
+protection of persons who report breaches of Union Law.
+• Decree-Law 109-E/2021, of 9 December, which establishes the National Anti-
+Corruption Mechanism (MENAC) and the general regime for the prevention
+of corruption.
+o MENAC’s 2023 guide on the instruments of the general regime on the
+prevention of corruption, available here.
+o MENAC’s recommendations, available here.
+10 Tables included in this report reflect only the countries that provided responses to the G20 ACWG on these
+questions.
+9
+
+--- Page 11 ---
+o MENAC’s guidelines, available here.
+o MENAC’s information about the general regime on the prevention of
+corruption platform, available here.
+The legal framework on whistleblowers applies to both the public and the private
+sector.
+The wrongdoings covered by Law 93/2021, of 20 December, are foreseen in article
+2, namely paragraph 1 (material scope):
+a) the act or omission contrary to rules contained in the acts of the European Union
+referred to in the Annex to Directive (EU) 2019/1937 of the European Parliament
+and of the Council, to national rules implementing, transposing or complying with
+such acts or to any other rules contained in legislative acts implementing or
+transposing them, including those providing for crimes or administrative offences,
+concerning the fields of:
+i) Public procurement;
+ii) Financial services, products and markets and prevention of money
+laundering and terrorist financing;
+iii) Product safety and compliance;
+iv) Transport safety;
+v) Environmental protection;
+vi) Radiation protection and nuclear safety;
+vii) Food and feed safety, animal health and animal welfare;
+viii) Public health;
+ix) Consumer protection;
+x) Protection of privacy and personal data and security of network and
+information systems;
+b) the act or omission contrary to and detrimental to the financial interests of the
+European Union referred to in Article 325 of the Treaty on the Functioning of the
+European Union (TFEU), as specified in the applicable Union measures;
+c) the act or omission contrary to the internal market rules referred to in Article 26(2)
+TFEU, including competition and state aid rules, as well as corporate tax rules;
+d) violent crime, especially violent and highly organised crime, as well as the crimes
+provided for in Article 1(1) of Law 5/2002, of 11 January, establishing measures to
+combat organised and economic-financial crime; and
+e) the act or omission contrary to the purpose of the rules or norms covered by
+paragraphs a) to c).
+The categories of persons covered by Law 93/2021, of 20 December, are foreseen
+in Article 5 and Article 6(4) (personal scope).
+As per Article 5, a whistleblower is “a natural person who publicly denounces or
+discloses an infraction based on information obtained within the scope of their
+professional activity, irrespective of the nature of that activity and the sector in which
+it is exercised”.
+10
+
+--- Page 12 ---
+The following persons may be considered whistleblowers, among others:
+a) Workers in the private, social or public sector;
+b) Service providers, contractors, subcontractors and suppliers, as well as any
+persons acting under their supervision and direction;
+c) Shareholders and persons belonging to administrative or management bodies or
+to supervisory or controlling bodies of legal persons, including non-executive
+members;
+(d) Volunteers and interns remunerated or unremunerated.
+As per Article 6(4) of the Law 93/2021, of 20 December, the protection conferred by
+this Law, is extended, with the necessary adaptations, to:
+a) A natural person who assists the whistleblower in the denunciation procedure and
+whose assistance must be confidential, including trade union representatives or
+workers' representatives;
+b) Third parties connected to the whistleblower, such as work colleagues or family
+members, who may be the target of retaliation in a professional context; and
+c) Legal persons or similar entities that are owned or controlled by the whistleblower,
+for which the whistleblower is employed or otherwise connected in a professional
+context.
+South Africa
+The Protected Disclosures Act, 2000 (Act No. 26 of 2000) (the PDA), is South
+Africa's primary legislation for whistleblower protection. The PDA deals with, among
+others, procedures that must be followed to make protected disclosures (see
+sections 5 to 9 of the PDA) and remedies that are available to persons who have
+been subjected to occupational detriment (see section 4 of the PDA).
+The Act was amended in 2017 to:
+• extend the application of the Act to any person who works or worked for the
+State or another person or who in any manner assists or assisted in carrying
+on or conducting the business of an employer or client as an independent
+contractor, consultant, agent, or person rendering services to a client while
+being employed by a temporary employment service;
+• regulate joint liability of employers and their clients;
+• introduce a duty to inform (provide feedback) employees or workers who
+have disclosed information regarding unlawful or irregular conduct;
+• provide for immunity against civil and criminal liability flowing from a
+disclosure of information that shows or tends to show that a criminal offence
+has been committed, is being committed, or is reasonably likely to be
+committed; and
+• create an offence for the disclosure of false information.
+On 14 September 2018, the Minister of Justice and Correctional Services (since the
+2024 elections, the Minister of Justice and Constitutional Development) issued
+regulations under section 10 of the PDA in terms of which the Minister extended the
+list of persons or bodies to whom protected disclosures may be made (Protected
+Disclosures Act: Regulations (English/Afrikaans) to include an additional 33
+institutions or bodies to whom disclosures may be made. Section 10(4)(a) of the
+11
+
+--- Page 13 ---
+PDA requires that the Minister must, after consultation with the Minister for the Public
+Service and Administration, issue practical guidelines which explain the provisions
+of the PDA and all procedures which are available in terms of any law to employees
+or workers who wish to report or otherwise remedy an impropriety.
+Application of the Protected Disclosures Act in South Africa
+The PDA and the regulations issued under the Act apply to the public and private
+sectors (see section 2(1)(a) of the PDA).
+United Kingdom
+Whistleblowing protections in the UK are in Part IVA, section 47B and section 103A
+of the Employment Rights Act 1996 (ERA), as amended by the Public Interest
+Disclosure Act 1998 (PIDA). The ERA protects workers in the public and private
+sectors who make “protected disclosures” from being subjected to detriment
+(adverse treatment) or if they are employees, dismissal from their employer.
+For a worker to receive protection, they must:
+• Reasonably believe that a disclosure is “in the public interest”. Generally, this
+means that the wrongdoing also affects others (for example, other workers or
+the public).
+• Make a disclosure about one of more types of wrongdoing listed in the ERA.
+These include a criminal offence; failure to comply with a legal obligation;
+miscarriage of justice; danger to the health and safety of any individual,
+damage to the environment, or the deliberate concealment of information
+falling within any of these categories.
+• Make the disclosure in line with one of section 43C- 43H ERA, usually to their
+employer, another responsible person, or a range of organisations prescribed
+in secondary legislation as prescribed persons.
+Whistleblowing protections apply to a broader category of workers than would
+otherwise be covered under the ERA, such as agency workers; individuals
+undertaking training or work experience; self-employed doctors, dentists, and
+pharmacists in the National Health Service (NHS); police officers; and student
+nurses and student midwives.
+III. Pillar 2: Scope of protected disclosures (Q3-5)
+Pillar 2 addresses the scope of protected disclosures, the condition of reports to be
+made in good faith and on reasonable grounds to qualify for protection, and the
+limitations that may apply. Principle 2 of the HLPs encourages countries to adopt a
+broad and clear definition of wrongdoing for protected disclosures, clearly specifying
+limited exceptions. Disclosures that expose hidden wrongdoing or the deliberate
+concealment of such wrongdoing should also be protected. Principle 3 provides that
+protection should be available to the broadest range of persons, including, at a
+minimum, employees, public officials or workers, regardless of their contractual
+12
+
+--- Page 14 ---
+relationship. It further affirms that disclosures made outside official employment
+relationships to competent authorities should be protected, including where
+confidentiality agreements exist.
+The HLPs complement article 33 of UNCAC, which requires States Parties to consider
+providing protection against unjustified treatment for any person who reports in good
+faith and on reasonable grounds. International good practices related to the protection
+of whistleblowers call for the use of “reasonable grounds” rather than “good faith”11.
+However, in instances where good faith is included in the national frameworks,
+resolution 10/8 invites States Parties to interpret this notion as the reporting person’s
+reasonable belief that the information reported is true, and without consideration of
+personal reasons that may be behind the report.
+This is also consistent with the OECD Anti-Bribery Recommendation (XXI-XXII), which
+calls for strong and effective legal and institutional frameworks to protect and/or to
+provide remedies for the broadest possible range of persons in both the public and
+private sectors against retaliation from reporting wrongdoing on reasonable grounds.
+It also supports extending protection to the broadest possible range of reporting
+persons in a work-related context. They are likewise aligned with the OECD Public
+Integrity Recommendation (Principle 9), asking countries to provide clear rules and
+procedures for reporting suspected violations of any integrity standards, ensuring
+protection against all types of unjustified treatments as a result of reporting in good
+faith and on reasonable grounds.
+Half of the countries report that their frameworks provide protection to reporting
+persons beyond the termination of the work-based relationship, during advanced
+stages of recruitment or contractual negotiations, and to third persons associated with
+the reporting person who may be subject to retaliation.
+Table 2. Country responses on protections at work and third persons
+Countries Work-based Advanced stage of Third persons
+relationship recruitment (Y/N) connected to the
+has ended reporting person
+(Y/N) (Y/N)
+Australia Y Y Y
+Canada N Y N
+China N N N
+France Y Y Y
+Germany Y Y Y
+India Y Y Y
+Ireland Y Y Y
+Italy Y Y Y
+Japan Y N N
+Republic of Y Y Y
+Korea
+11 See for instance the European Union Directive of 23 October 2019 on the protection of persons who report
+breaches of Union law: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019L1937
+13
+
+--- Page 15 ---
+Netherlands Y Y Y
+Nigeria N N N
+Norway N N N
+Portugal Y Y Y
+Russia Y Y Y
+Saudi Arabia Y Y Y
+Spain Y Y Y
+Türkiye Y Y Y
+United Kingdom Y N N
+Regarding the range of reporting persons, roughly half of the responding countries
+state they provide protection to persons in the public and private sectors, including
+former or current workers or those negotiating an employment contract.
+More than half of the countries require disclosures to be made in good faith, on
+reasonable grounds, or both, to qualify for protection. In Australia and the United
+Kingdom, disclosures do not need to be made in good faith; only reasonable grounds
+are required. About a third of countries explicitly state that the motive for reporting is
+not taken into consideration as long as it is done in good faith and/or on reasonable
+grounds. (see Table 3).
+Saudi Arabia’s Law on the Protection of Informants, Witnesses, Experts, and Victims
+focuses on the act of reporting crimes, which is not strictly limited to current
+employment. This law extends protection to those whose work-based relationship has
+ended (former employees); [Article 13] the law also covers those who are during the
+advanced stages of a recruitment process or contractual negotiations, and who could
+suffer retaliation; [Article 1] and third persons connected to the reporting person, who
+could suffer retaliation in a work-related context (spouses and relatives of the reporting
+person, and any other persons whose close relationship might expose them to danger
+or harm).
+Table 3. Country responses on the good faith/reasonable grounds requirement
+Countries Good faith (GF) / Reasonable grounds (RG), Both (B)
+Argentina Not explicitly stated
+Australia Not required/ RG
+Brazil B
+Canada Not explicitly stated
+China Not explicitly stated
+France B
+Germany B
+India GF implied
+Ireland GF implied
+Italy RG
+Japan GF implied/ RG
+Republic of RG
+Korea
+14
+
+--- Page 16 ---
+Netherlands RG
+Nigeria GF implied/RG
+Norway B
+Portugal B
+Russia B
+Saudi Arabia B
+South Africa B
+Spain B
+Türkiye No response provided
+United Kingdom RG
+In several countries, the concept of good faith is recognised in law but not always
+explicitly defined in whistleblower protection frameworks. In Nigeria, courts, especially
+in contract law, interpret good faith as the absence of bad faith, while the Corrupt
+Practices and Other Related Offences Act requires that a whistleblower have
+reasonable grounds to believe the information reported is true. In India, the term is not
+expressly defined Public Interest Disclosure and Protection of Informers (PIDPI)
+Resolution 2004, but its interpretation is guided by established legal principles and
+case laws under administrative jurisprudence. In the Kingdom of Saudi Arabia, Article
+18 of the Law stipulates that a criminal action may not be brought against an informant,
+witness, or expert because of disclosure, except in cases where the report was filed in
+bad faith or with gross negligence, or contained knowingly false information. This
+explicitly links protection to good faith reporting. While the law does not provide a
+specific definition of “good faith”, the reporting person must have a genuine and
+reasonable belief that the facts reported are accurate and indicate wrongdoing.
+Furthermore, a false report made in bad faith or with gross negligence can lead to the
+loss of all protection.
+Box 2. India’s interpretation of the “good faith” principle
+India
+Good faith is guided by established legal principles and case law in both administrative
+and corporate contexts. In administrative law, including service jurisprudence, “good
+faith” is interpreted under Section 3(22) of the General Clauses Act, 1897: “A thing
+shall be deemed to be done in good faith where it is in fact done honestly, whether it
+is done negligently or not.” Indian courts have further clarified that honesty of purpose,
+absence of ulterior motive, and diligent fact-checking are key indicators of good faith.
+In the private sector, company whistleblower policies often reference “good faith” and
+define it in operational terms.
+Roughly half of the countries report applying different kinds of limitations and
+exclusions for protections. These include disclosures involving classified information,
+professional secrecy (medical or legal), law enforcement confidentiality, judicial
+deliberation secrecy, state security interests, or data protection requirements. Some
+countries, for instance, Spain, also exclude cases where information has been rejected
+by internal reporting channels, relates to interpersonal conflicts, only concerns the
+informant and the persons involved, or consists of information already public or mere
+15
+
+--- Page 17 ---
+rumours. Under Turkish law, applications intended to burden employers or cause
+undue difficulty are prohibited. Additionally, applications using another person’s
+identity, lacking legal capacity, based solely on speculation without evidence, or
+repeatedly submitted in a similar manner to abuse rights, are also not processed. In
+Korea, whistleblower protection is denied if reports are knowingly false or made for
+financial gain.
+Box 3. Republic of Korea: Limitations and exclusions for protections
+Republic of Korea
+Evidence of public interest infringement should be attached to the report. If a public
+interest violation report is made despite knowing or being able to know that the content
+of the report is false, and if a report is made for money, preferential treatment for work,
+or other illegal purposes, the report shall not be regarded as a report for public interest
+and hence no protection will be granted.
+IV. Pillar 3: Procedure for protected disclosures (Q6-12)
+Pillar 3 addresses issues of an organisational culture to build confidence in reporting;
+monitoring of established reporting channels; gender-sensitive and inclusive reporting
+channels; reporting to law enforcement or relevant authorities; and measures to
+safeguard confidentiality and the handling of anonymous reports when such reporting
+is possible.
+These principles are aligned with CoSP resolution 10/8, in particular par. 3, which
+encourages governments to establish and strengthen confidential complaint systems
+and protected internal reporting systems that are accessible, diversified and inclusive,
+and par. 12, which calls on governments to establish, facilitate and maintain complaint
+intake systems that allow reporting persons in their professional context or workplace
+environment to report directly to law enforcement or other relevant authorities without
+having to exhaust internal reporting first.
+The OECD Anti-Bribery Recommendation complements this framework: Section XXI
+encourages countries to provide easily accessible and diverse reporting channels and
+to raise awareness of them, while Section XXII emphasises the importance of allowing
+anonymous reports, ensuring full protection if a whistleblower’s identity is revealed,
+and prohibiting organisations from using contractual clauses, such as confidentiality
+agreements, NDAs, or settlement terms, to limit or override the legal rights and
+protections of whistleblowers.
+Paragraph 14 of resolution 10/8 further encourages States Parties, in accordance with
+domestic legislation, to ensure that individual legal or contractual obligations, such as
+confidentiality or non-disclosure agreements, cannot be used to conceal corrupt acts
+from scrutiny in order to deny protection or penalise reporting persons for having
+reported information on corruption-related offences to the competent authorities.
+Principle 9 of the OECD Recommendation on Public Integrity further emphasises the
+need for an open organisational culture that is responsive to integrity concerns. It calls
+16
+
+--- Page 18 ---
+for enabling individuals to report ethical dilemmas, integrity issues, or errors freely,
+with leadership providing timely guidance and resolution. It also requires countries to
+offer alternative channels for reporting suspected integrity violations, including
+confidential reporting to a body capable of conducting an independent investigation.
+Paragraph 13 of resolution 10/8 encourages States Parties to initiate, develop or
+improve specific training programmes for their personnel responsible for protecting
+reporting persons, in line with article 33 of UNCAC, to effectively protect those persons
+against any unjustified treatment as a result of reporting.
+A. Organisational Culture
+Country responses show considerable variation in how “organisational culture” is
+understood, ranging from awareness-raising and publishing guidelines to creating safe
+environments where individuals feel free to speak up. Across countries, efforts to build
+such a culture combine legal requirements, training, and accessible reporting systems.
+Whistleblowing is promoted as a right tied to free speech, accountability, and
+workplace safety, with laws requiring clear guidance on reporting, often made visible
+online or in workplaces. Authorities and organisations have established accessible
+channels, clarified confidentiality and follow-up procedures, and provided support,
+while training and awareness campaigns help people speak up. These measures are
+complemented by governance frameworks, compliance programmes, and oversight
+mechanisms to guarantee confidentiality, timely follow-up, and proper handling of
+reports. In both the public and private sectors, practical tools such as model policies,
+surveys, awards, and peer-learning networks reinforce integrity and safe
+environments.
+In Saudi Arabia, the Oversight and Anti-Corruption Authority (Nazaha), is the main
+body responsible for receiving reports. The multiplicity of channels for receiving reports
+guarantees the confidentiality of reports and the protection of personal data for the
+reporter in a manner that prevents identification, and protection from any harm that
+may come upon them. In addition, Nazaha’s reporting system does not allow the
+individual receiving the report to view their data, and this is only done within certain
+limits and according to written procedures, as Nazaha has the right to take all
+necessary measures to provide protection for those who report or provide information
+about corruption, administrative and financial violations. Moreover, Nazaha actively
+promotes public awareness about the importance of combating corruption and
+reporting wrongdoing, encouraging citizens to partner in this fight through various
+communication channels. Furthermore, specialised programs for employees
+responsible for preventing and combating corruption are adopted, which include law
+enforcement officers, public prosecutors and judges. Training programs have also
+been held to qualify specialists in reporting and protecting whistleblowers. These
+programs create a foundation for the mechanisms of receiving and handling reports.
+In China, organisational culture is understood as protections enshrined in the
+Constitution and criminal law, with citizens allowed to criticise, suggest, accuse, and
+report without fear of retaliation, and state organs required to protect them. Brazil has
+integrity units in public bodies to monitor integrity and anti-corruption programmes,
+provide training, and build trust in reporting. Norway has introduced legal requirements
+to promote a climate of free expression within organisations.
+17
+
+--- Page 19 ---
+Italy is strongly committed to fostering an organisational culture supportive of
+whistleblowers, primarily through a comprehensive training program developed by the
+National School of Administration (SNA). Both general and specialised courses are
+offered to explain whistleblowing mechanisms and to address cultural and social
+resistances that often discourage reporting.
+In addition, in 2025 a quantitative survey involving around 6000 respondents (the
+research: “Training for Change: Open Administration and Innovative Training Models
+for the Effective Implementation of Whistleblowing as a Tool for the Identification,
+Prevention, and Management of Maladministration”) was published, to assess civil
+servants’ perceptions of whistleblowing, to evaluate the impact of training activities on
+reducing negative attitudes.
+Box 4. Norway: Explicit requirement in legislation for a satisfactory climate
+Norway
+The Working Environment Act now explicitly encompasses the objective of fostering a
+satisfactory climate for free expression within the undertaking. The rationale for this
+amendment was that the expression climate in a workplace may be decisive for
+whether a report is submitted, as well as for how such reports are handled.
+In connection with the introduction of the new whistleblowing regulations in the
+Working Environment Act, the Norwegian Labour Inspection Authority conducted
+several information campaigns about the whistleblowing regulations.
+B. Monitoring of internal reporting channels
+Almost half of the country responses indicated that their frameworks include the active
+monitoring of the functioning of internal reporting channels, relying on a mix of
+oversight bodies, legal obligations, inspections, and sanctions to ensure effectiveness.
+Australia uses independent oversight in regard to the public sector through the
+Commonwealth Ombudsman and the Inspector-General of Intelligence and Security.
+France and Italy report that their anti-corruption agencies review reporting frameworks
+and report deficiencies. The Kingdom of Saudi Arabia encourages, and in specific
+regulated sectors, requires the establishment of internal reporting channels.
+Monitoring is performed through multiple mechanisms, primarily led by the Oversight
+and Anti-Corruption Authority (NAZAHA), which serves as the primary anti-corruption
+agency. NAZAHA encourages and monitors the implementation of ethical frameworks
+in government entities and, while it does not directly monitor every private sector
+channel, its role in combating corruption drives broader adoption and provides an
+external avenue for reporting if internal channels are deficient. Additionally, in the
+public sector, Article 20 of the Code of Professional Conduct and Public Service Ethics
+stipulates that employers must report any instances of corruption they encounter
+during their employment. Furthermore, the Executive Regulations for Human
+Resources in the Civil Service mandate that government entities announce the Code
+of Professional Conduct and Public Service Ethics to their employees and disseminate
+awareness of it through various means, emphasising that violation of the Code
+constitutes a violation of job duties.
+18
+
+--- Page 20 ---
+Japan and the Republic of Korea conduct surveys or annual inspections to assess the
+effectiveness of internal channels and recommend improvements. Norway requires
+organisations with at least five employees to have whistleblowing routines, overseen
+by the Labour Inspection Authority. In Spain, human resources or inspection
+departments are tasked with reviewing reporting protocols every three years. Other
+countries impose fines for failing to establish internal channels, mandate their
+introduction for organisations above a certain size, or encourage adoption without
+formal monitoring. Several more country examples are provided in Box 5.
+Box 5. Monitoring internal reporting channels in Australia, India and the
+Republic of Korea
+Australia
+In regard to the private sector, the Commonwealth Ombudsman and the Inspector-
+General of Intelligence and Security (IGIS) oversee implementation of the Public
+Interest Disclosure Act. Agencies must notify them of disclosure allocations, referrals,
+decisions not to investigate, and provide them with a final report of an investigation.
+Intelligence agencies must notify the IGIS within 1 day for urgent disclosures and
+otherwise within 14 days and give regular progress updates. Oversight functions
+include investigating complaints, reviewing agency compliance, and making
+recommendations on handling disclosures. The Ombudsman also sets procedural
+standards and issues six-monthly and annual reports covering disclosures received,
+types of conduct reported, investigations undertaken and their timeliness, and related
+complaints.
+India
+Under the Public Interest Disclosure and Protection of Informers (PIDPI) Resolution
+(2004), India mandates the establishment and oversight of internal reporting
+mechanisms across all Ministries, Departments, and Central Public Sector
+Undertakings (CPSUs). The Central Vigilance Commission (CVC) supervises
+complaints received by designated authorities, with Chief Vigilance Officers (CVOs)
+required to manage disclosures, ensure confidentiality, and submit periodic reports.
+In the private sector, Section 177(9)– (10) of the Companies Act, 2013, and Regulation
+22 of the Securities and Exchange Board of India (SEBI) Listing Obligations and
+Disclosure Requirements (LODR), 2015, require listed and specified public companies
+to establish vigil mechanisms. SEBI monitors compliance through inspections and
+mandates disclosure of whistleblower policies in governance reports and on company
+websites.
+Republic of Korea
+Internal reporting channels are annually monitored to verify how whistleblower reports
+are handled. Inspection includes whether institutions implemented their own managing
+system to protect whistleblowers, established a one-stop-shop for accepting public
+interest reports, designated an officer (also known as a responsible person in some
+jurisdictions) in charge of receiving and acting on reports, whether a financial reward
+19
+

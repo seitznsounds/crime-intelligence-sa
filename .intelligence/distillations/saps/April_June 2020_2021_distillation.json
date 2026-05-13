@@ -1,0 +1,24 @@
+{
+  "source": "intelligence/saps/crime-stats/April_June 2020_2021.pdf",
+  "period": "POLICE RECORDED",
+  "national_stats": {
+    "total_serious_crimes": 0
+  },
+  "provincial_serious_crimes": {
+    "Eastern Cape": 0,
+    "Free State": 0,
+    "Gauteng": 0,
+    "Mpumalanga": 0,
+    "North West": 0,
+    "Northern Cape": 0,
+    "Western Cape": 0
+  },
+  "provincial_murders": {},
+  "top_stations_murder": [
+    {
+      "name": "None",
+      "province": "None",
+      "count": 0
+    }
+  ]
+}

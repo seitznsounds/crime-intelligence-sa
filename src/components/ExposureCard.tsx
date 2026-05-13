@@ -20,6 +20,8 @@ export const ExposureCard = ({ person }: ExposureCardProps) => {
                  person.metadata?.metadata?.source || 
                  person.metadata?.metadata?.affiliation ||
                  person.metadata?.affiliation;
+                 
+  const status = person.status || person.metadata?.status || person.metadata?.metadata?.status;
 
   const getRiskColor = (score: number | null) => {
     if (!score) return 'var(--border-glass)';
@@ -44,6 +46,17 @@ export const ExposureCard = ({ person }: ExposureCardProps) => {
         {source && (
           <div className="absolute top-3 left-3 px-2 py-0.5 bg-background/60 backdrop-blur-md rounded border border-border-glass text-[9px] font-bold uppercase tracking-widest text-muted-foreground">
             {source}
+          </div>
+        )}
+
+        {status && (
+          <div className={`absolute bottom-3 left-3 px-2 py-0.5 rounded border text-[8px] font-black uppercase tracking-[0.2em] shadow-lg flex items-center gap-1.5 backdrop-blur-md ${
+            ['Suspended', 'Arrested', 'Under Investigation', 'Implicated'].includes(status) 
+              ? 'bg-accent-crimson/20 border-accent-crimson text-accent-crimson animate-pulse' 
+              : 'bg-accent-blue/20 border-accent-blue text-accent-blue'
+          }`}>
+            <div className={`w-1.5 h-1.5 rounded-full ${['Suspended', 'Arrested', 'Under Investigation', 'Implicated'].includes(status) ? 'bg-accent-crimson shadow-glow-crimson' : 'bg-accent-blue shadow-glow-blue'}`}></div>
+            {status}
           </div>
         )}
 

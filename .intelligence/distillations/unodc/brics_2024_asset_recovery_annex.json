@@ -1,0 +1,34 @@
+{
+  "source": "intelligence/unodc/BRICS_2024_Annex_to_BRICS_Analytical_Note_on_Asset_Recovery.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "BRICS member responses to asset recovery questionnaire, highlighting South Africa's dual-track (civil and criminal) forfeiture system and its institutional challenges.",
+  "south_africa_responses": {
+    "primary_legislation": [
+      "Prevention of Organised Crime Act (POCA) 1998",
+      "Special Investigating Units and Special Tribunals Act 1996"
+    ],
+    "recovery_mechanisms": {
+      "civil_forfeiture": "Non-conviction based forfeiture under Chapter 6 of POCA.",
+      "criminal_forfeiture": "Conviction-based confiscation under Chapter 5 of POCA.",
+      "special_tribunal": "Specialist forum for SIU litigation to expedite asset recovery."
+    },
+    "institutional_nodes": {
+      "AFU": "Asset Forfeiture Unit (NPA)",
+      "SIU": "Special Investigating Unit",
+      "Fusion_Centre": "Multidisciplinary centre for international asset recovery investigation."
+    },
+    "critical_shortcoming": "The requirement for a Presidential Proclamation before SIU can investigate compromises independence and operational speed.",
+    "virtual_assets": "Legislative definitions of 'property' in POCA are broad enough to facilitate the seizure and recovery of virtual/digital assets."
+  },
+  "brics_wide_trends": [
+    {
+      "finding": "Only 1% of proceeds of crime are recovered globally, necessitating more robust BRICS cooperation."
+    },
+    {
+      "finding": "Strong consensus on using UNCAC as a legal basis, but developed countries often refuse to recognize it for asset recovery MLA."
+    },
+    {
+      "finding": "Emerging use of AI and ICT for tracing assets (highlighted by Russia and India)."
+    }
+  ]
+}

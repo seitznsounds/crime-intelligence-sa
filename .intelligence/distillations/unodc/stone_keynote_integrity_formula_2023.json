@@ -1,0 +1,38 @@
+{
+  "source": "intelligence/unodc/Stone Keynote for National Dialogue--Final Nov 2023.pdf",
+  "date_analyzed": "2026-05-12",
+  "document_date": "2023-11-08",
+  "speaker": "Professor Christopher Stone",
+  "summary": "Keynote address providing an international perspective on anti-corruption, arguing that systemic integrity requires a combination of internal leadership and external accountability rather than just law enforcement.",
+  "key_theses": [
+    {
+      "thesis": "Corruption is Systemic",
+      "description": "Corruption is inherent in the nature of big power and money, not just an 'infection' by bad individuals."
+    },
+    {
+      "thesis": "The Integrity Formula",
+      "formula": "Institutional Leadership + External Accountability",
+      "description": "Daily work of leaders to build internal integrity cultures, sustained by independent external oversight."
+    }
+  ],
+  "critical_observations": [
+    {
+      "observation": "Digital Forensic Gap",
+      "description": "Digital evidence volume is causing a global decline in police investigations leading to prosecutions; need for world-class digital forensic units in Africa."
+    },
+    {
+      "observation": "Strategic Use of Promotions",
+      "description": "Identifying and promoting honest 'corruption resistors' within an institution as a potent tool for culture change."
+    }
+  ],
+  "case_studies": [
+    {
+      "subject": "New Orleans Police (USA)",
+      "lesson": "Internal reform without external oversight leads to regression once the individual reformer leaves."
+    },
+    {
+      "subject": "Federal Government (Brazil)",
+      "lesson": "Setting uniform standards for ombuds offices, audits, and integrity risk assessments across all departments enables data-driven mentorship for high-risk nodes."
+    }
+  ]
+}

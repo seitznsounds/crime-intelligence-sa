@@ -1,0 +1,30 @@
+{
+  "source": "intelligence/saps/crime-stats/2025-2026_-_2nd_Quarter_WEB.pdf",
+  "period": "Second Quarter 2025-2026 (July 2025 to September 2025)",
+  "national_stats": {
+    "total_serious_crimes": 361560,
+    "total_murders": 5794
+  },
+  "provincial_serious_crimes": {
+    "Eastern Cape": 37889,
+    "Free State": 22252,
+    "Gauteng": 96477,
+    "KwaZulu-Natal": 59946,
+    "Limpopo": 22382,
+    "Mpumalanga": 20043,
+    "North West": 23607,
+    "Northern Cape": 10784,
+    "Western Cape": 68180
+  },
+  "provincial_murders": {
+    "Eastern Cape": 1032,
+    "Free State": 188,
+    "Gauteng": 1443,
+    "KwaZulu-Natal": 1189,
+    "Limpopo": 194,
+    "Mpumalanga": 267,
+    "North West": 249,
+    "Northern Cape": 72,
+    "Western Cape": 1160
+  }
+}

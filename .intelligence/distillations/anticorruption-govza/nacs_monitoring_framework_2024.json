@@ -1,0 +1,404 @@
+{
+  "source": "intelligence/anticorruption-govza/Draft NACS Monitoring Framework_20032024.xlsx_",
+  "date_analyzed": "2026-05-12",
+  "strategy_period": "2020-2030",
+  "pillars": [
+    {
+      "title": "PILLAR 1-CITIZEN PARTICIPATION (Focus - Promote and encourage active citizenry, whistleblowing, integrity, and transparency in all spheres of society.)",
+      "outcomes": [
+        {
+          "title": "Outcome 1A: Active citizenry empowered through advocacy campaigns on anti-corruption, governance matters; and the negative effects of corruption",
+          "indicators": [
+            {
+              "name": "Anti-corruption strategy launched via a broad-based multi-sectoral event",
+              "baseline": null,
+              "responsible": "-"
+            },
+            {
+              "name": "Increased reach and engagement across diverse communication channels.",
+              "baseline": null,
+              "responsible": "GCIS"
+            },
+            {
+              "name": "Percentage increase in public adherence to the promoted values as evidenced by surveys or behavioural observations.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Improved perception and trust levels of citizens towards the targeted values.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Increased empowerment and exercise of citizens' rights within targeted populations.",
+              "baseline": null,
+              "responsible": "Implementing agencies\nNGOs or CSOs conducting awareness programs\nGovernment departments involved in citizen rights education"
+            },
+            {
+              "name": "Increase utilisation of legal resources and reporting of rights violations among the citizenry.",
+              "baseline": null,
+              "responsible": "Implementing agencies / departments"
+            },
+            {
+              "name": "Percentage increase in the number of sustained collaborative efforts or projects led by CSOs, educational institutions, or community groups post-partnership establishment.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Percentage increase in the adoption of ethical behaviour and demonstration of knowledge about citizens' rights among students in schools where campaigns have been integrated into the curriculum.",
+              "baseline": null,
+              "responsible": "Departments of Basic & Higher Education"
+            },
+            {
+              "name": "Percentage increase in students' active engagement in promoting ethical behaviour and advocating for citizens' rights, as evidenced by their participation in related activities or initiatives within and outside the school environment.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Increased collaboration and commitment to anti-corruption efforts among stakeholders as evidenced by policy changes or enforcement actions.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Percentage increase in public trust in government institutions and perceived transparency in decision-making processes, as measured by surveys or polls conducted after public dialogues.",
+              "baseline": null,
+              "responsible": "TBD"
+            }
+          ]
+        },
+        {
+          "title": "Outcome 1B: All stakeholders, across all sectors of society, work together towards a common goal of preventing and combating corruption within their spheres of influence; and people willingly report corruption because they understand the benefits of doing and whistleblowers feel protected and supported.",
+          "indicators": [
+            {
+              "name": "Informed decision-making and strategic planning for the establishment of the central reporting agency.",
+              "baseline": null,
+              "responsible": "NACAC, DPSA/PSC"
+            },
+            {
+              "name": "Efficient allocation and utilisation of resources for the successful implementation of the central reporting agency.",
+              "baseline": null,
+              "responsible": "Oversight bodies or government agencies monitoring the project"
+            },
+            {
+              "name": "Prompt and effective implementation of the central reporting mechanism.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Improved accountability and responsiveness in addressing reported cases.",
+              "baseline": null,
+              "responsible": "NACAC"
+            },
+            {
+              "name": "Percentage increase in the number of whistleblower reports where recommendations are implemented within the specified timeframe, resulting in demonstrable improvements in organizational processes, practices, or outcomes.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Improved organizational culture and support for whistleblowing.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Enhanced transparency and accountability in organizational practices.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Percentage increase in the number of employees who report feeling confident in their ability to identify and report misconduct, as evidenced by post-training surveys or assessments.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Enhanced trust in the confidentiality and fairness of the whistleblowing process, as measured through employee satisfaction surveys or feedback mechanisms.",
+              "baseline": null,
+              "responsible": null
+            }
+          ]
+        },
+        {
+          "title": "Outcome 1C: Increased public participation and discourse on ethical conduct and a shift in the national consciousness towards societal reorientation to a values-based way of life evident in communities, workplaces, schools, higher education institutions and other civil society structures.",
+          "indicators": [
+            {
+              "name": "Enhanced ethical awareness and behaviour among students.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Strengthened commitment to ethical education and values among students and institutions.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Improved organisational culture and commitment to ethical conduct.",
+              "baseline": null,
+              "responsible": "Department of Trade, Industry and Competition"
+            },
+            {
+              "name": "Enhanced awareness and understanding of ethical standards among employees.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Strengthened media freedom and independence, fostering a more robust and pluralistic democratic society.",
+              "baseline": null,
+              "responsible": "GCIS, Relevant media organisations"
+            },
+            {
+              "name": "An enhanced media landscape that promotes investigative journalism and reporting on anti-corruption.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Percentage decrease in instances of ethical misconduct or corruption within sectors with established committees or forums",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Enhanced capacity and commitment to ethical conduct among key stakeholders.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Percentage decrease in the average time taken to resolve reported corruption cases within sectors with established committees",
+              "baseline": null,
+              "responsible": "TBD"
+            }
+          ]
+        },
+        {
+          "title": "Outcome 1D: Greater transparency and improved measures for providing access to information in all sectors, in particular about governance, that is, business, CSOs and political parties.",
+          "indicators": [
+            {
+              "name": "Enhanced transparency and accessibility of information within organizations as a result of PAIA.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Increase in instances where information obtained through PAIA requests has led to positive changes, such as increased public scrutiny, or accountability measures.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Enhanced efficiency and effectiveness of administrative processes.",
+              "baseline": null,
+              "responsible": "PAIA Compliance Officers, oversight bodies, Department of Justice, and Constitutional Development"
+            },
+            {
+              "name": "Increased confidence in administrative processes and compliance with regulations.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Improved oversight functions supported by digitised administrative systems and enhanced data integrity management.",
+              "baseline": null,
+              "responsible": "NACAC (DPSA - OGP?)"
+            },
+            {
+              "name": "Increase in corruption investigations or prosecutions facilitated by access to accurate and comprehensive beneficial ownership information.",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Increase in the percentage of companies or entities that comply with beneficial ownership disclosure requirements over time.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Improve transparency in governance through professional guidelines, information campaigns and communication on successes, e.g. arrests/\nconvictions, and the consequences of corruption",
+              "baseline": null,
+              "responsible": "TBD"
+            },
+            {
+              "name": "Adoption and implementation of reporting mechanisms in private sector organisations",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Improved reporting culture and transparency in the private sector",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Improvement in the satisfaction and confidence levels of whistleblowers with the support mechanisms provided by their organisations.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Enhanced Transparency in Political Party Funding through disclosures",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Strengthened regulatory framework for political party funding transparency",
+              "baseline": null,
+              "responsible": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PILLAR 2 - PROFESSIONAL CONDUCT (Focus - Advance the professionalisation of employees to optimise their contribution to create corruption-free workplaces.)",
+      "outcomes": [
+        {
+          "title": "Outcome 2A: Support\nprofessionalisation of\nthe public sector by\ngiving effect to Chapter\n13 of NDP",
+          "indicators": [
+            {
+              "name": "Improved transparency and meritocracy in public official appointments",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Improved competence and efficiency of public officials due to competency assessment programs.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Enhancement of the public sector workforce's capacity and performance in key professions due to graduate recruitment programmes.",
+              "baseline": null,
+              "responsible": null
+            }
+          ]
+        },
+        {
+          "title": "Outcome 2B: Enhance the capacity and integrity of the professions central to anti-corruption efforts.",
+          "indicators": [
+            {
+              "name": "Increased Competency Levels among professionals central to anti-corruption (e.g., law enforcement, auditors, investigators) after participating in specialized training programs.",
+              "baseline": null,
+              "responsible": "Anti-corruption agencies, law enforcement training academies, professional development institutions."
+            },
+            {
+              "name": "Percentage increase in the adoption and integration of ethical principles and standards within the operational frameworks of professions with developed ethics curricula.",
+              "baseline": null,
+              "responsible": "Education and training institutions, professional associations, government bodies overseeing education standards."
+            },
+            {
+              "name": "Percentage increase in the adoption and implementation of updated or strengthened ethical standards by professional associations.",
+              "baseline": null,
+              "responsible": "Professional associations, regulatory bodies overseeing professional standards, ethics committees."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PILLAR 3 - ETHICAL GOVERNANCE WITH OVERSIGHT AND CONSEQUENCE MANAGEMENT (Focus - Enhance governance, oversight, and consequence management in organisations",
+      "outcomes": [
+        {
+          "title": "Outcome 3A: Enhance ethical leadership across\nsectors",
+          "indicators": [
+            {
+              "name": "Improved Governance Knowledge and Practices by boards following participation in director development programs.",
+              "baseline": null,
+              "responsible": "Institute of Directors in Southern Africa (IoDSA), Private Sector Governance Forums, SOE Boards"
+            },
+            {
+              "name": "Comprehensive adoption and effective implementation of strengthened ethics frameworks for politicians within government institutions.",
+              "baseline": null,
+              "responsible": "Ethics Committees in Parliament and Provincial Legislatures, Office of the Public Protector, Political Party Ethics Committees"
+            },
+            {
+              "name": "Effectiveness and utilisation of developed and implemented mechanisms aimed at enhancing accountability and compliance within government institutions and organisations.",
+              "baseline": null,
+              "responsible": "National Treasury, Auditor General's Office, Department of Public Service and Administration."
+            }
+          ]
+        },
+        {
+          "title": "Outcome 3B: Strengthen oversight and governance capacity in the public sector.",
+          "indicators": [
+            {
+              "name": "Enhanced effectiveness of constitutional and oversight bodies:",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Local Government Anti-Corruption Strategy and relevant provincial strategies implemented",
+              "baseline": null,
+              "responsible": "Municipal Oversight Committees, Provincial COGTA"
+            },
+            {
+              "name": "Capacity and performance of municipal oversight functions in the local government sphere improved.",
+              "baseline": null,
+              "responsible": "Municipal Oversight Committees, Provincial COGTA"
+            }
+          ]
+        },
+        {
+          "title": "Outcome 3C: Strengthen ethics and\nintegrity promotion\nacross sector",
+          "indicators": [
+            {
+              "name": "Enhanced adherence to ethics requirements of the Public Service Regulations and other legislation regulating the conduct of employees of the state and public representatives.",
+              "baseline": null,
+              "responsible": "Public Service Commission, Ethics Officers in government departments."
+            },
+            {
+              "name": "Requirements of the Public Service Regulations and other legislation regulating ethics, the conduct of employees of the state and public representatives implemented.",
+              "baseline": null,
+              "responsible": "DPSA, DOJ, NPA, CIPC"
+            },
+            {
+              "name": "Efficiency and effectiveness of database administered by the DPSA for public sector officials found guilty of fraud, corruption, or white-collar crimes:",
+              "baseline": null,
+              "responsible": "Public Service Commission"
+            },
+            {
+              "name": "Completion and Implementation of Integrity Testing and Lifestyle Audits Framework for Senior Officials",
+              "baseline": null,
+              "responsible": "."
+            },
+            {
+              "name": "Percentage increase in employees reporting an enhanced understanding of legislation and ethics principles upon completion of  training.",
+              "baseline": null,
+              "responsible": "National School of Government, Department of Public Service and Administration"
+            },
+            {
+              "name": "Level of integration of integrity promotion measures into the performance management contracts of senior managers across different sectors.",
+              "baseline": null,
+              "responsible": "Public sector unions, Department of Labour, Department of Public Service and Administration."
+            }
+          ]
+        },
+        {
+          "title": "Outcome 3D: Strengthen\nAccountability and programme management in\norganisations across\nsectors.",
+          "indicators": [
+            {
+              "name": "Research focused on the development of anti-corruption architecture and investigative capacity in the public sector conducted.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Improved responsiveness and effectiveness in addressing misconduct, promoting accountability, and deterring corrupt behaviour among employees",
+              "baseline": null,
+              "responsible": "DPSA, PSC"
+            },
+            {
+              "name": "Extent to which targeted professions have adopted and effectively implemented accountability frameworks to promote ethical conduct and accountability.",
+              "baseline": null,
+              "responsible": null
+            },
+            {
+              "name": "Anti-corruption compliance culture in private companies and state-owned entities established.",
+              "baseline": null,
+              "responsible": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PILLAR 4 - CREDIBLE, TRANSPARENT PROCUREMENT SYSTEM (Focus - Improve the integrity and credibility of the public procurement system)",
+      "outcomes": []
+    },
+    {
+      "title": "PILLAR 5 - STRONG ANTI-CORRUPTION AGENCIES (Focus - Strengthen the resourcing, coordination, transnational cooperation, performance and independence of dedicated anti-corruption agencies)",
+      "outcomes": []
+    },
+    {
+      "title": "PILLAR 6 - PROTECTION OF VULNERABLE SECTORS (Focus - Protect vulnerable sectors that are most prone to corruption and unethical practices with effective risk management)",
+      "outcomes": []
+    }
+  ]
+}

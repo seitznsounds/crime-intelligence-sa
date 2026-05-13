@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-05-13T04:48:55.653Z",
+  "template_syndicate": "Big Five Cartel",
+  "target_nodes": [
+    {
+      "name": "Crime Intelligence (SAPS)",
+      "id": "191549d0-f2da-4f30-831d-ec4f4e51a4b8",
+      "score": 100,
+      "factors": [
+        "Direct syndicate link identified",
+        "High-risk institutional sector",
+        "Indirect connection to syndicate nucleus (1st degree)"
+      ],
+      "status": "CRITICAL"
+    },
+    {
+      "name": "Big Five Cartel",
+      "id": "a979995f-de71-4658-9455-7ad059adb332",
+      "score": 95,
+      "factors": [
+        "Direct syndicate link identified",
+        "1 high-risk PEP(s) in leadership/roles",
+        "Indirect connection to syndicate nucleus (1st degree)"
+      ],
+      "status": "CRITICAL"
+    },
+    {
+      "name": "Global Alpha Shell Ltd",
+      "id": "a32f8f9c-1981-4413-acc8-14391ea941f4",
+      "score": 95,
+      "factors": [
+        "Direct syndicate link identified",
+        "1 high-risk PEP(s) in leadership/roles",
+        "Indirect connection to syndicate nucleus (1st degree)"
+      ],
+      "status": "CRITICAL"
+    },
+    {
+      "name": "Directorate for Priority Crime Investigation (Hawks)",
+      "id": "a00c776e-3822-4e21-b06c-28e3fcf350f4",
+      "score": 85,
+      "factors": [
+        "Direct syndicate link identified",
+        "1 high-risk PEP(s) in leadership/roles",
+        "High-risk institutional sector"
+      ],
+      "status": "CRITICAL"
+    },
+    {
+      "name": "Spares Oasis",
+      "id": "beecc2aa-b64d-4210-b815-4d32ff0f362b",
+      "score": 80,
+      "factors": [
+        "Direct syndicate link identified",
+        "Indirect connection to syndicate nucleus (1st degree)"
+      ],
+      "status": "CRITICAL"
+    }
+  ]
+}

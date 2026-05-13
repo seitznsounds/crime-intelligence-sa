@@ -1,0 +1,308 @@
+{
+  "source": "intelligence/saps/crime-stats/2025-2026_-_1st_Quarter_WEB.xlsx",
+  "period": "Q1 2025-2026",
+  "date_analyzed": "2026-05-12",
+  "category": "17 Community reported serious Crime",
+  "top_30_stations": [
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 1,
+      "district": 1,
+      "province": "Cape Town Central",
+      "q_count": 2765,
+      "count_diff": 2958,
+      "percent_change": 2605
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 2,
+      "district": 1,
+      "province": "Durban Central",
+      "q_count": 2104,
+      "count_diff": 2082,
+      "percent_change": 1989
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 3,
+      "district": 2,
+      "province": "Mfuleni",
+      "q_count": 1775,
+      "count_diff": 1619,
+      "percent_change": 1777
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 4,
+      "district": 3,
+      "province": "Mitchells Plain",
+      "q_count": 2040,
+      "count_diff": 1887,
+      "percent_change": 1756
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 5,
+      "district": 2,
+      "province": "Phoenix",
+      "q_count": 1882,
+      "count_diff": 1825,
+      "percent_change": 1683
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 6,
+      "district": 3,
+      "province": "Chatsworth",
+      "q_count": 1451,
+      "count_diff": 1392,
+      "percent_change": 1679
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 7,
+      "district": 1,
+      "province": "Midrand",
+      "q_count": 1732,
+      "count_diff": 1596,
+      "percent_change": 1662
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 8,
+      "district": 2,
+      "province": "JHB Central",
+      "q_count": 2120,
+      "count_diff": 1818,
+      "percent_change": 1651
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 9,
+      "district": 4,
+      "province": "Delft",
+      "q_count": 1595,
+      "count_diff": 1451,
+      "percent_change": 1598
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 10,
+      "district": 3,
+      "province": "Sandton",
+      "q_count": 1437,
+      "count_diff": 1512,
+      "percent_change": 1573
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 11,
+      "district": 4,
+      "province": "Honeydew",
+      "q_count": 1774,
+      "count_diff": 1743,
+      "percent_change": 1553
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 12,
+      "district": 1,
+      "province": "Park Road",
+      "q_count": 1881,
+      "count_diff": 1668,
+      "percent_change": 1550
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 13,
+      "district": 4,
+      "province": "Inanda",
+      "q_count": 1265,
+      "count_diff": 1558,
+      "percent_change": 1540
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 14,
+      "district": 5,
+      "province": "Roodepoort",
+      "q_count": 1866,
+      "count_diff": 1745,
+      "percent_change": 1532
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 15,
+      "district": 6,
+      "province": "Brooklyn",
+      "q_count": 1524,
+      "count_diff": 1701,
+      "percent_change": 1481
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 16,
+      "district": 5,
+      "province": "Kraaifontein",
+      "q_count": 1533,
+      "count_diff": 1649,
+      "percent_change": 1477
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 17,
+      "district": 1,
+      "province": "Rustenburg",
+      "q_count": 1666,
+      "count_diff": 1730,
+      "percent_change": 1454
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 18,
+      "district": 5,
+      "province": "Pinetown",
+      "q_count": 1320,
+      "count_diff": 1372,
+      "percent_change": 1437
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 19,
+      "district": 6,
+      "province": "Stellenbosch",
+      "q_count": 1588,
+      "count_diff": 1497,
+      "percent_change": 1433
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 20,
+      "district": 7,
+      "province": "Akasia",
+      "q_count": 1400,
+      "count_diff": 1324,
+      "percent_change": 1416
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 21,
+      "district": 6,
+      "province": "Plessislaer",
+      "q_count": 1496,
+      "count_diff": 1514,
+      "percent_change": 1412
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 22,
+      "district": 1,
+      "province": "Thohoyandou",
+      "q_count": 1434,
+      "count_diff": 1309,
+      "percent_change": 1379
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 23,
+      "district": 2,
+      "province": "Polokwane",
+      "q_count": 1312,
+      "count_diff": 1413,
+      "percent_change": 1346
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 24,
+      "district": 7,
+      "province": "Nyanga",
+      "q_count": 1459,
+      "count_diff": 1367,
+      "percent_change": 1326
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 25,
+      "district": 7,
+      "province": "Empangeni",
+      "q_count": 1319,
+      "count_diff": 1236,
+      "percent_change": 1325
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 26,
+      "district": 8,
+      "province": "Ivory Park",
+      "q_count": 1291,
+      "count_diff": 1324,
+      "percent_change": 1319
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 27,
+      "district": 9,
+      "province": "Tembisa",
+      "q_count": 1438,
+      "count_diff": 1501,
+      "percent_change": 1317
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 28,
+      "district": 8,
+      "province": "Kwadukuza",
+      "q_count": 1329,
+      "count_diff": 1436,
+      "percent_change": 1293
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 29,
+      "district": 10,
+      "province": "Kempton Park",
+      "q_count": 1340,
+      "count_diff": 1386,
+      "percent_change": 1232
+    },
+    {
+      "rsa_position": null,
+      "prov_position": null,
+      "station": 30,
+      "district": 8,
+      "province": "Milnerton",
+      "q_count": 1293,
+      "count_diff": 1229,
+      "percent_change": 1213
+    }
+  ]
+}

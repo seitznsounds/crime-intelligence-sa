@@ -2,6 +2,8 @@ import { createServerClient } from "@/lib/supabase-server";
 import { BarChart3, ShieldAlert, TrendingDown, Search, Filter, ArrowUpRight, MapPin, Award, AlertTriangle, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import PageShell from "@/components/layout/PageShell";
+import TrueCrimeEstimator from "@/components/intel/TrueCrimeEstimator";
+import OversightRadar from "@/components/intel/OversightRadar";
 
 export const dynamic = "force-dynamic";
 
@@ -111,7 +113,7 @@ export default async function StatsPage() {
                         </div>
                       </td>
                       <td className="px-6 py-5">
-                        <span className="text-[14px] font-bold font-mono tracking-tighter text-foreground">{s.incident_count}</span>
+                        <TrueCrimeEstimator initialCount={s.incident_count || 0} category={s.category || ""} />
                       </td>
                       <td className="px-6 py-5 text-right">
                         <Link href={`/stats/${s.id}`} className="inline-flex items-center gap-2 px-3 py-1.5 bg-bg-glass hover:bg-accent-blue text-[11px] font-bold uppercase tracking-wide rounded-lg border border-border-glass hover:border-accent-blue text-muted-foreground hover:text-white transition-all">
@@ -131,11 +133,11 @@ export default async function StatsPage() {
                   <span className="text-[12px] font-mono font-bold text-muted-foreground w-8">#{i + 1}</span>
                   <div className="flex-1 min-w-0">
                     <p className="text-[14px] font-bold tracking-tight text-foreground truncate">{s.station_name || "UNNAMED"}</p>
-                    <p className={`text-[12px] font-medium ${["Murder", "Attempted murder"].includes(s.category!) ? 'text-accent-crimson' : 'text-muted-foreground'}`}>
+                    <p className={`text-[12px] font-medium mb-2 ${["Murder", "Attempted murder"].includes(s.category!) ? 'text-accent-crimson' : 'text-muted-foreground'}`}>
                       {s.category}
                     </p>
+                    <TrueCrimeEstimator initialCount={s.incident_count || 0} category={s.category || ""} />
                   </div>
-                  <span className="text-[14px] font-bold font-mono text-foreground">{s.incident_count}</span>
                   <ArrowUpRight className="w-4 h-4 text-muted-foreground shrink-0" />
                 </Link>
               ))}
@@ -145,6 +147,8 @@ export default async function StatsPage() {
 
         {/* Right Column: Insights & Alerts */}
         <div className="space-y-6">
+          <OversightRadar />
+          
           <div className="glass-card p-6 sm:p-8 border-border-glass bg-bg-glass">
             <h3 className="text-[12px] font-bold uppercase tracking-[0.2em] text-muted-foreground mb-6 flex items-center gap-2">
               <TrendingDown className="w-3.5 h-3.5" /> Sector Deterioration

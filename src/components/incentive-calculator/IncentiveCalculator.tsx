@@ -14,7 +14,10 @@ import {
   Coins,
   ChevronDown,
   Target,
-  Users
+  Users,
+  Home,
+  GraduationCap,
+  Zap
 } from 'lucide-react';
 import { getRecoveryTargets } from './actions';
 
@@ -22,9 +25,13 @@ const FEAR_MULTIPLIER = 0.62; // HSRC 2026 Social Norms survey
 const ROCOSN_INDEX_BASE = 0.28; // Risk of Community and Social Neglect (Mthente 2024)
 const REWARD_MIN_PCT = 0.15;
 const REWARD_MAX_PCT = 0.25;
+const COST_PER_HOUSE = 180000; // Est. RDP house cost
+const COST_PER_SCHOOL = 45000000; // Est. state school cost
+const REPORTING_GAP_MULTIPLIER = 4.9; // StatsSA 2026 Finding
 
 export default function IncentiveCalculator() {
-  const [caseValue, setCaseValue] = useState<number>(100000);
+  const [caseValue, setCaseValue] = useState<number>(1000000);
+  const [applyGapMultiplier, setApplyGapMultiplier] = useState<boolean>(false);
   const [deptRisk, setDeptRisk] = useState<number>(0.5); // 0-1
   const [empSecurity, setEmpSecurity] = useState<number>(0.5); // 0-1
   const [infiltrationLevel, setInfiltrationLevel] = useState<number>(0.3); // 0-1 (SAPS/Cartel nexus)
@@ -51,8 +58,9 @@ export default function IncentiveCalculator() {
   };
 
   const results = useMemo(() => {
-    const grossMin = caseValue * REWARD_MIN_PCT;
-    const grossMax = caseValue * REWARD_MAX_PCT;
+    const adjustedValue = applyGapMultiplier ? caseValue * REPORTING_GAP_MULTIPLIER : caseValue;
+    const grossMin = adjustedValue * REWARD_MIN_PCT;
+    const grossMax = adjustedValue * REWARD_MAX_PCT;
     const avgGross = (grossMin + grossMax) / 2;
 
     // Fear Penalty: scales with risk, infiltration, and inversely with security + WP Integrity loss
@@ -63,9 +71,13 @@ export default function IncentiveCalculator() {
     const blacklistingRisk = legalVulnerability * 0.5;
     const socialPenalty = avgGross * ROCOSN_INDEX_BASE * (1 + (1 - empSecurity) + blacklistingRisk);
 
-    // Legal & SLAPP Suit Penalty (Phase 2 Audit)
-    const slappRisk = legalVulnerability * 0.4;
+    // Legal & SLAPP Suit Penalty (Phase 2 Audit: 98% Impunity for Retaliators)
+    const slappRisk = legalVulnerability * 0.45;
     const legalPenalty = avgGross * slappRisk;
+
+    // Impunity Factor (Physical Safety Risk based on PPLAAF Phase 2)
+    const impunityFactor = legalVulnerability > 0.7 ? 0.15 : 0;
+    const safetyPenalty = avgGross * impunityFactor;
 
     // Proclamation & Velocity Multiplier
     const lagPenalty = avgGross * proclamationLag * 0.3;
@@ -74,8 +86,13 @@ export default function IncentiveCalculator() {
     // Ghost Vendor Risk (Administrative Concealment)
     const concealmentRisk = (deptRisk > 0.7 ? 0.2 : 0) * avgGross;
 
-    const riskAdjusted = avgGross - fearPenalty - socialPenalty - legalPenalty - lagPenalty + velocityBonus - concealmentRisk;
+    const riskAdjusted = avgGross - fearPenalty - socialPenalty - legalPenalty - safetyPenalty - lagPenalty + velocityBonus - concealmentRisk;
     const score = Math.max(0, Math.min(100, (riskAdjusted / avgGross) * 100));
+
+    // Social Impact Logic
+    const communityReinvestment = adjustedValue - riskAdjusted;
+    const houses = Math.floor(communityReinvestment / COST_PER_HOUSE);
+    const schools = (communityReinvestment / COST_PER_SCHOOL).toFixed(1);
 
     let verdict = "CRITICAL RISK: Retaliation risk and social neglect outweigh financial incentive.";
     let color = "text-red-400";
@@ -83,6 +100,9 @@ export default function IncentiveCalculator() {
     if (wpIntegrity < 0.2) {
       verdict = "CRITICAL REPORTING VOID: Section 7 of Act 112 (1998) requires reporting to investigators who may be syndicate-linked. DO NOT PROCEED.";
       color = "text-red-600 animate-pulse";
+    } else if (legalVulnerability > 0.8) {
+      verdict = "SEVERE LEGAL FRAGILITY: PPLAAF Phase 2 Audit identifies 98% impunity for retaliators and zero protection against SLAPP suits. PROCEED WITH EXTREME CAUTION.";
+      color = "text-accent-crimson font-black";
     } else if (score > 35) {
       verdict = "HIGH RISK: Secure anonymity and relocation funding are mandatory.";
       color = "text-orange-400";
@@ -103,10 +123,15 @@ export default function IncentiveCalculator() {
       verdict,
       color,
       legalPenalty,
+      safetyPenalty,
       lagPenalty,
-      velocityBonus
+      velocityBonus,
+      adjustedValue,
+      houses,
+      schools,
+      communityReinvestment
     };
-  }, [caseValue, deptRisk, empSecurity, infiltrationLevel, wpIntegrity, legalVulnerability, proclamationLag, recoveryVelocity]);
+  }, [caseValue, applyGapMultiplier, deptRisk, empSecurity, infiltrationLevel, wpIntegrity, legalVulnerability, proclamationLag, recoveryVelocity]);
 
   return (
     <div className="glass-card p-8 border border-white/10 rounded-xl space-y-8 bg-black/40 backdrop-blur-md">
@@ -180,7 +205,24 @@ export default function IncentiveCalculator() {
               onChange={(e) => setCaseValue(Number(e.target.value))}
               className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-gold"
             />
-            <p className="text-[10px] text-white/30 italic">Estimated value of the corruption, tender, or stolen asset.</p>
+            <div className="flex items-center gap-2 mt-4 p-2 bg-accent-blue/10 border border-accent-blue/20 rounded-lg">
+              <input 
+                type="checkbox" 
+                id="gap-multiplier"
+                checked={applyGapMultiplier}
+                onChange={(e) => setApplyGapMultiplier(e.target.checked)}
+                className="w-4 h-4 accent-accent-blue"
+              />
+              <label htmlFor="gap-multiplier" className="text-[10px] font-bold text-accent-blue uppercase cursor-pointer">
+                Apply Reporting Gap Multiplier (4.9x)
+              </label>
+              <Info className="w-3 h-3 text-accent-blue opacity-50" />
+            </div>
+            <p className="text-[10px] text-white/30 italic">
+              {applyGapMultiplier 
+                ? `Applying the 4.9x discrepancy identified by StatsSA for experienced vs. recorded crime. Effective Value: R ${results.adjustedValue.toLocaleString()}` 
+                : "Estimated value of the corruption, tender, or stolen asset."}
+            </p>
           </div>
 
           <div className="space-y-2">
@@ -354,6 +396,26 @@ export default function IncentiveCalculator() {
                   R {results.riskAdjusted.toLocaleString(undefined, { maximumFractionDigits: 0 })}
                 </span>
               </div>
+            </div>
+
+            {/* SOCIAL IMPACT PREVIEW */}
+            <div className="pt-6 mt-6 border-t border-white/10 space-y-4">
+              <span className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">Community Restitution Projection</span>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="p-3 bg-white/5 rounded-lg border border-white/5 text-center">
+                  <Home className="w-4 h-4 text-accent-blue mx-auto mb-1" />
+                  <div className="text-lg font-mono font-bold text-white">{results.houses.toLocaleString()}</div>
+                  <div className="text-[8px] font-bold text-white/40 uppercase">RDP Houses</div>
+                </div>
+                <div className="p-3 bg-white/5 rounded-lg border border-white/5 text-center">
+                  <GraduationCap className="w-4 h-4 text-accent-gold mx-auto mb-1" />
+                  <div className="text-lg font-mono font-bold text-white">{results.schools}</div>
+                  <div className="text-[8px] font-bold text-white/40 uppercase">State Schools</div>
+                </div>
+              </div>
+              <p className="text-[10px] text-white/40 italic leading-tight text-center">
+                The remaining <span className="text-white/60 font-mono">R {results.communityReinvestment.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span> after your incentive could fund the above social infrastructure.
+              </p>
             </div>
           </div>
 

@@ -1,132 +1,69 @@
 'use client';
 
 import React from 'react';
-import { 
-  Zap, 
-  ShieldCheck, 
-  Gavel, 
-  Scale, 
-  FileText,
-  Lock,
-  Unlock,
-  CheckCircle2,
-  Clock,
-  AlertTriangle
-} from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Clock, ShieldCheck, AlertCircle, Zap, CheckCircle2 } from 'lucide-react';
 
-const MILESTONES = [
-  {
-    name: "Constitutional Amendment (Chapter 9)",
-    desc: "Requires 2/3 majority for institutional independence.",
-    status: "STALLED",
-    progress: 10,
-    icon: Lock,
-    date: "Est. Q4 2026"
-  },
-  {
-    name: "SIU Institutional Absorption",
-    desc: "Transfer of mission, powers, and 1400+ staff.",
-    status: "IN PROGRESS",
-    progress: 45,
-    icon: ShieldCheck,
-    date: "Est. Q2 2026"
-  },
-  {
-    name: "Whistleblower Protector Appointment",
-    desc: "Selection of retired judge as national lead.",
-    status: "PENDING",
-    progress: 5,
-    icon: Gavel,
-    date: "Est. Q3 2025"
-  },
-  {
-    name: "Treasury Fund Appropriation",
-    desc: "R1.2 Bn baseline funding for OPI infrastructure.",
-    status: "STALLED",
-    progress: 0,
-    icon: Scale,
-    date: "Est. Q1 2026"
-  },
-  {
-    name: "Protected Disclosures Bill (2026)",
-    desc: "Legislative framework for criminalizing retaliation.",
-    status: "DEBATED",
-    progress: 30,
-    icon: FileText,
-    date: "Est. Q2 2026"
-  }
-];
+export default function OPITransitionTracker() {
+  const milestones = [
+    { year: "2025", title: "Legislative Drafting", status: "COMPLETED", icon: CheckCircle2, color: "text-emerald-400" },
+    { year: "2026", title: "Chapter 9 Entrenchment", status: "IN PROGRESS", icon: Clock, color: "text-accent-gold" },
+    { year: "2027", title: "SIU Absorption", status: "PENDING", icon: AlertCircle, color: "text-slate-500" },
+    { year: "2028", title: "Operational Sovereignty", status: "PENDING", icon: ShieldCheck, color: "text-slate-500" }
+  ];
 
-export const OPITransitionTracker = () => {
   return (
-    <div className="glass-card p-6 border border-white/10 rounded-xl space-y-6 bg-black/40 backdrop-blur-md">
-      <div className="flex justify-between items-start">
-        <div className="space-y-1">
-          <div className="flex items-center gap-2 text-accent-blue">
-            <Zap className="w-5 h-5 animate-pulse" />
-            <h3 className="text-xl font-black uppercase tracking-tighter italic text-wrap">OPI Transition Trigger</h3>
+    <div className="glass-card p-8 border border-white/10 bg-bg-glass overflow-hidden">
+      <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center gap-3">
+          <div className="p-2 bg-accent-gold/20 rounded-lg">
+            <Clock className="w-5 h-5 text-accent-gold" />
           </div>
-          <p className="text-[10px] text-white/50 font-mono uppercase tracking-widest">Legislative Milestone Tracker v1.2</p>
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-foreground">OPI Transition Timeline</h3>
+            <p className="text-[9px] font-mono text-muted-foreground uppercase tracking-widest">3-Year Institutional Pivot</p>
+          </div>
         </div>
-        <div className="px-3 py-1 rounded-full border border-accent-blue/30 bg-accent-blue/10 flex items-center gap-2">
-          <Clock className="w-3 h-3 text-accent-blue" />
-          <span className="text-[9px] font-bold text-accent-blue uppercase italic">Transition Window: 2025-2028</span>
+        <div className="px-3 py-1 bg-accent-gold/10 border border-accent-gold/20 rounded-full text-[8px] font-black text-accent-gold uppercase tracking-[0.2em] animate-pulse">
+          Active Vacuum
         </div>
       </div>
 
-      <div className="space-y-4">
-        {MILESTONES.map((m, i) => {
-          const Icon = m.icon;
-          return (
-            <div key={i} className="relative pl-6 border-l border-white/10 group">
-              <div className={`absolute -left-1.5 top-1 w-3 h-3 rounded-full border-2 border-black ${
-                m.status === 'DONE' ? 'bg-green-500' : 
-                m.status === 'STALLED' ? 'bg-accent-crimson' : 
-                m.status === 'IN PROGRESS' ? 'bg-accent-blue' : 'bg-white/20'
-              }`} />
-              
-              <div className="space-y-2">
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h4 className="text-sm font-bold text-white/90 uppercase tracking-tighter flex items-center gap-2">
-                      <Icon className="w-3 h-3 text-white/40" />
-                      {m.name}
-                    </h4>
-                    <p className="text-[9px] text-white/40 leading-tight pr-8">{m.desc}</p>
-                  </div>
-                  <div className="text-right">
-                    <span className={`text-[8px] font-black tracking-widest uppercase ${
-                      m.status === 'STALLED' ? 'text-accent-crimson' : 'text-accent-blue'
-                    }`}>{m.status}</span>
-                    <p className="text-[7px] text-white/20 font-mono mt-1">{m.date}</p>
-                  </div>
-                </div>
-
-                <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
-                  <div 
-                    className={`h-full transition-all duration-1000 ${
-                      m.status === 'STALLED' ? 'bg-accent-crimson' : 'bg-accent-blue'
-                    }`}
-                    style={{ width: `${m.progress}%` }}
-                  />
-                </div>
-              </div>
+      <div className="relative space-y-8">
+        <div className="absolute left-[15px] top-2 bottom-2 w-[1px] bg-white/5" />
+        
+        {milestones.map((step, i) => (
+          <motion.div 
+            key={i}
+            initial={{ opacity: 0, x: -10 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: i * 0.1 }}
+            className="flex items-start gap-4 relative z-10"
+          >
+            <div className={`w-8 h-8 rounded-full border border-white/10 flex items-center justify-center bg-background/80 backdrop-blur-md ${step.color}`}>
+              <step.icon className="w-4 h-4" />
             </div>
-          );
-        })}
+            <div className="flex-1">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-[10px] font-mono font-bold text-muted-foreground">{step.year}</span>
+                <span className={`text-[8px] font-black uppercase tracking-widest ${step.color}`}>{step.status}</span>
+              </div>
+              <p className="text-sm font-bold text-foreground tracking-tight">{step.title}</p>
+            </div>
+          </motion.div>
+        ))}
       </div>
 
-      <div className="p-3 bg-accent-crimson/10 border border-accent-crimson/20 rounded-lg flex items-start gap-3">
-        <AlertTriangle className="w-4 h-4 text-accent-crimson flex-shrink-0 mt-0.5" />
-        <div className="space-y-1">
-          <p className="text-[10px] font-bold text-accent-crimson uppercase">Leadership Vacuum Warning</p>
-          <p className="text-[9px] text-white/60 leading-tight italic">
-            Transition lacks a dedicated Constitutional champion. Reliance on political oversight 
-            (MoJ&CD) during the 3-year window creates a high probability of institutional drift 
-            and capture-backlash. — NACAC Audit Findings #2025-09
+      <div className="mt-10 p-4 bg-accent-crimson/5 border border-accent-crimson/20 rounded-xl flex items-start gap-3">
+        <Zap className="w-4 h-4 text-accent-crimson shrink-0 mt-0.5" />
+        <div>
+          <p className="text-[10px] font-bold text-accent-crimson uppercase mb-1">Vacuum Warning</p>
+          <p className="text-[10px] text-muted-foreground leading-relaxed italic">
+            NACAC 2025 finding: The 3-year gap between SIU status and OPI independence creates a "Shadow Window" for evidence destruction.
           </p>
         </div>
       </div>
     </div>
   );
-};
+}

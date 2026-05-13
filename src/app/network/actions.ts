@@ -1,9 +1,9 @@
 "use server";
 
-import { createClient } from "@/lib/supabase-server";
+import { createServerClient } from "@/lib/supabase-server";
 
 export async function getNetworkData() {
-  const supabase = await createClient();
+  const supabase = await createServerClient();
 
   // 1. Fetch all person-org links
   const { data: links, error: linksError } = await supabase

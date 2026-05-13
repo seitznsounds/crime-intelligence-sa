@@ -6,6 +6,8 @@ import { Heart, MessageSquare, History, ShieldCheck, Activity, ChevronRight, Awa
 import PageShell from "@/components/layout/PageShell";
 
 const VICTIMS = [
+  { id: "VIC_W01", name: "Babita Deokaran", date: "2021-08-23", violation: "Assassination", location: "Johannesburg", desc: "Whistleblower and senior finance official at the Gauteng Department of Health who was assassinated after exposing R332 million in suspicious payments at Tembisa Hospital. Her death exposed the fatal risk to institutional 'integrity nodes' within the provincial state." },
+  { id: "VIC_W02", name: "Cloete Murray", date: "2023-03-18", violation: "Assassination", location: "Midrand", desc: "High-profile liquidator tasked with recovering assets from the Bosasa state capture scandal. He was assassinated alongside his son, Thomas Murray. His death highlights the extreme risk to the 'Restitution' phase of justice and the continued power of capture-era enablers." },
   { id: "VIC_01", name: "The Cradock Four", date: "1985-06-27", violation: "Abduction & Murder", location: "Eastern Cape", desc: "Matthew Goniwe, Fort Calata, Sparrow Mkhonto, and Sicelo Mhlauli. Forcibly removed and murdered by security police. Their stories symbolize the brutal suppression of community leadership." },
   { id: "VIC_02", name: "The Pebco Three", date: "1985-05-08", violation: "Forced Disappearance", location: "Port Elizabeth", desc: "Qaqawuli Godolozi, Champion Galela, and Sipho Hashe. Lured to an airport and abducted by Vlakplaas operatives. Their remains were only identified years later." },
   { id: "VIC_03", name: "Ahmed Timol", date: "1971-10-27", violation: "Death in Detention", location: "John Vorster Square", desc: "Anti-apartheid activist who allegedly 'jumped' from the 10th floor of John Vorster Square police station. The TRC and subsequent inquests confirmed he was murdered." }
@@ -71,7 +73,12 @@ export default function VictimsPage() {
           <div className="glass-card p-6 border-border-glass bg-bg-glass">
             <h3 className="text-[12px] font-bold uppercase tracking-[0.3em] text-muted-foreground mb-6 flex items-center gap-3"><Globe className="w-4 h-4 text-accent-blue" /> Truth Archive Status</h3>
             <div className="space-y-5">
-              {[{ label: "Victim List Vol 7", status: "VERIFIED", progress: 100 }, { label: "Regional Audits", status: "SYNCING", progress: 45 }, { label: "Amnesty Findings", status: "QUEUED", progress: 0 }].map((item, i) => (
+              {[
+                { label: "Victim List Vol 7", status: "VERIFIED", progress: 100 },
+                { label: "PPLAAF Forensic Audit", status: "VERIFIED", progress: 100 },
+                { label: "Assassination Board", status: "SYNCING", progress: 65 },
+                { label: "Amnesty Findings", status: "QUEUED", progress: 0 }
+              ].map((item, i) => (
                 <div key={i} className="space-y-2">
                   <div className="flex justify-between items-center text-[11px] font-bold">
                     <span className="text-foreground/80 uppercase">{item.label}</span>

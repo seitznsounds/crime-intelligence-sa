@@ -1,0 +1,1417 @@
+--- Page 1 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+AANNNNUUAALL
+CCRRIIMMEE
+SSTTAATTIISSTTIICCSS
+22002244
+
+--- Page 2 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+South African Banking Risk Information Centre Annual Crime Statistics 2024 2
+SSTTNNEETTNNOOCC
+EXECUTIVE SUMMARY ..................................................................................................4
+MEMBERS ...........................................................................................................................5
+PARTNERS ..........................................................................................................................6
+QUALIFICATION OF INFORMATION ..........................................................................7
+TOTAL FINANCIAL CRIME 2024 AT A GLANCE ...........................................................................................8
+BREAKDOWN OF FINANCIAL CRIME PER CRIME TYPE ...........................................................................................................................................9
+CONTACT CRIME ............................................................................................................10
+Associated Robbery ..............................................................................................................................................10
+International Perspective Associated Robbery ............................................................................................................................................................12
+ATM Attack ........................................................................................................................................................................................................................................13
+Burglary – Commercial Retail Banking Industry .........................................................................................................................................................15
+Robbery – Commercial Private Banking Industry ......................................................................................................................................................17
+DIGITAL CRIME ...............................................................................................................19
+Key Trends & Statistics (2022–2024) ..............................................................................................................19
+Common Fraud Schemes and Modus Operandi during 2024 ............................................................................................................................21
+Emerging Trends in 2024 and beyond .............................................................................................................................................................................23
+APPLICATION FRAUD ................................................................................................24
+Secured Fraud (2023 & 2024) ...........................................................................................................................24
+Vehicle Asset Finance (VAF) Fraud .....................................................................................................................................................................................24
+Home/Mortgage Loan Fraud .................................................................................................................................................................................................26
+Unsecured Fraud (2023 & 2024) .....................................................................................................................28
+CARD FRAUD ..................................................................................................................31
+Financial Crime Overview: Credit & Debit (2023 & 2024) ....................................................................31
+Debit & Credit Card Fraud Losses: All Fraud Types, All Countries .....................................................................................................................31
+Debit & Credit Card Fraud Losses: All Fraud Types, South Africa Only ...........................................................................................................31
+Fraud Types: All Countries - 2024 ........................................................................................................................................................................................34
+International Perspective .........................................................................................................................................................................................................40
+Provincial Overview .....................................................................................................................................................................................................................42
+CONCLUSION .................................................................................................................43
+
+--- Page 3 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+EXECUTIVE SUMMARY
+T
+stakeholders from various industries and law enforcement
+he South African Banking Risk Information Cen-
+to combat these threats through data-driven intelligence
+tre (SABRIC) remains dedicated to its mission to
+and cross-sector collaboration.
+support the banking and broader financial services
+industry in combating fraud and organised crime through Application fraud, however, saw a sharp rise, particularly
+effective information sharing, collaboration, and the within the Vehicle Asset Finance (VAF) stream, which re-
+strategic use of technology. As financial crime continues corded a 49.6% increase in incidents and a 71.1% increase
+to evolve in complexity and sophistication, SABRIC’s vision in potential losses, totalling R23 bn. Modus operandi
+of enabling a safe and secure banking environment for all such as vehicle cloning and illegal changes of vehicle
+South Africans remains central to our mandate. ownership continue to challenge stakeholders. The use
+of synthetic identities, AI-generated documents, and
+This report contains the SABRIC Annual Crime Statistics
+cross-border laundering further emphasises the growing
+for 2024, providing a comprehensive analysis of finan-
+sophistication of fraud rings. Unsecured credit fraud also
+cial crime trends and patterns, which is instrumental in
+surged, with a 57.6% increase in reported cases and a
+informing targeted strategies and collaborative efforts to
+corresponding 62.4% increase in potential losses. While
+effectively mitigate crime and enhance security across
+banks were able to prevent many of these applications,
+South Africa’s banking sector.
+actual losses still more than doubled. Similarly, gross card
+In 2024, financial crime continued to escalate, with signif- fraud losses increased by 26.2% year-on-year, reaching
+icant increases in digital banking fraud, application fraud, R1.466 bn in 2024, with “card-not-present” fraud remain-
+and card-related crime. Emerging technologies, partic- ing the dominant threat vector.
+ularly generative artificial intelligence (AI), have been
+SABRIC acknowledges that these trends represent not
+leveraged by criminals to craft more sophisticated fraud
+only technological but also behavioural challenges, with
+schemes, which has been evident in the unprecedented
+social engineering attacks exploiting human error as a
+86% increase in digital banking fraud incidents and a
+primary vulnerability. Multi-factor authentication, biomet-
+74% rise in associated losses, totalling R1.888 billion (bn).
+ric verification, and increased public awareness remain
+AI-driven scams, phishing campaigns, and deepfake-en-
+key deterrents.
+abled impersonations emphasised the critical need for
+adaptive, intelligence-led security strategies. As we navigate an increasingly complex risk environment,
+SABRIC reaffirms its commitment to innovation, opera-
+Despite these challenges, the banking sector has made
+tional resilience, and industry collaboration. In 2024, the
+notable strides in mitigating contact crime. Associated
+banking sector’s unified efforts, alongside strategic part-
+robbery incidents declined by 35%, with client losses
+nerships with law enforcement, regulators, and private
+reduced by 64% compared to 2023. The successful col-
+sector entities, enabled us to proactively detect, disrupt,
+laboration between banks and the South African Police
+and respond to criminal threats.
+Service (SAPS), particularly through initiatives like the
+Associated Robbery Project, was instrumental in these We commend the tireless efforts of our partners, mem-
+achievements. Enhanced security protocols at branches bers, and stakeholders. Through ongoing cooperation and
+and the proactive identification of suspects contribut- the strategic embrace of technology, we will continue to
+ed significantly to this outcome. Additionally, the 18% evolve in our efforts to safeguard South Africa’s banking
+decrease in ATM attack explosive incidents can be at- infrastructure and the customers it serves.
+tributed to the formation of a task team consisting of key
+South African Banking Risk Information Centre Annual Crime Statistics 2024 3
+
+--- Page 4 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+MEMBERS
+South African Banking Risk Information Centre Annual Crime Statistics 2024 4
+
+--- Page 5 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+South African Banking Risk Information Centre Annual Crime Statistics 2024 5
+rotceS
+cilbuP
+etavirP
+-isrevinU
+/seidoB
+yrtsudnI
+rotceS
+seit
+snoitaicossA
+PARTNERS
+
+--- Page 6 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+QUALIFICATION OF INFORMATION
+T
+he information utilised in this publication was
+provided by SABRIC members. The statistics used in
+the report cover the period, 1 January to 31 Decem-
+ber 2023 and 2024. The statistics contained in this publica-
+tion may differ slightly from previous publications due to
+the continuous reporting of information post-publication,
+regular data verification processes followed by SABRIC, as
+well as ongoing investigations.
+The information used was as follows:
+»
+For the comparative analysis, 2023 was compared
+to 2024.
+»
+All calculations are based on the date that the inci-
+dent or fraudulent transaction occurred.
+»
+All contact crime losses mentioned in this publi-
+cation refer to cash that was robbed or stolen and
+excludes cash that was recovered or other damages
+that were incurred.
+»
+All fraud losses mentioned in this publication refer
+to gross fraud losses.
+»
+Loss figures are rounded to the nearest R1 million
+(m), unless otherwise stated and therefore the sum
+of the separate losses (for example per loss cate-
+gory/fraud type) may differ from the rounded loss
+reflected.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 6
+
+--- Page 7 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+TOTAL FINANCIAL CRIME 2024 AT A GLANCE
+Year Total (Potential) Losses Reported Actual Losses* Reported Cases/Incidents/Transactions*
+to SABRIC*
+2024 R30 739 895 830 R 2 721 652 072 2 074 059
+Table 1: Total Financial crime 2024
+*The categorisation is based on inputs as per reporting bank protocols and definitions are not necessarily comparable between crime types.
+TOTAL/POTENTIAL LOSSES:
+Refer to the estimated financal impact that occurred due to fraud and represents what crimminals attempted to steal,
+but may have been unsuccessful in doing so.
+ACTUAL LOSSES:
+Are the real, confirmed financial damage incurred as a result of fraudulent criminal activities.
+They include the immediate monetary amount that was stolen, or the value of transactions that were executed
+fraudulently, including unauthorised transfers.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 7
+
+--- Page 8 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+BREAKDOWN OF FINANCIAL CRIME PER CRIME TYPE
+APPLICATION FRAUD CONTACT CRIME
+2024 Potential Loss Actual Loss Incident 2024 Potential Loss Actual Loss Incident
+Count Count
+Jan R 2,132,903,924.47 R 36,409,311.02 10063 Jan R3,021,006 55
+Feb R 2,427,575,817.95 R 84,743,501.33 10186 Feb R3,620,165 54
+Mar R 2,124,032,415.15 R 66,058,438.00 10419 Mar R2,866,420 42
+Apr R 2,623,213,935.24 R 47,126,535.73 11197 Apr R2,376,310 41
+May R 2,252,833,792.19 R 46,953,916.40 9853 May R4,353,279 62
+Jun R 2,303,622,662.28 R 35,046,745.70 8866 Jun R3,500,890 62
+Jul R 3,262,580,089.00 R 32,105,557.72 10086 Jul R2,950,326 83
+Aug R 2,924,050,502.91 R 95,862,872.50 9727 Aug R2,096,713 75
+Sep R 1,977,465,363.03 R 74,505,801.00 8361 Sep R2,350,140 79
+Oct R 2,960,244,912.09 R 125,132,091.00 10114 Oct R4,457,880 86
+Nov R 3,033,720,211.57 R 106,919,995.67 10224 Nov R7,158,687 85
+Dec R 2,717,652,205.03 R 46,630,566.67 8754 Dec R1,604,440 26
+Total R 30,739,895,830.91 R 797,495,332.74 117850 Total N/A R40,356,256 750
+DIGITAL BANKING CRIME CARD FRAUD
+2024 Potential Loss Actual Loss Incident 2024 Gross Fraud Losses (Debit & Actual Loss Transactions
+Count Credit): Potential
+Jan R 102 391 073.00 5593 Jan R120,898,408 157,502
+Feb R 129 747 274.00 5694 Feb R105,232,119 127,326
+Mar R 101 896 578.00 6253 Mar R123,689,839 156,083
+Apr R 111 959 488.00 7051 Apr R134,128,509 169,561
+May R 166 691 456.00 9756 May R123,029,874 172,571
+Jun R 192 087 478.00 8903 Jun R112,428,304 157,813
+Jul R 197 240 453.00 8791 Jul R120,363,387 163,377
+Aug R 176 913 263.00 9583 Aug R96,872,208 139,156
+Sep R 177 844 675.00 8912 Sep R113,267,643 138,708
+Oct R 194 296 748.00 10778 Oct R140,297,329 145,664
+Nov R 176 160 316.00 8586 Nov R135,190,909 161,132
+Dec R 156 571 682.00 8059 Dec R140,900,244 168,607
+Total N/A R 1 883 800 484.00 97959 Total R1,466,298,773 N/A 1,857,500
+South African Banking Risk Information Centre Annual Crime Statistics 2024 8
+
+--- Page 9 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+CONTACT CRIME
+ASSOCIATED ROBBERY
+T
+to the arrest of several suspects linked to inside branch the 66% increase in associated robbery incidents for the
+he industry recorded a 35% decrease in associated
+robberies. reporting time period.
+robbery incidents during 2024, and a subsequent
+64% decrease in accompanying losses to clients Associated robberies pose a significant reputational risk to
+compared to 2023. The notable decline in related robbery businesses, as clients who experience losses may lose trust Criminals take advantage of the clients’ ignorance and
+incidents is largely due to a collaborative project between in the company’s ability to protect their interests. When superstitions by using tactics such as smearing muti on
+the banking industry and the South African Police clients suffer financial or material losses due to such them to extort money, or employing a “money bomb”
+Service (SAPS), aimed at sharing information on identified incidents, it can lead to negative publicity and diminished scam where cash is dropped on the ground to trick vic-
+suspects and alerting authorities when these individuals customer confidence. tims into handing over more money. Associated robbery
+entered bank branches, enabling the identification of incidents are often categorised as common robbery and
+potential cash-withdrawal victims.. Associated Robbery aggravated robbery by the SAPS, making it difficult to
+Clients making cash deposits at ATM
+inside a branch decreased by 96% resulting in only one distinguish them from associated robberies. Furthermore,
+machines are perceived as easy targets for criminals, espe-
+reported incident during 2024. The decrease can directly some victims report incidents to a bank branch instead of
+cially during the first six days of the month in which grant
+be attributed to the Associated Robbery project that led the SAPS.
+payments are paid out. This serves as a driving factor for
+2023
+Graph 1: Associated Robery incidents and loss for reporting period 2023 and 2024
+South African Banking Risk Information Centre Annual Crime Statistics 2024 9
+
+--- Page 10 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Incidents Cash Loss
+Incident Sub-Type
+2023 2024 % Diff 2023 2024 % Diff
+Associated Robbery - Branch Before Deposit 116 26 -78% R8,078,411 R1,956,916 -76% Enhanced security measures implemented at branches
+serve as a driver for the 78% decrease in the sub-type of
+Associated Robbery - ATM After Withdrawal 256 154 -40% R1,736,937 R537,405 -69%
+branch before deposit incidents in 2024, financial losses
+Associated Robbery - ATM before Deposit 47 78 66% R494,000 R1,339,895 171% in the same category decreased by 76% when compared
+Associated Robbery - Branch After Withdrawal 120 55 -54% R6,346,453 R2,941,595 -54% to 2023. These security measures led to less loitering, in
+turn keeping clients safe from criminals attempting to
+Associated Robbery - Cash Centre After Withdrawal 1 0 -100% R126,300 R0 -100%
+monitor those depositing large amounts of cash.
+Associated Robbery - Inside Branch 25 1 -96% R2,919,142 R100,000 -97%
+The arrest of the main suspects as well as the sharing of
+Associated Robbery - Other - Money bomb 30 64 113% R155,516 R358,657 131%
+information to branches also contributed to a decrease in
+Associated Robbery - Other - Muti 18 22 22% R608,077 R591,471 -3% reported incidents.
+Associated Robbery - Other - Theft out of vehicle 1 0 -100% R1,600,000 R0 -100%
+Associated Robbery Other (Determined by MO) 20 14 -30% R297,260 R150,500 -49%
+Total 634 414 -35% R22,362,096 R7,976,439 -64%
+Table 2: Associated Robery incidents and cash loss 2023-2024
+Gauteng was the province with the highest number of reported Associated
+Robbery incidents (41%) followed by KwaZulu Natal (13%).
+Figure 1: Associated Robery incidents and loss for reporting period 2023 and 2024 on map provincial layout
+South African Banking Risk Information Centre Annual Crime Statistics 2024 10
+
+--- Page 11 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Incidents Cash Loss
+Province
+2023 2024 2024 2023 2024 2024
+Eastern Cape 72 32 -56% R2,038,030 R520,720 -74%
+Free State 35 18 -49% R422,987 R70,700 -83%
+Gauteng 251 166 -34% R11,621,031 R4,619,199 -60%
+Kwazulu Natal 72 55 -24% R1,308,090 R814,739 -38%
+Limpopo 53 40 -25% R1,876,932 R387,737 -79%
+Mpumalanga 43 26 -40% R2,118,091 R361,730 -83%
+North West 49 28 -43% R1,695,948 R144,314 -91%
+Northern Cape 5 5 0% R43,324 R22,400 -48%
+Western Cape 54 41 -24% R1,237,663 R774,900 -37%
+Total 634 414 -35% R22,362,096 R7,976,439 -64%
+Table 4: Associated Robery incidents and loss provincial
+International Perspective Associated Robbery
+The term “associated robbery” are commonly used in or en route. A certain level of violence is accompanied
+South Africa although the crime type features globally with these incidents, especially if the victim resists.
+under different terminology. Globally, the same phe-
+To reduce the risk of becoming a victim of associated rob-
+nomenon is known under different names; In the United
+beries, consider following these prevention measures;
+States, they are called “Follow-home robberies” or “bank
+jugging”, while in the United Kingdom it is known as » Avoid routine banking patterns.
+“Distraction thefts”. In the Latin American region, a trans-
+»
+lation of “bank marking” called “Marcaje bancario” is Use electronic transfers and digital payment
+used to describe this type of crime. methods instead of carrying cash.
+»
+These incidents follow a similar pattern in its execution, Be aware of the surroundings when leaving a bank
+where criminals surveil and observe bank customers to or ATM.
+identify potential targets. These attacks also occur shortly »
+Use secure cash-in-transit services for businesses.
+after a withdrawal or before a deposit, and victims are tar-
+geted in a variety of areas including parking lots, at home,
+South African Banking Risk Information Centre Annual Crime Statistics 2024 11
+
+--- Page 12 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+ATM Attack
+Incidents of ATM attacks committed through explosives
+decreased by 18% during 2024 when compared to 2023. Of
+the reported incidents, SABRIC member banks accounted
+for 74% of occurrences, while non-SABRIC institutions
+reported the remaining 26%. In 85% of the ATM attack-ex-
+plosives incidents, the perpetrators were successful in
+accessing the cash, despite the activation of dye-stain
+technology. Gauteng Province reported the most ATM
+attack-explosives incidents at a rate of 67%, followed by
+Limpopo Province at a rate of 9%. The Southern parts of
+Gauteng were most affected by ATM attack-explosives
+incidents with Johannesburg District at a rate of 45% and
+Ekurhuleni at a rate of 38%. The use of explosives to attack
+an ATM makes it possible for the perpetrators to execute
+the operation quickly, especially when targeting service
+stations where there are two or more ATM machines.
+The perpetrators have, in some instances, also robbed the
+service station shop and also attacked the drop safes at
+the service station.
+Incidents of ATM attacks commited through an Angle
+Grinder decreased by 38% from 26 during 2023 to 16 inci-
+dents in2024. In 82% of the ATM attack grinder incidents,
+Graph 2: ATM attacks 2023 & 2024 the perpetrators were successful in accessing the cash in
+the ATM whether it was dye stained or not. Usually, the
+perpetrators will target a shopping center to hold security
+guards hostage and the perpetrators, dressed in guard
+An 18% decrease in ATM attacks during 2024 was reported by the industry, resulting in a 44% decrease in cash losses.
+uniform, will keep a lookout on the outside while the rest
+74% of the reported incidents can be attributed to SABRIC member banks, while the remaining 26% were reported by
+of the perpetrators will use grinders to access the ATM
+non-SABRIC member institutions.
+cash. The grinding of an ATM attack indicates a coordinat-
+ed approach as a large group of perpetrators, time, and
+planning is required . The risk to perpetrators is high due
+Incidents Cash Loss to prompt responses from reaction teams that respond
+Incident Sub-Type
+2023 2024 % Diff 2023 2024 % Diff after alarm signal loss. It seems that during load shedding
+the perpetrators could limit the impact due to signal loss
+ATM Attack - Burglary 11 21 91% R0 R0 0% and perpetrators dressed as guards indicating to reaction
+ATM Attack - Cutting Torch 5 1 -80% R498,430 R0 -100% teams that all was in order.
+ATM Attack - Explosives 308 254 -18% R41,582,088 R24,901,010 -40%
+ATM Attack - Grinder 26 16 -38% R5,376,510 R2,092,150 -61%
+ATM Attack - Theft 1 3 200% R0 R0 0%
+ATM Attack - Tools 15 6 -60% R1,056,230 R246,680 -77%
+Total 366 301 -18% R48,513,258 R27,239,840 -44%
+Table 5: ATM attacks 2023 & 2024
+South African Banking Risk Information Centre Annual Crime Statistics 2024 12
+
+--- Page 13 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+The 18% decrease in ATM Attack explosive incidents can
+be attributed to the formation of a task team consisting
+of key stakeholders from various industries and law en-
+forcement to combat these threats through data-driven
+intelligence and cross-sector collaboration.
+The majority of ATM attacks occurred in Gauteng at a
+rate of 67%, followed by Limpopo province at 9% and the
+North West province at 7%. ATM Attack incidents in the
+Eastern Cape province increased by 29% during 2024
+compared to 2023.
+International
+Perspective on ATM Attacks
+ATM Attacks are a global phenomenon and based on re-
+Figure 2 : ATM attacks: Explosive-SABRIC members vs Non SABRIC members cent reports, it was stated that there is a continued global
+threat from both physical and fraud-based ATM attacks
+(ATMIA, 2024).
+Additionally, physical attacks (including ram raids and
+explosive attacks) remain a major concern.
+Incidents Cash Loss
+Province Emerging threats include hybrid attacks combining phys-
+2023 2024 % Diff 2023 2024 % Diff
+ical and digital methods.
+Eastern Cape 14 18 29% R613,960 R816,370 -33%
+The European Association for Secure
+Free State 32 13 -59% R824,420 R1,179,890 -43%
+Transactions (EAST), in their 2023/2024
+report reported that ATM physical attacks rose by 24%,
+Gauteng 224 201 -10% R34,540,009 R20,257,880 -41%
+indicating an increase from 3,728 to 4,637 incidents for
+the same time period, while explosive attacks slightly
+Kwazulu Natal 5 3 -40% R392,960 R0 -100%
+decreased by 2% (714 incidents) but still caused €5.36 m
+in losses.
+Limpopo 32 29 -9% R3,498,220 R2,454,940 -30%
+While 2024-specific statistics are limited, trends from
+Mpumalanga 29 11 -62% R4,952,429 R1,134,260 -77% 2019–2022 highlighted a 600% increase in ATM attacks
+from 2019 to 2022 across the United States, where an aver-
+North West 23 21 -9% R3,658,790 R1,396,500 -62% age of $27,000 stolen per attack, with $50,000+ reported
+in replacement costs 3. Attacks often involved vehicle-as-
+Northern Cape 1 3 200% R32,470 R0 -100% sisted thefts and black box attacks (malware-based cash-
+outs).
+Western Cape 6 2 -67% R0 R0 0%
+Grand Total 366 301 -18% R48,513,258 R27,239,840 -44%
+Table 6: ATM attacks incidents and loss 2023 & 2024
+South African Banking Risk Information Centre Annual Crime Statistics 2024 13
+
+--- Page 14 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Burglary – Commercial Retail Banking Industry
+A well-known modus operandi of criminals accessing the
+back of the bank branch and climbing onto the roof to cut
+through the corrugated iron to access the branch became
+prominent again during 2024. Jackhammers and grinders
+would then be used to breach the safe.
+Gauteng (8 incidents), Western Cape (6 Incidents) and
+Eastern Cape (5 incidents) were the provinces with the
+highest number of reported branch burglary incidents.
+Graph 3: Burglary – commercial retail banking industry 2023-2024
+Despite a significant 46% decrease in bank branch burglary incidents in 2024, the related cash losses increased by 226%
+during 2024. Three incidents where cash was targeted during a burglary were reported in 2024. Perpetrators also target-
+ed assets such as laptops and computers. In 56% of the burglary incidents nothing was stolen.
+Incidents Cash Loss
+Incident Sub-Type
+2023 2024 % Diff 2023 2024 % Diff
+Burglary - Asset 18 3 -83% R0 R0 0%
+Burglary - Cash 9 3 -67% R449,950 R1,467,620 226%
+Burglary - Computer 2 6 200% R0 R0 0%
+Burglary - Nothing Stolen 21 15 -29% R0 R0 0%
+Burglary Total 50 27 -46% R449,950 R1,467,620 226%
+Table 7: Burglary – commercial retail banking industry 2023-2024
+South African Banking Risk Information Centre Annual Crime Statistics 2024 14
+
+--- Page 15 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Incidents Cash Loss
+Province
+2023 2024 % Diff 2023 2024 % Diff
+Eastern Cape 10 5 -50% R0 R1,467,620 100%
+Free State 6 4 -33% R0 R0 0%
+Gauteng 10 8 -20% R449,950 R0 -100%
+Kwazulu Natal 5 1 -80% R0 R0 0%
+Limpopo 1 1 0% R0 R0 0%
+Mpumalanga 5 0 -100% R0 R0 0%
+North West 7 2 -71% R0 R0 0%
+Northern Cape 0 0 0% R0 R0 0%
+Western Cape 6 6 0% R0 R0 0%
+Burglary Total 50 27 -46% R449,950 R1,467,620 226%
+Table 8: Burglary – commercial retail banking industry provincial
+International Perspective on Bank structure rather than physical branches.
+»
+Branch Burglaries Cyberattacks and fraud now account for a larger
+share of financial crime losses globally.
+Many countries have reported a steady decline in physical
+bank branch burglaries over the past decade. This is large- Globally, different trends has been noted regarding the
+ly due to several factors, including but not limited to: occurrence of bank branch burglaries In Europe, coun-
+tries such as Italy and the United Kingdom have seen
+»
+Increased use of digital banking. significant decreases in bank burglaries, while in Latin
+» America, some countries still report higher rates of physi-
+Enhanced security systems (e.g., CCTV, alarms,
+cal attacks due to cash-heavy economies.
+time-locked safes).
+» Across Africa and Asia, mixed trends were observed, with
+Reduced cash holdings at branches.
+some areas experiencing increased attacks on rural or
+»
+Shifts Toward Cybercrime. under-secured branches.
+»
+Criminals are increasingly targeting digital infra-
+South African Banking Risk Information Centre Annual Crime Statistics 2024 15
+
+--- Page 16 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Robbery – Commercial Private Banking Industry
+Graph 4: Robbery – Commercial Private Banking Industry
+The Easten Cape (62%) and Gauteng Province (25%)
+were the provinces with the highest number of report-
+Incidents Cash Loss ed bank robbery incidents.
+Incident Sub-Type
+2023 2024 % Diff 2023 2024 % Diff
+Robbery 4 8 100% R834 084 R3 672 357 340%
+4 8 100% R834 084 R3 672 357 340%
+Table 9: Robbery – Assets incidents and loss
+Eight bank robbery incidents were reported during 2024 kept in the teller drawers. . The traditional bank robbery
+compared to four incidents during 2023, indicating a incidents where a group of suspects would hold up staff
+100% increase. Opportunistic perpetrators targeted single and clients at gunpoint were unseen during 2023 and
+tellers at bank branches located across the Eastern Cape 2024 due to safety mitigation strategies implemented by
+(five incidents), Gauteng (two incidents) and KwaZulu-Na- the banks.
+tal (one incident) to obtain relatively low cash amounts
+South African Banking Risk Information Centre Annual Crime Statistics 2024 16
+
+--- Page 17 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Incidents Cash Loss
+Province
+2023 2024 % Diff 2023 2024 % Diff
+Eastern Cape 1 5 400% R803,044 R19,000 -98%
+Free State 0 0 0% R0 R0 0%
+Gauteng 2 2 0% R31,040 R3,653,357 11670%
+Kwazulu Natal 0 1 100% R0 R0 0%
+Limpopo 0 0 0% R0 R0 0%
+Mpumalanga 0 0 0% R0 R0 0%
+North West 1 0 -100% R0 R0 0%
+Northern Cape 0 0 0% R0 R0 0%
+Western Cape 0 0 0% R0 R0 0%
+Grand Total 4 8 100% R834,084 R3,672,357 340%
+Table 10: Robbery– Assets incidents and loss provincial
+International Perspective Bank The Federal Bureau of Investigation (FBI) Bank Crime
+Statistics for 2023 reported that more than 1500 bank
+Branch Robberies
+robberies occurred involving note passing or threats of
+violence. Many of the incidents occurred in urban areas.
+According to the 2024 Global Financial Crime Report,
+physical bank robberies are declining globally, while cy- In Italy, the Italian Banking Association (ABI) reported
+bercrime and fraud are on the rise. a 36.3% drop in bank robberies in 2024, indicating 80
+incidents in 2023 to 51 in 2024, representative of the 93.6%
+Many countries report fewer in-person robberies due to
+decrease in robberies over the past decade.
+several factors, including:
+»
+Increased digital banking
+»
+Enhanced security systems
+»
+Reduced cash holdings at branches
+South African Banking Risk Information Centre Annual Crime Statistics 2024 17
+
+--- Page 18 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+DIGITAL CRIME
+I
+n 2024, Digital banking crime continued to surge, Year Reported YoY Gross Fraud YoY
+following the sharp upward trend from 2023. Digital Incidents Change Losses Change
+banking fraud incidents escalated in 2024 when com-
+pared to figures from the previous year, depicting an 86%
+increase in reported incidents from the banking industry 2022 36,178 – R734.7 m –
+and 74% increase in associated losses. This significant
+increase highlights the need for robust countermeasures. 2023 52,584 +45% R1.082 bn +47%
+Table 1 provides an overview of reported incidents and
+gross losses: 2024 97,975 +86% R1.888 bn +74%
+Table 11: Digital Banking Fraud in South Africa 2022–2024
+KEY TRENDS & STA-
+Note: “YoY” = Year-over-Year change. 2022-2024 figures are verified totals
+TISTICS (2022–2024)
+reported by banks.
+Digital banking fraud has spiked over the past three years,
+with 2024 seeing the highest volumes and losses on
+record thus far.
+Graph 5: Digital Banking fraud reports investigations and losses in South Africa per month 2022–2024
+Reported fraud Incidents nearly doubled in 2024, marked by a 86% increase from 2023, reaching 97 975 reported cases.
+Gross losses spiked to approximately R1.888 bn, indicating a 74% increase from 2023. This illustrates that more than half
+of the total digital banking fraud losses in the last three years occurred in 2024 alone.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 18
+
+--- Page 19 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Note: “Gross Loss” = displayed in millions attack vector in 2024, fraud on all digital channels remains
+a concern.
+Banking apps as prime targets: Banking application
+(Android, etc) is the dominant channel utilised for fraud, Social engineering drives fraud: Human fallibility is a
+accounting for 65.3% of reported incidents in 2024. In primary attack vector which is exploited to deploy social
+2023, banking app fraud made up 60% of reported cases engineering attacks. The surge in fraud during 2024 was
+(31 612 incidents), nearly doubling to ~64,000 incidents in largely due to phishing, vishing, and other social engi-
+2024. Losses from app fraud exceeded R1.2 bn in 2024, as neering tactics. Criminals obtained passwords, PINs, or
+compared to losses in 2023. approvals by tricking victims through sophisticated fraud
+schemes, and in some cases, scams driven by Artificial
+All reported incidents involved criminals exploiting human
+Intelligence (AI).
+error through social engineering techniques to compro-
+mise accounts, as opposed to technical breaches of bank- 2024 represented a year of exceptional growth in digital
+ing app platforms’ security. banking crime, with banking apps aggressively targeted.
+The convergence of several factors, including smartphone
+Other channels (online/USSD banking): Traditional
+penetration, internet access and customer demand
+internet banking and USSD-based mobile banking now
+leading to increased digital banking coupled with easily
+form a smaller share of all reported incidents. Approxi-
+accessible fraud kits to deploy sophisticated social engi-
+mately 10% of cases reported in 2024 involved internet
+neering attacks resulted in the unprecedented increase in
+web banking fraud ~8% and ~9% were USSD/older mobile
+digital banking fraud.
+banking fraud. While banking apps remain a prominent
+South African Banking Risk Information Centre Annual Crime Statistics 2024 19
+
+--- Page 20 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Common Fraud Schemes and credential harvesters, or to initiate malware downloads.
+Unlike direct malicious links, QR codes are often embed-
+Modus Operandi during 2024 ded as plain images within emails or attached documents,
+making them challenging for automated malware detec-
+tors and email filters to flag, thereby bypassing tradition-
+Criminals in 2024 continued to use a range of fraud mo-
+al email security filters and reaching the victim’s inbox
+dus operandi (MOs),– often combining multiple methods
+undetected.
+in one attack to ensure maximum effect. Below are the
+most prevalent scams and schemes containing an assess- Malicious QR codes are distributed through many chan-
+ment of its typical features and any notable evolutions nels, blurring physical and digital spaces; including emails,
+from 2023: SMS messages, invoices, public posters, and product
+labels. Attackers use lures like discounts, urgent account
+Social Engineering (Phishing/Vishing/ verification, or security updates to prompt immediate
+action. In a financial context, fake bank communications
+Smishing)
+instructing users to scan a QR code for “new data policies”
+Exploiting trust and fear to obtain confidential informa- could be sent out, leading to credential theft. In other
+tion, criminals send emails, make calls or SMSs to steal instances, malicious QR codes could be embedded in
+credentials or deceive them into approving transactions stickers on public pay-to-park kiosks, redirecting victims
+or divulging their sensitive information, such as login to fraudulent payment sites. Quishing tactics are also
+information. These emails, calls or SMSs often resemble used in spoofed bank statements or email receipts, with
+legitimate entities, with criminals using spoofed email malicious QR codes redirecting users to phishing sites
+addresses or names, increasing the likelihood that victims resembling official bank portals to steal login credentials.
+will hand over sensitive information. In other instances, Fraud schemes impersonating prominent entities such as
+criminals will send multiple emails, SMSs or calls at the Microsoft, request users to scan QR codes for “voicemail
+same time to overwhelm the victim, tricking them into access” or “security updates,” often targeting corporate
+responding or confirming sensitive information in a tactic credentials and potentially bypassing MFA. The hybrid
+also known as spearphishing. In many reported cases, nature of Quishing necessitates broadening collaborative
+victims receive a fake email from seemingly their bank efforts beyond traditional sectors to include retail, hospi-
+urging the victim to log in via a provided link, leading to a tality, and municipal services, as these entities are often
+spoofed website that steals their username and password. on the front lines of physical QR code deployment.
+Immediately after, a vishing call from a fake fraud depart-
+Executive Impersonation & Payment
+ment might trick the victim into divulging a one-time pin,
+which will be used to log in to the legitimate banking site Fraud
+and gain access to the victim’s account. Vishing callers
+have become more sophisticated, sometimes knowing Business Email Compromise (BEC) scams remained
+personal details due to data leaks or previous scams to prevalent in 2024, with an emerging trend of criminals
+obtain the details. impersonating CEO’s or suppliers to trick companies
+into making payments into their accounts. In a notable
+QR Code Phishing, more commonly example, criminals hacked a CEO’s email to send urgent
+payment requests to the finance department, while other
+known as Quishing
+reports indicate that the criminals could have intercept-
+Quishing, a blend of “QR” and “phishing,” is a rapidly evolv- ed invoices to change bank details. These attacks have
+ing social engineering attack that leverages the wide- become more tailored and personalised, creating a sense
+spread convenience and perceived trustworthiness of QR of urgency and legitimacy which could increase the likeli-
+codes to deceive users into compromising their security. hood of people falling victim to these scams.
+Cybercriminals create manipulated or fake QR codes that
+Bank executive impersonation scams involving fake
+embed malicious links and when scanned, victims are
+investment schemes have increasingly exploited popular
+unknowingly redirected to fraudulent and spoofed web-
+communication platforms like Facebook and WhatsApp
+sites designed to steal sensitive information with seem-
+to reach potential victims. Scammers create fake profiles
+ingly legitimate webpages, such as fake login pages and
+on these platforms or hijack legitimate ones to pose as
+South African Banking Risk Information Centre Annual Crime Statistics 2024 20
+
+--- Page 21 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+high-ranking officials from reputable financial institutions ing bank OTPs. SIM swaps were often used in combination but rely on victims willingly transferring money.
+and initiate contact with individuals, often under the with other tactics, like phishing for online banking pass-
+Each of the above modus operandi often overlaps with
+guise of offering exclusive investment opportunities. The words first, then performing a SIM swap to get the OTP
+others and the banking industry tracks all these methods
+use of familiar and trusted apps makes the approach feel for transfers. Customers are urged to contact their bank
+closely to adapt its prevention strategies.
+more personal and credible, lowering the target’s defenc- immediately if their phone suddenly shows “Emergency
+es and increasing the likelihood of engagement. Calls Only,” as this can indicate an unauthorized SIM swap.
+These scams are particularly effective because they Device Theft & Unauthorised Access
+combine the perceived authority of financial executives
+with the accessibility and informality of social media and Criminals in South Africa have been stealing mobile
+messaging apps. Victims may receive messages, voice phones in an attempt to access banking apps and login
+notes, or even video calls that appear authentic, especially credentials as phones have been compared to bank cards
+when enhanced by AI-generated content. The scammers due to the vast amount of information it contains. If a
+often create a sense of urgency, pressuring individuals phone is unlocked or not securely protected, a thief can
+to act quickly before verifying the legitimacy of the offer. open banking or payment apps to transact. Even if locked,
+This blend of social engineering and digital impersonation criminals may socially engineer access by sending phish-
+makes platforms like Facebook and WhatsApp fertile ing messages to trick the owner into revealing account
+ground for these fraudulent schemes. credentials. Prevention tips include using strong PINs/
+biometrics, enabling remote wipe, never storing banking
+Public “Loyalty Program” Scam passwords in plaintext, and contacting your bank imme-
+diately if your phone is lost or stolen to deactivate banking
+In the “loyalty program” scam, a fraudster, often in uni-
+access.
+form, approaches victims with a tablet in public, offering
+to sign them up for a rewards program. They trick the vic- Money Mules & Laundering Networks
+tim into entering their bank card PIN or mobile banking
+login on the fraudster’s device, which records the creden- To avoid detection, criminals extensively used money
+tials and is used for fraudulent purposes. mule accounts in 2024 to launder stolen funds. Scammers
+recruit individuals, who knowingly or unknowingly receive
+Malware and Fake Banking Apps and pass on money through their own bank accounts.
+Syndicates also created fake or stolen ID accounts for this
+In 2024, cybercriminals deployed advanced malware to
+purpose. Stolen money is distributed in small amounts
+compromise smartphones and PCs. A notable trend was
+and funnelled through multiple mule accounts, some-
+the spread of trojan apps disguised as legitimate ones,
+times across different banks. A notable trend was laun-
+such as a fake “DSTV Remote Update” app that installed
+dering via online betting accounts, where stolen funds
+banking trojans like “GoldDigger” or “Gigabud.” This mal-
+are deposited into betting wallets and then “cashed
+ware could monitor devices, capture banking login cre-
+out” as winnings to mask their origin. Cryptocurrency
+dentials, and surreptitiously approve transactions as some
+also remained a laundering tool. Banks and authorities
+malware displayed overlay screens to capture details
+intensified efforts to crack down on mule networks, with
+when a banking app was opened. On computers, phishing
+multiple arrests and improved monitoring.
+emails with attachments deployed keyloggers or remote
+access trojans. To protect against malware, users should “Long-Con” Romance & Investment
+only install apps from official app stores, keep devices
+updated, and use antivirus solutions. Scams
+SIM Swaps & Number Porting Fraud 2024 continued to see romance scams and “pig butcher-
+ing” scams affecting bank customers. In romance scams,
+SIM swap fraud continued to facilitate digital banking criminals cultivate online relationships over weeks, then
+crimes and more specifically in the mobile banking manufacture emergencies to solicit funds via online
+(USSD) channel in 2024. A criminal convinces a mobile banking. Pig butchering involves scammers gaining trust
+network to transfer a victim’s cellphone number to a SIM (not always romantically) and introducing fake investment
+card in the fraudster’s possession. Once the victim’s phone opportunities, pressuring victims for larger investments
+loses signal, the criminal receives all calls and SMS, includ- before disappearing. These scams do not involve hacking
+South African Banking Risk Information Centre Annual Crime Statistics 2024 21
+
+--- Page 22 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Emerging Trends in 2024 and beyond
+Several new or evolving trends shaped the digital banking crime landscape in 2024, providing insight into what we may
+face in 2025 and 2026:
+AI-Powered Fraud Banks are also exploring blockchain analytics tools to
+trace stolen funds.
+(Deepfakes & Automation)
+Targeting of Businesses &
+Criminals are leveraging artificial intelligence to enhance
+scams to make it seem more legitimate and convincing. High-Net-Worth Individuals
+Sophisticated AI-generated content was used to deceive
+victims, with error-free phishing emails and WhatsApp Criminals also crafted highly targeted attacks against
+messages drafted by AI chatbots. Isolated reports of voice- companies and wealthy individuals. This included Busi-
+based deepfake scams also emerged, where AI-cloned ness Email Compromise (BEC) scams against business-
+voices impersonated individuals. It can be expected that es and bespoke cons against wealthy banking clients,
+in 2025, criminals may use deepfake audio or video more often exploiting personal information gleaned from data
+often to impersonate bank officials or CEOs in real time. breaches or social media. These tailored cons are high-ef-
+Banks are exploring countermeasures like AI-driven de- fort, high-reward operations. Banks offer high-net-worth
+tection systems and training staff to establish verification clients additional education and alert services, and advo-
+protocols. cate for measures such as dual authorization of payments
+for businesses.
+Fraud-as-a-Service & Collaboration
+Advanced Mobile Malware & Device
+Among Criminals
+Cloning
+The use of Fraud-as-a-Service (FaaS) among underground
+markets grew during 2024, lowering the barrier to entry We anticipate that in 2025–2026, as more security features
+for cybercrime. Almost every aspect of a digital fraud roll out, criminals will beef up their malware accordingly.
+operation can now be outsourced or bought, including 2024 already saw Android malware intercepting OTPs
+phishing kits, malware rentals, and mule account net- by abusing accessibility permissions. SIM cloning might
+works. This means fraud syndicates do not need highly also rise, where an attacker copies SIM data to create a
+specialised and technical kills, leading to a broader base duplicate, allowing OTP interception without triggering a
+of attackers and faster spread of new scam techniques. To SIM swap alert. Telecom providers are enhancing SIM card
+counter this, the banking industry and law enforcement security. Malware targeting banking app communication
+are collaborating more closely to infiltrate and take down is another worry. This highlights the importance of device
+these criminal services. security for customers: keeping phones/computers clean
+of malware is becoming as vital as keeping one’s PIN
+Cryptocurrency in Fraud & Money secret.
+Laundering These emerging trends paint a picture of an ever-evolv-
+ing threat landscape. Criminals are innovating constant-
+Cryptocurrency’s role in digital banking crime grew in ly, whether through technology like AI and malware or
+2024 as more scams involved requesting payment in through inventive social tricks. However, banks and
+crypto, bypassing traditional banking systems and making partners are also evolving in response, using better tech,
+tracing more difficult. After funds were stolen via conven- stricter policies, and teamwork.
+tional means, criminals often quickly converted a portion
+to cryptocurrency. This modus operandi is set to continue
+in 2025. This trend is prompting tighter regulations, with
+South African exchanges under stricter FIC obligations.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 22
+
+--- Page 23 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+APPLICATION FRAUD
+SECURED FRAUD (2023 & 2024)
+Vehicle Asset Finance (VAF) Fraud
+I
+Nationally, more than half of the reported fraudulent
+n 2024, there was a 49.6% increase in fraudulent applications for Vehicle Asset Finance (VAF) with 50,765 reported
+applications in 2024 were concentrated in Gauteng and
+incidents, compared to the previous year’s 33,930 reported occurrences. The data indicates that potential losses also
+KwaZulu-Natal, with percentages of 39% and 29% respec-
+increased with 71.1% from R13.5 bn in 2023 to R23.0 bn in 2024.
+tively. This can mainly be attributed to Gauteng and Kwa-
+Zulu-Natal being the most economically active provinces,
+with high volumes of vehicle transactions. This creates
+Product 2023 2024 Increase/ Decrease more opportunities for fraudsters to exploit:
+»
+High demand for vehicle financing
+Incidents 33 930 50 765 49.6% increase »
+Greater anonymity in urban settings
+»
+Larger pool of potential victims and institutions
+Potential Loss R 13,5 bn R 23,0 bn 71.1% increase
+Table 12: Vehicle Asset Finance 2023-2024
+4% 8%
+3% 6%
+2% Gauteng
+1%
+KwaZulu Natal
+7%
+Mpumalanga
+Western Cape
+Limpopo
+39%
+Eastern Cape
+29% North West
+Free State
+Northern Cape
+Figure 7: Vehicle Asset Finance 2023-2024 provincial
+South African Banking Risk Information Centre Annual Crime Statistics 2024 23
+
+--- Page 24 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Prominent Modus Operandi The use of AI-generated documents and deepfakes fur-
+ther complicates detection. Fraudsters are increasingly
+submitting forged payslips, altered bank statements, and
+even impersonating applicants through AI-generated vid-
+Cloned Motor Vehicles
+eo and audio during remote verification (Nasdaq Verafin,
+2024).
+The prominent Modus Operandi to commit VAF Fraud
+in South Africa are the Cloning of Motor Vehicles and the In addition, cross-border fraud syndicates continue to
+Illegal Change of Vehicle Ownership/Title. These modus pose a global threat. These organised networks often
+operandi are identified through ongoing industry col- transport financed vehicles across international borders
+laboration, case trend analysis, and shared insights from before defaults are detected, especially in regions where
+financial institutions and investigative partners. border controls or recovery frameworks are weak. While
+specific routes vary, this trend is frequently observed in
+A cloned motor vehicle is a stolen or hijacked vehicle that
+parts of Eastern Europe, Africa, and Asia (OCCRP, 2024).
+has been illegally registered using the details of a legiti-
+These schemes often involve insider collusion or third-par-
+mate vehicle on the e-Natis system.
+ty “mules”, significantly complicating recovery and con-
+The vehicle is rapidly transferred between three or four tributing to higher institutional losses.
+individuals over short periods to obscure its origin, fabri-
+cate a legitimate ownership history, and hinder detection References
+before being sold to unsuspecting buyers.
+Experian (2024): Global Fraud Trends Report
+Illegal change of vehicle ownership involves fraudulently Nasdaq Verafin (2024): Global Financial Crime Report
+removing the bank as titleholder and re-registering the
+OCCRP (2024): Financial Crime Losses
+vehicle under another name, enabling it to circulate freely
+across borders or within South Africa without raising red BankInfoSecurity (2024), AFSAOnline (2024), AutoNews (2024) – Industry
+flags, making it easier to sell to unsuspecting buyers. estimates referenced in publicly available fraud trend analysis
+International Perspective on VAF Fraud
+Fraud attempts across the asset finance sector rose by
+18% globally in 2024 (Experian, 2024). This figure includes
+various lending categories such as equipment, commer-
+cial, and vehicle asset finance (VAF). While VAF is included
+in this increase, the growth is not solely attributable to
+vehicle-related fraud.
+According to industry analysis, vehicle finance fraud
+losses reached USD 9.2 bn in 2024, an increase of more
+than 16% year over year (BankInfoSecurity, 2024; AFSA-
+Online, 2024; Auto News, 2024). A large portion of this is
+linked to synthetic identity fraud, which now accounts for
+approximately 45% of all auto-lending fraud, a sharp rise
+of 41% compared to the previous year (AFSAOnline, 2024;
+AutoNews, 2024).
+Synthetic identities are created by combining real and
+fictitious personal data, making them difficult to detect
+during credit application processes. These false identi-
+ties are frequently used to obtain vehicle finance, with
+defaults typically occurring shortly after the vehicle is
+acquired (Experian, 2024).
+South African Banking Risk Information Centre Annual Crime Statistics 2024 24
+
+--- Page 25 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Home and Mortgage Loan Fraud
+2% 2% 1% 1%
+0%
+Product 2023 2024 Increase / Decrease
+3%
+Incidents 4 867 4 739 -2.6% decrease
+Gauteng
+Potential Loss R 5,9 bn R 6,0 bn 0.5% increase 8% Western Cape
+KwaZulu Natal
+Actual Loss R 2.1 bn R 575,7 m -73.3% decrease Eastern Cape
+Free State
+Table 13: Home and mortgage loan fraud
+23% 60% Mpumalanga
+Limpopo
+North West
+Northern Cape
+Figure 8: Home and mortgage loan fraud provincial
+In 2024, Gauteng and the Western Cape emerged as the
+leading provinces for home loan application fraud, ac-
+counting for 60% and 23% of reported cases respectively.
+This trend is largely attributed to the high population den-
+sity and economic activity concentrated in these regions,
+which naturally results in a greater volume of loan applica-
+tions. Additionally, elevated property values in these prov-
+inces create a more lucrative environment for fraudsters,
+who are incentivised to target high-value markets where
+the potential financial gain is significantly higher.
+Fraudulent applications for home and mortgage loans de- by the fact that the property still belongs to the bank.
+clined by 2.6%, dropping from 4,867 cases in 2023 to 4,739 However, even though the banks have certain safeguards
+in 2024. Only 9% of the reported fraudulent applications such as bonds and property deed registration in place in
+were successful in 2024. most cases of successful fraudulent applications; they still
+face significant expenses related to legal proceedings and
+The potential loss due to these fraudulent applications
+eviction processes.
+grew by 0.5%, with losses amounting to R5,9 bn in 2023
+and R6.0 bn in 2024. The actual loss decreased by 73.3%,
+from R2.1 bn to R575.7 m in 2023. This loss is mitigated
+South African Banking Risk Information Centre Annual Crime Statistics 2024 25
+
+--- Page 26 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Prominent Modus Operandi International Perspective on home loan fraud
+Ongoing industry collaboration, case trend analysis, and Between 2023 and 2024, home loan application fraud
+shared insights from financial institutions and investi- showed a notable increase, particularly in the United
+gative partners indicated that home loan fraud occur in States. According to CoreLogic, the Mortgage Application
+various forms, including but not limited to the following: Fraud Risk Index rose by 8.3% year-over-year, with approx-
+imately 1 in every 123 applications exhibiting signs of fraud
+»
+Misrepresentation of application details that have in Q2 2024 (CoreLogic, 2024). This trend mirrors broader
+been identified as the most prevalent method of global financial crime patterns, where fraud-related losses
+fraud. This refers to the deliberate falsification, reached an estimated $485.6 bn in 2023 (Nasdaq Verafin,
+alteration, or omission of information provided on 2024).
+loan applications to deceive lenders and to gain
+approval. One such prominent form of misrepresen- A significant contributor to this rise is synthetic identity
+tation identified is income fraud, where individuals fraud. Fraudsters construct convincing borrower profiles
+falsify or inflate income information to meet lender by blending real and fabricated personal data. These iden-
+requirements or qualify for larger loan amounts. tities are often used to apply for home loans, supported
+This is particularly evident when discrepancies are by falsified income or employment documentation. Their
+found in the income stated on pay slips. sophistication makes it difficult to detect using traditional
+verification methods (Experian, 2024).
+»
+Another significant concern in this area is Cred-
+it Profile Building, which involves unlawful and In 2024, the threat landscape intensified with the use of
+deceptive practices used to artificially enhance AI-generated documents and deepfakes. Fraudsters now
+creditworthiness or create a misleading impression leverage generative AI to produce authentic-looking pays-
+of financial stability. Individuals or entities often lips, bank statements, and even video or voice deepfakes
+transfer funds into and out of an account over an to impersonate applicants during remote onboarding.
+extended period without a valid reason, solely to This has made fraud detection more complex and re-
+generate turnover. This activity aims to simulate a source-intensive (Experian, 2024).
+legitimate salary or income, even though the ap-
+Additionally, cross-border fraud syndicates have been
+plicant or company did not genuinely earn that in-
+implicated in mortgage fraud schemes. These networks
+come. The goal is to present the person or company
+exploit jurisdictional gaps and regulatory inconsistencies
+as authentic and creditworthy. Syndicates frequent-
+to submit fraudulent applications across multiple regions.
+ly employ this modus operandi, utilizing both South
+Often using mules or shell companies to obscure owner-
+African and non-South African citizens and compa-
+ship and intent, these schemes significantly complicate
+nies to establish creditworthy profiles. This form of
+recovery and increase institutional losses (Experian, 2024;
+fraud, which can be described as going from “zero
+Nasdaq Verafin, 2024).
+to hero,” ranks as the third-highest reported type of
+fraudulent activity and is used across all platforms References
+of application fraud.
+CoreLogic (2024) Mortgage Fraud Risk Up 8.3% From Last Year. Available at:
+https://nationalmortgageprofessional.com/news/mortgage-fraud-risk-83-
+last-year
+Experian (2024) Global Identity & Fraud Report 2024. Available at: https://
+www.experian.com/blogs/global-insights/wp-content/uploads/2024/11/Glob-
+al_Fraud_Trends_Report_2024_FinalV.pdf
+Nasdaq Verafin (2024) 2024 Global Financial Crime Report. Available at:
+https://www.nasdaq.com/global-financial-crime-report
+South African Banking Risk Information Centre Annual Crime Statistics 2024 26
+
+--- Page 27 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+UNSECURED FRAUD (2023 & 2024)
+During 2023, the largest portion, comprising of 36%, of
+Product 2023 2024 Increase / Decrease fraudulent applications on accounts was associated with
+Current Accounts, while Credit Card Accounts represent-
+ed 25%, and Saving Accounts as well as Personal Loans
+Incidents 39 570 62 346 57.6% increase
+made up a smaller proportion of 20% and 19% respective-
+ly.
+Potential Loss R 997,1 m R 1.6 bn 62.4% increase
+Actual Loss R 87,9 m R 221.7 m >100% increase
+Table 14: Unscure fraud 2023-2024
+Unsecured fraud refers to fraudulent schemes involving credit products that do not require collateral, such as credit
+cards, bank accounts (current and savings accounts), and personal loans.
+In 2023, unsecured fraud applications reported to SABRIC rose by 57.6% with 62 346 occurrences in comparison to the
+previous year’s 39 570 occurrences.
+The potential loss also increased by 62.4% from R997.1 m in 2022 to R1.6 bn in 2024, while the actual loss increased with
+more than 100% from R87.9 m in 2023 to R221.7 m in 2024. A significant 90% of the reported applications in 2024 were
+flagged as fraudulent and was subsequently declined.
+In 2023, Gauteng experienced the highest percentage of
+fraud cases at 68% being one of the provinces with a high
+concentration in population density and economic activity
+which naturally results in a greater volume of loan applica-
+tions, followed by the Western Cape at 9% and KwaZulu-
+Natal at 8%.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 27
+
+--- Page 28 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+2%1% (TransUnion, 2024). One of the most concerning devel- involve larger balances and fewer transactions, they may
+2%
+2% opments is the surge in first-party fraud. In these cases, attract less scrutiny, making them useful for money laun-
+3% individuals use their real identities but submit false infor- dering and other financial crimes.
+4% Gauteng mation, such as fake income or employment details. This Fraudsters use stolen or fabricated personal details to
+type of fraud accounted for 36 percent of all attacks in
+KwaZulu Natal 2024, up from 15 percent the year before (LexisNexis Risk open these accounts. In some cases, individuals misuse
+savings accounts by depositing counterfeit cheques or
+9% Western Cape Solutions, 2025).
+opening multiple accounts under slightly varied identities
+Eastern Cape The sections below outline how these types of fraud are to exploit bank promotions.
+68% Mpumalanga affecting different financial products.
+9% Personal Loan Fraud
+Limpopo Credit Card Fraud
+Personal loan fraud saw the most dramatic increase
+North West
+Credit card application fraud remains one of the most in 2024. In the UK, fraudulent applications more than
+Free State common forms of identity fraud. In the United States, doubled, rising by 109% in the first half of the year (Cifas,
+Northern Cape more than 416,000 incidents were reported in 2023, mak- 2024). The United States reported over 81,000 cases of
+ing up around 40% of all identity theft cases (FTC, 2024). loan-related fraud in 2023, with indications that the trend
+The United Kingdom also saw a significant increase, with continued into 2024 (FTC, 2024). This surge is largely
+impersonation fraud involving store cards rising by 59% in attributed to financial stress caused by inflation and the
+Figure 10: Unsecured fraud provincial
+the first half of 2024 (Cifas, 2024). rising cost of living.
+Fraudsters use stolen personal data to apply for credit Criminals use stolen or synthetic identities to secure loans
+Prominent Modus Operandi cards in someone else’s name. They also create synthet- they do not intend to repay. First-party misrepresentation
+ic identities by combining real and fake information, is also common, where individuals provide false informa-
+Insights from industry collaboration: case trend analysis allowing them to build credit histories and apply for cards tion about their income or employment. Some schemes
+indicated that using of Mule Accounts in application fraud without detection. In first-party fraud, individuals use their involve collusion between multiple individuals or even
+is quite prevalent especially in the Unsecured fraud space own identity but provide false details, such as inflated insiders within financial institutions who approve fraud-
+where cash can be easily obtained and transferred quickly income, with no intention of repaying the debt. ulent loans. Organized fraud rings use bots and shared
+into other accounts. One such method is where fraud- databases of stolen identities to submit large volumes of
+ster funnel illicit funds. Fraudsters use mule accounts to Current Account Fraud applications across multiple lenders, taking advantage of
+receive and transfer money obtained through fraudulent weak verification systems.
+Fraudulent applications for current accounts are often
+loan applications. Once the loan is approved and dis-
+bursed, the funds are quickly moved through one or more used to enable other crimes, including money laundering Impact and Response
+and cheque fraud. In the UK, these cases increased by 19
+mule accounts to make tracking difficult and to obscure
+percent in the first half of 2024 compared to the same pe- Each successful fraudulent loan represents a direct finan-
+the money trail. Fraudsters may create synthetic identities
+riod in 2023 (Cifas, 2024). In contrast, figures in the United cial loss to the lender, typically ranging from five thousand
+(combinations of real and fake information) to open mule
+States declined, likely due to stronger identity verification to fifteen thousand dollars per case. When scaled across
+accounts. These accounts are then used to apply for loans
+procedures (FTC, 2024). thousands of incidents, these losses can reach hundreds
+or credit, with the ultimate goal of defaulting and launder-
+of millions annually.
+ing the loan proceeds through other mule accounts. Criminals may impersonate real individuals using forged
+documents or stolen data. Others recruit people to open To combat this, financial institutions are strengthening
+International Persective
+accounts under their own names, which are then used to their fraud prevention efforts. Measures include biometric
+Unsecured Fraud move illicit funds. Some individuals open accounts spe- and video-based identity checks, device fingerprinting,
+cifically to misuse them, such as writing bad cheques or IP monitoring, and cross-institution fraud reporting.
+Unsecured fraud targeting products such as credit cards,
+exploiting overdraft facilities. More than 37,000 such cases Advanced analytics and machine learning are also being
+current accounts, savings accounts, and personal loans
+were recorded in the UK in early 2024. used to detect suspicious patterns.
+saw a sharp increase in 2024. This rise has been driven by
+economic pressure, identity theft, and increasingly sophis- Savings Account Fraud The rise in first-party fraud is prompting lenders to rethink
+ticated fraud tactics. how they assess risk. Many are moving beyond basic iden-
+Savings account fraud is less frequently reported as a tity checks to verify the accuracy and consistency of the
+TransUnion reported that 13.5% of all new online accounts standalone category but remains a serious concern. These information provided in loan and credit applications.
+created in 2023 were flagged as potentially fraudulent accounts are often used to temporarily hold stolen or ille-
+gally obtained funds. Because savings accounts typically
+South African Banking Risk Information Centre Annual Crime Statistics 2024 28
+
+--- Page 29 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+References
+Cifas. (2024) Cifas intelligence shows frauds are becoming more complex and
+sophisticated (Press Release, 13 August 2024). Cifas, London.
+Federal Trade Commission (FTC). (2024) Consumer Sentinel Network Data
+Book 2023. FTC, Washington, DC.
+LexisNexis Risk Solutions. (2025) Cybercrime Report 2024 (Annual fraud analy-
+sis report). LexisNexis, Atlanta, GA.
+The Nilson Report. (2023) Global Payment Card Fraud Losses (2022 Data). The
+Nilson Report, Carpinteria, CA.
+TransUnion. (2024) 2024 State of Omnichannel Fraud Report (Press Release,
+21 March 2024). TransUnion, Chicago, IL.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 29
+
+--- Page 30 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+CARD FRAUD
+FINANCIAL CRIME OVERVIEW: CREDIT
+& DEBIT (2023 & 2024)
+Debit & Credit Card Fraud Losses:
+All Fraud Types, All Countries
+T
+otal gross fraud losses for South African issued
+Product 2023 2024 Change
+cards increased by 26.2% from 2023 (R1.1bn) to 2024
+(R1.4bn). Gross fraud losses on South African issued
+Gross Fraud (credit & credit cards specifically amounted to R559.3m in 2024, an
+R1 161 524 026 R1 466 231 292 26.2% increase
+debit) increase of 25.4% compared to 2023 (R446.0m).
+Gross fraud losses on South African issued debit cards
+Credit R446 048 901 R559 338 787 25.4% increase
+amounted to R906.8m in 2024, a 26.7% increase com-
+pared to 2023 (R715.4m). Similar to 2023 debit card
+remained the card type with the highest fraud amount in
+Debit R715 475 126 R906 892 505 26.7% increase
+2024.
+Debit & Credit Card Fraud Losses: All
+Fraud Types, South Africa Only
+In 2024, gross fraud losses on South African issued cards
+Product 2023 2024 Change due to fraudulent transactions within South Africa rose by
+19.6%, reaching R573.1 million compared to R479.1m in
+Gross Fraud (credit & 2023.
+R479 114 149 R573 151 196 19.6% increase
+debit) Credit card fraud increased by 6.8% in 2024 (R186.1m)
+compared to 2023 (R174.1m). Debit card fraud increased
+Credit R174 122 812 R186 128 164 6.8% increase by 26.9%, comparing 2024 (R387.0m) to 2023 (R387.0m).
+In 2024, Card Not Present (CNP) (52%) and Lost and/or
+Debit R304 991 337 R387 023 032 26.9% increase Stolen (36%) contributed to most of the fraud in South
+Africa.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 30
+
+--- Page 31 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+South Africa VS Abroad
+Credit Card Debit Card
+South Africa
+South Africa
+42.7%
+33.3%
+Abroad
+Abroad
+66.7%
+57.3%
+A significant proportion of card fraud involving South African issued cards occurred
+abroad. Specifically, 66.7% of credit card fraud and 57.3% of debit card fraud took place
+outside South Africa.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 31
+
+--- Page 32 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+United States
+Ireland
+United Kingdom
+Netherlands
+Cyprus
+United Arab Emirates
+Hong Kong
+Luxembourg
+Spain
+Estonia
+Figure 13: This map highlights the leading countries where fraudulent transactions involving South African-issued credit and debit cards have been reported.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 32
+
+--- Page 33 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Fraud Types: All Countries - 2024
+Debit Card
+Credit Rand Values Debit Rand Values
+Account Takeover R11.2m Account Takeover R1.6m
+Card Not Present R416.6m Card Not Present R583.7m
+Counterfeit R4.4m Counterfeit R18.6m
+False Application R14.1m False Application R7.8m
+Lost and/or Stolen R39.9m Lost and/or Stolen R252.2m
+Not Received Issued R301.8k Not Received Issued R1.4m
+Table 17: Fraud Types: All Countries - 2024
+Credit Card cards, followed by Lost and/or Stolen (8.2%) and False In 2024, CNP fraud with a debit card contributed to 67.4%,
+Applications (2.9%). followed by Lost and Stolen (29.1%) and Counterfeit (2.2%).
+CNP fraud (R416.6m) increased by 19.5% compared to Card Not Present fraud totalled R583.7m in 2024, marking
+2023. Lost and/or Stolen fraud (R39.9m) decreased with a 32.9% increase compared to 2023 (R439.1m). The contin-
+20% compared to 2023 (R49.8m). uous popularity of e-commerce has led to increased use
+of debit cards for online purchases, thereby expanding the
+CNP continued to be the fraud type that accounted for
+risk landscape for CNP-related fraud.
+the largest portion of fraud. In 2024, the banking industry
+continued to report phishing and OTP vishing as promi- Lost and/or Stolen card fraud amounted to R252.2m,
+nent scams, mirroring trends from previous years. In these reflecting a 12.4% increase compared to 2023 (R224.5m).
+schemes, unsuspecting clients were deceived by way of Key contributors to this fraud category, involving card
+social engineering techniques into providing their bank- theft or swopping at ATMs, remained prevalent through-
+ing details to fraudsters. out 2024.
+Internationally, trends similar to those observed in South
+Africa have been reported. According to the UK Finance
+Half Year Fraud Report 2024, fraudsters are increasingly
+exploiting stolen card details through phishing, malware,
+and data breaches. These attacks often target consumers
+via social media platforms and fraudulent online mer-
+chants, highlighting the evolving nature of digital fraud
+threats.
+In 2024 Card Not Present (CNP) fraud contributed to
+https://www.ukfinance.org.uk/policy-and-guidance/reports-publications/half-
+85.6% of gross fraud losses on South African issued credit year-fraud-update-2024
+South African Banking Risk Information Centre Annual Crime Statistics 2024 33
+
+--- Page 34 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Card Not Present (CNP)
+Product 2023 2024 Inc/Dec Card Not Present as % of
+Gross Fraud Loss
+Credit R348 709 260 R416 605 299 19.5% increase 74.5%
+Debit R439 198 436 R583 742 849 32.9% increase 64.4%
+Table 18: Card Not Present (CNP)
+Credit Card 2024 Debit Card 2024
+Social engineering tactics such as smishing and vishing
+continued to be a prominent modus operandi throughout
+2024. Fraudsters successfully acquired sufficient personal
+information to link clients’ cards to virtual wallets, subse-
+quently obtaining electronic authorisation or one-time
+passwords (OTPs) from clients to facilitate fraudulent
+transactions.
+SA
+33.3% SA The Australian Payments Network reported in their annu-
+42.7% al Australian Payment Fraud Report 2024 that CNP fraud
+accounted for over 90% of all card fraud in 2023, with a
+notable surge in overseas CNP fraud, which now surpass-
+Abroad es domestic levels.
+Abroad 57.3% (https://www.auspaynet.com.au/resources/reports)
+66.7%
+In 2024 66.7% of CNP credit card fraud occurred abroad. In 2024 57.3% of CNP debit card fraud occurred abroad.
+Prominent merchant groups were: Prominent merchant groups were:
+» »
+Advertising Services Electronic Sales
+» »
+Travel Agencies Digital Goods
+» »
+Betting Advertising Services
+» »
+Clothing Stores Professional Services
+» »
+Security Brokers Computer Software
+Advertising Services contributed to 16% of the reported
+fraud.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 34
+
+--- Page 35 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Lost and/or Stolen
+Product 2023 2024 Inc/Dec Lost and/or Stolen
+as % of Gross Fraud
+Loss
+Credit R49 889 893 R39 926 217 20.0% decrease 7.1%
+Debit R224 561 290 R252 294 656 12.4% increase 27.8%
+Table 19: Lost and/or Stolen
+Credit Card 2024 Debit Card 2024
+Card swopping/theft at ATMs remained a prevalent
+method of debit card fraud in South Africa during 2024.
+Fraudsters operate in groups near ATMs, targeting individ-
+uals during transactions. They distract victims, often under
+the guise of offering assistance, and then steal the victim’s
+card. Once the card is in their possession, fraudsters use
+Abroad
+a PIN they have observed through shoulder surfing to
+Abroad 27.2% withdraw funds.
+38.3% SA
+61.7% SA
+72.8%
+In 2024 72.8% of Lost and/or Stolen debit card fraud oc-
+In 2024 61.7% of Lost and/or Stolen credit card fraud oc- curred in South Africa.
+curred in South Africa.
+Prominent merchant groups were:
+Prominent merchant groups were:
+»
+» ATMs
+ATMs
+»
+» Toll Plazas
+Advertising Services
+»
+» Supermarkets
+Supermarkets
+»
+» Liquor Stores
+Toll Plazas
+»
+» Drinking Places
+Drinking Places
+Of the total gross fraud losses involving Lost and/or Stolen
+10.9% of the gross fraud losses on Lost and/or Stolen cards debit cards, 26.6% resulted from ATM withdrawals, while
+occurred at ATMs. 15.2% occurred at tollgates.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 35
+
+--- Page 36 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Counterfeit
+Product 2023 2024 Inc/Dec False App as % of Gross Fraud
+Loss
+Credit R9 544 148 R4 441 673 53.5% decrease 0.8%
+Debit R12 664 460 R18 661 496 47.4% increase 2.1%
+Table 20: Counterfeit
+Credit Card 2024 Debit Card 2024
+In 2024 64.4% of Counterfeit credit card fraud occurred in In 2024 63.1% of Counterfeit debit card fraud occurred in
+South Africa. South Africa.
+Prominent merchant groups were: Prominent merchant groups were:
+» Toll Plazas » Service Stations
+» Personal Services » ATMs
+» Service Stations » Supermarkets
+» Supermarkets » Toll Plazas
+» Miscellaneous Food Stores » Advertising Services
+»
+11.8% of the gross fraud losses on Counterfeit credit Service Stations contributed 11.9% of the gross fraud loss-
+cards occurred at Toll Plazas. es on Counterfeit debit cards.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 36
+
+--- Page 37 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+False Application
+Product 2023 2024 Inc/Dec False App as % of Gross Fraud
+Loss
+Credit R27 434 295 R14 194 243 48.3% decrease 2.5%
+Debit R2 933 077 R7 874 800 +100% increase 0.9%
+Table 21: False application
+Credit Card 2024 Debit Card 2024
+In 2024 credit card fraud with a False Application (78.1%) In 2024 debit card fraud with a False Application (91.5%)
+occurred in South Africa. occurred in South Africa.
+Prominent merchant groups were: Prominent merchant groups were:
+» ATMs » ATMs
+» Meat Provisioners » Supermarkets
+» Manual Cash Disbursements » Direct Marketing
+» Supermarkets » Liquor Stores
+» Computers » Advertising Services
+22.7% of the gross fraud losses on False Application credit 70.8% off the gross fraud losses on False Application debit
+cards occurred at ATMs. cards were ATM withdrawals.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 37
+
+--- Page 38 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Card Fraud: ATM vs. Point of Sale
+(POS)
+Credit: Rand Value
+Transactions at POS devices contributed to 97.5% of credit
+card fraud when compared to ATM withdrawals (R12.9m).
+Debit: Rand Value
+Debit card fraud at ATMs (R81.4m)
+contributed to 9.0% of gross fraud
+losses when compared to POS (91.0%)
+transactions.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 38
+
+--- Page 39 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+International Perspective
+Credit Card
+Card Not Present, Lost and/or Stolen and Counterfeit fraud
+were prominent in the countries detailed below.
+This table highlights the leading countries where fraud-
+ulent transactions involving South African-issued credit
+cards have been reported.
+Card Not Present Lost and/or Stolen Counterfeit (CTF)
+(CNP) (L&S)
+UNITED STATES
+UNITED STATES UNITED STATES UNITED KINGDOM
+IRELAND IRELAND UNITED STATES
+UNITED KINGDOM UNITED KINGDOM IRELAND
+NETHERLANDS NETHERLANDS UNITED ARAB
+EMIRATES
+UNITED ARAB SPAIN SPAIN
+EMIRATES
+BRAZIL BRAZIL THAILAND
+CYPRUS ITALY NETHERLANDS
+FRANCE UNITED ARAB MEXICO
+EMIRATES
+HONG KONG LUXEMBOURG POLAND
+SPAIN GERMANY ESTONIA
+Figure 23: World map international perspective
+South African Banking Risk Information Centre Annual Crime Statistics 2024 39
+
+--- Page 40 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Debit Card
+Card Not Present, Lost and/or Stolen, and Counterfeit fraud were prominent in
+the countries reflected below.
+This table highlights the leading countries where fraud-
+ulent transactions involving South African issued debit
+cards have been reported.
+Card Not Present Lost and/or Stolen Counterfeit (CTF)
+(CNP) (L&S)
+UNITED STATES UNITED STATES UNITED STATES
+UNITED KINGDOM UNITED KINGDOM IRELAND
+IRELAND IRELAND UNITED KINGDOM
+CYPRUS KOREA REPUBLIC UNITED ARAB
+OF EMIRATES
+NETHERLANDS NETHERLANDS NETHERLANDS
+LUXEMBOURG LUXEMBOURG MOZAMBIQUE
+HONG KONG CYPRUS INDONESIA
+MALTA CANADA CANADA
+VIETNAM UNITED ARAB ZAMBIA
+EMIRATES
+SPAIN AUSTRALIA LUXEMBOURG
+Figure 24: World map Debit Card
+South African Banking Risk Information Centre Annual Crime Statistics 2024 40
+
+--- Page 41 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+Provincial Overview
+Credit Card – Rand Value Debit Card – Rand Value
+In 2024, Gauteng experienced the highest incidence of credit card fraud, accounting In 2024, Gauteng (41.9%), Western Cape (18%), and KwaZulu-Natal (12.7%) emerged as
+for 50.2% of reported cases, followed by the Western Cape at 33.6% and KwaZulu-Natal the top three provinces affected by debit card fraud. The majority of fraudulent transac-
+at 10.7%. The most prevalent fraud types involving credit cards were Card Not Present tions involved Lost and/or Stolen debit cards (48.5%), followed by Card Not Present fraud
+(72.1%), Lost and/or Stolen (14%), and False Application (6.32%). (45.4%).
+South African Banking Risk Information Centre Annual Crime Statistics 2024 41
+
+--- Page 42 ---
+| EXECUTIVE SUMMARY | QUALIFICATION OF INFORMATION | CONTACT CRIME | DIGITAL CRIME | APPLICATION FRAUD | CARD FRAUD |
+CONCLUSION
+The 2024 crime statistics reflect the dynamic and The successes recorded in 2024 were made pos-
+rapidly evolving nature of financial crime in South sible by the unwavering commitment of SABRIC
+Africa. While the industry has made commend- members, law enforcement agencies, and our
+able progress in reducing certain contact crimes, partners across the public and private sectors.
+such as associated robberies and ATM attacks, Through strategic information sharing, targeted
+the exponential rise in digital and application interventions, and a shared sense of purpose,
+fraud highlights the growing sophistication of the industry continues to build resilience against
+criminal syndicates. criminal activity.
+SABRIC recognises that as fraudsters continue to Looking ahead, SABRIC remains committed to its
+innovate, the financial services sector must also purpose of enabling a safe banking environment
+do so. The emergence of artificial intelligence as through innovation, partnership, and proactive
+both a tool for criminals and a defence mecha- intelligence. As financial crime becomes more
+nism for institutions highlights the ambivalent complex, so must our response, aimed to be
+role of technology. Combating such threats driven by unity, foresight, and the collective will
+requires not only advanced technological inter- to protect the integrity of South Africa’s finan-
+ventions but also strengthened human vigilance, cial system. Together, through collaboration
+robust internal controls, and industry-wide collab- and adaptability, we will continue to anticipate
+oration. emerging threats, reduce vulnerabilities, and
+strengthen the banking ecosystem for all.
+South African Banking Risk Information Centre Annual Crime Statistics 2024 42
+

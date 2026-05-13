@@ -1,0 +1,30 @@
+{
+  "source": "intelligence/unodc/UNODC_2021_Speak_Up_for_Health_Guidelines_to_Enable_Whistle-_Blower_Protection_in_the_Health-Care_Sector.pdf",
+  "date_analyzed": "2026-05-12",
+  "summary": "UNODC guidelines specifically tailored for the health-care sector to detect wrongdoing, mitigate corruption risks, and protect whistleblowers, with a focus on supply chain integrity and emergency response.",
+  "sector_vulnerabilities": [
+    "Medical product supply chain (falsified drugs/medical supplies).",
+    "Public procurement of large-scale medical equipment and services.",
+    "Health insurance fraud and billing abuse.",
+    "Intermediaries in international medical supply markets (amplified during COVID-19)."
+  ],
+  "whistleblower_scope": {
+    "internal": ["Medical practitioners", "Hospital staff", "Pharmaceutical personnel", "Ministry of Health officials", "Interns and volunteers"],
+    "external": ["Patients and relatives", "Suppliers", "Business partners", "Job applicants"]
+  },
+  "policy_pillars": [
+    {
+      "pillar": "Detection",
+      "focus": "Establishment of internal, open, and inclusive reporting channels with accessible interfaces."
+    },
+    {
+      "pillar": "Protection",
+      "focus": "Legal and administrative safeguards against retaliation; provision of support and feedback to reporting persons."
+    },
+    {
+      "pillar": "Integrity",
+      "focus": "Confidentiality and anonymity as core requirements for trusted reporting systems."
+    }
+  ],
+  "operational_impact": "Detection of corruption at an early stage in the health sector is recognized as a life-saving measure, preventing harm from low-quality or falsified medical products."
+}

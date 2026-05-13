@@ -1,0 +1,665 @@
+--- Page 1 ---
+NOVEMBER 2023
+Victims of Corruption
+Back for Payback
+Felipe Freitas Falconi Juanita Olaya Garcia
+José Ugaz Yara Esquivel Soto
+
+--- Page 3 ---
+Victims of Corruption
+Back for Payback
+Felipe Freitas Falconi
+José Ugaz
+Juanita Olaya Garcia
+Yara Esquivel Soto
+
+--- Page 4 ---
+© 2023 International Bank for Reconstruction and Development / The World Bank
+1818 H Street NW, Washington, DC 20433
+Telephone: 202-473-1000
+Internet: star.worldbank.org
+Email: starinitiative@worldbank.org
+Twitter: @returningassets
+Some rights reserved.
+StAR—the Stolen Asset Recovery Initiative—is a partnership between the World Bank Group and
+the United Nations Office on Drugs and Crime (UNODC) that supports international efforts to
+end safe havens for corrupt funds. StAR works with developing countries and financial centers to
+prevent the laundering of the proceeds of corruption and to facilitate more systematic and timely
+return of stolen assets.
+This work is a product of the staff of The World Bank and the United Nations Office on Drugs and
+Crime with external contributions. The findings, interpretations and conclusions expressed in this
+work do not necessarily reflect the views of The World Bank, its Board of Executive Directors, or
+the governments they represent, the United Nations, or its Member States. The World Bank and
+the United Nations do not guarantee the accuracy of the data included in this work. The boundar-
+ies, colors, denominations, and other information shown on any map in this work do not imply any
+judgment on the part of The World Bank or the United Nations concerning the legal status of any
+territory or the endorsement or acceptance of such boundaries.
+Nothing herein shall constitute or be considered to be a limitation upon or waiver of the privileges
+and immunities of The World Bank or the United Nations, all of which are specifically reserved.
+Rights and Permissions
+The material in this work is subject to copyright. Because The World Bank encourages dissem-
+ination of its knowledge, this work may be reproduced, in whole or in part, for noncommercial
+purposes as long as full attribution to this work is given.
+Any queries on rights and licenses, including subsidiary rights, should be addressed to World Bank
+Publications, The World Bank Group, 1818 H Street NW, Washington, DC 20433, USA;
+fax: 202-522-2625; e-mail: pubrights@worldbank.org.
+Cover illustration by Lindsay Jordan Kretchen
+Design by Sensical Design
+
+--- Page 5 ---
+Contents
+Abbreviations 4
+Acknowledgments 5
+Introduction 6
+International Standards 12
+2.1 The United Nations Convention against Corruption (UNCAC) 12
+2.2 The Political Declaration adopted at the United Nations Special Session
+of the General Assembly 14
+2.3 The Council of Europe Civil Law Convention on Corruption 15
+2.4 The Council of Europe Convention on Laundering, Search, Seizure and
+Confiscation of the Proceeds from Crime and on the Financing of Terrorism 16
+2.5 European Union (EU) Directive 2014/42/EU on the freezing and confiscation
+of instrumentalities and proceeds of crime in the European Union 16
+2.6 Victims as defined in International and Regional Human Rights Treaties and
+Standards 16
+2.7 Aarhus Convention 18
+2.8 Other international commitments 18
+Avenues for Reparation 20
+3.1 Civil proceedings 20
+3.2 Criminal proceedings 21
+3.3 Class Actions and Representative Actions 23
+3.4 Constitutional Protection Mechanisms 24
+3.5 Human Rights Mechanisms 25
+3.6 Administrative Procedures 27
+3.7 Reparation funds 28
+StAR: Stolen Asset Recovery Initiative 1
+
+--- Page 6 ---
+Legal Standing and Victim Status 30
+4.1 Legal standing across jurisdictions 30
+4.2 Legal standing in civil proceedings 32
+4.3 Legal standing in criminal proceedings 32
+4.4 Legal standing in class actions and representative actions 34
+4.5 Types of victims 34
+Establishing Damages 44
+5.1 Direct and indirect damages 44
+5.2 Material and immaterial damages 46
+5.3 Proof and measurement of damages 47
+Conclusion and Reflections for the Future 52
+6.1 Enabling the participation of victims in criminal proceedings 52
+6.2 Enabling the participation of victims in non-trial resolutions 53
+6.3 Accounting for the nature of corruption damages 53
+6.4 Enabling the recovery of damages through reparation funds 54
+6.5 Measures beyond legislative and policy frameworks: Access to information,
+research and participation of civil society, academia and victims of corruption 54
+Table
+Table 4.1. Cases in which Governments have Recovered Damages in U.S. Courts 37
+2 Victims of Corruption: Back for Payback
+
+--- Page 7 ---
+Boxes
+Box 3.1. Consitution of Argentina 25
+Box 3.2. Constitution of Costa Rica 25
+Box 3.3. Enabling Collective Rights 28
+Box 4.1. Civil Society and Asset Recovery 33
+Box 4.2. The Gürtel case 34
+Box 4.3. Switzerland 35
+Box 4.4. United Kingdom 36
+Box 4.5. United States 36
+Box 4.6. Bribery Investigations Using the FCPA 37
+Box 4.7. Costa Rica 39
+Box 4.8. The Lava Jato Case 40
+Box 4.9. Brazil 40
+Box 5.1. Ricochet Damage 44
+Box 5.2. Moral Damages 47
+Box 5.3. Existence of Harm through Proof of Damages 48
+Box 5.4. Moral Damages 48
+Box 5.5. Non-Pecuniary Damages 49
+Box 5.6. Quantification of Reparations 49
+StAR: Stolen Asset Recovery Initiative 3
+
+--- Page 8 ---
+Abbreviations
+CETS Council of Europe Convention on Laundering, Search, Seizure and
+Confiscation of the Proceeds from Crime and on the Financing of Terrorism
+COPINH NGO Civic Council of Popular and Indigenous Organizations of Honduras
+COSP Conference of State Parties to the UNCAC
+ECCJ ECOWAS Court of Justice
+ECOWAS Economic Community of West African States
+EU European Union
+FATF Financial Action Task Force
+FCPA Foreign Corrupt Practices Act (United States)
+GFAR Global Forum on Asset Recovery
+IACHR Inter-American Commission of Human Rights
+IBA International Bar Association
+ICE Costa Rican Electricity Institute
+MACCIH Mission to Support the Fight against Corruption and Impunity in Honduras
+NGO Non-governmental Organization
+OAS Organization of American States
+OHCHR Office of the United Nations High Commissioner for Human Rights
+OECD Organisation for Economic Co-operation and Development
+SFO Serious Fraud Office
+StAR Stolen Asset Recovery Initiative
+TI Transparency International
+UN United Nations
+UNCAC United Nations Convention against Corruption
+UNECE United Nations Economic Commission for Europe
+UNODC United Nations Office on Drugs and Crime
+4 Victims of Corruption: Back for Payback
+
+--- Page 9 ---
+Acknowledgments
+The team benefitted from many perceptive comments from practitioners around the
+world. The authors wish to extend their special thanks to the following practitioners and
+colleagues who offered their review, experience, perspectives and national expertise
+throughout the process: Frederic Raffray (World Bank consultant), Greysa Barrientos
+(Chief Appellate Prosecutor, Costa Rica), Kate McMahon (Asset Recovery Committee
+of the International Bar Association), Mary Butler (Chief of the International Unit of the
+Money Laundering and Asset Recovery Section of the United States Department of
+Justice), Melanie Chabert (Associate Crime Prevention and Criminal Justice Officer,
+UNODC), Miren Escos (World Bank Economist), Radha Ivory (Senior Lecturer in Law at
+the University of Queensland, Australia), Robert Delonis (Manager of Special Litigations
+Unit of the Integrity Vice Presidency at the World Bank).
+The team also benefited from extensive contributions from Richard E. Messick
+(World Bank Consultant) and the guidance and insightful comments from Mr. Emile Van
+der Does de Villebois (StAR coordinator).
+StAR: Stolen Asset Recovery Initiative 5
+
+--- Page 10 ---
+1 Introduction
+Corruption harms communities and impacts the global economy. It discourages
+business opportunities, hinders foreign aid and investment, and exacerbates inequality.
+It victimizes society’s most vulnerable and marginalized individuals by affecting their
+ability to meet their basic needs, as well as reducing their chances of overcoming
+poverty and exclusion. For example, corruption costs lives in the construction industry1
+and in the health care sector.2 The divesting of public funds leads to decreased spending
+on public services, such as education and the protection of the environment.3 When
+corruption is committed through criminal groups that are connected to influential
+economic or political actors,4 it increases the risk of instability and violence, which in turn
+poses a threat to international peace and security.
+In recent years there has been an increasing recognition of the relationship between
+corruption and human rights, as reflected by two resolutions adopted by the United
+Nations (UN) Human Rights Council in 2021.5 Whereas social, economic and cultural
+rights are affected when corruption impacts the provision and quality of goods and
+services, civil and political rights are impacted when corruption prevents the proper
+functioning of institutions, undermines the rule of law and ultimately harms trust in the
+legitimacy of government.6
+Despite this general understanding and the research efforts engaged in generating
+data on this matter,7 because of its covert nature and pernicious consequences, the cost
+of corruption is markedly difficult to measure and quantify. Similarly, victimization in this
+context is often complex because, as in the case of environmental crime,8 its victims
+are not always easily identifiable. In many cases, they may not even be aware of their
+victimization.
+The prevention and countering of corruption have attracted significant political
+attention. However, it is also increasingly acknowledged that preventive approaches
+and repressive criminal responses are incomplete if the damages arising from the acts
+in question are left unaddressed. Thus, this publication is focused on exploring such
+damages, including how victims can be compensated.
+The reparation of damages exists as a general principle of law in all legal systems. In
+both common law and civil law systems, it is understood as the remediation of a harm
+originating from an unlawful conduct in order to reestablish the situation that would
+have existed had the harm not occurred (Restitutio ad integrum).9 Different legal systems
+resort to different terms to refer to the various concepts related to remedying damages.
+Therefore, the terms recovery, restitution, reparation, compensation, remedy and redress
+may have different meanings in different jurisdictions.
+Moreover, the recovery of corruption damages may be grounded in two distinct con-
+ceptual regimes: the “anti-corruption regime” on the one hand, and human rights law on
+the other. Human rights are understood as “internationally guaranteed legal entitlements
+of individuals vis-à-vis the state.”10 As such, they are the foundation for a claims-based
+and victim-centered approach that is focused on ensuring reparation for the aggrieved
+(individual or collective) victims. This contrasts with a repressive anti-corruption angle
+that is focused on prosecuting the offenders and ensuring accountability. However, both
+regimes have in common that they are grounded in the rule of law, or the idea that “all
+persons and authorities within the state, whether public or private, should be bound by
+and entitled to the benefit of laws publicly and prospectively promulgated and publicly
+6 Victims of Corruption: Back for Payback
+
+--- Page 11 ---
+administered in the courts.”11 In other words, both approaches require an application of
+the law that is fair, consistent and predictable.
+The United Nations Convention against Corruption (UNCAC), the only legally binding
+universal anti-corruption instrument, incorporates provisions aimed at promoting
+domestic legal frameworks that provide victims (and prior legitimate owners) with the
+means to recover the damages and assets implicated in corruption offences. In this
+context, the UNCAC’s Chapter V is devoted to asset recovery, which goes beyond the
+archetypal and narrow anti-corruption focus on law enforcement with regard to the
+offenders, specifically, to returning the stolen assets to their rightful owners, including
+countries from which they had been illicitly taken. The inclusion of claims-based
+provisions related to the compensation of victims within the UNCAC, if only sparsely
+and broadly considered, shows that the anti-corruption regime and the human rights
+approach do in fact interlock and mutually reinforce one another.
+Notwithstanding, concepts such as that of the “victim,” when integrated into
+anti-corruption treaties, do require a shift in perspective from the default objective of
+ensuring accountability by averting impunity to the objective of ensuring the reparation
+of the harms caused to victims–whether these are individuals, particular groups within
+societies, or entire states.
+Despite the international consensus reflected in regional and international instru-
+ments and declarations (see chapter 2), no systematic research has been conducted
+concerning the reparation of victims of corruption. Furthermore, the existing research
+by academics,12 civil society
+organizations,13 and the United
+Nations Office on Drugs and Crime
+Despite the international (UNODC) shows that in only a
+small number of countries have
+consensus reflected in regional victims of corruption offences
+been compensated. In most
+cases in which embezzled funds
+and international instruments
+are recovered, no reparation is
+received. Also, in most other cases,
+and declarations, no systematic there is no information about the
+matter. What is more, there do not
+research has been conducted appear to be many such attempts
+to recover the damages engen-
+dered by acts of corruption.
+concerning the reparation
+This dearth of cases was
+discussed by the UNCAC’s States
+of victims of corruption. parties at the Sixth Session of the
+Conference of State Parties to
+the UNCAC (COSP) held in 2015.
+It culminated in the adoption of a
+resolution directing the COSP’s Open-ended Intergovernmental Working Group on Asset
+Recovery to compile a list of best practices for identifying victims of corruption and the
+parameters for compensation.14 Discussions continued at the 2017 and 2019 sessions.
+The States parties also passed additional resolutions instructing the Working Group to
+redouble its efforts to identify best practices.15
+This publication was developed as part of that effort and within the larger objective
+of stimulating further research and exchange on the matter. It is aimed at providing an
+overview of the current state of law and practice regarding: (i) the recovery of corruption
+damages; (ii) outlining the different types of legal frameworks and avenues available in
+different legal systems; and (iii) the respective legal barriers and other challenges that
+may arise.
+StAR: Stolen Asset Recovery Initiative 7
+
+--- Page 12 ---
+INTRODUCTION
+This publication draws on the responses of 56 jurisdictions received in response
+to two questionnaires16 concerning countries’ legislation and their implementation. It
+was conducted by the UNODC and the Asset Recovery Committee of the International
+Bar Association. Despite the breadth of the geographic scope, the responses covering
+every region, the stage of development and a diversity of legal systems, the sample was
+considered too small to draw definitive conclusions from–especially as the responses
+reflected the lack of available information concerning practical cases of implementation.
+For this reason, references to the responses are limited to certain instances. The surveys
+are referred to as “the questionnaires” throughout the publication. To the extent neces-
+sary, the analysis also relies on existing research concerning the recovery of damages
+for corruption and the comparative law literature on torts and civil liabilities and criminal
+procedures,17 as well as the outcomes of the UNCAC’s country reviews conducted under
+its Implementation Review Mechanism.
+In terms of scope, the following points require attention. Firstly, although the most fre-
+quently occurring type of corruption is small-scale corruption through which natural or
+legal persons are harmed by agency actions or decisions, the scope of this publication
+is focused on addressing questions of recovery relating to cases of grand corruption.
+The significant sums involved in such cases, as well as their complexity, mean that the
+possibility for recovery in such cases merits particular attention.
+Moreover, this publication focuses on the existing legal avenues. Therefore, it does
+not address the challenges associated with enforcing judgments once they are adju-
+dicated. Judgment enforcement is a potentially significant challenge in transnational
+corruption cases where the perpetrator or the stolen assets may reside outside of the
+jurisdiction hosting the legal proceedings, so that the matter would merit a publication of
+its own.18
+Finally, the limitations of this study relate to the most salient feature of the countries
+surveyed through the questionnaires, which is the absence of public information about
+the participation of victims of corruption in criminal proceedings. The countries’ respons-
+es to the questionnaires demonstrate the difficulty of accessing and sharing information
+related to corruption cases. Of the 56 countries surveyed, only three (the Cayman
+Islands, Greece and South Africa) indicated that they were aware of cases in which the
+compensation of damages was granted to victims of corruption. Also, only three (Brazil,
+South Africa and Switzerland) knew about the involvement of victims of corruption
+in proceedings for asset return. In response to the question regarding whether the
+government publishes statistics or reports about the role and participation of victims of
+corruption in criminal proceedings, all surveyed countries responded negatively. There-
+fore, the absence of relevant information for such cases is a limitation of its own.
+Rather than aspiring to present a comprehensive overview or providing guidelines
+on how countries could better repair the harm caused by corruption, this publication is
+more humbly aimed at presenting the findings of the information available. The objective
+is to serve as a starting point for further research, exchange and debate between policy
+makers, legislators, prosecutors and other judicial officers, law enforcement officials,
+legal scholars, human rights advocates, citizens, as well as the general public.
+In addressing a globally diverse readership familiar with different legal systems, for
+the purpose of this publication, the following expressions should be understood as
+follows: Reparation is understood as a broad concept entailing any remedy with regard
+to any type of harm caused by corruption, whether it be by restoring the situation to its
+initial status or by compensating for the harm in any other way. Therefore, reparation
+not only covers pecuniary damages, but also the wider, less tangible and more diffuse
+damages. After all, the consequences of corruption do not limit themselves to direct
+and immediate harms or easily quantifiable monetary losses. Furthermore, the pursuit
+of monetary and non-monetary damages need not be a mutually exclusively endeavor.
+Remedy is understood as an enforcement of the legal right of a person harmed by
+a wrong, whereas compensation of damages is more narrowly understood as the
+8 Victims of Corruption: Back for Payback
+
+--- Page 13 ---
+monetary remedy imposed by a court and awarded to a harmed party as a recom-
+pense for harm.
+This publication contains 6 chapters, beginning with an overview of the international
+and regional standards relating to the recovery of corruption damages (Chapter 2) and
+the different existing judicial avenues for such reparation (Chapter 3). It moves on to
+exploring legal standing and who can obtain victim status (Chapter 4), as well as damage
+claims, including challenges in establishing causality (Chapter 5). Chapter 6 concludes
+with potential actions aimed at overcoming the various challenges identified.
+Notes
+1 Nicholas Ambraseys and Roger Bilham, “Corruption Kills,” Nature, Issue 469, (2011): pp. 153–156.
+2 Tim K. Mackey and others, “The Disease of Corruption: Views on How to Fight Corruption to
+Advance 21st Century Global Health Goals,” BMC Medicine Issue 14, (2016): pp. 149–165. See also
+K. Hussmann Health sector corruption. (Bergen: U4 Anti-Corruption Resource Centre, Chr. Michelsen
+Institute, 2020), page 10.
+3 Susan Rose-Ackerman and Bonnie J. Palifka, Corruption and Government: Causes, Consequences,
+and Reform, 2nd edition (Cambridge, Cambridge University Press, 2016) pp. 27–36.
+4 Sarah Chayes, “When Corruption is the Operating System: The case of Honduras.” (Washington, DC:
+Carnegie Endowment for International Peace, 2017), pages 1,112, and114.
+5 Resolution adopted by the Human Rights Council no. A/HRC/RES/46/11 of 26 March 2021 concern-
+ing the negative impact of the non-repatriation of funds of illicit origin to the countries of origin on the
+enjoyment of human rights, and the importance of improving international cooperation and A/HRC/
+RES/47/7 of 26 July 2021 on the negative impact of corruption on the enjoyment of human rights.
+6 E. Hava, Gran corrupción: estrategias para evitar su impunidad internacional. Nuevo Foro Penal,
+Volume 12, Issue 8, pages 60–98. doi:https://doi.org/10.17230/nfp.12.87.2.
+7 The challenges of measuring the macroeconomic and microeconomic costs of corruption have
+been outlined in an Evidence Paper prepared by the United Kingdom’s Department for International
+Development. See page 35, Chapter 4 concerning the effects of corruption: costs and broader
+impact of word missing? https://assets.publishing.service.gov.uk/government/uploads/system/
+uploads/attachment_data/file/406346/corruption-evidence-paper-why-corruption-matters.pdf.
+See also a joint OECD-StAR publication concerning the Identification and Quantification of the
+Proceeds of Bribery (worldbank.org).
+8 See Eileen Skinnider, “Effect, Isssues and Challenges for Victims of Crimes that have a Significant
+Impact on the Environment,” Book, publisher? (2013).
+9 Clare Connellan, Elizabeth Oger-Gross and Angélica André, “Compensatory Damages Principles in
+Civil and Common Law Jurisdictions: Requirements, Underlying Principles and Limits.” Trenor, John
+(ed). In The Guide to Damages in International Arbitration (2018) p.7.
+10 Kälin and Künzli, The Law of International Human Rights Protection, Oxford University Press, Second
+Edition, p. 32.
+11 Lord Bingham, The Rule of Law, Penguin UK, Reprint Edition 2011.
+12 Michael Joachim Bonell and Olaf Meyer, “The Impact of Corruption on International Commercial
+Contracts,” in M. Schauer and B. Verschraegen, eds., General Report of the XIXth Congress of
+the International Academy of Comparative Law, Rapports Généraux du XIXème Congres de l’
+Académie Internationale de Droit Compare (Springer Science + Business Media B.C. 2017); Olaf
+Meyer, ed., The Civil Law Consequences of Corruption (Baden Baden, Nomos, 2009). UNCAC
+Coalition. Submission by The UNCAC’s Coalition Victims of Corruption Working Group to the
+first resumed 12th session of the Implementation Review Group. 27 August 2021. https://
+uncaccoalition.org/recognizing-victims-of-corruption/. Juanita Olaya Garcia, “Arguments
+or Excuses? Common Reasons I Hear to Avoid Reparations for Corruption Cases.” (Henry J.
+Leir Institute, The Fletcher School of Law and Diplomacy, Tufts University, 2020). https://www.
+corruptionjusticeandlegitimacy.org/post/arguments-or-excuses-common-reasons-i-hear-to-
+avoid-reparations-for-corruption-cases. Juanita Olaya García, “Reparations for Corruption: How
+Corruption Enforcement Ignores Victims’ Rights.” (Henry J. Leir Institute, The Fletcher School of Law
+and Diplomacy, Tufts University, 2020). https://www.corruptionjusticeandlegitimacy.org/post/
+reparations-for-corruption-how-corruption-enforcement-ignores-victims-rights.
+13 Transparency International, “Exporting Corruption: Progress Report 2020: Assessing Enforcement of
+the OECD Anti-Bribery Convention.” (Berlin, Transparency International, 2020) pp. 21–24.
+14 Resolution 6/2, Sixth Session of the Conference of the States Parties to the United Nations
+Convention against Corruption, November 2015 (https://www.unodc.org/unodc/en/corruption/
+COSP/session6-resolutions.html).
+StAR: Stolen Asset Recovery Initiative 9
+
+--- Page 14 ---
+INTRODUCTION
+15 Resolution 8/9, Eight Session of the Conference of the States Parties to the United Nations
+Convention against Corruption, December 2019 (https://www.unodc.org/unodc/en/corruption/
+COSP/session8-resolutions.html). Resolution 7/2, Seventh Session of the Conference of the States
+Parties to the United Nations Convention against Corruption (https://www.unodc.org/documents/
+treaties/UNCAC/COSP/session7/V1708295E.pdf).
+16 Both the UNODC Note Verbale (Verbal Note) and the International Bar Association (IBA) question-
+naire sought information about the domestic laws governing the recovery of damages for corruption,
+including cases where there had been a successful recovery. Responses were received from 54
+UNCAC state parties and the Cayman Islands and the Bailiwick of Jersey, two jurisdictions which
+adhere to the Convention through their relationship with the United Kingdom. The 56 respondents
+represent state parties in every region and at every stage of development. They also represent legal
+systems based on European civil law, English common law, Islamic law, or some combination of
+them. They are listed in annex 1, along with whether the information came from a response to a Note
+Verbale, the IBA questionnaire, or both.
+17 The biography and resources on this topic have been increasing. For example, in addition to the
+sources cited in this publication, see, for example, UNCAC Coalition, UNCAC Coalition Statement to
+the 7th Conference of States Parties in Vienna, October 20, 2017; Jean-Pierre Brun and others, Public
+Wrongs, Private Actions: Civil Lawsuits to Recover Stolen Assets (Washington, D.C., World Bank,
+2015); Emile van der Does de Willebois and Jean-Pierre Brun, “Using Civil Remedies in Corruption
+and Asset Recovery Cases,” Case Western Reserve Journal of International Law, Issue no. 45, 2013,
+pp. 615–650; OECD-StAR, Identification and Quantification of the Proceeds of Bribery (Paris, OECD,
+2012). Olaya Garcia, Juanita, “Dealing with the Consequences: Repairing the Social Damage Caused
+by Corruption.” (January 15, 2016). Available at SSRN: https://ssrn.com/abstract=3475453 or
+Olaya Garcia, Juanita and Attisso, Kodjo and Roth, Anja, “Repairing Social Damage Out of Corruption
+Cases: Opportunities and Challenges as Illustrated in the Alcatel Case in Costa Rica.” (December
+6, 2010). Available at SSRN: https://ssrn.com/abstract=1779834 or http://dx.doi.org/10.2139/
+ssrn.1779834.
+18 See Stefano Betti, Jean Pierre Brun and Vladimir Kozin, Orders without Borders: Direct Enforce-
+ment of Foreign Restraint and Confiscation Decisions (Washington, D.C., World Bank, 2021).
+10 Victims of Corruption: Back for Payback
+
+--- Page 15 ---
+StAR: Stolen Asset Recovery Initiative 11
+
+--- Page 16 ---
+2 International Standards
+Provisions on and references to the recovery of corruption damages are included in
+several international and regional anti-corruption treaties, other international standards
+emerging from human rights instruments, as well as soft law declarations. Through
+these standards developed in recent decades, countries have agreed on principles
+and broad mechanisms aimed at ensuring that their legal frameworks provide victims
+with the means to recover the damages caused by corruption offences. Therefore, this
+chapter is aimed at providing a brief overview of the relevant international obligations
+and commitments made by States, namely:
+• The United Nations Convention against Corruption
+• The Political Declaration adopted at the United Nations Special Session of the
+General Assembly
+• The Council of Europe Civil Law Convention on Corruption
+• The Council of Europe Convention on Laundering, Search, Seizure and Confiscation
+of the Proceeds from Crime and on the Financing of Terrorism
+• European Union (EU) Directive 2014/42/EU on the freezing and confiscation of
+instrumentalities and proceeds of crime in the EU
+• Relevant Human Rights Treaties establishing the rights to remedy
+• The Global Forum for Asset Recovery Principles for Disposition and Transfer of
+Confiscated Stolen Assets in Corruption Cases
+• Relevant Recommendations from the Financial Action Task Force.
+2.1 The United Nations Convention against Corruption
+(UNCAC)
+As mentioned in the introduction, the UNCAC, adopted by the United Nations General
+Assembly in 2003 and entered into force in 2005, is the only legally binding universal
+anti-corruption instrument. Depending on the wording of each provision, the Convention
+imposes obligations and sets standards to be pursued by the 190 State parties (the
+number of State parties at the time of drafting this publication). Four of the five relevant
+provisions cited below contain mandatory language, thus establishing an obligation for
+all State parties to adopt the measures in question.
+Another unique aspect of the Convention is the establishment of its Implementation
+Review Mechanism, which is a peer review process aimed at supporting States in the
+implementation of all substantive provisions of the Convention. It does so through the
+identification of challenges, good practices and technical assistance needs. This allows
+States to identify gaps in their legislative and institutional frameworks. At the same time,
+it allows for the identification of trends in implementation among the broader practi-
+tioner and academic anti-corruption community.
+12 Victims of Corruption: Back for Payback
+
+--- Page 17 ---
+2.1.1 Provisions in Chapter III concerning Criminalization and
+Law Enforcement
+The first provision relevant to the issue of victim compensation is found in Article 32
+on the protection of witnesses, experts and victims. Whereas four of the article’s five
+paragraphs refer to protection measures, the last paragraph requires State parties to
+enable victims’ views and concerns to be considered in criminal proceedings. Close to
+ten percent of the 174 State parties reviewed under the first cycle at the time of drafting
+received recommendations about this provision, suggesting that the legislation of the
+vast majority of States foresees, at least in some way, consideration of the views or
+interests of victims in criminal proceedings. Good practices identified by the reviewing
+experts included the enactment of a specific law on victims in one State party, and the
+use of victim impact statements during criminal corruption proceedings in another.
+Article 34 concerning the “consequences of corruption” requires State parties to “take
+measures” to address consequences of specific acts of corruption. It also encourages
+them to consider corruption as a “relevant factor in legal proceedings to annul or rescind
+a contract”. Almost a quarter of the 174 State parties that finalized their first cycle
+reviews received recommendations regarding the allowing of corruption to be a relevant
+factor in legal proceedings to annul or rescind a contract or withdraw a concession. This
+suggests that reviewing experts have interpreted the broad and undefined language of
+Article 34 as not necessarily requiring more than that to consider the State party under
+review as complying with its obligation to address the consequences of corruption.
+The UNCAC’s Article 35 is more
+closely relevant in the context of
+ensuring victim compensation, as it
+Article 34 concerning the requires State parties to take mea-
+sures to grant standing to “entities and
+“consequences of corruption” persons who have suffered damage
+as a result of an act of corruption.”
+This allows them to initiate legal
+requires State parties to
+proceedings “against those responsi-
+ble for that damage in order to obtain
+“take measures” to address compensation.” Although the UNCAC
+does not include a definition of victim,
+consequences of specific the Travaux Préparatoires to the Con-
+vention include an interpretative note
+for Article 35 to clarify that “entities
+acts of corruption.
+and persons” must be understood
+to include natural persons as well
+as legal persons, including States.
+However, the UNCAC does not define
+and, therefore, does not exclude any category of damage.
+Just over ten percent of the 174 State parties having completed their first cycle
+reviews received recommendations regarding this provision. These ranged from broad
+recommendations aimed at ensuring that sufficient measures exist to provide for the
+compensation of damages resulting from acts of corruption to very specific recommen-
+dations reflecting the different challenges reviewing experts identified with regard to the
+implementation of Article 35. As stated in the “State of Implementation of the UNCAC,”
+“[t]here are usually no special legal provisions that provide a cause of action based on
+damages due to corrupt activities; such cases are dealt with under the general principles
+of civil (contract or tort) law.1 As such, in general, reviewing experts considered such
+general principles of civil (contract or tort) law as sufficient to ensure compliance with
+Article 35.
+StAR: Stolen Asset Recovery Initiative 13
+
+--- Page 18 ---
+INTERNATIONAL STANDARDS
+2.1.2 Provisions in Chapter V concerning Asset Recovery
+Chapter V of the Convention covers asset recovery measures. Article 51 provides that
+the return of assets is a fundamental principle of the Convention. Articles 54 and 55
+cover mutual legal assistance with a view to confiscating the assets. Article 57 concerns
+the return and disposal of assets confiscated through such requests. Finally, Article 53
+concerns measures enabling States to directly engage in civil proceedings to recover the
+assets and to have their views heard when a decision of confiscation is being considered
+by the courts.
+Article 53 covers “direct recovery” with a view to allowing the State of origin to
+directly take civil action to establish ownership of assets, recover damages, and have its
+claims recognized by the State hosting the assets when the latter is making a decision
+concerning confiscation. Most pertinently in the context of recovering corruption
+damages, Article 53(b) requires State parties to enable their courts to order those who
+have committed corruption offences to pay compensation or damages to another State
+party that has been harmed by such offences. At the time of drafting this publication,
+just over ten percent of the 66 State parties having finalized their second cycle reviews
+covering asset recovery provisions received recommendations about this provision. This
+suggests that the vast majority of States do allow their courts to order compensation to
+be paid to other States.
+Finally, Article 57, paragraph 3 (c) concerning the return and disposal of assets,
+includes the requirement to give priority consideration to returning confiscated property
+to the requesting State Party, returning such property to its prior legitimate owners or
+compensating the victims of the crime.
+2.2 The Political Declaration adopted at the United
+Nations Special Session of the General Assembly
+In June 2021, the United Nations Member States and the UNCAC State parties adopted
+a political declaration entitled, “Our common commitment to effectively addressing chal-
+lenges and implementing measures to prevent and combat corruption and strengthen
+international cooperation.” This was taken at the special session of the General Assem-
+bly against corruption. The Declaration, among other pledges, reaffirmed the States’
+commitment to implementing the provisions of Chapter V concerning asset recovery,
+particularly paragraphs 46 and 49. Although the term “victim” only appears in three
+instances (once in the preamble, once in the context of protecting them from retaliation,
+and only once in the context of compensation), the declaration included the commit-
+ment to establish the necessary legal frameworks allowing State parties to initiate legal
+proceedings to claim title to or ownership of assets. It also provided for consideration
+of models of disposal and administration of confiscated assets, thereby allocating such
+assets to funds that could be used to compensate victims or benefit communities.
+49. We […] will consider the various possible models of disposal and administration
+of confiscated proceeds of offences established in accordance with the Convention,
+including, where feasible, allocating such proceeds to the national revenue fund
+or the State treasury, reinvesting funds for special purposes and compensating
+victims of the crime, including through the social reuse of assets for the benefit of
+communities. […]
+14 Victims of Corruption: Back for Payback
+
+--- Page 19 ---
+2.3 The Council of Europe Civil Law Convention on
+Corruption
+The Council of Europe Civil Law Convention on Corruption was adopted by the Council of
+Europe States in 1999 and entered into force in 2003. It is unique in serving as “the first
+attempt to define common international rules in the field of civil law and corruption”.2
+The Programme of Action against corruption developed by a Multidisciplinary Group on
+Corruption prior to its drafting explained the need for such a Convention based on the
+following reasoning in the context of countering corruption:
+[…] civil law is directly linked to criminal law and administrative law. If an offence
+such as corruption is prohibited under criminal law, a claim for damages can be
+made which is based on the commission of the criminal act. Victims might find it
+easier to safeguard their interests under civil law than to use criminal law. Similarly,
+if an administration does not exercise sufficiently its supervisory responsibilities, a
+claim for damages may be made.3
+This Declaration was developed based on the recognition of the importance of the fact
+that “civil law take into account the need to fight corruption and in particular provides
+for effective remedies for those whose rights and interests are affected ”by corruption.”4
+As such, the Council of Europe Civil Law Convention on Corruption includes a breadth
+of provisions aimed at ensuring that the Civil Law of its State parties provide the means
+to respond to corrupt acts. Therefore, it encompasses provisions concerning: (i) com-
+pensation for damage; (ii) liability, including State responsibility for acts of corruption
+committed by public officials; (iii) contributory negligence and the potential reduction or
+disallowance of compensation; (iv) validity of contracts; (v) protection of employees who
+report corruption; (vi) clarity and accuracy of accounts and audits; (vii) the acquisition
+of evidence; and (viii) court orders to preserve the assets for the execution of the final
+judgment and international cooperation. The provisions most relevant in the context of
+the compensation of damages include Articles 1, 3, 4 and 5, as follows:
+• Article 1 obliges States to provide effective remedies for victims of corruption,
+including the obtention of compensation for damage.
+• Article 3 provides for the rights of victims of corruption to initiate an action in order to
+obtain full compensation for the damages suffered. It specifies that such damage is
+not limited to material damage or loss of profits but may also include non-pecuniary
+loss.
+• Article 4 provides the general conditions under which damage must be compensated,
+which includes (1) that an offender have committed or authorized or even failed to
+prevent an act of corruption; (2) that a victim have suffered damage; and (3) that there
+be a causal link between the two. The second paragraph foresees the case in which
+more than one person may be liable for the same corrupt act.
+• Article 5 obliges States to enable victims to claim compensation from a State in the
+case in which the damage was caused by an act of corruption by its public officials.
+The Council of Europe Civil Law Convention on Corruption is unique in its explicit
+provision of a broad definition of damages in Article 3, as well as the provision for State
+liability for the acts of its officials in Article 5.
+StAR: Stolen Asset Recovery Initiative 15
+
+--- Page 20 ---
+INTERNATIONAL STANDARDS
+2.4 The Council of Europe Convention on Laundering,
+Search, Seizure and Confiscation of the Proceeds from
+Crime and on the Financing of Terrorism
+The Council of Europe Convention on Laundering, Search, Seizure and Confiscation of
+the Proceeds from Crime and on the Financing of Terrorism, also known as the Warsaw
+Convention or CETS 198, was adopted by Council of Europe States in 2005. The aim
+was to facilitate international cooperation and mutual legal assistance in investigating
+crime and locating, seizing and confiscating the proceeds thereof. Article 25, even in its
+non-mandatory language, closely mirrors the UNCAC’s Article 57 (3) (c), in providing that
+a requested State must, “give priority consideration to returning the confiscated property
+to the requesting party so that it can give compensation to the victims of the crime or
+return such property to their legitimate owners.”
+2.5 European Union (EU) Directive 2014/42/EU
+on the freezing and confiscation of instrumentalities
+and proceeds of crime in the European Union
+The European Union Directive 2014/42/EU is aimed at facilitating the confiscation and
+recovery of proceeds and instrumentalities of crime within the EU. In its preamble, it
+refers to making use of confiscated property for “social purposes” and more pertinently,
+Article 8 provides that confiscation measures should not prevent victims from seeking
+compensation for their claims, specifically:
+[…] Member States should consider taking measures allowing confiscated property
+to be used for public interest or social purposes. Such measures could, inter alia,
+comprise earmarking property for law enforcement and crime prevention projects,
+as well as for other projects of public interest and social utility. That obligation to
+consider taking measures entails a procedural obligation for Member States, such
+as conducting a legal analysis or discussing the advantages and disadvantages of
+introducing measures. […]
+Article 8
+[…]
+10. Where, as a result of a criminal offence, victims have claims against the person
+who is subject to a confiscation measure provided for under this Directive, Member
+States shall take the necessary measures to ensure that the confiscation measure
+does not prevent those victims from seeking compensation for their claims.
+2.6 Victims as defined in International and Regional
+Human Rights Treaties and Standards
+Human rights standards are relevant insofar as they provide a definition of victims and
+establish a general right to remedy for human rights violations, with this right itself
+becoming a key principle of human rights law.5
+Most notably, the Declaration of Basic Principles of Justice for Victims of Crime and
+Abuse of Power6 adopted by the United Nations General Assembly Resolution Number
+16 Victims of Corruption: Back for Payback
+
