@@ -22,9 +22,9 @@ We prioritize ingestion based on the **Manifesto: Exposing the Helms of Power**.
 *Focus: Official crime figures and annual reports from SAPS, IPID, and PSiRA.*
 *   **Rationale**: This granular data provides the baseline for identifying **Reporting Gaps** and **Institutional Decay**.
 *   **Key Targets**: 
-- [ ] **2025-2026 Quarterly Stats**: Real-time trend monitoring.
-- [ ] **IPID Annual Reports**: Tracking police misconduct and accountability.
-- [ ] **PSiRA Reports**: Mapping the private security landscape and its links to formal policing.
+- [x] **2025-2026 Quarterly Stats**: Real-time trend monitoring.
+- [x] **IPID Annual Reports**: Tracking police misconduct and accountability.
+- [x] **PSiRA Reports**: Mapping the private security landscape and its links to formal policing.
 
 ### 2. High Priority: Protection & Law (PPLAAF)
 *Focus: Whistleblower protection and legal frameworks for witness safety.*
@@ -48,7 +48,7 @@ We prioritize ingestion based on the **Manifesto: Exposing the Helms of Power**.
 *   **Key Targets**: 
 - [x] **BRICS 2024**: Asset recovery benchmarks extracted.
 - [x] **FATF 2024**: Gatekeeper protocols extracted.
-- [ ] **OECD 2011**: Whistleblower compendium (Next in queue).
+- [x] **OECD 2011**: Whistleblower compendium (INGESTED).
 
 ---
 
