@@ -26,16 +26,6 @@ export default function ThemeToggle() {
       <AnimatePresence mode="wait" initial={false}>
         {isDark ? (
           <motion.div
-            key="sun"
-            initial={{ y: 12, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: -12, opacity: 0 }}
-            transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-          >
-            <Sun className="w-4 h-4 text-accent-gold" />
-          </motion.div>
-        ) : (
-          <motion.div
             key="moon"
             initial={{ y: 12, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -43,6 +33,16 @@ export default function ThemeToggle() {
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
           >
             <Moon className="w-4 h-4 text-accent-blue" />
+          </motion.div>
+        ) : (
+          <motion.div
+            key="sun"
+            initial={{ y: 12, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -12, opacity: 0 }}
+            transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <Sun className="w-4 h-4 text-accent-gold" />
           </motion.div>
         )}
       </AnimatePresence>

@@ -16,7 +16,8 @@ import {
   Globe, 
   Zap,
   ArrowRight,
-  Info
+  Info,
+  Brain
 } from "lucide-react";
 import { NAV_PILLARS } from "@/lib/navigation";
 
@@ -94,6 +95,59 @@ export default function Home() {
               </Link>
             </motion.div>
           </div>
+
+          {/* MISSION OVERVIEW — LOGICAL LAYOUT */}
+          <motion.div 
+            variants={itemVariants}
+            className="mb-32 space-y-12"
+          >
+            <div className="text-center space-y-3 mb-16">
+              <h2 className="text-sm font-black uppercase tracking-[0.3em] text-accent-crimson">Operational Lifecycle</h2>
+              <p className="text-2xl font-black uppercase tracking-tight italic text-foreground">How we dismantle systemic failure.</p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-1 relative">
+              {/* Connector lines (Desktop) */}
+              <div className="hidden lg:block absolute top-1/2 left-0 w-full h-[1px] bg-border-glass -translate-y-1/2 z-0" />
+              
+              {[
+                { 
+                  step: "01", 
+                  title: "Intelligence Capture", 
+                  desc: "We ingest thousands of forensic documents, TRC archives, and live news feeds into our secure node network.",
+                  icon: Database,
+                  color: "blue"
+                },
+                { 
+                  step: "02", 
+                  title: "Agentic Distillation", 
+                  desc: "AI-driven RAG pipelines extract and cross-reference high-value entities, relationship links, and SCM anomalies.",
+                  icon: Brain,
+                  color: "gold"
+                },
+                { 
+                  step: "03", 
+                  title: "Radical Exposure", 
+                  desc: "Validated intelligence is surfaced through risk-ranked dossiers and interactive corruption maps for public accountability.",
+                  icon: ShieldAlert,
+                  color: "crimson"
+                }
+              ].map((flow, i) => (
+                <div key={i} className="relative z-10 glass-card p-10 bg-background border border-border-glass flex flex-col items-center text-center group hover:bg-bg-glass transition-all">
+                  <div className={`w-14 h-14 rounded-full flex items-center justify-center mb-8 border-2 transition-all ${
+                    flow.color === 'crimson' ? 'border-accent-crimson/30 text-accent-crimson bg-accent-crimson/5 group-hover:bg-accent-crimson group-hover:text-white' :
+                    flow.color === 'gold' ? 'border-accent-gold/30 text-accent-gold bg-accent-gold/5 group-hover:bg-accent-gold group-hover:text-black' :
+                    'border-accent-blue/30 text-accent-blue bg-accent-blue/5 group-hover:bg-accent-blue group-hover:text-white'
+                  }`}>
+                    <flow.icon className="w-6 h-6" />
+                  </div>
+                  <span className="text-[10px] font-mono font-black text-muted-foreground mb-2">{flow.step}</span>
+                  <h3 className="text-lg font-black uppercase tracking-tight text-foreground mb-4">{flow.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed font-light">{flow.desc}</p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
 
           {/* MAIN PILLARS GRID */}
           <motion.div 

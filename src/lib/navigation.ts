@@ -49,6 +49,12 @@ export const NAV_PILLARS: NavPillar[] = [
         description: "Risk-ranked dossiers on high-value targets",
       },
       {
+        label: "Research Portal",
+        href: "/research",
+        icon: Brain,
+        description: "Autonomous investigative intelligence",
+      },
+      {
         label: "Network Map",
         href: "/network",
         icon: Network,
@@ -74,6 +80,12 @@ export const NAV_PILLARS: NavPillar[] = [
     color: "gold",
     icon: Scale,
     items: [
+      {
+        label: "About Project",
+        href: "/about",
+        icon: Cpu,
+        description: "Platform architecture & manifesto",
+      },
       {
         label: "Anti-Corruption Hub",
         href: "/anticorruption",
@@ -110,12 +122,6 @@ export const NAV_PILLARS: NavPillar[] = [
         icon: MapPinned,
         description: "Historical displacement mapping",
       },
-      {
-        label: "TRC Vault",
-        href: "/vault",
-        icon: BookOpen,
-        description: "Sealed intelligence archive",
-      },
     ],
   },
   {
@@ -124,6 +130,12 @@ export const NAV_PILLARS: NavPillar[] = [
     color: "blue",
     icon: BarChart3,
     items: [
+      {
+        label: "TRC Vault",
+        href: "/vault",
+        icon: BookOpen,
+        description: "Sealed intelligence archive",
+      },
       {
         label: "Station Audits",
         href: "/stats",

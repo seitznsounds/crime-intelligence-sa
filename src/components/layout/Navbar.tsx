@@ -154,14 +154,14 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 group shrink-0">
             <div className="relative h-16 w-40">
               <Image
-                src="/Crime Intelligence Logo Dark (225x100).svg"
+                src="/Crime Intelligence Logo Light (225x100).svg"
                 alt="Crime Intelligence SA"
                 fill
                 className="dark:hidden block object-contain"
                 priority
               />
               <Image
-                src="/Crime Intelligence Logo Light (225x100).svg"
+                src="/Crime Intelligence Logo Dark (225x100).svg"
                 alt="Crime Intelligence SA"
                 fill
                 className="hidden dark:block object-contain"
@@ -189,24 +189,6 @@ export default function Navbar() {
 
           {/* Right Actions */}
           <div className="flex items-center gap-3">
-              {/* About & Research Links — Desktop */}
-              <div className="hidden lg:flex items-center gap-1">
-                <Link 
-                  href="/about"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full text-[13px] font-black uppercase tracking-[0.15em] text-charcoal-40 hover:text-charcoal transition-colors"
-                >
-                  <Cpu className="w-3.5 h-3.5" />
-                  <span>Engine</span>
-                </Link>
-                <Link 
-                  href="/research"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full text-[13px] font-black uppercase tracking-[0.15em] text-charcoal-40 hover:text-charcoal transition-colors"
-                >
-                  <Brain className="w-3.5 h-3.5" />
-                  <span>Research</span>
-                </Link>
-              </div>
-
               <div className="hidden sm:block">
                 <CommandPalette />
               </div>
