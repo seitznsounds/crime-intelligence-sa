@@ -38,7 +38,7 @@ export const DonationModule = () => {
   }, [success]);
 
   if (!mounted) return (
-    <div className="glass-card border border-white/10 rounded-2xl bg-black/40 backdrop-blur-md h-[400px] flex items-center justify-center">
+    <div className="glass-card border border-white/10 rounded-2xl bg-background/80 backdrop-blur-md h-[400px] flex items-center justify-center">
       <div className="w-8 h-8 border-2 border-accent-blue/30 border-t-accent-blue rounded-full animate-spin" />
     </div>
   );
@@ -71,11 +71,11 @@ export const DonationModule = () => {
     return (
       <div className="glass-card p-10 border-emerald-500/30 bg-emerald-500/5 text-center space-y-4 rounded-2xl">
         <CheckCircle2 className="w-12 h-12 text-emerald-500 mx-auto" />
-        <h3 className="text-xl font-black uppercase tracking-tighter italic text-white">Contribution Verified</h3>
-        <p className="text-sm text-white/60">Thank you for weaponizing transparency. Your support keeps the system live.</p>
+        <h3 className="text-xl font-black uppercase tracking-tighter italic text-foreground">Contribution Verified</h3>
+        <p className="text-sm text-muted-foreground">Thank you for weaponizing transparency. Your support keeps the system live.</p>
         <button 
           onClick={() => setSuccess(false)}
-          className="mt-4 px-6 py-2 rounded-full border border-white/10 text-[10px] font-bold uppercase tracking-widest text-white/40 hover:bg-white/5 transition-all"
+          className="mt-4 px-6 py-2 rounded-full border border-border-glass text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:bg-bg-glass transition-all"
         >
           Make Another Contribution
         </button>
@@ -84,18 +84,18 @@ export const DonationModule = () => {
   }
 
   return (
-    <div className="glass-card border border-white/10 rounded-2xl bg-black/40 backdrop-blur-md overflow-hidden">
+    <div className="glass-card border border-white/10 rounded-2xl bg-background/80 backdrop-blur-md overflow-hidden">
       {/* HEADER: Counter */}
-      <div className="p-6 border-b border-white/10 bg-white/[0.02] flex justify-between items-center">
+      <div className="p-6 border-b border-border-glass bg-bg-glass flex justify-between items-center">
         <div className="space-y-1">
           <div className="flex items-center gap-2 text-accent-blue">
             <TrendingUp className="w-4 h-4" />
             <h4 className="text-[12px] font-black uppercase tracking-widest italic">Project Fuel Gauge</h4>
           </div>
-          <p className="text-[10px] text-white/40 font-mono">Transparency Maintenance Fund</p>
+          <p className="text-[10px] text-muted-foreground font-mono">Transparency Maintenance Fund</p>
         </div>
         <div className="text-right">
-          <p className="text-2xl font-black font-mono tracking-tighter text-white">R {stats.totalZar.toLocaleString()}</p>
+          <p className="text-2xl font-black font-mono tracking-tighter text-foreground">R {stats.totalZar.toLocaleString()}</p>
           <p className="text-[8px] text-accent-blue font-bold uppercase tracking-tighter">{stats.count} Verified Contributions</p>
         </div>
       </div>

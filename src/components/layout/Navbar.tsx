@@ -211,6 +211,8 @@ export default function Navbar() {
                 <CommandPalette />
               </div>
 
+              <ThemeToggle />
+
             {/* Report CTA — Desktop */}
             <Link
               href="/report"

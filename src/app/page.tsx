@@ -2,7 +2,23 @@
 
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
-import { ShieldAlert, BarChart3, Fingerprint, Search, ShieldCheck, ChevronRight, Network, Scale } from "lucide-react";
+import { 
+  ShieldAlert, 
+  BarChart3, 
+  Fingerprint, 
+  Search, 
+  ShieldCheck, 
+  ChevronRight, 
+  Network, 
+  Scale, 
+  Cpu, 
+  Database, 
+  Globe, 
+  Zap,
+  ArrowRight,
+  Info
+} from "lucide-react";
+import { NAV_PILLARS } from "@/lib/navigation";
 
 export default function Home() {
   const containerVariants: Variants = {
@@ -22,101 +38,134 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-screen bg-background overflow-hidden selection:bg-accent-blue/10 selection:text-accent-blue">
-      {/* Editorial warmth via generous vertical padding */}
-      <div className="container relative z-10 pt-24 sm:pt-32 lg:pt-48 pb-24 sm:pb-32 px-6 sm:px-8">
+    <div className="relative min-h-screen bg-background selection:bg-accent-blue/10 selection:text-accent-blue">
+      {/* BACKGROUND EFFECTS */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-[25%] -left-[10%] w-[70%] h-[70%] bg-accent-blue/5 rounded-full blur-[120px]" />
+        <div className="absolute -bottom-[25%] -right-[10%] w-[60%] h-[60%] bg-accent-crimson/5 rounded-full blur-[100px]" />
+      </div>
+
+      <div className="container relative z-10 pt-24 sm:pt-32 lg:pt-40 pb-24 sm:pb-32 px-6 sm:px-8">
         <motion.div 
-          className="max-w-5xl mx-auto text-center"
+          className="max-w-6xl mx-auto"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
-          {/* Status Badge - Opacity driven neutral */}
-          <motion.div 
-            variants={itemVariants}
-            className="inline-flex items-center gap-3 px-6 py-2 rounded-full bg-charcoal-3 border border-border mb-12 sm:mb-16"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-crimson opacity-20"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-crimson"></span>
-            </span>
-            <span className="text-[11px] font-black tracking-[0.25em] uppercase text-charcoal-40">Intelligence Hub Active</span>
-          </motion.div>
-          
-          <motion.h1 
-            variants={itemVariants}
-            className="text-5xl sm:text-7xl lg:text-9xl font-black mb-10 sm:mb-14 tracking-tight leading-[1.05] text-charcoal"
-          >
-            Democratizing <br />
-            <span className="text-charcoal-40 font-normal italic">Intelligence for</span> <br />
-            <span className="text-accent-blue">Justice.</span>
-          </motion.h1>
-          
-          <motion.p 
-            variants={itemVariants}
-            className="text-lg sm:text-xl lg:text-2xl text-charcoal-82 max-w-3xl mx-auto mb-16 sm:mb-20 leading-relaxed font-normal"
-          >
-            South Africa's first high-fidelity intelligence hub. 
-            We track the lifecycle of systemic corruption from street-level symptoms to the officials who facilitate them.
-          </motion.p>
+          {/* HERO SECTION */}
+          <div className="text-center mb-24 sm:mb-32">
+            <motion.div 
+              variants={itemVariants}
+              className="inline-flex items-center gap-3 px-6 py-2 rounded-full bg-bg-glass border border-border mb-8 sm:mb-12"
+            >
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-crimson opacity-20"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-crimson"></span>
+              </span>
+              <span className="text-[10px] font-black tracking-[0.25em] uppercase text-muted-foreground">Digital Vigilance Protocol Active</span>
+            </motion.div>
+            
+            <motion.h1 
+              variants={itemVariants}
+              className="text-5xl sm:text-7xl lg:text-8xl font-black mb-10 tracking-tight leading-[1.05] text-foreground italic"
+            >
+              DEMOCRATIZING <br />
+              <span className="text-muted-foreground font-normal not-italic">INTELLIGENCE FOR</span> <br />
+              <span className="text-accent-blue">JUSTICE.</span>
+            </motion.h1>
+            
+            <motion.p 
+              variants={itemVariants}
+              className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
+            >
+              South Africa's first high-fidelity intelligence hub. 
+              We track the lifecycle of systemic corruption from street-level symptoms to the officials who facilitate them.
+            </motion.p>
 
-          <motion.div 
-            variants={itemVariants}
-            className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-6 sm:gap-8"
-          >
-            <Link href="/expose" className="w-full sm:w-auto px-10 sm:px-12 py-5 bg-charcoal text-[#fcfbf8] text-[13px] font-black uppercase tracking-[0.2em] rounded-full transition-all hover:opacity-80 active:scale-95 shadow-button-inset text-center">
-              Exposure Board <ChevronRight className="ml-2 w-4 h-4 inline-block" />
-            </Link>
-            <Link href="/stats" className="w-full sm:w-auto px-10 sm:px-12 py-5 bg-transparent hover:bg-charcoal-3 text-charcoal text-[13px] font-black uppercase tracking-[0.2em] rounded-full border border-charcoal-40 transition-all text-center">
-              Station Audits
-            </Link>
-          </motion.div>
+            <motion.div 
+              variants={itemVariants}
+              className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6"
+            >
+              <Link href="/expose" className="w-full sm:w-auto px-10 py-5 bg-foreground text-background text-[12px] font-black uppercase tracking-[0.2em] rounded-2xl transition-all hover:bg-accent-crimson hover:text-white active:scale-95 shadow-button-inset flex items-center justify-center gap-2">
+                Expose Board <ChevronRight className="w-4 h-4" />
+              </Link>
+              <Link href="/about" className="w-full sm:w-auto px-10 py-5 bg-bg-glass hover:bg-bg-glass-heavy text-foreground text-[12px] font-black uppercase tracking-[0.2em] rounded-2xl border border-border transition-all flex items-center justify-center gap-2 group">
+                <Info className="w-4 h-4 text-accent-blue group-hover:rotate-12 transition-transform" /> About Project
+              </Link>
+            </motion.div>
+          </div>
 
-          {/* Value Props - Flat bordered cards */}
+          {/* MAIN PILLARS GRID */}
           <motion.div 
             variants={itemVariants}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mt-32 sm:mt-48 text-left"
+            className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32"
           >
-            {[
-              { 
-                icon: <ShieldAlert className="w-6 h-6 text-accent-crimson" />, 
-                title: "Forensic Data", 
-                desc: "Localized crime reporting with multi-stage verification protocols."
-              },
-              { 
-                icon: <BarChart3 className="w-6 h-6 text-accent-blue" />, 
-                title: "Station Audits", 
-                desc: "Data-driven performance metrics for every station in the country."
-              },
-              { 
-                icon: <Fingerprint className="w-6 h-6 text-accent-gold" />, 
-                title: "Expose Board", 
-                desc: "Tracking the links between organized crime and high-level officials."
-              }
-            ].map((feature, i) => (
-              <div key={i} className="group p-8 sm:p-10 glass-card bg-background border-border hover:border-charcoal-40">
-                <div className="w-12 h-12 bg-charcoal-3 rounded-[18px] flex items-center justify-center mb-8 border border-border group-hover:border-charcoal-40 transition-all">
-                  {feature.icon}
+            {NAV_PILLARS.map((pillar, i) => (
+              <div key={pillar.id} className="glass-card p-8 border-border-glass bg-bg-glass-heavy flex flex-col group hover:border-foreground/20 transition-all">
+                <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-8 border transition-all ${
+                  pillar.color === 'crimson' ? 'bg-accent-crimson/10 border-accent-crimson/20 text-accent-crimson' :
+                  pillar.color === 'gold' ? 'bg-accent-gold/10 border-accent-gold/20 text-accent-gold' :
+                  'bg-accent-blue/10 border-accent-blue/20 text-accent-blue'
+                }`}>
+                  <pillar.icon className="w-6 h-6" />
                 </div>
-                <h3 className="text-[14px] font-black mb-4 uppercase tracking-[0.2em] text-charcoal">{feature.title}</h3>
-                <p className="text-[15px] text-charcoal-82 leading-relaxed font-normal">{feature.desc}</p>
+                <h3 className="text-xl font-black uppercase tracking-tight text-foreground mb-4 italic">{pillar.label}</h3>
+                <div className="space-y-3 mt-auto">
+                  {pillar.items.slice(0, 3).map((item) => (
+                    <Link 
+                      key={item.href} 
+                      href={item.href} 
+                      className="flex items-center justify-between p-3 rounded-xl bg-background/50 border border-border hover:border-foreground/10 transition-all group/item"
+                    >
+                      <span className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground group-hover/item:text-foreground">{item.label}</span>
+                      <ArrowRight className="w-3.5 h-3.5 text-muted-foreground group-hover/item:translate-x-1 transition-transform" />
+                    </Link>
+                  ))}
+                </div>
               </div>
             ))}
           </motion.div>
-          
-          {/* Operational Counter */}
+
+          {/* ENGINE PREVIEW */}
           <motion.div 
             variants={itemVariants}
-            className="mt-24 sm:mt-32 pt-16 sm:pt-20 border-t border-border grid grid-cols-3 gap-8 sm:gap-24 max-w-2xl sm:max-w-none mx-auto"
+            className="glass-card p-8 sm:p-12 border-border-glass bg-bg-glass-heavy relative overflow-hidden mb-32"
+          >
+             <div className="absolute top-0 right-0 w-[40%] h-full opacity-10 pointer-events-none">
+                <Cpu className="w-full h-full text-accent-blue" />
+             </div>
+             
+             <div className="relative z-10 max-w-2xl">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-accent-blue/30 bg-accent-blue/5 text-accent-blue text-[9px] font-black uppercase tracking-widest mb-6">
+                  <Zap className="w-3 h-3" /> System Architecture
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tighter text-foreground mb-6 italic">The Intelligence Engine</h2>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-8">
+                  Our platform utilizes an agentic RAG (Retrieval-Augmented Generation) pipeline to process thousands of forensic documents. From TRC archives to modern SCM tender data, we connect the nodes that the powerful try to hide.
+                </p>
+                <Link href="/about#engine" className="inline-flex items-center gap-2 text-[11px] font-black uppercase tracking-widest text-accent-blue hover:underline">
+                  Explore Architecture <ArrowRight className="w-4 h-4" />
+                </Link>
+             </div>
+          </motion.div>
+
+          {/* STATS SECTION */}
+          <motion.div 
+            variants={itemVariants}
+            className="pt-16 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16"
           >
             {[
-              { label: "Indexed Records", value: "32,433" },
-              { label: "High-Value Targets", value: "1,204" },
-              { label: "SAPS Stations Map", value: "1,154" }
+              { label: "Indexed Records", value: "32,433", icon: <Database className="w-4 h-4 text-accent-gold" /> },
+              { label: "High-Value Targets", value: "1,204", icon: <Fingerprint className="w-4 h-4 text-accent-crimson" /> },
+              { label: "SAPS Stations Map", value: "1,154", icon: <Globe className="w-4 h-4 text-accent-blue" /> },
+              { label: "Verified Evidence", value: "8.4k", icon: <ShieldCheck className="w-4 h-4 text-emerald-500" /> }
             ].map((stat, i) => (
-              <div key={i} className="text-center">
-                <p className="text-2xl sm:text-4xl font-black font-mono tracking-tighter mb-2 text-charcoal">{stat.value}</p>
-                <p className="text-[11px] font-black uppercase tracking-[0.2em] text-charcoal-40">{stat.label}</p>
+              <div key={i} className="text-center sm:text-left space-y-2">
+                <div className="flex items-center justify-center sm:justify-start gap-2 text-muted-foreground">
+                  {stat.icon}
+                  <span className="text-[10px] font-black uppercase tracking-[0.2em]">{stat.label}</span>
+                </div>
+                <p className="text-3xl sm:text-4xl font-black font-mono tracking-tighter text-foreground">{stat.value}</p>
               </div>
             ))}
           </motion.div>

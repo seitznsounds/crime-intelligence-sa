@@ -243,8 +243,8 @@ export default function AboutClient({ telemetry }: { telemetry: any }) {
               <Heart className="w-3 h-3" />
               Sustain the Network
             </div>
-            <h2 className="text-3xl font-black uppercase tracking-tighter text-white italic">Support the Mission</h2>
-            <p className="text-sm text-white/40 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-black uppercase tracking-tighter text-foreground italic">Support the Mission</h2>
+            <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
               This platform is an independent investigative tool. Your contributions directly fuel our RAG architecture, vector database maintenance, and forensic data ingestion pipelines.
             </p>
           </div>
@@ -252,27 +252,27 @@ export default function AboutClient({ telemetry }: { telemetry: any }) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             {/* Context/Info */}
             <div className="space-y-6">
-              <div className="glass-card p-8 border border-white/10 bg-white/[0.02] space-y-6 rounded-2xl">
+              <div className="glass-card p-8 border border-border-glass bg-bg-glass space-y-6 rounded-2xl">
                 <div>
                   <h4 className="text-xs font-black uppercase tracking-widest text-accent-blue mb-2">Project Transparency</h4>
-                  <p className="text-[11px] text-white/50 leading-relaxed">
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
                     100% of project-specific donations are allocated to cloud infrastructure (Supabase, Apify) and data acquisition. We believe in weaponizing data against corruption, and your support ensures this weapon remains sharp and accessible to all citizens.
                   </p>
                 </div>
                 <div>
                   <h4 className="text-xs font-black uppercase tracking-widest text-accent-gold mb-2">Buy Creator a Coffee</h4>
-                  <p className="text-[11px] text-white/50 leading-relaxed">
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
                     Building and maintaining this sophisticated intelligence hub is a solo effort. If you find value in this tool, supporting the creator directly helps cover the thousands of hours of architectural design and engineering required to keep the system evolving.
                   </p>
                 </div>
-                <div className="pt-4 border-t border-white/5">
+                <div className="pt-4 border-t border-border-glass">
                   <div className="flex items-center gap-4">
                     <div className="p-2 rounded-lg bg-emerald-500/10 border border-emerald-500/20">
                       <Shield className="w-4 h-4 text-emerald-500" />
                     </div>
                     <div>
-                      <p className="text-[10px] font-black uppercase tracking-widest text-white">Verified Secure</p>
-                      <p className="text-[9px] text-white/40">Transactions are encrypted and processed via Paystack.</p>
+                      <p className="text-[10px] font-black uppercase tracking-widest text-foreground">Verified Secure</p>
+                      <p className="text-[9px] text-muted-foreground">Transactions are encrypted and processed via Paystack.</p>
                     </div>
                   </div>
                 </div>

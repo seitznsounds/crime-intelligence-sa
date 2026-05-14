@@ -7,7 +7,9 @@
 :root {
   /* Default: Lovable Warm Theme (Light) */
   --background: #f7f4ed;
+  --background-rgb: 247, 244, 237;
   --foreground: #1c1c1c;
+  --foreground-rgb: 28, 28, 28;
   
   --accent-crimson: #ff3b30;
   --accent-gold: #ffcc00;
@@ -49,7 +51,9 @@
 .dark {
   /* Dark: Deep warm charcoal inversion */
   --background: #0c0c0a;
+  --background-rgb: 12, 12, 10;
   --foreground: #f7f4ed;
+  --foreground-rgb: 247, 244, 237;
   
   --bg-glass: rgba(247, 244, 237, 0.03);
   --bg-glass-heavy: rgba(247, 244, 237, 0.05);

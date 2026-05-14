@@ -134,27 +134,26 @@ export default function IncentiveCalculator() {
   }, [caseValue, applyGapMultiplier, deptRisk, empSecurity, infiltrationLevel, wpIntegrity, legalVulnerability, proclamationLag, recoveryVelocity]);
 
   return (
-    <div className="glass-card p-8 border border-white/10 rounded-xl space-y-8 bg-black/40 backdrop-blur-md">
-      <div className="flex items-center justify-between border-b border-white/10 pb-4">
+    <div className="glass-card p-8 border border-border-glass rounded-xl space-y-8 bg-background/50 backdrop-blur-md">
+      <div className="flex items-center justify-between border-b border-border-glass pb-4">
         <div className="flex items-center gap-3">
           <div className="p-2 bg-accent-gold/20 rounded-lg">
             <Calculator className="w-6 h-6 text-accent-gold" />
           </div>
           <div>
-            <h3 className="text-xl font-bold tracking-tight text-white uppercase">Whistleblower Incentive Calculator</h3>
-            <p className="text-xs text-white/50 font-mono italic">Beta v1.0 — Logic based on Zondo Reforms & HSRC Social Norms</p>
+            <h3 className="text-xl font-bold tracking-tight text-foreground uppercase">Whistleblower Incentive Calculator</h3>
+            <p className="text-xs text-muted-foreground font-mono italic">Beta v1.0 — Logic based on Zondo Reforms & HSRC Social Norms</p>
           </div>
         </div>
-        <div className={`px-4 py-1 rounded-full border border-current bg-black/50 text-xs font-bold tracking-widest uppercase ${results.color}`}>
+        <div className={`px-4 py-1 rounded-full border border-current bg-background/50 text-xs font-bold tracking-widest uppercase ${results.color}`}>
           Score: {results.score.toFixed(0)}/100
         </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        {/* INPUTS */}
         <div className="space-y-6">
           <div className="space-y-2">
-            <label className="text-xs font-bold text-white/50 uppercase tracking-widest flex items-center gap-2 mb-4">
+            <label className="text-xs font-bold text-muted-foreground uppercase tracking-widest flex items-center gap-2 mb-4">
               <Target className="w-4 h-4 text-accent-crimson" /> Select Recovery Target (Optional)
             </label>
             <div className="grid grid-cols-1 gap-2">
@@ -164,16 +163,16 @@ export default function IncentiveCalculator() {
                   onClick={() => handleTargetSelect(target)}
                   className={`flex flex-col p-4 rounded-xl border transition-all text-left ${
                     selectedTarget?.id === target.id 
-                      ? 'bg-accent-crimson/20 border-accent-crimson shadow-glow-crimson' 
-                      : 'bg-white/5 border-white/10 hover:bg-white/10'
+                      ? 'bg-accent-crimson/10 border-accent-crimson shadow-glow-crimson' 
+                      : 'bg-bg-glass border-border-glass hover:bg-bg-glass-heavy'
                   }`}
                 >
                   <div className="flex justify-between items-center mb-1">
-                    <span className="text-xs font-bold text-white uppercase">{target.name}</span>
+                    <span className="text-xs font-bold text-foreground uppercase">{target.name}</span>
                     <span className="text-[10px] font-mono text-accent-gold">{target.caseRef}</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-[10px] text-white/50 italic">Est. Value: R {(target.value / 1000000).toFixed(1)}M</span>
+                    <span className="text-[10px] text-muted-foreground italic">Est. Value: R {(target.value / 1000000).toFixed(1)}M</span>
                     <span className="text-[10px] text-accent-crimson font-bold uppercase">Risk: {(target.riskScore * 10).toFixed(0)}%</span>
                   </div>
                 </button>
@@ -191,7 +190,7 @@ export default function IncentiveCalculator() {
 
           <div className="space-y-2">
             <div className="flex justify-between items-end">
-              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+              <label className="text-sm font-bold text-foreground/70 uppercase flex items-center gap-2">
                 <Coins className="w-4 h-4" /> Case Value (ZAR)
               </label>
               <span className="text-xl font-mono text-accent-gold">R {caseValue.toLocaleString()}</span>
@@ -203,7 +202,7 @@ export default function IncentiveCalculator() {
               step="1000000"
               value={caseValue}
               onChange={(e) => setCaseValue(Number(e.target.value))}
-              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-gold"
+              className="w-full h-1.5 bg-border-glass rounded-lg appearance-none cursor-pointer accent-accent-gold"
             />
             <div className="flex items-center gap-2 mt-4 p-2 bg-accent-blue/10 border border-accent-blue/20 rounded-lg">
               <input 
@@ -218,7 +217,7 @@ export default function IncentiveCalculator() {
               </label>
               <Info className="w-3 h-3 text-accent-blue opacity-50" />
             </div>
-            <p className="text-[10px] text-white/30 italic">
+            <p className="text-[10px] text-muted-foreground/50 italic">
               {applyGapMultiplier 
                 ? `Applying the 4.9x discrepancy identified by StatsSA for experienced vs. recorded crime. Effective Value: R ${results.adjustedValue.toLocaleString()}` 
                 : "Estimated value of the corruption, tender, or stolen asset."}
@@ -227,10 +226,10 @@ export default function IncentiveCalculator() {
 
           <div className="space-y-2">
             <div className="flex justify-between items-end">
-              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+              <label className="text-sm font-bold text-foreground/70 uppercase flex items-center gap-2">
                 <ShieldAlert className="w-4 h-4" /> Dept Risk Level
               </label>
-              <span className="text-sm font-mono text-white/90">{(deptRisk * 100).toFixed(0)}%</span>
+              <span className="text-sm font-mono text-foreground/90">{(deptRisk * 100).toFixed(0)}%</span>
             </div>
             <input 
               type="range" 
@@ -239,17 +238,17 @@ export default function IncentiveCalculator() {
               step="0.1"
               value={deptRisk}
               onChange={(e) => setDeptRisk(Number(e.target.value))}
-              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-crimson"
+              className="w-full h-1.5 bg-border-glass rounded-lg appearance-none cursor-pointer accent-accent-crimson"
             />
-            <p className="text-[10px] text-white/30 italic">Retaliation history and accountability score of the implicated department.</p>
+            <p className="text-[10px] text-muted-foreground/50 italic">Retaliation history and accountability score of the implicated department.</p>
           </div>
 
           <div className="space-y-2">
             <div className="flex justify-between items-end">
-              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+              <label className="text-sm font-bold text-foreground/70 uppercase flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-accent-blue" /> Employment Security
               </label>
-              <span className="text-sm font-mono text-white/90">{(empSecurity * 100).toFixed(0)}%</span>
+              <span className="text-sm font-mono text-foreground/90">{(empSecurity * 100).toFixed(0)}%</span>
             </div>
             <input 
               type="range" 
@@ -258,17 +257,17 @@ export default function IncentiveCalculator() {
               step="0.1"
               value={empSecurity}
               onChange={(e) => setEmpSecurity(Number(e.target.value))}
-              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-blue"
+              className="w-full h-1.5 bg-border-glass rounded-lg appearance-none cursor-pointer accent-accent-blue"
             />
-            <p className="text-[10px] text-white/30 italic">Vulnerability score based on tenure, contract type, and seniority.</p>
+            <p className="text-[10px] text-muted-foreground/50 italic">Vulnerability score based on tenure, contract type, and seniority.</p>
           </div>
 
           <div className="space-y-2">
             <div className="flex justify-between items-end">
-              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+              <label className="text-sm font-bold text-foreground/70 uppercase flex items-center gap-2">
                 <Users className="w-4 h-4 text-accent-gold" /> Institutional Infiltration
               </label>
-              <span className="text-sm font-mono text-white/90">{(infiltrationLevel * 100).toFixed(0)}%</span>
+              <span className="text-sm font-mono text-foreground/90">{(infiltrationLevel * 100).toFixed(0)}%</span>
             </div>
             <input 
               type="range" 
@@ -277,17 +276,17 @@ export default function IncentiveCalculator() {
               step="0.1"
               value={infiltrationLevel}
               onChange={(e) => setInfiltrationLevel(Number(e.target.value))}
-              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-gold"
+              className="w-full h-1.5 bg-border-glass rounded-lg appearance-none cursor-pointer accent-accent-gold"
             />
-            <p className="text-[10px] text-white/30 italic">Estimated level of criminal infiltration within the target department (e.g., SAPS 'Big Five' Cartel nexus).</p>
+            <p className="text-[10px] text-muted-foreground/50 italic">Estimated level of criminal infiltration within the target department (e.g., SAPS 'Big Five' Cartel nexus).</p>
           </div>
 
           <div className="space-y-2">
             <div className="flex justify-between items-end">
-              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+              <label className="text-sm font-bold text-foreground/70 uppercase flex items-center gap-2">
                 <Scale className="w-4 h-4 text-accent-blue" /> Legal Vulnerability Index
               </label>
-              <span className="text-sm font-mono text-white/90">{(legalVulnerability * 100).toFixed(0)}%</span>
+              <span className="text-sm font-mono text-foreground/90">{(legalVulnerability * 100).toFixed(0)}%</span>
             </div>
             <input 
               type="range" 
@@ -296,17 +295,17 @@ export default function IncentiveCalculator() {
               step="0.1"
               value={legalVulnerability}
               onChange={(e) => setLegalVulnerability(Number(e.target.value))}
-              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-blue"
+              className="w-full h-1.5 bg-border-glass rounded-lg appearance-none cursor-pointer accent-accent-blue"
             />
-            <p className="text-[10px] text-white/30 italic">Phase 2 Audit: SLAPP suit fragility and industry blacklisting risk (outside PDA scope).</p>
+            <p className="text-[10px] text-muted-foreground/50 italic">Phase 2 Audit: SLAPP suit fragility and industry blacklisting risk (outside PDA scope).</p>
           </div>
 
           <div className="space-y-2">
             <div className="flex justify-between items-end">
-              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+              <label className="text-sm font-bold text-foreground/70 uppercase flex items-center gap-2">
                 <TrendingDown className="w-4 h-4 text-accent-gold" /> Proclamation Lag
               </label>
-              <span className="text-sm font-mono text-white/90">{(proclamationLag * 100).toFixed(0)}%</span>
+              <span className="text-sm font-mono text-foreground/90">{(proclamationLag * 100).toFixed(0)}%</span>
             </div>
             <input 
               type="range" 
@@ -315,17 +314,17 @@ export default function IncentiveCalculator() {
               step="0.1"
               value={proclamationLag}
               onChange={(e) => setProclamationLag(Number(e.target.value))}
-              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent-gold"
+              className="w-full h-1.5 bg-border-glass rounded-lg appearance-none cursor-pointer accent-accent-gold"
             />
-            <p className="text-[10px] text-white/30 italic">BRICS 2024 Audit: Shortcoming in investigations due to Presidential Proclamation bottlenecks.</p>
+            <p className="text-[10px] text-muted-foreground/50 italic">BRICS 2024 Audit: Shortcoming in investigations due to Presidential Proclamation bottlenecks.</p>
           </div>
 
           <div className="space-y-2">
             <div className="flex justify-between items-end">
-              <label className="text-sm font-bold text-white/70 uppercase flex items-center gap-2">
+              <label className="text-sm font-bold text-foreground/70 uppercase flex items-center gap-2">
                 <TrendingUp className="w-4 h-4 text-green-400" /> Recovery Velocity
               </label>
-              <span className="text-sm font-mono text-white/90">{(recoveryVelocity * 100).toFixed(0)}%</span>
+              <span className="text-sm font-mono text-foreground/90">{(recoveryVelocity * 100).toFixed(0)}%</span>
             </div>
             <input 
               type="range" 
@@ -334,21 +333,21 @@ export default function IncentiveCalculator() {
               step="0.1"
               value={recoveryVelocity}
               onChange={(e) => setRecoveryVelocity(Number(e.target.value))}
-              className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-green-400"
+              className="w-full h-1.5 bg-border-glass rounded-lg appearance-none cursor-pointer accent-green-400"
             />
-            <p className="text-[10px] text-white/30 italic">GNU 2028 Target: 5x increase in asset recovery speed and data-driven investigation efficiency.</p>
+            <p className="text-[10px] text-muted-foreground/50 italic">GNU 2028 Target: 5x increase in asset recovery speed and data-driven investigation efficiency.</p>
           </div>
         </div>
 
         {/* OUTPUTS */}
-        <div className="bg-white/5 border border-white/10 rounded-xl p-6 space-y-6 relative overflow-hidden">
+        <div className="bg-bg-glass border border-border-glass rounded-xl p-6 space-y-6 relative overflow-hidden">
           <div className="absolute top-0 right-0 p-4 opacity-10">
-            <Scale className="w-24 h-24 text-white" />
+            <Scale className="w-24 h-24 text-foreground" />
           </div>
 
           <div className="space-y-4 relative z-10">
-            <div className="flex justify-between items-center border-b border-white/5 pb-2">
-              <span className="text-xs font-bold text-white/50 uppercase">Potential Reward (15-25%)</span>
+            <div className="flex justify-between items-center border-b border-border-glass pb-2">
+              <span className="text-xs font-bold text-muted-foreground uppercase">Potential Reward (15-25%)</span>
               <span className="text-sm font-mono text-accent-gold">
                 R {results.grossMin.toLocaleString()} - R {results.grossMax.toLocaleString()}
               </span>
@@ -389,9 +388,9 @@ export default function IncentiveCalculator() {
               <span className="text-sm font-mono">+R {results.velocityBonus?.toLocaleString(undefined, { maximumFractionDigits: 0 }) || 0}</span>
             </div>
 
-            <div className="pt-4 border-t border-white/20">
+            <div className="pt-4 border-t border-border-glass">
               <div className="flex justify-between items-center">
-                <span className="text-sm font-black text-white uppercase tracking-tighter">Risk-Adjusted Incentive</span>
+                <span className="text-sm font-black text-foreground uppercase tracking-tighter">Risk-Adjusted Incentive</span>
                 <span className={`text-xl font-mono font-bold ${results.color}`}>
                   R {results.riskAdjusted.toLocaleString(undefined, { maximumFractionDigits: 0 })}
                 </span>
@@ -399,22 +398,22 @@ export default function IncentiveCalculator() {
             </div>
 
             {/* SOCIAL IMPACT PREVIEW */}
-            <div className="pt-6 mt-6 border-t border-white/10 space-y-4">
-              <span className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">Community Restitution Projection</span>
+            <div className="pt-6 mt-6 border-t border-border-glass space-y-4">
+              <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em]">Community Restitution Projection</span>
               <div className="grid grid-cols-2 gap-4">
-                <div className="p-3 bg-white/5 rounded-lg border border-white/5 text-center">
+                <div className="p-3 bg-background/50 rounded-lg border border-border-glass text-center">
                   <Home className="w-4 h-4 text-accent-blue mx-auto mb-1" />
-                  <div className="text-lg font-mono font-bold text-white">{results.houses.toLocaleString()}</div>
-                  <div className="text-[8px] font-bold text-white/40 uppercase">RDP Houses</div>
+                  <div className="text-lg font-mono font-bold text-foreground">{results.houses.toLocaleString()}</div>
+                  <div className="text-[8px] font-bold text-muted-foreground uppercase">RDP Houses</div>
                 </div>
-                <div className="p-3 bg-white/5 rounded-lg border border-white/5 text-center">
+                <div className="p-3 bg-background/50 rounded-lg border border-border-glass text-center">
                   <GraduationCap className="w-4 h-4 text-accent-gold mx-auto mb-1" />
-                  <div className="text-lg font-mono font-bold text-white">{results.schools}</div>
-                  <div className="text-[8px] font-bold text-white/40 uppercase">State Schools</div>
+                  <div className="text-lg font-mono font-bold text-foreground">{results.schools}</div>
+                  <div className="text-[8px] font-bold text-muted-foreground uppercase">State Schools</div>
                 </div>
               </div>
-              <p className="text-[10px] text-white/40 italic leading-tight text-center">
-                The remaining <span className="text-white/60 font-mono">R {results.communityReinvestment.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span> after your incentive could fund the above social infrastructure.
+              <p className="text-[10px] text-muted-foreground italic leading-tight text-center">
+                The remaining <span className="text-foreground/60 font-mono">R {results.communityReinvestment.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span> after your incentive could fund the above social infrastructure.
               </p>
             </div>
           </div>
@@ -423,16 +422,16 @@ export default function IncentiveCalculator() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             key={results.verdict}
-            className={`p-4 rounded-lg bg-black/40 border border-white/10 text-xs font-bold leading-relaxed ${results.color}`}
+            className={`p-4 rounded-lg bg-background border border-border-glass text-xs font-bold leading-relaxed ${results.color}`}
           >
             {results.verdict}
           </motion.div>
 
-          <div className="flex items-start gap-2 p-3 bg-white/5 rounded-lg">
+          <div className="flex items-start gap-2 p-3 bg-background/50 rounded-lg border border-border-glass">
             <Info className="w-4 h-4 text-accent-blue flex-shrink-0 mt-0.5" />
-            <p className="text-[10px] text-white/50 leading-tight">
+            <p className="text-[10px] text-muted-foreground leading-tight">
               Calculations based on Zondo Commission (15-25%) and OECD (10-30%) global reward benchmarks. 
-              The <span className="text-white">Proclamation Lag</span> accounts for SIU bottlenecks identified in BRICS 2024. 
+              The <span className="text-foreground font-bold uppercase">Proclamation Lag</span> accounts for SIU bottlenecks identified in BRICS 2024. 
               Ghost Vendor risk is applied for high-risk departments (Administrative Concealment).
             </p>
           </div>

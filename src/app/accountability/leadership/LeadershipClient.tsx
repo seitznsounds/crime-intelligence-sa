@@ -91,7 +91,7 @@ export default function LeadershipClient({ data }: { data: { stats: any, nodes: 
       {/* Interactive Org Chart Canvas */}
       <div 
         ref={containerRef} 
-        className="w-full h-[600px] sm:h-[800px] glass-card border-border-glass bg-[#050505] relative overflow-hidden rounded-3xl touch-none"
+        className="w-full h-[600px] sm:h-[800px] glass-card border-border-glass bg-background relative overflow-hidden rounded-3xl touch-none"
       >
         <div className="absolute top-4 left-4 z-20 px-3 py-1.5 bg-background/80 backdrop-blur-md rounded border border-border-glass text-[10px] font-bold uppercase tracking-widest text-muted-foreground flex items-center gap-2">
           <GitCommit className="w-3.5 h-3.5" /> Drag to Pan Canvas
