@@ -63,7 +63,6 @@ export function StatsSkeleton() {
     </div>
   );
 }
-
 export function VolumeSkeleton() {
   return (
     <div className="space-y-3">
@@ -76,7 +75,29 @@ export function VolumeSkeleton() {
   );
 }
 
+export function AuditSkeleton() {
+  return (
+    <div className="glass-card p-6 sm:p-8 border-border-glass bg-bg-glass space-y-6">
+      <div className="flex justify-between items-start">
+        <div className="space-y-2">
+          <Skeleton className="h-3 w-24" />
+          <Skeleton className="h-8 w-48" />
+        </div>
+        <Skeleton className="h-12 w-12" />
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <Skeleton className="h-20 w-full rounded-2xl" />
+        <Skeleton className="h-20 w-full rounded-2xl" />
+      </div>
+      <Skeleton className="h-[1px] w-full" />
+      <Skeleton className="h-4 w-32" />
+    </div>
+  );
+}
+
 export function IncidentSkeleton() {
+...
+
   return (
     <div className="flex items-center gap-6 px-4">
       <Skeleton className="h-3 w-16" />

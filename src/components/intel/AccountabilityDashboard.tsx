@@ -34,14 +34,13 @@ const NACS_PILLARS = [
   { id: 6, name: "Witness Protection", progress: 12, color: "bg-accent-crimson" },
 ];
 
-const REFORM_MILESTONES = [
-  { date: "May 2026", event: "Arrest of Major-Generals Khan & Kadwa", status: "SUCCESS", impact: "High" },
-  { date: "April 2026", event: "Public Procurement Act Amendment", status: "ENACTED", impact: "Medium" },
-  { date: "March 2026", event: "Whistleblower Witness Protection Reform", status: "IN PROGRESS", impact: "Critical" },
-  { date: "Jan 2026", event: "NACAC Implementation Dashboard Live", status: "SUCCESS", impact: "Low" }
-];
-
-export default function AccountabilityDashboard() {
+export default function AccountabilityDashboard({ 
+  initialKpis, 
+  initialReforms 
+}: { 
+  initialKpis: any, 
+  initialReforms: any[] 
+}) {
   return (
     <div className="space-y-12">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
@@ -105,7 +104,7 @@ export default function AccountabilityDashboard() {
           </h3>
 
           <div className="space-y-6">
-            {REFORM_MILESTONES.map((milestone, i) => (
+            {initialReforms.map((milestone, i) => (
               <motion.div 
                 key={i}
                 initial={{ opacity: 0, x: 20 }}
@@ -114,17 +113,17 @@ export default function AccountabilityDashboard() {
                 className="relative pl-6 border-l border-white/10 group"
               >
                 <div className="absolute left-[-5px] top-0 w-2 h-2 rounded-full bg-white/20 group-hover:bg-accent-gold transition-colors" />
-                <div className="text-[10px] font-mono text-muted-foreground mb-1 uppercase">{milestone.date}</div>
-                <div className="text-xs font-bold text-foreground/90 group-hover:text-accent-gold transition-colors">{milestone.event}</div>
+                <div className="text-[10px] font-mono text-muted-foreground mb-1 uppercase">{new Date(milestone.date).toLocaleDateString('en-ZA', { month: 'short', year: 'numeric' })}</div>
+                <div className="text-xs font-bold text-foreground/90 group-hover:text-accent-gold transition-colors">{milestone.reform}</div>
                 <div className="flex items-center gap-3 mt-2">
                   <span className={`text-[8px] font-black px-1 rounded border ${
-                    milestone.status === "SUCCESS" ? "border-green-500/50 text-green-400 bg-green-400/5" :
+                    milestone.status === "SUCCESS" || milestone.status === "INGESTED" ? "border-green-500/50 text-green-400 bg-green-400/5" :
                     milestone.status === "ENACTED" ? "border-accent-blue/50 text-accent-blue bg-accent-blue/5" :
                     "border-accent-gold/50 text-accent-gold bg-accent-gold/5"
                   }`}>
                     {milestone.status}
                   </span>
-                  <span className="text-[8px] font-bold text-white/20 uppercase tracking-tighter">Impact: {milestone.impact}</span>
+                  <span className="text-[8px] font-bold text-white/20 uppercase tracking-tighter">Pillar: {milestone.pillar}</span>
                 </div>
               </motion.div>
             ))}
@@ -152,7 +151,7 @@ export default function AccountabilityDashboard() {
             <div className="flex gap-8">
               <div className="text-right">
                 <div className="text-[10px] text-muted-foreground uppercase mb-1">Unpaid Invoices (30+ Days)</div>
-                <div className="text-xl font-bold text-accent-crimson tracking-tighter font-mono">R 12.4 Bn</div>
+                <div className="text-xl font-bold text-accent-crimson tracking-tighter font-mono">{initialKpis.unpaid_invoices_total}</div>
               </div>
               <div className="text-right border-l border-white/10 pl-8">
                 <div className="text-[10px] text-muted-foreground uppercase mb-1">PFMA Section 38(1)(f) Breach</div>
@@ -163,9 +162,9 @@ export default function AccountabilityDashboard() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { label: "Eastern Cape Failure", value: "R 3.8 Bn", sub: "46,583 Invoices", status: "CRITICAL" },
-              { label: "Provincial Share", value: "97%", sub: "Systemic Non-Compliance", status: "CRITICAL" },
-              { label: "National DOJ&CD", value: "49%", sub: "of National Unpaid Total", status: "CRITICAL" },
+              { label: "Eastern Cape Failure", value: initialKpis.eastern_cape_failure, sub: "46,583 Invoices", status: "CRITICAL" },
+              { label: "Provincial Share", value: initialKpis.provincial_share, sub: "Systemic Non-Compliance", status: "CRITICAL" },
+              { label: "National DOJ&CD", value: initialKpis.doj_share, sub: "of National Unpaid Total", status: "CRITICAL" },
               { label: "SME Risk Multiplier", value: "8.4x", sub: "Liquidity Failure Trigger", status: "CRITICAL" }
             ].map((node, i) => (
               <div key={i} className="p-4 rounded-xl border border-white/5 bg-black/20 space-y-2">

@@ -152,7 +152,7 @@ export default function Navbar() {
         <div className="h-full max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between">
           {/* Logo - Switch based on theme using CSS */}
           <Link href="/" className="flex items-center gap-3 group shrink-0">
-            <div className="relative h-10 w-40">
+            <div className="relative h-16 w-40">
               <Image
                 src="/Crime Intelligence Logo Dark (225x100).svg"
                 alt="Crime Intelligence SA"

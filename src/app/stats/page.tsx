@@ -6,11 +6,15 @@ import TrueCrimeEstimator from "@/components/intel/TrueCrimeEstimator";
 import OversightRadar from "@/components/intel/OversightRadar";
 import DataTabs from "@/components/ui/DataTabs";
 import ForensicInfo from "@/components/ui/ForensicInfo";
+import { getOversightMetrics } from "@/components/intel/actions";
+import { ResponsiveDataGrid } from "@/components/ui/ResponsiveDataGrid";
+import { MobileExpandableChart } from "@/components/ui/MobileExpandableChart";
 
 export const dynamic = "force-dynamic";
 
 export default async function StatsPage() {
   const supabase = await createServerClient();
+  const oversightMetrics = await getOversightMetrics();
 
   // Fetch top 50 station statistics with a focus on high-risk categories
   const { data: stats, error } = await supabase
@@ -90,73 +94,77 @@ export default async function StatsPage() {
               </div>
             </div>
 
-            <div className="hidden sm:block overflow-x-auto no-scrollbar">
-              <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="bg-charcoal-3 text-[11px] font-black uppercase tracking-[0.2em] text-charcoal-40 border-b border-border">
-                    <th className="px-8 py-5">Rank</th>
-                    <th className="px-8 py-5">Station</th>
-                    <th className="px-8 py-5">Category</th>
-                    <th className="px-8 py-5">Volume</th>
-                    <th className="px-8 py-5 text-right font-black">Audit</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-border text-nowrap">
-                  {stats?.map((s, i) => (
-                    <tr key={s.id} className="hover:bg-charcoal-3 transition-all duration-300 group">
-                      <td className="px-8 py-6">
-                        <span className="text-[13px] font-mono font-black text-charcoal-40">#{String(i + 1).padStart(3, '0')}</span>
-                      </td>
-                      <td className="px-8 py-6">
-                        <div className="flex items-center gap-4">
-                          <div className="w-10 h-10 rounded-xl bg-charcoal-3 border border-border flex items-center justify-center group-hover:border-charcoal-40 transition-colors">
-                            <MapPin className="w-4 h-4 text-charcoal-40" />
-                          </div>
-                          <div>
-                            <p className="text-[14px] font-bold tracking-tight mb-0.5 text-charcoal">{s.station_name || "UNNAMED"}</p>
-                            <p className="text-[11px] font-mono text-charcoal-40 uppercase tracking-widest">#{s.station_id?.split('-')[0]}</p>
-                          </div>
+            <div className="w-full">
+              <ResponsiveDataGrid 
+                data={stats || []}
+                keyExtractor={(s) => s.id}
+                rowHref={(s) => `/stats/${s.id}`}
+                columns={[
+                  {
+                    header: "Rank",
+                    accessorKey: "rank",
+                    mobilePriority: "hidden",
+                    cell: (s: any) => {
+                      const idx = stats?.findIndex(item => item.id === s.id) ?? 0;
+                      return <span className="text-[13px] font-mono font-black text-charcoal-40">#{String(idx + 1).padStart(3, '0')}</span>;
+                    }
+                  },
+                  {
+                    header: "Station",
+                    accessorKey: "station_name",
+                    mobilePriority: "primary",
+                    cell: (s: any) => (
+                      <div className="flex items-center gap-4">
+                        <div className="hidden md:flex w-10 h-10 rounded-xl bg-charcoal-3 border border-border items-center justify-center group-hover:border-charcoal-40 transition-colors">
+                          <MapPin className="w-4 h-4 text-charcoal-40" />
                         </div>
-                      </td>
-                      <td className="px-8 py-6">
-                        <span className={`text-[11px] font-black uppercase tracking-widest ${["Murder", "Attempted murder"].includes(s.category!) ? 'text-accent-crimson' : 'text-charcoal-83'}`}>
-                          {s.category}
-                        </span>
-                      </td>
-                      <td className="px-8 py-6">
-                        <TrueCrimeEstimator initialCount={s.incident_count || 0} category={s.category || ""} />
-                      </td>
-                      <td className="px-8 py-6 text-right">
-                        <Link href={`/stats/${s.id}`} className="inline-flex items-center gap-2 px-5 py-2 bg-charcoal text-white text-[11px] font-black uppercase tracking-widest rounded-full shadow-button-inset hover:opacity-80 transition-all">
-                          Dossier <ArrowUpRight className="w-3 h-3" />
-                        </Link>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <div className="sm:hidden divide-y divide-border-glass">
-              {stats?.map((s, i) => (
-                <Link key={s.id} href={`/stats/${s.id}`} className="flex items-center gap-3 p-4 hover:bg-bg-glass-heavy transition-colors">
-                  <span className="text-[12px] font-mono font-bold text-muted-foreground w-8">#{i + 1}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-[14px] font-bold tracking-tight text-foreground truncate">{s.station_name || "UNNAMED"}</p>
-                    <p className={`text-[12px] font-medium mb-2 ${["Murder", "Attempted murder"].includes(s.category!) ? 'text-accent-crimson' : 'text-muted-foreground'}`}>
-                      {s.category}
-                    </p>
-                    <TrueCrimeEstimator initialCount={s.incident_count || 0} category={s.category || ""} />
-                  </div>
-                  <ArrowUpRight className="w-4 h-4 text-muted-foreground shrink-0" />
-                </Link>
-              ))}
+                        <div>
+                          <p className="text-[14px] font-bold tracking-tight mb-0.5 text-foreground">{s.station_name || "UNNAMED"}</p>
+                          <p className="text-[11px] font-mono text-muted-foreground uppercase tracking-widest">#{s.station_id?.split('-')[0]}</p>
+                        </div>
+                      </div>
+                    )
+                  },
+                  {
+                    header: "Category",
+                    accessorKey: "category",
+                    mobilePriority: "secondary",
+                    cell: (s: any) => (
+                      <span className={`text-[11px] font-black uppercase tracking-widest ${["Murder", "Attempted murder"].includes(s.category!) ? 'text-accent-crimson' : 'text-muted-foreground'}`}>
+                        {s.category}
+                      </span>
+                    )
+                  },
+                  {
+                    header: "Volume",
+                    accessorKey: "volume",
+                    mobilePriority: "secondary",
+                    cell: (s: any) => <TrueCrimeEstimator initialCount={s.incident_count || 0} category={s.category || ""} />
+                  },
+                  {
+                    header: "Audit",
+                    accessorKey: "audit",
+                    mobilePriority: "hidden",
+                    className: "text-right",
+                    cell: (s: any) => (
+                      <div className="inline-flex items-center gap-2 px-5 py-2 bg-charcoal text-white text-[11px] font-black uppercase tracking-widest rounded-full shadow-button-inset transition-all relative z-20">
+                        Dossier <ArrowUpRight className="w-3 h-3" />
+                      </div>
+                    )
+                  }
+                ]}
+              />
             </div>
           </div>
         </div>
 
         <div className="space-y-6">
-          <OversightRadar />
+          <MobileExpandableChart 
+            title="Oversight Radar" 
+            description="Intelligence Metrics and Reporting Quality across critical stations."
+          >
+            <OversightRadar initialMetrics={oversightMetrics} />
+          </MobileExpandableChart>
           
           <div className="glass-card p-8 border-border-glass bg-bg-glass">
             <h3 className="text-[10px] font-black uppercase tracking-[0.3em] text-accent-blue mb-6 flex items-center gap-2 text-nowrap">

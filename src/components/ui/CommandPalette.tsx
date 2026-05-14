@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { searchIntelligence } from "@/lib/search-actions";
 
 const ACTIONS = [
   { id: "expose", label: "Enter Exposure Board", href: "/expose", icon: <ShieldAlert className="w-4 h-4" />, category: "Intelligence" },
@@ -30,7 +31,26 @@ const ACTIONS = [
 
 export function CommandPalette() {
   const [open, setOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState<any[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
   const router = useRouter();
+
+  useEffect(() => {
+    const search = async () => {
+      if (query.length >= 3) {
+        setIsSearching(true);
+        const data = await searchIntelligence(query);
+        setResults(data);
+        setIsSearching(false);
+      } else {
+        setResults([]);
+      }
+    };
+
+    const timer = setTimeout(search, 300);
+    return () => clearTimeout(timer);
+  }, [query]);
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -71,6 +91,8 @@ export function CommandPalette() {
               <div className="flex items-center px-6 py-5 border-b border-border-glass gap-4">
                 <Search className="w-5 h-5 text-accent-crimson" />
                 <Command.Input 
+                  value={query}
+                  onValueChange={setQuery}
                   placeholder="Initiate global intelligence query... (e.g. 'Audit SAPS')" 
                   className="flex-1 bg-transparent border-none text-[13px] text-foreground focus:outline-none placeholder:text-muted-foreground/30 font-light tracking-wide"
                 />
@@ -80,6 +102,36 @@ export function CommandPalette() {
               </div>
 
               <Command.List className="max-h-[450px] overflow-y-auto p-4 scrollbar-hide">
+                {isSearching && (
+                  <div className="py-12 text-center">
+                    <Activity className="w-8 h-8 text-accent-crimson animate-spin mx-auto mb-4 opacity-40" />
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Scanning database nodes...</p>
+                  </div>
+                )}
+
+                {!isSearching && results.length > 0 && (
+                  <Command.Group heading={<span className="px-3 text-[10px] font-bold uppercase tracking-[0.2em] text-accent-crimson block mb-3 mt-4">Intelligence Matches</span>}>
+                    {results.map((result) => (
+                      <Command.Item
+                        key={result.id}
+                        onSelect={() => runCommand(() => router.push(result.href))}
+                        className="group flex items-center justify-between px-4 py-4 rounded-2xl cursor-pointer hover:bg-bg-glass border border-transparent hover:border-border-glass transition-all mb-1"
+                      >
+                        <div className="flex items-center gap-4">
+                          <div className="w-10 h-10 rounded-xl bg-accent-crimson/5 border border-accent-crimson/10 flex items-center justify-center text-accent-crimson">
+                            <FileText className="w-4 h-4" />
+                          </div>
+                          <div className="flex flex-col">
+                            <span className="text-[12px] font-bold text-foreground group-aria-selected:text-accent-crimson transition-colors">{result.label}</span>
+                            <span className="text-[10px] font-mono text-muted-foreground uppercase tracking-widest">{result.category}</span>
+                          </div>
+                        </div>
+                        <ChevronRight className="w-4 h-4 text-muted-foreground/20 group-aria-selected:text-accent-crimson transition-colors" />
+                      </Command.Item>
+                    ))}
+                  </Command.Group>
+                )}
+
                 <Command.Empty className="py-12 text-center">
                   <div className="flex flex-col items-center gap-4">
                     <Activity className="w-8 h-8 text-muted-foreground/20 animate-pulse" />
