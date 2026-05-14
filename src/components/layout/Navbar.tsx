@@ -5,9 +5,10 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown, Search as SearchIcon, Megaphone, Cpu, Brain } from "lucide-react";
+import { Menu, X, ChevronDown, Search as SearchIcon, Megaphone, Cpu, Brain, WifiOff } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { CommandPalette } from "./CommandPalette";
+import { usePwa } from "@/components/providers/PwaProvider";
 import { NAV_PILLARS, NAV_ACTIONS, getActivePillar, type NavPillar } from "@/lib/navigation";
 
 const PILLAR_COLORS = {
@@ -135,6 +136,7 @@ export default function Navbar() {
   const activePillar = getActivePillar(pathname);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { isOffline } = usePwa();
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -192,6 +194,13 @@ export default function Navbar() {
               <div className="hidden sm:block">
                 <CommandPalette />
               </div>
+
+              {isOffline && (
+                <div className="flex items-center gap-2 px-3 py-1 bg-accent-crimson/10 border border-accent-crimson/20 rounded-full animate-pulse">
+                  <WifiOff className="w-3 h-3 text-accent-crimson" />
+                  <span className="hidden xs:inline text-[9px] font-black uppercase tracking-widest text-accent-crimson">Offline</span>
+                </div>
+              )}
 
               <ThemeToggle />
 

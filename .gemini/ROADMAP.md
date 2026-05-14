@@ -40,7 +40,8 @@ _Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all 
 
 **Objective**: Finalize the platform for high-stakes investigative field use and ensure cross-platform operationality.
 
-- [ ] **PWA & Offline Optimization**: Implement service workers and local caching for investigation rosters in low-connectivity zones.
-- [ ] **Biometric Access Tier**: Integrate WebAuthn (Biometrics) for accessing high-risk evidence packages.
+- [ ] **PWA & Offline Optimization**: Implement service workers and local caching (IndexedDB) for investigation rosters and high-risk dossiers in low-connectivity zones.
+- [ ] **Biometric Access Tier**: Integrate WebAuthn (Biometrics) for secure "Step-up" authentication when accessing high-risk evidence packages.
 - [x] **Live News Ingestion Pipeline**: Integrated Paystack donation system and optimized global UI/UX for dual-theme accessibility.
-- [ ] **Advanced Witness Protection Interface**: Expand the WPU module with secure communication logs and incident escalation workflows.
+- [ ] **Advanced Witness Protection Interface**: Expand the WPU module with client-side PGP-encrypted incident logs and a mobile "Panic Button" for field operatives.
+- [ ] **Automated Sentiment Intelligence**: Deploy background tasks to adjust PEP risk scores based on breaking news sentiment analysis from SA news sources.

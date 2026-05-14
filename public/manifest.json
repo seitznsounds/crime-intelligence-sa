@@ -1,0 +1,19 @@
+{
+  "name": "Crime Intelligence SA",
+  "short_name": "CrimeIntel",
+  "description": "Democratizing crime intelligence in South Africa. Exposing systemic corruption.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0c0a",
+  "theme_color": "#ff3b30",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["investigation", "intelligence", "news"]
+}
