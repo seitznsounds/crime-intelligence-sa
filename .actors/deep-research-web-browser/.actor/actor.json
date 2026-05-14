@@ -1,0 +1,19 @@
+{
+    "actorSpecification": 1,
+    "name": "deep-research-web-browser",
+    "title": "Deep Research Browser - Multi-Pass Investigative Intelligence",
+    "description": "An autonomous investigative researcher that performs recursive searches to connect disparate data points. Unlike standard RAG scrapers, this actor analyzes findings to generate follow-up investigation queries, compiling a structured forensic brief ready for legal weaponization.",
+    "version": "1.0",
+    "seoTitle": "RAG Web Browser: Real-Time Web Search & Content Extraction for AI Agents & LLMs",
+    "seoDescription": "Give your AI agent live web access. This Apify Actor searches Google, scrapes result pages, and returns clean Markdown with optional chunking — perfect for RAG pipelines, OpenAI Assistants, LangChain tools, and custom GPTs. Pay-per-event pricing starting at $0.002/query.",
+    "categories": [
+        "AI",
+        "SEARCH_ENGINES"
+    ],
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "./Dockerfile",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    }
+}
