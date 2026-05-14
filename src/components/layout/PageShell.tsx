@@ -70,7 +70,7 @@ export default function PageShell({
             className="mb-10 flex items-center gap-2 text-[13px] text-charcoal-40 font-medium uppercase tracking-widest"
           >
             {breadcrumbs.map((crumb, i) => (
-              <span key={crumb.href} className="flex items-center gap-2">
+              <span key={`${crumb.href}-${i}`} className="flex items-center gap-2">
                 {i > 0 && <ChevronRight className="w-3 h-3 opacity-30" />}
                 {i < breadcrumbs.length - 1 ? (
                   <Link

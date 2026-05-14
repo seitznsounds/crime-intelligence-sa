@@ -42,5 +42,5 @@ _Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all 
 
 - [ ] **PWA & Offline Optimization**: Implement service workers and local caching for investigation rosters in low-connectivity zones.
 - [ ] **Biometric Access Tier**: Integrate WebAuthn (Biometrics) for accessing high-risk evidence packages.
-- [ ] **Live News Ingestion Pipeline**: Implement a real-time scraper for SA news (News24, Daily Maverick, amaBhungane) to auto-adjust organization risk scores based on breaking reports.
+- [x] **Live News Ingestion Pipeline**: Integrated Paystack donation system and optimized global UI/UX for dual-theme accessibility.
 - [ ] **Advanced Witness Protection Interface**: Expand the WPU module with secure communication logs and incident escalation workflows.
