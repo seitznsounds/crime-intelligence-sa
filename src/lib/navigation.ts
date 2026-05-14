@@ -16,6 +16,7 @@ import {
   Vote,
   ShieldCheck,
   Calculator,
+  Cpu,
   type LucideIcon,
 } from "lucide-react";
 
@@ -163,6 +164,24 @@ export const NAV_ACTIONS: NavItem[] = [
     href: "/vote",
     icon: Vote,
     description: "Democratic investigation priorities",
+  },
+  {
+    label: "About Engine",
+    href: "/about",
+    icon: Cpu,
+    description: "Platform architecture & telemetry",
+  },
+  {
+    label: "Research Portal",
+    href: "/research",
+    icon: Brain,
+    description: "Autonomous investigative intelligence",
+  },
+  {
+    label: "Support Project",
+    href: "/about#support",
+    icon: Heart,
+    description: "Contribute to project sustainability",
   },
 ];
 

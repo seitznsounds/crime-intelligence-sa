@@ -41,7 +41,7 @@ export async function getSyndicates() {
     const boss = members.find(m => m.role.toLowerCase().includes('boss'));
     
     // Find associates for the boss
-    let children = [];
+    let children: any[] = [];
     if (boss) {
       const { data: rels } = await supabase
         .from('person_relationships')

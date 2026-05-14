@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   TrendingUp, 
   Calendar, 
@@ -12,8 +12,11 @@ import {
   History,
   ShieldAlert,
   Network,
-  ChevronRight
+  ChevronRight,
+  BrainCircuit,
+  Link2
 } from 'lucide-react';
+import { getInferredLinks } from './actions';
 
 const REFORM_NODES = [
   { name: "OPI Constitutional Amendment", baseDays: 730, elapsed: 245, difficulty: 0.95, momentum: 0.15 },
@@ -21,41 +24,24 @@ const REFORM_NODES = [
   { name: "SIU-to-OPI Operational Transfer", baseDays: 540, elapsed: 310, difficulty: 0.4, momentum: 0.65 }
 ];
 
-const INFILTRATION_DATA = [
-  {
-    name: "Crime Intelligence (SAPS)",
-    score: 100,
-    status: "CRITICAL",
-    factors: ["Direct syndicate link identified", "High-risk institutional sector", "Indirect connection to nucleus (1st degree)"]
-  },
-  {
-    name: "Global Alpha Shell Ltd",
-    score: 95,
-    status: "CRITICAL",
-    factors: ["Direct syndicate link identified", "High-risk PEP in leadership", "Indirect connection to nucleus (1st degree)"]
-  },
-  {
-    name: "DPCI (Hawks) Gauteng",
-    score: 85,
-    status: "CRITICAL",
-    factors: ["Direct syndicate link identified", "High-risk PEP in leadership", "High-risk institutional sector"]
-  },
-  {
-    name: "Spares Oasis",
-    score: 80,
-    status: "CRITICAL",
-    factors: ["Direct syndicate link identified", "Indirect connection to nucleus (1st degree)"]
-  },
-  {
-    name: "Medicare 24",
-    score: 75,
-    status: "HIGH",
-    factors: ["Direct syndicate link identified", "Fraudulent contract history (R360m)"]
-  }
-];
-
 export const PredictiveReformModel = () => {
   const [activeTab, setActiveTab] = useState<'reform' | 'infiltration'>('infiltration');
+  const [inferredHubs, setInferredHubs] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function loadData() {
+      try {
+        const data = await getInferredLinks();
+        setInferredHubs(data);
+      } catch (err) {
+        console.error("Failed to load inference data:", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadData();
+  }, []);
 
   const reformPredictions = useMemo(() => {
     return REFORM_NODES.map(node => {
@@ -82,11 +68,11 @@ export const PredictiveReformModel = () => {
               <TrendingUp className="w-5 h-5" />
               <h3 className="text-xl font-black uppercase tracking-tighter italic">Predictive Intel Engine</h3>
             </div>
-            <p className="text-[10px] text-white/50 font-mono uppercase tracking-widest leading-tight">Syndicate Proximity & Reform Forecast v0.9</p>
+            <p className="text-[10px] text-white/50 font-mono uppercase tracking-widest leading-tight">Semantic Graph Inference v1.0.4-live</p>
           </div>
           <div className="px-3 py-1 rounded-full border border-accent-blue/30 bg-accent-blue/10 flex items-center gap-2">
             <Activity className="w-3 h-3 text-accent-blue animate-pulse" />
-            <span className="text-[9px] font-bold text-accent-blue uppercase tracking-tighter">Big Five Nucleus Sync</span>
+            <span className="text-[9px] font-bold text-accent-blue uppercase tracking-tighter">AI Inference Active</span>
           </div>
         </div>
 
@@ -100,7 +86,7 @@ export const PredictiveReformModel = () => {
                 : 'bg-white/5 border-white/10 text-white/40 hover:bg-white/10'
             }`}
           >
-            Syndicate Infiltration
+            Predictive Linkage
           </button>
           <button 
             onClick={() => setActiveTab('reform')}
@@ -117,39 +103,49 @@ export const PredictiveReformModel = () => {
 
       <div className="p-6 space-y-6">
         {activeTab === 'infiltration' ? (
-          <div className="space-y-4">
-            {INFILTRATION_DATA.map((node, i) => (
-              <div key={i} className="p-4 bg-white/[0.03] border border-white/5 rounded-xl space-y-3 group hover:bg-white/[0.05] transition-all">
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h4 className="text-sm font-bold text-white uppercase tracking-tighter flex items-center gap-2">
-                      <ShieldAlert className={`w-3 h-3 ${node.score > 80 ? 'text-accent-crimson' : 'text-accent-gold'}`} />
-                      {node.name}
-                    </h4>
-                    <div className="flex items-center gap-2 mt-1">
-                      <span className={`text-[8px] font-black px-1.5 py-0.5 rounded ${
-                        node.status === 'CRITICAL' ? 'bg-accent-crimson text-white' : 'bg-accent-gold text-black'
-                      }`}>
-                        {node.status} PROXIMITY
-                      </span>
-                    </div>
-                  </div>
-                  <div className="text-right">
-                    <span className="text-2xl font-black font-mono tracking-tighter text-white">{node.score}%</span>
-                    <p className="text-[7px] text-white/20 uppercase font-bold">Infiltration Prob.</p>
-                  </div>
+          <div className="space-y-6">
+            {loading ? (
+                <div className="flex flex-col items-center justify-center py-12 space-y-4">
+                    <BrainCircuit className="w-8 h-8 text-accent-crimson animate-pulse" />
+                    <p className="text-[10px] font-mono text-white/40 uppercase tracking-widest">Running pgvector Graph Inference...</p>
                 </div>
-
-                <div className="space-y-1.5">
-                  {node.factors.map((factor, j) => (
-                    <div key={j} className="flex items-center gap-2 text-[9px] text-white/40 font-medium">
-                      <ChevronRight className="w-2.5 h-2.5 text-accent-crimson" />
-                      {factor}
+            ) : inferredHubs.length > 0 ? (
+                inferredHubs.map((hub, i) => (
+                    <div key={i} className="space-y-3">
+                        <div className="flex items-center gap-2 border-b border-white/10 pb-2">
+                            <ShieldAlert className="w-4 h-4 text-accent-crimson" />
+                            <h4 className="text-xs font-black text-white uppercase tracking-widest">{hub.hubName} Hub</h4>
+                        </div>
+                        <div className="space-y-3 ml-2">
+                            {hub.predictions.map((pred: any, j: number) => (
+                                <div key={j} className="p-3 bg-white/[0.03] border border-white/5 rounded-lg group hover:border-accent-crimson/30 transition-all">
+                                    <div className="flex justify-between items-start mb-2">
+                                        <div className="flex items-center gap-2">
+                                            <div className="p-1 rounded bg-accent-crimson/20 border border-accent-crimson/30">
+                                                <Link2 className="w-3 h-3 text-accent-crimson" />
+                                            </div>
+                                            <span className="text-[11px] font-bold text-white uppercase tracking-tighter">{pred.name}</span>
+                                        </div>
+                                        <div className="text-right">
+                                            <span className="text-xs font-black text-accent-crimson font-mono">{Math.round(pred.score)}%</span>
+                                        </div>
+                                    </div>
+                                    <p className="text-[9px] text-white/40 leading-tight italic">"{pred.reason}"</p>
+                                    <div className="mt-2 flex items-center gap-2">
+                                        <span className="text-[7px] font-black px-1.5 py-0.5 rounded bg-white/10 text-white/60 uppercase tracking-widest">
+                                            {pred.type} SOURCE
+                                        </span>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                  ))}
+                ))
+            ) : (
+                <div className="text-center py-8">
+                    <p className="text-[10px] text-white/20 uppercase font-bold">No High-Probability Hubs Identified</p>
                 </div>
-              </div>
-            ))}
+            )}
           </div>
         ) : (
           <div className="space-y-6">

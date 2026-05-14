@@ -5,7 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown, Search as SearchIcon, Megaphone } from "lucide-react";
+import { Menu, X, ChevronDown, Search as SearchIcon, Megaphone, Cpu, Brain } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { CommandPalette } from "./CommandPalette";
 import { NAV_PILLARS, NAV_ACTIONS, getActivePillar, type NavPillar } from "@/lib/navigation";
@@ -189,9 +189,27 @@ export default function Navbar() {
 
           {/* Right Actions */}
           <div className="flex items-center gap-3">
-            <div className="hidden sm:block">
-              <CommandPalette />
-            </div>
+              {/* About & Research Links — Desktop */}
+              <div className="hidden lg:flex items-center gap-1">
+                <Link 
+                  href="/about"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full text-[13px] font-black uppercase tracking-[0.15em] text-charcoal-40 hover:text-charcoal transition-colors"
+                >
+                  <Cpu className="w-3.5 h-3.5" />
+                  <span>Engine</span>
+                </Link>
+                <Link 
+                  href="/research"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full text-[13px] font-black uppercase tracking-[0.15em] text-charcoal-40 hover:text-charcoal transition-colors"
+                >
+                  <Brain className="w-3.5 h-3.5" />
+                  <span>Research</span>
+                </Link>
+              </div>
+
+              <div className="hidden sm:block">
+                <CommandPalette />
+              </div>
 
             {/* Report CTA — Desktop */}
             <Link

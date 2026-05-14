@@ -87,3 +87,62 @@ export async function getNetworkData() {
     edges: edges
   };
 }
+
+export async function inferLinks(nodeId: string, nodeType: string) {
+  const supabase = await createServerClient();
+  
+  // 1. Fetch source embedding
+  const table = nodeType === 'PEP' ? 'people' : 'organizations';
+  const { data: source, error: sourceError } = await supabase
+    .from(table)
+    .select('embedding')
+    .eq('id', nodeId)
+    .single();
+
+  if (sourceError || !source?.embedding) {
+    console.error("Error fetching source embedding or missing embedding:", sourceError);
+    return [];
+  }
+
+  // 2. Fetch candidates (sample for prototype)
+  const { data: candidates, error: candError } = await supabase
+    .from(table)
+    .select('id, full_name, name, description, risk_score, embedding')
+    .not('id', 'eq', nodeId)
+    .not('embedding', 'is', null)
+    .limit(100);
+
+  if (candError) {
+    console.error("Error fetching candidates:", candError);
+    return [];
+  }
+
+  // 3. Calculate similarity in memory
+  return candidates
+    .map(c => {
+      const sim = cosineSimilarity(source.embedding, c.embedding);
+      return {
+        id: c.id,
+        name: c.full_name || c.name,
+        type: nodeType,
+        risk: c.risk_score || 50,
+        similarity: sim
+      };
+    })
+    .filter(c => c.similarity > 0.85) 
+    .sort((a, b) => b.similarity - a.similarity)
+    .slice(0, 3);
+}
+
+function cosineSimilarity(vecA: number[], vecB: number[]) {
+    let dotProduct = 0.0;
+    let normA = 0.0;
+    let normB = 0.0;
+    for (let i = 0; i < vecA.length; i++) {
+        dotProduct += vecA[i] * vecB[i];
+        normA += vecA[i] * vecA[i];
+        normB += vecB[i] * vecB[i];
+    }
+    const magnitude = Math.sqrt(normA) * Math.sqrt(normB);
+    return magnitude === 0 ? 0 : dotProduct / magnitude;
+}

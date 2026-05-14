@@ -171,18 +171,22 @@ export default async function StatsPage() {
               Intelligence Foundation
             </h3>
             <div className="space-y-4">
-              <div className="p-4 rounded-xl bg-white/5 border border-white/5">
-                <p className="text-[11px] font-bold text-foreground mb-1 italic">"The 4.9x Multiplier"</p>
-                <p className="text-[10px] text-muted-foreground leading-relaxed font-light">
-                  Derived from the structural delta between StatsSA experienced crime surveys and SAPS official recordings for Home Robbery.
-                </p>
-              </div>
-              <div className="p-4 rounded-xl bg-accent-crimson/5 border border-accent-crimson/10">
-                <p className="text-[11px] font-bold text-accent-crimson mb-1 italic">Reporting Void</p>
-                <p className="text-[10px] text-muted-foreground leading-relaxed font-light">
-                  Institutional decay identified in 80% of top-tier stations where recorded dockets fail to meet experienced reality thresholds.
-                </p>
-              </div>
+              <Link href="/stats/void" className="block group">
+                <div className="p-5 rounded-xl bg-accent-crimson/5 border border-accent-crimson/20 hover:border-accent-crimson/50 hover:bg-accent-crimson/10 transition-all">
+                  <div className="flex justify-between items-start mb-2">
+                    <p className="text-[12px] font-black text-accent-crimson uppercase tracking-widest italic flex items-center gap-2">
+                      <AlertTriangle className="w-3.5 h-3.5" /> The 4.9x Multiplier
+                    </p>
+                    <ArrowUpRight className="w-4 h-4 text-accent-crimson group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                  </div>
+                  <p className="text-[11px] text-muted-foreground leading-relaxed font-light mb-3">
+                    Derived from the structural delta between StatsSA experienced crime surveys and SAPS official recordings for Home Robbery.
+                  </p>
+                  <span className="inline-block px-3 py-1 bg-background text-[9px] font-bold uppercase tracking-widest text-foreground rounded-full border border-border">
+                    View Interactive Reality Void
+                  </span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

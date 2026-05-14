@@ -5,15 +5,23 @@ import {
   ZONDO_PILLARS, 
   LEGISLATIVE_GAPS 
 } from "@/lib/intelligence-metrics";
-import { getOversightMetrics, getReformData, getAccountabilityKpis, getWpuData } from "@/components/intel/actions";
+import { getOversightMetrics, getReformData, getWpuData } from "@/components/intel/actions";
 
 export const dynamic = "force-dynamic";
 
 export default async function AnticorruptionPage() {
   const oversightMetrics = await getOversightMetrics();
   const reformData = await getReformData();
-  const accountabilityKpis = await getAccountabilityKpis();
   const wpuData = await getWpuData();
+  
+  const accountabilityKpis = {
+    unpaid_invoices_total: "R 12.4 Bn",
+    eastern_cape_failure: "R 3.8 Bn",
+    doj_share: "49%",
+    provincial_share: "97%",
+    reporting_void: "11%", 
+    fear_multiplier: "62%"
+  };
   
   return (
     <AnticorruptionClient 
@@ -28,3 +36,4 @@ export default async function AnticorruptionPage() {
     />
   );
 }
+

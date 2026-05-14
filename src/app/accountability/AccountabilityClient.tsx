@@ -13,7 +13,8 @@ import {
   Scale, 
   RefreshCw,
   Info,
-  Fingerprint
+  Fingerprint,
+  Network
 } from "lucide-react";
 import { getTrcVolumes, triggerVolumeBackfill } from "./actions";
 import { createClient } from "@/lib/supabase/client";
@@ -22,6 +23,9 @@ import { DossierSkeleton, VolumeSkeleton } from "@/components/ui/Skeleton";
 import { IntelligenceNull } from "@/components/ui/StatusStates";
 import DataTabs from "@/components/ui/DataTabs";
 import ForensicInfo from "@/components/ui/ForensicInfo";
+import Link from "next/link";
+import { ResponsiveDataGrid } from "@/components/ui/ResponsiveDataGrid";
+import { FullScreenDataModal } from "@/components/ui/FullScreenDataModal";
 
 export default function AccountabilityClient({ 
   initialVolumes, 
@@ -103,24 +107,43 @@ export default function AccountabilityClient({
       icon={<UserX className="w-6 h-6 text-accent-crimson" />}
       breadcrumbs={[{ label: "Home", href: "/" }, { label: "Accountability", href: "/accountability" }]}
       actions={
-        <button onClick={handleTriggerBackfill} disabled={isBackfilling} className="px-6 py-2.5 bg-charcoal text-white rounded-full text-[11px] font-black uppercase tracking-widest hover:opacity-80 transition-all flex items-center gap-3 shadow-button-inset disabled:opacity-50">
-          <RefreshCw className={`w-3.5 h-3.5 ${isBackfilling ? 'animate-spin' : ''}`} /> Trigger Excavation
-        </button>
+        <div className="flex gap-4">
+          <Link href="/accountability/leadership" className="px-6 py-2.5 bg-bg-glass border border-border-glass text-foreground rounded-full text-[11px] font-black uppercase tracking-widest hover:bg-bg-glass-heavy transition-all flex items-center gap-2">
+            <Network className="w-3.5 h-3.5 text-accent-blue" /> Leadership Map
+          </Link>
+          <Link href="/accountability/assassinations" className="px-6 py-2.5 bg-accent-crimson/10 border border-accent-crimson/20 text-accent-crimson rounded-full text-[11px] font-black uppercase tracking-widest hover:bg-accent-crimson/20 transition-all flex items-center gap-2">
+            <Skull className="w-3.5 h-3.5" /> Tracker
+          </Link>
+          <button onClick={handleTriggerBackfill} disabled={isBackfilling} className="px-6 py-2.5 bg-charcoal text-white rounded-full text-[11px] font-black uppercase tracking-widest hover:opacity-80 transition-all flex items-center gap-3 shadow-button-inset disabled:opacity-50 hidden md:flex">
+            <RefreshCw className={`w-3.5 h-3.5 ${isBackfilling ? 'animate-spin' : ''}`} /> Excavate
+          </button>
+        </div>
       }
     >
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-20">
         {[
           { label: "Unpunished Assets", value: "242", icon: <ShieldAlert className="w-5 h-5 text-accent-crimson" /> },
-          { label: "Justice Index", value: "12.8%", icon: <Scale className="w-5 h-5 text-accent-blue" /> }
-        ].map((item, i) => (
-          <div key={i} className="glass-card p-8 bg-background border-border">
-            <div className="flex justify-between items-start mb-6">
-              <span className="text-[11px] font-black uppercase tracking-[0.25em] text-charcoal-40">{item.label}</span>
-              {item.icon}
+          { label: "Justice Index", value: "12.8%", icon: <Scale className="w-5 h-5 text-accent-blue" /> },
+          { label: "Assassination Hits", value: "47", icon: <Skull className="w-5 h-5 text-accent-crimson" />, href: "/accountability/assassinations" },
+          { label: "Leadership Audit", value: "68%", icon: <Network className="w-5 h-5 text-accent-gold" />, href: "/accountability/leadership" }
+        ].map((item, i) => {
+          const CardContent = (
+            <div className={`glass-card p-8 bg-background border-border ${item.href ? 'hover:border-accent-crimson cursor-pointer transition-colors group' : ''}`}>
+              <div className="flex justify-between items-start mb-6">
+                <span className={`text-[11px] font-black uppercase tracking-[0.25em] ${item.href ? 'text-accent-crimson' : 'text-charcoal-40'}`}>{item.label}</span>
+                <div className={item.href ? 'group-hover:scale-110 transition-transform' : ''}>
+                  {item.icon}
+                </div>
+              </div>
+              <p className="text-3xl font-black tracking-tight text-charcoal font-mono uppercase">{item.value}</p>
             </div>
-            <p className="text-3xl font-black tracking-tight text-charcoal font-mono uppercase">{item.value}</p>
-          </div>
-        ))}
+          );
+
+          if (item.href) {
+            return <Link key={i} href={item.href}>{CardContent}</Link>;
+          }
+          return <div key={i}>{CardContent}</div>;
+        })}
       </div>
 
       <DataTabs tabs={TABS} activeTab={activeTab} onChange={setActiveTab} />
@@ -143,10 +166,36 @@ export default function AccountabilityClient({
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {loading ? <DossierSkeleton /> : perpetrators.map((perp, i) => (
-                    <div key={perp.id} onClick={() => setSelectedPerp(perp)} className="glass-card p-8 bg-background border-border hover:border-charcoal-40 cursor-pointer transition-all group">
-                      <h4 className="text-2xl font-black text-charcoal mb-2 uppercase tracking-tight group-hover:text-accent-blue transition-colors">{perp.full_name}</h4>
-                      <p className="text-[11px] font-black text-charcoal-40 uppercase tracking-widest">{perp.role_in_regime}</p>
-                    </div>
+                    <FullScreenDataModal
+                      key={perp.id}
+                      title={perp.full_name}
+                      description={`Historical Injustice Record - ${perp.role_in_regime}`}
+                      trigger={
+                        <div className="glass-card p-6 sm:p-8 bg-background border-border hover:border-charcoal-40 cursor-pointer transition-all group touch-manipulation">
+                          <h4 className="text-xl sm:text-2xl font-black text-charcoal mb-2 uppercase tracking-tight group-hover:text-accent-blue transition-colors">{perp.full_name}</h4>
+                          <p className="text-[11px] font-black text-charcoal-40 uppercase tracking-widest">{perp.role_in_regime}</p>
+                        </div>
+                      }
+                    >
+                      <div className="space-y-6">
+                        <div className="p-6 bg-accent-crimson/5 border border-accent-crimson/20 rounded-xl">
+                          <h5 className="text-[10px] font-black uppercase tracking-widest text-accent-crimson mb-2">Primary Offense Node</h5>
+                          <p className="text-foreground text-[14px] leading-relaxed font-medium">
+                            {perp.details || "No expanded narrative found. Awaiting forensic distillation from TRC archives."}
+                          </p>
+                        </div>
+                        <div className="grid grid-cols-2 gap-4">
+                          <div className="p-5 bg-bg-glass border border-border-glass rounded-xl">
+                            <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground block mb-1">Status</span>
+                            <span className="text-[13px] font-black uppercase text-accent-crimson">Unpunished</span>
+                          </div>
+                          <div className="p-5 bg-bg-glass border border-border-glass rounded-xl">
+                            <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground block mb-1">TRC Index</span>
+                            <span className="text-[13px] font-black uppercase text-foreground">Vol 7 Ref</span>
+                          </div>
+                        </div>
+                      </div>
+                    </FullScreenDataModal>
                   ))}
                 </div>
               </div>
@@ -154,21 +203,43 @@ export default function AccountabilityClient({
           )}
 
           {activeTab === "vault" && (
-            <div className="glass-card p-10 bg-background border-border max-w-4xl">
-              <h3 className="text-[13px] font-black uppercase tracking-[0.3em] text-charcoal-40 mb-10">TRC_REPORT_VAULT</h3>
-              <div className="space-y-8">
-                {volumes.map((item) => (
-                  <div key={item.id} className="space-y-4">
-                    <div className="flex justify-between text-[11px] font-black uppercase tracking-widest">
-                      <span className="text-charcoal-83">Vol {item.volume_number}: {item.title}</span>
-                      <span className="text-accent-blue">{item.status}</span>
-                    </div>
-                    <div className="h-2 bg-charcoal-3 rounded-full overflow-hidden">
-                      <div className="h-full bg-accent-blue" style={{ width: `${item.progress}%` }} />
-                    </div>
-                  </div>
-                ))}
-              </div>
+            <div className="glass-card p-5 sm:p-10 bg-background border-border w-full">
+              <h3 className="text-[13px] font-black uppercase tracking-[0.3em] text-charcoal-40 mb-8 sm:mb-10 px-2 sm:px-0">TRC_REPORT_VAULT</h3>
+              <ResponsiveDataGrid 
+                data={volumes}
+                keyExtractor={(v) => String(v.id)}
+                columns={[
+                  {
+                    header: "Volume",
+                    accessorKey: "title",
+                    mobilePriority: "primary",
+                    cell: (v: any) => (
+                      <span className="text-foreground font-bold text-[14px]">Vol {v.volume_number}: {v.title}</span>
+                    )
+                  },
+                  {
+                    header: "Status",
+                    accessorKey: "status",
+                    mobilePriority: "secondary",
+                    cell: (v: any) => (
+                      <span className={`text-[11px] font-black tracking-widest uppercase ${v.status === 'INDEXED' ? 'text-emerald-500' : 'text-accent-blue'}`}>
+                        {v.status}
+                      </span>
+                    )
+                  },
+                  {
+                    header: "Progress",
+                    accessorKey: "progress",
+                    mobilePriority: "secondary",
+                    className: "w-[200px]",
+                    cell: (v: any) => (
+                      <div className="h-2.5 w-full min-w-[100px] bg-charcoal-3 rounded-full overflow-hidden mt-1 sm:mt-0">
+                        <div className={`h-full ${v.status === 'INDEXED' ? 'bg-emerald-500' : 'bg-accent-blue'}`} style={{ width: `${v.progress}%` }} />
+                      </div>
+                    )
+                  }
+                ]}
+              />
             </div>
           )}
 

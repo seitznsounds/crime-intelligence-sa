@@ -1,6 +1,6 @@
 # Tool Boundaries (DO NOT REMOVE)
 
-- If you are the Antigravity Agent: Only use the `~/.gemini/antigravity/` folder and `mcp_config.json`. Do not attempt to use CLI extensions.
+- If you are the Antigravity Agent: Only use the `~/.gemini/antigravity/` folder. Use `/.mcp.json` (in root folder) for MCP servers. Ignore `/.gemini/GEMINI-MCP.md` and `/.gemini/settings.json` because this is for Gemini CLI. Do not attempt to use CLI extensions.
 - If you are the Gemini CLI: Do not attempt to sync, mix, or treat Antigravity's MCPs (like Sequential Thinking or Linear) as 'missing'. You must use the `extensions/` directory and `settings.json`.
 
 # Google Antigravity — Crime Intelligence SA
@@ -172,11 +172,32 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Big Five Forecast**: Generated a high-fidelity infiltration forecast identifying **Crime Intelligence (SAPS)** and **Global Alpha Shell Ltd** as critical proximity nodes (95-100%).
 - **UI Operationalization**: Upgraded the `Predictive Intel Engine` component with a dual-modal view, enabling toggling between Infiltration Probabilities and Reform Trajectories.
 
+### 24. Mobile Data Presentation Architecture [COMPLETED]
+
+- **Responsive Data Grids**: Replaced legacy HTML tables with `<ResponsiveDataGrid />`, automatically transforming desktop tables into thumb-friendly, stackable cards on mobile viewports.
+- **Accessible Expansion Modals**: Implemented `@radix-ui/react-dialog` via `<FullScreenDataModal />` to provide native-feeling, 44px-touch-target expansions for complex data.
+- **Mobile Chart Overlays**: Deployed `<MobileExpandableChart />` to wrap dense data visualizations (like the `OversightRadar`) in a blurred preview state on mobile, preventing accidental touches and layout breakage.
+- **Layout Shift Elimination**: Standardized `<DataCardSkeleton />` to match the exact dimensions of the new mobile cards, ensuring zero Cumulative Layout Shift (CLS) during data fetching.
+- **Stats Page Refactor**: Successfully transitioned the National Performance Leaderboard (`src/app/stats/page.tsx`) to the new architecture, removing 60+ lines of duplicated responsive logic.
+
+### 25. Evidence Packaging Engine [COMPLETED]
+
+- **Justice Weaponization**: Built the backend orchestration to aggregate high-risk dossiers and incidents into "Justice Packages" for international bodies (ICC/UN).
+- **Cryptographic Integrity**: Implemented pseudo-signing with SHA-256 and salt-based hashes for evidence authenticity verification.
+- **Justice Portal**: Created a high-fidelity template in `/justice/[id]` for viewing and exporting formal investigative dossiers.
+- **Vault Integration**: Integrated packaging actions directly into the Zero-Knowledge Vault and network intelligence hubs.
+
+### 26. AI Link Inference Upgrades [COMPLETED]
+
+- **Inferential Intelligence**: Transitioned from descriptive to predictive intelligence by implementing a hybrid inference engine combining relationship graph analysis and pgvector semantic similarity.
+- **Semantic Graph Core**: Deployed the `getInferredLinks` server action that cross-references known PEP hubs with semantically correlated documents in the `ai_knowledge_base`.
+- **UI Operationalization**: Integrated live "Predictive Linkage" into the `Predictive Intel Engine`, replacing mock data with real-time confidence-scored connection predictions.
+
 # 🔮 Next Operational Cycle
 
-1. **UI/UX Data Integration**: Develop interactive visual dashboards (True Crime vs Recorded Stats, Assassination Board, Leadership Accountability Board) based on Sprint 5 intelligence ingestion.
-2. **WPU Vacancy Tracker**: Implement a dashboard module tracking funding deficits and leadership vacancies in the Witness Protection Unit.
-3. **Evidence Packaging Engine**: Build the backend to aggregate dossiers into signed PDF packages for international justice bodies (ICC/UN).
+1. **Deep Research Portal**: Integrate the `za_intelligence/deep-research-web-browser` Apify actor for on-demand investigative research in the UI.
+2. **Refine AI Corruption Forecasting**: Enhance the probability engine with time-series analysis of link density spikes and SCM behavioral fingerprints.
+3. **Mobile Native Optimization**: Finalize PWA capabilities for "Field Intel" reporting.
 
 # 🧠 Agent Intelligence Overlays
 

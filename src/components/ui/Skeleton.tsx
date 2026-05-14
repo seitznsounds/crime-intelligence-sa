@@ -96,8 +96,6 @@ export function AuditSkeleton() {
 }
 
 export function IncidentSkeleton() {
-...
-
   return (
     <div className="flex items-center gap-6 px-4">
       <Skeleton className="h-3 w-16" />

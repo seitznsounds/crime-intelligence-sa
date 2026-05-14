@@ -1,0 +1,46 @@
+# Crime Intelligence SA: Development Roadmap
+
+This roadmap tracks the immediate and upcoming operational tasks required to finalize Sprint 5 and advance the platform's intelligence capabilities. Tasks are designed to be implemented sequentially.
+
+## Phase 1: Mobile UI/UX Rollout & Consolidation (Immediate)
+
+_Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all remaining data-heavy pages._
+
+- [x] **Accountability Board (`/accountability`)**: Refactor the Perpetrator grids and TRC Vault components to use responsive cards and loading skeletons.
+- [x] **Expose Board (`/expose`)**: Integrate `<FullScreenDataModal>` for high-risk PEP dossiers and complex relationship maps.
+- [x] **Restitution Board (`/restitution`)**: Update the historical map and list of displaced zones to be touch-friendly and use expandable charts.
+- [x] **Geospatial Map (`/map`)**: Wrap the D3/SVG map in `<MobileExpandableChart>` and convert the absolute hotspot panel to a mobile dialog.
+
+## Phase 2: Sprint 5 Dashboard Integration
+
+**Objective**: Surface the freshly ingested forensic data (PPLAAF, NACAC, UNODC) into high-fidelity, interactive dashboards using our new responsive components.
+
+- [x] **Assassination Board (External Retribution Tracker)**: Visualize the "Protection-Implementation Paradox" and the 98% physical impunity rate identified in the PPLAAF audit.
+- [x] **Leadership Accountability Board**: Develop an interface for the 40+ Tier-1 PEPs and acting officials mapped during the National Government Leadership Audit.
+- [x] **True Crime vs. Recorded Stats**: Built a dedicated interactive visualization module demonstrating the "4.9x Reporting Void" gap in official SAPS data (Integrated into `/stats`).
+
+## Phase 3: New Operational Modules (Completed)
+
+**Objective**: Build the next generation of platform tools to drive real-world accountability.
+
+- [x] **WPU Vacancy Tracker**: Implemented a dashboard module tracking funding deficits and leadership vacancies in the Witness Protection Unit.
+- [x] **Evidence Packaging Engine**: Built a backend service capable of aggregating platform dossiers into signed packages for international justice bodies (ICC/UN).
+- [x] **Live Data Migration (Phase 3)**: Successfully transitioned 9+ investigative hubs to authoritative Supabase data, removing all major mock arrays.
+
+## Phase 4: AI Link Inference & Deep Research (Active)
+
+**Objective**: Transition from descriptive to inferential intelligence by predicting unknown corruption links.
+
+- [x] **AI Link Inference Upgrades**: Implemented predictive linkage inference for "High Probability" corruption hubs using pgvector similarity and relationship graph analysis (Integrated into `PredictiveReformModel`).
+- [x] **Deep Research Portal**: Integrated the `za_intelligence/deep-research-web-browser` Apify actor for on-demand investigative research within the UI.
+- [x] **Forecasting Refinement**: Enhanced the probability engine with time-series analysis of link density spikes and SCM (Supply Chain Management) behavioral fingerprints.
+- [x] **Sophisticated About Page**: Implemented a "Command Center" about page featuring the platform's Manifesto, technical Architecture Engine, and live system Telemetry.
+
+## Phase 5: Deployment, PWA & Field Readiness (Antigravity Focus)
+
+**Objective**: Finalize the platform for high-stakes investigative field use and ensure cross-platform operationality.
+
+- [ ] **PWA & Offline Optimization**: Implement service workers and local caching for investigation rosters in low-connectivity zones.
+- [ ] **Biometric Access Tier**: Integrate WebAuthn (Biometrics) for accessing high-risk evidence packages.
+- [ ] **Live News Ingestion Pipeline**: Implement a real-time scraper for SA news (News24, Daily Maverick, amaBhungane) to auto-adjust organization risk scores based on breaking reports.
+- [ ] **Advanced Witness Protection Interface**: Expand the WPU module with secure communication logs and incident escalation workflows.

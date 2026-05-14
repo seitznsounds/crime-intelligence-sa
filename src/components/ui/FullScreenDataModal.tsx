@@ -11,15 +11,19 @@ const FullScreenDataModal = ({
   description,
   children,
   defaultOpen = false,
+  open,
+  onOpenChange,
 }: {
   trigger?: React.ReactNode;
   title: string;
   description?: string;
   children: React.ReactNode;
   defaultOpen?: boolean;
+  open?: boolean;
+  onOpenChange?: (open: boolean) => void;
 }) => {
   return (
-    <DialogPrimitive.Root defaultOpen={defaultOpen}>
+    <DialogPrimitive.Root defaultOpen={defaultOpen} open={open} onOpenChange={onOpenChange}>
       {trigger && (
         <DialogPrimitive.Trigger asChild>
           {trigger}

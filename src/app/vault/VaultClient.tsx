@@ -2,14 +2,20 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { ShieldCheck, Lock, Key, Fingerprint, Activity, ShieldAlert, Terminal as TerminalIcon, ChevronRight, Database, Hash, RefreshCw } from "lucide-react";
+import Link from "next/link";
+import { ShieldCheck, Lock, Key, Fingerprint, Activity, ShieldAlert, Terminal as TerminalIcon, ChevronRight, Database, Hash, RefreshCw, Briefcase, FileSignature, Globe } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import { packageEvidence } from "@/lib/evidence-actions";
 
 interface SealedPackage {
   id: string;
-  hash: string;
-  status: string;
+  title: string;
+  recipient: string;
+  classification: string;
   timestamp: string;
+  signature: string;
+  itemCount: number;
+  status: string;
 }
 
 export default function VaultPage({ initialPackages }: { initialPackages: SealedPackage[] }) {
@@ -17,8 +23,31 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
   const [logs, setLogs] = useState<string[]>(["[SYSTEM] Initializing ZKP Protocol..."]);
   const [isVerifying, setIsVerifying] = useState(false);
   const [packages, setPackages] = useState<SealedPackage[]>(initialPackages);
+  const [isPackaging, setIsPackaging] = useState(false);
 
   const addLog = (msg: string) => setLogs(prev => [...prev.slice(-8), `[${new Date().toLocaleTimeString()}] ${msg}`]);
+
+  const handleCreatePackage = async () => {
+    setIsPackaging(true);
+    addLog("Aggregating high-risk dossiers...");
+    try {
+      const result = await packageEvidence({
+        title: "State Capture 2.0 // Senior Officials",
+        recipient: "ICC - International Criminal Court",
+        classification: "TOP_SECRET",
+        itemIds: [
+          { type: "person", id: "17648316-3943-4468-9c25-c84bcd17d32a" },
+          { type: "person", id: "9a7030fa-be59-4da5-83c3-9b9605ec362a" },
+        ]
+      });
+      addLog(`Package ${result.id.substring(0, 8)} Sealed & Signed.`);
+      window.location.reload(); 
+    } catch (e) {
+      addLog("Packaging FAILED: Integrity Check Error.");
+    } finally {
+      setIsPackaging(false);
+    }
+  };
 
   const startVerification = () => {
     setIsVerifying(true);
@@ -90,20 +119,35 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
             <h3 className="text-[12px] font-bold uppercase tracking-[0.3em] text-muted-foreground mb-6 flex items-center gap-3"><Database className="w-4 h-4" /> Sealed Evidence</h3>
             <div className="space-y-4">
               {packages.map((pkg) => (
-                <div key={pkg.id} className="p-4 bg-bg-glass-heavy border border-border-glass rounded-xl hover:bg-bg-glass-heavy hover:border-border-glass-bright transition-all cursor-pointer group">
-                  <div className="flex justify-between items-start mb-3">
-                    <span className="text-[12px] font-bold text-foreground">{pkg.id}</span>
-                    <span className={`text-[11px] font-bold px-2 py-0.5 rounded border ${pkg.status === 'VERIFIED' ? 'bg-accent-blue/10 border-accent-blue/20 text-accent-blue' : 'bg-accent-gold/10 border-accent-gold/20 text-accent-gold'}`}>{pkg.status}</span>
-                  </div>
-                  <p className="text-[11px] font-mono text-muted-foreground mb-3 break-all">{pkg.hash}</p>
-                  <div className="flex justify-between items-center text-[11px] font-bold text-muted-foreground uppercase tracking-widest">
-                    <span>{pkg.timestamp}</span>
-                    <ChevronRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
+                <Link key={pkg.id} href={`/justice/${pkg.id}`}>
+                    <div className="p-4 bg-bg-glass-heavy border border-border-glass rounded-xl hover:bg-bg-glass-heavy hover:border-border-glass-bright transition-all cursor-pointer group mb-4">
+                        <div className="flex justify-between items-start mb-3">
+                            <div className="flex flex-col">
+                                <span className="text-[12px] font-bold text-foreground line-clamp-1">{pkg.title}</span>
+                                <span className="text-[10px] text-muted-foreground uppercase font-mono">{pkg.recipient}</span>
+                            </div>
+                            <span className={`text-[9px] font-black px-1.5 py-0.5 rounded border ${pkg.status === 'SEALED' ? 'bg-accent-blue/10 border-accent-blue/20 text-accent-blue' : 'bg-accent-gold/10 border-accent-gold/20 text-accent-gold'}`}>{pkg.status}</span>
+                        </div>
+                        <p className="text-[10px] font-mono text-muted-foreground/40 mb-3 break-all line-clamp-1">{pkg.signature}</p>
+                        <div className="flex justify-between items-center text-[10px] font-bold text-muted-foreground uppercase tracking-widest">
+                            <span>{new Date(pkg.timestamp).toLocaleDateString()}</span>
+                            <div className="flex items-center gap-1.5">
+                                <span className="text-accent-blue">{pkg.itemCount} ITEMS</span>
+                                <ChevronRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
+                            </div>
+                        </div>
+                    </div>
+                </Link>
               ))}
             </div>
-            <button className="w-full mt-6 py-3 border border-border-glass text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-all">Access Personal Vault</button>
+            <button 
+                onClick={handleCreatePackage}
+                disabled={isPackaging}
+                className="w-full mt-6 py-4 bg-accent-blue/10 border border-accent-blue/30 text-accent-blue text-[11px] font-bold uppercase tracking-widest hover:bg-accent-blue hover:text-white transition-all flex items-center justify-center gap-3 rounded-2xl"
+            >
+                <FileSignature className={`w-4 h-4 ${isPackaging ? 'animate-pulse' : ''}`} />
+                {isPackaging ? 'AGGREGATING_INTEL...' : 'Package for Justice'}
+            </button>
           </div>
           <div className="glass-card p-6 border-accent-blue/20 bg-accent-blue/[0.02]">
             <div className="flex items-center gap-3 mb-4"><ShieldCheck className="w-4 h-4 text-accent-blue" /><span className="text-[12px] font-bold uppercase tracking-widest text-accent-blue">ZKP Integrity</span></div>

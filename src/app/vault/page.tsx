@@ -1,10 +1,10 @@
 import VaultClient from "./VaultClient";
-import { getSealedPackages } from "./actions";
+import { getEvidencePackages } from "@/lib/evidence-actions";
 
 export const dynamic = "force-dynamic";
 
 export default async function VaultPage() {
-  const initialPackages = await getSealedPackages();
+  const initialPackages = await getEvidencePackages();
 
   return <VaultClient initialPackages={initialPackages} />;
 }
