@@ -24,6 +24,7 @@ export default function NetworkMapPage({
   const [searchQuery, setSearchQuery] = useState("");
   const [filterType, setFilterType] = useState<string>("all");
   const [minRisk, setMinRisk] = useState<number>(0);
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
 
   const fetchData = async () => {
     setLoading(true);
@@ -117,8 +118,16 @@ export default function NetworkMapPage({
       }
     >
       <div className="flex flex-col lg:flex-row gap-6 h-full min-h-[750px]">
+        {/* Mobile Filter Toggle */}
+        <button 
+          onClick={() => setShowMobileFilters(!showMobileFilters)}
+          className="lg:hidden w-full py-3 bg-bg-glass border border-border-glass rounded-xl text-[11px] font-black uppercase tracking-widest text-foreground flex items-center justify-center gap-2"
+        >
+          <Filter className="w-4 h-4" /> {showMobileFilters ? "Hide Filters" : "Show Intelligence Filters"}
+        </button>
+
         {/* Filter Sidebar */}
-        <div className="w-full lg:w-72 space-y-6">
+        <div className={`w-full lg:w-72 space-y-6 ${showMobileFilters ? 'block' : 'hidden lg:block'}`}>
           <div className="glass-card p-6 border-border-glass bg-bg-glass space-y-6">
             <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-blue flex items-center gap-2">
               <Filter className="w-3.5 h-3.5" /> Intelligence Filters
@@ -205,17 +214,22 @@ export default function NetworkMapPage({
           ) : (
             <D3NetworkMap 
               nodes={filteredNodes} 
-              edges={filteredEdges} 
+              edges={filteredEdges.map(e => ({
+                  ...e,
+                  source: typeof e.source === 'string' ? e.source : e.source.id,
+                  target: typeof e.target === 'string' ? e.target : e.target.id
+              }))} 
               onNodeClick={setSelectedNode} 
-            />          )}
+            />
+          )}
 
-          {/* Legend Overlay - Bottom Left (Now inside Map Area) */}
-          <div className="absolute bottom-6 left-6 glass-card p-4 border-border-glass bg-background/40 backdrop-blur-md hidden md:block z-20">
-            <h4 className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-3">Entity Classification</h4>
-            <div className="flex flex-col gap-2.5">
-              <div className="flex items-center gap-2.5"><div className="w-2.5 h-2.5 rounded-full bg-accent-crimson shadow-glow-crimson" /><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Criminal Syndicate</span></div>
-              <div className="flex items-center gap-2.5"><div className="w-2.5 h-2.5 rounded-full bg-accent-gold shadow-glow-gold" /><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Political Person</span></div>
-              <div className="flex items-center gap-2.5"><div className="w-2.5 h-2.5 rounded-full bg-accent-blue shadow-glow-blue" /><span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">State Agency / Org</span></div>
+          {/* Legend Overlay - Bottom Left (Now inside Map Area, visible on all screens) */}
+          <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 glass-card p-3 sm:p-4 border-border-glass bg-background/60 backdrop-blur-md z-20 shadow-lg scale-90 sm:scale-100 origin-bottom-left pointer-events-none">
+            <h4 className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-2 sm:mb-3">Entity Classification</h4>
+            <div className="flex flex-col gap-2">
+              <div className="flex items-center gap-2"><div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-accent-crimson shadow-glow-crimson" /><span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Criminal Syndicate</span></div>
+              <div className="flex items-center gap-2"><div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-accent-gold shadow-glow-gold" /><span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Political Person</span></div>
+              <div className="flex items-center gap-2"><div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-accent-blue shadow-glow-blue" /><span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-muted-foreground">State Agency / Org</span></div>
             </div>
           </div>
 
@@ -226,7 +240,7 @@ export default function NetworkMapPage({
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 20 }}
-                className="absolute top-6 bottom-6 right-6 w-full max-w-[340px] glass-card border-border-glass bg-background/90 backdrop-blur-2xl p-8 z-50 shadow-glow-crimson flex flex-col overflow-y-auto"
+                className="absolute top-6 bottom-6 right-6 w-[calc(100%-3rem)] sm:w-full max-w-[340px] glass-card border-border-glass bg-background/90 backdrop-blur-2xl p-6 sm:p-8 z-50 shadow-glow-crimson flex flex-col overflow-y-auto"
               >
                 <button 
                   onClick={() => setSelectedNode(null)}
@@ -271,9 +285,9 @@ export default function NetworkMapPage({
                           <div key={i} className="flex justify-between items-center py-2.5 border-b border-border-glass/50">
                             <div className="flex items-center gap-3">
                               <Fingerprint className="w-3.5 h-3.5 text-accent-gold" />
-                              <span className="text-[11px] font-bold uppercase tracking-tight text-foreground">{linkedTo.name}</span>
+                              <span className="text-[11px] font-bold uppercase tracking-tight text-foreground break-all">{linkedTo.name}</span>
                             </div>
-                            <span className="text-[10px] font-mono text-muted-foreground italic uppercase">{edge.label}</span>
+                            <span className="text-[10px] font-mono text-muted-foreground italic uppercase shrink-0 text-right">{edge.label}</span>
                           </div>
                         );
                       })}

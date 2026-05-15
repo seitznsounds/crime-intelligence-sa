@@ -33,10 +33,10 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
   const simulationRef = useRef<d3.Simulation<Node, Edge>>(null);
 
   useEffect(() => {
-    if (!svgRef.current || !containerRef.current) return;
+    if (!svgRef.current || !containerRef.current || nodes.length === 0) return;
 
-    const width = containerRef.current.clientWidth;
-    const height = containerRef.current.clientHeight;
+    let width = containerRef.current.clientWidth;
+    let height = containerRef.current.clientHeight;
 
     const svg = d3.select(svgRef.current);
     let g = svg.select<SVGGElement>("g.main-container");
@@ -73,10 +73,10 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
     // Update simulation
     if (!simulationRef.current) {
         simulationRef.current = d3.forceSimulation<Node>(nodes)
-            .force("link", d3.forceLink<Node, Edge>(edges).id(d => d.id).distance(220).strength(0.5))
-            .force("charge", d3.forceManyBody().strength(-1000))
+            .force("link", d3.forceLink<Node, Edge>(edges).id(d => d.id).distance(280).strength(0.4))
+            .force("charge", d3.forceManyBody().strength(-1500))
             .force("center", d3.forceCenter(width / 2, height / 2))
-            .force("collision", d3.forceCollide().radius(70));
+            .force("collision", d3.forceCollide().radius(75));
     } else {
         simulationRef.current.nodes(nodes);
         (simulationRef.current.force("link") as d3.ForceLink<Node, Edge>).links(edges);
@@ -84,6 +84,15 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
     }
 
     const simulation = simulationRef.current;
+
+    // Resize Observer to keep map centered
+    const resizeObserver = new ResizeObserver((entries) => {
+      if (!entries || !entries[0]) return;
+      const { width: newWidth, height: newHeight } = entries[0].contentRect;
+      simulation.force("center", d3.forceCenter(newWidth / 2, newHeight / 2));
+      simulation.alpha(0.3).restart();
+    });
+    resizeObserver.observe(containerRef.current);
 
     // 4. Render Edges (Links)
     let linkGroup = g.select<SVGGElement>("g.links");
@@ -102,7 +111,7 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
 
     const mergedLinks = linkEnter.merge(link);
 
-    // 5. Link Labels (Optional: could be noisy, but adding back with better styling)
+    // 5. Link Labels
     let labelGroup = g.select<SVGGElement>("g.link-labels");
     if (labelGroup.empty()) labelGroup = g.append("g").attr("class", "link-labels");
 
@@ -111,9 +120,14 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
 
     linkLabel.exit().remove();
     const linkLabelEnter = linkLabel.enter().append("text")
-        .attr("class", "text-[7px] font-black uppercase fill-foreground/30 pointer-events-none")
+        .attr("class", "text-[9px] font-black uppercase fill-foreground/60 pointer-events-none")
         .attr("text-anchor", "middle")
         .attr("dy", -5)
+        .style("paint-order", "stroke")
+        .style("stroke", "var(--background)")
+        .style("stroke-width", "3px")
+        .style("stroke-linecap", "round")
+        .style("stroke-linejoin", "round")
         .text(d => d.label);
 
     const mergedLinkLabels = linkLabelEnter.merge(linkLabel);
@@ -139,6 +153,13 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
         .on("end", dragended) as any);
 
     nodeEnter.append("circle")
+      .attr("r", 42)
+      .attr("fill", "transparent")
+      .attr("stroke", "var(--border-glass)")
+      .attr("stroke-width", 0.5)
+      .attr("class", "hover:stroke-border-glass-bright transition-all");
+
+    nodeEnter.append("circle")
       .attr("r", 32)
       .attr("fill", "var(--background)")
       .attr("stroke", d => d.color)
@@ -155,6 +176,11 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
       .attr("dy", "48")
       .attr("text-anchor", "middle")
       .attr("class", "fill-foreground text-[9px] font-black uppercase tracking-tighter")
+      .style("paint-order", "stroke")
+      .style("stroke", "var(--background)")
+      .style("stroke-width", "4px")
+      .style("stroke-linecap", "round")
+      .style("stroke-linejoin", "round")
       .text(d => d.name.length > 15 ? d.name.substring(0, 12) + "..." : d.name);
 
     const mergedNodes = nodeEnter.merge(node);
@@ -191,10 +217,14 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
       d.fy = null;
     }
 
+    return () => {
+      resizeObserver.disconnect();
+      simulation.stop();
+    };
   }, [nodes, edges]);
 
   return (
-    <div ref={containerRef} className="w-full h-full relative cursor-grab active:cursor-grabbing bg-background/20">
+    <div ref={containerRef} className="w-full h-full min-h-[600px] relative cursor-grab active:cursor-grabbing bg-background/20">
       <svg ref={svgRef} className="w-full h-full" />
     </div>
   );
