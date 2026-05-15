@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
-import { FullScreenDataModal } from "@/components/ui/FullScreenDataModal";
+import { IntelligenceDrawer } from "@/components/intel/IntelligenceDrawer";
 
 interface ExposureCardProps {
   person: {
@@ -16,6 +16,8 @@ interface ExposureCardProps {
 }
 
 export const ExposureCard = ({ person }: ExposureCardProps) => {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
   // Flexible source extraction
   const source = person.metadata?.original_source || 
                  person.metadata?.metadata?.source || 
@@ -81,64 +83,30 @@ export const ExposureCard = ({ person }: ExposureCardProps) => {
         </div>
         
         <div className="flex gap-2">
-          <Link 
-            href={`/expose/${person.id}`}
+          <button 
+            onClick={() => setDrawerOpen(true)}
             className="flex-1 py-2 bg-bg-glass hover:bg-accent-crimson text-muted-foreground hover:text-white text-[10px] font-bold uppercase tracking-widest rounded-lg border border-border-glass hover:border-accent-crimson transition-all text-center"
           >
-            Full Dossier
-          </Link>
-          <FullScreenDataModal
-            title={person.full_name}
-            description={`Risk Score: ${person.risk_score || '??'}% | Tier: ${person.pep_tier || 'N/A'}`}
-            trigger={
-              <button className="px-3 py-2 bg-bg-glass hover:bg-bg-glass-heavy text-muted-foreground hover:text-foreground rounded-lg border border-border-glass transition-all flex items-center justify-center">
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
-              </button>
-            }
+            Quick Intelligence
+          </button>
+          
+          <Link 
+            href={`/expose/${person.id}`}
+            className="px-3 py-2 bg-bg-glass hover:bg-bg-glass-heavy text-muted-foreground hover:text-foreground rounded-lg border border-border-glass transition-all flex items-center justify-center"
           >
-            <div className="space-y-6">
-              <div className="flex items-center gap-4 p-5 bg-bg-glass border border-border-glass rounded-xl">
-                {person.profile_image_url ? (
-                  <img src={person.profile_image_url} alt={person.full_name} className="w-16 h-16 rounded-lg object-cover" />
-                ) : (
-                  <div className="w-16 h-16 rounded-lg bg-bg-glass-heavy flex items-center justify-center text-xl font-bold text-muted-foreground">{person.full_name.charAt(0)}</div>
-                )}
-                <div>
-                  <h4 className="text-xl font-bold text-foreground">{person.full_name}</h4>
-                  <p className="text-[11px] uppercase tracking-widest text-muted-foreground">{person.role || 'Unspecified Role'}</p>
-                </div>
-              </div>
-              
-              <div className="grid grid-cols-2 gap-4">
-                <div className="p-4 bg-bg-glass border border-border-glass rounded-xl">
-                  <span className="text-[10px] uppercase tracking-widest text-muted-foreground block mb-1">Status</span>
-                  <span className={`text-[13px] font-black uppercase ${['Suspended', 'Arrested', 'Under Investigation', 'Implicated'].includes(status || '') ? 'text-accent-crimson' : 'text-accent-blue'}`}>
-                    {status || "Active"}
-                  </span>
-                </div>
-                <div className="p-4 bg-bg-glass border border-border-glass rounded-xl">
-                  <span className="text-[10px] uppercase tracking-widest text-muted-foreground block mb-1">Source</span>
-                  <span className="text-[13px] font-black uppercase text-foreground">{source || "SAPS Admin"}</span>
-                </div>
-              </div>
-
-              <div className="p-5 bg-accent-crimson/5 border border-accent-crimson/20 rounded-xl">
-                <h5 className="text-[10px] font-black uppercase tracking-widest text-accent-crimson mb-2">Metadata Extract</h5>
-                <pre className="text-[10px] font-mono text-muted-foreground whitespace-pre-wrap">
-                  {person.metadata ? JSON.stringify(person.metadata, null, 2).slice(0, 300) + '...' : 'No additional forensic metadata available.'}
-                </pre>
-              </div>
-
-              <Link 
-                href={`/expose/${person.id}`}
-                className="w-full block py-4 bg-foreground hover:bg-accent-crimson text-background hover:text-white text-[11px] font-bold uppercase tracking-widest rounded-xl transition-all text-center shadow-glow-crimson"
-              >
-                Open Full Forensic Dossier
-              </Link>
-            </div>
-          </FullScreenDataModal>
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+          </Link>
         </div>
       </div>
+
+      <IntelligenceDrawer 
+        isOpen={drawerOpen} 
+        onClose={() => setDrawerOpen(false)} 
+        entityId={person.id}
+        entityType={person.pep_tier ? 'PEP' : 'Person of Interest'}
+        entityName={person.full_name}
+        baseRisk={person.risk_score || 50}
+      />
     </div>
   );
 };

@@ -1,0 +1,11 @@
+{
+  "eval_id": 3,
+  "eval_name": "external-client-script",
+  "expectations": [
+    {"text": "Imports ApifyClient", "passed": true, "evidence": "Imports ApifyClient"},
+    {"text": "Uses process.env.APIFY_TOKEN", "passed": true, "evidence": "Uses process.env.APIFY_TOKEN"},
+    {"text": "Calls client.actor().start()", "passed": true, "evidence": "Calls client.actor().start()"},
+    {"text": "Logs the run ID", "passed": true, "evidence": "Logs run.id"},
+    {"text": "Logs first dataset item", "passed": true, "evidence": "Logs dataset item"}
+  ]
+}

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Users, ShieldAlert, Activity, Scale, Lock, Zap } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import { IntelligenceDrawer } from "@/components/intel/IntelligenceDrawer";
 
 interface Node {
   id: string;
@@ -126,46 +127,16 @@ export default function SyndicatePage({ initialSyndicates }: { initialSyndicates
           </div>
         </div>
 
-        {/* Node Dossier Sidebar */}
-        <div className={`w-full lg:w-[320px] shrink-0 transition-all duration-300 ${selectedNode ? 'opacity-100' : 'opacity-40 pointer-events-none'}`}>
-          {selectedNode ? (
-            <>
-              <div className="glass-card p-6 border-border-glass bg-bg-glass h-full flex flex-col relative overflow-hidden">
-                <button onClick={() => setSelectedNode(null)} className="absolute top-6 right-6 text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors z-10">× Close</button>
-                <div className="flex-1 space-y-6 pt-4">
-                  <div>
-                    <div className="inline-flex items-center gap-2 px-2 py-0.5 bg-bg-glass border border-border-glass rounded text-[11px] font-mono tracking-widest uppercase text-muted-foreground mb-3">Node_Type_{selectedNode.type}</div>
-                    <h2 className="text-2xl font-bold tracking-tighter uppercase mb-1 text-foreground leading-tight">{selectedNode.name}</h2>
-                    <p className="text-[12px] font-mono text-accent-gold font-bold tracking-[0.3em] uppercase">{selectedNode.role}</p>
-                  </div>
-                  <div className="p-4 bg-background/50 border border-border-glass rounded-2xl">
-                    <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-3 flex items-center gap-2"><Activity className="w-3.5 h-3.5" /> Intelligence Summary</p>
-                    <p className="text-[12px] text-muted-foreground leading-relaxed font-light italic">"{selectedNode.desc || 'No detailed description available for this command level.'}"</p>
-                  </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div className="glass-card p-4 border-border-glass bg-background/50"><p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-2">Direct Links</p><p className="text-xl font-bold font-mono text-foreground">{selectedNode.children?.length ?? 0}</p></div>
-                    <div className="glass-card p-4 border-border-glass bg-background/50"><p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-2">Risk Score</p><p className="text-xl font-bold font-mono text-accent-crimson">{selectedNode.risk}%</p></div>
-                  </div>
-                  <div>
-                    <p className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest mb-3">Infiltration Tactics</p>
-                    <div className="flex gap-3">
-                      <div className="p-2.5 bg-background/50 rounded-xl border border-border-glass"><Scale className="w-4 h-4 text-accent-blue" /></div>
-                      <div className="p-2.5 bg-background/50 rounded-xl border border-border-glass"><Lock className="w-4 h-4 text-accent-gold" /></div>
-                      <div className="p-2.5 bg-background/50 rounded-xl border border-border-glass"><Zap className="w-4 h-4 text-accent-crimson" /></div>
-                    </div>
-                  </div>
-                </div>
-                <button className="mt-8 w-full py-4 bg-accent-crimson text-white text-[11px] font-bold uppercase tracking-[0.2em] rounded-2xl hover:scale-[1.02] transition-all shadow-glow-crimson">Generate Vulnerability Report</button>
-              </div>
-            </>
-          ) : (
-            <div className="glass-card p-6 border-border-glass bg-bg-glass h-full flex flex-col items-center justify-center text-center hidden lg:flex">
-              <Users className="w-8 h-8 text-muted-foreground/30 mb-4" />
-              <p className="text-[11px] text-muted-foreground font-bold uppercase tracking-widest">Select a node to view dossier</p>
-            </div>
-          )}
-        </div>
+        <IntelligenceDrawer 
+          isOpen={!!selectedNode} 
+          onClose={() => setSelectedNode(null)} 
+          entityId={selectedNode?.id || null}
+          entityType={selectedNode?.type || 'Unknown'}
+          entityName={selectedNode?.name || 'Unknown Entity'}
+          baseRisk={selectedNode?.risk || 0}
+        />
       </div>
     </PageShell>
   );
 }
+

@@ -1,0 +1,31 @@
+{
+  "focus": "Political Links to Big Five Cartel",
+  "politicians": [
+    {
+      "name": "Senzo Mchunu",
+      "role": "Former Minister of Police (Suspended 2025)",
+      "allegations": [
+        "Disbanded the KZN Political Killings Task Team (PKTT) on Dec 31, 2024, allegedly to protect cartel interests.",
+        "Met with Vusimuzi 'Cat' Matlala and Brown Mogotsi to discuss funding for political ambitions (alleged by Bheki Cele).",
+        "Interfered with anti-cartel investigations (alleged by Nhlanhla Mkhwanazi)."
+      ],
+      "status": "Suspended as of 2025; claims actions were intended to stop corruption."
+    },
+    {
+      "name": "Bheki Cele",
+      "role": "Former Minister of Police",
+      "allegations": [
+        "Accepted R500,000 in bribes for protection from Vusimuzi 'Cat' Matlala (alleged by Matlala).",
+        "Testified against Mchunu regarding meetings with the cartel, though some financial allegations were later cited as a 'data analysis error'."
+      ],
+      "status": "Testified before Madlanga Commission and Ad Hoc Committee."
+    }
+  ],
+  "middlemen": [
+    {
+      "name": "Brown Mogotsi",
+      "description": "North West businessman; alleged middleman between Matlala and Senzo Mchunu for political funding."
+    }
+  ],
+  "syndicate": "Big Five Cartel (Gauteng-based; involved in drug trafficking, contract killings, and tender fraud)."
+}

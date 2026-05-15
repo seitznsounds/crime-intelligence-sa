@@ -7,14 +7,16 @@ const client = new ApifyClient({
   token: process.env.APIFY_TOKEN,
 });
 
-async function listMyActors() {
+async function listActors() {
   try {
-    console.log("Listing actors for this account...");
     const actors = await client.actors().list();
-    console.log("Found actors:", actors.items.map(a => a.name));
+    console.log("Available Actors:");
+    actors.items.forEach(a => {
+      console.log(`- ${a.username}/${a.name} (ID: ${a.id})`);
+    });
   } catch (error: any) {
     console.error("Failed to list actors:", error.message);
   }
 }
 
-listMyActors();
+listActors();

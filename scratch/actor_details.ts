@@ -9,8 +9,8 @@ const client = new ApifyClient({
 
 async function getActorDetails() {
   try {
-    console.log("Fetching details for za_intelligence/rag-web-browser...");
-    const actor = await client.actor("za_intelligence/rag-web-browser").get();
+    console.log("Fetching details for za_intelligence/news-scraper...");
+    const actor = await client.actor("za_intelligence/news-scraper").get();
     console.log("Actor ID:", actor?.id);
     console.log("Actor Name:", actor?.name);
     console.log("Actor Details:", JSON.stringify(actor, null, 2));

@@ -1,0 +1,20 @@
+{
+  "entity": "Brown Mogotsi",
+  "role": "Businessman and alleged Political Middleman",
+  "links": [
+    {
+      "target": "Senzo Mchunu",
+      "description": "Alleged to have facilitated political funding from Vusimuzi 'Cat' Matlala to Mchunu."
+    },
+    {
+      "target": "Vusimuzi 'Cat' Matlala",
+      "description": "Close associate; identified Matlala as 'John Wick' in Crime Intelligence circles."
+    }
+  ],
+  "testimony_details": {
+    "date": "February 24, 2026",
+    "forum": "Parliamentary Ad Hoc Committee on Police Infiltration",
+    "summary": "Denied being a middleman for Mchunu; alleged that KZN Commissioner Nhlanhla Mkhwanazi had also met with Matlala."
+  },
+  "controversy": "Implicated in the funding of ANC events using money allegedly sourced from cartel-linked tenders."
+}

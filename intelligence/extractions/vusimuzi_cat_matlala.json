@@ -1,0 +1,40 @@
+{
+  "entity": "Vusimuzi 'Cat' Matlala",
+  "aliases": ["Cat", "John Wick"],
+  "companies": [
+    {
+      "name": "Cat VIP Protection Services",
+      "notable_activities": "Unlawful agreement with EMPD involving private vehicles fitted with blue lights; used private helicopter for police operations."
+    },
+    {
+      "name": "Medicare 24 Tshwane District",
+      "notable_activities": "Awarded R360 million irregular health and wellness contract (2024); contract cancelled in 2025 due to fraud and fronting."
+    }
+  ],
+  "criminal_charges": [
+    "Attempted Murder: Hit on actress Tebogo Thobejane in 2023.",
+    "Corruption: Bribing senior police officials to secure state contracts.",
+    "Money Laundering: Linked to Medicare 24 and other tenders.",
+    "Fraud: Irregularities in the Medicare 24 contract."
+  ],
+  "detention_status": {
+    "current_facility": "eBongweni C-Max (Super-maximum security), Kokstad",
+    "transfer_date": "December 2025",
+    "reason": "High-profile status and alleged influence over law enforcement officials."
+  },
+  "notable_links": [
+    {
+      "entity": "Fannie Masemola",
+      "description": "National Police Commissioner charged in April 2026 for PFMA contraventions related to Matlala's Medicare 24 contract."
+    },
+    {
+      "entity": "Bheki Cele",
+      "description": "Matlala alleged he paid R500,000 in cash to Cele for protection."
+    },
+    {
+      "entity": "Brown Mogotsi",
+      "description": "Alleged associate and middleman for political funding."
+    }
+  ],
+  "current_legal_status": "Awaiting trial; next court appearance scheduled for June 26, 2026."
+}

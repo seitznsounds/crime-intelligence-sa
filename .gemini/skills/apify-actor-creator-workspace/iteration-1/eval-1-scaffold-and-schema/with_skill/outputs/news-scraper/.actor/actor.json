@@ -1,0 +1,8 @@
+{
+    "actorSpecification": 1,
+    "name": "news-scraper",
+    "title": "News Scraper",
+    "description": "Scrapes main headline and publication date from news URLs.",
+    "version": "0.0.1",
+    "dockerfile": "./Dockerfile"
+}

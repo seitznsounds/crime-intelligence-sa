@@ -1,0 +1,870 @@
+{
+  "nodes": [
+    {
+      "id": "big-five-cartel",
+      "type": "Organization",
+      "name": "Big Five Cartel",
+      "metadata": {
+        "description": "An alleged criminal syndicate based in Gauteng, South Africa, involved in drug trafficking, tender fraud, and contract killings."
+      }
+    },
+    {
+      "id": "cat-matlala",
+      "type": "Person",
+      "name": "Vusimuzi 'Cat' Matlala",
+      "metadata": {
+        "description": "Pretoria-based tenderpreneur and alleged leader of the Big Five cartel; owner of Cat VIP Protection Services. Known as 'John Wick'.",
+        "aliases": ["Cat", "John Wick"],
+        "detention_status": "Detained at eBongweni C-Max, Kokstad (since Dec 2025)",
+        "legal_status": "Awaiting trial (June 2026)"
+      }
+    },
+    {
+      "id": "katiso-molefe",
+      "type": "Person",
+      "name": "Katiso 'KT' Molefe",
+      "metadata": {
+        "description": "Businessman and suspected underworld kingpin; accused of masterminding the murder of DJ Sumbody and others."
+      }
+    },
+    {
+      "id": "dj-sumbody",
+      "type": "Person",
+      "name": "Oupa John Sefoka (DJ Sumbody)",
+      "metadata": {
+        "description": "Prominent Amapiano DJ and entrepreneur; co-founder of Ayepyep lifestyle lounge, murdered in 2022."
+      }
+    },
+    {
+      "id": "herman-mashaba",
+      "type": "Person",
+      "name": "Herman Mashaba",
+      "metadata": {
+        "description": "President of ActionSA and former Mayor of Johannesburg; prominent entrepreneur and politician."
+      }
+    },
+    {
+      "id": "bheki-cele",
+      "type": "Person",
+      "name": "Bheki Cele",
+      "metadata": {
+        "description": "Former South African Police Minister; testified before the Madlanga Commission regarding cartel links and political interference."
+      }
+    },
+    {
+      "id": "senzo-mchunu",
+      "type": "Person",
+      "name": "Senzo Mchunu",
+      "metadata": {
+        "description": "Former Minister of Police (Suspended 2025); linked to the Big Five cartel through associate Brown Mogotsi and the disbandment of the PKTT."
+      }
+    },
+    {
+      "id": "madlanga-commission",
+      "type": "Event",
+      "name": "Madlanga Commission of Inquiry",
+      "metadata": {
+        "formal_name": "Judicial Commission of Inquiry into Criminality, Political Interference, and Corruption in the Criminal Justice System",
+        "chairperson": "Justice Mbuyiseli Madlanga (Retired Constitutional Court Justice)",
+        "description": "Judicial commission established in July 2025 by President Ramaphosa to investigate criminal capture of the justice system.",
+        "status": "Ongoing; First interim report released Dec 2025"
+      }
+    },
+    {
+      "id": "brown-mogotsi",
+      "type": "Person",
+      "name": "Brown Mogotsi",
+      "metadata": {
+        "description": "North West businessman and associate of Cat Matlala; alleged political middleman and channel for cartel funds to ANC events."
+      }
+    },
+    {
+      "id": "jonathan-msibi",
+      "type": "Person",
+      "name": "Jonathan 'King Mswazi' Msibi",
+      "metadata": {
+        "description": "Late taxi boss described as the 'senior president' of the Big Five cartel."
+      }
+    },
+    {
+      "id": "dumisani-khumalo",
+      "type": "Person",
+      "name": "Lt-Gen. Dumisani Khumalo",
+      "metadata": {
+        "description": "Crime Intelligence head who provided key testimony exposing the Big Five cartel's structure at the Madlanga Commission."
+      }
+    },
+    {
+      "id": "shadrack-sibiya",
+      "type": "Person",
+      "name": "Lt-Gen. Shadrack Sibiya",
+      "metadata": {
+        "description": "Deputy National Police Commissioner; allegedly received monthly payments from Cat Matlala to secure tenders."
+      }
+    },
+    {
+      "id": "lesetja-senona",
+      "type": "Person",
+      "name": "Maj-Gen. Lesetja Senona",
+      "metadata": {
+        "description": "KZN Hawks head; allegedly shared sensitive police information with the Big Five cartel."
+      }
+    },
+    {
+      "id": "tebogo-thobejane",
+      "type": "Person",
+      "name": "Tebogo Thobejane",
+      "metadata": {
+        "description": "Actress and ex-girlfriend of Cat Matlala; target of an attempted murder in 2023 linked to the cartel."
+      }
+    },
+    {
+      "id": "babita-deokaran",
+      "type": "Person",
+      "name": "Babita Deokaran",
+      "metadata": {
+        "description": "Gauteng health whistleblower murdered in 2021 after exposing irregular contracts linked to Matlala's network."
+      }
+    },
+    {
+      "id": "anc",
+      "type": "Organization",
+      "name": "African National Congress",
+      "metadata": {
+        "description": "Ruling political party in South Africa; some events allegedly funded by cartel-linked tenders via Brown Mogotsi."   
+      }
+    },
+    {
+      "id": "south-africa",
+      "type": "Location",
+      "name": "South Africa",
+      "metadata": {
+        "description": "The country whose criminal procedure and legal system are the subject of the analysis."
+      }
+    },
+    {
+      "id": "npa",
+      "type": "Organization",
+      "name": "National Prosecuting Authority",
+      "metadata": {
+        "description": "Institution responsible for conducting criminal prosecutions; received immediate referrals from the Madlanga Commission."
+      }
+    },
+    {
+      "id": "saps",
+      "type": "Organization",
+      "name": "South African Police Service",
+      "metadata": {
+        "description": "The national police force; investigations reveal systemic infiltration by criminal networks including the Big Five cartel."
+      }
+    },
+    {
+      "id": "constitutional-court",
+      "type": "Organization",
+      "name": "Constitutional Court of South Africa",
+      "metadata": {
+        "description": "Apex court in the South African judicial system for constitutional matters."
+      }
+    },
+    {
+      "id": "supreme-court-of-appeal",
+      "type": "Organization",
+      "name": "Supreme Court of Appeal (SCA)",
+      "metadata": {
+        "description": "Intermediate appellate court located in Bloemfontein."
+      }
+    },
+    {
+      "id": "high-court",
+      "type": "Organization",
+      "name": "High Court of South Africa",
+      "metadata": {
+        "description": "Superior courts with original jurisdiction over serious crimes and appellate jurisdiction over lower courts."
+      }
+    },
+    {
+      "id": "magistrates-court",
+      "type": "Organization",
+      "name": "Magistrate's Court",
+      "metadata": {
+        "description": "Lower courts that handle the majority of criminal cases and conduct preliminary inquiries for children."
+      }
+    },
+    {
+      "id": "jacob-zuma",
+      "type": "Person",
+      "name": "Jacob Zuma",
+      "metadata": {
+        "description": "4th President of South Africa (2009–2018), facing numerous corruption allegations."
+      }
+    },
+    {
+      "id": "tony-yengeni",
+      "type": "Person",
+      "name": "Tony Yengeni",
+      "metadata": {
+        "description": "Politician involved in a high-profile fraud case that tested the limits of plea and sentence agreements."
+      }
+    },
+    {
+      "id": "sanderson",
+      "type": "Person",
+      "name": "Sanderson",
+      "metadata": {
+        "description": "Appellant in the landmark case Sanderson v Attorney-General, which established the criteria for a 'reasonable time' for trial."     
+      }
+    },
+    {
+      "id": "b-singh",
+      "type": "Person",
+      "name": "Singh",
+      "metadata": {
+        "description": "An investigator whose case against the NPA clarified the requirements for obtaining a 'nolle prosequi' certificate."
+      }
+    },
+    {
+      "id": "scorpions",
+      "type": "Organization",
+      "name": "Directorate of Special Operations (Scorpions)",
+      "metadata": {
+        "description": "A former elite investigative unit involved in high-profile criminal investigations."
+      }
+    },
+    {
+      "id": "legal-aid-board",
+      "type": "Organization",
+      "name": "Legal Aid Board",
+      "metadata": {
+        "description": "The body responsible for providing legal representation to indigent accused persons to prevent 'substantial injustice'."
+      }
+    },
+    {
+      "id": "child-protection-unit",
+      "type": "Organization",
+      "name": "SAPS Child Protection Unit",
+      "metadata": {
+        "description": "A specialized police unit responsible for investigating crimes involving children."
+      }
+    },
+    {
+      "id": "s-v-makwanyane",
+      "type": "Event",
+      "name": "S v Makwanyane",
+      "metadata": {
+        "description": "The landmark 1995 Constitutional Court case that abolished the death penalty in South Africa."
+      }
+    },
+    {
+      "id": "ndpp-v-zuma",
+      "type": "Event",
+      "name": "NDPP v Zuma",
+      "metadata": {
+        "description": "A key legal event concerning the exercise of prosecutorial discretion and political interference."
+      }
+    },
+    {
+      "id": "shabalala-case",
+      "type": "Event",
+      "name": "Shabalala v Attorney-General, Transvaal",
+      "metadata": {
+        "description": "A critical case that ended docket privilege and established the right of access to witness statements."
+      }
+    },
+    {
+      "id": "in-re-goniwe",
+      "type": "Event",
+      "name": "In re Goniwe",
+      "metadata": {
+        "description": "A notable inquest into the deaths of the 'Cradock Four', illustrating the use of specialized judicial inquiries."
+      }
+    },
+    {
+      "id": "hennie-van-heerden",
+      "type": "Person",
+      "name": "Hennie van Heerden",
+      "metadata": {
+        "description": "First Deputy Chief Justice of South Africa (1997–2000) and Acting Chief Justice in 2000."
+      }
+    },
+    {
+      "id": "pius-langa",
+      "type": "Person",
+      "name": "Pius Langa",
+      "metadata": {
+        "description": "Chief Justice of South Africa (2005–2009) and human rights lawyer."
+      }
+    },
+    {
+      "id": "dikgang-moseneke",
+      "type": "Person",
+      "name": "Dikgang Moseneke",
+      "metadata": {
+        "description": "Deputy Chief Justice of South Africa (2005–2016) and former anti-apartheid activist."
+      }
+    },
+    {
+      "id": "bess-nkabinde",
+      "type": "Person",
+      "name": "Bess Nkabinde",
+      "metadata": {
+        "description": "Justice of the Constitutional Court of South Africa (2006–2017)."
+      }
+    },
+    {
+      "id": "dunstan-mlambo",
+      "type": "Person",
+      "name": "Dunstan Mlambo",
+      "metadata": {
+        "description": "Deputy Chief Justice of South Africa (effective 2025) and Judge President of the Gauteng Division."
+      }
+    },
+    {
+      "id": "mandisa-maya",
+      "type": "Person",
+      "name": "Mandisa Maya",
+      "metadata": {
+        "description": "Chief Justice of South Africa (effective 2024) and former President of the Supreme Court of Appeal."
+      }
+    },
+    {
+      "id": "nelson-mandela",
+      "type": "Person",
+      "name": "Nelson Mandela",
+      "metadata": {
+        "description": "1st President of post-apartheid South Africa (1994–1999)."
+      }
+    },
+    {
+      "id": "thabo-mbeki",
+      "type": "Person",
+      "name": "Thabo Mbeki",
+      "metadata": {
+        "description": "2nd President of post-apartheid South Africa (1999–2008)."
+      }
+    },
+    {
+      "id": "cyril-ramaphosa",
+      "type": "Person",
+      "name": "Cyril Ramaphosa",
+      "metadata": {
+        "description": "5th President of South Africa (2018–present); established the Madlanga Commission in 2025."
+      }
+    },
+    {
+      "id": "arthur-chaskalson",
+      "type": "Person",
+      "name": "Arthur Chaskalson",
+      "metadata": {
+        "description": "First Chief Justice of democratic South Africa and President of the Constitutional Court."
+      }
+    },
+    {
+      "id": "ismail-mahomed",
+      "type": "Person",
+      "name": "Ismail Mahomed",
+      "metadata": {
+        "description": "Chief Justice of South Africa (1998–2000) and human rights advocate."
+      }
+    },
+    {
+      "id": "sandile-ngcobo",
+      "type": "Person",
+      "name": "Sandile Ngcobo",
+      "metadata": {
+        "description": "Chief Justice of South Africa (2009–2011)."
+      }
+    },
+    {
+      "id": "mogoeng-mogoeng",
+      "type": "Person",
+      "name": "Mogoeng Mogoeng",
+      "metadata": {
+        "description": "Chief Justice of South Africa (2011–2021)."
+      }
+    },
+    {
+      "id": "raymond-zondo",
+      "type": "Person",
+      "name": "Raymond Zondo",
+      "metadata": {
+        "description": "Chief Justice of South Africa (2022–2024) and Chair of the State Capture Inquiry."
+      }
+    },
+    {
+      "id": "john-hlophe",
+      "type": "Person",
+      "name": "John Hlophe",
+      "metadata": {
+        "description": "Former Judge President of the Western Cape High Court, impeached for gross misconduct."
+      }
+    },
+    {
+      "id": "schabir-shaik",
+      "type": "Person",
+      "name": "Schabir Shaik",
+      "metadata": {
+        "description": "Financial advisor to Jacob Zuma, convicted of corruption in the Arms Deal case."
+      }
+    },
+    {
+      "id": "gupta-family",
+      "type": "Organization",
+      "name": "Gupta Family",
+      "metadata": {
+        "description": "Business family accused of exercising undue influence over Jacob Zuma's administration (State Capture)."
+      }
+    },
+    {
+      "id": "umkhonto-we-sizwe",
+      "type": "Organization",
+      "name": "uMkhonto weSizwe (MK)",
+      "metadata": {
+        "description": "Former military wing of the ANC, now also a breakaway political party endorsed by Jacob Zuma."
+      }
+    },
+    {
+      "id": "jsc",
+      "type": "Organization",
+      "name": "Judicial Service Commission",
+      "metadata": {
+        "description": "Body responsible for interviewing and recommending judicial candidates to the President."
+      }
+    },
+    {
+      "id": "zondo-commission",
+      "type": "Event",
+      "name": "Zondo Commission",
+      "metadata": {
+        "description": "Judicial Commission of Inquiry into Allegations of State Capture."
+      }
+    },
+    {
+      "id": "nkandla-homestead",
+      "type": "Location",
+      "name": "Nkandla Homestead",
+      "metadata": {
+        "description": "Jacob Zuma's private residence in KwaZulu-Natal, subject of a major public spending scandal."
+      }
+    },
+    {
+      "id": "robben-island",
+      "type": "Location",
+      "name": "Robben Island",
+      "metadata": {
+        "description": "Prison where Nelson Mandela, Jacob Zuma, and Dikgang Moseneke were held as political prisoners."
+      }
+    },
+    {
+      "id": "nhlanhla-mkhwanazi",
+      "type": "Person",
+      "name": "Lt-Gen. Nhlanhla Mkhwanazi",
+      "metadata": {
+        "description": "KZN Police Commissioner whose allegations of justice system capture triggered the Madlanga Commission."
+      }
+    },
+    {
+      "id": "hendrik-flynn",
+      "type": "Person",
+      "name": "Maj-Gen. Hendrik Flynn",
+      "metadata": {
+        "description": "Hawks official who testified regarding the theft of R200 million worth of cocaine from a police facility."
+      }
+    },
+    {
+      "id": "witness-d",
+      "type": "Person",
+      "name": "Marius van der Merwe (Witness D)",
+      "metadata": {
+        "description": "Whistleblower assassinated in Dec 2025 shortly before the Madlanga Commission's first interim report."
+      }
+    },
+    {
+      "id": "witness-x",
+      "type": "Person",
+      "name": "Witness X",
+      "metadata": {
+        "description": "Confidential witness who detailed the corrupt relationship between Matlala and senior police."
+      }
+    },
+    {
+      "id": "fannie-masemola",
+      "type": "Person",
+      "name": "Fannie Masemola",
+      "metadata": {
+        "description": "National Police Commissioner charged in April 2026 for PFMA contraventions related to Matlala's contracts."
+      }
+    },
+    {
+      "id": "cat-vip-protection",
+      "type": "Organization",
+      "name": "Cat VIP Protection Services",
+      "metadata": {
+        "description": "Security company owned by Cat Matlala involved in irregular agreements with the EMPD."
+      }
+    },
+    {
+      "id": "medicare-24",
+      "type": "Organization",
+      "name": "Medicare 24 Tshwane District",
+      "metadata": {
+        "description": "Company linked to an irregular R360 million health contract awarded to Cat Matlala's network."
+      }
+    },
+    {
+      "id": "ebongweni-c-max",
+      "type": "Location",
+      "name": "eBongweni C-Max",
+      "metadata": {
+        "description": "Super-maximum security prison in Kokstad where Cat Matlala is currently detained."
+      }
+    },
+    {
+      "id": "pktt",
+      "type": "Organization",
+      "name": "KZN Political Killings Task Team",
+      "metadata": {
+        "description": "Specialized unit investigating political assassinations, disbanded by Minister Mchunu in 2024."
+      }
+    },
+    {
+      "id": "ipid",
+      "type": "Organization",
+      "name": "Independent Police Investigative Directorate",
+      "metadata": {
+        "description": "Body responsible for investigating criminal conduct by SAPS and Metro Police members."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "cat-matlala",
+      "target": "big-five-cartel",
+      "relationship": "AffiliatedWith",
+      "description": "Identified as one of the primary leaders of the syndicate."
+    },
+    {
+      "source": "katiso-molefe",
+      "target": "big-five-cartel",
+      "relationship": "AffiliatedWith",
+      "description": "Identified as a central member and hitman for the cartel."
+    },
+    {
+      "source": "jonathan-msibi",
+      "target": "big-five-cartel",
+      "relationship": "PresidedBy",
+      "description": "Former taxi boss who served as the cartel's senior president." 
+    },
+    {
+      "source": "katiso-molefe",
+      "target": "dj-sumbody",
+      "relationship": "InvestigatedBy",
+      "description": "Accused of ordering the high-profile hit on DJ Sumbody in November 2022."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "brown-mogotsi",
+      "relationship": "AffiliatedWith",
+      "description": "Business associates involved in tender coordination and political funding."
+    },
+    {
+      "source": "brown-mogotsi",
+      "target": "senzo-mchunu",
+      "relationship": "AffiliatedWith",
+      "description": "Facilitated political funding from Matlala to Mchunu; alleged protection of cartel interests."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "bheki-cele",
+      "relationship": "AffiliatedWith",
+      "description": "Matlala alleged he paid Cele R500,000 for protection; Cele admitted to staying at Matlala's penthouse."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "anc",
+      "relationship": "Funded",
+      "description": "Allegedly funded ANC event expenses using money from state tenders via Brown Mogotsi."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "shadrack-sibiya",
+      "relationship": "AffiliatedWith",
+      "description": "Allegedly paid Sibiya R1 million monthly for tender protection."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "lesetja-senona",
+      "relationship": "AffiliatedWith",
+      "description": "Senona allegedly shared sensitive info with Matlala; collaborated on PKTT interference."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "tebogo-thobejane",
+      "relationship": "ConflictWith",
+      "description": "Orchestrated an attempted murder (hit) against his ex-girlfriend in 2023."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "babita-deokaran",
+      "relationship": "ConflictWith",
+      "description": "Deokaran exposed Matlala's irregular hospital contracts shortly before her assassination."
+    },
+    {
+      "source": "madlanga-commission",
+      "target": "big-five-cartel",
+      "relationship": "InvestigatedBy",
+      "description": "Established to probe the cartel's capture of the South African justice system."
+    },
+    {
+      "source": "dumisani-khumalo",
+      "target": "madlanga-commission",
+      "relationship": "AffiliatedWith",
+      "description": "Provided intelligence on the Big Five cartel's hierarchy and narcotics operations."
+    },
+    {
+      "source": "nhlanhla-mkhwanazi",
+      "target": "madlanga-commission",
+      "relationship": "AffiliatedWith",
+      "description": "Key witness whose allegations of systemic capture led to the commission's founding."
+    },
+    {
+      "source": "hendrik-flynn",
+      "target": "madlanga-commission",
+      "relationship": "AffiliatedWith",
+      "description": "Testified about the 2021 theft of R200 million worth of cocaine from Hawks storage."
+    },
+    {
+      "source": "witness-d",
+      "target": "madlanga-commission",
+      "relationship": "AffiliatedWith",
+      "description": "Key whistleblower assassinated in Dec 2025 before report submission."
+    },
+    {
+      "source": "witness-x",
+      "target": "madlanga-commission",
+      "relationship": "AffiliatedWith",
+      "description": "Confidential witness who exposed senior police collusion with Matlala."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "cat-vip-protection",
+      "relationship": "AffiliatedWith",
+      "description": "Owner and director of the security firm."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "medicare-24",
+      "relationship": "AffiliatedWith",
+      "description": "Linked to the irregular R360 million contract via fronting."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "ebongweni-c-max",
+      "relationship": "AffiliatedWith",
+      "description": "Current location of detention."
+    },
+    {
+      "source": "fannie-masemola",
+      "target": "medicare-24",
+      "relationship": "ConflictWith",
+      "description": "Charged with PFMA contraventions regarding the awarding of the Medicare 24 contract."
+    },
+    {
+      "source": "senzo-mchunu",
+      "target": "pktt",
+      "relationship": "AffiliatedWith",
+      "description": "Disbanded the task team on Dec 31, 2024, allegedly protecting cartel interests."
+    },
+    {
+      "source": "madlanga-commission",
+      "target": "npa",
+      "relationship": "AffiliatedWith",
+      "description": "Referred evidence of criminality for immediate prosecution."
+    },
+    {
+      "source": "madlanga-commission",
+      "target": "ipid",
+      "relationship": "AffiliatedWith",
+      "description": "Referred matters involving police misconduct for investigation."
+    },
+    {
+      "source": "npa",
+      "target": "south-africa",
+      "relationship": "AffiliatedWith",
+      "description": "The NPA is the primary state body for prosecutions in South Africa."
+    },
+    {
+      "source": "saps",
+      "target": "south-africa",
+      "relationship": "AffiliatedWith",
+      "description": "The national police force of South Africa."
+    },
+    {
+      "source": "constitutional-court",
+      "target": "s-v-makwanyane",
+      "relationship": "PresidedBy",
+      "description": "The Constitutional Court heard and decided the case that abolished the death penalty."
+    },
+    {
+      "source": "supreme-court-of-appeal",
+      "target": "ndpp-v-zuma",
+      "relationship": "PresidedBy",
+      "description": "The SCA ruled on matters regarding the NPA's decisions concerning Jacob Zuma."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "Jacob Zuma's prosecutions involved significant legal disputes with the NPA."
+    },
+    {
+      "source": "tony-yengeni",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "Yengeni challenged the validity of a plea and sentence agreement with the NPA."
+    },
+    {
+      "source": "sanderson",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "Sanderson challenged the NPA's delay in bringing his case to trial."
+    },
+    {
+      "source": "child-protection-unit",
+      "target": "sanderson",
+      "relationship": "InvestigatedBy",
+      "description": "The CPU investigated the allegations against Sanderson."
+    },
+    {
+      "source": "b-singh",
+      "target": "scorpions",
+      "relationship": "AffiliatedWith",
+      "description": "Singh was a member of the Directorate of Special Operations (Scorpions)."
+    },
+    {
+      "source": "b-singh",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "Singh sought a 'nolle prosequi' certificate from the NPA to pursue a private prosecution."
+    },
+    {
+      "source": "high-court",
+      "target": "shabalala-case",
+      "relationship": "PresidedBy",
+      "description": "The High Court (and later Constitutional Court) decided on docket access in the Shabalala case."
+    },
+    {
+      "source": "legal-aid-board",
+      "target": "magistrates-court",
+      "relationship": "AffiliatedWith",
+      "description": "The Legal Aid Board provides defense services in the lower courts."
+    },
+    {
+      "source": "nelson-mandela",
+      "target": "hennie-van-heerden",
+      "relationship": "PresidedBy",
+      "description": "Appointed Hennie van Heerden as Deputy Chief Justice."  
+    },
+    {
+      "source": "nelson-mandela",
+      "target": "pius-langa",
+      "relationship": "PresidedBy",
+      "description": "Appointed Pius Langa to the Constitutional Court."      
+    },
+    {
+      "source": "thabo-mbeki",
+      "target": "dikgang-moseneke",
+      "relationship": "PresidedBy",
+      "description": "Appointed Dikgang Moseneke as Deputy Chief Justice."    
+    },
+    {
+      "source": "thabo-mbeki",
+      "target": "bess-nkabinde",
+      "relationship": "PresidedBy",
+      "description": "Appointed Bess Nkabinde to the Constitutional Court."   
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "sandile-ngcobo",
+      "relationship": "PresidedBy",
+      "description": "Appointed Sandile Ngcobo as Chief Justice."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "mogoeng-mogoeng",
+      "relationship": "PresidedBy",
+      "description": "Appointed Mogoeng Mogoeng as Chief Justice."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "raymond-zondo",
+      "relationship": "PresidedBy",
+      "description": "Appointed Raymond Zondo to the Constitutional Court."   
+    },
+    {
+      "source": "cyril-ramaphosa",
+      "target": "mandisa-maya",
+      "relationship": "PresidedBy",
+      "description": "Appointed Mandisa Maya as Chief Justice."
+    },
+    {
+      "source": "cyril-ramaphosa",
+      "target": "dunstan-mlambo",
+      "relationship": "PresidedBy",
+      "description": "Appointed Dunstan Mlambo as Deputy Chief Justice."      
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "anc",
+      "relationship": "AffiliatedWith",
+      "description": "Served as President of the ANC (2007–2017)."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "umkhonto-we-sizwe",
+      "relationship": "AffiliatedWith",
+      "description": "Former MK operative and current supporter of the MK Party."
+    },
+    {
+      "source": "schabir-shaik",
+      "target": "jacob-zuma",
+      "relationship": "AffiliatedWith",
+      "description": "Financial advisor whose corrupt relationship led to Zuma's 2005 dismissal."
+    },
+    {
+      "source": "gupta-family",
+      "target": "jacob-zuma",
+      "relationship": "AffiliatedWith",
+      "description": "Alleged 'state capture' partnership involving government influence and tenders."
+    },
+    {
+      "source": "npa",
+      "target": "jacob-zuma",
+      "relationship": "InvestigatedBy",
+      "description": "Reinstated corruption charges against Zuma related to the Arms Deal."
+    },
+    {
+      "source": "zondo-commission",
+      "target": "jacob-zuma",
+      "relationship": "InvestigatedBy",
+      "description": "Investigated Zuma's role in systemic corruption and state capture."
+    },
+    {
+      "source": "john-hlophe",
+      "target": "constitutional-court",
+      "relationship": "ConflictWith",
+      "description": "Accused of attempting to influence Constitutional Court judges in Zuma-related cases."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "nkandla-homestead",
+      "relationship": "AffiliatedWith",
+      "description": "Owner of the private residence at the center of the 'Secure in Comfort' scandal."
+    },
+    {
+      "source": "raymond-zondo",
+      "target": "zondo-commission",
+      "relationship": "PresidedBy",
+      "description": "Chaired the Commission of Inquiry into State Capture."  
+    }
+  ]
+}

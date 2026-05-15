@@ -1,0 +1,12 @@
+{
+  "eval_id": 1,
+  "eval_name": "scaffold-and-schema",
+  "prompt": "Create a new Apify actor named 'news-scraper' that takes a list of URLs and scrapes the main headline and publication date. Set up the input and dataset schemas. Don't implement the crawling logic yet, just the structure and schemas.",
+  "assertions": [
+    {"text": "Has actor.json", "passed": false, "evidence": ""},
+    {"text": "Has input_schema.json", "passed": false, "evidence": ""},
+    {"text": "Has dataset_schema.json", "passed": false, "evidence": ""},
+    {"text": "Input schema has startUrls", "passed": false, "evidence": ""},
+    {"text": "Dataset schema has overview view", "passed": false, "evidence": ""}
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "id": "big-five-cartel",
+      "type": "Organization",
+      "name": "Big Five Cartel",
+      "metadata": {
+        "description": "An alleged criminal syndicate based in Gauteng, South Africa, involved in drug trafficking, tender fraud, and contract killings."
+      }
+    },
+    {
+      "id": "cat-matlala",
+      "type": "Person",
+      "name": "Vusimuzi 'Cat' Matlala",
+      "metadata": {
+        "description": "Pretoria-based tenderpreneur and alleged leader of the Big Five cartel; owner of Cat VIP Protection Services."
+      }
+    },
+    {
+      "id": "katiso-molefe",
+      "type": "Person",
+      "name": "Katiso 'KT' Molefe",
+      "metadata": {
+        "description": "Businessman and suspected underworld kingpin; accused of masterminding the murder of DJ Sumbody and others."
+      }
+    },
+    {
+      "id": "dj-sumbody",
+      "type": "Person",
+      "name": "Oupa John Sefoka (DJ Sumbody)",
+      "metadata": {
+        "description": "Prominent Amapiano DJ and entrepreneur; co-founder of Ayepyep lifestyle lounge, murdered in 2022."
+      }
+    },
+    {
+      "id": "herman-mashaba",
+      "type": "Person",
+      "name": "Herman Mashaba",
+      "metadata": {
+        "description": "President of ActionSA and former Mayor of Johannesburg; prominent entrepreneur and politician."
+      }
+    },
+    {
+      "id": "bheki-cele",
+      "type": "Person",
+      "name": "Bheki Cele",
+      "metadata": {
+        "description": "Former South African Police Minister; allegedly received cash payments from Cat Matlala."
+      }
+    },
+    {
+      "id": "senzo-mchunu",
+      "type": "Person",
+      "name": "Senzo Mchunu",
+      "metadata": {
+        "description": "Suspended Police Minister; linked to Cat Matlala through business associate Brown Mogotsi."
+      }
+    },
+    {
+      "id": "madlanga-commission",
+      "type": "Event",
+      "name": "Madlanga Commission of Inquiry",
+      "metadata": {
+        "description": "Judicial commission established in 2025 to investigate criminal capture and political interference in the justice system."
+      }
+    },
+    {
+      "id": "brown-mogotsi",
+      "type": "Person",
+      "name": "Brown Mogotsi",
+      "metadata": {
+        "description": "North West businessman and associate of Cat Matlala; alleged to have channeled cartel funds to ANC political events."
+      }
+    },
+    {
+      "id": "jonathan-msibi",
+      "type": "Person",
+      "name": "Jonathan 'King Mswazi' Msibi",
+      "metadata": {
+        "description": "Late taxi boss described as the 'president' of the Big Five cartel."
+      }
+    },
+    {
+      "id": "dumisani-khumalo",
+      "type": "Person",
+      "name": "Lt-Gen. Dumisani Khumalo",
+      "metadata": {
+        "description": "Crime Intelligence head who provided key testimony exposing the Big Five cartel at the Madlanga Commission."
+      }
+    },
+    {
+      "id": "shadrack-sibiya",
+      "type": "Person",
+      "name": "Lt-Gen. Shadrack Sibiya",
+      "metadata": {
+        "description": "Deputy National Police Commissioner; allegedly received monthly payments from Cat Matlala to secure tenders."
+      }
+    },
+    {
+      "id": "lesetja-senona",
+      "type": "Person",
+      "name": "Maj-Gen. Lesetja Senona",
+      "metadata": {
+        "description": "KZN Hawks head; allegedly shared sensitive police information with Cat Matlala."
+      }
+    },
+    {
+      "id": "tebogo-thobejane",
+      "type": "Person",
+      "name": "Tebogo Thobejane",
+      "metadata": {
+        "description": "Actress and ex-girlfriend of Cat Matlala; target of an attempted murder linked to the cartel."
+      }
+    },
+    {
+      "id": "babita-deokaran",
+      "type": "Person",
+      "name": "Babita Deokaran",
+      "metadata": {
+        "description": "Gauteng health whistleblower murdered in 2021 after exposing irregular contracts linked to Matlala."
+      }
+    },
+    {
+      "id": "anc",
+      "type": "Organization",
+      "name": "African National Congress",
+      "metadata": {
+        "description": "South Africa's ruling party, which allegedly received funding from the Big Five cartel."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "cat-matlala",
+      "target": "big-five-cartel",
+      "relationship": "AffiliatedWith",
+      "description": "Identified as one of the primary leaders of the syndicate."
+    },
+    {
+      "source": "katiso-molefe",
+      "target": "big-five-cartel",
+      "relationship": "AffiliatedWith",
+      "description": "Identified as a central member and hitman for the cartel."
+    },
+    {
+      "source": "jonathan-msibi",
+      "target": "big-five-cartel",
+      "relationship": "PresidedBy",
+      "description": "Former taxi boss who served as the cartel's president."
+    },
+    {
+      "source": "katiso-molefe",
+      "target": "dj-sumbody",
+      "relationship": "InvestigatedBy",
+      "description": "Accused of ordering the high-profile hit on DJ Sumbody in November 2022."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "brown-mogotsi",
+      "relationship": "AffiliatedWith",
+      "description": "Business associates involved in tender coordination and political funding."
+    },
+    {
+      "source": "brown-mogotsi",
+      "target": "senzo-mchunu",
+      "relationship": "AffiliatedWith",
+      "description": "Close associate who allegedly protected cartel interests within the minister's circle."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "bheki-cele",
+      "relationship": "AffiliatedWith",
+      "description": "Matlala allegedly paid Cele R500,000 in cash; Cele admitted to staying at Matlala's penthouse."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "anc",
+      "relationship": "Funded",
+      "description": "Allegedly paid millions to cover ANC event expenses via Brown Mogotsi."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "shadrack-sibiya",
+      "relationship": "AffiliatedWith",
+      "description": "Allegedly paid Sibiya R1 million monthly for tender protection."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "lesetja-senona",
+      "relationship": "AffiliatedWith",
+      "description": "Collaborated on disbanding the Political Killings Task Team (PKTT)."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "tebogo-thobejane",
+      "relationship": "ConflictWith",
+      "description": "Orchestrated an attempted murder (hit) against his ex-girlfriend."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "babita-deokaran",
+      "relationship": "ConflictWith",
+      "description": "Deokaran exposed Matlala's irregular hospital contracts shortly before her assassination."
+    },
+    {
+      "source": "madlanga-commission",
+      "target": "big-five-cartel",
+      "relationship": "InvestigatedBy",
+      "description": "Established to probe the cartel's capture of the South African justice system."
+    },
+    {
+      "source": "dumisani-khumalo",
+      "target": "madlanga-commission",
+      "relationship": "AffiliatedWith",
+      "description": "Primary witness providing intelligence on the cartel's hierarchy and operations."
+    }
+  ]
+}

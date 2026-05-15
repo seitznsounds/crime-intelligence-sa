@@ -1,0 +1,11 @@
+{
+  "eval_id": 1,
+  "eval_name": "scaffold-and-schema",
+  "assertions": [
+    {"text": "Has actor.json", "passed": true, "evidence": "File exists at .actors/news-scraper/.actor/actor.json"},
+    {"text": "Has input_schema.json", "passed": true, "evidence": "File exists at .actors/news-scraper/.actor/input_schema.json"},
+    {"text": "Has dataset_schema.json", "passed": true, "evidence": "File exists at .actors/news-scraper/.actor/dataset_schema.json"},
+    {"text": "Input schema has startUrls", "passed": true, "evidence": "Found 'startUrls' in input_schema.json properties"},
+    {"text": "Dataset schema has overview view", "passed": true, "evidence": "Found 'overview' in dataset_schema.json views"}
+  ]
+}

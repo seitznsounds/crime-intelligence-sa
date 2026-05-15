@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "hennie-van-heerden",
+      "type": "Person",
+      "name": "Hennie van Heerden",
+      "metadata": { "description": "First Deputy Chief Justice of South Africa (1997–2000) and Acting Chief Justice in 2000." }
+    },
+    {
+      "id": "pius-langa",
+      "type": "Person",
+      "name": "Pius Langa",
+      "metadata": { "description": "Chief Justice of South Africa (2005–2009) and human rights lawyer." }
+    },
+    {
+      "id": "dikgang-moseneke",
+      "type": "Person",
+      "name": "Dikgang Moseneke",
+      "metadata": { "description": "Deputy Chief Justice of South Africa (2005–2016) and former anti-apartheid activist." }
+    },
+    {
+      "id": "bess-nkabinde",
+      "type": "Person",
+      "name": "Bess Nkabinde",
+      "metadata": { "description": "Justice of the Constitutional Court of South Africa (2006–2017)." }
+    },
+    {
+      "id": "dunstan-mlambo",
+      "type": "Person",
+      "name": "Dunstan Mlambo",
+      "metadata": { "description": "Deputy Chief Justice of South Africa (effective 2025) and Judge President of the Gauteng Division." }
+    },
+    {
+      "id": "mandisa-maya",
+      "type": "Person",
+      "name": "Mandisa Maya",
+      "metadata": { "description": "Chief Justice of South Africa (effective 2024) and former President of the Supreme Court of Appeal." }
+    },
+    {
+      "id": "jacob-zuma",
+      "type": "Person",
+      "name": "Jacob Zuma",
+      "metadata": { "description": "4th President of South Africa (2009–2018), facing numerous corruption allegations." }
+    },
+    {
+      "id": "nelson-mandela",
+      "type": "Person",
+      "name": "Nelson Mandela",
+      "metadata": { "description": "1st President of post-apartheid South Africa (1994–1999)." }
+    },
+    {
+      "id": "thabo-mbeki",
+      "type": "Person",
+      "name": "Thabo Mbeki",
+      "metadata": { "description": "2nd President of post-apartheid South Africa (1999–2008)." }
+    },
+    {
+      "id": "cyril-ramaphosa",
+      "type": "Person",
+      "name": "Cyril Ramaphosa",
+      "metadata": { "description": "5th President of South Africa (2018–present) and current ANC President." }
+    },
+    {
+      "id": "arthur-chaskalson",
+      "type": "Person",
+      "name": "Arthur Chaskalson",
+      "metadata": { "description": "First Chief Justice of democratic South Africa and President of the Constitutional Court." }
+    },
+    {
+      "id": "ismail-mahomed",
+      "type": "Person",
+      "name": "Ismail Mahomed",
+      "metadata": { "description": "Chief Justice of South Africa (1998–2000) and human rights advocate." }
+    },
+    {
+      "id": "sandile-ngcobo",
+      "type": "Person",
+      "name": "Sandile Ngcobo",
+      "metadata": { "description": "Chief Justice of South Africa (2009–2011)." }
+    },
+    {
+      "id": "mogoeng-mogoeng",
+      "type": "Person",
+      "name": "Mogoeng Mogoeng",
+      "metadata": { "description": "Chief Justice of South Africa (2011–2021)." }
+    },
+    {
+      "id": "raymond-zondo",
+      "type": "Person",
+      "name": "Raymond Zondo",
+      "metadata": { "description": "Chief Justice of South Africa (2022–2024) and Chair of the State Capture Inquiry." }
+    },
+    {
+      "id": "john-hlophe",
+      "type": "Person",
+      "name": "John Hlophe",
+      "metadata": { "description": "Former Judge President of the Western Cape High Court, impeached for gross misconduct." }
+    },
+    {
+      "id": "schabir-shaik",
+      "type": "Person",
+      "name": "Schabir Shaik",
+      "metadata": { "description": "Financial advisor to Jacob Zuma, convicted of corruption in the Arms Deal case." }
+    },
+    {
+      "id": "gupta-family",
+      "type": "Organization",
+      "name": "Gupta Family",
+      "metadata": { "description": "Business family accused of exercising undue influence over Jacob Zuma's administration (State Capture)." }
+    },
+    {
+      "id": "constitutional-court-sa",
+      "type": "Organization",
+      "name": "Constitutional Court of South Africa",
+      "metadata": { "description": "Apex court in the South African judicial system for constitutional matters." }
+    },
+    {
+      "id": "supreme-court-appeal-sa",
+      "type": "Organization",
+      "name": "Supreme Court of Appeal of South Africa",
+      "metadata": { "description": "Intermediate appellate court located in Bloemfontein." }
+    },
+    {
+      "id": "anc",
+      "type": "Organization",
+      "name": "African National Congress",
+      "metadata": { "description": "Ruling political party in South Africa since 1994." }
+    },
+    {
+      "id": "umkhonto-we-sizwe",
+      "type": "Organization",
+      "name": "uMkhonto weSizwe (MK)",
+      "metadata": { "description": "Former military wing of the ANC, now also a breakaway political party endorsed by Jacob Zuma." }
+    },
+    {
+      "id": "jsc",
+      "type": "Organization",
+      "name": "Judicial Service Commission",
+      "metadata": { "description": "Body responsible for interviewing and recommending judicial candidates to the President." }
+    },
+    {
+      "id": "npa",
+      "type": "Organization",
+      "name": "National Prosecuting Authority",
+      "metadata": { "description": "Institution responsible for conducting criminal prosecutions in South Africa." }
+    },
+    {
+      "id": "zondo-commission",
+      "type": "Event",
+      "name": "Zondo Commission",
+      "metadata": { "description": "Judicial Commission of Inquiry into Allegations of State Capture." }
+    },
+    {
+      "id": "nkandla-homestead",
+      "type": "Location",
+      "name": "Nkandla Homestead",
+      "metadata": { "description": "Jacob Zuma's private residence in KwaZulu-Natal, subject of a major public spending scandal." }
+    },
+    {
+      "id": "robben-island",
+      "type": "Location",
+      "name": "Robben Island",
+      "metadata": { "description": "Prison where Nelson Mandela, Jacob Zuma, and Dikgang Moseneke were held as political prisoners." }
+    }
+  ],
+  "edges": [
+    {
+      "source": "nelson-mandela",
+      "target": "hennie-van-heerden",
+      "relationship": "PresidedBy",
+      "description": "Appointed Hennie van Heerden as Deputy Chief Justice."
+    },
+    {
+      "source": "nelson-mandela",
+      "target": "pius-langa",
+      "relationship": "PresidedBy",
+      "description": "Appointed Pius Langa to the Constitutional Court."
+    },
+    {
+      "source": "thabo-mbeki",
+      "target": "dikgang-moseneke",
+      "relationship": "PresidedBy",
+      "description": "Appointed Dikgang Moseneke as Deputy Chief Justice."
+    },
+    {
+      "source": "thabo-mbeki",
+      "target": "bess-nkabinde",
+      "relationship": "PresidedBy",
+      "description": "Appointed Bess Nkabinde to the Constitutional Court."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "sandile-ngcobo",
+      "relationship": "PresidedBy",
+      "description": "Appointed Sandile Ngcobo as Chief Justice."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "mogoeng-mogoeng",
+      "relationship": "PresidedBy",
+      "description": "Appointed Mogoeng Mogoeng as Chief Justice."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "raymond-zondo",
+      "relationship": "PresidedBy",
+      "description": "Appointed Raymond Zondo to the Constitutional Court."
+    },
+    {
+      "source": "cyril-ramaphosa",
+      "target": "mandisa-maya",
+      "relationship": "PresidedBy",
+      "description": "Appointed Mandisa Maya as Chief Justice."
+    },
+    {
+      "source": "cyril-ramaphosa",
+      "target": "dunstan-mlambo",
+      "relationship": "PresidedBy",
+      "description": "Appointed Dunstan Mlambo as Deputy Chief Justice."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "anc",
+      "relationship": "AffiliatedWith",
+      "description": "Served as President of the ANC (2007–2017)."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "umkhonto-we-sizwe",
+      "relationship": "AffiliatedWith",
+      "description": "Former MK operative and current supporter of the MK Party."
+    },
+    {
+      "source": "schabir-shaik",
+      "target": "jacob-zuma",
+      "relationship": "AffiliatedWith",
+      "description": "Financial advisor whose corrupt relationship led to Zuma's 2005 dismissal."
+    },
+    {
+      "source": "gupta-family",
+      "target": "jacob-zuma",
+      "relationship": "AffiliatedWith",
+      "description": "Alleged 'state capture' partnership involving government influence and tenders."
+    },
+    {
+      "source": "npa",
+      "target": "jacob-zuma",
+      "relationship": "InvestigatedBy",
+      "description": "Reinstated corruption charges against Zuma related to the Arms Deal."
+    },
+    {
+      "source": "zondo-commission",
+      "target": "jacob-zuma",
+      "relationship": "InvestigatedBy",
+      "description": "Investigated Zuma's role in systemic corruption and state capture."
+    },
+    {
+      "source": "john-hlophe",
+      "target": "constitutional-court-sa",
+      "relationship": "ConflictWith",
+      "description": "Accused of attempting to influence Constitutional Court judges in Zuma-related cases."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "nkandla-homestead",
+      "relationship": "AffiliatedWith",
+      "description": "Owner of the private residence at the center of the 'Secure in Comfort' scandal."
+    },
+    {
+      "source": "raymond-zondo",
+      "target": "zondo-commission",
+      "relationship": "PresidedBy",
+      "description": "Chaired the Commission of Inquiry into State Capture."
+    }
+  ]
+}

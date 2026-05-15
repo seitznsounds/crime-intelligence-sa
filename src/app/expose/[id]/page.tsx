@@ -1,6 +1,8 @@
 import { createServerClient } from "@/lib/supabase-server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { getDeepIntel } from "@/app/network/actions";
+import { Timeline } from "@/components/intel/Timeline";
 
 interface PageProps {
   params: { id: string };
@@ -21,6 +23,7 @@ export default async function DeepExposurePage({ params }: PageProps) {
   if (personError || !person) return notFound();
 
   const { data: exposures } = await supabase.from("exposures").select("*").eq("person_id", id);
+  const deepIntel = await getDeepIntel(id);
 
   const getRiskColor = (score: number | null) => {
     if (!score) return 'var(--border-glass)';
@@ -83,7 +86,7 @@ export default async function DeepExposurePage({ params }: PageProps) {
             <div className="space-y-1 mt-4">
               {[
                 { label: 'PEP TIER', value: person.pep_tier || 'UNCLASSIFIED', highlight: 'text-accent-gold' },
-                { label: 'OP_STATUS', value: person.status || 'UNKNOWN', highlight: 'uppercase text-foreground' },
+                { label: 'OP_STATUS', value: deepIntel?.status || person.status || 'UNKNOWN', highlight: 'uppercase text-foreground' },
                 { label: 'IDENTITY', value: person.id_number ? 'VERIFIED' : 'PENDING', highlight: person.id_number ? 'text-accent-blue' : 'text-muted-foreground' }
               ].map(stat => (
                 <div key={stat.label} className="flex justify-between items-center py-2.5 border-b border-border-glass text-[10px] font-mono">
@@ -105,6 +108,26 @@ export default async function DeepExposurePage({ params }: PageProps) {
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tighter mb-1 uppercase text-foreground break-words">{person.full_name}</h1>
             <p className="text-lg text-muted-foreground font-medium tracking-tight italic">{person.role || 'Government Official / High-Value Target'}</p>
           </header>
+
+          {deepIntel?.summary && (
+            <div className="glass-card p-6 bg-bg-glass border-border-glass">
+              <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-blue border-b border-border-glass pb-2 mb-4">Executive Summary</h3>
+              <p className="text-sm text-foreground/90 leading-relaxed font-sans">
+                {deepIntel.summary}
+              </p>
+            </div>
+          )}
+
+          {deepIntel?.narrative && (
+            <div className="glass-card p-6 bg-bg-glass border-border-glass">
+              <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-gold border-b border-border-glass pb-2 mb-4">Operational Intelligence</h3>
+              <div className="prose prose-sm prose-invert max-w-none text-muted-foreground">
+                {typeof deepIntel.narrative === 'string' 
+                  ? <p className="leading-relaxed">{deepIntel.narrative}</p> 
+                  : deepIntel.narrative.map((para: string, idx: number) => <p key={idx} className="leading-relaxed mb-3">{para}</p>)}
+              </div>
+            </div>
+          )}
 
           {/* Expanded Metadata - Flat & Clean */}
           <div className="glass-card p-6 bg-bg-glass">
@@ -130,6 +153,16 @@ export default async function DeepExposurePage({ params }: PageProps) {
               )}
             </div>
           </div>
+
+          {deepIntel?.timeline && deepIntel.timeline.length > 0 && (
+             <section className="glass-card p-8 bg-bg-glass-heavy">
+               <h2 className="text-xs font-bold mb-10 flex items-center gap-3 uppercase tracking-widest text-muted-foreground">
+                 <span className="w-0.5 h-4 bg-accent-crimson rounded-full" />
+                 Chronological Analysis
+               </h2>
+               <Timeline events={deepIntel.timeline} />
+             </section>
+          )}
 
           {/* Corruption Timeline - Redesigned for Precision */}
           <section className="glass-card p-8 bg-bg-glass-heavy">

@@ -1,0 +1,12 @@
+{
+  "eval_id": 2,
+  "eval_name": "implement-crawler",
+  "prompt": "Implement the 'news-scraper' actor in .actors/news-scraper/ using CheerioCrawler. It should scrape the <h1> for the headline and a <meta name='pubdate'> or similar for the date. Include error handling and data pushing. Assume the structure from the previous step exists.",
+  "assertions": [
+    {"text": "Imports Actor from apify", "passed": false, "evidence": ""},
+    {"text": "Uses CheerioCrawler", "passed": false, "evidence": ""},
+    {"text": "Calls pushData", "passed": false, "evidence": ""},
+    {"text": "Calls Actor.getInput", "passed": false, "evidence": ""},
+    {"text": "Includes error handling", "passed": false, "evidence": ""}
+  ]
+}

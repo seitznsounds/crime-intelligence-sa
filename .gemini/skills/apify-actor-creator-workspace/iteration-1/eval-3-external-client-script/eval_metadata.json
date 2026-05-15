@@ -1,0 +1,12 @@
+{
+  "eval_id": 3,
+  "eval_name": "external-client-script",
+  "prompt": "Write a TypeScript script in scratch/run_news_scraper.ts that uses apify-client to run the 'news-scraper' actor (ID: 'user/news-scraper') with the URL 'https://example.com/news/1'. Log the run ID and the first item from the dataset.",
+  "assertions": [
+    {"text": "Imports ApifyClient", "passed": false, "evidence": ""},
+    {"text": "Uses process.env.APIFY_TOKEN", "passed": false, "evidence": ""},
+    {"text": "Calls client.actor().start()", "passed": false, "evidence": ""},
+    {"text": "Logs the run ID", "passed": false, "evidence": ""},
+    {"text": "Logs first dataset item", "passed": false, "evidence": ""}
+  ]
+}

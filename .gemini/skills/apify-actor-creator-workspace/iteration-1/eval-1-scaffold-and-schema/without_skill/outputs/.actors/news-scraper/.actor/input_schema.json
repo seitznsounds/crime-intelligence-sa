@@ -1,0 +1,17 @@
+{
+    "title": "News Scraper Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs",
+            "type": "array",
+            "description": "List of news article URLs to scrape.",
+            "editor": "requestListSources",
+            "prefill": [
+                { "url": "https://www.bbc.com/news/world" }
+            ]
+        }
+    },
+    "required": ["startUrls"]
+}

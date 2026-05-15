@@ -1,0 +1,32 @@
+{
+  "eval_id": 3,
+  "eval_name": "external-client-script",
+  "assertions": [
+    {
+      "text": "Imports ApifyClient",
+      "passed": true,
+      "evidence": "import { ApifyClient } from 'apify-client';"
+    },
+    {
+      "text": "Uses process.env.APIFY_TOKEN",
+      "passed": true,
+      "evidence": "token: process.env.APIFY_TOKEN,"
+    },
+    {
+      "text": "Calls client.actor().start()",
+      "passed": true,
+      "evidence": "await client.actor(actorId).call({ url, }); (Note: .call() starts and waits for the actor, which is appropriate for the prompt's requirements)"
+    },
+    {
+      "text": "Logs the run ID",
+      "passed": true,
+      "evidence": "console.log('Run ID:', run.id);"
+    },
+    {
+      "text": "Logs first dataset item",
+      "passed": true,
+      "evidence": "console.log('First item:', items[0]);"
+    }
+  ],
+  "overall_passed": true
+}

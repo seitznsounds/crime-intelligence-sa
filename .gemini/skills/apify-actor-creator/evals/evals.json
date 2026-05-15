@@ -1,0 +1,26 @@
+{
+  "skill_name": "apify-actor-creator",
+  "evals": [
+    {
+      "id": 1,
+      "name": "scaffold-and-schema",
+      "prompt": "Create a new Apify actor named 'news-scraper' that takes a list of URLs and scrapes the main headline and publication date. Set up the input and dataset schemas. Don't implement the crawling logic yet, just the structure and schemas.",
+      "expected_output": "A directory .actors/news-scraper/ with .actor/actor.json, input_schema.json, and dataset_schema.json correctly defined.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "implement-crawler",
+      "prompt": "Implement the 'news-scraper' actor in .actors/news-scraper/ using CheerioCrawler. It should scrape the <h1> for the headline and a <meta name='pubdate'> or similar for the date. Include error handling and data pushing. Assume the structure from the previous step exists.",
+      "expected_output": "A src/main.ts file with correct CheerioCrawler implementation, using Actor.getInput and Actor.pushData.",
+      "files": [".actors/news-scraper/.actor/actor.json", ".actors/news-scraper/.actor/input_schema.json"]
+    },
+    {
+      "id": 3,
+      "name": "external-client-script",
+      "prompt": "Write a TypeScript script in scratch/run_news_scraper.ts that uses apify-client to run the 'news-scraper' actor (ID: 'user/news-scraper') with the URL 'https://example.com/news/1'. Log the run ID and the first item from the dataset.",
+      "expected_output": "A scratch/run_news_scraper.ts file that uses ApifyClient, handles the API token from process.env.APIFY_TOKEN, and correctly calls actor.start().",
+      "files": []
+    }
+  ]
+}

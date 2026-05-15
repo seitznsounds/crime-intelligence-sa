@@ -1,0 +1,46 @@
+{
+  "entity": "Madlanga Commission",
+  "formal_name": "Judicial Commission of Inquiry into Criminality, Political Interference, and Corruption in the Criminal Justice System",
+  "chairperson": "Justice Mbuyiseli Madlanga (Retired Constitutional Court Justice)",
+  "established_date": "July 2025",
+  "established_by": "President Cyril Ramaphosa",
+  "origin": "Explosive allegations by KZN Police Commissioner Lt-Gen Nhlanhla Mkhwanazi regarding the 'capture' of the justice system by criminal syndicates and political actors.",
+  "key_witnesses": [
+    {
+      "name": "Lt-Gen Nhlanhla Mkhwanazi",
+      "role": "KZN Police Commissioner",
+      "testimony_summary": "Detailed infiltration of SAPS, NPA, and intelligence services by criminal syndicates; alleged sabotage of political killing investigations."
+    },
+    {
+      "name": "Lt-Gen Dumisani Khumalo",
+      "role": "Head of Crime Intelligence",
+      "testimony_summary": "Named the 'Big Five' cartel as a sophisticated syndicate involved in drug trafficking, tender fraud, and contract killings."
+    },
+    {
+      "name": "Major-General Hendrik Flynn",
+      "role": "Hawks",
+      "testimony_summary": "Testified regarding the theft of R200 million worth of cocaine from a Hawks storage facility in Port Shepstone (2021)."
+    },
+    {
+      "name": "Witness D (Marius van der Merwe)",
+      "role": "Whistleblower",
+      "testimony_summary": "Key witness assassinated in December 2025 shortly before the submission of the first interim report."
+    },
+    {
+      "name": "Witness X",
+      "role": "Confidential Witness",
+      "testimony_summary": "Detailed corrupt relationship between Vusimuzi 'Cat' Matlala and senior police officials, including Major-General Lesetja Senona."
+    }
+  ],
+  "interim_findings": {
+    "first_report_date": "December 2025",
+    "key_findings": [
+      "Prima facie evidence of criminality (corruption, fraud, murder, perjury) involving SAPS and EMPD officials.",
+      "Systemic infiltration of specific nodes of the justice system by criminal networks.",
+      "Immediate referral of matters to the NPA and IPID for prosecution.",
+      "Recommendation for immediate suspension of high-ranking officials deemed a threat to investigations."
+    ],
+    "second_report_focus": "Drug seizures and narcotics theft; political interference in senior appointments; in-camera evidence from sensitive witnesses (Witness H)."
+  },
+  "status": "Ongoing; Final report expected August 2026."
+}

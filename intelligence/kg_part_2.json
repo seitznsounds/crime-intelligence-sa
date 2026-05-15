@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "hennie-van-heerden",
+      "type": "Person",
+      "name": "Hennie van Heerden",
+      "metadata": { "description": "First Deputy Chief Justice of South Africa (1997-2000) and Acting Chief Justice." }
+    },
+    {
+      "id": "pius-langa",
+      "type": "Person",
+      "name": "Pius Langa",
+      "metadata": { "description": "Chief Justice of South Africa (2005-2009), human rights lawyer, and member of the first Constitutional Court bench." }
+    },
+    {
+      "id": "dikgang-moseneke",
+      "type": "Person",
+      "name": "Dikgang Moseneke",
+      "metadata": { "description": "Deputy Chief Justice of South Africa (2005-2016) and former anti-apartheid activist imprisoned on Robben Island." }
+    },
+    {
+      "id": "bess-nkabinde",
+      "type": "Person",
+      "name": "Bess Nkabinde",
+      "metadata": { "description": "Justice of the Constitutional Court of South Africa (2006-2017) and Acting Deputy Chief Justice." }
+    },
+    {
+      "id": "dunstan-mlambo",
+      "type": "Person",
+      "name": "Dunstan Mlambo",
+      "metadata": { "description": "Deputy Chief Justice of South Africa (assumed 2025) and former Judge President of the Gauteng Division." }
+    },
+    {
+      "id": "mandisa-maya",
+      "type": "Person",
+      "name": "Mandisa Maya",
+      "metadata": { "description": "First woman Chief Justice of South Africa (assumed 2024) and former President of the Supreme Court of Appeal." }
+    },
+    {
+      "id": "sandile-ngcobo",
+      "type": "Person",
+      "name": "Sandile Ngcobo",
+      "metadata": { "description": "Chief Justice of South Africa (2009-2011) and member of the Truth and Reconciliation Commission amnesty committee." }
+    },
+    {
+      "id": "tholie-madala",
+      "type": "Person",
+      "name": "Tholie Madala",
+      "metadata": { "description": "Justice of the Constitutional Court of South Africa (1994-2008) and human rights lawyer from the Transkei." }
+    },
+    {
+      "id": "mbuyiseli-madlanga",
+      "type": "Person",
+      "name": "Mbuyiseli Madlanga",
+      "metadata": { "description": "Justice of the Constitutional Court and chair of the Madlanga Commission of Inquiry." }
+    },
+    {
+      "id": "jacob-zuma",
+      "type": "Person",
+      "name": "Jacob Zuma",
+      "metadata": { "description": "4th President of South Africa (2009-2018), leader of the ANC RET faction, and subject of numerous corruption trials." }
+    },
+    {
+      "id": "john-hlophe",
+      "type": "Person",
+      "name": "John Hlophe",
+      "metadata": { "description": "Former Judge President of the Western Cape High Court, impeached for gross misconduct." }
+    },
+    {
+      "id": "nelson-mandela",
+      "type": "Person",
+      "name": "Nelson Mandela",
+      "metadata": { "description": "First President of democratic South Africa and anti-apartheid icon." }
+    },
+    {
+      "id": "thabo-mbeki",
+      "type": "Person",
+      "name": "Thabo Mbeki",
+      "metadata": { "description": "Second President of democratic South Africa (1999-2008)." }
+    },
+    {
+      "id": "cyril-ramaphosa",
+      "type": "Person",
+      "name": "Cyril Ramaphosa",
+      "metadata": { "description": "5th President of South Africa and former ANC negotiator." }
+    },
+    {
+      "id": "arthur-chaskalson",
+      "type": "Person",
+      "name": "Arthur Chaskalson",
+      "metadata": { "description": "First President of the Constitutional Court and later Chief Justice of South Africa." }
+    },
+    {
+      "id": "ismail-mahomed",
+      "type": "Person",
+      "name": "Ismail Mahomed",
+      "metadata": { "description": "First post-apartheid Chief Justice and leading South African jurist." }
+    },
+    {
+      "id": "bulelani-ngcuka",
+      "type": "Person",
+      "name": "Bulelani Ngcuka",
+      "metadata": { "description": "First National Director of Public Prosecutions who initiated investigations into Jacob Zuma." }
+    },
+    {
+      "id": "schabir-shaik",
+      "type": "Person",
+      "name": "Schabir Shaik",
+      "metadata": { "description": "Financial advisor to Jacob Zuma, convicted of corruption in the Arms Deal." }
+    },
+    {
+      "id": "thuli-madonsela",
+      "type": "Person",
+      "name": "Thuli Madonsela",
+      "metadata": { "description": "Former Public Protector of South Africa who authored the 'Secure in Comfort' and 'State of Capture' reports." }
+    },
+    {
+      "id": "raymond-zondo",
+      "type": "Person",
+      "name": "Raymond Zondo",
+      "metadata": { "description": "Chief Justice of South Africa and chair of the Commission of Inquiry into State Capture." }
+    },
+    {
+      "id": "cat-matlala",
+      "type": "Person",
+      "name": "Cat Matlala",
+      "metadata": { "description": "Tender tycoon and director of Cat VIP Protection Services, central figure in the Madlanga Commission inquiry." }
+    },
+    {
+      "id": "constitutional-court",
+      "type": "Organization",
+      "name": "Constitutional Court of South Africa",
+      "metadata": { "description": "Apex court in the South African judicial system." }
+    },
+    {
+      "id": "supreme-court-of-appeal",
+      "type": "Organization",
+      "name": "Supreme Court of Appeal",
+      "metadata": { "description": "Second-highest court of appeal in South Africa, located in Bloemfontein." }
+    },
+    {
+      "id": "npa",
+      "type": "Organization",
+      "name": "National Prosecuting Authority",
+      "metadata": { "description": "The authority responsible for the prosecution of crime in South Africa." }
+    },
+    {
+      "id": "anc",
+      "type": "Organization",
+      "name": "African National Congress",
+      "metadata": { "description": "Ruling political party of South Africa." }
+    },
+    {
+      "id": "saps",
+      "type": "Organization",
+      "name": "South African Police Service",
+      "metadata": { "description": "National police force of South Africa." }
+    },
+    {
+      "id": "zondo-commission",
+      "type": "Event",
+      "name": "Zondo Commission (State Capture Inquiry)",
+      "metadata": { "description": "Commission of inquiry into allegations of state capture, fraud, and corruption in the public sector." }
+    },
+    {
+      "id": "madlanga-commission",
+      "type": "Event",
+      "name": "Madlanga Commission of Inquiry",
+      "metadata": { "description": "Judicial Commission of Inquiry into Criminality, Political Interference, and Corruption in the Criminal Justice System, established in 2025." }
+    }
+  ],
+  "edges": [
+    {
+      "source": "pius-langa",
+      "target": "constitutional-court",
+      "relationship": "PresidedBy",
+      "description": "Langa served as Chief Justice and Deputy President of the Constitutional Court."
+    },
+    {
+      "source": "dikgang-moseneke",
+      "target": "constitutional-court",
+      "relationship": "AffiliatedWith",
+      "description": "Moseneke served as Deputy Chief Justice and Justice of the Constitutional Court."
+    },
+    {
+      "source": "sandile-ngcobo",
+      "target": "constitutional-court",
+      "relationship": "PresidedBy",
+      "description": "Ngcobo served as Chief Justice and Justice of the Constitutional Court."
+    },
+    {
+      "source": "arthur-chaskalson",
+      "target": "constitutional-court",
+      "relationship": "PresidedBy",
+      "description": "Chaskalson was the first President of the Constitutional Court and later Chief Justice."
+    },
+    {
+      "source": "mandisa-maya",
+      "target": "constitutional-court",
+      "relationship": "PresidedBy",
+      "description": "Maya assumed the position of Chief Justice in 2024."
+    },
+    {
+      "source": "raymond-zondo",
+      "target": "constitutional-court",
+      "relationship": "PresidedBy",
+      "description": "Zondo served as Chief Justice and Deputy Chief Justice."
+    },
+    {
+      "source": "mbuyiseli-madlanga",
+      "target": "madlanga-commission",
+      "relationship": "PresidedBy",
+      "description": "Madlanga chairs the 2025 commission of inquiry into the justice system."
+    },
+    {
+      "source": "mbuyiseli-madlanga",
+      "target": "constitutional-court",
+      "relationship": "AffiliatedWith",
+      "description": "Madlanga served as a Justice of the Constitutional Court."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "anc",
+      "relationship": "AffiliatedWith",
+      "description": "Zuma was President and Deputy President of the ANC."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "zondo-commission",
+      "relationship": "InvestigatedBy",
+      "description": "The Zondo Commission investigated allegations of state capture involving Zuma."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "The NPA has prosecuted Zuma on multiple fraud and corruption charges."
+    },
+    {
+      "source": "john-hlophe",
+      "target": "pius-langa",
+      "relationship": "ConflictWith",
+      "description": "Langa led the Constitutional Court in lodging a complaint against Hlophe."
+    },
+    {
+      "source": "john-hlophe",
+      "target": "dikgang-moseneke",
+      "relationship": "ConflictWith",
+      "description": "Hlophe attacked Moseneke during the Judicial Service Commission proceedings."
+    },
+    {
+      "source": "john-hlophe",
+      "target": "bess-nkabinde",
+      "relationship": "ConflictWith",
+      "description": "Hlophe allegedly tried to improperly influence Nkabinde in the Zuma case."
+    },
+    {
+      "source": "thuli-madonsela",
+      "target": "jacob-zuma",
+      "relationship": "ConflictWith",
+      "description": "Madonsela's investigations into Nkandla and State Capture directly challenged Zuma's administration."
+    },
+    {
+      "source": "schabir-shaik",
+      "target": "jacob-zuma",
+      "relationship": "AffiliatedWith",
+      "description": "Shaik was Zuma's financial advisor whose conviction led to Zuma's initial dismissal."
+    },
+    {
+      "source": "bulelani-ngcuka",
+      "target": "jacob-zuma",
+      "relationship": "ConflictWith",
+      "description": "Ngcuka initiated the first corruption investigation into Zuma."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "madlanga-commission",
+      "relationship": "InvestigatedBy",
+      "description": "Matlala is a central figure in the Madlanga Commission inquiry into SAPS capture."
+    },
+    {
+      "source": "cat-matlala",
+      "target": "saps",
+      "relationship": "ConflictWith",
+      "description": "Matlala is implicated in tender fraud and 'police capture' within the SAPS."
+    },
+    {
+      "source": "cyril-ramaphosa",
+      "target": "madlanga-commission",
+      "relationship": "Funded",
+      "description": "President Ramaphosa established and commissioned the Madlanga Commission in 2025."
+    },
+    {
+      "source": "cyril-ramaphosa",
+      "target": "anc",
+      "relationship": "AffiliatedWith",
+      "description": "Ramaphosa is the current President of the ANC."
+    },
+    {
+      "source": "thabo-mbeki",
+      "target": "pius-langa",
+      "relationship": "AffiliatedWith",
+      "description": "Mbeki appointed Langa as Chief Justice."
+    },
+    {
+      "source": "nelson-mandela",
+      "target": "arthur-chaskalson",
+      "relationship": "AffiliatedWith",
+      "description": "Mandela appointed Chaskalson to lead the newly established Constitutional Court."
+    }
+  ]
+}

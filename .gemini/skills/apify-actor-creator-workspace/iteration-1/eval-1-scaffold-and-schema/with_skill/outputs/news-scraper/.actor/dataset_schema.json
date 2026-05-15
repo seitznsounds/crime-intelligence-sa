@@ -1,0 +1,47 @@
+{
+    "title": "News Scraper Dataset",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "url": {
+            "title": "URL",
+            "type": "string",
+            "format": "uri"
+        },
+        "headline": {
+            "title": "Headline",
+            "type": "string"
+        },
+        "publicationDate": {
+            "title": "Publication Date",
+            "type": "string",
+            "format": "date-time"
+        }
+    },
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "url",
+                    "headline",
+                    "publicationDate"
+                ]
+            },
+            "display": {
+                "properties": {
+                    "url": {
+                        "title": "URL",
+                        "format": "link"
+                    },
+                    "headline": {
+                        "title": "Headline"
+                    },
+                    "publicationDate": {
+                        "title": "Published At"
+                    }
+                }
+            }
+        }
+    }
+}

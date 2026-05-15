@@ -1,0 +1,11 @@
+{
+  "eval_id": 2,
+  "eval_name": "implement-crawler",
+  "expectations": [
+    {"text": "Imports Actor from apify", "passed": true, "evidence": "Imports Actor from apify"},
+    {"text": "Uses CheerioCrawler", "passed": false, "evidence": "Does not use CheerioCrawler, only scaffolding logic"},
+    {"text": "Calls pushData", "passed": false, "evidence": "Does not call pushData"},
+    {"text": "Calls Actor.getInput", "passed": true, "evidence": "Calls Actor.getInput"},
+    {"text": "Includes error handling", "passed": false, "evidence": "No error handling in crawler logic (which is missing)"}
+  ]
+}

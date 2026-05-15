@@ -1,0 +1,11 @@
+{
+  "eval_id": 2,
+  "eval_name": "implement-crawler",
+  "expectations": [
+    {"text": "Imports Actor from apify", "passed": true, "evidence": "Imports Actor from apify"},
+    {"text": "Uses CheerioCrawler", "passed": true, "evidence": "Uses CheerioCrawler"},
+    {"text": "Calls pushData", "passed": true, "evidence": "Calls pushData"},
+    {"text": "Calls Actor.getInput", "passed": true, "evidence": "Calls Actor.getInput"},
+    {"text": "Includes error handling", "passed": true, "evidence": "Includes try-catch and failedRequestHandler"}
+  ]
+}

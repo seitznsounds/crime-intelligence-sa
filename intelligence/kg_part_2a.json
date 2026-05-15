@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "south-africa",
+      "type": "Location",
+      "name": "South Africa",
+      "metadata": { "description": "The country whose criminal procedure and legal system are the subject of the analysis." }
+    },
+    {
+      "id": "npa",
+      "type": "Organization",
+      "name": "National Prosecuting Authority",
+      "metadata": { "description": "The single national authority responsible for instituting criminal proceedings on behalf of the State in South Africa." }
+    },
+    {
+      "id": "saps",
+      "type": "Organization",
+      "name": "South African Police Service",
+      "metadata": { "description": "The national police force responsible for investigating crimes and carrying out arrests." }
+    },
+    {
+      "id": "constitutional-court",
+      "type": "Organization",
+      "name": "Constitutional Court of South Africa",
+      "metadata": { "description": "The highest court in South Africa for all constitutional matters, including the validity of criminal procedures." }
+    },
+    {
+      "id": "supreme-court-of-appeal",
+      "type": "Organization",
+      "name": "Supreme Court of Appeal (SCA)",
+      "metadata": { "description": "The second-highest court in South Africa, which hears appeals from the High Courts." }
+    },
+    {
+      "id": "high-court",
+      "type": "Organization",
+      "name": "High Court of South Africa",
+      "metadata": { "description": "Superior courts with original jurisdiction over serious crimes and appellate jurisdiction over lower courts." }
+    },
+    {
+      "id": "magistrates-court",
+      "type": "Organization",
+      "name": "Magistrate's Court",
+      "metadata": { "description": "Lower courts that handle the majority of criminal cases and conduct preliminary inquiries for children." }
+    },
+    {
+      "id": "jacob-zuma",
+      "type": "Person",
+      "name": "Jacob Zuma",
+      "metadata": { "description": "Former President of South Africa, whose legal cases significantly impacted the interpretation of prosecutorial independence." }
+    },
+    {
+      "id": "tony-yengeni",
+      "type": "Person",
+      "name": "Tony Yengeni",
+      "metadata": { "description": "Politician involved in a high-profile fraud case that tested the limits of plea and sentence agreements." }
+    },
+    {
+      "id": "sanderson",
+      "type": "Person",
+      "name": "Sanderson",
+      "metadata": { "description": "Appellant in the landmark case Sanderson v Attorney-General, which established the criteria for a 'reasonable time' for trial." }
+    },
+    {
+      "id": "b-singh",
+      "type": "Person",
+      "name": "Singh",
+      "metadata": { "description": "An investigator whose case against the NPA clarified the requirements for obtaining a 'nolle prosequi' certificate." }
+    },
+    {
+      "id": "scorpions",
+      "type": "Organization",
+      "name": "Directorate of Special Operations (Scorpions)",
+      "metadata": { "description": "A former elite investigative unit involved in high-profile criminal investigations." }
+    },
+    {
+      "id": "legal-aid-board",
+      "type": "Organization",
+      "name": "Legal Aid Board",
+      "metadata": { "description": "The body responsible for providing legal representation to indigent accused persons to prevent 'substantial injustice'." }
+    },
+    {
+      "id": "child-protection-unit",
+      "type": "Organization",
+      "name": "SAPS Child Protection Unit",
+      "metadata": { "description": "A specialized police unit responsible for investigating crimes involving children." }
+    },
+    {
+      "id": "s-v-makwanyane",
+      "type": "Event",
+      "name": "S v Makwanyane",
+      "metadata": { "description": "The landmark 1995 Constitutional Court case that abolished the death penalty in South Africa." }
+    },
+    {
+      "id": "ndpp-v-zuma",
+      "type": "Event",
+      "name": "NDPP v Zuma",
+      "metadata": { "description": "A key legal event concerning the exercise of prosecutorial discretion and political interference." }
+    },
+    {
+      "id": "shabalala-case",
+      "type": "Event",
+      "name": "Shabalala v Attorney-General, Transvaal",
+      "metadata": { "description": "A critical case that ended docket privilege and established the right of access to witness statements." }
+    },
+    {
+      "id": "in-re-goniwe",
+      "type": "Event",
+      "name": "In re Goniwe",
+      "metadata": { "description": "A notable inquest into the deaths of the 'Cradock Four', illustrating the use of specialized judicial inquiries." }
+    }
+  ],
+  "edges": [
+    {
+      "source": "npa",
+      "target": "south-africa",
+      "relationship": "AffiliatedWith",
+      "description": "The NPA is the primary state body for prosecutions in South Africa."
+    },
+    {
+      "source": "saps",
+      "target": "south-africa",
+      "relationship": "AffiliatedWith",
+      "description": "The national police force of South Africa."
+    },
+    {
+      "source": "constitutional-court",
+      "target": "s-v-makwanyane",
+      "relationship": "PresidedBy",
+      "description": "The Constitutional Court heard and decided the case that abolished the death penalty."
+    },
+    {
+      "source": "supreme-court-of-appeal",
+      "target": "ndpp-v-zuma",
+      "relationship": "PresidedBy",
+      "description": "The SCA ruled on matters regarding the NPA's decisions concerning Jacob Zuma."
+    },
+    {
+      "source": "jacob-zuma",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "Jacob Zuma's prosecutions involved significant legal disputes with the NPA."
+    },
+    {
+      "source": "tony-yengeni",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "Yengeni challenged the validity of a plea and sentence agreement with the NPA."
+    },
+    {
+      "source": "sanderson",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "Sanderson challenged the NPA's delay in bringing his case to trial."
+    },
+    {
+      "source": "child-protection-unit",
+      "target": "sanderson",
+      "relationship": "InvestigatedBy",
+      "description": "The CPU investigated the allegations against Sanderson."
+    },
+    {
+      "source": "b-singh",
+      "target": "scorpions",
+      "relationship": "AffiliatedWith",
+      "description": "Singh was a member of the Directorate of Special Operations (Scorpions)."
+    },
+    {
+      "source": "b-singh",
+      "target": "npa",
+      "relationship": "ConflictWith",
+      "description": "Singh sought a 'nolle prosequi' certificate from the NPA to pursue a private prosecution."
+    },
+    {
+      "source": "high-court",
+      "target": "shabalala-case",
+      "relationship": "PresidedBy",
+      "description": "The High Court (and later Constitutional Court) decided on docket access in the Shabalala case."
+    },
+    {
+      "source": "legal-aid-board",
+      "target": "magistrates-court",
+      "relationship": "AffiliatedWith",
+      "description": "The Legal Aid Board provides defense services in the lower courts."
+    }
+  ]
+}

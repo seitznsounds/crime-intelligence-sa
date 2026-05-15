@@ -6,6 +6,7 @@ import { Network, Activity, ShieldAlert, Zap, Search, Fingerprint, Globe, Chevro
 import PageShell from "@/components/layout/PageShell";
 import { getNetworkData, inferLinks } from "./actions";
 import { D3NetworkMap } from "@/components/intel/D3NetworkMap";
+import { IntelligenceDrawer } from "@/components/intel/IntelligenceDrawer";
 
 export default function NetworkMapPage({ 
   initialNodes, 
@@ -236,84 +237,14 @@ export default function NetworkMapPage({
           </div>
 
           {/* Dossier Side Panel (Now absolute within Map Area) */}
-          <AnimatePresence>
-            {selectedNode && (
-              <motion.div 
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: 20 }}
-                className="absolute top-6 bottom-6 right-6 w-[calc(100%-3rem)] sm:w-full max-w-[340px] glass-card border-border-glass bg-background/90 backdrop-blur-2xl p-6 sm:p-8 z-50 shadow-glow-crimson flex flex-col overflow-y-auto"
-              >
-                <button 
-                  onClick={() => setSelectedNode(null)}
-                  className="self-end text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors mb-8"
-                >
-                  Close Dossier [X]
-                </button>
-
-                <div className="flex-1">
-                  <div className="inline-flex items-center gap-2 px-2 py-0.5 bg-accent-crimson/10 text-accent-crimson text-[10px] font-bold tracking-widest uppercase rounded border border-accent-crimson/20 mb-4">
-                    Entity_Profile_{selectedNode.id.substring(0, 8)}
-                  </div>
-                  <h2 className="text-2xl font-bold tracking-tighter uppercase mb-2 text-foreground leading-tight">{selectedNode.name}</h2>
-                  <p className="text-[11px] text-muted-foreground font-mono mb-8 uppercase tracking-widest">Classification: {selectedNode.type}</p>
-
-                  <div className="space-y-6">
-                    <div className="p-5 bg-bg-glass border border-border-glass rounded-2xl">
-                      <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-4">Risk Exposure Index</p>
-                      <div className="h-2 bg-bg-glass-heavy rounded-full overflow-hidden mb-4">
-                        <motion.div 
-                          className="h-full bg-accent-crimson shadow-glow-crimson"
-                          initial={{ width: 0 }}
-                          animate={{ width: `${selectedNode.risk}%` }}
-                          transition={{ duration: 1 }}
-                        />
-                      </div>
-                      <div className="flex justify-between items-center text-[11px] font-mono">
-                        <span className="text-muted-foreground">Threat Score</span>
-                        <span className="text-accent-crimson font-bold">{selectedNode.risk}%</span>
-                      </div>
-                    </div>
-
-                    <div className="space-y-4">
-                      <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest border-b border-border-glass pb-2">Verified Connections</p>
-                      {edges.filter(e => (typeof e.source === 'string' ? e.source : e.source.id) === selectedNode.id || (typeof e.target === 'string' ? e.target : e.target.id) === selectedNode.id).map((edge, i) => {
-                        const otherId = (typeof edge.source === 'string' ? edge.source : edge.source.id) === selectedNode.id 
-                          ? (typeof edge.target === 'string' ? edge.target : edge.target.id) 
-                          : (typeof edge.source === 'string' ? edge.source : edge.source.id);
-                        const linkedTo = nodes.find(n => n.id === otherId);
-                        if (!linkedTo) return null;
-                        return (
-                          <div key={i} className="flex justify-between items-center py-2.5 border-b border-border-glass/50">
-                            <div className="flex items-center gap-3">
-                              <Fingerprint className="w-3.5 h-3.5 text-accent-gold" />
-                              <span className="text-[11px] font-bold uppercase tracking-tight text-foreground break-all">{linkedTo.name}</span>
-                            </div>
-                            <span className="text-[10px] font-mono text-muted-foreground italic uppercase shrink-0 text-right">{edge.label}</span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-8 pt-6 border-t border-border-glass">
-                   <div className="flex gap-2">
-                    <button 
-                      onClick={handleInferLinks}
-                      disabled={isInferring}
-                      className="flex-1 py-3 bg-accent-blue/10 border border-accent-blue/30 text-accent-blue text-[9px] font-black uppercase tracking-widest rounded-xl hover:bg-accent-blue hover:text-white transition-all disabled:opacity-50"
-                    >
-                      {isInferring ? <Loader2 className="w-3 h-3 animate-spin mx-auto" /> : "Infer unrecorded Links"}
-                    </button>
-                    <button className="flex-1 py-3 bg-foreground text-background text-[9px] font-black uppercase tracking-widest rounded-xl hover:bg-accent-crimson hover:text-white transition-all">
-                      Full Investigation
-                    </button>
-                   </div>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+          <IntelligenceDrawer 
+            isOpen={!!selectedNode} 
+            onClose={() => setSelectedNode(null)} 
+            entityId={selectedNode?.id || null}
+            entityType={selectedNode?.type || 'Unknown'}
+            entityName={selectedNode?.name || 'Unknown Entity'}
+            baseRisk={selectedNode?.risk || 0}
+          />
         </div>
       </div>
 

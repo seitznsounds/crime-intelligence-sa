@@ -47,6 +47,32 @@
         "@microsoft/clarity-mcp-server",
         "--clarity_api_token=your-api-token-here"
       ]
+    },
+    "apify": {
+      "description": "Extract data from social media, search engines, maps, and e-commerce sites using Apify's ready-made scrapers and actors via MCP.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server"
+      ],
+      "env": {
+        "APIFY_TOKEN": "<your-apify-token>"
+      }
+    },
+    "github-official": {
+      "description": "GitHub's official MCP Server. Interact with GitHub repositories, issues, pull requests, and more directly from Claude.",
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<your-github-token>"
+      }
     }
   }
 }
