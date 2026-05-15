@@ -62,8 +62,8 @@ export async function getNetworkData() {
     addNode(link.org, "ORG");
 
     edges.push({
-      from: link.person.id,
-      to: link.org.id,
+      source: link.person.id,
+      target: link.org.id,
       label: link.role,
       weight: link.confidence / 100
     });
@@ -75,8 +75,8 @@ export async function getNetworkData() {
     addNode(rel.target_person, "PEP");
 
     edges.push({
-      from: rel.source_person.id,
-      to: rel.target_person.id,
+      source: rel.source_person.id,
+      target: rel.target_person.id,
       label: rel.relationship_type,
       weight: rel.confidence / 100
     });

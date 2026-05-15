@@ -41,8 +41,11 @@ export default function NetworkMapPage({
   });
 
   const filteredEdges = edges.filter(e => {
-    const sourceId = typeof e.source === 'string' ? e.source : e.source.id;
-    const targetId = typeof e.target === 'string' ? e.target : e.target.id;
+    const sourceId = typeof e.source === 'string' ? e.source : e.source?.id;
+    const targetId = typeof e.target === 'string' ? e.target : e.target?.id;
+    
+    if (!sourceId || !targetId) return false;
+    
     return filteredNodes.some(n => n.id === sourceId) && filteredNodes.some(n => n.id === targetId);
   });
 
@@ -67,8 +70,8 @@ export default function NetworkMapPage({
         const infTargetId = inf.id;
 
         if (!newEdges.some(e => {
-          const s = typeof e.source === 'string' ? e.source : e.source.id;
-          const t = typeof e.target === 'string' ? e.target : e.target.id;
+          const s = typeof e.source === 'string' ? e.source : e.source?.id;
+          const t = typeof e.target === 'string' ? e.target : e.target?.id;
           return (s === infSourceId && t === infTargetId) || (s === infTargetId && t === infSourceId);
         })) {
           newEdges.push({
@@ -202,14 +205,9 @@ export default function NetworkMapPage({
           ) : (
             <D3NetworkMap 
               nodes={filteredNodes} 
-              edges={filteredEdges.map(e => ({
-                  ...e,
-                  source: typeof e.source === 'string' ? e.source : e.source.id,
-                  target: typeof e.target === 'string' ? e.target : e.target.id
-              }))} 
+              edges={filteredEdges} 
               onNodeClick={setSelectedNode} 
-            />
-          )}
+            />          )}
 
           {/* Legend Overlay - Bottom Left (Now inside Map Area) */}
           <div className="absolute bottom-6 left-6 glass-card p-4 border-border-glass bg-background/40 backdrop-blur-md hidden md:block z-20">
