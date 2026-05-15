@@ -78,18 +78,45 @@ export default function SyndicatePage({ initialSyndicates }: { initialSyndicates
       badgeColor="crimson"
       icon={<ShieldAlert className="w-6 h-6 text-accent-crimson" />}
       breadcrumbs={[{ label: "Home", href: "/" }, { label: "Investigate", href: "/expose" }, { label: "Syndicate Structures", href: "/syndicates" }]}
-      actions={
-        <div className="flex flex-wrap gap-2">
-          {initialSyndicates.map(s => (
-            <button key={s.id} onClick={() => setActiveSyndicateId(s.id)} className={`px-4 py-2 rounded-xl text-[11px] font-bold uppercase tracking-widest transition-all ${activeSyndicateId === s.id ? 'bg-accent-crimson text-white' : 'bg-bg-glass border border-border-glass text-muted-foreground hover:text-foreground'}`}>{s.name}</button>
-          ))}
-        </div>
-      }
     >
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 h-[600px] sm:h-[700px]">
+      <div className="flex flex-col lg:flex-row gap-6 h-[600px] sm:h-[750px]">
+        {/* Syndicate Selection Sidebar */}
+        <div className="w-full lg:w-64 space-y-4 shrink-0 flex flex-col">
+          <div className="glass-card p-5 border-border-glass bg-bg-glass">
+            <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-crimson mb-4 flex items-center gap-2">
+              <Users className="w-3.5 h-3.5" /> Tracked Syndicates
+            </h3>
+            <div className="flex flex-col gap-2">
+              {initialSyndicates.map(s => (
+                <button 
+                  key={s.id} 
+                  onClick={() => {
+                    setActiveSyndicateId(s.id);
+                    setSelectedNode(null);
+                  }} 
+                  className={`flex flex-col text-left px-4 py-3 rounded-xl transition-all border ${
+                    activeSyndicateId === s.id 
+                      ? 'bg-accent-crimson/10 border-accent-crimson/30 shadow-glow-crimson' 
+                      : 'bg-background border-border-glass hover:bg-bg-glass hover:border-border-glass-bright'
+                  }`}
+                >
+                  <span className={`text-[12px] font-bold uppercase tracking-tight ${activeSyndicateId === s.id ? 'text-accent-crimson' : 'text-foreground'}`}>{s.name}</span>
+                  <span className="text-[9px] font-mono text-muted-foreground uppercase tracking-widest mt-1">{s.focus}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+          
+          <div className="glass-card p-5 border-border-glass bg-bg-glass hidden lg:block mt-auto">
+             <p className="text-[10px] text-muted-foreground leading-relaxed italic">
+               Select a syndicate to view its verified hierarchy. Operations and personnel are mapped dynamically from forensic links.
+             </p>
+          </div>
+        </div>
+
         {/* Hierarchy Tree */}
-        <div className="lg:col-span-3 overflow-auto p-6 sm:p-8 border border-border-glass rounded-3xl bg-bg-glass scrollbar-hide relative">
-          <div className="min-w-fit flex justify-center pt-6">
+        <div className="flex-1 overflow-auto p-6 sm:p-8 border border-border-glass rounded-3xl bg-bg-glass-heavy scrollbar-hide relative flex items-center justify-center">
+          <div className="min-w-fit pt-6 pb-12">
             {hierarchy ? renderNode(hierarchy) : (
               <div className="flex flex-col items-center justify-center h-full text-muted-foreground">
                 <Users className="w-12 h-12 mb-4 opacity-20" />
@@ -100,41 +127,41 @@ export default function SyndicatePage({ initialSyndicates }: { initialSyndicates
         </div>
 
         {/* Node Dossier Sidebar */}
-        <div className={`space-y-4 transition-all duration-300 ${selectedNode ? 'opacity-100' : 'opacity-40'}`}>
+        <div className={`w-full lg:w-[320px] shrink-0 transition-all duration-300 ${selectedNode ? 'opacity-100' : 'opacity-40 pointer-events-none'}`}>
           {selectedNode ? (
             <>
-              <div className="glass-card p-5 border-border-glass bg-bg-glass h-full flex flex-col">
-                <button onClick={() => setSelectedNode(null)} className="self-end text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors mb-6">× Close</button>
-                <div className="flex-1 space-y-5">
+              <div className="glass-card p-6 border-border-glass bg-bg-glass h-full flex flex-col relative overflow-hidden">
+                <button onClick={() => setSelectedNode(null)} className="absolute top-6 right-6 text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors z-10">× Close</button>
+                <div className="flex-1 space-y-6 pt-4">
                   <div>
                     <div className="inline-flex items-center gap-2 px-2 py-0.5 bg-bg-glass border border-border-glass rounded text-[11px] font-mono tracking-widest uppercase text-muted-foreground mb-3">Node_Type_{selectedNode.type}</div>
-                    <h2 className="text-2xl font-bold tracking-tighter uppercase mb-1 text-foreground">{selectedNode.name}</h2>
+                    <h2 className="text-2xl font-bold tracking-tighter uppercase mb-1 text-foreground leading-tight">{selectedNode.name}</h2>
                     <p className="text-[12px] font-mono text-accent-gold font-bold tracking-[0.3em] uppercase">{selectedNode.role}</p>
                   </div>
-                  <div className="p-4 bg-bg-glass border border-border-glass rounded-2xl">
-                    <p className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest mb-3 flex items-center gap-2"><Activity className="w-3.5 h-3.5" /> Intelligence Summary</p>
-                    <p className="text-[13px] text-muted-foreground leading-relaxed font-light italic">"{selectedNode.desc || 'No detailed description available for this command level.'}"</p>
+                  <div className="p-4 bg-background/50 border border-border-glass rounded-2xl">
+                    <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-3 flex items-center gap-2"><Activity className="w-3.5 h-3.5" /> Intelligence Summary</p>
+                    <p className="text-[12px] text-muted-foreground leading-relaxed font-light italic">"{selectedNode.desc || 'No detailed description available for this command level.'}"</p>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
-                    <div className="glass-card p-4 border-border-glass bg-bg-glass"><p className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest mb-2">Direct Links</p><p className="text-xl font-bold font-mono text-foreground">{selectedNode.children?.length ?? 0}</p></div>
-                    <div className="glass-card p-4 border-border-glass bg-bg-glass"><p className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest mb-2">Risk Score</p><p className="text-xl font-bold font-mono text-accent-crimson">{selectedNode.risk}%</p></div>
+                    <div className="glass-card p-4 border-border-glass bg-background/50"><p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-2">Direct Links</p><p className="text-xl font-bold font-mono text-foreground">{selectedNode.children?.length ?? 0}</p></div>
+                    <div className="glass-card p-4 border-border-glass bg-background/50"><p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-2">Risk Score</p><p className="text-xl font-bold font-mono text-accent-crimson">{selectedNode.risk}%</p></div>
                   </div>
                   <div>
                     <p className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest mb-3">Infiltration Tactics</p>
                     <div className="flex gap-3">
-                      <div className="p-2.5 bg-bg-glass rounded-xl border border-border-glass"><Scale className="w-4 h-4 text-accent-blue" /></div>
-                      <div className="p-2.5 bg-bg-glass rounded-xl border border-border-glass"><Lock className="w-4 h-4 text-accent-gold" /></div>
-                      <div className="p-2.5 bg-bg-glass rounded-xl border border-border-glass"><Zap className="w-4 h-4 text-accent-crimson" /></div>
+                      <div className="p-2.5 bg-background/50 rounded-xl border border-border-glass"><Scale className="w-4 h-4 text-accent-blue" /></div>
+                      <div className="p-2.5 bg-background/50 rounded-xl border border-border-glass"><Lock className="w-4 h-4 text-accent-gold" /></div>
+                      <div className="p-2.5 bg-background/50 rounded-xl border border-border-glass"><Zap className="w-4 h-4 text-accent-crimson" /></div>
                     </div>
                   </div>
                 </div>
-                <button className="mt-auto w-full py-4 bg-accent-crimson text-white text-[11px] font-bold uppercase tracking-[0.2em] rounded-2xl hover:scale-[1.02] transition-all">Generate Vulnerability Report</button>
+                <button className="mt-8 w-full py-4 bg-accent-crimson text-white text-[11px] font-bold uppercase tracking-[0.2em] rounded-2xl hover:scale-[1.02] transition-all shadow-glow-crimson">Generate Vulnerability Report</button>
               </div>
             </>
           ) : (
-            <div className="glass-card p-6 border-border-glass bg-bg-glass h-full flex flex-col items-center justify-center text-center">
+            <div className="glass-card p-6 border-border-glass bg-bg-glass h-full flex flex-col items-center justify-center text-center hidden lg:flex">
               <Users className="w-8 h-8 text-muted-foreground/30 mb-4" />
-              <p className="text-[13px] text-muted-foreground font-bold uppercase tracking-widest">Select a node to view dossier</p>
+              <p className="text-[11px] text-muted-foreground font-bold uppercase tracking-widest">Select a node to view dossier</p>
             </div>
           )}
         </div>
