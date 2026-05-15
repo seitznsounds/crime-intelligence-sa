@@ -191,7 +191,7 @@ export const NAV_ACTIONS: NavItem[] = [
   },
   {
     label: "Support Project",
-    href: "/about#support",
+    href: "/donate",
     icon: Heart,
     description: "Contribute to project sustainability",
   },

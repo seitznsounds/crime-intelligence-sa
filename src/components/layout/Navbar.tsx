@@ -251,9 +251,9 @@ export default function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", stiffness: 300, damping: 30 }}
-              className="absolute top-0 right-0 bottom-0 w-full max-w-sm bg-background border-l border-border-glass overflow-y-auto"
+              className="absolute top-0 right-0 bottom-0 w-full max-w-sm bg-background border-l border-border-glass overflow-y-auto z-[45]"
             >
-              <div className="p-6 pt-20 space-y-6">
+              <div className="p-6 pt-20 pb-32 space-y-6">
                 {NAV_PILLARS.map((pillar) => {
                   const colors = PILLAR_COLORS[pillar.color];
                   return (

@@ -84,13 +84,13 @@ export const DonationModule = () => {
   }
 
   return (
-    <div className="glass-card border border-white/10 rounded-2xl bg-background/80 backdrop-blur-md overflow-hidden">
+    <div className="glass-card border border-border-glass rounded-2xl bg-background/80 backdrop-blur-md overflow-hidden">
       {/* HEADER: Counter */}
       <div className="p-6 border-b border-border-glass bg-bg-glass flex justify-between items-center">
         <div className="space-y-1">
           <div className="flex items-center gap-2 text-accent-blue">
             <TrendingUp className="w-4 h-4" />
-            <h4 className="text-[12px] font-black uppercase tracking-widest italic">Project Fuel Gauge</h4>
+            <h4 className="text-[12px] font-black uppercase tracking-widest italic text-foreground">Project Fuel Gauge</h4>
           </div>
           <p className="text-[10px] text-muted-foreground font-mono">Transparency Maintenance Fund</p>
         </div>
@@ -102,13 +102,13 @@ export const DonationModule = () => {
 
       <div className="p-6 space-y-6">
         {/* PURPOSE TOGGLE */}
-        <div className="grid grid-cols-2 gap-2 p-1 bg-white/5 rounded-xl border border-white/10">
+        <div className="grid grid-cols-2 gap-2 p-1 bg-bg-glass rounded-xl border border-border-glass">
           <button 
             onClick={() => setPurpose('project')}
             className={`flex items-center justify-center gap-2 py-3 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all ${
               purpose === 'project' 
                 ? 'bg-accent-blue text-white shadow-glow-blue-sm' 
-                : 'text-white/40 hover:bg-white/5'
+                : 'text-muted-foreground hover:bg-bg-glass-heavy'
             }`}
           >
             <Target className="w-3.5 h-3.5" />
@@ -119,7 +119,7 @@ export const DonationModule = () => {
             className={`flex items-center justify-center gap-2 py-3 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all ${
               purpose === 'creator' 
                 ? 'bg-accent-gold text-black shadow-glow-gold-sm' 
-                : 'text-white/40 hover:bg-white/5'
+                : 'text-muted-foreground hover:bg-bg-glass-heavy'
             }`}
           >
             <Coffee className="w-3.5 h-3.5" />
@@ -129,7 +129,7 @@ export const DonationModule = () => {
 
         {/* AMOUNT SELECTOR */}
         <div className="space-y-3">
-          <label className="text-[10px] font-black uppercase tracking-widest text-white/30">Select Amount (ZAR)</label>
+          <label className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">Select Amount (ZAR)</label>
           <div className="grid grid-cols-4 gap-2">
             {PRESET_AMOUNTS.map((amt) => (
               <button
@@ -137,8 +137,8 @@ export const DonationModule = () => {
                 onClick={() => { setAmount(amt); setCustomAmount(""); }}
                 className={`py-3 rounded-xl border text-[12px] font-bold font-mono transition-all ${
                   amount === amt && !customAmount 
-                    ? 'border-white text-white bg-white/10' 
-                    : 'border-white/5 text-white/40 hover:bg-white/5'
+                    ? 'border-foreground text-foreground bg-bg-glass-heavy' 
+                    : 'border-border-glass text-muted-foreground hover:bg-bg-glass'
                 }`}
               >
                 R{amt}
@@ -146,26 +146,26 @@ export const DonationModule = () => {
             ))}
           </div>
           <div className="relative">
-            <DollarSign className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" />
+            <DollarSign className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground/30" />
             <input 
               type="number"
               placeholder="Enter Custom Amount"
               value={customAmount}
               onChange={(e) => setCustomAmount(e.target.value)}
-              className="w-full bg-white/5 border border-white/10 rounded-xl py-4 pl-12 pr-4 text-sm font-mono text-white focus:outline-none focus:border-accent-blue transition-all"
+              className="w-full bg-bg-glass border border-border-glass rounded-xl py-4 pl-12 pr-4 text-sm font-mono text-foreground focus:outline-none focus:border-accent-blue transition-all"
             />
           </div>
         </div>
 
         {/* EMAIL (Required by Paystack) */}
         <div className="space-y-3">
-          <label className="text-[10px] font-black uppercase tracking-widest text-white/30">Contributor Email</label>
+          <label className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">Contributor Email</label>
           <input 
             type="email"
             placeholder="investigator@intelligence.sa"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full bg-white/5 border border-white/10 rounded-xl py-4 px-4 text-sm font-mono text-white focus:outline-none focus:border-accent-blue transition-all"
+            className="w-full bg-bg-glass border border-border-glass rounded-xl py-4 px-4 text-sm font-mono text-foreground focus:outline-none focus:border-accent-blue transition-all"
           />
         </div>
 
@@ -177,8 +177,8 @@ export const DonationModule = () => {
         />
         
         <div className="flex items-center justify-center gap-2 pt-2">
-          <ShieldCheck className="w-3 h-3 text-white/20" />
-          <p className="text-[8px] font-bold text-white/20 uppercase tracking-[0.2em]">AES-256 Secure Terminal | Paystack Encrypted</p>
+          <ShieldCheck className="w-3 h-3 text-muted-foreground/20" />
+          <p className="text-[8px] font-bold text-muted-foreground/20 uppercase tracking-[0.2em]">AES-256 Secure Terminal | Paystack Encrypted</p>
         </div>
       </div>
     </div>
