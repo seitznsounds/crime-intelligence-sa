@@ -2,18 +2,18 @@
 
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
-import { 
-  ShieldAlert, 
-  BarChart3, 
-  Fingerprint, 
-  Search, 
-  ShieldCheck, 
-  ChevronRight, 
-  Network, 
-  Scale, 
-  Cpu, 
-  Database, 
-  Globe, 
+import {
+  ShieldAlert,
+  BarChart3,
+  Fingerprint,
+  Search,
+  ShieldCheck,
+  ChevronRight,
+  Network,
+  Scale,
+  Cpu,
+  Database,
+  Globe,
   Zap,
   ArrowRight,
   Info,
@@ -47,7 +47,7 @@ export default function Home() {
       </div>
 
       <div className="container relative z-10 pt-24 sm:pt-32 lg:pt-40 pb-24 sm:pb-32 px-6 sm:px-8">
-        <motion.div 
+        <motion.div
           className="max-w-6xl mx-auto"
           variants={containerVariants}
           initial="hidden"
@@ -55,7 +55,7 @@ export default function Home() {
         >
           {/* HERO SECTION */}
           <div className="text-center mb-24 sm:mb-32">
-            <motion.div 
+            <motion.div
               variants={itemVariants}
               className="inline-flex items-center gap-3 px-6 py-2 rounded-full bg-bg-glass border border-border mb-8 sm:mb-12"
             >
@@ -65,25 +65,25 @@ export default function Home() {
               </span>
               <span className="text-[10px] font-black tracking-[0.25em] uppercase text-muted-foreground">Digital Vigilance Protocol Active</span>
             </motion.div>
-            
-            <motion.h1 
+
+            <motion.h1
               variants={itemVariants}
-              className="text-[12vw] sm:text-7xl lg:text-8xl font-black mb-10 tracking-tight leading-[1.05] text-foreground italic break-words"
+              className="text-[10vw] sm:text-5xl lg:text-6xl font-black mb-10 tracking-tight leading-[1.05] text-foreground italic break-words"
             >
               DEMOCRATIZING <br />
               <span className="text-muted-foreground font-normal not-italic">INTELLIGENCE FOR</span> <br />
               <span className="text-accent-blue">JUSTICE.</span>
             </motion.h1>
-            
-            <motion.p 
+
+            <motion.p
               variants={itemVariants}
               className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
             >
-              South Africa's first high-fidelity intelligence hub. 
+              South Africa's first high-fidelity intelligence hub.
               We track the lifecycle of systemic corruption from street-level symptoms to the officials who facilitate them.
             </motion.p>
 
-            <motion.div 
+            <motion.div
               variants={itemVariants}
               className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6"
             >
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
 
           {/* MISSION OVERVIEW — LOGICAL LAYOUT */}
-          <motion.div 
+          <motion.div
             variants={itemVariants}
             className="mb-32 space-y-12"
           >
@@ -109,36 +109,35 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-1 relative">
               {/* Connector lines (Desktop) */}
               <div className="hidden lg:block absolute top-1/2 left-0 w-full h-[1px] bg-border-glass -translate-y-1/2 z-0" />
-              
+
               {[
-                { 
-                  step: "01", 
-                  title: "Intelligence Capture", 
+                {
+                  step: "01",
+                  title: "Intelligence Capture",
                   desc: "We ingest thousands of forensic documents, TRC archives, and live news feeds into our secure node network.",
                   icon: Database,
                   color: "blue"
                 },
-                { 
-                  step: "02", 
-                  title: "Agentic Distillation", 
+                {
+                  step: "02",
+                  title: "Agentic Distillation",
                   desc: "AI-driven RAG pipelines extract and cross-reference high-value entities, relationship links, and SCM anomalies.",
                   icon: Brain,
                   color: "gold"
                 },
-                { 
-                  step: "03", 
-                  title: "Radical Exposure", 
+                {
+                  step: "03",
+                  title: "Radical Exposure",
                   desc: "Validated intelligence is surfaced through risk-ranked dossiers and interactive corruption maps for public accountability.",
                   icon: ShieldAlert,
                   color: "crimson"
                 }
               ].map((flow, i) => (
                 <div key={i} className="relative z-10 glass-card p-10 bg-background border border-border-glass flex flex-col items-center text-center group hover:bg-bg-glass transition-all">
-                  <div className={`w-14 h-14 rounded-full flex items-center justify-center mb-8 border-2 transition-all ${
-                    flow.color === 'crimson' ? 'border-accent-crimson/30 text-accent-crimson bg-accent-crimson/5 group-hover:bg-accent-crimson group-hover:text-white' :
-                    flow.color === 'gold' ? 'border-accent-gold/30 text-accent-gold bg-accent-gold/5 group-hover:bg-accent-gold group-hover:text-black' :
-                    'border-accent-blue/30 text-accent-blue bg-accent-blue/5 group-hover:bg-accent-blue group-hover:text-white'
-                  }`}>
+                  <div className={`w-14 h-14 rounded-full flex items-center justify-center mb-8 border-2 transition-all ${flow.color === 'crimson' ? 'border-accent-crimson/30 text-accent-crimson bg-accent-crimson/5 group-hover:bg-accent-crimson group-hover:text-white' :
+                      flow.color === 'gold' ? 'border-accent-gold/30 text-accent-gold bg-accent-gold/5 group-hover:bg-accent-gold group-hover:text-black' :
+                        'border-accent-blue/30 text-accent-blue bg-accent-blue/5 group-hover:bg-accent-blue group-hover:text-white'
+                    }`}>
                     <flow.icon className="w-6 h-6" />
                   </div>
                   <span className="text-[10px] font-mono font-black text-muted-foreground mb-2">{flow.step}</span>
@@ -150,25 +149,24 @@ export default function Home() {
           </motion.div>
 
           {/* MAIN PILLARS GRID */}
-          <motion.div 
+          <motion.div
             variants={itemVariants}
             className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32"
           >
             {NAV_PILLARS.map((pillar, i) => (
               <div key={pillar.id} className="glass-card p-8 border-border-glass bg-bg-glass-heavy flex flex-col group hover:border-foreground/20 transition-all">
-                <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-8 border transition-all ${
-                  pillar.color === 'crimson' ? 'bg-accent-crimson/10 border-accent-crimson/20 text-accent-crimson' :
-                  pillar.color === 'gold' ? 'bg-accent-gold/10 border-accent-gold/20 text-accent-gold' :
-                  'bg-accent-blue/10 border-accent-blue/20 text-accent-blue'
-                }`}>
+                <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-8 border transition-all ${pillar.color === 'crimson' ? 'bg-accent-crimson/10 border-accent-crimson/20 text-accent-crimson' :
+                    pillar.color === 'gold' ? 'bg-accent-gold/10 border-accent-gold/20 text-accent-gold' :
+                      'bg-accent-blue/10 border-accent-blue/20 text-accent-blue'
+                  }`}>
                   <pillar.icon className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-black uppercase tracking-tight text-foreground mb-4 italic">{pillar.label}</h3>
                 <div className="space-y-3 mt-auto">
                   {pillar.items.slice(0, 3).map((item) => (
-                    <Link 
-                      key={item.href} 
-                      href={item.href} 
+                    <Link
+                      key={item.href}
+                      href={item.href}
                       className="flex items-center justify-between p-3 rounded-xl bg-background/50 border border-border hover:border-foreground/10 transition-all group/item"
                     >
                       <span className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground group-hover/item:text-foreground">{item.label}</span>
@@ -181,30 +179,30 @@ export default function Home() {
           </motion.div>
 
           {/* ENGINE PREVIEW */}
-          <motion.div 
+          <motion.div
             variants={itemVariants}
             className="glass-card p-8 sm:p-12 border-border-glass bg-bg-glass-heavy relative overflow-hidden mb-32"
           >
-             <div className="absolute top-0 right-0 w-[40%] h-full opacity-10 pointer-events-none">
-                <Cpu className="w-full h-full text-accent-blue" />
-             </div>
-             
-             <div className="relative z-10 max-w-2xl">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-accent-blue/30 bg-accent-blue/5 text-accent-blue text-[9px] font-black uppercase tracking-widest mb-6">
-                  <Zap className="w-3 h-3" /> System Architecture
-                </div>
-                <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tighter text-foreground mb-6 italic">The Intelligence Engine</h2>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-8">
-                  Our platform utilizes an agentic RAG (Retrieval-Augmented Generation) pipeline to process thousands of forensic documents. From TRC archives to modern SCM tender data, we connect the nodes that the powerful try to hide.
-                </p>
-                <Link href="/about#engine" className="inline-flex items-center gap-2 text-[11px] font-black uppercase tracking-widest text-accent-blue hover:underline">
-                  Explore Architecture <ArrowRight className="w-4 h-4" />
-                </Link>
-             </div>
+            <div className="absolute top-0 right-0 w-[40%] h-full opacity-10 pointer-events-none">
+              <Cpu className="w-full h-full text-accent-blue" />
+            </div>
+
+            <div className="relative z-10 max-w-2xl">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-accent-blue/30 bg-accent-blue/5 text-accent-blue text-[9px] font-black uppercase tracking-widest mb-6">
+                <Zap className="w-3 h-3" /> System Architecture
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tighter text-foreground mb-6 italic">The Intelligence Engine</h2>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-8">
+                Our platform utilizes an agentic RAG (Retrieval-Augmented Generation) pipeline to process thousands of forensic documents. From TRC archives to modern SCM tender data, we connect the nodes that the powerful try to hide.
+              </p>
+              <Link href="/about#engine" className="inline-flex items-center gap-2 text-[11px] font-black uppercase tracking-widest text-accent-blue hover:underline">
+                Explore Architecture <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
           </motion.div>
 
           {/* STATS SECTION */}
-          <motion.div 
+          <motion.div
             variants={itemVariants}
             className="pt-16 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16"
           >
