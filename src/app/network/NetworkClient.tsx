@@ -5,50 +5,26 @@ import { useState, useEffect, useRef } from "react";
 import { Network, Activity, ShieldAlert, Zap, Search, Fingerprint, Globe, ChevronRight, Scale, Info, Loader2 } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
 import { getNetworkData, inferLinks } from "./actions";
-
-interface Node {
-  id: string;
-  name: string;
-  type: string;
-  x: number;
-  y: number;
-  vx?: number;
-  vy?: number;
-  risk: number;
-  color: string;
-}
-
-interface Edge {
-  from: string;
-  to: string;
-  label: string;
-  weight: number;
-  isInferred?: boolean;
-}
+import { D3NetworkMap } from "@/components/intel/D3NetworkMap";
 
 export default function NetworkMapPage({ 
   initialNodes, 
   initialEdges 
 }: { 
-  initialNodes: Node[], 
-  initialEdges: Edge[] 
+  initialNodes: any[], 
+  initialEdges: any[] 
 }) {
-  const [nodes, setNodes] = useState<Node[]>(initialNodes);
-  const [edges, setEdges] = useState<Edge[]>(initialEdges);
+  const [nodes, setNodes] = useState<any[]>(initialNodes);
+  const [edges, setEdges] = useState<any[]>(initialEdges);
   const [loading, setLoading] = useState(false);
   const [isInferring, setIsInferring] = useState(false);
-  const [selectedNode, setSelectedNode] = useState<Node | null>(null);
-  const requestRef = useRef<number>(null);
+  const [selectedNode, setSelectedNode] = useState<any | null>(null);
 
   const fetchData = async () => {
     setLoading(true);
     const data = await getNetworkData();
-    const validEdges = data.edges.filter(e => 
-      data.nodes.some(n => n.id === e.from) && 
-      data.nodes.some(n => n.id === e.to)
-    );
     setNodes(data.nodes);
-    setEdges(validEdges);
+    setEdges(data.edges);
     setLoading(false);
   };
 
@@ -65,16 +41,17 @@ export default function NetworkMapPage({
         if (!newNodes.some(n => n.id === inf.id)) {
           newNodes.push({
             ...inf,
-            x: selectedNode.x + (Math.random() - 0.5) * 100,
-            y: selectedNode.y + (Math.random() - 0.5) * 100,
             color: inf.type === 'PEP' ? 'var(--accent-gold)' : 'var(--accent-blue)'
           });
         }
         
-        if (!newEdges.some(e => (e.from === selectedNode.id && e.to === inf.id) || (e.from === inf.id && e.to === selectedNode.id))) {
+        if (!newEdges.some(e => 
+          ((e.source === selectedNode.id || e.source.id === selectedNode.id) && (e.target === inf.id || e.target.id === inf.id)) || 
+          ((e.source === inf.id || e.source.id === inf.id) && (e.target === selectedNode.id || e.target.id === selectedNode.id))
+        )) {
           newEdges.push({
-            from: selectedNode.id,
-            to: inf.id,
+            source: selectedNode.id,
+            target: inf.id,
             label: `INFERRED_${Math.floor(inf.similarity * 100)}%`,
             weight: inf.similarity,
             isInferred: true
@@ -90,82 +67,6 @@ export default function NetworkMapPage({
       setIsInferring(false);
     }
   };
-
-  // Simple Force-Directed Layout
-  useEffect(() => {
-    if (nodes.length === 0) return;
-
-    const animate = () => {
-      setNodes(prevNodes => {
-        const newNodes = prevNodes.map(n => ({ ...n, vx: n.vx || 0, vy: n.vy || 0 }));
-        
-        // 1. Repulsion between nodes
-        for (let i = 0; i < newNodes.length; i++) {
-          for (let j = i + 1; j < newNodes.length; j++) {
-            const dx = newNodes[i].x - newNodes[j].x;
-            const dy = newNodes[i].y - newNodes[j].y;
-            const distance = Math.sqrt(dx * dx + dy * dy) || 1;
-            const force = 500 / (distance * distance);
-            const fx = (dx / distance) * force;
-            const fy = (dy / distance) * force;
-            newNodes[i].vx! += fx;
-            newNodes[i].vy! += fy;
-            newNodes[j].vx! -= fx;
-            newNodes[j].vy! -= fy;
-          }
-        }
-
-        // 2. Attraction along edges
-        edges.forEach(edge => {
-          const source = newNodes.find(n => n.id === edge.from);
-          const target = newNodes.find(n => n.id === edge.to);
-          if (source && target) {
-            const dx = target.x - source.x;
-            const dy = target.y - source.y;
-            const distance = Math.sqrt(dx * dx + dy * dy) || 1;
-            const force = (distance - 150) * 0.05;
-            const fx = (dx / distance) * force;
-            const fy = (dy / distance) * force;
-            source.vx! += fx;
-            source.vy! += fy;
-            target.vx! -= fx;
-            target.vy! -= fy;
-          }
-        });
-
-        // 3. Center gravity
-        newNodes.forEach(n => {
-          const dx = 400 - n.x;
-          const dy = 300 - n.y;
-          n.vx! += dx * 0.01;
-          n.vy! += dy * 0.01;
-        });
-
-        // 4. Apply velocity and damping
-        return newNodes.map(n => {
-          const damping = 0.9;
-          const nextX = n.x + (n.vx! * damping);
-          const nextY = n.y + (n.vy! * damping);
-          
-          // Constrain to canvas
-          return {
-            ...n,
-            x: Math.max(50, Math.min(750, nextX)),
-            y: Math.max(50, Math.min(550, nextY)),
-            vx: n.vx! * damping,
-            vy: n.vy! * damping
-          };
-        });
-      });
-
-      requestRef.current = requestAnimationFrame(animate);
-    };
-
-    requestRef.current = requestAnimationFrame(animate);
-    return () => {
-      if (requestRef.current) cancelAnimationFrame(requestRef.current);
-    };
-  }, [edges.length > 0]); // Re-run when edges are loaded
 
   return (
     <PageShell
@@ -213,77 +114,15 @@ export default function NetworkMapPage({
             <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground animate-pulse">Decrypting Network Links...</p>
           </div>
         ) : (
-          <svg className="relative z-10 w-full h-full max-w-4xl max-h-[700px]" viewBox="0 0 800 600">
-            <defs>
-              <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="35" refY="3.5" orient="auto">
-                <polygon points="0 0, 10 3.5, 0 7" fill="var(--border-glass-bright)" />
-              </marker>
-            </defs>
-
-            {/* Connections */}
-            {edges.map((edge, i) => {
-              const fromNode = nodes.find(n => n.id === edge.from);
-              const toNode = nodes.find(n => n.id === edge.to);
-              if (!fromNode || !toNode) return null;
-              return (
-                <g key={i}>
-                  <line
-                    x1={fromNode.x} y1={fromNode.y}
-                    x2={toNode.x} y2={toNode.y}
-                    stroke={edge.isInferred ? "var(--accent-gold)" : "var(--border-glass)"}
-                    strokeWidth={edge.isInferred ? "1" : "1.5"}
-                    strokeDasharray={edge.isInferred ? "4,4" : "0"}
-                    markerEnd={edge.isInferred ? "" : "url(#arrowhead)"}
-                    className={edge.isInferred ? "opacity-60" : "opacity-100"}
-                  />
-                  {!edge.isInferred && (
-                    <motion.circle 
-                      r="2" 
-                      fill="var(--accent-crimson)"
-                      animate={{ cx: [fromNode.x, toNode.x], cy: [fromNode.y, toNode.y] }}
-                      transition={{ duration: 5, repeat: Infinity, ease: "linear", delay: i * 0.5 }}
-                    />
-                  )}
-                </g>
-              );
-            })}
-
-            {/* Entities */}
-            {nodes.map((node) => (
-              <motion.g 
-                key={node.id} 
-                className="cursor-pointer group"
-                onClick={() => setSelectedNode(node)}
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                whileHover={{ scale: 1.05 }}
-              >
-                <circle 
-                  cx={node.x} cy={node.y} r="32" 
-                  className="fill-background stroke-[2px] transition-colors duration-300"
-                  style={{ stroke: node.color }}
-                />
-                <circle 
-                  cx={node.x} cy={node.y} r="40" 
-                  className="fill-transparent stroke-border-glass stroke-[0.5px] group-hover:stroke-border-glass-bright transition-all"
-                />
-                <text 
-                  x={node.x} y={node.y + 55} 
-                  className="fill-muted-foreground text-[10px] font-bold uppercase tracking-widest"
-                  textAnchor="middle"
-                >
-                  {node.name.length > 20 ? node.name.substring(0, 17) + "..." : node.name}
-                </text>
-                <text 
-                  x={node.x} y={node.y + 4} 
-                  className="fill-foreground/90 text-[11px] font-mono font-bold"
-                  textAnchor="middle"
-                >
-                  {node.risk}%
-                </text>
-              </motion.g>
-            ))}
-          </svg>
+          <D3NetworkMap 
+            nodes={nodes} 
+            edges={edges.map(e => ({
+                ...e,
+                source: e.from,
+                target: e.to
+            }))} 
+            onNodeClick={setSelectedNode} 
+          />
         )}
 
         {/* Legend Overlay - Bottom Left */}
@@ -338,8 +177,11 @@ export default function NetworkMapPage({
 
                   <div className="space-y-4">
                     <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest border-b border-border-glass pb-2">Verified Connections</p>
-                    {edges.filter(e => e.from === selectedNode.id || e.to === selectedNode.id).map((edge, i) => {
-                      const linkedTo = nodes.find(n => n.id === (edge.from === selectedNode.id ? edge.to : edge.from))!;
+                    {edges.filter(e => (typeof e.source === 'string' ? e.source : e.source.id) === selectedNode.id || (typeof e.target === 'string' ? e.target : e.target.id) === selectedNode.id).map((edge, i) => {
+                      const otherId = (typeof edge.source === 'string' ? edge.source : edge.source.id) === selectedNode.id 
+                        ? (typeof edge.target === 'string' ? edge.target : edge.target.id) 
+                        : (typeof edge.source === 'string' ? edge.source : edge.source.id);
+                      const linkedTo = nodes.find(n => n.id === otherId);
                       if (!linkedTo) return null;
                       return (
                         <div key={i} className="flex justify-between items-center py-2.5 border-b border-border-glass/50">
