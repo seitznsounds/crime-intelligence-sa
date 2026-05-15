@@ -85,7 +85,7 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
 
     const simulation = simulationRef.current;
 
-    // Render Edges
+    // 4. Render Edges (Links)
     let linkGroup = g.select<SVGGElement>("g.links");
     if (linkGroup.empty()) linkGroup = g.append("g").attr("class", "links");
 
@@ -94,15 +94,31 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
 
     link.exit().remove();
     const linkEnter = link.enter().append("line")
-      .attr("stroke", d => d.isInferred ? "var(--accent-gold)" : "var(--border-glass)")
-      .attr("stroke-width", d => d.isInferred ? 1 : 1.5)
+      .attr("stroke", d => d.isInferred ? "#ffcc00" : "#3b82f6") // Use solid hex for visibility
+      .attr("stroke-width", d => d.isInferred ? 1.5 : 2)
       .attr("stroke-dasharray", d => d.isInferred ? "5,5" : "0")
       .attr("marker-end", d => d.isInferred ? "url(#arrow-inferred)" : "url(#arrow-regular)")
-      .attr("opacity", 0.4);
+      .attr("opacity", 0.8); // Higher opacity
 
     const mergedLinks = linkEnter.merge(link);
 
-    // Render Nodes
+    // 5. Link Labels (Optional: could be noisy, but adding back with better styling)
+    let labelGroup = g.select<SVGGElement>("g.link-labels");
+    if (labelGroup.empty()) labelGroup = g.append("g").attr("class", "link-labels");
+
+    const linkLabel = labelGroup.selectAll<SVGTextElement, Edge>("text")
+        .data(edges, (d: any) => `${d.source.id || d.source}-${d.target.id || d.target}`);
+
+    linkLabel.exit().remove();
+    const linkLabelEnter = linkLabel.enter().append("text")
+        .attr("class", "text-[7px] font-black uppercase fill-foreground/30 pointer-events-none")
+        .attr("text-anchor", "middle")
+        .attr("dy", -5)
+        .text(d => d.label);
+
+    const mergedLinkLabels = linkLabelEnter.merge(linkLabel);
+
+    // 6. Render Nodes
     let nodeGroup = g.select<SVGGElement>("g.nodes");
     if (nodeGroup.empty()) nodeGroup = g.append("g").attr("class", "nodes");
 
@@ -112,7 +128,7 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
     node.exit().remove();
     
     const nodeEnter = node.enter().append("g")
-      .attr("class", "node")
+      .attr("class", "node cursor-pointer")
       .on("click", (event, d) => {
           onNodeClick(d);
           d3.select(event.currentTarget).raise();
@@ -123,16 +139,11 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
         .on("end", dragended) as any);
 
     nodeEnter.append("circle")
-      .attr("r", 42)
-      .attr("fill", "transparent")
-      .attr("stroke", "var(--border-glass)")
-      .attr("stroke-width", 0.5);
-
-    nodeEnter.append("circle")
       .attr("r", 32)
       .attr("fill", "var(--background)")
       .attr("stroke", d => d.color)
-      .attr("stroke-width", 2);
+      .attr("stroke-width", 3) // Thicker stroke
+      .attr("class", d => d.risk > 80 ? "animate-pulse" : "");
 
     nodeEnter.append("text")
       .attr("dy", ".35em")
@@ -141,10 +152,10 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
       .text(d => `${d.risk}%`);
 
     nodeEnter.append("text")
-      .attr("dy", "52")
+      .attr("dy", "48")
       .attr("text-anchor", "middle")
-      .attr("class", "fill-muted-foreground text-[10px] font-black uppercase tracking-widest pointer-events-none")
-      .text(d => d.name.length > 18 ? d.name.substring(0, 15) + "..." : d.name);
+      .attr("class", "fill-foreground text-[9px] font-black uppercase tracking-tighter")
+      .text(d => d.name.length > 15 ? d.name.substring(0, 12) + "..." : d.name);
 
     const mergedNodes = nodeEnter.merge(node);
 
@@ -154,6 +165,10 @@ export const D3NetworkMap = ({ nodes, edges, onNodeClick }: D3NetworkMapProps) =
         .attr("y1", d => (d.source as Node).y || 0)
         .attr("x2", d => (d.target as Node).x || 0)
         .attr("y2", d => (d.target as Node).y || 0);
+
+      mergedLinkLabels
+        .attr("x", d => (((d.source as Node).x || 0) + ((d.target as Node).x || 0)) / 2)
+        .attr("y", d => (((d.source as Node).y || 0) + ((d.target as Node).y || 0)) / 2);
 
       mergedNodes
         .attr("transform", d => `translate(${d.x},${d.y})`);
