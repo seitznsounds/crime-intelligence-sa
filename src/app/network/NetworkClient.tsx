@@ -202,25 +202,27 @@ export default function NetworkMapPage({
         </div>
 
         {/* Map Area */}
-        <div className="flex-1 relative glass-card border-border-glass bg-bg-glass-heavy rounded-3xl overflow-hidden flex items-center justify-center min-h-[600px]">
+        <div className="flex-1 relative glass-card border-border-glass bg-bg-glass-heavy rounded-3xl overflow-hidden min-h-[600px] lg:min-h-[750px]">
           {/* Background Grid & Scan Effect */}
           <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:40px_40px] opacity-30" />
           
           {loading ? (
-            <div className="flex flex-col items-center gap-4 z-20">
+            <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 z-20">
               <Loader2 className="w-12 h-12 text-accent-crimson animate-spin" />
               <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground animate-pulse">Decrypting Network Links...</p>
             </div>
           ) : (
-            <D3NetworkMap 
-              nodes={filteredNodes} 
-              edges={filteredEdges.map(e => ({
-                  ...e,
-                  source: typeof e.source === 'string' ? e.source : e.source.id,
-                  target: typeof e.target === 'string' ? e.target : e.target.id
-              }))} 
-              onNodeClick={setSelectedNode} 
-            />
+            <div className="absolute inset-0 z-10">
+              <D3NetworkMap 
+                nodes={filteredNodes} 
+                edges={filteredEdges.map(e => ({
+                    ...e,
+                    source: typeof e.source === 'string' ? e.source : e.source.id,
+                    target: typeof e.target === 'string' ? e.target : e.target.id
+                }))} 
+                onNodeClick={setSelectedNode} 
+              />
+            </div>
           )}
 
           {/* Legend Overlay - Bottom Left (Now inside Map Area, visible on all screens) */}
