@@ -112,11 +112,11 @@ export default function PageShell({
                     </span>
                   </div>
                 )}
-                <h1 className="text-5xl sm:text-6xl font-black text-charcoal tracking-tight">
+                <h1 className="text-[10vw] sm:text-5xl lg:text-6xl font-black text-charcoal tracking-tight break-words">
                   {title}
                 </h1>
                 {subtitle && (
-                  <p className="text-lg sm:text-xl text-charcoal-82 max-w-2xl leading-relaxed font-normal">
+                  <p className="text-base sm:text-lg lg:text-xl text-charcoal-82 max-w-2xl leading-relaxed font-normal break-words">
                     {subtitle}
                   </p>
                 )}

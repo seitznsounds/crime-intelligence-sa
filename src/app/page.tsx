@@ -68,7 +68,7 @@ export default function Home() {
             
             <motion.h1 
               variants={itemVariants}
-              className="text-5xl sm:text-7xl lg:text-8xl font-black mb-10 tracking-tight leading-[1.05] text-foreground italic"
+              className="text-[12vw] sm:text-7xl lg:text-8xl font-black mb-10 tracking-tight leading-[1.05] text-foreground italic break-words"
             >
               DEMOCRATIZING <br />
               <span className="text-muted-foreground font-normal not-italic">INTELLIGENCE FOR</span> <br />

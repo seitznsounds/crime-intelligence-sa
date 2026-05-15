@@ -84,7 +84,7 @@ export default function VoidClient({ categories }: { categories: CrimeCategory[]
               <Activity className="w-5 h-5 text-accent-crimson" style={{ opacity: 0.3 + reality * 0.7 }} />
             </div>
             <div className="flex items-baseline gap-2">
-              <motion.span className="text-6xl font-black tracking-tighter text-foreground font-mono">
+              <motion.span className="text-4xl sm:text-6xl font-black tracking-tighter text-foreground font-mono">
                 {currentGlobalMultiplier.toFixed(1)}
               </motion.span>
               <span className="text-2xl font-bold text-accent-crimson">x</span>

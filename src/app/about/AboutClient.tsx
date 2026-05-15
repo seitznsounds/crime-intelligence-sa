@@ -54,7 +54,7 @@ export default function AboutClient({ telemetry }: { telemetry: any }) {
               {/* Manifesto Hero */}
               <div className="glass-card p-10 sm:p-16 border-accent-crimson/20 bg-gradient-to-br from-background to-accent-crimson/5 text-center">
                 <Shield className="w-16 h-16 text-accent-crimson mx-auto mb-6" />
-                <h2 className="text-3xl sm:text-5xl font-black uppercase tracking-tighter text-foreground mb-6">
+                <h2 className="text-[9vw] sm:text-5xl font-black uppercase tracking-tighter text-foreground mb-6 break-words">
                   Exposing the Helms of Power
                 </h2>
                 <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-light">
@@ -243,7 +243,7 @@ export default function AboutClient({ telemetry }: { telemetry: any }) {
               <Heart className="w-3 h-3" />
               Sustain the Network
             </div>
-            <h2 className="text-3xl font-black uppercase tracking-tighter text-foreground italic">Support the Mission</h2>
+            <h2 className="text-[9vw] sm:text-3xl font-black uppercase tracking-tighter text-foreground italic break-words">Support the Mission</h2>
             <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
               This platform is an independent investigative tool. Your contributions directly fuel our RAG architecture, vector database maintenance, and forensic data ingestion pipelines.
             </p>

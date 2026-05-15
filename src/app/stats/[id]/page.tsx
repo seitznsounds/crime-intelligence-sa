@@ -55,7 +55,7 @@ export default async function StationAuditPage({ params }: PageProps) {
                 <MapPin className="w-3.5 h-3.5 text-accent-blue" />
                 <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-accent-blue">Localized Audit Protocol</span>
               </div>
-              <h1 className="text-6xl font-bold tracking-tighter uppercase mb-4 leading-none">
+              <h1 className="text-4xl sm:text-6xl font-bold tracking-tighter uppercase mb-4 leading-none break-words">
                 {station.station_name || "STATION_UNNAMED"}
               </h1>
               <div className="flex items-center gap-6">
