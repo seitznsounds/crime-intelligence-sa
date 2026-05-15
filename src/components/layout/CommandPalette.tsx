@@ -44,7 +44,7 @@ export function CommandPalette() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="flex items-center gap-3 px-6 py-2.5 bg-charcoal-3 border border-border rounded-full text-[11px] font-black uppercase tracking-widest text-charcoal-40 hover:border-charcoal-40 hover:text-charcoal transition-all group"
+        className="flex items-center gap-3 px-6 py-2.5 bg-background border border-border-glass-bright/30 rounded-full text-[11px] font-black uppercase tracking-widest text-muted-foreground hover:border-accent-blue/50 hover:text-foreground transition-all group shadow-sm active:scale-95"
       >
         <Search className="w-3.5 h-3.5 group-hover:scale-110 transition-transform" />
         <span className="hidden md:inline">Mission Control</span>

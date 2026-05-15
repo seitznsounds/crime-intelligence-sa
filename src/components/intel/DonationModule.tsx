@@ -47,7 +47,8 @@ export const DonationModule = () => {
   
   const componentProps = {
     email,
-    amount: finalAmount * 100, // Paystack expects cents
+    amount: Math.round(finalAmount * 100), // Paystack expects cents
+    currency: "ZAR",
     metadata: {
       purpose,
       custom_fields: [

@@ -63,8 +63,8 @@ function DesktopDropdown({
         onClick={onToggle}
         className={`flex items-center gap-2 px-4 py-2 rounded-full text-[13px] font-black uppercase tracking-[0.15em] transition-all ${
           isActive
-            ? `${colors.text} bg-background border border-border`
-            : "text-charcoal-40 hover:text-charcoal"
+            ? `${colors.text} bg-background border border-border-glass-bright/30 shadow-sm`
+            : "text-muted-foreground hover:text-foreground"
         }`}
         aria-expanded={isOpen}
       >
@@ -216,7 +216,7 @@ export default function Navbar() {
             {/* Mobile Hamburger */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden p-2.5 rounded-full bg-charcoal-3 border border-border text-charcoal hover:border-charcoal-40 transition-colors"
+              className="lg:hidden p-2.5 rounded-full bg-background border border-border-glass-bright/30 text-muted-foreground hover:border-accent-blue/50 hover:text-foreground transition-all shadow-sm active:scale-95"
               aria-label="Toggle menu"
             >
               {mobileOpen ? (
