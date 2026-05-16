@@ -27,9 +27,9 @@ export async function getSyndicates() {
       .select("*, people(*)")
       .eq("org_id", org.id);
 
-    // Build hierarchy for Big Five Cartel specifically as a test case
-    // In a real scenario, this would be more dynamic
-    const members = links?.map((l: any) => ({
+    // Build hierarchy for Big Five Cartel or Numbers Gang
+    // In a production app, this would be fully recursive/dynamic from Supabase
+    let members = links?.map((l: any) => ({
       id: l.people.id,
       name: l.people.full_name,
       role: l.role,
@@ -38,31 +38,52 @@ export async function getSyndicates() {
       desc: l.people.description
     })) || [];
 
-    const boss = members.find(m => m.role.toLowerCase().includes('boss'));
+    let boss = members.find(m => m.role.toLowerCase().includes('boss') || m.role.toLowerCase().includes('founder') || m.role.toLowerCase().includes('president'));
     
-    // Find associates for the boss
+    // Find associates or component links
     let children: any[] = [];
     if (boss) {
-      const { data: rels } = await supabase
-        .from('person_relationships')
-        .select('*, source_person:source_person_id(*)')
-        .eq('target_person_id', boss.id);
-      
-      children = rels?.map((r: any) => ({
-        id: r.source_person.id,
-        name: r.source_person.full_name,
-        role: r.relationship_type.toUpperCase(),
-        type: r.source_person.role || "ASSOCIATE",
-        risk: r.source_person.risk_score ? (r.source_person.risk_score > 10 ? r.source_person.risk_score : r.source_person.risk_score * 10) : 80,
-        desc: r.source_person.description || r.evidence_summary
-      })) || [];
+      // For organizations like Numbers Gang, we might have sub-orgs as children
+      const { data: subOrgs } = await supabase
+        .from('organizations')
+        .select('*')
+        .eq('status', 'active'); // Mock filter or use a link table
+
+      if (org.name.includes('Numbers Gang')) {
+        // Special case for Numbers Gang to show 26, 27, 28
+        const subGangs = orgs.filter(o => ['The 26s', 'The 27s', 'The 28s'].includes(o.name));
+        children = subGangs.map(sg => ({
+          id: sg.id,
+          name: sg.name,
+          role: 'COMPONENT GANG',
+          type: 'SYNDICATE',
+          risk: sg.risk_score || 90,
+          desc: sg.description,
+          children: []
+        }));
+      } else {
+        const { data: rels } = await supabase
+          .from('person_relationships')
+          .select('*, source_person:source_person_id(*)')
+          .eq('target_person_id', boss.id);
+        
+        children = rels?.map((r: any) => ({
+          id: r.source_person.id,
+          name: r.source_person.full_name,
+          role: r.relationship_type.toUpperCase(),
+          type: r.source_person.role || "ASSOCIATE",
+          risk: r.source_person.risk_score ? (r.source_person.risk_score > 10 ? r.source_person.risk_score : r.source_person.risk_score * 10) : 80,
+          desc: r.source_person.description || r.evidence_summary
+        })) || [];
+      }
     }
 
     return {
       id: org.id,
       name: org.name,
-      origin: org.headquarters || "Unknown Origin",
+      origin: org.headquarters || "Western Cape Prisons / Johannesburg",
       focus: org.sector || "Organized Crime",
+      description: org.description,
       hierarchy: boss ? {
         ...boss,
         children: children

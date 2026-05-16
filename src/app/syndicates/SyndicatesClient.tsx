@@ -21,11 +21,13 @@ interface Syndicate {
   name: string;
   origin: string;
   focus: string;
+  description?: string;
   hierarchy: Node | null;
 }
 
 export default function SyndicatePage({ initialSyndicates }: { initialSyndicates: Syndicate[] }) {
   const [selectedNode, setSelectedNode] = useState<Node | null>(null);
+  const [selectedSyndicateAsNode, setSelectedSyndicateAsNode] = useState<Node | null>(null);
   const [activeSyndicateId, setActiveSyndicateId] = useState(initialSyndicates[0]?.id);
 
   const activeSyndicate = initialSyndicates.find(s => s.id === activeSyndicateId);
@@ -106,6 +108,22 @@ export default function SyndicatePage({ initialSyndicates }: { initialSyndicates
                 </button>
               ))}
             </div>
+            
+            {activeSyndicate && (
+              <button 
+                onClick={() => setSelectedSyndicateAsNode({
+                  id: activeSyndicate.id,
+                  name: activeSyndicate.name,
+                  type: 'Organization',
+                  role: 'SYNDICATE HUB',
+                  risk: 90,
+                  desc: activeSyndicate.description
+                })}
+                className="w-full mt-6 py-3 bg-foreground text-background text-[10px] font-black uppercase tracking-widest rounded-xl hover:bg-accent-blue hover:text-white transition-all flex items-center justify-center gap-2"
+              >
+                <ShieldAlert className="w-3.5 h-3.5" /> View Intelligence Profile
+              </button>
+            )}
           </div>
           
           <div className="glass-card p-5 border-border-glass bg-bg-glass hidden lg:block mt-auto">
@@ -134,6 +152,15 @@ export default function SyndicatePage({ initialSyndicates }: { initialSyndicates
           entityType={selectedNode?.type || 'Unknown'}
           entityName={selectedNode?.name || 'Unknown Entity'}
           baseRisk={selectedNode?.risk || 0}
+        />
+
+        <IntelligenceDrawer 
+          isOpen={!!selectedSyndicateAsNode} 
+          onClose={() => setSelectedSyndicateAsNode(null)} 
+          entityId={selectedSyndicateAsNode?.id || null}
+          entityType={selectedSyndicateAsNode?.type || 'Organization'}
+          entityName={selectedSyndicateAsNode?.name || 'Unknown Syndicate'}
+          baseRisk={selectedSyndicateAsNode?.risk || 0}
         />
       </div>
     </PageShell>
