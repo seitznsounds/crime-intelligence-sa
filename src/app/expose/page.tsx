@@ -2,18 +2,15 @@ import { createServerClient } from "@/lib/supabase-server";
 import PageShell from "@/components/layout/PageShell";
 import { Search } from "lucide-react";
 import ExposeClient from "./ExposeClient";
+import { getExposeData, getUniqueStatuses } from "./actions";
 
 export const dynamic = "force-dynamic";
 
 export default async function ExposePage() {
-  const supabase = await createServerClient();
-
-  // Fetch top 12 people by risk score
-  const { data: people } = await supabase
-    .from("people")
-    .select("id, full_name, pep_tier, risk_score, status, role, profile_image_url, metadata")
-    .order("risk_score", { ascending: false })
-    .limit(12);
+  const [initialData, uniqueStatuses] = await Promise.all([
+    getExposeData({ page: 1, pageSize: 12 }),
+    getUniqueStatuses()
+  ]);
 
   return (
     <PageShell
@@ -27,7 +24,11 @@ export default async function ExposePage() {
         { label: "Investigate", href: "/expose" },
       ]}
     >
-      <ExposeClient initialPeople={people || []} />
+      <ExposeClient 
+        initialPeople={initialData.people} 
+        initialTotalCount={initialData.totalCount}
+        uniqueStatuses={uniqueStatuses}
+      />
     </PageShell>
   );
 }

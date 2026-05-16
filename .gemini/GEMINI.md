@@ -217,6 +217,10 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - `intelligence/dossiers/`: High-fidelity investigative narratives (Markdown).
 - `intelligence/extractions/`: Raw forensic data from recursive web-browser crawls.
 
+### Visual Intelligence
+- **Supabase Bucket:** `entity_images`: Verified profile images for high-risk targets.
+- `.research/to-ingest/DOSSIER_UPDATE.md`: Investigation log for visual enrichment progress.
+
 ### Investigation Tracks
 - `.research/investigations/`: Focused investigation tracks (Witness H, Cocaine Trail, Gangland Succession, etc.).
 - `.research/to-ingest/INVESTIGATE.md`: Master investigation roadmap and Priority Intelligence Requirements (PIRs).

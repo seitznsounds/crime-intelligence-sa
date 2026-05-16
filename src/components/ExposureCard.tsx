@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { Skull } from 'lucide-react';
 import { IntelligenceDrawer } from "@/components/intel/IntelligenceDrawer";
+
 
 interface ExposureCardProps {
   person: {
@@ -11,6 +13,7 @@ interface ExposureCardProps {
     status: string | null;
     role: string | null;
     profile_image_url: string | null;
+    is_deceased?: boolean | null;
     metadata?: any;
   };
 }
@@ -36,6 +39,16 @@ export const ExposureCard = ({ person }: ExposureCardProps) => {
   return (
     <div className="glass-card overflow-hidden group border-border-glass hover:border-border-glass-bright transition-all duration-500 bg-bg-glass">
       <div className="relative h-44 bg-bg-glass-heavy flex items-center justify-center overflow-hidden">
+        {person.is_deceased && (
+          <div className="absolute inset-0 bg-black/60 flex items-center justify-center z-10">
+            <div className="px-4 py-2 border-2 border-accent-crimson rounded-lg transform -rotate-12 bg-black/80 shadow-2xl">
+               <span className="text-xl font-black text-accent-crimson uppercase tracking-[0.3em] flex items-center gap-2">
+                 <Skull className="w-5 h-5" /> Deceased
+               </span>
+            </div>
+          </div>
+        )}
+        
         {person.profile_image_url ? (
           <img 
             src={person.profile_image_url} 
