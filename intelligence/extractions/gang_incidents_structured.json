@@ -1,0 +1,307 @@
+[
+  {
+    "title": "Assassination of Anthony 'Tatu' Gounden",
+    "type": "Assassination",
+    "occurred_at": "2024-03-01T03:00:00Z",
+    "location": "BP Garage Sibaya, uMhlanga, KZN",
+    "people": [
+      {
+        "full_name": "Anthony Gounden",
+        "role": "Victim / Alleged Gang Boss",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "Former Verulam Constable",
+        "role": "Bodyguard / Associate",
+        "status": "Fled"
+      }
+    ],
+    "syndicate_link": "Tatu Gang",
+    "description": "Alleged Tatu gang boss Anthony Gounden was ambushed and killed at a BP garage near Sibaya. The hit is believed to be linked to an earlier altercation at an Umhlanga sports bar.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Assassination of William 'Red' Stevens",
+    "type": "Assassination",
+    "occurred_at": "2021-02-02T20:00:00Z",
+    "location": "Kraaifontein, Cape Town",
+    "people": [
+      {
+        "full_name": "William Stevens",
+        "role": "Victim / General",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "27s",
+    "description": "William 'Red' Stevens, a high-ranking 27s general, was shot dead outside his home. His death sparked retaliatory shootings between the 27s and 28s.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Assassination of Ernie 'Lastig' Solomon",
+    "type": "Assassination",
+    "occurred_at": "2020-11-20T12:00:00Z",
+    "location": "Boksburg, Gauteng",
+    "people": [
+      {
+        "full_name": "Ernie Solomon",
+        "role": "Victim / Gang Boss",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "Horatio 'Voudie' Solomon",
+        "role": "Associate / Rival",
+        "status": "Active"
+      }
+    ],
+    "syndicate_link": "Terrible Josters / 28s",
+    "description": "Ernie Solomon, leader of the Terrible Josters and a prominent 28s figure, was killed in a hit in Boksburg. The murder is linked to internal power struggles and a major drugs shipment dispute.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Assassination of Kalvin Periasamy",
+    "type": "Assassination",
+    "occurred_at": "2019-03-01T15:00:00Z",
+    "location": "Gateway Shopping Mall Parking, uMhlanga, KZN",
+    "people": [
+      {
+        "full_name": "Kalvin Periasamy",
+        "role": "Victim / Gang Leader",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "Kevin Periasamy",
+        "role": "Associate",
+        "status": "Active"
+      }
+    ],
+    "syndicate_link": "Bloods Gang",
+    "description": "Prominent Phoenix gang leader Kalvin Periasamy was executed in the Gateway Mall parking lot. He was allegedly the head of the 'Bloods' drug cartel.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Assassination of Rashied Staggie",
+    "type": "Assassination",
+    "occurred_at": "2019-12-13T10:00:00Z",
+    "location": "Salt River, Cape Town",
+    "people": [
+      {
+        "full_name": "Rashied Staggie",
+        "role": "Victim / Gang Leader",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "Hard Livings",
+    "description": "Legendary Hard Livings leader Rashied Staggie was shot dead in a drive-by outside his home in Salt River, echoing his brother Rashaad's death in 1996.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Assassination of Igsaan 'Sanie American' Davids",
+    "type": "Assassination",
+    "occurred_at": "2026-04-11T12:00:00Z",
+    "location": "Kensington, Cape Town",
+    "people": [
+      {
+        "full_name": "Igsaan Davids",
+        "role": "Victim / Gang Leader",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "Americans Gang",
+    "description": "Igsaan Davids, allegedly the leader of the Americans gang, died in hospital three weeks after being shot in Kensington.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Execution of Yusuf 'U-Boy' Bohardien",
+    "type": "Murder",
+    "occurred_at": "2026-05-05T20:40:00Z",
+    "location": "Tennyson Street, Salt River, Cape Town",
+    "people": [
+      {
+        "full_name": "Yusuf Bohardien",
+        "role": "Victim / Former Gang Member",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "Nice Time Kids (NTK) / Junior Mafias",
+    "description": "Former NTK member Yusuf Bohardien was executed by attackers who shot him in the back and then 'finished the job' with shots to the face. Linked to Junior Mafias' expansion.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Athlone Triple Murder (Infant Victim)",
+    "type": "Mass Shooting",
+    "occurred_at": "2026-02-17T21:00:00Z",
+    "location": "Sunbird Court, Athlone, Cape Town",
+    "people": [
+      {
+        "full_name": "9-month-old Baby",
+        "role": "Victim",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "25-year-old Woman",
+        "role": "Victim",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "36-year-old Woman",
+        "role": "Victim",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "Unknown Drug Den",
+    "description": "A nine-month-old baby and two women were gunned down in a shooting at a known drug den in Bridgetown, Athlone.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Saulsville Hostel Massacre",
+    "type": "Mass Shooting",
+    "occurred_at": "2025-12-06T04:00:00Z",
+    "location": "Saulsville Hostel, Pretoria",
+    "people": [
+      {
+        "full_name": "12 Victims",
+        "role": "Victims",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "3-year-old Child",
+        "role": "Victim",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "Extortion Gang Splinter Groups",
+    "description": "12 people were killed and 13 injured when gunmen stormed a hostel tavern. Linked to rivalries between splinter groups of an extortion gang.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Assassination of Sadia Madatt",
+    "type": "Murder",
+    "occurred_at": "2026-03-10T16:50:00Z",
+    "location": "Viscount Street, Rocklands, Mitchells Plain",
+    "people": [
+      {
+        "full_name": "Sadia Madatt",
+        "role": "Victim / Alleged Gang Leader",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "Kaldimola 'Dimes' Madatt",
+        "role": "Father / Former Boss",
+        "status": "Deceased (2022)"
+      }
+    ],
+    "syndicate_link": "Americans Gang",
+    "description": "The daughter of former Americans boss 'Dimes' Madatt was killed in a mass shooting in Viscount Street. She was reportedly climbing the gang ranks.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Assassination of Andre Naude",
+    "type": "Assassination",
+    "occurred_at": "2025-06-12T12:00:00Z",
+    "location": "Parow, Cape Town",
+    "people": [
+      {
+        "full_name": "Andre Naude",
+        "role": "Victim / Underworld Figure",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "Mark Lifman",
+        "role": "Associate",
+        "status": "Deceased (2024)"
+      }
+    ],
+    "syndicate_link": "Underworld / 27s Associate",
+    "description": "Underworld figure Andre Naude, a co-accused in the Brian Wainstein murder case, was gunned down in Parow.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Rocklands Mass Shooting (December 2025)",
+    "type": "Mass Shooting",
+    "occurred_at": "2025-12-02T19:00:00Z",
+    "location": "Viscount Street, Rocklands, Mitchells Plain",
+    "people": [
+      {
+        "full_name": "Zachariah Matthee",
+        "role": "Victim (9yo)",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "Cleo Bailey",
+        "role": "Victim (19yo)",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "Moegsien Daniels",
+        "role": "Victim (26yo)",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "Americans vs Rivals",
+    "description": "A 9-year-old boy and two family members were gunned down when gunmen stormed a house in Viscount Street. Linked to drug turf conflicts.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Delft Zandkloof Street Mass Shooting",
+    "type": "Mass Shooting",
+    "occurred_at": "2026-04-15T19:20:00Z",
+    "location": "Zandkloof Street, Delft, Cape Town",
+    "people": [
+      {
+        "full_name": "13-year-old Boy",
+        "role": "Victim",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "3 Men (28, 40, 41)",
+        "role": "Victims",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "Unknown Gang",
+    "description": "Four males, including a teenager, were executed in a granny flat. All sustained gunshot wounds to the head.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Montrose Park Double Murder",
+    "type": "Murder",
+    "occurred_at": "2026-05-13T20:40:00Z",
+    "location": "Veronica Road, Montrose Park, Mitchells Plain",
+    "people": [
+      {
+        "full_name": "16-year-old Male",
+        "role": "Victim",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "18-year-old Male",
+        "role": "Victim",
+        "status": "Deceased"
+      }
+    ],
+    "syndicate_link": "Unknown Gang",
+    "description": "Two teenagers were followed from a local tuckshop and gunned down at close range in a drive-by shooting.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  },
+  {
+    "title": "Nyanga Terminus Taxi Rank Shooting",
+    "type": "Mass Shooting",
+    "occurred_at": "2025-11-12T08:00:00Z",
+    "location": "Nyanga Terminus Taxi Rank, Cape Town",
+    "people": [
+      {
+        "full_name": "2 Women",
+        "role": "Victims / CATA Members",
+        "status": "Deceased"
+      },
+      {
+        "full_name": "8 Injured",
+        "role": "Victims",
+        "status": "Wounded"
+      }
+    ],
+    "syndicate_link": "CATA / Taxi Violence",
+    "description": "Unknown gunmen opened fire on a minibus taxi carrying CATA members to a meeting, killing two women.",
+    "source_url": "GANG-CRIME-INCIDENTS.MD"
+  }
+]

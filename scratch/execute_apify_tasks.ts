@@ -42,36 +42,30 @@ async function runTask(actorId: string, input: any, leadName: string, options: a
 }
 
 async function main() {
-  const newsScraperId = 'za_intelligence/news-scraper';
   const deepResearchId = 'za_intelligence/deep-research-web-browser';
 
-  const newsUrls = [
-    "https://www.news24.com",
-    "https://www.timeslive.co.za",
-    "https://www.dailymaverick.co.za"
-  ];
+  console.log("Starting Apify Intelligence Gathering (Fallback Mode)...");
 
-  console.log("Starting Apify Intelligence Gathering...");
-
-  // News Scraper Tasks
-  console.log("\n--- News Scraper Tasks ---");
-  await runTask(newsScraperId, { 
-    query: "Madlanga Commission Witness H testimony leaked",
-    startUrls: newsUrls.map(url => ({ url }))
+  // Re-routed News Scraper Tasks (using Deep Research Browser)
+  console.log("\n--- Investigative Research Tasks ---");
+  
+  await runTask(deepResearchId, { 
+    query: "Deep investigative research into Madlanga Commission Witness H testimony and judicial capture allegations June 2026",
+    recursiveDepth: 2
   }, 'witness_h');
 
-  await runTask(newsScraperId, { 
-    query: "Port Shepstone cocaine theft Hawks investigation 2026",
-    startUrls: newsUrls.map(url => ({ url }))
+  await runTask(deepResearchId, { 
+    query: "Trace the Port Shepstone cocaine theft investigation and links to Big Five Cartel 2026",
+    recursiveDepth: 2
   }, 'port_shepstone_cocaine');
 
-  await runTask(newsScraperId, { 
-    query: "ANC political funding Brown Mogotsi Medicare 24 scandal",
-    startUrls: newsUrls.map(url => ({ url }))
+  await runTask(deepResearchId, { 
+    query: "ANC political funding audit: Brown Mogotsi, Medicare 24, and Cat VIP Protection proceeds",
+    recursiveDepth: 2
   }, 'anc_political_funding');
 
   // Deep Research Tasks
-  console.log("\n--- Deep Research Tasks ---");
+  console.log("\n--- Specific Node Research Tasks ---");
   await runTask(deepResearchId, { 
     query: "Identify South African high-ranking police officers passed over for promotion 2024-2025 linked to Madlanga Commission" 
   }, 'passed_over_officers');

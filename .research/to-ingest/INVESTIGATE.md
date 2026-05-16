@@ -106,3 +106,38 @@ With our UI/UX capable of displaying deep narrative intelligence and our Apify p
 ### Update: 2026-05-16
 - Automatically synced 443 new entities and 594 relationships from extractions.
 - New entities identified: General Busisiwe Temba are facing criminal charges related to a R360 million SAPS, Burger said it was encouraging that the country was seeing a high number of investigations by the special investigating team and NPA, R200 million from the Hawks, Other officers suspended and being investigated in connection to the Medicare 24, Public Finance Management Act in relation to the Medicare 24.
+
+
+### Update: 2026-05-16
+- Automatically synced 2290 new entities and 3326 relationships from extractions.
+- New entities identified: Cape High Court, Breede Valley, Oupa Sindane, Read More, Cookies Policy.
+
+
+### Update: 2026-05-16
+- Automatically synced 23 new entities and 9 relationships from extractions.
+- New entities identified: Malope Papakoki Nchabeleng Shaku, Marshy Jimah, Nuriel Motebang Chobokoane, Bheki Mthimunye, Lesibana Lamola.
+
+
+### Update: 2026-05-16
+- Automatically synced 4 new entities and 6 relationships from extractions.
+- New entities identified: Lesibana Lamola, History Of All Southern, African Tribes, Senior Law Enforcement Officials, Recent Months.
+
+
+### Update: 2026-05-16
+- Automatically synced 1604 new entities and 967 relationships from extractions.
+- New entities identified: Canary Islands, Saint Helena, Ascension Island, Western Sahara, Search
+
+Search
+
+Government.
+
+
+### Update: 2026-05-16
+- Automatically synced 1104 new entities and 1018 relationships from extractions.
+- New entities identified: Weekly
+
+Model, Digital Economy
+
+Why, Predictions Work Inside, Digital Market Index, Advertising
+
+Our.
