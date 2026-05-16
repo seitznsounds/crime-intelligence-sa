@@ -179,6 +179,34 @@ export async function handleSearchNormalMode(input: Input,
 }
 
 /**
+ * Checks if the content is relevant to South African Corruption context.
+ */
+function isRelevantToSA(text: string): boolean {
+    const keywords = [
+        "South Africa", "SAPS", "ANC", "Corruption", "Zuma", "Ramaphosa", 
+        "Gupta", "NPA", "Hawks", "State Capture", "Cape Town", "Johannesburg", 
+        "Durban", "Pretoria", "KZN", "Gauteng", "Western Cape", "Eastern Cape",
+        "Limpopo", "Mpumalanga", "North West", "Free State", "Northern Cape",
+        "Soweto", "Mitchells Plain", "Khayelitsha", "Zondo", "Madlanga",
+        "Big Five Cartel", "Gold Mafia", "Tax", "Tender", "Fraud", "Money Laundering",
+        "Organized Crime", "Gang", "Syndicate"
+    ];
+    // Check if at least 2 keywords are present OR "South Africa" is present
+    const lowerText = text.toLowerCase();
+    const hasSA = lowerText.includes("south africa") || lowerText.includes(" saps ") || lowerText.includes(" anc ");
+    if (hasSA) return true;
+    
+    let matchCount = 0;
+    for (const kw of keywords) {
+        if (lowerText.includes(kw.toLowerCase())) {
+            matchCount++;
+            if (matchCount >= 2) return true;
+        }
+    }
+    return false;
+}
+
+/**
  * Handles multi-pass recursive search for deep investigations.
  */
 async function handleRecursiveSearch(
@@ -204,17 +232,36 @@ async function handleRecursiveSearch(
 
             const passInput = { ...input, query, recursiveDepth: 1 };
             const results = await runSearchProcess(passInput);
-            allResults.push(...results);
+            
+            // Filter results for SA relevance
+            const relevantResults = results.filter(res => {
+                const content = (res.markdown || res.text || "").slice(0, 10000);
+                return isRelevantToSA(content);
+            });
 
-            // Simple "Intelligence" extraction: Find capitalized names/orgs in Markdown to search next
+            if (relevantResults.length > 0) {
+                allResults.push(...relevantResults);
+            } else {
+                log.warning(`Discarding ${results.length} irrelevant results for query: "${query}"`);
+            }
+
+            // Intelligence extraction: Find capitalized names/orgs in Markdown to search next
             if (depth < input.recursiveDepth) {
-                results.forEach(res => {
+                relevantResults.forEach(res => {
                     if (res.markdown) {
                         // Extract words that look like Entities (Capitalized, 3+ chars)
                         const entities = res.markdown.match(/[A-Z][a-z]{2,}(\s[A-Z][a-z]{2,})+/g);
                         if (entities) {
-                            entities.slice(0, 3).forEach(e => {
-                                if (!processedQueries.has(e)) nextQueries.push(e);
+                            // Only follow entities that have some relevance context in the same snippet
+                            entities.slice(0, 5).forEach(e => {
+                                if (!processedQueries.has(e)) {
+                                    // Check if the entity name itself or surrounding text is relevant
+                                    const index = res.markdown!.indexOf(e);
+                                    const context = res.markdown!.slice(Math.max(0, index - 100), index + 100);
+                                    if (isRelevantToSA(context)) {
+                                        nextQueries.push(e);
+                                    }
+                                }
                             });
                         }
                     }

@@ -2,10 +2,11 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { Globe, ShieldAlert, Target, Activity, Map as MapIcon, ChevronRight, Zap } from "lucide-react";
+import { Globe, ShieldAlert, Target, Activity, Map as MapIcon, ChevronRight, Zap, Clock, Calendar } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
 import { FullScreenDataModal } from "@/components/ui/FullScreenDataModal";
 import { MobileExpandableChart } from "@/components/ui/MobileExpandableChart";
+import TemporalCrimeAnalysis from "@/components/intel/TemporalCrimeAnalysis";
 
 interface Hotspot {
   id: string | number;
@@ -16,7 +17,12 @@ interface Hotspot {
   incidents: number;
 }
 
-export default function MapClient({ initialHotspots }: { initialHotspots: Hotspot[] }) {
+interface TemporalData {
+  hourly: { label: string; count: number; intensity: number }[];
+  monthly: { label: string; count: number; intensity: number }[];
+}
+
+export default function MapClient({ initialHotspots, temporalData }: { initialHotspots: Hotspot[], temporalData: TemporalData }) {
   const [selectedHotspot, setSelectedHotspot] = useState<Hotspot | null>(null);
   const [hotspots, setHotspots] = useState<Hotspot[]>(initialHotspots);
 
@@ -161,8 +167,26 @@ export default function MapClient({ initialHotspots }: { initialHotspots: Hotspo
           </div>
         </MobileExpandableChart>
 
+        <div className="mt-16 space-y-8">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div>
+              <h2 className="text-2xl font-bold tracking-tighter uppercase">Temporal Strike Patterns</h2>
+              <p className="text-sm text-muted-foreground font-mono uppercase tracking-widest italic">Cross-referencing Incident Timestamps with Operational Windows</p>
+            </div>
+            <div className="flex items-center gap-3 glass-card px-4 py-2 border-accent-blue/20">
+              <Activity className="w-3 h-3 text-accent-blue animate-pulse" />
+              <span className="text-[9px] font-black text-accent-blue uppercase tracking-tighter">Live Temporal Drift: ACTIVE</span>
+            </div>
+          </div>
+          
+          <TemporalCrimeAnalysis 
+            hourlyData={temporalData.hourly} 
+            monthlyData={temporalData.monthly} 
+          />
+        </div>
+
       {/* Stats Summary HUD */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mt-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mt-16">
         {[
           { label: "Monitored Hotspots", value: "324", icon: <Target className="w-4 h-4 text-accent-crimson" /> },
           { label: "National Risk Index", value: "CRITICAL", icon: <ShieldAlert className="w-4 h-4 text-accent-gold" /> },

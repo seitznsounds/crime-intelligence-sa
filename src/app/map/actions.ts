@@ -15,7 +15,6 @@ export async function getHotspots() {
   }
 
   // Fetch top 10 stations by total crime for mapping
-  // We use the mv_station_rankings view if available, or aggregate
   const { data, error } = await supabase
     .from("station_statistics")
     .select("station_name, total_crimes")
@@ -39,7 +38,6 @@ export async function getHotspots() {
     .slice(0, 10);
 
   // Map to fixed SVG coordinates for the prototype
-  // In a real app, we'd use Latitude/Longitude and a proper map projection
   const coords = [
     { x: 620, y: 320 }, { x: 180, y: 780 }, { x: 780, y: 480 },
     { x: 630, y: 280 }, { x: 520, y: 820 }, { x: 400, y: 400 },
@@ -55,4 +53,51 @@ export async function getHotspots() {
     risk: Math.min(99, 60 + Math.floor(Math.random() * 40)),
     incidents: s.total
   }));
+}
+
+export async function getTemporalData() {
+  let supabase;
+  try {
+    supabase = await createServerClient();
+  } catch (e) {
+    supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!
+    );
+  }
+
+  const { data: incidents, error } = await supabase
+    .from("incidents")
+    .select("occurred_at, created_at");
+
+  if (error) return { hourly: [], monthly: [] };
+
+  const hourlyCounts = new Array(24).fill(0);
+  const monthlyCounts = new Array(12).fill(0);
+
+  incidents.forEach((inc) => {
+    const date = new Date(inc.occurred_at || inc.created_at);
+    if (!isNaN(date.getTime())) {
+      hourlyCounts[date.getHours()]++;
+      monthlyCounts[date.getMonth()]++;
+    }
+  });
+
+  const maxHour = Math.max(...hourlyCounts, 1);
+  const maxMonth = Math.max(...monthlyCounts, 1);
+
+  const hourly = hourlyCounts.map((count, i) => ({
+    label: `${i.toString().padStart(2, '0')}:00`,
+    count,
+    intensity: count / maxHour
+  }));
+
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const monthly = monthlyCounts.map((count, i) => ({
+    label: months[i],
+    count,
+    intensity: count / maxMonth
+  }));
+
+  return { hourly, monthly };
 }

@@ -29,11 +29,41 @@ Following the analysis of the initial Wikipedia seed data and the enrichment fro
 *   **Focus:** Prosecutions of Fannie Masemola, Shadrack Sibiya, and others. Identify any "internal sabotage" within the NPA.
 *   **Source Track:** `investigations/npa-prosecution-status.md`
 
+### 6. Street-Prison Syndicate Linkages (Number Gangs)
+*   **Objective:** Map the evolution of Number gangs (26s, 27s, 28s) into street-level supergangs.
+*   **Focus:** Investigate the specific links between prison generals and street leaders of 'The Americans' (26s) and 'The Firm' (28s). Identify the 'blood line' recruitment patterns on the Cape Flats.
+*   **Source Track:** `investigations/street-prison-nexus.md`
+
+### 7. Transnational Syndicate Hubs (Triads & Sicilian Mafia)
+*   **Objective:** Map the cooperation between Cape supergangs (Hard Livings, The Americans) and international syndicates.
+*   **Focus:** Abalone poaching pipelines to Hong Kong (Sun Yee On, Wo Shing Wo) and illegal diamond/cannabis smuggling with the Sicilian Mafia.
+*   **Source Track:** `investigations/transnational-gang-links.md`
+
+### 8. Political Patronage & Construction Mafia (Delangokubona)
+*   **Objective:** Expose the link between the Durban Business Forums and high-level political figures.
+*   **Focus:** Systematic extortion of construction sites in KZN and the political protection afforded by 'RET' faction figures (Jacob Zuma, Zandile Gumede).
+*   **Source Track:** `investigations/durban-business-forums.md`
+
+### 9. Strategic Transport Sabotage (Taxi Wars & Rail Arson)
+*   **Objective:** Investigate the systematic destruction of public rail infrastructure to benefit the taxi industry.
+*   **Focus:** Links between taxi associations (CATA, CODETA) and organized train arson in the Western Cape. Identify the hitmen/operatives used for "route clearance".
+- **Source Track:** `investigations/transport-sabotage.md`
+
+### 10. Gangland Succession & State Infiltration (2025-2026)
+*   **Objective:** Map the power vacuum and succession wars following the assassinations of major gang leaders (Solomon, Staggie, Stevens, Davids, Periasamy).
+*   **Focus:** 
+    *   **The 28s Consolidation:** Ralph Stanfield’s role in the '28s Alliance' and the absorption of 'Terrible Josters' territory.
+    *   **The Americans Power Vacuum:** Succession after Igsaan 'Sanie American' Davids and the rise of Sadia Madatt in Rocklands.
+    *   **KZN Drug Cartels:** The expansion of the 'Bloods Gang' (Periasamy) and the 'Tatu Gang' (Gounden) in Phoenix/Verulam.
+    *   **State Collusion:** Allegations of SAPS collusion at Athlone and Sophiatown stations with the 'Varados' and 'Fast Guns'.
+*   **Source Track:** `investigations/gangland-succession.md`
+
 ## Hubs for Deep Scaping
 Use `.actors/news-scraper` and `.actors/deep-research-web-browser` on:
 - **Companies:** Falcon Cat Trading, Lux South African Investments, Cor Kabeng Trading, Black AK Trading.
-- **Individuals:** Julius Mkhwanazi (EMPD), Lesetja Senona (Hawks), Brown Mogotsi.
-- **Locations:** eBongweni C-Max (detention conditions/communications), 'The Green Lounge' (private terminal project).
+- **Individuals:** Julius Mkhwanazi (EMPD), Lesetja Senona (Hawks), Brown Mogotsi, Ralph Stanfield, Sadia Madatt, Horatio 'Voudie' Solomon, Anthony Gounden, Yusuf Bohardien, Andre Naude, Kalvin Periasamy, Kevin Periasamy, Igsaan 'Sanie American' Davids, Rashied Staggie, Ernie 'Lastig' Solomon, William 'Red' Stevens, Brian Wainstein, Mark Lifman, Jerome 'Donkie' Booysen, Nafiz Modack, Colin Booysen.
+- **Locations:** Viscount Street (Mitchells Plain), Saulsville Hostel (Pretoria), Gateway Mall Parking (uMhlanga), BP Garage Sibaya, Kalksteenfontein, Salt River (Tennyson Street), Boksburg, Nyanga Terminus.
+- **Entities:** Tatu Gang, Fancy Boys, Americans Gang, Nice Time Kids (NTK), Junior Mafias, Bloods Gang, Hard Livings, Terrible Josters, Dixie Boys, Skombizos, Pitfits, Varados, Fast Guns, CATA, CODETA.
 
 ## Intelligence Gaps (Missing Deep Intel)
 A gap analysis reveals that hundreds of entities listed in our database currently lack detailed dossiers in our `corruption_knowledge_graph.json`. This means the frontend UI cannot provide operational narratives or deep connection matrices for these individuals. 
@@ -71,3 +101,8 @@ With our UI/UX capable of displaying deep narrative intelligence and our Apify p
   2. Run the `getDeepIntel` pipeline to push these detailed narratives to the live frontend dossier views.
   3. Publish a comprehensive "State of Corruption" report based on the updated Knowledge Graph.
 
+
+
+### Update: 2026-05-16
+- Automatically synced 443 new entities and 594 relationships from extractions.
+- New entities identified: General Busisiwe Temba are facing criminal charges related to a R360 million SAPS, Burger said it was encouraging that the country was seeing a high number of investigations by the special investigating team and NPA, R200 million from the Hawks, Other officers suspended and being investigated in connection to the Medicare 24, Public Finance Management Act in relation to the Medicare 24.

@@ -94,7 +94,7 @@ export default function LiveTicker() {
               >
                 <div className="flex items-center gap-3">
                   <span className="text-[8px] font-mono text-muted-foreground/60 uppercase tracking-tighter">
-                    [{new Date(incident.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}]
+                    [{new Date(incident.occurred_at || incident.incident_date || incident.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}]
                   </span>
                   <div className={`px-2 py-0.5 rounded-full border text-[8px] font-black uppercase tracking-widest ${
                     incident.severity_level >= 3 
@@ -138,7 +138,7 @@ export default function LiveTicker() {
           {/* Repeat for seamless loop */}
           {incidents.slice(0, 5).map((incident, i) => (
               <div key={`${incident.id}-loop`} className="flex items-center gap-6 opacity-30">
-                <span className="text-[8px] font-mono text-muted-foreground/60 uppercase">[{new Date(incident.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}]</span>
+                <span className="text-[8px] font-mono text-muted-foreground/60 uppercase">[{new Date(incident.occurred_at || incident.incident_date || incident.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}]</span>
                 <span className="text-[8px] font-black uppercase tracking-widest text-muted-foreground">{incident.type}</span>
                 <span className="text-[10px] font-bold tracking-tight text-muted-foreground">{incident.title}</span>
               </div>

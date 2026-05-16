@@ -1,10 +1,13 @@
 import MapClient from "./MapClient";
-import { getHotspots } from "./actions";
+import { getHotspots, getTemporalData } from "./actions";
 
 export const dynamic = "force-dynamic";
 
 export default async function CrimeMapPage() {
-  const initialHotspots = await getHotspots();
+  const [initialHotspots, temporalData] = await Promise.all([
+    getHotspots(),
+    getTemporalData()
+  ]);
 
-  return <MapClient initialHotspots={initialHotspots} />;
+  return <MapClient initialHotspots={initialHotspots} temporalData={temporalData} />;
 }
