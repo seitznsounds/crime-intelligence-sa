@@ -37,7 +37,10 @@ export default function TemporalCrimeAnalysis({ hourlyData, monthlyData }: Incid
                 initial={{ height: 0 }}
                 animate={{ height: `${point.intensity * 100}%` }}
                 className={`w-full rounded-t-sm transition-colors ${
-                  point.intensity > 0.7 ? 'bg-accent-crimson' : 'bg-accent-blue/40'
+                  // Highlight 02:00 - 05:00 range
+                  (parseInt(point.label) >= 2 && parseInt(point.label) <= 5)
+                    ? 'bg-accent-crimson shadow-[0_0_10px_rgba(255,59,48,0.4)]'
+                    : point.intensity > 0.7 ? 'bg-accent-crimson/60' : 'bg-accent-blue/40'
                 } group-hover:bg-accent-gold`}
               />
               <span className="text-[7px] font-mono text-muted-foreground/60 -rotate-45 origin-left mt-2">

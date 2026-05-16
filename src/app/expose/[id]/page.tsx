@@ -4,6 +4,8 @@ import Link from "next/link";
 import { getDeepIntel } from "@/app/network/actions";
 import { Timeline } from "@/components/intel/Timeline";
 import { AytadaAd } from "@/components/ui/AytadaAd";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface PageProps {
   params: { id: string };
@@ -119,7 +121,16 @@ export default async function DeepExposurePage({ params }: PageProps) {
             </div>
           )}
 
-          {deepIntel?.narrative && (
+          {deepIntel?.dossier ? (
+            <div className="glass-card p-6 bg-bg-glass border-border-glass">
+              <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-gold border-b border-border-glass pb-2 mb-4">Investigative Dossier</h3>
+              <div className="prose prose-sm prose-invert max-w-none text-muted-foreground/90">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {deepIntel.dossier}
+                </ReactMarkdown>
+              </div>
+            </div>
+          ) : deepIntel?.narrative && (
             <div className="glass-card p-6 bg-bg-glass border-border-glass">
               <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-gold border-b border-border-glass pb-2 mb-4">Operational Intelligence</h3>
               <div className="prose prose-sm prose-invert max-w-none text-muted-foreground">

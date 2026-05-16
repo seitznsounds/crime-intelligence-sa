@@ -7,11 +7,11 @@ const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function main() {
-    const { data, error } = await supabase.from('organizations').select('status').limit(10);
+    const { data, error } = await supabase.from('person_relationships').select('relationship_type').limit(10);
     if (error) {
-        console.error("Error fetching organizations:", error.message);
+        console.error("Error fetching relationships:", error.message);
     } else {
-        console.log("Existing organization statuses:", [...new Set(data.map(o => o.status))]);
+        console.log("Existing relationship types:", data.map(r => r.relationship_type));
     }
 }
 

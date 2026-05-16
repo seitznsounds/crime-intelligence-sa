@@ -7,12 +7,11 @@ const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function main() {
-    const { data, error } = await supabase.from('organizations').select('status').limit(10);
-    if (error) {
-        console.error("Error fetching organizations:", error.message);
-    } else {
-        console.log("Existing organization statuses:", [...new Set(data.map(o => o.status))]);
-    }
+    const { data: people } = await supabase.from('people').select('full_name').limit(10);
+    console.log("Top 10 People in DB:", people?.map(p => p.full_name));
+
+    const { data: orgs } = await supabase.from('organizations').select('name').limit(10);
+    console.log("Top 10 Orgs in DB:", orgs?.map(o => o.name));
 }
 
 main();

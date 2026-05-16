@@ -8,6 +8,8 @@ import { getDeepIntel } from '@/app/network/actions';
 import { AytadaAd } from '../ui/AytadaAd';
 import Link from 'next/link';
 import { Portal } from '../ui/Portal';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface IntelligenceDrawerProps {
   isOpen: boolean;
@@ -120,8 +122,17 @@ export function IntelligenceDrawer({ isOpen, onClose, entityId, entityType, enti
                       </div>
                     )}
 
-                    {/* Operational Narrative */}
-                    {intelData?.narrative && (
+                    {/* Operational Narrative or Full Dossier */}
+                    {intelData?.dossier ? (
+                      <div className="space-y-3">
+                        <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-gold border-b border-border-glass pb-2">Investigative Dossier</h3>
+                        <div className="prose prose-sm prose-invert max-w-none text-muted-foreground/90">
+                          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                            {intelData.dossier}
+                          </ReactMarkdown>
+                        </div>
+                      </div>
+                    ) : intelData?.narrative && (
                       <div className="space-y-3">
                         <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-gold border-b border-border-glass pb-2">Operational Intelligence</h3>
                         <div className="prose prose-sm prose-invert max-w-none text-muted-foreground">
