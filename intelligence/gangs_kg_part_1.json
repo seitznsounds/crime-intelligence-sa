@@ -1,0 +1,327 @@
+{
+  "nodes": [
+    {
+      "id": "the-americans",
+      "type": "Organization",
+      "name": "The Americans",
+      "metadata": {
+        "description": "A large street gang and organized crime group based in the Cape Flats area of Cape Town, founded in 1983. It acts as a corporate body for many smaller units.",
+        "key_attributes": {
+          "founder": "Jackie Lonte (Neville Harold)",
+          "membership": "Approximately 30,000",
+          "headquarters": "The White House",
+          "criminal_activities": [
+            "Drug trafficking",
+            "Weapon trafficking",
+            "Prostitution",
+            "Contract killing",
+            "Extortion",
+            "Abalone poaching",
+            "Robbery",
+            "Fraud",
+            "Money laundering",
+            "Human trafficking",
+            "Kidnapping"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hard-livings",
+      "type": "Organization",
+      "name": "Hard Livings",
+      "metadata": {
+        "description": "A large street gang and organized crime group based in Manenberg, Cape Town, formed in 1971. Historically one of the two 'super gangs' in Cape Town.",
+        "key_attributes": {
+          "founders": ["Rashied Staggie", "Rashaad Staggie"],
+          "membership": "Approximately 6,000",
+          "criminal_activities": [
+            "Drug trafficking",
+            "Weapon trafficking",
+            "Prostitution",
+            "Contract killing",
+            "Extortion",
+            "Illegal diamond smuggling",
+            "Robbery",
+            "Fraud",
+            "Money laundering",
+            "Human trafficking",
+            "Kidnapping"
+          ]
+        }
+      }
+    },
+    {
+      "id": "black-axe",
+      "type": "Organization",
+      "name": "Black Axe (NBM)",
+      "metadata": {
+        "description": "An international 'mafia-style' confraternity with roots in Nigeria, originally part of the Neo Black Movement of Africa (NBM).",
+        "key_attributes": {
+          "founded": "July 7, 1977",
+          "origin": "University of Benin, Nigeria",
+          "criminal_activities": [
+            "Cybercrime",
+            "Election fraud",
+            "Human trafficking",
+            "Drug trafficking",
+            "Money laundering",
+            "Murder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delangokubona-business-forum",
+      "type": "Organization",
+      "name": "Delangokubona SA Business Forum",
+      "metadata": {
+        "description": "A Durban-based organization claiming to be a business association but widely described as a 'mafia'. Known for armed disruptions of construction sites.",
+        "key_attributes": {
+          "tactics": ["Armed disruptions", "Extortion", "Threats"],
+          "political_support": ["Jacob Zuma", "Zandile Gumede"]
+        }
+      }
+    },
+    {
+      "id": "numbers-gang",
+      "type": "Organization",
+      "name": "Numbers Gang",
+      "metadata": {
+        "description": "A secretive and highly structured South African prison gang divided into three factions: the 26s, 27s, and 28s.",
+        "key_attributes": {
+          "factions": ["26s (Economic/Smuggling)", "27s (Judiciary/Enforcement)", "28s (Military/Social)"],
+          "origin": "Late 1800s, KwaZulu-Natal",
+          "criminal_activities": [
+            "Extortion",
+            "Assault",
+            "Rape",
+            "Inmate prostitution",
+            "Theft",
+            "Murder",
+            "Gambling",
+            "Smuggling",
+            "Contract killing"
+          ]
+        }
+      }
+    },
+    {
+      "id": "jackie-lonte",
+      "type": "Person",
+      "name": "Jackie Lonte",
+      "metadata": {
+        "description": "Founder of The Americans gang. Credited with introducing crack cocaine to South Africa in the 1980s. Assassinated in 1998.",
+        "key_attributes": {
+          "real_name": "Neville Harold",
+          "former_affiliation": "Fancy Boys gang"
+        }
+      }
+    },
+    {
+      "id": "rashied-staggie",
+      "type": "Person",
+      "name": "Rashied Staggie",
+      "metadata": {
+        "description": "Co-founder and long-time leader of the Hard Livings gang. Assassinated in Salt River in 2019.",
+        "key_attributes": {
+          "twin_brother": "Rashaad Staggie",
+          "criminal_record": ["Kidnapping", "Rape", "Burglary"]
+        }
+      }
+    },
+    {
+      "id": "rashaad-staggie",
+      "type": "Person",
+      "name": "Rashaad Staggie",
+      "metadata": {
+        "description": "Co-founder of the Hard Livings gang. Publicly killed and set alight by the vigilante group PAGAD in 1996.",
+        "key_attributes": {
+          "twin_brother": "Rashied Staggie"
+        }
+      }
+    },
+    {
+      "id": "jacob-zuma",
+      "type": "Person",
+      "name": "Jacob Zuma",
+      "metadata": {
+        "description": "Former President of South Africa, connected to and supported by the Delangokubona Business Forum.",
+        "key_attributes": {
+          "status": "Investigated for large-scale corruption"
+        }
+      }
+    },
+    {
+      "id": "zandile-gumede",
+      "type": "Person",
+      "name": "Zandile Gumede",
+      "metadata": {
+        "description": "Former Durban Mayor, strongly supported by the Delangokubona Business Forum.",
+        "key_attributes": {
+          "status": "Investigated for corruption"
+        }
+      }
+    },
+    {
+      "id": "nigerian-mafia",
+      "type": "Organization",
+      "name": "Nigerian Mafia",
+      "metadata": {
+        "description": "Criminal syndicates from Nigeria operating in South Africa, often allied with local street gangs for drug distribution.",
+        "key_attributes": {
+          "specialties": ["Drug trafficking (Heroin/Cocaine)", "Human trafficking"]
+        }
+      }
+    },
+    {
+      "id": "triads",
+      "type": "Organization",
+      "name": "Triads",
+      "metadata": {
+        "description": "Chinese organized crime groups (including Sun Yee On and 14K) operating in South Africa.",
+        "key_attributes": {
+          "activities": ["Abalone poaching", "Money laundering", "Drug trafficking"]
+        }
+      }
+    },
+    {
+      "id": "sicilian-mafia",
+      "type": "Organization",
+      "name": "Sicilian Mafia",
+      "metadata": {
+        "description": "Italian organized crime group reported to have cooperated with South African gangs.",
+        "key_attributes": {
+          "criminal_links": ["Illegal diamond trafficking", "Cannabis trafficking to Europe"]
+        }
+      }
+    },
+    {
+      "id": "andre-stander",
+      "type": "Person",
+      "name": "André Stander",
+      "metadata": {
+        "description": "Former police captain turned notorious bank robber and leader of the Stander Gang. Killed in Florida in 1984.",
+        "key_attributes": {
+          "rank": "Captain (Kempton Park CID)",
+          "crimes": ["Bank robberies"]
+        }
+      }
+    },
+    {
+      "id": "allan-heyl",
+      "type": "Person",
+      "name": "Allan Heyl",
+      "metadata": {
+        "description": "The last surviving member of the Stander Gang. Became a motivational speaker after his release from prison.",
+        "key_attributes": {
+          "prison_sentence": "25 years",
+          "death": "April 17, 2020"
+        }
+      }
+    },
+    {
+      "id": "lee-mccall",
+      "type": "Person",
+      "name": "Lee McCall",
+      "metadata": {
+        "description": "Member of the Stander Gang. Killed during a police raid in Houghton Estate in 1984.",
+        "key_attributes": {
+          "specialty": "Car theft and fraud"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "the-americans",
+      "target": "hard-livings",
+      "relationship": "RivalOf",
+      "description": "Long-standing violent rivalry for control of drug territory in the Cape Flats."
+    },
+    {
+      "source": "the-americans",
+      "target": "jackie-lonte",
+      "relationship": "LeaderOf",
+      "description": "Jackie Lonte founded and led the gang until his death in 1998."
+    },
+    {
+      "source": "hard-livings",
+      "target": "rashied-staggie",
+      "relationship": "LeaderOf",
+      "description": "Rashied Staggie was a co-founder and primary leader of the gang."
+    },
+    {
+      "source": "hard-livings",
+      "target": "rashaad-staggie",
+      "relationship": "LeaderOf",
+      "description": "Rashaad Staggie co-founded the gang and led it until his death in 1996."
+    },
+    {
+      "source": "the-americans",
+      "target": "nigerian-mafia",
+      "relationship": "AlliedWith",
+      "description": "Cooperation in drug trafficking and local distribution networks."
+    },
+    {
+      "source": "the-americans",
+      "target": "triads",
+      "relationship": "AlliedWith",
+      "description": "Collaboration on transnational crimes like abalone poaching."
+    },
+    {
+      "source": "hard-livings",
+      "target": "nigerian-mafia",
+      "relationship": "AlliedWith",
+      "description": "Strategic alliance for drug distribution and supply."
+    },
+    {
+      "source": "hard-livings",
+      "target": "triads",
+      "relationship": "AlliedWith",
+      "description": "Involved in joint international criminal operations."
+    },
+    {
+      "source": "hard-livings",
+      "target": "sicilian-mafia",
+      "relationship": "AlliedWith",
+      "description": "Cooperation in illegal diamond smuggling and cannabis trafficking."
+    },
+    {
+      "source": "delangokubona-business-forum",
+      "target": "jacob-zuma",
+      "relationship": "AffiliatedWith",
+      "description": "The forum is connected to and strongly supportive of the former President."
+    },
+    {
+      "source": "delangokubona-business-forum",
+      "target": "zandile-gumede",
+      "relationship": "AffiliatedWith",
+      "description": "Strong political and strategic support for the former Durban Mayor."
+    },
+    {
+      "source": "black-axe",
+      "target": "nigerian-mafia",
+      "relationship": "AffiliatedWith",
+      "description": "Often used interchangeably or as a key component of Nigerian organized crime."
+    },
+    {
+      "source": "stander-gang",
+      "target": "andre-stander",
+      "relationship": "LedBy",
+      "description": "André Stander was the mastermind and leader of the robbery crew."
+    },
+    {
+      "source": "stander-gang",
+      "target": "allan-heyl",
+      "relationship": "AffiliatedWith",
+      "description": "Heyl was one of the three core members of the gang."
+    },
+    {
+      "source": "stander-gang",
+      "target": "lee-mccall",
+      "relationship": "AffiliatedWith",
+      "description": "McCall was one of the three core members of the gang."
+    }
+  ]
+}

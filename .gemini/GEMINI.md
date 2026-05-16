@@ -26,7 +26,7 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Expose High-Level Corruption**: Document and highlight the links between organized crime and government officials.
 - **Systemic Accountability**: Track the "lifecycle" of crime—from the street to the official who legitimizes it.
 
-# 🚀 Operational Progress (May 2026)
+# 🚀 Operational Progress (June 2026)
 
 ### 1. Ingestion Protocol [COMPLETED]
 
@@ -193,14 +193,41 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Semantic Graph Core**: Deployed the `getInferredLinks` server action that cross-references known PEP hubs with semantically correlated documents in the `ai_knowledge_base`.
 - **UI Operationalization**: Integrated live "Predictive Linkage" into the `Predictive Intel Engine`, replacing mock data with real-time confidence-scored connection predictions.
 
-# 🔮 Next Operational Cycle
+### 27. Phase 4: Active Investigation & Automated Triage [COMPLETED]
+- **Step 1: Automated Triage**: Filtered high-risk targets and performed deep research on top 5.
+- **Step 2: Targeted Scraping**: Executed deep beneficial ownership audits for Falcon Cat, Black AK, Cor Kabeng, and Lux SA.
+- **Step 3: Synthesis & Exposure**: Published "Final Investigative Report: The Big Five Cartel & Gold Mafia Nexus".
+- **Master KG Sync**: Synchronized master 5,500-node graph to production database including 5,600+ relationships.
 
-1. **Deep Research Portal**: Integrate the `za_intelligence/deep-research-web-browser` Apify actor for on-demand investigative research in the UI.
-2. **Refine AI Corruption Forecasting**: Enhance the probability engine with time-series analysis of link density spikes and SCM behavioral fingerprints.
-3. **Mobile Native Optimization**: Finalize PWA capabilities for "Field Intel" reporting.
+### 28. UI/UX: Intelligence Narrative Layer [COMPLETED]
+- **Dynamic Dossier Integration**: Implemented recursive Markdown dossier rendering in `IntelligenceDrawer` and profile pages using `react-markdown`.
+- **Temporal Strike Patterns**: Upgraded geospatial map with visual highlighting for peak ambush windows (02:00-05:00).
+- **Syndicate Profile Access**: Direct forensic profile access integrated into the hierarchical syndicate viewer.
+
+# 🔮 Next Operational Cycle (Watchdog Phase)
+
+1. **Daily Watchdog Delta**: Automated execution of `scripts/watchdog.ts` for real-time extraction of new leads.
+2. **Media Kit Generation**: Exporting high-fidelity investigative reports for external journalism partners.
+3. **Real-time Incident Trigger**: Automated research tasks triggered by new high-severity incidents in the ticker.
+
+# 📂 Directory Architecture & Forensic Assets
+
+### Intelligence Data
+- `intelligence/corruption_knowledge_graph.json`: Master unified Knowledge Graph (5,500+ nodes).
+- `intelligence/dossiers/`: High-fidelity investigative narratives (Markdown).
+- `intelligence/extractions/`: Raw forensic data from recursive web-browser crawls.
+
+### Investigation Tracks
+- `.research/investigations/`: Focused investigation tracks (Witness H, Cocaine Trail, Gangland Succession, etc.).
+- `.research/to-ingest/INVESTIGATE.md`: Master investigation roadmap and Priority Intelligence Requirements (PIRs).
+
+### Forensic Scripts (`scratch/` & `scripts/`)
+- `scripts/watchdog.ts`: Standardized daily intelligence cycle (Scrape -> Sync -> Prune -> Push).
+- `scratch/resolve_entities.ts`: Fuzzy-match deduplication for the 37,000-node production dataset.
+- `scratch/sync_master_kg_to_db.ts`: Full synchronization pipeline between Knowledge Graph and Supabase.
 
 # ⚠️ Technical Constraints
-- **Vercel Hobby Tier Limit**: We can only set ONE cron job per day. Therefore, complex or multi-stage background investigations must be handled agentically or locally rather than relying on frequent cron triggers.
+- **Vercel Hobby Tier Limit**: Restricted to ONE cron job per day. Complex investigations must be handled agentically via the local watchdog script.
 
 # 🧠 Agent Intelligence Overlays
 

@@ -1,0 +1,964 @@
+{
+  "nodes": [
+    {
+      "id": "the-americans",
+      "type": "Organization",
+      "name": "The Americans",
+      "metadata": {
+        "description": "A large street gang and organized crime group based in the Cape Flats area of Cape Town, founded in 1983. It acts as a corporate body for many smaller units.",
+        "key_attributes": {
+          "founder": "Jackie Lonte (Neville Harold)",
+          "membership": "Approximately 30,000",
+          "headquarters": "The White House",
+          "criminal_activities": [
+            "Drug trafficking",
+            "Weapon trafficking",
+            "Prostitution",
+            "Contract killing",
+            "Extortion",
+            "Abalone poaching",
+            "Robbery",
+            "Fraud",
+            "Money laundering",
+            "Human trafficking",
+            "Kidnapping"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hard-livings",
+      "type": "Organization",
+      "name": "Hard Livings",
+      "metadata": {
+        "description": "A large street gang and organized crime group based in Manenberg, Cape Town, formed in 1971. Historically one of the two 'super gangs' in Cape Town.",
+        "key_attributes": {
+          "founders": [
+            "Rashied Staggie",
+            "Rashaad Staggie"
+          ],
+          "membership": "Approximately 6,000",
+          "criminal_activities": [
+            "Drug trafficking",
+            "Weapon trafficking",
+            "Prostitution",
+            "Contract killing",
+            "Extortion",
+            "Illegal diamond smuggling",
+            "Robbery",
+            "Fraud",
+            "Money laundering",
+            "Human trafficking",
+            "Kidnapping"
+          ]
+        }
+      }
+    },
+    {
+      "id": "black-axe",
+      "type": "Organization",
+      "name": "Black Axe (NBM)",
+      "metadata": {
+        "description": "An international 'mafia-style' confraternity with roots in Nigeria, originally part of the Neo Black Movement of Africa (NBM).",
+        "key_attributes": {
+          "founded": "July 7, 1977",
+          "origin": "University of Benin, Nigeria",
+          "criminal_activities": [
+            "Cybercrime",
+            "Election fraud",
+            "Human trafficking",
+            "Drug trafficking",
+            "Money laundering",
+            "Murder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delangokubona-business-forum",
+      "type": "Organization",
+      "name": "Delangokubona SA Business Forum",
+      "metadata": {
+        "description": "A Durban-based organization claiming to be a business association but widely described as a 'mafia'. Known for armed disruptions of construction sites.",
+        "key_attributes": {
+          "tactics": [
+            "Armed disruptions",
+            "Extortion",
+            "Threats"
+          ],
+          "political_support": [
+            "Jacob Zuma",
+            "Zandile Gumede"
+          ]
+        }
+      }
+    },
+    {
+      "id": "numbers-gang",
+      "type": "Organization",
+      "name": "Numbers Gang",
+      "metadata": {
+        "description": "A secretive and highly structured South African prison gang divided into three factions: the 26s, 27s, and 28s.",
+        "key_attributes": {
+          "factions": [
+            "26s (Economic/Smuggling)",
+            "27s (Judiciary/Enforcement)",
+            "28s (Military/Social)"
+          ],
+          "origin": "Late 1800s, KwaZulu-Natal",
+          "criminal_activities": [
+            "Extortion",
+            "Assault",
+            "Rape",
+            "Inmate prostitution",
+            "Theft",
+            "Murder",
+            "Gambling",
+            "Smuggling",
+            "Contract killing"
+          ]
+        }
+      }
+    },
+    {
+      "id": "jackie-lonte",
+      "type": "Person",
+      "name": "Jackie Lonte",
+      "metadata": {
+        "description": "Founder of The Americans gang. Credited with introducing crack cocaine to South Africa in the 1980s. Assassinated in 1998.",
+        "key_attributes": {
+          "real_name": "Neville Harold",
+          "former_affiliation": "Fancy Boys gang"
+        }
+      }
+    },
+    {
+      "id": "rashied-staggie",
+      "type": "Person",
+      "name": "Rashied Staggie",
+      "metadata": {
+        "description": "Co-founder and long-time leader of the Hard Livings gang. Assassinated in Salt River in 2019.",
+        "key_attributes": {
+          "twin_brother": "Rashaad Staggie",
+          "criminal_record": [
+            "Kidnapping",
+            "Rape",
+            "Burglary"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rashaad-staggie",
+      "type": "Person",
+      "name": "Rashaad Staggie",
+      "metadata": {
+        "description": "Co-founder of the Hard Livings gang. Publicly killed and set alight by the vigilante group PAGAD in 1996.",
+        "key_attributes": {
+          "twin_brother": "Rashied Staggie"
+        }
+      }
+    },
+    {
+      "id": "jacob-zuma",
+      "type": "Person",
+      "name": "Jacob Zuma",
+      "metadata": {
+        "description": "Former President of South Africa, connected to and supported by the Delangokubona Business Forum.",
+        "key_attributes": {
+          "status": "Investigated for large-scale corruption"
+        }
+      }
+    },
+    {
+      "id": "zandile-gumede",
+      "type": "Person",
+      "name": "Zandile Gumede",
+      "metadata": {
+        "description": "Former Durban Mayor, strongly supported by the Delangokubona Business Forum.",
+        "key_attributes": {
+          "status": "Investigated for corruption"
+        }
+      }
+    },
+    {
+      "id": "nigerian-mafia",
+      "type": "Organization",
+      "name": "Nigerian Mafia",
+      "metadata": {
+        "description": "Criminal syndicates from Nigeria operating in South Africa, often allied with local street gangs for drug distribution.",
+        "key_attributes": {
+          "specialties": [
+            "Drug trafficking (Heroin/Cocaine)",
+            "Human trafficking"
+          ]
+        }
+      }
+    },
+    {
+      "id": "triads",
+      "type": "Organization",
+      "name": "Triads",
+      "metadata": {
+        "description": "Chinese organized crime groups (including Sun Yee On and 14K) operating in South Africa.",
+        "key_attributes": {
+          "activities": [
+            "Abalone poaching",
+            "Money laundering",
+            "Drug trafficking"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sicilian-mafia",
+      "type": "Organization",
+      "name": "Sicilian Mafia",
+      "metadata": {
+        "description": "Italian organized crime group reported to have cooperated with South African gangs.",
+        "key_attributes": {
+          "criminal_links": [
+            "Illegal diamond trafficking",
+            "Cannabis trafficking to Europe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "andre-stander",
+      "type": "Person",
+      "name": "André Stander",
+      "metadata": {
+        "description": "Former South African Police captain turned bank robber and mastermind of the Stander Gang. Killed in a shootout in Florida.",
+        "key_attributes": {
+          "former_rank": "Captain (Kempton Park CID)",
+          "criminal_record": [
+            "Bank robbery",
+            "Prison escape",
+            "Forgery"
+          ]
+        }
+      }
+    },
+    {
+      "id": "allan-heyl",
+      "type": "Person",
+      "name": "Allan Heyl",
+      "metadata": {
+        "description": "Last surviving member of the Stander Gang. Served 25 years in prison and later became a motivational speaker.",
+        "key_attributes": {
+          "status": "Deceased (April 17, 2020)",
+          "roles": [
+            "Bank robber",
+            "Disguise artist"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lee-mccall",
+      "type": "Person",
+      "name": "Lee McCall",
+      "metadata": {
+        "description": "Member of the Stander Gang. Killed during a police raid in Houghton Estate in 1984.",
+        "key_attributes": {
+          "specialty": "Car theft and fraud"
+        }
+      }
+    },
+    {
+      "id": "israeli-mafia",
+      "type": "Organization",
+      "name": "Israeli Mafia",
+      "metadata": {
+        "description": "Organized crime groups operating in Israel or consisting of Israeli members, including major crime families of Moroccan and Russian descent.",
+        "key_attributes": {
+          "major_groups": [
+            "Abergil crime family",
+            "Abutbul clans",
+            "Alperons",
+            "Dumranis",
+            "Shirazis",
+            "Amir Molnar",
+            "Zeev Rosenstein syndicates"
+          ],
+          "activities": [
+            "Money laundering",
+            "Drug trafficking (ecstasy)",
+            "Illegal gambling",
+            "Extortion",
+            "Human trafficking",
+            "Gold heists (New York)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "abergil-crime-family",
+      "type": "Organization",
+      "name": "Abergil Crime Family",
+      "metadata": {
+        "description": "A top Moroccan Jewish criminal organization in Israel, heavily involved in international drug trafficking and money laundering.",
+        "key_attributes": {
+          "leaders": [
+            "Itzik Abergil",
+            "Meir Abergil"
+          ],
+          "specialties": [
+            "Ecstasy trafficking",
+            "Illegal gambling",
+            "Racketeering"
+          ],
+          "international_presence": [
+            "Israel",
+            "United States",
+            "Europe",
+            "Morocco"
+          ]
+        }
+      }
+    },
+    {
+      "id": "abutbul-crime-family",
+      "type": "Organization",
+      "name": "Abutbul Crime Family",
+      "metadata": {
+        "description": "One of the major Israeli crime families of Moroccan Jewish descent.",
+        "key_attributes": {
+          "origin": "Morocco",
+          "activities": [
+            "Organized crime",
+            "Extortion",
+            "Money laundering"
+          ]
+        }
+      }
+    },
+    {
+      "id": "russian-mafia-israel",
+      "type": "Organization",
+      "name": "Russian Mafia in Israel",
+      "metadata": {
+        "description": "Criminal networks established by Soviet Russian immigrants in Israel starting in 1989, utilized for large-scale money laundering.",
+        "key_attributes": {
+          "notable_figures": [
+            "Semion Mogilevich"
+          ],
+          "money_laundering_volume": "$5 to $10 billion (1990-2005)",
+          "activities": [
+            "Financial fraud",
+            "Drug trafficking",
+            "Extortion"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sun-yee-on",
+      "type": "Organization",
+      "name": "Sun Yee On (Triad)",
+      "metadata": {
+        "description": "One of the leading Hong Kong triads with over 25,000 members, believed to extend operations into South Africa.",
+        "key_attributes": {
+          "founder": "Heung Chin",
+          "leadership": "Heung Wah-yim (former Dragon Head)",
+          "activities": [
+            "Abalone poaching (South Africa)",
+            "Money laundering",
+            "Drug trafficking",
+            "Vice establishments"
+          ]
+        }
+      }
+    },
+    {
+      "id": "wo-shing-wo",
+      "type": "Organization",
+      "name": "Wo Shing Wo (Triad)",
+      "metadata": {
+        "description": "The oldest triad society in Hong Kong, with a significant presence in South Africa (Johannesburg and Cape Town).",
+        "key_attributes": {
+          "south_africa_activities": [
+            "Abalone poaching ($32m gross income in 2000)",
+            "Drug trafficking",
+            "Money laundering",
+            "Firearms smuggling"
+          ],
+          "local_strongholds": [
+            "Johannesburg",
+            "Cape Town"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stander-gang",
+      "type": "Organization",
+      "name": "Stander Gang",
+      "metadata": {
+        "description": "A notorious bank-robbing crew in South Africa composed of escaped convicts, led by a former police captain.",
+        "key_attributes": {
+          "members": [
+            "Andre Stander",
+            "Allan Heyl",
+            "Lee McCall"
+          ],
+          "activities": [
+            "Bank robberies (30+)",
+            "Escaping from Zonderwater Prison",
+            "Using disguises"
+          ],
+          "total_stolen": "Over R700,000 (1977-1984)"
+        }
+      }
+    },
+    {
+      "id": "gerald-bull",
+      "type": "Person",
+      "name": "Gerald Bull",
+      "metadata": {
+        "description": "Canadian engineer and international artillery consultant involved in illegal arms sales to South Africa and Iraq. Assassinated in 1990.",
+        "key_attributes": {
+          "projects": [
+            "Project Babylon (Iraqi Supergun)",
+            "GC-45 Howitzer",
+            "HARP"
+          ],
+          "criminal_convictions": [
+            "Illegal arms dealing (UN Resolution 418)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "space-research-corporation",
+      "type": "Organization",
+      "name": "Space Research Corporation (SRC)",
+      "metadata": {
+        "description": "Bull's international artillery consultancy company involved in illicit arms shipments to South Africa.",
+        "key_attributes": {
+          "client_countries": [
+            "South Africa",
+            "Israel",
+            "China",
+            "Iraq"
+          ],
+          "products": [
+            "ERFB shells",
+            "GC-45 howitzer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dawie-groenewald",
+      "type": "Person",
+      "name": "Dawie Groenewald",
+      "metadata": {
+        "description": "South African game farmer and leader of the 'Musina Mafia', involved in the largest rhino poaching case in SA history.",
+        "key_attributes": {
+          "charges": [
+            "1,600+ counts of racketeering, poaching, and money laundering"
+          ],
+          "organizations": [
+            "Out of Africa Adventurous Safaris",
+            "Musina Mafia",
+            "Groenewald Gang"
+          ]
+        }
+      }
+    },
+    {
+      "id": "simon-ernesto-valoi",
+      "type": "Person",
+      "name": "Simon Ernesto Valoi (Navara)",
+      "metadata": {
+        "description": "Convicted Mozambican rhinoceros poacher who controlled approximately 15 poaching gangs in Kruger National Park.",
+        "key_attributes": {
+          "nickname": "Navara",
+          "sentence": "30 years imprisonment",
+          "activities": [
+            "Rhino poaching",
+            "Car theft",
+            "Kidnapping"
+          ]
+        }
+      }
+    },
+    {
+      "id": "barend-strydom",
+      "type": "Person",
+      "name": "Barend Strydom",
+      "metadata": {
+        "description": "White supremacist known for the Strijdom Square massacre. Claimed he wanted to start a race war.",
+        "key_attributes": {
+          "affiliation": "Wit Wolwe",
+          "crimes": [
+            "8 murders",
+            "16 attempted murders"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cata",
+      "type": "Organization",
+      "name": "Cape Amalgamated Taxi Association (CATA)",
+      "metadata": {
+        "description": "A powerful taxi 'mother' organization in Cape Town, notorious for its involvement in violent turf wars and competition for lucrative routes.",
+        "key_attributes": {
+          "location": "Cape Town",
+          "tactics": [
+            "Turf wars",
+            "Hiring hitmen",
+            "Extortion",
+            "Price fixing"
+          ],
+          "notable_conflicts": [
+            "B97 taxi route conflict (2021)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "codeta",
+      "type": "Organization",
+      "name": "Congress of Democratic Taxi Association (CODETA)",
+      "metadata": {
+        "description": "A major taxi association in Cape Town and the primary rival of CATA. Involved in long-standing violent conflicts over taxi territory.",
+        "key_attributes": {
+          "location": "Cape Town",
+          "tactics": [
+            "Turf wars",
+            "Route control",
+            "Extortion"
+          ],
+          "notable_conflicts": [
+            "2021 Cape Town taxi conflict"
+          ]
+        }
+      }
+    },
+    {
+      "id": "santaco",
+      "type": "Organization",
+      "name": "South African National Taxi Council (Santaco)",
+      "metadata": {
+        "description": "The national representative body for the minibus taxi industry in South Africa, often mediating between the government and local associations.",
+        "key_attributes": {
+          "role": "National representative body",
+          "notable_actions": [
+            "Declared a violent taxi strike in August 2023"
+          ]
+        }
+      }
+    },
+    {
+      "id": "taxi-wars",
+      "type": "Event",
+      "name": "South African Taxi Wars",
+      "metadata": {
+        "description": "Ongoing turf wars between taxi associations and individual operators since the late 1980s, driven by deregulation and competition for passengers.",
+        "key_attributes": {
+          "period": "Late 1980s - Present",
+          "death_toll": "Thousands (historically 200-300 deaths annually in the late 90s)",
+          "causes": [
+            "Deregulation (1987)",
+            "Corrupt permit systems",
+            "Political instability"
+          ]
+        }
+      }
+    },
+    {
+      "id": "train-arson-ct",
+      "type": "Event",
+      "name": "Cape Town Train Arson Attacks",
+      "metadata": {
+        "description": "A series of organized arson attacks on Metrorail passenger trains in Cape Town, frequently linked to the taxi industry aiming to reduce rail competition.",
+        "key_attributes": {
+          "impact": "140+ carriages destroyed by 2018",
+          "modus_operandi": "Weekly organized attacks",
+          "notable_convictions": [
+            "Ricardo Khan"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gugulethu-massacre-2020",
+      "type": "Event",
+      "name": "Gugulethu Massacre (2020)",
+      "metadata": {
+        "description": "A mass shooting on 2 November 2020 in Gugulethu that left eight people dead, linked to local gang conflicts and extortion.",
+        "key_attributes": {
+          "location": "NY78, Gugulethu, Cape Town",
+          "casualties": "8 dead, 1 injured",
+          "suspected_motives": [
+            "Extortion by Boko Haram gang",
+            "Drug-related conflict",
+            "Conflict between Guptas and Boko Haram gangs"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lusikisiki-shootings-2024",
+      "type": "Event",
+      "name": "Lusikisiki Shootings (2024)",
+      "metadata": {
+        "description": "Two mass shootings at homesteads in Lusikisiki on 28 September 2024, resulting in 18 fatalities.",
+        "key_attributes": {
+          "location": "Lusikisiki, Eastern Cape",
+          "casualties": "18 dead, 5 injured",
+          "context": "One of the deadliest mass shootings in recent South African history."
+        }
+      }
+    },
+    {
+      "id": "boko-haram-gang",
+      "type": "Organization",
+      "name": "Boko Haram (Gugulethu Street Gang)",
+      "metadata": {
+        "description": "A local street gang in Gugulethu, Cape Town, known for extorting residents and businesses.",
+        "key_attributes": {
+          "location": "Gugulethu",
+          "criminal_activities": [
+            "Extortion",
+            "Mass shootings",
+            "Drug trafficking"
+          ],
+          "rivals": [
+            "Guptas street gang"
+          ]
+        }
+      }
+    },
+    {
+      "id": "guptas-gang",
+      "type": "Organization",
+      "name": "Guptas (Gugulethu Street Gang)",
+      "metadata": {
+        "description": "A street gang in Gugulethu involved in territorial conflicts with the Boko Haram gang.",
+        "key_attributes": {
+          "location": "Gugulethu",
+          "criminal_activities": [
+            "Gang warfare",
+            "Turf defense"
+          ]
+        }
+      }
+    },
+    {
+      "id": "louis-van-schoor",
+      "type": "Person",
+      "name": "Louis van Schoor",
+      "metadata": {
+        "description": "Former policeman and security guard known as 'The Apartheid Killer'. Convicted of 7 murders but suspected of up to 39, mostly targeting black people.",
+        "key_attributes": {
+          "former_rank": "Policeman",
+          "motive": "White supremacy",
+          "death": "25 July 2024"
+        }
+      }
+    },
+    {
+      "id": "rosemary-ndlovu",
+      "type": "Person",
+      "name": "Rosemary Ndlovu",
+      "metadata": {
+        "description": "Former police sergeant at Tembisa station convicted of murdering six relatives for insurance payouts.",
+        "key_attributes": {
+          "former_rank": "Sergeant (SAPS)",
+          "crimes": [
+            "Murder (6 counts)",
+            "Fraud",
+            "Attempted murder"
+          ],
+          "sentence": "Six concurrent life terms"
+        }
+      }
+    },
+    {
+      "id": "khangayi-sedumedi",
+      "type": "Person",
+      "name": "Khangayi Sedumedi",
+      "metadata": {
+        "description": "Serial killer and rapist known as 'The Century City Killer', who targeted young jobseekers near Cape Town train stations.",
+        "key_attributes": {
+          "location": "Gugulethu / Century City",
+          "nickname": "Jesus",
+          "sentence": "Seven life sentences"
+        }
+      }
+    },
+    {
+      "id": "police-complicity-1998",
+      "type": "Event",
+      "name": "1998 Police Complicity Case",
+      "metadata": {
+        "description": "A significant case where thirteen police officers were charged with complicity in taxi violence, illustrating the depth of corruption in the industry's regulation.",
+        "key_attributes": {
+          "date": "1998",
+          "charge": "Complicity in taxi violence",
+          "implication": "State/Police involvement in destabilizing political opposition through taxi turf wars."
+        }
+      }
+    },
+    {
+      "id": "mount-ayliff-massacre",
+      "type": "Event",
+      "name": "Mount Ayliff Christmas Day Massacre (2020)",
+      "metadata": {
+        "description": "A massacre resulting from a taxi dispute between competing operators on Christmas Day 2020.",
+        "key_attributes": {
+          "location": "Mount Ayliff, Eastern Cape",
+          "casualties": "9 dead",
+          "context": "Dispute over minibus taxi routes"
+        }
+      }
+    },
+    {
+      "id": "simon-mukondoleli",
+      "type": "Person",
+      "name": "Simon Mukondoleli",
+      "metadata": {
+        "description": "A black taxi driver who heroically stopped white supremacist Barend Strydom during his shooting spree in 1988.",
+        "key_attributes": {
+          "action": "Disarmed Strydom at Sato Engineering building",
+          "context": "Strijdom Square massacre"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "the-americans",
+      "target": "hard-livings",
+      "relationship": "RivalOf",
+      "description": "Long-standing violent rivalry for control of drug territory in the Cape Flats."
+    },
+    {
+      "source": "the-americans",
+      "target": "jackie-lonte",
+      "relationship": "LeaderOf",
+      "description": "Jackie Lonte founded and led the gang until his death in 1998."
+    },
+    {
+      "source": "hard-livings",
+      "target": "rashied-staggie",
+      "relationship": "LeaderOf",
+      "description": "Rashied Staggie was a co-founder and primary leader of the gang."
+    },
+    {
+      "source": "hard-livings",
+      "target": "rashaad-staggie",
+      "relationship": "LeaderOf",
+      "description": "Rashaad Staggie co-founded the gang and led it until his death in 1996."
+    },
+    {
+      "source": "the-americans",
+      "target": "nigerian-mafia",
+      "relationship": "AlliedWith",
+      "description": "Cooperation in drug trafficking and local distribution networks."
+    },
+    {
+      "source": "the-americans",
+      "target": "triads",
+      "relationship": "AlliedWith",
+      "description": "Collaboration on transnational crimes like abalone poaching."
+    },
+    {
+      "source": "hard-livings",
+      "target": "nigerian-mafia",
+      "relationship": "AlliedWith",
+      "description": "Strategic alliance for drug distribution and supply."
+    },
+    {
+      "source": "hard-livings",
+      "target": "triads",
+      "relationship": "AlliedWith",
+      "description": "Involved in joint international criminal operations."
+    },
+    {
+      "source": "hard-livings",
+      "target": "sicilian-mafia",
+      "relationship": "AlliedWith",
+      "description": "Cooperation in illegal diamond smuggling and cannabis trafficking."
+    },
+    {
+      "source": "delangokubona-business-forum",
+      "target": "jacob-zuma",
+      "relationship": "AffiliatedWith",
+      "description": "The forum is connected to and strongly supportive of the former President."
+    },
+    {
+      "source": "delangokubona-business-forum",
+      "target": "zandile-gumede",
+      "relationship": "AffiliatedWith",
+      "description": "Strong political and strategic support for the former Durban Mayor."
+    },
+    {
+      "source": "black-axe",
+      "target": "nigerian-mafia",
+      "relationship": "AffiliatedWith",
+      "description": "Often used interchangeably or as a key component of Nigerian organized crime."
+    },
+    {
+      "source": "stander-gang",
+      "target": "andre-stander",
+      "relationship": "LedBy",
+      "description": "André Stander was the mastermind and leader of the robbery crew. Andre Stander was the mastermind and leader of the gang's bank robbing spree."
+    },
+    {
+      "source": "stander-gang",
+      "target": "allan-heyl",
+      "relationship": "AffiliatedWith",
+      "description": "Heyl was one of the three core members of the gang. Allan Heyl was a core member and the last surviving participant of the gang's activities."
+    },
+    {
+      "source": "stander-gang",
+      "target": "lee-mccall",
+      "relationship": "AffiliatedWith",
+      "description": "McCall was one of the three core members of the gang."
+    },
+    {
+      "source": "israeli-mafia",
+      "target": "russian-mafia-israel",
+      "relationship": "AlliedWith",
+      "description": "Russian crime bosses utilized Israeli citizenship and banking systems for money laundering."
+    },
+    {
+      "source": "abergil-crime-family",
+      "target": "israeli-mafia",
+      "relationship": "AffiliatedWith",
+      "description": "The Abergils are a primary crime family within the broader Israeli mafia structure."
+    },
+    {
+      "source": "abutbul-crime-family",
+      "target": "israeli-mafia",
+      "relationship": "AffiliatedWith",
+      "description": "The Abutbul clan is a major crime family operating within the Israeli mafia."
+    },
+    {
+      "source": "sun-yee-on",
+      "target": "wo-shing-wo",
+      "relationship": "RivalOf",
+      "description": "Competing triads for control of criminal markets like drug trafficking and abalone poaching."
+    },
+    {
+      "source": "gerald-bull",
+      "target": "space-research-corporation",
+      "relationship": "LeaderOf",
+      "description": "Bull founded and operated SRC as his primary vehicle for international arms consultancy."
+    },
+    {
+      "source": "space-research-corporation",
+      "target": "israeli-mafia",
+      "relationship": "AlliedWith",
+      "description": "SRC's first major success was selling 50,000 shells to Israel in 1973."
+    },
+    {
+      "source": "gerald-bull",
+      "target": "israeli-mafia",
+      "relationship": "ConflictWith",
+      "description": "Speculated to have been assassinated by Mossad agents due to his cooperation with Iraq's Saddam Hussein."
+    },
+    {
+      "source": "dawie-groenewald",
+      "target": "israeli-mafia",
+      "relationship": "AffiliatedWith",
+      "description": "Mentioned in context of money laundering and illegal wildlife hunts involving international clients."
+    },
+    {
+      "source": "simon-ernesto-valoi",
+      "target": "dawie-groenewald",
+      "relationship": "AlliedWith",
+      "description": "Both figures are central to high-level rhino poaching networks in Southern Africa."
+    },
+    {
+      "source": "barend-strydom",
+      "target": "israeli-mafia",
+      "relationship": "InvestigatedBy",
+      "description": "Law enforcement monitored extremist links between white supremacist shooters and broader organized crime groups."
+    },
+    {
+      "source": "cata",
+      "target": "codeta",
+      "relationship": "RivalOf",
+      "description": "Primary rivals in the Cape Town taxi industry, frequently engaging in violent turf wars."
+    },
+    {
+      "source": "cata",
+      "target": "taxi-wars",
+      "relationship": "AffiliatedWith",
+      "description": "CATA is a major participant in the ongoing taxi wars."
+    },
+    {
+      "source": "codeta",
+      "target": "taxi-wars",
+      "relationship": "AffiliatedWith",
+      "description": "CODETA is a central organization involved in the taxi wars."
+    },
+    {
+      "source": "santaco",
+      "target": "taxi-wars",
+      "relationship": "AffiliatedWith",
+      "description": "Santaco represents the industry and has been involved in major strikes and conflicts."
+    },
+    {
+      "source": "train-arson-ct",
+      "target": "cata",
+      "relationship": "AffiliatedWith",
+      "description": "Taxi operators (including members of CATA/CODETA) are suspected of orchestrating train arson to force commuters onto taxis."
+    },
+    {
+      "source": "train-arson-ct",
+      "target": "codeta",
+      "relationship": "AffiliatedWith",
+      "description": "Taxi operators are linked to arson attacks on rail services to eliminate competition."
+    },
+    {
+      "source": "gugulethu-massacre-2020",
+      "target": "boko-haram-gang",
+      "relationship": "InvestigatedBy",
+      "description": "Mass shooting suspected to be an act of extortion or territorial warfare by the Boko Haram gang."
+    },
+    {
+      "source": "boko-haram-gang",
+      "target": "guptas-gang",
+      "relationship": "RivalOf",
+      "description": "Violent territorial rivalry in Gugulethu."
+    },
+    {
+      "source": "police-complicity-1998",
+      "target": "taxi-wars",
+      "relationship": "AffiliatedWith",
+      "description": "Official charges against 13 police officers confirmed state/police complicity in taxi violence."
+    },
+    {
+      "source": "mount-ayliff-massacre",
+      "target": "taxi-wars",
+      "relationship": "AffiliatedWith",
+      "description": "A recent high-casualty event in the ongoing taxi wars."
+    },
+    {
+      "source": "barend-strydom",
+      "target": "simon-mukondoleli",
+      "relationship": "ConflictWith",
+      "description": "Mukondoleli disarmed and stopped Strydom's shooting spree."
+    },
+    {
+      "source": "rosemary-ndlovu",
+      "target": "police-complicity-1998",
+      "relationship": "AffiliatedWith",
+      "description": "While unrelated to the 1998 case, Ndlovu represents a modern example of severe police criminality."
+    },
+    {
+      "source": "louis-van-schoor",
+      "target": "police-complicity-1998",
+      "relationship": "AffiliatedWith",
+      "description": "Van Schoor represents the legacy of apartheid-era police complicity in violence against black South Africans."
+    }
+  ]
+}

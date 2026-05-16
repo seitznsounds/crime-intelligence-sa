@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "id": "israeli-mafia",
+      "type": "Organization",
+      "name": "Israeli Mafia",
+      "metadata": {
+        "description": "Organized crime groups operating in Israel or consisting of Israeli members, including major crime families of Moroccan and Russian descent.",
+        "key_attributes": {
+          "major_groups": ["Abergil crime family", "Abutbul clans", "Alperons", "Dumranis", "Shirazis", "Amir Molnar", "Zeev Rosenstein syndicates"],
+          "activities": ["Money laundering", "Drug trafficking (ecstasy)", "Illegal gambling", "Extortion", "Human trafficking", "Gold heists (New York)"]
+        }
+      }
+    },
+    {
+      "id": "abergil-crime-family",
+      "type": "Organization",
+      "name": "Abergil Crime Family",
+      "metadata": {
+        "description": "A top Moroccan Jewish criminal organization in Israel, heavily involved in international drug trafficking and money laundering.",
+        "key_attributes": {
+          "leaders": ["Itzik Abergil", "Meir Abergil"],
+          "specialties": ["Ecstasy trafficking", "Illegal gambling", "Racketeering"],
+          "international_presence": ["Israel", "United States", "Europe", "Morocco"]
+        }
+      }
+    },
+    {
+      "id": "abutbul-crime-family",
+      "type": "Organization",
+      "name": "Abutbul Crime Family",
+      "metadata": {
+        "description": "One of the major Israeli crime families of Moroccan Jewish descent.",
+        "key_attributes": {
+          "origin": "Morocco",
+          "activities": ["Organized crime", "Extortion", "Money laundering"]
+        }
+      }
+    },
+    {
+      "id": "russian-mafia-israel",
+      "type": "Organization",
+      "name": "Russian Mafia in Israel",
+      "metadata": {
+        "description": "Criminal networks established by Soviet Russian immigrants in Israel starting in 1989, utilized for large-scale money laundering.",
+        "key_attributes": {
+          "notable_figures": ["Semion Mogilevich"],
+          "money_laundering_volume": "$5 to $10 billion (1990-2005)",
+          "activities": ["Financial fraud", "Drug trafficking", "Extortion"]
+        }
+      }
+    },
+    {
+      "id": "sun-yee-on",
+      "type": "Organization",
+      "name": "Sun Yee On (Triad)",
+      "metadata": {
+        "description": "One of the leading Hong Kong triads with over 25,000 members, believed to extend operations into South Africa.",
+        "key_attributes": {
+          "founder": "Heung Chin",
+          "leadership": "Heung Wah-yim (former Dragon Head)",
+          "activities": ["Abalone poaching (South Africa)", "Money laundering", "Drug trafficking", "Vice establishments"]
+        }
+      }
+    },
+    {
+      "id": "wo-shing-wo",
+      "type": "Organization",
+      "name": "Wo Shing Wo (Triad)",
+      "metadata": {
+        "description": "The oldest triad society in Hong Kong, with a significant presence in South Africa (Johannesburg and Cape Town).",
+        "key_attributes": {
+          "south_africa_activities": ["Abalone poaching ($32m gross income in 2000)", "Drug trafficking", "Money laundering", "Firearms smuggling"],
+          "local_strongholds": ["Johannesburg", "Cape Town"]
+        }
+      }
+    },
+    {
+      "id": "stander-gang",
+      "type": "Organization",
+      "name": "Stander Gang",
+      "metadata": {
+        "description": "A notorious bank-robbing crew in South Africa composed of escaped convicts, led by a former police captain.",
+        "key_attributes": {
+          "members": ["Andre Stander", "Allan Heyl", "Lee McCall"],
+          "activities": ["Bank robberies (30+)", "Escaping from Zonderwater Prison", "Using disguises"],
+          "total_stolen": "Over R700,000 (1977-1984)"
+        }
+      }
+    },
+    {
+      "id": "andre-stander",
+      "type": "Person",
+      "name": "Andr\u00e9 Stander",
+      "metadata": {
+        "description": "Former South African Police captain turned bank robber and mastermind of the Stander Gang. Killed in a shootout in Florida.",
+        "key_attributes": {
+          "former_rank": "Captain (Kempton Park CID)",
+          "criminal_record": ["Bank robbery", "Prison escape", "Forgery"]
+        }
+      }
+    },
+    {
+      "id": "allan-heyl",
+      "type": "Person",
+      "name": "Allan Heyl",
+      "metadata": {
+        "description": "Last surviving member of the Stander Gang. Served 25 years in prison and later became a motivational speaker.",
+        "key_attributes": {
+          "status": "Deceased (April 17, 2020)",
+          "roles": ["Bank robber", "Disguise artist"]
+        }
+      }
+    },
+    {
+      "id": "gerald-bull",
+      "type": "Person",
+      "name": "Gerald Bull",
+      "metadata": {
+        "description": "Canadian engineer and international artillery consultant involved in illegal arms sales to South Africa and Iraq. Assassinated in 1990.",
+        "key_attributes": {
+          "projects": ["Project Babylon (Iraqi Supergun)", "GC-45 Howitzer", "HARP"],
+          "criminal_convictions": ["Illegal arms dealing (UN Resolution 418)"]
+        }
+      }
+    },
+    {
+      "id": "space-research-corporation",
+      "type": "Organization",
+      "name": "Space Research Corporation (SRC)",
+      "metadata": {
+        "description": "Bull's international artillery consultancy company involved in illicit arms shipments to South Africa.",
+        "key_attributes": {
+          "client_countries": ["South Africa", "Israel", "China", "Iraq"],
+          "products": ["ERFB shells", "GC-45 howitzer"]
+        }
+      }
+    },
+    {
+      "id": "dawie-groenewald",
+      "type": "Person",
+      "name": "Dawie Groenewald",
+      "metadata": {
+        "description": "South African game farmer and leader of the 'Musina Mafia', involved in the largest rhino poaching case in SA history.",
+        "key_attributes": {
+          "charges": ["1,600+ counts of racketeering, poaching, and money laundering"],
+          "organizations": ["Out of Africa Adventurous Safaris", "Musina Mafia", "Groenewald Gang"]
+        }
+      }
+    },
+    {
+      "id": "simon-ernesto-valoi",
+      "type": "Person",
+      "name": "Simon Ernesto Valoi (Navara)",
+      "metadata": {
+        "description": "Convicted Mozambican rhinoceros poacher who controlled approximately 15 poaching gangs in Kruger National Park.",
+        "key_attributes": {
+          "nickname": "Navara",
+          "sentence": "30 years imprisonment",
+          "activities": ["Rhino poaching", "Car theft", "Kidnapping"]
+        }
+      }
+    },
+    {
+      "id": "barend-strydom",
+      "type": "Person",
+      "name": "Barend Strydom",
+      "metadata": {
+        "description": "White supremacist who carried out the Strijdom Square massacre in Pretoria in 1988.",
+        "key_attributes": {
+          "affiliation": "Wit Wolwe (alleged)",
+          "crimes": ["Murder (8 counts)", "Attempted murder (16 counts)"]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "israeli-mafia",
+      "target": "russian-mafia-israel",
+      "relationship": "AlliedWith",
+      "description": "Russian crime bosses utilized Israeli citizenship and banking systems for money laundering."
+    },
+    {
+      "source": "abergil-crime-family",
+      "target": "israeli-mafia",
+      "relationship": "AffiliatedWith",
+      "description": "The Abergils are a primary crime family within the broader Israeli mafia structure."
+    },
+    {
+      "source": "abutbul-crime-family",
+      "target": "israeli-mafia",
+      "relationship": "AffiliatedWith",
+      "description": "The Abutbul clan is a major crime family operating within the Israeli mafia."
+    },
+    {
+      "source": "sun-yee-on",
+      "target": "wo-shing-wo",
+      "relationship": "RivalOf",
+      "description": "Competing triads for control of criminal markets like drug trafficking and abalone poaching."
+    },
+    {
+      "source": "stander-gang",
+      "target": "andre-stander",
+      "relationship": "LedBy",
+      "description": "Andre Stander was the mastermind and leader of the gang's bank robbing spree."
+    },
+    {
+      "source": "stander-gang",
+      "target": "allan-heyl",
+      "relationship": "AffiliatedWith",
+      "description": "Allan Heyl was a core member and the last surviving participant of the gang's activities."
+    },
+    {
+      "source": "gerald-bull",
+      "target": "space-research-corporation",
+      "relationship": "LeaderOf",
+      "description": "Bull founded and operated SRC as his primary vehicle for international arms consultancy."
+    },
+    {
+      "source": "space-research-corporation",
+      "target": "israeli-mafia",
+      "relationship": "AlliedWith",
+      "description": "SRC's first major success was selling 50,000 shells to Israel in 1973."
+    },
+    {
+      "source": "gerald-bull",
+      "target": "israeli-mafia",
+      "relationship": "ConflictWith",
+      "description": "Speculated to have been assassinated by Mossad agents due to his cooperation with Iraq's Saddam Hussein."
+    },
+    {
+      "source": "dawie-groenewald",
+      "target": "israeli-mafia",
+      "relationship": "AffiliatedWith",
+      "description": "Mentioned in context of money laundering and illegal wildlife hunts involving international clients."
+    },
+    {
+      "source": "simon-ernesto-valoi",
+      "target": "dawie-groenewald",
+      "relationship": "AlliedWith",
+      "description": "Both figures are central to high-level rhino poaching networks in Southern Africa."
+    },
+    {
+      "source": "barend-strydom",
+      "target": "israeli-mafia",
+      "relationship": "InvestigatedBy",
+      "description": "Law enforcement monitored extremist links between white supremacist shooters and broader organized crime groups."
+    }
+  ]
+}

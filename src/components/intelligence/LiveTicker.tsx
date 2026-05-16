@@ -22,6 +22,8 @@ interface Incident {
   latitude: number | null;
   longitude: number | null;
   created_at: string;
+  occurred_at?: string;
+  incident_date?: string;
   title: string;
 }
 
