@@ -199,6 +199,9 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 2. **Refine AI Corruption Forecasting**: Enhance the probability engine with time-series analysis of link density spikes and SCM behavioral fingerprints.
 3. **Mobile Native Optimization**: Finalize PWA capabilities for "Field Intel" reporting.
 
+# ⚠️ Technical Constraints
+- **Vercel Hobby Tier Limit**: We can only set ONE cron job per day. Therefore, complex or multi-stage background investigations must be handled agentically or locally rather than relying on frequent cron triggers.
+
 # 🧠 Agent Intelligence Overlays
 
 ## Next.js 16 ADR (Architectural Decision Record)

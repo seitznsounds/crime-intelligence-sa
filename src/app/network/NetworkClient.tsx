@@ -7,6 +7,7 @@ import PageShell from "@/components/layout/PageShell";
 import { getNetworkData, inferLinks } from "./actions";
 import { D3NetworkMap } from "@/components/intel/D3NetworkMap";
 import { IntelligenceDrawer } from "@/components/intel/IntelligenceDrawer";
+import { AytadaAd } from "@/components/ui/AytadaAd";
 
 export default function NetworkMapPage({ 
   initialNodes, 
@@ -200,6 +201,8 @@ export default function NetworkMapPage({
               </div>
             </div>
           </div>
+
+          <AytadaAd className="hidden lg:block" />
         </div>
 
         {/* Map Area */}

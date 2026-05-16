@@ -10,7 +10,11 @@ const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PU
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 async function findMissingIntel() {
-  const { data: people, error } = await supabase.from('people').select('id, full_name');
+  const { data: people, error } = await supabase
+    .from('people')
+    .select('id, full_name, risk_score, pep_tier')
+    .or('risk_score.gt.80,pep_tier.in.(1,2)');
+
   if (error || !people) {
     console.error(error);
     return;
@@ -29,12 +33,16 @@ async function findMissingIntel() {
       person.full_name.toLowerCase().includes(n.name.toLowerCase())
     );
     if (!node) {
-      missing.push(person.full_name);
+      missing.push({ name: person.full_name, risk: person.risk_score, tier: person.pep_tier });
     }
   }
 
+  console.log(`Found ${missing.length} missing high-priority targets.`);
   console.log("Missing Intel for:");
-  console.log(missing.join('\n'));
+  missing.forEach(m => console.log(`- ${m.name} (Risk: ${m.risk || 'N/A'}, Tier: ${m.tier || 'N/A'})`));
+  
+  // Save the list for the automated triage
+  fs.writeFileSync(path.join(process.cwd(), 'scratch', 'priority_missing_intel.json'), JSON.stringify(missing, null, 2));
 }
 
 findMissingIntel();

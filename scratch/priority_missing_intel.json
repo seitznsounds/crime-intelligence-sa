@@ -1,0 +1,4927 @@
+[
+  {
+    "name": "Craig Williamson",
+    "risk": 9.5,
+    "tier": 2
+  },
+  {
+    "name": "Magnus Malan",
+    "risk": 9.2,
+    "tier": 1
+  },
+  {
+    "name": "Adv. T Nkabinde",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Athol Williams",
+    "risk": null,
+    "tier": 1
+  },
+  {
+    "name": "Themba Maseko",
+    "risk": null,
+    "tier": 1
+  },
+  {
+    "name": "Salim Essa",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Dan Matjila",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Mzamo Buthelezi",
+    "risk": null,
+    "tier": 1
+  },
+  {
+    "name": "Phindile Baleni",
+    "risk": null,
+    "tier": 1
+  },
+  {
+    "name": "Somadoda Fikeni",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Graham Maré",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gary Pienaar",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Christopher E. Stone",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Narnia Bohler-Muller",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Matthew Parks",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Phindi Mjonondwane",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tariq Downes",
+    "risk": 85,
+    "tier": 3
+  },
+  {
+    "name": "Richard Shibiri",
+    "risk": 78,
+    "tier": 1
+  },
+  {
+    "name": "Julius Mkhwanazi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ebrahim Kadwa",
+    "risk": 90,
+    "tier": 2
+  },
+  {
+    "name": "F. Cachalia",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Nkosikazi N. Mhlauli",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "William Bourdon",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Henri Thulliez",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Roshnee Narrandes",
+    "risk": null,
+    "tier": 2
+  },
+  {
+    "name": "Arthur Fraser",
+    "risk": 9,
+    "tier": 1
+  },
+  {
+    "name": "Andries Carl Nel",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Shela Polly Boshielo",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Cassel Charlie Mathale",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Puleng Patricia Dimpane",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "SF Masemola",
+    "risk": 8,
+    "tier": 1
+  },
+  {
+    "name": "Seswantsho Godfrey Lebeya",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Nozuko Bam",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Dikeledi Jennifer Ntlatseng",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Andy JL Mothibi",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Vusimuzi Matlala",
+    "risk": 98,
+    "tier": 3
+  },
+  {
+    "name": "Feroz Khan",
+    "risk": 9.8,
+    "tier": 2
+  },
+  {
+    "name": "Simon Rudland",
+    "risk": 95,
+    "tier": 3
+  },
+  {
+    "name": "Ewan Macmillan",
+    "risk": 88,
+    "tier": 3
+  },
+  {
+    "name": "Kamlesh Pattni",
+    "risk": 92,
+    "tier": 3
+  },
+  {
+    "name": "Mandla Gcaba",
+    "risk": 89,
+    "tier": 2
+  },
+  {
+    "name": "Andy Du Plessis",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Neil Saunders",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mashangu Monica Leeuw",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kathleen Margaret Satchwell",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lieutenant General Dumisani Khumalo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Allahuddien Paleker",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Michael Masiapato",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kerileng Christina Tlhong",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Andrew Whitfield",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Saintes Harry Mclove Van Wyk",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Acting Judge S Pudifin-Jones",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nketu Nkotswe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dr Siza Majola",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tim Scott",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Rati Levesque",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nolan",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Elmien du Plessis",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ipeleng Mabusela",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Vernon Zimmerman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Steve Chang",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zweli Nyathi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Peter Attard Montalto",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Donald MacKay",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dennis Keller",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Muzi Khoza",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Shamim Abrahams",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Terrence Smith",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Reynaud Daniels",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": ": ",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "David Buckingham",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Magnus Larsson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Piet Koen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Clinton",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jay Bray",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Naledi Nokukhanya Chirwa Mpungose",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sello Leon Dithebe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nomalungelo Gina",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Philip Minnaar",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Japhta Sihle Malinga",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Kamlesh Pattni",
+    "risk": 5,
+    "tier": 1
+  },
+  {
+    "name": "Simon Rudland",
+    "risk": 5,
+    "tier": 1
+  },
+  {
+    "name": "Shamila Batohi",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Paul Stevens",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Fadiel Adams",
+    "risk": 4,
+    "tier": 1
+  },
+  {
+    "name": "Pumla Mncwango",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Khana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Steven Gordon",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Robert Kyagulanyi Ssentamu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Antoine Griezmann",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Defence Minister Angie Motshekga",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Detective Lieutenant Colonel Adrian Pretorius",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mmamoloko T Kubayi",
+    "risk": 3,
+    "tier": 1
+  },
+  {
+    "name": "James Robert Bourne Lorimer",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Eveline Buchatskiy",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Thembi Simelane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lesetja Kganyago",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tsakani Maluleke",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Irvin Khoza",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Geraldine Fraser-Moleketi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Charmaine Mabuza",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kholeka Gcaleka",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mmamoloko Tryphosa Kubayi",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Khumbudzo Phophi Silence Ntshavheni",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "I Thenga",
+    "risk": 3,
+    "tier": 2
+  },
+  {
+    "name": "Sibongile Mzinyathi",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Colonel Richard Boshomane",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rob Benadie",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Gift Mashaba",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Cynthia Pretorius",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "L Mahlathi",
+    "risk": 3,
+    "tier": 2
+  },
+  {
+    "name": "Phily Hayes",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kate Dias",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Grant Clark",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Cat Matlala",
+    "risk": 9.5,
+    "tier": 2
+  },
+  {
+    "name": "Irvin Jim",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jefferson Tshabala",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Simon Roberts",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Warrant Officer Elizabeth Ramrathan",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Betty Yee",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Budd-Falen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bush",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Canada’s Prime Minister",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mohamed bin Zayed bin Sultan Al Nahyan",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dietz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mayor Cyril Xaba",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Firoz Cachalia",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Hidetaka Miyazaki",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Keith Peiris",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Spur restaurant spokesperson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ralph Hertwig",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jennifer Davenport",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Paul Nang Majok",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ian Hope",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Molapi Lekganyane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "CEO of Patek Philippe",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Brandon Sheffield",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Credo Mlaba",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Matthews Mokhachane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Michael Jacobs",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Captain Lethunya Mmuroa",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jake Loosararian",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mike Tillis",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Wesley Kgang",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ken Goldin",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Xiao Qian",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Fransiska Kupembona",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jim Liefer",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rev. Thulasizwe Buthelezi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Doris Meissner",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "OpenAI spokesperson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Shana Holman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kenneth Kaunda",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jean Laporte",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zainal Arif Mantaha",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ahmad Sharief",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Unnamed Court Official",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Hoang Sy Cuong",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ho Chi Minh",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "To Lam",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nilvana Darama Yildirimgec",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Maria Pavlova Tzotzorkova",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sanji M Monageng",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Benedicto Forces Gafilo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Erika Álvarez Rodríguez",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jared Polis",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Zikhona Sodlaka",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Marie-Elsa Sgualdo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bernice Swarts",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dr Naledi Pandor",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Charlotte Maxeke",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lilian Ngoyi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Winnie Madikizela-Mandela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gordon Balmer",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Western Cape Premier",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Emi Koekemoer",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Investec Bank",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Cilliers Brink",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dr Moti Margalit",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dr Nasiphi Moya",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jeremy Wheeler",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Fezile Dhlamini",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Hope Papo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tate Bennett",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mosa Chabane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ali Wing",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Angus McIntosh",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Morgan Tsvangirai",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Marta Ugalde Martínez",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Steven Roth",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kaylynn Palm",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Colonel Dikgabane Herold Tladi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ramon Laguarta",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Antoine de Saint-Affrique",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Keyter",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jomo Sono",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tim Walz",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Joseph Lubin",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Aditya Dhar",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sithembiso Khanyezi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sergeant Thenjiswa Ngcobo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rupert Deans",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Saudi Aramco CEO",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lior Tal",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Xolile Nqatha",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gregory Bovino",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Darius Reeves",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Brian O'Hara",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jonathan Passmoor",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Yoweri Museveni",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Andrew Tulloch",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Barret Zoph",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Luke Metz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Fidel Castro",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Stuart Clarkson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Allan Quinn",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Karin Keller-Sutter",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Christine Lagarde",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sam Schoenholz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Adrian Pretorius",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Colonel André Traut",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Haruki Satomi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Darshi Ganeson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Canada's prime minister",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "President Ramaphosa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gauteng MEC Matome Chiloane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Percy Moagi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mike Fraser",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "John Moolenaar",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sgt Garvey Mathye",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sisi Khampepe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lee Subraylu",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Khein-seng Pua",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jean-Charles Samuelian-Werve",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tobi Lütke",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tholi Biyela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Colonel Adéle Myburgh",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Harry Ott",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Claire Hughes Johnson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Charlie Songhurst",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "John Collison",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Reid Hoffman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Danny Rimer",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Joy Maimela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dr Kizza Besigye",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Shaik Imraan Subrathie",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Minister of Basic Education",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Guo Jiakun",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ouma Rabaji-Rasethaba",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Anton du Plessis",
+    "risk": 2,
+    "tier": 1
+  },
+  {
+    "name": "Andy Mothibi",
+    "risk": 3,
+    "tier": 1
+  },
+  {
+    "name": "Michael Masutha",
+    "risk": 3,
+    "tier": 1
+  },
+  {
+    "name": "Director-General: Justice",
+    "risk": 3,
+    "tier": 2
+  },
+  {
+    "name": "Thembalethu Khoza",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "John Furner",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kenny Van Biljon",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tabudi Mamoshiane",
+    "risk": 3,
+    "tier": 1
+  },
+  {
+    "name": "Nmsdcb",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Binhoi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "John Resnick",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Hlaudi Motsoeneng",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ramathuba",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ignatius Briel",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Brett van Aswegen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dale Gomez",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dario Amodei",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zinzi Hani",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Pedro Sanchez",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Judge Lekhuleni",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "André van der Vyver",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Francois Rossouw",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Chris Gaffaney",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Adrian Holdstock",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Paul Reiffel",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Richard Illingworth",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Alex Wharf",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nomilo Mpondo",
+    "risk": 3,
+    "tier": 2
+  },
+  {
+    "name": "Acting Judge Avinash Govindjee",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Malose Kekana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Advocate Andile Makhanya",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zwelinzima Vavi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sileku",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mike Reynolds",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "James De Villiers",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Achmat Jappie",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mondli Gungubele",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Fasiha Hassan",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "John Hlope",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Chris Hunsinger",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Imraan Ismail-Moosa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sisipho Palomino Jama",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dereleen Elana James",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gayton Mc Kenzie",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Brett Ratner",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mauro Macchi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rishi Idnani",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zingiswa Losi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "NPA Representative",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Elize le Roux",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ernie Herrman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Varun Krishna",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Neil Roets",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Wisley Welebe Samsona",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Miguel Diaz-Canel",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Alvaro Lopez Miera",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jacob Frey",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Obama",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Todd Blanche",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Keith Ellison",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gina Prince-Bythewood",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Brigadier Brenda Muridili",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "JSE boss",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Paramedic",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Carter Zimmerman",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mike Fawaz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zibuse Khayelihle Abednego Cele",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mosa Steve Chabane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Luyolo Mphithi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Roger William Tobias Chance",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mzoleli Mrara",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tshehofatso Meagan Chauke-Adonis",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mergan Chetty",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sindi Chikunga",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mnqobi Prince Msezane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Delmaine Chelsey Christians",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Katherine Alexandra Christie",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Chupu Stanley Mathabatha",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Michéle Clarke",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Erald Alzano Cloete",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mathew John Cuthbert",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Marlon Daniels",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sharon Winona Davids",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Heloise Denner",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jan Naudé De Villiers",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Betty Diale",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Masefako Clarah Dikgale",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dikeledi Rosemary Direko",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dorris Eunice Mpapane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mluleki Dlelanga",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Wesley Marshall Douglas",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Cameron Muir Dugmore",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mary-Ann Lindelwa Dunjwa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Janho Engelbrecht",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Farhat Essack",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sakiena Frenchman",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Cedric Thomas Frolick",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Siyabonga Innocent Gama",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thulani Innocent Gamede",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nqabisa Gantsho",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Musawenkosi Mhlabuhlangene Gasa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sixolisa Gcilishe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nhlanhla Bernard Gcwabaza",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Athol Trollip",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mimmy Gondwe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Yanga Govana",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Alex Karp",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mzimasi Mike Hala",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ernest Hendricks",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Velenkosini Fiki Hlabisa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Altia Sthembile Hlongo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ciska Jordaan",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Betty Motebele Kegakilwe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Pinky Sharon Kekana",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gaolatlhe David Kgabo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Kabelo Kgobisa-Ngcaba",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Karabo Lerato Khakhau",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thembisile Angel Khanyile",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Makoti Sibongile Khawula",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gerhardus Willem Koornhof",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thalente Thuthukani Sakhike Khubeka",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Juliet Queen Khumalo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gezani Eric Kobane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "M.M. Rezaul Karim",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thanduxolo Doda",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gamalihleli Maqula",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Malebo Patricia Kobe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dianne Kohler",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lencel Mashidika Komane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Walter Tebogo Letsie",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Hendrik Christiaan Crafford Krüger",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Buti Manamela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Justice Minister Mmamoloko Kubayi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Snuki Zikalala",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Pumlani Kubukeli",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Andisiwe Nangamso Kumbaca",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nqabayomzi Lawrence Kwankwa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Cathlene Labuschagne",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Molefi David Legoete",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Larry Rhoden",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Molebogeng Sharon Letlape",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tebogo Kgosietsile Solomon Letlape",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Livhuwani Ethel Ligaraba",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Khanyisile Litchfield-Tshabalala",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sihle Lonzi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sedukanelo Tshepo David Louw",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sylvia Elizabeth Izaks",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ashley !Qhoeke Sauls I",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Bonginkosi Success Madikizela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Emerald Kwenzokuhle Madlala",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Khayelihle Blessing Madlala",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ntando Maduna",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sello Meshack Maeco",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Glen Taaibosch",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mokgaetji Carol Mafagane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thokozile Magagula",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tandi Mahambehlala",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lehlohonolo Wonderboy Mahlatsi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Noluvuyo Tafeni",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mikateko Golden Mahlaule",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Supra Obakeng Ramoeletsi Mahumapelo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Poppy Raisibe Mailola",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Khomotjo Joy Maimela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Zandile Majozi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Noluthando Makasi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Moyagabo Paulina Makgato",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tshikani Colleen Makhubele",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Julius Sello Malema",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Cristopher Nakampe Malematja",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lilian Managa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Buti Kgwaridi Manamela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Boyce Makhosonke Maneli",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Rosemary Nokuzola Capa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Njabulo Bheka Nzuza",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mogamad Nazier Paulsen",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Russel Nsikayezwe Cebekhulu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Elphas Mfakazeleni Buthelezi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Omphile Mankoba Confidence Maotwe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Erik Johannes Marais",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Paulnita Marais",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thandiswa Linnen Marawu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Bridget Staff Masango",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Letta Matlhodi Maseko",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ngwanamakwetle Reneiloe Mashabela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mkhacani Joseph Maswanganyi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Oscar Masarona Mathafa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Millicent Lorato Mathopa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Babalwa Mathulelwa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nthako Sam Matiase",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Chumani Matiwane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Natasha Wendy Anita Mazzone",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Moses Sipho Mbatha",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Hazel Htombenhle Mbele",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Fezeka Mbiko",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Inathi Mirranda Mbiyo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Joseph Job McGluwa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "David Masondo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thembeka Vuyisile Buyisile Mchunu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gugulethu Mchunu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mlondi Mveli Mdluli",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ntombovuyo Veronica Mente-Nkuna",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Kenneth Raselabe Joseph Meshoe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Teliswa Mgweba",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nomakhosazana Meth",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Paul Mashatile",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Makgabo Reginah Mhaule",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Cassel Mathale",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nonceba Mhlauli",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mzwandile Masina",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Phumzile Mgcina",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mandlenkosi James Matutu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nqobile Matilda Mhlongo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nompumelelo Happiness Mhlongo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "George Michalakis",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Kevin John Mileham",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thembinkosi Siboniso Mjadu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Hlengiwe Octavia Mkhaliphi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Philasande Mkhize",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Siyabonga Percival Mkhize",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Siphetho Witness Mkhize",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Constance Nonhlanhla Mkhonto",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Bongani Michael Mkongi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lufefe Mkutu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Matsholo Liesbet Mmolotsane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mangaqa Albert Mncwango",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Andile Mngxitama",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Moleboheng Modise-Mpya",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mogodu Samuel Moela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Masetshego Lenah Mofokeng",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thapelo Mogale",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mathibe Rebecca Mohlala",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Julian Leseletsi Mokoena",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tebogo Josephine Mokwele",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nonceba Agnes Gcaleka-Mazibuko",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Shunmugam Ramsamy Moodley",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Stephen James Moore",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Kenneth Morolong",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sofia Mosikatsi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nomasonto Evelyn Motaung",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gift Motaung",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Brian Molefe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tsholofelo Katlego Bodlani",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Moshome Patrick Motubatse",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Seiso Mohai",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Zweli Mkhize",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Zwelakhe Elija Mthethwa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jeffrey Bhekumndeni Mtolo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nombuso Elizabeth Mtolo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nokwethemba Antonia Mtshweni",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mariam Be Be Muhammad",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Cornelius Petrus Mulder",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tshilidzi Bethuel Munyai",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nonkosi Queenie Mvana",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sanele Greegory Mwali",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nicholas George Myburgh",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ronalda Schivonne Nalumango",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Adil Nchabeleng",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Pinky Pearlgene Mngadi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Pumelele Ndamase",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Helen Elizabeth Neale‐May",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Siphosethu Lindinkosi Ngcobo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lerato Mikateko Ngobeni",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Alco Kufakwezwe Ngobese",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Joel Sihle Ngubane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mlindi Advent Nhanha",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Carl Gerhardus Niehaus",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nobuhle Pamela Nkabane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thembi Phumelele Simelane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ntombovuyo Silberose Nkopane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nomgqibelo Ethel Nkosi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Vusumuzi Alfred Nkosi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Baxolile Babongile Nodada",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "State prosecutor K Essack",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Christobel Thandiwe Nontenja",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mncedisi Nontsele",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Stella Ndabeni-Abrahams",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Faith Muthambi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Xola Nqola",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Elsabe Natasha Ntlangwini",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Delisile Ntshaba",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Leonah Lindiwe Ntshalintshali",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Edward Mzikayise Ntshingila",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mdumiseni Ntuli",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dipuo Rosina Ntuli",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nkosinathi Innocent Nxumalo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Wildri Dennis Peach",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sheila Mary Peters",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jasmine Shanon Petersen",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Joe Phaahla",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Carol Mokgadi Phiri",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Maakgalake Beneilwe Pholwane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Windy Timotheus David Plaatjies",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Conrad James Poole",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Leah Ruth Potgieter",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Emma Louise Powell",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dina Deliwe Pule",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Harriet Makhosazana Radebe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Keamotseng Stanley Ramaila",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ashor Sarupen",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Kgomotso Ramolobeng",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tumelo Robert Ramongalo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Adrian Christopher Roos",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Karl Willem Du Pré Le Roux",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Khusela Lwandlekazi Nobatembu Sangoni",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lindelwa Sapo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Khumbudzo Ntshavheni",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Vuyani Pambo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Visvin Gopal Reddy",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Andrew Dirk de Blocq van Scheltinga",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lisa-Maré Schickerling",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Leon Amos Schreiber",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Albert Mammoga Seabi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Seaparo Charles Sekoati",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Makithing Olga Seate",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Michael Segede",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Isaac Seitlholo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Selelo Donald Selamolela",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lehlohonolo Daniel Selepe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Masello Maatlawa Senne",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Fisani Lillian Shabangu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lungisani Graduate Shangase",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nazley Khan Sharif",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Maliyakhe Lymon Shelembe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ntandoyenkosi Nkosentsha Shezi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mandla Shikwambana",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tsakani Goodness Shiviti",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Crossby Vusi Shongwe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jomo Ntuthuko Sibiya",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jane Sithole",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Rhulani Thembi Siweya",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Gijimani Jim Skosana",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "David Mandla Skosana",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Christiaan Frederik Beyers Smit",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Thokozile Sokanyile",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mzwanele Major Sokopo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nombiselo Suzan Sompa-Masiu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Makhotso Magdeline Sotyu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Eleanore Rochelle Jacquelene Spies",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "John Henry Steenhuisen",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Steve Swart",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Albert Tshepo Themba",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sophie Suzan Thembekwayo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Wayne Maxim Thring",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Weziwe Tikana-Gxothiwe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lorato Florence Tito",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Vuyolwethu Zungula",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Judith Nemadzinga‐Tshabalala",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Noble Tshiamo Tshotetsi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Liezl Linda van der Merwe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Désirée Van Der Walt",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "David Douglas Des Van Rooyen",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Philippus Adriaan Van Staden",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "S'bongiseni Gerald Vilakazi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Kingsley's Hope Wakelin",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nobuntu Lindumusa Hlazo-Webster",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Wouter Wynand Wessels",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Phindisile Pretty Xaba-Ntshaba",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ben Wheatley",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sheilla Tembalam Xego",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Songezo Siphiwo Zibi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sphesihle Zondi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sanele Sethembeni Zondo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Brumelda Esserina Sharon-Renee Zuma",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Anna Maria Van Zyl",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Faeeza Chame",
+    "risk": 0,
+    "tier": 1
+  },
+  {
+    "name": "Nazhat Shameem Khan",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Wendy Alexander",
+    "risk": 0,
+    "tier": 1
+  },
+  {
+    "name": "Lindiwe Ntshalintshali",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Rick Scott",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sohin Raithatha",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Benjamin Netanyahu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Patrick Collison",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Timo Tjahjanto",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rhys Thomas",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Narendra Modi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nambitha Christabel Dambuza-Mayosi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Katharine Mary Savage",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ron Conway",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Topher Conway",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Vuyisile Ncata",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Bill Lawrence",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Peter Berg",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mandlenkosi Motha",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rob Barber",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Freya Thomas Monk",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Berry Everitt",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Alida Botha",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ahmore Burger-Smidt",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Richard Spoor",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Geordin Hill-Lewis",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "David Monyae",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "John Hamburg",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dennis Bloem",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Khathutshelo Rasilingwane",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jeff Radebe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Judge Reynaud Neil Daniels",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Malesela Francis Legodi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Robert Makhura",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Selby Makgotho",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ashton Schippers",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Yvonne Mbatha",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Monde Sithole",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Patricia de Lille",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Judge Margaret Victor",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Collins Letsoalo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Lesiba Meshack Malapile",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nasiphi Moya",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Wendy Nkabi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Aaron Motsoaledi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Martin Rigby",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Struan McDougall",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lawrence Shaw",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mark Riccobono",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Rick Wurster",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jim Esposito",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mark Collie",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Gracy Chen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bola Tinubu",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jared Kushner",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Howard Lutnick",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Miriam Rothbart",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Colonel Andrè Traut",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Richard Davies",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Adam Schiff",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Jensen Huang",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Frederick van Wyk",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Wouter van der Merwe",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Christelle Pretorious",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Karoline Leavitt",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Khashane Manamela",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Welile Matyolo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tlhopie Motsepe",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Benita Engelbrecht",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ian Cameron",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Norman Modishana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Pieter Groenewald",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "JP Smith",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Domenic King",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Brendan Witcher",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dr. Suzanne Weekes",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ronald Lamola",
+    "risk": 3,
+    "tier": 1
+  },
+  {
+    "name": "Judge Connie Prinsloo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Adrian Montzinger",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Brigadier Nobuntu Gantana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nkrumah",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Acting Judge Caroline Nicholls",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nozuko Gloria Mjali",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Thembekile Mathwa",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zuko Godlimpi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mary-Ann Engelbrecht",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "King Misuzulu kaZwelithini",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "politicians at both provincial and national levels",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jacqueline Henriques",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Graham Lee",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "speaker of the Northern Cape Provincial Legislature",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "premier",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tholoana Sekhonyana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tholoana Sekhoyana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Khashane Manamela",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Snyman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "William Bird",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Maropene Ramokgopa",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Adeshini Naicker",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Alderman Theresa Uys",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Muhammad Wasi Haider",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Xolani Sokanyile",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Loyiso Ngalo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "X Ntshulana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Siya Hlongwane",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mateusz Kara",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Asher Tan",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Chris Newman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jason Wyatt",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jay Martin",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ramon Ferrer",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mikko Mäntylä",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Cal Henderson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Alex Bouaziz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Thibault Constant",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Janek Smalla",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Artur Hasselbach",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tommaso Lucca",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ed Betts",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sarah Touzani",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tiaan de Jager",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mark Alexander",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Rian Oberholzer",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jens Kleesiek",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Mbuzeni Mathenjwa",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Benita Whitcher",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Nozuko Gloria Mjali",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tim Kaine",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Barbara Creecy",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Xi Jinping",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Ndivhuho Tshisevhe",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zak Brown",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Takashi Kiryu",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Acting Judge Snyman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Captain Majola Nkohli",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jack Antonoff",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Brigadier Zinikele Freddie",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Colonel Robert Netshiunda",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jake Axelrod",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Connie Prinsloo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rochelle Francis-Subbiah",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Vusi Thembekwayo",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sisa Ngebulana",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Phindile Raymond Msaule",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "SL Rapulana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Cindy Trimm",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Yoshi-P",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Steve Abbott",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Alex Pruden",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Charles Beigbeder",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Chandler Levack",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Themba Lusenga",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mandy Jacobson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Krishen Shah",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zinikele Freddie",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Faith Masango",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Makebi Zulu",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rui Morais",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Matthew Francis",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ivan Saltzman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Pragasen Marimuthu",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Abiy Ahmed",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Patric Mkhumbuzi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bruce Bedderson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Caroline Nicholls",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dr Cindy Trimm",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dr Sisa Ngebulana",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Samuel Okudzeto Ablakwa",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Marco Masotti",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Benoit de la Tour",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dan Johnston",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kelly Slater",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nicola Small",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Matsaro Violet Semenya",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Conrad Nkosi Mhlongo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Phumlani Vezi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Paul Hoffman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Babalwa Mantame",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dr. Cindy Trimm",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Judge Snyman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bill Condon",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ivan Meyer",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mduduzi Mvune",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Debra McAdams",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Samuel \"Chad\" Patt",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dr Reabetswe Kgoroeadira",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge E.J. Burnet",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Solly Malatsi",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Tomas Erik Harmer",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Thomas Plantenga",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Thando Matika",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dylan Field",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Karin Leanne Pillay",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "D. Francke",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mike Siluma",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Paul Yon",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mark Leslie",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Brian C. Hailes",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Richard Stewart",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Raj Ramchunder",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Laurance Hodes",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ruth Solomons",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Moloko Monyepao",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Vim Pillay",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tambo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Yvonne Gonzalez Rogers",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Morne Alberts",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Melikhaya Ngcongo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Antoine Fuqua",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Captain Hazel Mqala",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Major General Christopher Wright",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Molefe Fani",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Harrison Sitomer",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nicholas Rudaz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lieutenant Colonel Siyabulela Vukubi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Henna Virkkunen",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Dawn Gounden",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Valdecy Urquiza",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jeff Merkley",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Mooketsa Ramasodi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Igshaan Higgins",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Corrie van der Westhuizen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lindsey Halligan",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Huang Tiejun",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Toffee Beanz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lt Col Amanda van Wyk",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Captain Tintswalo Sibeko",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Norah Lion",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Wang Xingxing",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Maxime Saada",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Acting Judge S Snyman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "David Frankel",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rostin Behnam",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ben Francis",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ho Nieh",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bill Lee",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Peter Armitage",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Adri Williams",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Graeme Körner",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge H P Van Nieuwenhuizen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mason Campbell",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "André le Grange",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dawood Laing",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Aerin Moreno",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Edith Kriel",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kate Savage",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Rehana Surtie",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jeff Koorbanally",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Joanna Pawelczyk",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Steven Stead",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mufti Sayed Haroon Al Azhari",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tim Sukazi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Gary Tan",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tracy Zea",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mike Steenhoek",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Gary Williams",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Cathie Wood",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mathipa Makgato",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sibabalwe Mazwayi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Johan ‘Pottie’ Potgieter",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Simlah",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Snethemba Hlongwane",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Thokozani Sithole",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Joseph Finder",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Nell Zink",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Barry Madolo",
+    "risk": 3,
+    "tier": 2
+  },
+  {
+    "name": "Ernst Serfontein",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Elijah Moholola",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mushahida Adhikari",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Erri De Luca",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "MM Mojapelo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Daniel Stone",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dr Andre Retterath",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Paul Klemm",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tim Rehder",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dara Horn",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "H P Van Nieuwenhuizen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tebogo Letsie",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Emma Harper",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Sergeant Simon Tjatjie Kekana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jafar Panahi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nthabeleng Molefe",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Becky Pringle",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Siyanda Biyela",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Z. Khumalo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Adrian Friedman",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bokako",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Makwena Mokwatedi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sergeant Moshe Mashaba",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Pearl Ledwaba",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Elmien du Plessis",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "J du Plessis",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Anders Hammarbäck",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Scott Bores",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Robert Attwell",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nicolene Janse van Nieuwenhuizen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Matthew Chaskalson SC",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Andile Jali",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sam Pollard",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tshepo Matlala",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Alfonso Cuarón",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tshukudu Malatji",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jon Favreau",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Moshe Mashaba",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jennifer Clarke Johnson",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Scott Felder",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Melanie Veness",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Steve Jardine",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge MJ Cooke",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Violet Mathe",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Godfrey Lebeya",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Darren Rudolph",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Pule Makgale",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Azhar Bham",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Siddharth Anand",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Sikhuthali Oliver Bonga",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lerato Ngqinileyo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bruce Leech SC",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lee Segeels-Ncube",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mpho Molepo",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Captain Sandra Janse Van Rensburg",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Acting Judge P D Kekana",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ntathu Ndlovu",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Daniel Buckland",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Yvonne Gonzalez Rogers",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Warrant Officer Connie Nepgen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Colonel JC Scholtz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zinzile Matebese SC",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Fana Nalane",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Bruce Hendricks",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Geoff Budlender",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Deborah Raduba",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Tapiwa Cecilia Gandidze",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Khanna",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jebb McIntosh",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lilita Gcwabe",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Andrew Stanton",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Simon McQuoid",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Wilhelm Bekker",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Destin Daniel Cretton",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Connie Nepgen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "JC Scholtz",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "FC Van Wyk",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Dian De La Port",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Adam Norris",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Lebogang Mogashoa",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Seelan Gobalsamy",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Captain Nomvuyo Makoloi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Colonel Cherelle Ehlers",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ronald Hendricks",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "C de Kock",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Geoff Budlender SC",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Tumelo Thebe",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Judge President Daniel Hendricks",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Narandran Kollapen",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "John Mathane",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ngwako Hamilton Maenetje",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Jaco Londt",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Nic Eve",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Captain Lechwiti",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kameshni Pillay",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Kate Hofmeyr",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Captain Makoloi",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Judge Anna Maleshane Kgoele",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Zwelethu Mata",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Paul Singer",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Emmanuelle Nodale",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Ben Miethke",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Teresa Romero",
+    "risk": 1,
+    "tier": 1
+  },
+  {
+    "name": "Oliver Snodin",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Serena Berry",
+    "risk": 1,
+    "tier": 2
+  },
+  {
+    "name": "Mandla Ndinisa",
+    "risk": 1,
+    "tier": 2
+  }
+]

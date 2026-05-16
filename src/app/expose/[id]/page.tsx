@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getDeepIntel } from "@/app/network/actions";
 import { Timeline } from "@/components/intel/Timeline";
+import { AytadaAd } from "@/components/ui/AytadaAd";
 
 interface PageProps {
   params: { id: string };

@@ -176,7 +176,8 @@ export async function getDeepIntel(entityId: string) {
     // Try to match node
     const node = graph.nodes.find((n: any) => 
       n.name.toLowerCase().includes(entityName.toLowerCase()) || 
-      entityName.toLowerCase().includes(n.name.toLowerCase())
+      entityName.toLowerCase().includes(n.name.toLowerCase()) ||
+      n.id === entityId
     );
 
     if (!node) {
@@ -185,6 +186,13 @@ export async function getDeepIntel(entityId: string) {
         narrative: ["Profile data is currently limited to structural nodes. Deep intelligence extraction is pending."],
         status: "ACTIVE"
       };
+    }
+
+    // Check for a published dossier file
+    let fullDossier = null;
+    const dossierPath = path.join(process.cwd(), 'intelligence', 'dossiers', `${node.id}.md`);
+    if (fs.existsSync(dossierPath)) {
+      fullDossier = fs.readFileSync(dossierPath, 'utf-8');
     }
 
     // Find connections in the JSON
@@ -212,13 +220,14 @@ export async function getDeepIntel(entityId: string) {
 
     return {
       summary: node.metadata?.description || "High-priority intelligence subject.",
-      narrative: [
+      narrative: node.metadata?.narrative || [
         "Intelligence indicates this entity is deeply embedded in the systemic capture network.",
         "Further operational details are subject to ongoing Madlanga Commission investigations."
       ],
       connections: connections,
-      status: "UNDER INVESTIGATION",
+      status: node.risk_score > 90 ? "CRITICAL RISK" : "UNDER INVESTIGATION",
       timeline: timeline,
+      dossier: fullDossier,
       sources: [
         "Madlanga Commission Interim Reports",
         "Crime Intelligence Unit Transcripts",
