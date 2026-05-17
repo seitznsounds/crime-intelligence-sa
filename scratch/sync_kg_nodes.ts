@@ -54,25 +54,39 @@ async function main() {
     await supabase.from('organizations').upsert(batch, { onConflict: 'name' });
   }
 
-  // 2. People
   const allPeople = await getAllPeople();
   const personMap = new Map();
-  allPeople.forEach(p => personMap.set(p.full_name, p.id));
+  // Store both ID and current status
+  allPeople.forEach(p => personMap.set(p.full_name, { id: p.id, status: p.status }));
+  console.log(`Cached ${personMap.size} unique people.`);
 
-  const toUpdate = [];
-  const toInsert = [];
+  console.log(`Syncing ${personNodes.length} high-fidelity People...`);
+  const toUpdate: any[] = [];
+  const toInsert: any[] = [];
 
   for (const node of personNodes) {
-    const payload = {
+    const existing = personMap.get(node.name);
+    
+    // Only set 'active' if there's no existing status or if it's currently null
+    const finalStatus = (existing?.status && existing.status !== 'active') 
+      ? existing.status 
+      : 'active';
+
+    const payload: any = {
       full_name: node.name,
       description: node.metadata?.description || "",
-      status: 'active',
+      status: finalStatus,
       risk_score: node.metadata?.risk_score || 85,
       metadata: { ...node.metadata, forensic_id: node.id }
     };
-    const existingId = personMap.get(node.name);
-    if (existingId) {
-      toUpdate.push({ id: existingId, ...payload });
+    
+    // Maintain is_deceased flag if status is Deceased
+    if (finalStatus === 'Deceased') {
+        payload.is_deceased = true;
+    }
+
+    if (existing) {
+      toUpdate.push({ id: existing.id, ...payload });
     } else {
       toInsert.push(payload);
     }

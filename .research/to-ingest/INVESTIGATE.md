@@ -82,3 +82,8 @@ Model, Digital Economy
 Why, Predictions Work Inside, Digital Market Index, Advertising
 
 Our.
+
+
+### Update: 2026-05-16
+- Automatically synced 262 new entities and 325 relationships from extractions.
+- New entities identified: Franschhoek Pass, Katlego Jiyane, Forensic Science Laboratory, Retired Hawks, Advocate Sandile Khumalo.

@@ -13,7 +13,14 @@ async function uploadAndUpdate(entityId: string, entityName: string, type: 'peop
     console.log(`\n--- Processing: ${entityName} (${entityId}) ---`);
     try {
         console.log(`Downloading image from: ${imageUrl}`);
-        const response = await fetch(imageUrl);
+        const response = await fetch(imageUrl, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
+                'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+                'Referer': 'https://www.google.com/'
+            }
+        });
+        
         if (!response.ok) throw new Error(`Failed to fetch image: ${response.status} ${response.statusText}`);
         const buffer = await response.arrayBuffer();
         
@@ -62,13 +69,19 @@ async function main() {
             id: '17648316-3943-4468-9c25-c84bcd17d32a',
             name: 'Vusimuzi Matlala',
             type: 'people',
-            url: 'https://www.justice.gov.za/favicon.ico' // Test with a small file that definitely works
+            url: 'https://sundayworld-prod-s3-bucket.s3.eu-west-1.amazonaws.com/wp-content/uploads/2025/11/08152330/P16-Vusimuzi-Cat-Matlala-e1764174578852.jpg'
+        },
+        {
+            id: 'f725a5f8-0c90-43e6-8cd6-b9b26ddf7c98',
+            name: 'Simon Rudland',
+            type: 'people',
+            url: 'https://www.aljazeera.com/wp-content/uploads/2023/03/Gold-Mafia-Composite.jpg'
         },
         {
             id: 'd175d9d3-2b2f-4e27-8f03-ab07aa508b52',
             name: 'Kamlesh Pattni',
             type: 'people',
-            url: 'https://www.justice.gov.za/favicon.ico'
+            url: 'https://www.aljazeera.com/wp-content/uploads/2023/03/Kamlesh-Pattni-shaking-the-hand-of-Robert-Mugabe.jpg'
         }
     ];
 
@@ -84,8 +97,13 @@ async function main() {
     
     results.forEach(res => {
         if (res.success) {
-            const rowRegex = new RegExp(`\\| \\*\\*${res.name}\\*\\* \\| Pending \\| - \\| - \\| - \\|`, 'g');
-            logContent = logContent.replace(rowRegex, `| **${res.name}** | Success | Source URL | ${res.publicUrl} | Linked |`);
+            // Find the line and update it
+            const lines = logContent.split('\n');
+            const index = lines.findIndex(l => l.includes(`**${res.name}**`));
+            if (index !== -1) {
+                lines[index] = `| **${res.name}** | Success | Source URL | ${res.publicUrl} | Linked |`;
+            }
+            logContent = lines.join('\n');
         }
     });
 
