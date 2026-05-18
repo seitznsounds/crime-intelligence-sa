@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-import { Network, Activity, ShieldAlert, Zap, Search, Fingerprint, Globe, ChevronRight, Scale, Info, Loader2, Filter } from "lucide-react";
+import { Network, Activity, ShieldAlert, Zap, Search, Fingerprint, Globe, ChevronRight, Scale, Info, Loader2, Filter, Target, Share2, Layers } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
 import { getNetworkData, inferLinks } from "./actions";
 import { D3NetworkMap } from "@/components/intel/D3NetworkMap";
@@ -22,6 +22,10 @@ export default function NetworkMapPage({
   const [isInferring, setIsInferring] = useState(false);
   const [selectedNode, setSelectedNode] = useState<any | null>(null);
   
+  // UI States
+  const [focalMode, setFocalMode] = useState(true);
+  const [clusterStrength, setClusterMode] = useState(1); // 1: Default, 2: High Force
+  
   // Filtering state
   const [searchQuery, setSearchQuery] = useState("");
   const [filterType, setFilterType] = useState<string>("all");
@@ -36,10 +40,21 @@ export default function NetworkMapPage({
     setLoading(false);
   };
 
+  // Improved Filtering: Focal Mode hides everything but the target's immediate neighborhood
   const filteredNodes = nodes.filter(n => {
     const matchesSearch = n.name.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesType = filterType === "all" || n.type === filterType;
     const matchesRisk = n.risk >= minRisk;
+    
+    if (selectedNode && focalMode) {
+        const isNeighbor = edges.some(e => {
+            const s = typeof e.source === 'string' ? e.source : e.source?.id;
+            const t = typeof e.target === 'string' ? e.target : e.target?.id;
+            return (s === selectedNode.id && t === n.id) || (t === selectedNode.id && s === n.id);
+        });
+        return (n.id === selectedNode.id || isNeighbor) && matchesSearch && matchesType && matchesRisk;
+    }
+
     return matchesSearch && matchesType && matchesRisk;
   });
 
@@ -52,69 +67,31 @@ export default function NetworkMapPage({
     return filteredNodes.some(n => n.id === sourceId) && filteredNodes.some(n => n.id === targetId);
   });
 
-  const handleInferLinks = async () => {
-    if (!selectedNode) return;
-    setIsInferring(true);
-    try {
-      const inferred = await inferLinks(selectedNode.id, selectedNode.type);
-      
-      const newNodes = [...nodes];
-      const newEdges = [...edges];
-
-      inferred.forEach(inf => {
-        if (!newNodes.some(n => n.id === inf.id)) {
-          newNodes.push({
-            ...inf,
-            color: inf.type === 'PEP' ? 'var(--accent-gold)' : 'var(--accent-blue)'
-          });
-        }
-        
-        const infSourceId = selectedNode.id;
-        const infTargetId = inf.id;
-
-        if (!newEdges.some(e => {
-          const s = typeof e.source === 'string' ? e.source : e.source?.id;
-          const t = typeof e.target === 'string' ? e.target : e.target?.id;
-          return (s === infSourceId && t === infTargetId) || (s === infTargetId && t === infSourceId);
-        })) {
-          newEdges.push({
-            source: infSourceId,
-            target: infTargetId,
-            label: `INFERRED_${Math.floor(inf.similarity * 100)}%`,
-            weight: inf.similarity,
-            isInferred: true
-          });
-        }
-      });
-
-      setNodes(newNodes);
-      setEdges(newEdges);
-    } catch (e) {
-      console.error("Inference error:", e);
-    } finally {
-      setIsInferring(false);
-    }
-  };
-
   return (
     <PageShell
-      title="Corruption Network Map"
-      subtitle="Interactive visualization of corruption links between organized crime, political figures, and state institutions."
-      badge="Network Intelligence"
+      title="Intelligence Network Explorer"
+      subtitle="Operational forensic mapping with focal-point isolation and cluster analysis."
+      badge="Watchdog Alpha"
       badgeColor="crimson"
       icon={<Network className="w-6 h-6 text-accent-crimson" />}
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Investigate", href: "/expose" },
-        { label: "Network Map", href: "/network" },
+        { label: "Network Explorer", href: "/network" },
       ]}
       actions={
         <div className="flex items-center gap-3">
           <button 
-            onClick={fetchData}
+            onClick={() => setSelectedNode(null)}
             className="flex items-center gap-2 px-4 py-2 bg-bg-glass border border-border-glass rounded-xl text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:text-foreground transition-all"
           >
-            <Zap className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} /> Re-Scan Links
+            <Target className="w-3.5 h-3.5" /> Clear Focus
+          </button>
+          <button 
+            onClick={fetchData}
+            className="flex items-center gap-2 px-4 py-2 bg-accent-blue text-white rounded-xl text-[11px] font-bold uppercase tracking-widest hover:scale-105 transition-all shadow-glow-blue"
+          >
+            <Zap className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} /> Refresh Feed
           </button>
         </div>
       }
@@ -129,75 +106,82 @@ export default function NetworkMapPage({
         </button>
 
         {/* Filter Sidebar */}
-        <div className={`w-full lg:w-72 space-y-6 ${showMobileFilters ? 'block' : 'hidden lg:block'}`}>
+        <div className={`w-full lg:w-80 space-y-6 ${showMobileFilters ? 'block' : 'hidden lg:block'}`}>
           <div className="glass-card p-6 border-border-glass bg-bg-glass space-y-6">
-            <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-blue flex items-center gap-2">
-              <Filter className="w-3.5 h-3.5" /> Intelligence Filters
-            </h3>
             
             <div className="space-y-4">
-              <div className="space-y-2">
-                <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground">Entity Search</label>
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground/40" />
-                  <input 
-                    type="text" 
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="ID, Name, Role..." 
-                    className="w-full bg-background border border-border-glass rounded-lg py-2 pl-9 pr-4 text-[11px] text-foreground focus:outline-none focus:border-accent-blue/50 transition-all"
-                  />
-                </div>
+              <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-blue flex items-center gap-2 mb-4">
+                <Target className="w-3.5 h-3.5" /> Operational Mode
+              </h3>
+              
+              <div className="flex items-center justify-between p-4 bg-background/40 border border-border-glass rounded-2xl">
+                 <div className="flex items-center gap-3">
+                    <div className={`p-2 rounded-lg ${focalMode ? 'bg-accent-blue/10 text-accent-blue' : 'bg-white/5 text-muted-foreground'}`}>
+                        <Share2 className="w-4 h-4" />
+                    </div>
+                    <div>
+                        <span className="text-[11px] font-black uppercase tracking-tight block">Focal Focus</span>
+                        <span className="text-[8px] text-muted-foreground uppercase font-bold tracking-widest">Neighbor Isolation</span>
+                    </div>
+                 </div>
+                 <button 
+                    onClick={() => setFocalMode(!focalMode)}
+                    className={`w-12 h-6 rounded-full transition-all relative p-1 ${focalMode ? 'bg-accent-blue' : 'bg-charcoal-3'}`}
+                 >
+                    <div className={`w-4 h-4 bg-white rounded-full transition-all ${focalMode ? 'translate-x-6' : 'translate-x-0'}`} />
+                 </button>
               </div>
 
-              <div className="space-y-2">
-                <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground">Classification</label>
-                <select 
-                  value={filterType}
-                  onChange={(e) => setFilterType(e.target.value)}
-                  className="w-full bg-background border border-border-glass rounded-lg py-2 px-3 text-[11px] text-foreground focus:outline-none focus:border-accent-blue/50 appearance-none"
-                >
-                  <option value="all">All Entities</option>
-                  <option value="PEP">Political Persons (PEP)</option>
-                  <option value="ORG">Organizations / Syndicates</option>
-                </select>
-              </div>
-
-              <div className="space-y-2">
-                <div className="flex justify-between items-center">
-                  <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground">Min Risk Index</label>
-                  <span className="text-[10px] font-mono font-bold text-accent-crimson">{minRisk}%</span>
+              <div className="space-y-2 pt-4">
+                <label className="text-[9px] font-black uppercase tracking-widest text-muted-foreground ml-1">Force Density (Clustering)</label>
+                <div className="grid grid-cols-2 gap-2">
+                    {[1, 2].map(v => (
+                        <button 
+                            key={v}
+                            onClick={() => setClusterMode(v)}
+                            className={`py-2 rounded-xl text-[9px] font-black uppercase tracking-widest border transition-all ${clusterStrength === v ? 'bg-accent-blue/10 border-accent-blue text-accent-blue' : 'bg-white/5 border-border-glass text-muted-foreground'}`}
+                        >
+                            {v === 1 ? 'Organic' : 'Condensed'}
+                        </button>
+                    ))}
                 </div>
-                <input 
-                  type="range" 
-                  min="0" max="99" 
-                  value={minRisk}
-                  onChange={(e) => setMinRisk(Number(e.target.value))}
-                  className="w-full h-1 bg-border-glass rounded-lg appearance-none cursor-pointer accent-accent-crimson"
-                />
               </div>
             </div>
 
-            <div className="pt-6 border-t border-border-glass">
-               <button 
-                onClick={() => { setSearchQuery(""); setFilterType("all"); setMinRisk(0); }}
-                className="w-full py-2 text-[9px] font-black uppercase tracking-[0.2em] text-muted-foreground hover:text-foreground transition-all"
-               >
-                 Reset Filter Protocol
-               </button>
-            </div>
-          </div>
+            <div className="pt-6 border-t border-border-glass space-y-4">
+              <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-blue flex items-center gap-2 mb-4">
+                <Filter className="w-3.5 h-3.5" /> Discovery Filters
+              </h3>
+              
+              <div className="space-y-4">
+                <div className="space-y-2">
+                    <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Entity Search</label>
+                    <div className="relative">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground/40" />
+                    <input 
+                        type="text" 
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        placeholder="Search forensic nodes..." 
+                        className="w-full bg-background border border-border-glass rounded-xl py-3 pl-10 pr-4 text-[11px] text-foreground focus:outline-none focus:border-accent-blue/50 transition-all shadow-inner"
+                    />
+                    </div>
+                </div>
 
-          <div className="glass-card p-6 border-border-glass bg-bg-glass hidden lg:block">
-            <h4 className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-4">Network Health</h4>
-            <div className="space-y-3">
-              <div className="flex justify-between items-center">
-                <span className="text-[10px] text-muted-foreground uppercase">Nodes In View</span>
-                <span className="text-[10px] font-mono font-bold text-foreground">{filteredNodes.length}</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="text-[10px] text-muted-foreground uppercase">Active Linkages</span>
-                <span className="text-[10px] font-mono font-bold text-foreground">{filteredEdges.length}</span>
+                <div className="space-y-2">
+                    <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Network Type</label>
+                    <div className="grid grid-cols-1 gap-2">
+                        {['all', 'PEP', 'ORG'].map(t => (
+                            <button 
+                                key={t}
+                                onClick={() => setFilterType(t)}
+                                className={`px-4 py-2.5 rounded-xl text-[10px] font-bold uppercase text-left transition-all border ${filterType === t ? 'bg-accent-blue/10 border-accent-blue/40 text-accent-blue' : 'bg-background/20 border-border-glass text-muted-foreground hover:bg-white/5'}`}
+                            >
+                                {t === 'all' ? 'All Entities' : t === 'PEP' ? 'Political (PEP)' : 'Organizations'}
+                            </button>
+                        ))}
+                    </div>
+                </div>
               </div>
             </div>
           </div>
@@ -206,14 +190,14 @@ export default function NetworkMapPage({
         </div>
 
         {/* Map Area */}
-        <div className="flex-1 relative glass-card border-border-glass bg-bg-glass-heavy rounded-3xl overflow-hidden min-h-[600px] lg:min-h-[750px]">
-          {/* Background Grid & Scan Effect */}
-          <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:40px_40px] opacity-30" />
+        <div className="flex-1 relative glass-card border-border-glass bg-bg-glass-heavy rounded-3xl overflow-hidden min-h-[600px] lg:min-h-[750px] shadow-2xl">
+          {/* Background Grid */}
+          <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:40px_40px] opacity-20" />
           
           {loading ? (
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 z-20">
-              <Loader2 className="w-12 h-12 text-accent-crimson animate-spin" />
-              <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground animate-pulse">Decrypting Network Links...</p>
+              <Loader2 className="w-12 h-12 text-accent-blue animate-spin" />
+              <p className="text-[11px] font-black uppercase tracking-widest text-accent-blue animate-pulse">Running Forensic Decryption...</p>
             </div>
           ) : (
             <div className="absolute inset-0 z-10">
@@ -224,22 +208,39 @@ export default function NetworkMapPage({
                     source: typeof e.source === 'string' ? e.source : e.source.id,
                     target: typeof e.target === 'string' ? e.target : e.target.id
                 }))} 
-                onNodeClick={setSelectedNode} 
+                onNodeClick={(node) => {
+                    setSelectedNode(node);
+                }}
+                clusterStrength={clusterStrength}
               />
             </div>
           )}
 
-          {/* Legend Overlay - Bottom Left (Now inside Map Area, visible on all screens) */}
-          <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 glass-card p-3 sm:p-4 border-border-glass bg-background/60 backdrop-blur-md z-20 shadow-lg scale-90 sm:scale-100 origin-bottom-left pointer-events-none">
-            <h4 className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-2 sm:mb-3">Entity Classification</h4>
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2"><div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-accent-crimson shadow-glow-crimson" /><span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Criminal Syndicate</span></div>
-              <div className="flex items-center gap-2"><div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-accent-gold shadow-glow-gold" /><span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Political Person</span></div>
-              <div className="flex items-center gap-2"><div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-accent-blue shadow-glow-blue" /><span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-muted-foreground">State Agency / Org</span></div>
+          {/* Focal Breadcrumb */}
+          {selectedNode && (
+              <motion.div 
+                initial={{ y: -20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                className="absolute top-6 left-6 z-20 flex items-center gap-2 px-4 py-2 bg-accent-blue/10 border border-accent-blue/30 rounded-full backdrop-blur-md"
+              >
+                  <div className="w-2 h-2 rounded-full bg-accent-blue animate-pulse" />
+                  <span className="text-[10px] font-black uppercase tracking-widest text-accent-blue">Focused: {selectedNode.name}</span>
+                  <button onClick={() => setSelectedNode(null)} className="ml-2 hover:text-white transition-colors">
+                      <X className="w-3.5 h-3.5" />
+                  </button>
+              </motion.div>
+          )}
+
+          {/* Legend Overlay */}
+          <div className="absolute bottom-6 left-6 glass-card p-5 border-border-glass bg-background/80 backdrop-blur-xl z-20 shadow-2xl scale-90 sm:scale-100 origin-bottom-left">
+            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-muted-foreground mb-4 border-b border-border-glass pb-2">Forensic Key</h4>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-crimson shadow-glow-crimson" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Criminal Syndicate</span></div>
+              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-gold shadow-glow-gold" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Political Person</span></div>
+              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-blue shadow-glow-blue" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">State Agency</span></div>
             </div>
           </div>
 
-          {/* Dossier Side Panel (Now absolute within Map Area) */}
           <IntelligenceDrawer 
             isOpen={!!selectedNode} 
             onClose={() => setSelectedNode(null)} 
@@ -250,26 +251,26 @@ export default function NetworkMapPage({
           />
         </div>
       </div>
-
-      {/* Network Stats HUD */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-8">
-        {[
-          { label: "Active Nodes", value: nodes.length, icon: <Fingerprint className="w-4 h-4 text-accent-blue" /> },
-          { label: "Detected Links", value: edges.length, icon: <Activity className="w-4 h-4 text-accent-crimson" /> },
-          { label: "System Confidence", value: "94.2%", icon: <Scale className="w-4 h-4 text-accent-gold" /> },
-          { label: "Last Analysis", value: loading ? "Updating..." : "Live", icon: <Info className="w-4 h-4 text-muted-foreground/60" /> }
-        ].map((item, i) => (
-          <div key={i} className="glass-card p-5 border-border-glass bg-bg-glass flex items-center justify-between">
-            <div>
-              <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground block mb-1">{item.label}</span>
-              <p className="text-xl font-bold tracking-tighter text-foreground">{item.value}</p>
-            </div>
-            <div className="p-2.5 bg-bg-glass-heavy rounded-xl border border-border-glass">
-              {item.icon}
-            </div>
-          </div>
-        ))}
-      </div>
     </PageShell>
   );
+}
+
+function X(props: any) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M18 6 6 18" />
+      <path d="m6 6 12 12" />
+    </svg>
+  )
 }
