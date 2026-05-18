@@ -33,10 +33,10 @@
         "run",
         "server",
         "--port",
-        "8000",
+        "8001",
         "--stdio",
         "--proxy-port",
-        "9000"
+        "9001"
       ],
       "env": {
         "OPENAI_API_KEY": "your-api-key"
@@ -50,5 +50,5 @@
       ]
     }
   },
-  "enableAllProjectMcpServers": true
+  "enableAllProjectMcpServers": false
 }

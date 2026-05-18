@@ -17,11 +17,20 @@ import {
   Zap,
   ArrowRight,
   Info,
-  Brain
+  Brain,
+  Activity,
+  History
 } from "lucide-react";
+import { useState, useEffect } from "react";
+import { fetchRecentIntelligence } from "@/lib/intelligence-actions";
 import { NAV_PILLARS } from "@/lib/navigation";
 
 export default function Home() {
+  const [recentIntel, setRecentIntel] = useState<{ judgments: any[], news: any[] }>({ judgments: [], news: [] });
+
+  useEffect(() => {
+    fetchRecentIntelligence().then(setRecentIntel);
+  }, []);
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -220,6 +229,70 @@ export default function Home() {
                 <p className="text-3xl sm:text-4xl font-black font-mono tracking-tighter text-foreground">{stat.value}</p>
               </div>
             ))}
+          </motion.div>
+
+          {/* LIVE INTEL FEED */}
+          <motion.div
+            variants={itemVariants}
+            className="mt-32 grid grid-cols-1 lg:grid-cols-2 gap-8"
+          >
+            <div className="glass-card p-10 border-border-glass bg-bg-glass-heavy relative overflow-hidden group">
+               <div className="absolute top-0 left-0 w-1 h-full bg-accent-blue" />
+               <div className="flex items-center justify-between mb-10">
+                  <div className="flex items-center gap-4">
+                    <div className="p-3 bg-accent-blue/10 rounded-2xl border border-accent-blue/20">
+                      <Scale className="w-6 h-6 text-accent-blue" />
+                    </div>
+                    <div>
+                      <h3 className="text-[14px] font-black uppercase tracking-tight">Judicial Corpus</h3>
+                      <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest italic">Authoritative Rulings</p>
+                    </div>
+                  </div>
+                  <Link href="/justice/judgments" className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] hover:underline">Full Archive</Link>
+               </div>
+
+               <div className="space-y-4">
+                  {recentIntel.judgments.map(j => (
+                    <Link key={j.id} href={`/justice/judgments/${j.id}`} className="block p-4 bg-background/50 border border-border-glass rounded-xl hover:bg-accent-blue/5 hover:border-accent-blue/30 transition-all group/item">
+                       <div className="flex justify-between items-center mb-1">
+                          <span className="text-[9px] font-mono text-muted-foreground uppercase">{j.metadata?.['Case Number'] || 'RULING'}</span>
+                          <span className="text-[9px] font-bold text-accent-blue/60 uppercase">{new Date(j.event_date).toLocaleDateString()}</span>
+                       </div>
+                       <h4 className="text-[13px] font-bold leading-tight group-hover/item:text-accent-blue transition-colors line-clamp-1">{j.title}</h4>
+                    </Link>
+                  ))}
+                  {recentIntel.judgments.length === 0 && <p className="text-[10px] uppercase font-mono text-muted-foreground animate-pulse">Syncing Judicial Nodes...</p>}
+               </div>
+            </div>
+
+            <div className="glass-card p-10 border-border-glass bg-bg-glass-heavy relative overflow-hidden group">
+               <div className="absolute top-0 left-0 w-1 h-full bg-accent-crimson" />
+               <div className="flex items-center justify-between mb-10">
+                  <div className="flex items-center gap-4">
+                    <div className="p-3 bg-accent-crimson/10 rounded-2xl border border-accent-crimson/20">
+                      <History className="w-6 h-6 text-accent-crimson" />
+                    </div>
+                    <div>
+                      <h3 className="text-[14px] font-black uppercase tracking-tight">Field Intelligence</h3>
+                      <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest italic">Street-Level Reports</p>
+                    </div>
+                  </div>
+                  <Activity className="w-5 h-5 text-accent-crimson animate-pulse" />
+               </div>
+
+               <div className="space-y-4">
+                  {recentIntel.news.map(n => (
+                    <div key={n.id} className="p-4 bg-background/50 border border-border-glass rounded-xl transition-all hover:bg-accent-crimson/[0.02]">
+                       <div className="flex justify-between items-center mb-1">
+                          <span className="text-[9px] font-mono text-accent-crimson uppercase font-black">{n.type}</span>
+                          <span className="text-[9px] font-bold text-muted-foreground uppercase">{new Date(n.occurred_at).toLocaleDateString()}</span>
+                       </div>
+                       <h4 className="text-[13px] font-bold leading-tight line-clamp-1">{n.title}</h4>
+                    </div>
+                  ))}
+                  {recentIntel.news.length === 0 && <p className="text-[10px] uppercase font-mono text-muted-foreground animate-pulse">Scanning Field Reports...</p>}
+               </div>
+            </div>
           </motion.div>
         </motion.div>
       </div>

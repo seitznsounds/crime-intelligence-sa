@@ -75525,6 +75525,941 @@
         "source_file": "witness_h_delta.json",
         "first_seen": "2026-05-16T20:45:41.112Z"
       }
+    },
+    {
+      "id": "case-f2cde590",
+      "type": "Event",
+      "name": "Louw v Bilongi",
+      "metadata": {
+        "description": "",
+        "case_number": "2022/053873",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "wentzel-thompson-j",
+      "type": "Person",
+      "name": "Wentzel-Thompson J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-b18f798e",
+      "type": "Event",
+      "name": "Van As and Others v D.P.H",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/035298",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "liebenberg-aj",
+      "type": "Person",
+      "name": "Liebenberg AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-2027e8e3",
+      "type": "Event",
+      "name": "MEC for Department: Economic Development, Environment Conservation and Tourism, North West and Another v National Education Health & Allied Workers Union",
+      "metadata": {
+        "description": "",
+        "case_number": "1679/2025",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "wessels-aj",
+      "type": "Person",
+      "name": "Wessels AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-85f1862d",
+      "type": "Event",
+      "name": "Waterstone Park Homeowners Association v Kanu",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/171920",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "du-plessis-j",
+      "type": "Person",
+      "name": "Du Plessis J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-abdfafab",
+      "type": "Event",
+      "name": "Firstrand Bank Limited v Frame and Another",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/100304",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "adams-j",
+      "type": "Person",
+      "name": "Adams J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-0c776ffe",
+      "type": "Event",
+      "name": "Defere v S",
+      "metadata": {
+        "description": "",
+        "case_number": "CA58/2023",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "laubscher-aj--reid-j",
+      "type": "Person",
+      "name": "Laubscher AJ, Reid J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-e534b307",
+      "type": "Event",
+      "name": "SBV Services",
+      "metadata": {
+        "description": "",
+        "case_number": "1542/2025",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "jolwana-j",
+      "type": "Person",
+      "name": "Jolwana J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-afb64e83",
+      "type": "Event",
+      "name": "The Spar Group Limited v Durbanville Investments",
+      "metadata": {
+        "description": "",
+        "case_number": "2026/092513",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-d1715f80",
+      "type": "Event",
+      "name": "Theuwedi Trading Enterprise",
+      "metadata": {
+        "description": "",
+        "case_number": "2026/091623",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-7c37e192",
+      "type": "Event",
+      "name": "Buffalo City Metropolitan Municipality v Klaas Creative",
+      "metadata": {
+        "description": "",
+        "case_number": "1260/2023",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "ntlama-makhanya-aj",
+      "type": "Person",
+      "name": "Ntlama-Makhanya AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-f85d315a",
+      "type": "Event",
+      "name": "United National Breweries",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/073988",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "maunatlala-aj",
+      "type": "Person",
+      "name": "Maunatlala AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-41735e2a",
+      "type": "Event",
+      "name": "Mphahlele and Another v Dikgale and Another",
+      "metadata": {
+        "description": "",
+        "case_number": "2023/124043",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-48b3b4cc",
+      "type": "Event",
+      "name": "Absa Bank Limited v GTL Petroleum",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/046126",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-c092397d",
+      "type": "Event",
+      "name": "Nedbank Limited v Williams and Another",
+      "metadata": {
+        "description": "",
+        "case_number": "2023/133293",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-b4d52010",
+      "type": "Event",
+      "name": "Reef Insurance Brokers",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/062336",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-5df2d348",
+      "type": "Event",
+      "name": "AH Vest Limited t/a Joy Foods Limited v Corruseal Corrugated Gauteng",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/049929",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "van-aswegen-aj",
+      "type": "Person",
+      "name": "Van Aswegen AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-bc308ced",
+      "type": "Event",
+      "name": "Zscaler Inc v Accelerate Networks SA",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/058137",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-d54c16be",
+      "type": "Event",
+      "name": "Mutavhatsindi v Prestige Pressings and Components",
+      "metadata": {
+        "description": "",
+        "case_number": "JS447/2020",
+        "court": "Labour Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "snyman-aj",
+      "type": "Person",
+      "name": "Snyman AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-76ebc4c6",
+      "type": "Event",
+      "name": "Maumela v Maringa",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/067291",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "mogotsi-aj",
+      "type": "Person",
+      "name": "Mogotsi AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-de396221",
+      "type": "Event",
+      "name": "Duridev",
+      "metadata": {
+        "description": "",
+        "case_number": "10790/2017",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "cooke-aj",
+      "type": "Person",
+      "name": "Cooke AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-6e4f17d1",
+      "type": "Event",
+      "name": "ICT Works Proprietary Limited v Air Traffic and Navigation Services Soc Ltd",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/008490",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-8b6839ba",
+      "type": "Event",
+      "name": "Trustees for the time being of the DG Murray Trust v Speaker, Northern Cape Provincial Legislature and Others",
+      "metadata": {
+        "description": "",
+        "case_number": "3222/2024",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "phatshoane-djp",
+      "type": "Person",
+      "name": "Phatshoane DJP",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-e7602c9c",
+      "type": "Event",
+      "name": "Makofane William Mohlala v MEC for Transport, Limpopo and Others",
+      "metadata": {
+        "description": "",
+        "case_number": "843/2024",
+        "court": "Supreme Court of Appeal",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "mbatha-ja--govindjee-aja--unterhalter-ja--baartman-ja--mamosebo-aja",
+      "type": "Person",
+      "name": "Mbatha JA, Govindjee AJA, Unterhalter JA, Baartman JA, Mamosebo AJA",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-33d8a679",
+      "type": "Event",
+      "name": "Basson N.O obo Heyns v Road Accident Fund",
+      "metadata": {
+        "description": "",
+        "case_number": "579/2022",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "williams-j",
+      "type": "Person",
+      "name": "Williams J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-9c52047e",
+      "type": "Event",
+      "name": "A.F.D v C.C.D and Another",
+      "metadata": {
+        "description": "",
+        "case_number": "17670/2024",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "francis-j",
+      "type": "Person",
+      "name": "Francis J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-8dffc3df",
+      "type": "Event",
+      "name": "Dr Reid and Another v The Commissioner for the South African Revenue Service",
+      "metadata": {
+        "description": "",
+        "case_number": "A117/2025",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "saller-aj",
+      "type": "Person",
+      "name": "Saller AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-28cf111d",
+      "type": "Event",
+      "name": "Furman and Another v Vimba Investment Holdings",
+      "metadata": {
+        "description": "",
+        "case_number": "2026/077234",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "motha-j",
+      "type": "Person",
+      "name": "Motha J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-4770dcf7",
+      "type": "Event",
+      "name": "Massmart Retail",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/153517",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-0451fb46",
+      "type": "Event",
+      "name": "Powell v Powell",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/106528",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "lange-aj",
+      "type": "Person",
+      "name": "Lange AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-dd4135f4",
+      "type": "Event",
+      "name": "A1 Capital",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/120753",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "mossop-j",
+      "type": "Person",
+      "name": "Mossop J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-e064e93f",
+      "type": "Event",
+      "name": "Prudential Authority v Mahlangu and Another",
+      "metadata": {
+        "description": "",
+        "case_number": "16133/2024P",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "mathenjwa-j",
+      "type": "Person",
+      "name": "Mathenjwa J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-5dbde349",
+      "type": "Event",
+      "name": "Gaffoor v S",
+      "metadata": {
+        "description": "",
+        "case_number": "A200/2025SS48/2021",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "lekhuleni-j--janisch-aj--ralarala-j",
+      "type": "Person",
+      "name": "Lekhuleni J, Janisch AJ, Ralarala J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-4ed777c2",
+      "type": "Event",
+      "name": "Mfolozi v Farm Home Owners Association and Others",
+      "metadata": {
+        "description": "",
+        "case_number": "15476/2023P",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-54b9fd6f",
+      "type": "Event",
+      "name": "J and B Pub and Grill",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/061238",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "windell-j",
+      "type": "Person",
+      "name": "Windell J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-ffb71092",
+      "type": "Event",
+      "name": "Paulsen and Another v Paulsen v Others",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/041558",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "greig-aj",
+      "type": "Person",
+      "name": "Greig AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-9c56fd98",
+      "type": "Event",
+      "name": "Realtime Trading and Projects CC v Jordinamix",
+      "metadata": {
+        "description": "",
+        "case_number": "42286/2019",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-673c50db",
+      "type": "Event",
+      "name": "Gearwise Properties CC and Another v Consolidated Aone Trade and Invest Proprietary Limited",
+      "metadata": {
+        "description": "",
+        "case_number": "12054/2016AR444/2024",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "siwendu-j--bedderson-j--shoba-aj",
+      "type": "Person",
+      "name": "Siwendu J, Bedderson J, Shoba AJ",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-624af5cd",
+      "type": "Event",
+      "name": "Tau Pele Construction",
+      "metadata": {
+        "description": "",
+        "case_number": "2026/049113",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "noko-j",
+      "type": "Person",
+      "name": "Noko J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-f452b837",
+      "type": "Event",
+      "name": "Ncitha v S",
+      "metadata": {
+        "description": "",
+        "case_number": "987/2024",
+        "court": "Supreme Court of Appeal",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "basson-aja--mbatha-ja--hughes-ja--unterhalter-ja--mabesele-aja",
+      "type": "Person",
+      "name": "Basson AJA, Mbatha JA, Hughes JA, Unterhalter JA, Mabesele AJA",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-82207682",
+      "type": "Event",
+      "name": "Latib v Bonitas Medical Fund",
+      "metadata": {
+        "description": "",
+        "case_number": "6045/2008",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-96851799",
+      "type": "Event",
+      "name": "Pholosi v S",
+      "metadata": {
+        "description": "",
+        "case_number": "128/2025",
+        "court": "Supreme Court of Appeal",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "basson-aja--makgoka-ja--hughes-ja--koen-ja--mabesele-aja",
+      "type": "Person",
+      "name": "Basson AJA, Makgoka JA, Hughes JA, Koen JA, Mabesele AJA",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-7aa5a839",
+      "type": "Event",
+      "name": "Jodo v S",
+      "metadata": {
+        "description": "",
+        "case_number": "CA10/2022",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "petersen-adjp--hendricks-jp",
+      "type": "Person",
+      "name": "Petersen ADJP, Hendricks JP",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-715c629f",
+      "type": "Event",
+      "name": "Nala v The MEC for Health, Gauteng and Others",
+      "metadata": {
+        "description": "",
+        "case_number": "2026/083561",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "wright-j",
+      "type": "Person",
+      "name": "Wright J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-3b1bf3a9",
+      "type": "Event",
+      "name": "C v P",
+      "metadata": {
+        "description": "",
+        "case_number": "2026/071915",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "mia-j",
+      "type": "Person",
+      "name": "Mia J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-532a0250",
+      "type": "Event",
+      "name": "Masuku v Tselchous N.O and Others",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/034009",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-716fd89c",
+      "type": "Event",
+      "name": "Absa Bank Limited v Enable Employment Services",
+      "metadata": {
+        "description": "",
+        "case_number": "2024/116465",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "modiba-j",
+      "type": "Person",
+      "name": "Modiba J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-34fb424b",
+      "type": "Event",
+      "name": "BMW Financial Services",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/011525",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-bc88cf56",
+      "type": "Event",
+      "name": "African Rainbow Capital",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/092254",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "case-458a4fa5",
+      "type": "Event",
+      "name": "Lizelle Schreuder N O v Minister of Police and Others",
+      "metadata": {
+        "description": "",
+        "case_number": "047/2024",
+        "court": "Supreme Court of Appeal",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "molefe-ja--smith-ja--keightley-ja--vally-aja--kganyago-aja",
+      "type": "Person",
+      "name": "Molefe JA, Smith JA, Keightley JA, Vally AJA, Kganyago AJA",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
+    },
+    {
+      "id": "case-fc8e7719",
+      "type": "Event",
+      "name": "Shayo and Others v Harry Gwala District Municipality and Another",
+      "metadata": {
+        "description": "",
+        "case_number": "2025/049909",
+        "court": "High Court",
+        "category": "Legal"
+      }
+    },
+    {
+      "id": "bezuidenhout-j",
+      "type": "Person",
+      "name": "Bezuidenhout J",
+      "metadata": {
+        "roles": [
+          "Judge"
+        ],
+        "status": "Official"
+      }
     }
   ],
   "edges": [
@@ -112013,6 +112948,306 @@
       "target": "hawks",
       "relationship": "LinkedTo",
       "description": "Retired Hawks officer Jakobus Prinsloo told the commission’s co-chairperson, Advocate Sandile Khumalo, that the Hawks' storage facility was not equipped to safely store such a large quantity of drugs"
+    },
+    {
+      "source": "wentzel-thompson-j",
+      "target": "case-f2cde590",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "liebenberg-aj",
+      "target": "case-b18f798e",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "wessels-aj",
+      "target": "case-2027e8e3",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "du-plessis-j",
+      "target": "case-85f1862d",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "adams-j",
+      "target": "case-abdfafab",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "laubscher-aj--reid-j",
+      "target": "case-0c776ffe",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "jolwana-j",
+      "target": "case-e534b307",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "du-plessis-j",
+      "target": "case-afb64e83",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "du-plessis-j",
+      "target": "case-d1715f80",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "ntlama-makhanya-aj",
+      "target": "case-7c37e192",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "maunatlala-aj",
+      "target": "case-f85d315a",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "maunatlala-aj",
+      "target": "case-41735e2a",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "maunatlala-aj",
+      "target": "case-48b3b4cc",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "maunatlala-aj",
+      "target": "case-c092397d",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "maunatlala-aj",
+      "target": "case-b4d52010",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "van-aswegen-aj",
+      "target": "case-5df2d348",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "wentzel-thompson-j",
+      "target": "case-bc308ced",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "snyman-aj",
+      "target": "case-d54c16be",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "mogotsi-aj",
+      "target": "case-76ebc4c6",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "cooke-aj",
+      "target": "case-de396221",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "wentzel-thompson-j",
+      "target": "case-6e4f17d1",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "phatshoane-djp",
+      "target": "case-8b6839ba",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "mbatha-ja--govindjee-aja--unterhalter-ja--baartman-ja--mamosebo-aja",
+      "target": "case-e7602c9c",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "williams-j",
+      "target": "case-33d8a679",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "francis-j",
+      "target": "case-9c52047e",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "saller-aj",
+      "target": "case-8dffc3df",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "motha-j",
+      "target": "case-28cf111d",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "wentzel-thompson-j",
+      "target": "case-4770dcf7",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "lange-aj",
+      "target": "case-0451fb46",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "mossop-j",
+      "target": "case-dd4135f4",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "mathenjwa-j",
+      "target": "case-e064e93f",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "lekhuleni-j--janisch-aj--ralarala-j",
+      "target": "case-5dbde349",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "mathenjwa-j",
+      "target": "case-4ed777c2",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "windell-j",
+      "target": "case-54b9fd6f",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "greig-aj",
+      "target": "case-ffb71092",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "windell-j",
+      "target": "case-9c56fd98",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "siwendu-j--bedderson-j--shoba-aj",
+      "target": "case-673c50db",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "noko-j",
+      "target": "case-624af5cd",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "basson-aja--mbatha-ja--hughes-ja--unterhalter-ja--mabesele-aja",
+      "target": "case-f452b837",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "francis-j",
+      "target": "case-82207682",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "basson-aja--makgoka-ja--hughes-ja--koen-ja--mabesele-aja",
+      "target": "case-96851799",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "petersen-adjp--hendricks-jp",
+      "target": "case-7aa5a839",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "wright-j",
+      "target": "case-715c629f",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "mia-j",
+      "target": "case-3b1bf3a9",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "wentzel-thompson-j",
+      "target": "case-532a0250",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "modiba-j",
+      "target": "case-716fd89c",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "modiba-j",
+      "target": "case-34fb424b",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "adams-j",
+      "target": "case-bc88cf56",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "molefe-ja--smith-ja--keightley-ja--vally-aja--kganyago-aja",
+      "target": "case-458a4fa5",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
+    },
+    {
+      "source": "bezuidenhout-j",
+      "target": "case-fc8e7719",
+      "relationship": "PresidedOver",
+      "description": "Presided over the court proceedings."
     }
   ]
 }

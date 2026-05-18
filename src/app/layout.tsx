@@ -6,6 +6,7 @@ import LiveTicker from "@/components/intelligence/LiveTicker";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import Navbar from "@/components/layout/Navbar";
 import MobileBottomBar from "@/components/layout/MobileBottomBar";
+import IntelligenceDrawer from "@/components/intelligence/IntelligenceDrawer";
 import { CommandPalette } from "@/components/ui/CommandPalette";
 import ErrorBoundary from "@/components/providers/ErrorBoundary";
 import { NAV_PILLARS, NAV_ACTIONS } from "@/lib/navigation";
@@ -38,6 +39,7 @@ export default function RootLayout({
         >
           <Navbar />
           <CommandPalette />
+          <IntelligenceDrawer />
           
           <main className="pt-[var(--header-height)] min-h-screen">
             <ErrorBoundary>

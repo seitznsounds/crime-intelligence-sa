@@ -135,8 +135,9 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 
 ### 17. MCP Server Integration [COMPLETED]
 
-- **Tool Discovery**: Configured 5 MCP servers (Supabase, Playwright, Chrome DevTools, Browser-Server, Clarity) for extended investigative capabilities.
-- **Protocol Alignment**: Synchronized `.gemini/settings.json` with `.mcp.json` specifications for high-fidelity tool execution.
+- **Tool Discovery**: Configured isolated MCP servers for Gemini CLI in `.gemini/settings.json`.
+- **Conflict Resolution**: Established strict boundaries between Gemini CLI (`settings.json`) and Antigravity AI (`.mcp.json`) to prevent port and protocol collisions.
+- **Port Isolation**: Moved Gemini CLI `browser-server` to port 8001 to free up port 8000 for Antigravity's default configuration.
 
 ### 18. Component Library Absorption [COMPLETED]
 
@@ -203,6 +204,18 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Dynamic Dossier Integration**: Implemented recursive Markdown dossier rendering in `IntelligenceDrawer` and profile pages using `react-markdown`.
 - **Temporal Strike Patterns**: Upgraded geospatial map with visual highlighting for peak ambush windows (02:00-05:00).
 - **Syndicate Profile Access**: Direct forensic profile access integrated into the hierarchical syndicate viewer.
+
+### 29. Authoritative Legal Intelligence (Sabinet) [COMPLETED]
+- **Dynamic Scraper Pipeline**: Developed `scripts/scrape_sabinet.ts` using Playwright to traverse **50+ pages** of search results.
+- **Criminal Taxonomy Search**: Implemented high-precision boolean queries targeting murder, gang hits, CIT heists, and extortion.
+- **Forensic Extraction**: Automated retrieval of **Judges**, **Attorneys**, **Case Numbers**, and **AI Summaries** from dynamic Ant Design components.
+- **Subject-Based Filtering**: Built a strict rejection engine to exclude non-criminal matters (marriage, divorce, labor disputes) from the intelligence pool.
+
+### 30. Intelligence Stream & Judicial UI [COMPLETED]
+- **IntelligenceDrawer Component**: Created a global, real-time side-drawer surfacing the latest court rulings and field news across the entire app.
+- **Judicial Intelligence Corpus**: Launched a dedicated portal at `/justice/judgments` for browsing and filtering criminal jurisprudence.
+- **Forensic Case View**: Implemented detailed evidence dossiers for judgments, linking legal outcomes directly to intelligence nodes.
+- **KG Legal Synchronization**: Developed `scripts/link_judgments_to_graph.ts` to automatically inject legal actors (judges, defendants) as nodes into the master Knowledge Graph.
 
 # 🔮 Next Operational Cycle (Watchdog Phase)
 

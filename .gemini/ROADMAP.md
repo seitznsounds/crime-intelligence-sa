@@ -45,3 +45,23 @@ _Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all 
 - [x] **Live News Ingestion Pipeline**: Integrated Paystack donation system and optimized global UI/UX for dual-theme accessibility.
 - [ ] **Advanced Witness Protection Interface**: Expand the WPU module with client-side PGP-encrypted incident logs and a mobile "Panic Button" for field operatives.
 - [ ] **Automated Sentiment Intelligence**: Deploy background tasks to adjust PEP risk scores based on breaking news sentiment analysis from SA news sources.
+
+## Phase 6: Forensic Legal Intelligence & Network Expansion (Completed)
+
+**Objective**: Harness authoritative legal data to unmask beneficial ownership networks and bridge the gap between field reports and judicial outcomes.
+
+- [x] **Cross-Source Entity Linking**: Developed the "Resolution Engine" (`scripts/resolve_case_lifecycle.ts`) linking 150+ news incidents to court judgments for a full "Case Lifecycle" view.
+- [x] **Interactive Relationship Graphs**: Deployed `<RelationshipGraph />` on judgment dossiers to surface judge-defendant-event clusters.
+- [x] **Deep Beneficial Ownership Audits**: Implemented automated `deep-research` triggers for defendants to unmask shell company networks (Integrated into `scripts/audit_beneficial_ownership.ts`).
+- [x] **Intelligence Stream Integration**: Launched the `IntelligenceDrawer` providing a global real-time feed of latest judicial and field intelligence.
+- [ ] **Attorney-Syndicate Mapping**: Implemented analysis script; awaiting larger dataset for visual cluster deployment.
+
+## Phase 7: Asset Recovery & Citizen Corroboration (Active)
+
+**Objective**: Convert intelligence into tangible results by tracking asset forfeitures and empowering citizen-led verification.
+
+- [ ] **Asset Recovery Tracker**: Extract "Application for Forfeiture" results from judgments to build a live leaderboard of recovered state assets and seized syndicate property.
+- [ ] **Citizen Corroboration Protocol**: Implement a ZKP-secured interface for whistleblowers to "Add Context" or "Corroborate" news incidents with private forensic assets.
+- [ ] **Syndicate Hierarchy Reconstruction**: Automatically update the `syndicates` table using inferred links between legal parties, attorneys, and common directors.
+- [ ] **Government Gazette Pipeline**: Deploy the official Gazette scraper to track state tender awards and director changes as high-fidelity capture signals.
+- [ ] **Legal Heatmap Module**: Visualize the volume and severity of criminal judgments across the 14 High Court divisions of South Africa.

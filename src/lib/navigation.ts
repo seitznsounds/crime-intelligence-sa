@@ -17,6 +17,7 @@ import {
   ShieldCheck,
   Calculator,
   Cpu,
+  DollarSign,
   type LucideIcon,
 } from "lucide-react";
 
@@ -81,6 +82,18 @@ export const NAV_PILLARS: NavPillar[] = [
     icon: Scale,
     items: [
       {
+        label: "Judicial Archive",
+        href: "/justice/judgments",
+        icon: Scale,
+        description: "Authoritative criminal court rulings",
+      },
+      {
+        label: "Legal Heatmap",
+        href: "/justice/heatmap",
+        icon: Globe,
+        description: "Visualizing criminal judgment density",
+      },
+      {
         label: "About Project",
         href: "/about",
         icon: Cpu,
@@ -141,6 +154,12 @@ export const NAV_PILLARS: NavPillar[] = [
         href: "/stats",
         icon: BarChart3,
         description: "True Crime vs Recorded Stats Leaderboard",
+      },
+      {
+        label: "Asset Recovery",
+        href: "/stats/recovery",
+        icon: DollarSign,
+        description: "Tracking seized state and syndicate property",
       },
       {
         label: "Crime Heatmap",
