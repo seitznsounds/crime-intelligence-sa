@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Zap, Scale, FileText, ChevronRight, History, Activity, AlertTriangle } from "lucide-react";
+import { X, Zap, Scale, FileText, ChevronRight, History, Activity, AlertTriangle, Globe } from "lucide-react";
 import { fetchRecentIntelligence } from "@/lib/intelligence-actions";
 import Link from "next/link";
 
