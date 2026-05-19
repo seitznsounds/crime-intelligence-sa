@@ -82,6 +82,29 @@ export async function getNetworkData() {
     });
   });
 
+  // 3. Process Inferred Connections from Organization Metadata
+  const { data: orgsWithInferred } = await supabase
+    .from('organizations')
+    .select('id, metadata')
+    .not('metadata->inferred_connections', 'is', null);
+
+  orgsWithInferred?.forEach(org => {
+    const inferred = org.metadata.inferred_connections;
+    if (Array.isArray(inferred)) {
+        inferred.forEach((link: any) => {
+            // Only add if both nodes are likely in the graph already (to avoid dangling edges)
+            // Or add the target node if missing
+            edges.push({
+                source: org.id,
+                target: link.target,
+                label: link.type,
+                weight: (link.confidence || 60) / 100,
+                isInferred: true
+            });
+        });
+    }
+  });
+
   return {
     nodes: Array.from(nodesMap.values()),
     edges: edges

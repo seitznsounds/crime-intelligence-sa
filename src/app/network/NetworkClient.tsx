@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-import { Network, Activity, ShieldAlert, Zap, Search, Fingerprint, Globe, ChevronRight, Scale, Info, Loader2, Filter, Target, Share2, Layers } from "lucide-react";
+import { Network, Activity, ShieldAlert, Zap, Search, Fingerprint, Globe, ChevronRight, Scale, Info, Loader2, Filter, Target, Share2, Layers, X } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
 import { getNetworkData, inferLinks } from "./actions";
 import { D3NetworkMap } from "@/components/intel/D3NetworkMap";
@@ -24,6 +24,7 @@ export default function NetworkMapPage({
   
   // UI States
   const [focalMode, setFocalMode] = useState(true);
+  const [showInferred, setShowInferred] = useState(true);
   const [clusterStrength, setClusterMode] = useState(1); // 1: Default, 2: High Force
   
   // Filtering state
@@ -64,14 +65,17 @@ export default function NetworkMapPage({
     
     if (!sourceId || !targetId) return false;
     
+    // AI Deduction Filter
+    if (e.isInferred && !showInferred) return false;
+    
     return filteredNodes.some(n => n.id === sourceId) && filteredNodes.some(n => n.id === targetId);
   });
 
   return (
     <PageShell
       title="Intelligence Network Explorer"
-      subtitle="Operational forensic mapping with focal-point isolation and cluster analysis."
-      badge="Watchdog Alpha"
+      subtitle="Operational forensic mapping with focal-point isolation and predictive AI linking."
+      badge="Watchdog Omega"
       badgeColor="crimson"
       icon={<Network className="w-6 h-6 text-accent-crimson" />}
       breadcrumbs={[
@@ -129,6 +133,24 @@ export default function NetworkMapPage({
                     className={`w-12 h-6 rounded-full transition-all relative p-1 ${focalMode ? 'bg-accent-blue' : 'bg-charcoal-3'}`}
                  >
                     <div className={`w-4 h-4 bg-white rounded-full transition-all ${focalMode ? 'translate-x-6' : 'translate-x-0'}`} />
+                 </button>
+              </div>
+
+              <div className="flex items-center justify-between p-4 bg-background/40 border border-border-glass rounded-2xl">
+                 <div className="flex items-center gap-3">
+                    <div className={`p-2 rounded-lg ${showInferred ? 'bg-accent-gold/10 text-accent-gold' : 'bg-white/5 text-muted-foreground'}`}>
+                        <Zap className="w-4 h-4" />
+                    </div>
+                    <div>
+                        <span className="text-[11px] font-black uppercase tracking-tight block">AI Deductions</span>
+                        <span className="text-[8px] text-muted-foreground uppercase font-bold tracking-widest">Predictive Linking</span>
+                    </div>
+                 </div>
+                 <button 
+                    onClick={() => setShowInferred(!showInferred)}
+                    className={`w-12 h-6 rounded-full transition-all relative p-1 ${showInferred ? 'bg-accent-gold' : 'bg-charcoal-3'}`}
+                 >
+                    <div className={`w-4 h-4 bg-white rounded-full transition-all ${showInferred ? 'translate-x-6' : 'translate-x-0'}`} />
                  </button>
               </div>
 
@@ -192,7 +214,7 @@ export default function NetworkMapPage({
         {/* Map Area */}
         <div className="flex-1 relative glass-card border-border-glass bg-bg-glass-heavy rounded-3xl overflow-hidden min-h-[600px] lg:min-h-[750px] shadow-2xl">
           {/* Background Grid */}
-          <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:40px_40px] opacity-20" />
+          <div className="absolute inset-0 bg-[linear-gradient(var(--border-glass)_1px,transparent_1px),linear-gradient(90deg,var(--border-glass)_1px,transparent_1px)] bg-[size:40px_40px] opacity:20" />
           
           {loading ? (
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 z-20">
@@ -238,6 +260,7 @@ export default function NetworkMapPage({
               <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-crimson shadow-glow-crimson" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Criminal Syndicate</span></div>
               <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-gold shadow-glow-gold" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Political Person</span></div>
               <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-blue shadow-glow-blue" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">State Agency</span></div>
+              <div className="flex items-center gap-3"><div className="w-3 h-[1.5px] bg-accent-gold border border-accent-gold/50 border-dashed" /><span className="text-[8px] font-black uppercase tracking-tighter text-accent-gold/80">AI Inferred Link</span></div>
             </div>
           </div>
 
@@ -253,24 +276,4 @@ export default function NetworkMapPage({
       </div>
     </PageShell>
   );
-}
-
-function X(props: any) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M18 6 6 18" />
-      <path d="m6 6 12 12" />
-    </svg>
-  )
 }
