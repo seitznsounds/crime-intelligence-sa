@@ -17,28 +17,51 @@ export async function getSyndicates() {
   const { data: orgs, error: orgError } = await supabase
     .from("organizations")
     .select("*")
-    .eq("type", "syndicate");
+    .or("type.eq.syndicate,type.eq.Syndicate");
 
   if (orgError) throw new Error(orgError.message);
 
   const syndicates = await Promise.all(orgs.map(async (org: any) => {
+    // 1. Fetch people linked directly to this organization
     const { data: links } = await supabase
       .from("person_org_links")
       .select("*, people(*)")
       .eq("org_id", org.id);
 
-    // Build hierarchy for Big Five Cartel or Numbers Gang
-    // In a production app, this would be fully recursive/dynamic from Supabase
     let members = links?.map((l: any) => ({
       id: l.people.id,
       name: l.people.full_name,
-      role: l.role,
+      role: l.role || "OPERATIVE",
       type: l.people.role || "OPERATIVE",
       risk: l.people.risk_score ? (l.people.risk_score > 10 ? l.people.risk_score : l.people.risk_score * 10) : 50,
       desc: l.people.description
     })) || [];
 
-    let boss = members.find(m => m.role.toLowerCase().includes('boss') || m.role.toLowerCase().includes('founder') || m.role.toLowerCase().includes('president'));
+    // 2. Fetch people mentioned in historical records (judgments) linked to this org
+    // This is a new data source we just ingested
+    const { data: records } = await supabase
+        .from('historical_records')
+        .select('metadata')
+        .eq('category', 'COURT_JUDGMENT')
+        .ilike('title', `%${org.name}%`);
+
+    if (records) {
+        records.forEach(r => {
+            const defendant = r.metadata?.['Applicant / Plaintiff'] || r.metadata?.['Appellant'];
+            if (defendant && typeof defendant === 'string' && !members.some(m => m.name === defendant)) {
+                members.push({
+                    id: `def-${defendant.toLowerCase().replace(/\s+/g, '-')}`,
+                    name: defendant,
+                    role: "DEFENDANT",
+                    type: "LEGAL_PARTY",
+                    risk: 85,
+                    desc: "Identified in linked court judgment."
+                });
+            }
+        });
+    }
+
+    let boss = members.find(m => m.role.toLowerCase().includes('boss') || m.role.toLowerCase().includes('leader') || m.role.toLowerCase().includes('founder') || m.role.toLowerCase().includes('president'));
     
     // Find associates or component links
     let children: any[] = [];

@@ -26,15 +26,25 @@ export async function fetchRecentIntelligence() {
   };
 }
 
-export async function fetchAllJudgments(page = 1, pageSize = 20) {
+export async function fetchAllJudgments(page = 1, pageSize = 20, filters?: { query?: string, category?: string }) {
     const supabase = await createServerClient();
     const from = (page - 1) * pageSize;
     const to = from + pageSize - 1;
 
-    const { data, count, error } = await supabase
+    let query = supabase
         .from('historical_records')
         .select('*', { count: 'exact' })
-        .eq('category', 'COURT_JUDGMENT')
+        .eq('category', 'COURT_JUDGMENT');
+
+    if (filters?.query) {
+        query = query.or(`title.ilike.%${filters.query}%,content.ilike.%${filters.query}%`);
+    }
+
+    if (filters?.category) {
+        query = query.contains('tags', [filters.category]);
+    }
+
+    const { data, count, error } = await query
         .order('event_date', { ascending: false })
         .range(from, to);
 

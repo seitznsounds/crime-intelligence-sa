@@ -11,13 +11,25 @@ const supabase = createClient(
 
 const graphPath = "intelligence/corruption_knowledge_graph.json";
 
+const FORBIDDEN_ORG_PATTERNS = [
+  'arrested hours after', 'Your guide to the main characters', 'He has steered',
+  'Matlala reveals meeting', 'Commission has heard', 'Evidence presented at',
+  'indicated that suspended', 'Commission has exposed', 'Lancaster noted that',
+  'Act in relation to', 'Chairperson\n\n', 'British Broadcasting Corporation',
+  'Magistrate\'s Court', 'National Prosecuting Authority', 'South African Police Service', 'Hawks'
+];
+
 async function reconstructSyndicates() {
   console.log("Reconstructing Syndicate Hierarchy from Knowledge Graph...");
   
   if (!fs.existsSync(graphPath)) return;
   const graph = JSON.parse(fs.readFileSync(graphPath, "utf8"));
 
-  const organizations = graph.nodes.filter((n: any) => n.type === 'Organization' || (n.type === 'Entity' && n.metadata?.category === 'Legal Party'));
+  const organizations = graph.nodes.filter((n: any) => 
+    (n.type === 'Organization' || (n.type === 'Entity' && n.metadata?.category === 'Legal Party')) &&
+    !FORBIDDEN_ORG_PATTERNS.some(p => n.name.includes(p)) &&
+    n.name.length < 60
+  );
   
   console.log(`Processing ${organizations.length} potential syndicate nodes...`);
 

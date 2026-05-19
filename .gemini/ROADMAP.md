@@ -54,14 +54,23 @@ _Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all 
 - [x] **Interactive Relationship Graphs**: Deployed `<RelationshipGraph />` on judgment dossiers to surface judge-defendant-event clusters.
 - [x] **Deep Beneficial Ownership Audits**: Implemented automated `deep-research` triggers for defendants to unmask shell company networks (Integrated into `scripts/audit_beneficial_ownership.ts`).
 - [x] **Intelligence Stream Integration**: Launched the `IntelligenceDrawer` providing a global real-time feed of latest judicial and field intelligence.
-- [ ] **Attorney-Syndicate Mapping**: Implemented analysis script; awaiting larger dataset for visual cluster deployment.
+- [x] **Attorney-Syndicate Mapping**: Implemented analysis script (`scripts/analyze_legal_clusters.ts`) to detect shared defense attorneys across multiple criminal syndicates.
 
-## Phase 7: Asset Recovery & Citizen Corroboration (Active)
+## Phase 7: Asset Recovery & Citizen Corroboration (Completed)
 
 **Objective**: Convert intelligence into tangible results by tracking asset forfeitures and empowering citizen-led verification.
 
-- [ ] **Asset Recovery Tracker**: Extract "Application for Forfeiture" results from judgments to build a live leaderboard of recovered state assets and seized syndicate property.
-- [ ] **Citizen Corroboration Protocol**: Implement a ZKP-secured interface for whistleblowers to "Add Context" or "Corroborate" news incidents with private forensic assets.
-- [ ] **Syndicate Hierarchy Reconstruction**: Automatically update the `syndicates` table using inferred links between legal parties, attorneys, and common directors.
-- [ ] **Government Gazette Pipeline**: Deploy the official Gazette scraper to track state tender awards and director changes as high-fidelity capture signals.
-- [ ] **Legal Heatmap Module**: Visualize the volume and severity of criminal judgments across the 14 High Court divisions of South Africa.
+- [x] **Asset Recovery Tracker**: Launched `/stats/recovery` dashboard to track state asset forfeitures and seized syndicate property extracted from high court rulings.
+- [x] **Citizen Corroboration Protocol**: Deployed ZKP-secured whistleblower interface (`<CorroborationModal />`) for public context injection into forensic records.
+- [x] **Syndicate Hierarchy Reconstruction**: Automatically updated the `organizations` table using inferred links from judicial metadata (+140 new forensic organization nodes).
+- [x] **Government Gazette Pipeline**: Established a high-fidelity ingestion pipeline (`scripts/scrape_gazettes.ts`) tracking tender awards and liquidation signals.
+- [x] **Legal Heatmap Module**: Launched the Judicial Intelligence Heatmap (`/justice/heatmap`) to visualize criminal judgment density across High Court divisions.
+
+# Operational Cycle: Watchdog Omega (Upcoming)
+
+**Objective**: Scaling the automated research fleet and establishing external data-sharing protocols.
+
+- [ ] **Automated PIR Watchdog**: Deploy daily cron tasks to scan for deltas on all 10 Priority Intelligence Requirements.
+- [ ] **Forensic Media Kits**: Export high-fidelity investigative reports as signed PDF packages for journalism partners.
+- [ ] **Real-time Incident Trigger**: Auto-dispatch `deep-research` actors when high-severity incidents appear in the field ticker.
+- [ ] **Biometric Access Tier**: Secure high-risk evidence nodes behind WebAuthn-based step-up authentication.
