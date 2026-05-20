@@ -78,8 +78,8 @@ export default function LiveTicker() {
           <div className="absolute inset-0 w-1.5 h-1.5 bg-accent-crimson rounded-full shadow-glow-crimson" />
         </div>
         <div className="flex flex-col">
-          <span className="text-[9px] font-black tracking-[0.2em] uppercase text-accent-crimson leading-none">Intelligence_Feed</span>
-          <span className="text-[7px] font-mono text-muted-foreground uppercase tracking-widest mt-1">Uplink: ACTIVE</span>
+          <span className="text-[9px] font-black tracking-[0.2em] uppercase text-accent-crimson leading-none">Live Feed</span>
+          <span className="text-[7px] font-mono text-muted-foreground uppercase tracking-widest mt-1">Status: LIVE</span>
         </div>
       </div>
 
@@ -118,7 +118,7 @@ export default function LiveTicker() {
                    <div className="flex items-center gap-1.5">
                       <MapPin className="w-2.5 h-2.5 text-muted-foreground/40" />
                       <span className="text-[9px] font-mono font-medium text-muted-foreground uppercase">
-                        {incident.location || 'Unknown Coordinates'}
+                        {incident.location || 'Unknown location'}
                       </span>
                    </div>
 
@@ -133,7 +133,7 @@ export default function LiveTicker() {
             ))
           ) : (
             <div className="text-[10px] font-mono text-muted-foreground uppercase tracking-widest px-8">
-              Syncing with National Intelligence Database...
+              Loading latest incidents...
             </div>
           )}
 
@@ -153,8 +153,8 @@ export default function LiveTicker() {
          <div className="flex items-center gap-2.5">
             <RefreshCw className={`w-3 h-3 text-accent-blue ${isLive ? 'animate-spin-slow' : ''}`} />
             <div className="text-right flex flex-col justify-center">
-               <p className="text-[7px] font-black text-muted-foreground uppercase tracking-widest leading-none">Net_Scan</p>
-               <p className="text-[9px] font-mono font-bold text-foreground leading-none mt-0.5">SYNDICATED</p>
+               <p className="text-[7px] font-black text-muted-foreground uppercase tracking-widest leading-none">Status</p>
+               <p className="text-[9px] font-mono font-bold text-foreground leading-none mt-0.5">LIVE</p>
             </div>
          </div>
          <button className="p-1.5 bg-background border border-border-glass rounded-lg hover:border-accent-crimson transition-all group">

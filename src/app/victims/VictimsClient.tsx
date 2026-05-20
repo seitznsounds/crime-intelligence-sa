@@ -2,8 +2,9 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { Heart, MessageSquare, History, ShieldCheck, Activity, ChevronRight, Award, Globe, Quote } from "lucide-react";
+import { Heart, MessageSquare, History, ShieldCheck, Activity, ChevronRight, Award, Globe, Quote, Scale, UserX, MapPinned } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 
 interface Victim {
   id: string;
@@ -23,10 +24,11 @@ export default function VictimsClient({ initialVictims }: { initialVictims: Vict
     <PageShell
       title="Victim Tributes"
       subtitle='"A tribute to the victims of Apartheid and a living monument to those who sacrificed so much in order that we could all enjoy the fruits of democracy."'
-      badge="TRC Volume 7: Living Monument"
+      badge="Living Monument"
       badgeColor="blue"
       icon={<Heart className="w-6 h-6 text-accent-blue" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "History & Justice", href: "/accountability" }, { label: "Victim Tributes", href: "/victims" }]}
+      guidance="This page honours the victims of apartheid-era political violence and modern-day assassinations. It includes memorial profiles and historical records from the Truth and Reconciliation Commission (TRC)."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/accountability" }, { label: "Victim Tributes", href: "/victims" }]}
     >
       {/* Memorial HUD */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-10">
@@ -124,6 +126,12 @@ export default function VictimsClient({ initialVictims }: { initialVictims: Vict
           </motion.div>
         )}
       </AnimatePresence>
+
+      <WhatNext suggestions={[
+        { title: "Amnesty Decisions", description: "See who was granted or denied amnesty.", href: "/amnesty", icon: Scale },
+        { title: "Unpunished Perpetrators", description: "Track those who committed crimes but were never held accountable.", href: "/accountability", icon: UserX },
+        { title: "Stolen Land Tracker", description: "Map land taken through forced removals.", href: "/restitution", icon: MapPinned },
+      ]} />
     </PageShell>
   );
 }

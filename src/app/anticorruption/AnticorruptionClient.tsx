@@ -15,6 +15,7 @@ import OPITransitionTracker from "@/components/intel/OPITransitionTracker";
 import OversightRadar from "@/components/intel/OversightRadar";
 import WpuTracker from "@/components/intel/WpuTracker";
 import Link from "next/link";
+import WhatNext from "@/components/layout/WhatNext";
 import DataTabs from "@/components/ui/DataTabs";
 import ForensicInfo from "@/components/ui/ForensicInfo";
 
@@ -134,15 +135,16 @@ export default function AnticorruptionClient({
 
   return (
     <PageShell
-      title="Anti-Corruption Intelligence Hub"
+      title="Anti-Corruption Tracker"
       subtitle="Cross-referencing NACAC 2025, HSRC Social Norms, Mthente Literature Review & National Dialogue findings."
-      badge="Policy Intelligence — Sprint 5"
+      badge="Reform Progress"
       badgeColor="gold"
       icon={<Scale className="w-6 h-6 text-accent-gold" />}
+      guidance="This page tracks South Africa's progress on anti-corruption reforms, including the transition from the discredited Office for Priority Crime Investigation (Hawks) and key performance indicators for reform efforts."
       breadcrumbs={[
         { label: "Home", href: "/" },
-        { label: "Intelligence", href: "/anticorruption" },
-        { label: "Anti-Corruption Hub", href: "/anticorruption" },
+        { label: "Explore", href: "/anticorruption" },
+        { label: "Anti-Corruption Tracker", href: "/anticorruption" },
       ]}
     >
       {/* ── KPI Row ── */}
@@ -375,6 +377,12 @@ export default function AnticorruptionClient({
           </Link>
         ))}
       </motion.div>
+
+      <WhatNext suggestions={[
+        { title: "How SA Compares", description: "Compare corruption levels globally.", href: "/benchmarks", icon: Award },
+        { title: "Government Audits", description: "See how public money is being spent.", href: "/audits", icon: Building2 },
+        { title: "Police Station Rankings", description: "Compare crime statistics across stations.", href: "/stats", icon: BarChart3 },
+      ]} />
     </PageShell>
   );
 }

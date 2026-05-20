@@ -8,10 +8,10 @@ import { getActivePillar } from "@/lib/navigation";
 
 const TABS = [
   { id: "home", label: "Home", href: "/", icon: Home },
-  { id: "investigate", label: "Investigate", href: "/expose", icon: Search },
+  { id: "investigate", label: "Explore", href: "/expose", icon: Search },
   { id: "history", label: "Justice", href: "/accountability", icon: Scale },
-  { id: "data", label: "Data", href: "/stats", icon: BarChart3 },
-  { id: "act", label: "Act", href: "/report", icon: Megaphone },
+  { id: "data", label: "Stats", href: "/stats", icon: BarChart3 },
+  { id: "act", label: "Report", href: "/report", icon: Megaphone },
 ] as const;
 
 export default function MobileBottomBar() {

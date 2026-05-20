@@ -2,7 +2,8 @@
 
 import React from 'react';
 import PageShell from "@/components/layout/PageShell";
-import { Heart, ShieldCheck, Zap, Globe, Coins } from "lucide-react";
+import { Heart, ShieldCheck, Zap, Globe, Coins, Vote, Search } from "lucide-react";
+import WhatNext from "@/components/layout/WhatNext";
 import dynamic from 'next/dynamic';
 
 const DonationModule = dynamic(() => import('@/components/intel/DonationModule').then(mod => mod.DonationModule), {
@@ -17,11 +18,12 @@ const DonationModule = dynamic(() => import('@/components/intel/DonationModule')
 export default function DonatePage() {
   return (
     <PageShell
-      title="Fuel the Mission"
-      subtitle="Support the infrastructure and engineering behind South Africa's most advanced investigative tool."
-      badge="Project Sustainability"
+      title="Support Our Work"
+      subtitle="Help us keep this platform running independently. Your donations pay for the servers and systems that keep our data secure and accessible."
+      badge="Donate"
       badgeColor="crimson"
       icon={<Heart className="w-6 h-6 text-accent-crimson" />}
+      guidance="We are 100% independent and rely on donations to keep our servers running and our investigations going. You can choose to support the project fund or buy the creator a coffee."
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "About", href: "/about" },
@@ -95,6 +97,11 @@ export default function DonatePage() {
           </div>
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Help Choose Priorities", description: "Vote on which corruption cases we should investigate next.", href: "/vote", icon: Vote },
+        { title: "About This Platform", description: "Learn how this platform works and our mission.", href: "/about", icon: Search },
+      ]} />
     </PageShell>
   );
 }

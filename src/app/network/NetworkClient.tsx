@@ -2,12 +2,13 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-import { Network, Activity, ShieldAlert, Zap, Search, Fingerprint, Globe, ChevronRight, Scale, Info, Loader2, Filter, Target, Share2, Layers, X } from "lucide-react";
+import { Network, Activity, ShieldAlert, Zap, Search, Fingerprint, Globe, ChevronRight, Scale, Info, Loader2, Filter, Target, Share2, Layers, X, Users, Megaphone } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
 import { getNetworkData, inferLinks } from "./actions";
 import { D3NetworkMap } from "@/components/intel/D3NetworkMap";
 import { IntelligenceDrawer } from "@/components/intel/IntelligenceDrawer";
 import { AytadaAd } from "@/components/ui/AytadaAd";
+import WhatNext from "@/components/layout/WhatNext";
 
 export default function NetworkMapPage({ 
   initialNodes, 
@@ -73,15 +74,16 @@ export default function NetworkMapPage({
 
   return (
     <PageShell
-      title="Intelligence Network Explorer"
-      subtitle="Operational forensic mapping with focal-point isolation and predictive AI linking."
-      badge="Watchdog Omega"
+      title="Corruption Connections"
+      subtitle="Interactive map showing how corrupt officials, syndicates, and organisations are connected to each other."
+      badge="Network Analysis"
       badgeColor="crimson"
       icon={<Network className="w-6 h-6 text-accent-crimson" />}
+      guidance="This page shows a visual map of how people and organisations linked to corruption are connected. Click on any dot (node) to see that person's connections. Use the filters on the left to narrow down what you see."
       breadcrumbs={[
         { label: "Home", href: "/" },
-        { label: "Investigate", href: "/expose" },
-        { label: "Network Explorer", href: "/network" },
+        { label: "Explore", href: "/expose" },
+        { label: "Corruption Connections", href: "/network" },
       ]}
       actions={
         <div className="flex items-center gap-3">
@@ -95,7 +97,7 @@ export default function NetworkMapPage({
             onClick={fetchData}
             className="flex items-center gap-2 px-4 py-2 bg-accent-blue text-white rounded-xl text-[11px] font-bold uppercase tracking-widest hover:scale-105 transition-all shadow-glow-blue"
           >
-            <Zap className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} /> Refresh Feed
+             <Zap className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} /> Refresh Data
           </button>
         </div>
       }
@@ -106,7 +108,7 @@ export default function NetworkMapPage({
           onClick={() => setShowMobileFilters(!showMobileFilters)}
           className="lg:hidden w-full py-3 bg-bg-glass border border-border-glass rounded-xl text-[11px] font-black uppercase tracking-widest text-foreground flex items-center justify-center gap-2"
         >
-          <Filter className="w-4 h-4" /> {showMobileFilters ? "Hide Filters" : "Show Intelligence Filters"}
+          <Filter className="w-4 h-4" /> {showMobileFilters ? "Hide Filters" : "Show Filters"}
         </button>
 
         {/* Filter Sidebar */}
@@ -115,7 +117,7 @@ export default function NetworkMapPage({
             
             <div className="space-y-4">
               <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-blue flex items-center gap-2 mb-4">
-                <Target className="w-3.5 h-3.5" /> Operational Mode
+                <Target className="w-3.5 h-3.5" /> View Mode
               </h3>
               
               <div className="flex items-center justify-between p-4 bg-background/40 border border-border-glass rounded-2xl">
@@ -124,8 +126,8 @@ export default function NetworkMapPage({
                         <Share2 className="w-4 h-4" />
                     </div>
                     <div>
-                        <span className="text-[11px] font-black uppercase tracking-tight block">Focal Focus</span>
-                        <span className="text-[8px] text-muted-foreground uppercase font-bold tracking-widest">Neighbor Isolation</span>
+                        <span className="text-[11px] font-black uppercase tracking-tight block">Focus Mode</span>
+                        <span className="text-[8px] text-muted-foreground uppercase font-bold tracking-widest">Show only connected</span>
                     </div>
                  </div>
                  <button 
@@ -142,8 +144,8 @@ export default function NetworkMapPage({
                         <Zap className="w-4 h-4" />
                     </div>
                     <div>
-                        <span className="text-[11px] font-black uppercase tracking-tight block">AI Deductions</span>
-                        <span className="text-[8px] text-muted-foreground uppercase font-bold tracking-widest">Predictive Linking</span>
+                        <span className="text-[11px] font-black uppercase tracking-tight block">AI Predictions</span>
+                        <span className="text-[8px] text-muted-foreground uppercase font-bold tracking-widest">Show predicted links</span>
                     </div>
                  </div>
                  <button 
@@ -155,7 +157,7 @@ export default function NetworkMapPage({
               </div>
 
               <div className="space-y-2 pt-4">
-                <label className="text-[9px] font-black uppercase tracking-widest text-muted-foreground ml-1">Force Density (Clustering)</label>
+                <label className="text-[9px] font-black uppercase tracking-widest text-muted-foreground ml-1">Layout Density</label>
                 <div className="grid grid-cols-2 gap-2">
                     {[1, 2].map(v => (
                         <button 
@@ -172,26 +174,26 @@ export default function NetworkMapPage({
 
             <div className="pt-6 border-t border-border-glass space-y-4">
               <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-accent-blue flex items-center gap-2 mb-4">
-                <Filter className="w-3.5 h-3.5" /> Discovery Filters
+                <Filter className="w-3.5 h-3.5" /> Filters
               </h3>
               
               <div className="space-y-4">
                 <div className="space-y-2">
-                    <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Entity Search</label>
+                    <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Search People & Organisations</label>
                     <div className="relative">
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-muted-foreground/40" />
                     <input 
                         type="text" 
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        placeholder="Search forensic nodes..." 
+                        placeholder="Search by name..." 
                         className="w-full bg-background border border-border-glass rounded-xl py-3 pl-10 pr-4 text-[11px] text-foreground focus:outline-none focus:border-accent-blue/50 transition-all shadow-inner"
                     />
                     </div>
                 </div>
 
                 <div className="space-y-2">
-                    <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Network Type</label>
+                    <label className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Filter by Type</label>
                     <div className="grid grid-cols-1 gap-2">
                         {['all', 'PEP', 'ORG'].map(t => (
                             <button 
@@ -219,7 +221,7 @@ export default function NetworkMapPage({
           {loading ? (
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 z-20">
               <Loader2 className="w-12 h-12 text-accent-blue animate-spin" />
-              <p className="text-[11px] font-black uppercase tracking-widest text-accent-blue animate-pulse">Running Forensic Decryption...</p>
+              <p className="text-[11px] font-black uppercase tracking-widest text-accent-blue animate-pulse">Loading network data...</p>
             </div>
           ) : (
             <div className="absolute inset-0 z-10">
@@ -255,12 +257,12 @@ export default function NetworkMapPage({
 
           {/* Legend Overlay */}
           <div className="absolute bottom-6 left-6 glass-card p-5 border-border-glass bg-background/80 backdrop-blur-xl z-20 shadow-2xl scale-90 sm:scale-100 origin-bottom-left">
-            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-muted-foreground mb-4 border-b border-border-glass pb-2">Forensic Key</h4>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-muted-foreground mb-4 border-b border-border-glass pb-2">Legend</h4>
             <div className="flex flex-col gap-3">
-              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-crimson shadow-glow-crimson" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Criminal Syndicate</span></div>
-              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-gold shadow-glow-gold" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Political Person</span></div>
-              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-blue shadow-glow-blue" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">State Agency</span></div>
-              <div className="flex items-center gap-3"><div className="w-3 h-[1.5px] bg-accent-gold border border-accent-gold/50 border-dashed" /><span className="text-[8px] font-black uppercase tracking-tighter text-accent-gold/80">AI Inferred Link</span></div>
+              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-crimson shadow-glow-crimson" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Crime Syndicate</span></div>
+              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-gold shadow-glow-gold" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Politician / Official</span></div>
+              <div className="flex items-center gap-3"><div className="w-3 h-3 rounded-full bg-accent-blue shadow-glow-blue" /><span className="text-[10px] font-black uppercase tracking-tighter text-foreground">Government Agency</span></div>
+              <div className="flex items-center gap-3"><div className="w-3 h-[1.5px] bg-accent-gold border border-accent-gold/50 border-dashed" /><span className="text-[8px] font-black uppercase tracking-tighter text-accent-gold/80">AI Predicted Link</span></div>
             </div>
           </div>
 
@@ -274,6 +276,12 @@ export default function NetworkMapPage({
           />
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "People of Interest", description: "Browse detailed profiles of the people shown on this map.", href: "/expose", icon: Search },
+        { title: "Crime Syndicates", description: "Explore the hierarchies of organised crime groups.", href: "/syndicates", icon: Users },
+        { title: "Report What You Know", description: "Have information about these connections? Report it anonymously.", href: "/report", icon: Megaphone },
+      ]} />
     </PageShell>
   );
 }

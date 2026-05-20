@@ -2,8 +2,9 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { Users, ShieldAlert, Activity, Scale, Lock, Zap, Search, ChevronRight, Gavel, Target } from "lucide-react";
+import { Users, ShieldAlert, Activity, Scale, Lock, Zap, Search, ChevronRight, Gavel, Target, MapPin } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 import { IntelligenceDrawer } from "@/components/intel/IntelligenceDrawer";
 
 interface Node {
@@ -47,11 +48,12 @@ export default function SyndicatePage({ initialSyndicates }: { initialSyndicates
   if (initialSyndicates.length === 0) {
     return (
       <PageShell
-        title="Syndicate Structures"
-        subtitle="Automated organizational chart mapping of major criminal syndicates."
-        badge="Criminal Hierarchy Mapper"
+        title="Crime Syndicates"
+        subtitle="Explore the structure of major organised crime groups operating in South Africa."
+        badge="Syndicates"
         badgeColor="crimson"
         icon={<ShieldAlert className="w-6 h-6 text-accent-crimson" />}
+        guidance="This page shows how different crime syndicates are structured. Select a group to see its key members, their roles, and how they connect to each other."
       >
         <div className="flex flex-col items-center justify-center h-[400px] glass-card border-border-glass bg-bg-glass">
           <ShieldAlert className="w-12 h-12 text-muted-foreground/30 mb-4" />
@@ -95,12 +97,13 @@ export default function SyndicatePage({ initialSyndicates }: { initialSyndicates
 
   return (
     <PageShell
-      title="Syndicate Structures"
-      subtitle="Automated organizational chart mapping — from street-level enforcers to high-court defendants."
-      badge="Criminal Hierarchy Mapper"
+      title="Crime Syndicates"
+      subtitle="Explore the structure of major organised crime groups operating in South Africa."
+      badge="Syndicates"
       badgeColor="crimson"
       icon={<ShieldAlert className="w-6 h-6 text-accent-crimson" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Investigate", href: "/expose" }, { label: "Syndicate Structures", href: "/syndicates" }]}
+      guidance="This page shows how different crime syndicates are structured. Select a group to see its key members, their roles, and how they connect to each other."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/expose" }, { label: "Crime Syndicates", href: "/syndicates" }]}
     >
       <div className="flex flex-col lg:flex-row gap-6 h-[600px] sm:h-[850px]">
         
@@ -218,6 +221,12 @@ export default function SyndicatePage({ initialSyndicates }: { initialSyndicates
           baseRisk={selectedSyndicateAsNode?.risk || 0}
         />
       </div>
+
+      <WhatNext suggestions={[
+        { title: "People of Interest", description: "See the individuals linked to these crime syndicates.", href: "/expose", icon: Users },
+        { title: "Corruption Connections", description: "See the network map showing how politicians connect to these syndicates.", href: "/network", icon: Target },
+        { title: "Crime Map", description: "See where these syndicates operate on an interactive map.", href: "/map", icon: MapPin },
+      ]} />
     </PageShell>
   );
 }

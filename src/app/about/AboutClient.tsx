@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Shield, Cpu, Activity, Database, GitBranch, Lock, Server, Zap, ChevronRight, Globe, Layers, Heart, Network } from "lucide-react";
+import { Shield, Cpu, Activity, Database, GitBranch, Lock, Server, Zap, ChevronRight, Globe, Layers, Heart, Network, Vote } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
 import DataTabs from "@/components/ui/DataTabs";
+import WhatNext from "@/components/layout/WhatNext";
 import dynamic from 'next/dynamic';
 
 const DonationModule = dynamic(() => import('@/components/intel/DonationModule').then(mod => mod.DonationModule), {
@@ -27,11 +28,12 @@ export default function AboutClient({ telemetry }: { telemetry: any }) {
 
   return (
     <PageShell
-      title="Platform Architecture"
-      subtitle="Exposing the sophisticated intelligence engine powering radical transparency."
-      badge="System Overview"
+      title="About This Platform"
+      subtitle="Learn how this platform works, the technology behind it, and our mission to expose systemic corruption through data."
+      badge="About"
       badgeColor="blue"
       icon={<Cpu className="w-6 h-6 text-accent-blue" />}
+      guidance="Read our manifesto, explore the technology stack that powers the platform, and see live statistics on our data processing."
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "About", href: "/about" }
@@ -284,6 +286,11 @@ export default function AboutClient({ telemetry }: { telemetry: any }) {
           </div>
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Support Our Work", description: "Help us keep this platform running independently.", href: "/donate", icon: Heart },
+        { title: "Help Choose Priorities", description: "Vote on which corruption cases we should investigate next.", href: "/vote", icon: Vote },
+      ]} />
     </PageShell>
   );
 }

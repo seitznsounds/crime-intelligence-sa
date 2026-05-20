@@ -1,6 +1,7 @@
 import { type ReactNode } from "react";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
+import GuidanceToggle from "./GuidanceToggle";
 
 interface BreadcrumbItem {
   label: string;
@@ -12,6 +13,8 @@ interface PageShellProps {
   title: string;
   /** Optional subtitle below the title */
   subtitle?: string;
+  /** Optional plain-language guidance shown below subtitle */
+  guidance?: string;
   /** Optional small badge label above the title */
   badge?: string;
   /** Badge accent color */
@@ -39,6 +42,7 @@ const BADGE_COLORS = {
 export default function PageShell({
   title,
   subtitle,
+  guidance,
   badge,
   badgeColor = "crimson",
   icon,
@@ -119,6 +123,9 @@ export default function PageShell({
                   <p className="text-base sm:text-lg lg:text-xl text-charcoal-82 max-w-2xl leading-relaxed font-normal break-words">
                     {subtitle}
                   </p>
+                )}
+                {guidance && (
+                  <GuidanceToggle guidance={guidance} title={title} />
                 )}
               </div>
             </div>

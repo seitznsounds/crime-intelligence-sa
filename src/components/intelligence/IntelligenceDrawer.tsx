@@ -30,7 +30,7 @@ export default function IntelligenceDrawer() {
       >
         <div className="flex items-center gap-3">
             <Zap className="w-5 h-5 animate-pulse" />
-            <span className="text-[11px] font-black uppercase tracking-[0.2em] hidden sm:block">Live Intel</span>
+            <span className="text-[11px] font-black uppercase tracking-[0.2em] hidden sm:block">Latest Updates</span>
         </div>
       </button>
 
@@ -61,8 +61,8 @@ export default function IntelligenceDrawer() {
                     <Activity className="w-5 h-5 text-accent-blue" />
                   </div>
                   <div>
-                    <h2 className="text-[14px] font-black uppercase tracking-tight">Intelligence Stream</h2>
-                    <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest">Real-time Node Injection</p>
+                    <h2 className="text-[14px] font-black uppercase tracking-tight">Latest Updates</h2>
+                    <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest">Live feed</p>
                   </div>
                 </div>
                 <button onClick={() => setIsOpen(false)} className="p-2 hover:bg-white/5 rounded-full transition-colors">
@@ -76,7 +76,7 @@ export default function IntelligenceDrawer() {
                 {/* Recent Judgments */}
                 <section className="space-y-4">
                   <h3 className="text-[11px] font-bold uppercase tracking-[0.3em] text-accent-blue flex items-center gap-2">
-                    <Scale className="w-3.5 h-3.5" /> Authoritative Judgments
+                    <Scale className="w-3.5 h-3.5" /> Recent Court Rulings
                   </h3>
                   
                   {isLoading ? (
@@ -88,13 +88,13 @@ export default function IntelligenceDrawer() {
                       {data.judgments.map((j) => (
                         <div key={j.id} className="p-4 bg-bg-glass border border-border-glass rounded-xl hover:border-accent-blue/30 transition-all group">
                           <span className="text-[9px] font-mono text-accent-blue uppercase mb-1 block">
-                            {j.metadata?.['Case Number'] || 'CERTIFIED_RULING'}
+                            {j.metadata?.['Case Number'] || 'Court Ruling'}
                           </span>
                           <h4 className="text-[13px] font-bold leading-snug mb-2 line-clamp-2">{j.title}</h4>
                           <div className="flex justify-between items-center">
                             <span className="text-[10px] font-bold text-muted-foreground uppercase">{new Date(j.event_date).toLocaleDateString()}</span>
                             <Link href={`/justice/judgments/${j.id}`} className="text-[10px] font-black text-accent-blue flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                              EXAMINE <ChevronRight className="w-3 h-3" />
+                              Read <ChevronRight className="w-3 h-3" />
                             </Link>
                           </div>
                         </div>
@@ -106,7 +106,7 @@ export default function IntelligenceDrawer() {
                 {/* Recent News */}
                 <section className="space-y-4">
                   <h3 className="text-[11px] font-bold uppercase tracking-[0.3em] text-accent-crimson flex items-center gap-2">
-                    <AlertTriangle className="w-3.5 h-3.5" /> Field Intelligence
+                    <AlertTriangle className="w-3.5 h-3.5" /> Latest News
                   </h3>
                   
                   {isLoading ? (
@@ -124,7 +124,7 @@ export default function IntelligenceDrawer() {
                           <div className="flex justify-between items-center">
                             <span className="text-[10px] font-bold text-muted-foreground uppercase">{new Date(n.occurred_at).toLocaleDateString()}</span>
                             <a href={n.source_url} target="_blank" className="text-[10px] font-black text-accent-crimson flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                              SOURCE <ChevronRight className="w-3 h-3" />
+                              Read Article <ChevronRight className="w-3 h-3" />
                             </a>
                           </div>
                         </div>
@@ -141,14 +141,14 @@ export default function IntelligenceDrawer() {
                   onClick={() => setIsOpen(false)}
                   className="w-full py-4 bg-accent-gold/20 border border-accent-gold/30 text-accent-gold text-[11px] font-black uppercase tracking-[0.2em] rounded-xl flex items-center justify-center gap-2 hover:bg-accent-gold hover:text-black transition-all"
                 >
-                  Analyze Legal Heatmap <Globe className="w-4 h-4" />
+                  View Court Case Map <Globe className="w-4 h-4" />
                 </Link>
                 <Link 
                   href="/justice" 
                   onClick={() => setIsOpen(false)}
                   className="w-full py-4 bg-accent-blue text-white text-[11px] font-black uppercase tracking-[0.2em] rounded-xl flex items-center justify-center gap-2 hover:scale-[1.02] active:scale-95 transition-all shadow-glow-blue"
                 >
-                  Explore Entire Corpus <ChevronRight className="w-4 h-4" />
+                  Browse All Court Rulings <ChevronRight className="w-4 h-4" />
                 </Link>
               </div>
             </motion.div>

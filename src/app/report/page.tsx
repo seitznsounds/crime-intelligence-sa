@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ShieldCheck, UploadCloud, Lock, FileText, MapPin, ChevronRight, AlertCircle, CheckCircle2, Activity, ShieldAlert, Fingerprint } from "lucide-react";
+import { ShieldCheck, UploadCloud, Lock, FileText, MapPin, ChevronRight, AlertCircle, CheckCircle2, Activity, ShieldAlert, Fingerprint, Vote } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 
 export default function ReportPage() {
   const [step, setStep] = useState(1);
@@ -30,9 +31,9 @@ export default function ReportPage() {
 
   return (
     <PageShell
-      title="Secure Evidence Uplink"
-      subtitle="Your identity is protected by multi-stage encryption. All metadata is stripped from uploaded evidence before ingestion."
-      badge="Whistleblower Portal"
+      title="Report Corruption"
+      subtitle="Report corruption anonymously. Your identity is fully protected — we never see your name, IP address, or device information."
+      badge="Anonymous Reporting"
       badgeColor="crimson"
       icon={<ShieldCheck className="w-6 h-6 text-accent-crimson" />}
       breadcrumbs={[
@@ -40,6 +41,7 @@ export default function ReportPage() {
         { label: "Act", href: "/vote" },
         { label: "Report Corruption", href: "/report" },
       ]}
+      guidance="Use this form to anonymously report any corruption you've witnessed. Choose a category, describe what happened, upload any evidence you have, and submit. We automatically strip all identifying information from your files."
     >
       <div className="max-w-4xl mx-auto py-10 sm:py-16">
         {/* Step Progress Bar */}
@@ -71,7 +73,7 @@ export default function ReportPage() {
                     {step === 1 && (
                       <div className="space-y-8">
                         <div>
-                          <label className="text-[11px] font-bold uppercase tracking-[0.2em] text-muted-foreground block mb-4">Investigation Sector</label>
+                          <label className="text-[11px] font-bold uppercase tracking-[0.2em] text-muted-foreground block mb-4">What type of corruption?</label>
                           <select className="w-full bg-bg-glass-heavy border border-border-glass rounded-2xl px-6 py-4 text-[13px] focus:outline-none focus:border-accent-crimson/40 text-foreground transition-all appearance-none cursor-pointer">
                             <option>SAPS Corruption & Brutality</option>
                             <option>Municipal Tender Fraud</option>
@@ -81,10 +83,10 @@ export default function ReportPage() {
                           </select>
                         </div>
                         <div>
-                          <label className="text-[11px] font-bold uppercase tracking-[0.2em] text-muted-foreground block mb-4">Intelligence Narrative</label>
+                          <label className="text-[11px] font-bold uppercase tracking-[0.2em] text-muted-foreground block mb-4">Tell us what happened</label>
                           <textarea 
                             className="w-full bg-bg-glass-heavy border border-border-glass rounded-2xl px-6 py-4 text-[13px] focus:outline-none focus:border-accent-crimson/40 h-40 text-foreground transition-all placeholder:text-muted-foreground/30 leading-relaxed"
-                            placeholder="Provide a clear, high-fidelity narrative of the corruption or crime observed..."
+                            placeholder="Describe what happened, who was involved, and any details that could help an investigation..."
                           />
                         </div>
                       </div>
@@ -95,9 +97,9 @@ export default function ReportPage() {
                         <div className="w-20 h-20 bg-bg-glass rounded-2xl flex items-center justify-center mb-6 border border-border-glass group-hover:scale-110 transition-transform">
                           <UploadCloud className="w-10 h-10 text-muted-foreground group-hover:text-accent-crimson" />
                         </div>
-                        <p className="text-[13px] font-bold uppercase tracking-widest mb-2 text-foreground">Drop Intelligence Assets</p>
-                        <p className="text-[11px] text-muted-foreground uppercase tracking-[0.2em]">Metadata will be automatically stripped</p>
-                        <p className="text-[9px] text-muted-foreground/40 mt-6 font-mono uppercase tracking-widest">Images // PDFs // Logs // Max 100MB</p>
+                        <p className="text-[13px] font-bold uppercase tracking-widest mb-2 text-foreground">Upload Evidence Files</p>
+                        <p className="text-[11px] text-muted-foreground uppercase tracking-[0.2em]">All identifying data is automatically removed</p>
+                        <p className="text-[9px] text-muted-foreground/40 mt-6 font-mono uppercase tracking-widest">Images, PDFs, documents — up to 100MB</p>
                       </div>
                     )}
 
@@ -108,10 +110,10 @@ export default function ReportPage() {
                             <MapPin className="w-12 h-12 text-accent-blue" />
                           </div>
                           <div>
-                            <h4 className="text-lg font-bold uppercase tracking-widest mb-2 text-foreground">Operational Location</h4>
-                            <p className="text-[11px] text-muted-foreground uppercase tracking-[0.2em] leading-relaxed max-w-sm mx-auto mb-8">Attach precise geospatial coordinates to link this incident to the national heatmap.</p>
+                            <h4 className="text-lg font-bold uppercase tracking-widest mb-2 text-foreground">Where Did This Happen?</h4>
+                            <p className="text-[11px] text-muted-foreground uppercase tracking-[0.2em] leading-relaxed max-w-sm mx-auto mb-8">Adding a location helps us map this incident and connect it to patterns in your area.</p>
                             <button className="px-8 py-3.5 bg-accent-blue/10 border border-accent-blue/20 rounded-2xl text-accent-blue text-[11px] font-bold uppercase tracking-widest hover:bg-accent-blue/20 transition-all">
-                              Detect Current Coordinates
+                              Use My Location
                             </button>
                           </div>
                         </div>
@@ -123,14 +125,14 @@ export default function ReportPage() {
                         <div className="p-6 bg-accent-gold/5 border border-accent-gold/20 rounded-2xl flex gap-5">
                           <AlertCircle className="w-6 h-6 text-accent-gold shrink-0" />
                           <p className="text-[12px] text-accent-gold/80 leading-relaxed font-medium uppercase tracking-tight">
-                            By initiating this uplink, you verify that the information is accurate. Crime Intelligence SA utilizes cryptographic hashing to ensure evidence integrity for future legal proceedings.
+                            By submitting this report, you confirm the information is accurate to the best of your knowledge. All evidence is digitally signed to ensure it can be used in future legal proceedings.
                           </p>
                         </div>
                         <div className="space-y-4">
                           {[
-                            { label: "Encryption Strength", value: "AES-256-GCM", color: "text-accent-blue" },
-                            { label: "Anonymity Level", value: "TOTAL_REDACTION", color: "text-accent-gold" },
-                            { label: "Routing Latency", value: "48ms", color: "text-muted-foreground/60" }
+                            { label: "Security Level", value: "AES-256-GCM", color: "text-accent-blue" },
+                            { label: "Identity Protection", value: "Fully Anonymous", color: "text-accent-gold" },
+                            { label: "Response Time", value: "48ms", color: "text-muted-foreground/60" }
                           ].map((item, i) => (
                             <div key={i} className="flex justify-between items-center py-3.5 border-b border-border-glass">
                               <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">{item.label}</span>
@@ -150,15 +152,15 @@ export default function ReportPage() {
                     <div className="w-24 h-24 bg-accent-blue/10 rounded-full flex items-center justify-center mb-8 border border-accent-blue/20 shadow-glow-blue">
                       <CheckCircle2 className="w-12 h-12 text-accent-blue" />
                     </div>
-                    <h2 className="text-4xl font-bold tracking-tighter uppercase mb-4 text-foreground">Uplink Secured.</h2>
+                    <h2 className="text-4xl font-bold tracking-tighter uppercase mb-4 text-foreground">Report Submitted.</h2>
                     <p className="text-[14px] text-muted-foreground font-light mb-12 max-w-sm mx-auto leading-relaxed">
-                      Your intelligence has been successfully ingested into the vault. <br/>Case Identifier: <span className="font-mono text-accent-blue font-bold px-2">#EV_772A_X</span>
+                      Your report has been securely received. <br/>Reference Number: <span className="font-mono text-accent-blue font-bold px-2">#EV_772A_X</span>
                     </p>
                     <button 
                       onClick={() => { setIsComplete(false); setStep(1); }}
                       className="px-10 py-4 bg-bg-glass border border-border-glass rounded-2xl text-[11px] font-bold uppercase tracking-[0.2em] hover:bg-bg-glass-heavy transition-all text-foreground"
                     >
-                      Return to Portal
+                      Submit Another Report
                     </button>
                   </motion.div>
                 )}
@@ -189,10 +191,10 @@ export default function ReportPage() {
                     >
                       {isSubmitting ? (
                         <span className="flex items-center gap-3">
-                          <Activity className="w-4 h-4 animate-spin" /> ENCRYPTING...
+                          <Activity className="w-4 h-4 animate-spin" /> Submitting...
                         </span>
                       ) : (
-                        "Initiate Secure Uplink"
+                        "Submit Report Securely"
                       )}
                     </button>
                   )}
@@ -205,13 +207,13 @@ export default function ReportPage() {
           <div className="space-y-6">
             <div className="glass-card p-8 border-border-glass bg-bg-glass">
               <h3 className="text-[12px] font-bold uppercase tracking-[0.3em] text-muted-foreground mb-8 flex items-center gap-3">
-                <Lock className="w-4 h-4 text-accent-gold" /> Security Protocols
+                <Lock className="w-4 h-4 text-accent-gold" /> How We Protect You
               </h3>
               <div className="space-y-8">
                 {[
-                  { icon: <ShieldAlert className="w-5 h-5 text-accent-crimson" />, title: "Metadata Stripping", desc: "Our ingestion engine automatically scrubs EXIF data, GPS tags, and device fingerprints." },
-                  { icon: <Fingerprint className="w-5 h-5 text-accent-blue" />, title: "Identity Masking", desc: "No personal data is requested. Your report is linked only to a unique cryptographic hash." },
-                  { icon: <Lock className="w-5 h-5 text-accent-gold" />, title: "E2E Encryption", desc: "Assets are encrypted client-side using AES-256 before reaching our secure uplink servers." }
+                  { icon: <ShieldAlert className="w-5 h-5 text-accent-crimson" />, title: "File Cleaning", desc: "We automatically remove hidden data like GPS tags, camera info, and device fingerprints from your files." },
+                  { icon: <Fingerprint className="w-5 h-5 text-accent-blue" />, title: "Identity Protection", desc: "We never ask for your name or details. Your report is identified only by a random code." },
+                  { icon: <Lock className="w-5 h-5 text-accent-gold" />, title: "End-to-End Encryption", desc: "Your files are encrypted on your device before they even leave your browser." }
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4">
                     <div className="mt-1 shrink-0">{item.icon}</div>
@@ -227,15 +229,20 @@ export default function ReportPage() {
             <div className="glass-card p-6 border-accent-crimson/20 bg-accent-crimson/[0.01]">
               <div className="flex items-center gap-3 mb-4">
                 <Activity className="w-4 h-4 text-accent-crimson" />
-                <span className="text-[11px] font-bold uppercase tracking-widest text-accent-crimson">Operational Alert</span>
+                <span className="text-[11px] font-bold uppercase tracking-widest text-accent-crimson">Privacy Guarantee</span>
               </div>
               <p className="text-[12px] text-muted-foreground/80 leading-relaxed font-light italic">
-                "We do not track IP addresses. We do not store session cookies. Your anonymity is our primary operational priority."
+                "We do not track IP addresses. We do not store cookies. Your anonymity is our top priority."
               </p>
             </div>
           </div>
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Evidence Vault", description: "See evidence packages compiled from investigations, ready for international courts.", href: "/vault", icon: "ShieldCheck" },
+        { title: "Vote on Priorities", description: "Help decide which corruption cases the community investigates next.", href: "/vote", icon: "Vote" },
+      ]} />
     </PageShell>
   );
 }

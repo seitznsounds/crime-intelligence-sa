@@ -2,8 +2,9 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { Building2, ShieldAlert, History, Activity, ChevronRight, Scale, FileText, AlertTriangle, Zap } from "lucide-react";
+import { Building2, ShieldAlert, History, Activity, ChevronRight, Scale, FileText, AlertTriangle, Zap, BarChart3, Award, ShieldCheck } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 
 interface Audit {
   id: string;
@@ -26,11 +27,12 @@ export default function AuditsPage({ initialAudits }: { initialAudits: Audit[] }
   if (audits.length === 0) {
     return (
       <PageShell
-        title="Institutional Audits"
+        title="Government Audits"
         subtitle="Forensic accountability hearings from TRC Volume 4. Tracking the historical decay of South Africa's core institutions."
-        badge="TRC Phase 5: Institutional Audit Sector"
+        badge="Audits"
         badgeColor="crimson"
         icon={<Building2 className="w-6 h-6 text-accent-crimson" />}
+        guidance="This page contains audit reports for government departments, including the South African Police Service (SAPS) and other institutions. See how public money is being spent and where problems have been found."
       >
         <div className="flex flex-col items-center justify-center h-[400px] glass-card border-border-glass bg-bg-glass">
           <Building2 className="w-12 h-12 text-muted-foreground/30 mb-4" />
@@ -43,12 +45,13 @@ export default function AuditsPage({ initialAudits }: { initialAudits: Audit[] }
 
   return (
     <PageShell
-      title="Institutional Audits"
+      title="Government Audits"
       subtitle="Forensic accountability hearings from TRC Volume 4. Tracking the historical decay of South Africa's core institutions."
-      badge="TRC Phase 5: Institutional Audit Sector"
+      badge="Audits"
       badgeColor="crimson"
       icon={<Building2 className="w-6 h-6 text-accent-crimson" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Data", href: "/stats" }, { label: "Institutional Audits", href: "/audits" }]}
+      guidance="This page contains audit reports for government departments, including the South African Police Service (SAPS) and other institutions. See how public money is being spent and where problems have been found."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/stats" }, { label: "Government Audits", href: "/audits" }]}
     >
       {/* HUD */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-10">
@@ -165,6 +168,12 @@ export default function AuditsPage({ initialAudits }: { initialAudits: Audit[] }
           </motion.div>
         )}
       </AnimatePresence>
+
+      <WhatNext suggestions={[
+        { title: "Police Station Rankings", description: "Compare crime statistics across stations.", href: "/stats", icon: BarChart3 },
+        { title: "How SA Compares", description: "Compare corruption levels globally.", href: "/benchmarks", icon: Award },
+        { title: "Anti-Corruption Tracker", description: "Track progress on reforms.", href: "/anticorruption", icon: ShieldCheck },
+      ]} />
     </PageShell>
   );
 }

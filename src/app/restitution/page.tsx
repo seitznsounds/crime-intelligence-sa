@@ -2,9 +2,10 @@
 
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { History, Map as MapIcon, ShieldAlert, Scale, Activity, ChevronRight, MapPin, Users, Zap, ArrowRight } from "lucide-react";
+import { History, Map as MapIcon, ShieldAlert, Scale, Activity, ChevronRight, MapPin, Users, Zap, ArrowRight, Heart, Award } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 import { DossierSkeleton } from "@/components/ui/Skeleton";
 import { FullScreenDataModal } from "@/components/ui/FullScreenDataModal";
 import { MobileExpandableChart } from "@/components/ui/MobileExpandableChart";
@@ -25,12 +26,13 @@ export default function RestitutionPage() {
 
   return (
     <PageShell
-      title="Reclaim the Land"
+      title="Stolen Land Tracker"
       subtitle="Mapping historical land seizures and displacement. 1.2M hectares stolen, 3.5M+ families displaced — only 12.4% restored."
-      badge="Land Restitution Sector"
+      badge="Land Restitution"
       badgeColor="crimson"
       icon={<History className="w-6 h-6 text-accent-crimson" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "History & Justice", href: "/accountability" }, { label: "Land Restitution", href: "/restitution" }]}
+      guidance="This page maps land that was taken from communities during apartheid through forced removals. It tracks the current status of land claims and restitution processes."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/accountability" }, { label: "Land Restitution", href: "/restitution" }]}
     >
       {/* HUD */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-10">
@@ -126,6 +128,12 @@ export default function RestitutionPage() {
           </div>
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Honouring Victims", description: "Read the stories of victims of political violence.", href: "/victims", icon: "Heart" },
+        { title: "Amnesty Decisions", description: "See who was granted or denied amnesty.", href: "/amnesty", icon: "Scale" },
+        { title: "How SA Compares", description: "Compare corruption levels globally.", href: "/benchmarks", icon: "Award" },
+      ]} />
     </PageShell>
   );
 }

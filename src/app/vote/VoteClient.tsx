@@ -12,9 +12,13 @@ import {
   TrendingUp,
   Award,
   Zap,
-  Globe
+  Globe,
+  Megaphone,
+  Network,
+  Building2
 } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 
 interface Proposal {
   id: string;
@@ -38,11 +42,12 @@ export default function VotePage({ initialProposals }: { initialProposals: Propo
 
   return (
     <PageShell
-      title="Citizen Voting"
-      subtitle="Democratic prioritization of investigation targets. Your vote directs investigative resources toward the corruption points that matter most."
-      badge="Democratic Prioritization Hub"
+      title="Help Choose Priorities"
+      subtitle="Vote on which corruption cases we should investigate next. Your input helps us direct our resources to what matters most to the community."
+      badge="Vote"
       badgeColor="gold"
       icon={<VoteIcon className="w-6 h-6 text-accent-gold" />}
+      guidance="Review proposed investigations and vote on the ones you think are most important. The cases with the most community support get prioritized."
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Act", href: "/vote" },
@@ -175,6 +180,12 @@ export default function VotePage({ initialProposals }: { initialProposals: Propo
           </div>
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Report Corruption", description: "Have evidence of your own? Submit it anonymously.", href: "/report", icon: Megaphone },
+        { title: "Corruption Connections", description: "See the network map showing how politicians connect to known corrupt officials.", href: "/network", icon: Network },
+        { title: "Government Audits", description: "Review audits of police and government departments.", href: "/audits", icon: Building2 },
+      ]} />
     </PageShell>
   );
 }

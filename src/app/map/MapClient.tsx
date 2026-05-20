@@ -2,8 +2,9 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { Globe, ShieldAlert, Target, Activity, Map as MapIcon, ChevronRight, Zap, Clock, Calendar } from "lucide-react";
+import { Globe, ShieldAlert, Target, Activity, Map as MapIcon, ChevronRight, Zap, Clock, Calendar, Users, Building2 } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 import { FullScreenDataModal } from "@/components/ui/FullScreenDataModal";
 import { MobileExpandableChart } from "@/components/ui/MobileExpandableChart";
 import TemporalCrimeAnalysis from "@/components/intel/TemporalCrimeAnalysis";
@@ -28,11 +29,12 @@ export default function MapClient({ initialHotspots, temporalData }: { initialHo
 
   return (
     <PageShell
-      title="Geospatial Intelligence"
-      subtitle="Interactive 3D visualization of crime density across South Africa. Monitoring 324 active hotspots in real-time."
-      badge="Geospatial Intelligence"
+      title="Crime Map"
+      subtitle="An interactive map showing where crime is concentrated across South Africa, updated with the latest data."
+      badge="Map"
       badgeColor="crimson"
       icon={<MapIcon className="w-6 h-6 text-accent-crimson" />}
+      guidance="Explore areas with high crime rates (hotspots). Click on a hotspot to see more details about the types of incidents reported there. You can also see how crime patterns change at different times of day."
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Data", href: "/stats" },
@@ -203,6 +205,12 @@ export default function MapClient({ initialHotspots, temporalData }: { initialHo
           </div>
         ))}
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Police Station Rankings", description: "Compare crime statistics across stations.", href: "/stats", icon: Target },
+        { title: "Crime Syndicates", description: "Explore the structure of major crime networks.", href: "/syndicates", icon: Users },
+        { title: "Government Audits", description: "Review audits of police and government departments.", href: "/audits", icon: Building2 },
+      ]} />
     </PageShell>
   );
 }

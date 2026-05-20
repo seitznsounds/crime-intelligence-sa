@@ -2,8 +2,9 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Globe, Scale, Activity, ShieldAlert, ChevronRight, BarChart3, TrendingDown, TrendingUp, Target, Zap } from "lucide-react";
+import { Globe, Scale, Activity, ShieldAlert, ChevronRight, BarChart3, TrendingDown, TrendingUp, Target, Zap, ShieldCheck, Building2 } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 
 interface Peer {
   name: string;
@@ -28,12 +29,13 @@ export default function BenchmarksPage({ initialBenchmarks }: { initialBenchmark
 
   return (
     <PageShell
-      title="Global Benchmarks"
+      title="How South Africa Compares"
       subtitle="Benchmarking South African investigative data against international corruption standards to generate evidence for global pressure campaigns."
-      badge="Phase 5: Global Transparency Index"
+      badge="Global Comparisons"
       badgeColor="blue"
       icon={<Globe className="w-6 h-6 text-accent-blue" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Data", href: "/stats" }, { label: "Global Benchmarks", href: "/benchmarks" }]}
+      guidance="This page compares South Africa's corruption levels against other countries using international transparency indexes and governance metrics."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/stats" }, { label: "Global Comparisons", href: "/benchmarks" }]}
     >
       {/* HUD */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-10">
@@ -124,6 +126,12 @@ export default function BenchmarksPage({ initialBenchmarks }: { initialBenchmark
           </div>
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Anti-Corruption Tracker", description: "Track progress on reforms.", href: "/anticorruption", icon: ShieldCheck },
+        { title: "Government Audits", description: "See how public money is being spent.", href: "/audits", icon: Building2 },
+        { title: "Police Station Rankings", description: "Compare crime statistics across stations.", href: "/stats", icon: BarChart3 },
+      ]} />
     </PageShell>
   );
 }

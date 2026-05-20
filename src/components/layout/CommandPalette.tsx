@@ -47,7 +47,7 @@ export function CommandPalette() {
         className="flex items-center gap-3 px-6 py-2.5 bg-background border border-border-glass-bright/30 rounded-full text-[11px] font-black uppercase tracking-widest text-muted-foreground hover:border-accent-blue/50 hover:text-foreground transition-all group shadow-sm active:scale-95"
       >
         <Search className="w-3.5 h-3.5 group-hover:scale-110 transition-transform" />
-        <span className="hidden md:inline">Mission Control</span>
+        <span className="hidden md:inline">Search</span>
         <kbd className="hidden md:flex items-center gap-1 px-2 py-0.5 bg-background border border-border rounded-full text-[9px] font-mono opacity-60">
           <CommandIcon className="w-2.5 h-2.5" /> K
         </kbd>
@@ -67,7 +67,7 @@ export function CommandPalette() {
                   <Terminal className="w-4 h-4 text-accent-blue" />
                   <Command.Input
                     autoFocus
-                    placeholder="Search intelligence database..."
+                    placeholder="Search pages and features..."
                     className="flex-1 bg-transparent text-sm font-black uppercase tracking-widest text-charcoal outline-none placeholder:text-charcoal-40"
                   />
                   <button 
@@ -81,7 +81,7 @@ export function CommandPalette() {
                 <Command.List className="max-h-[400px] overflow-y-auto p-4 scrollbar-hide bg-background">
                   <Command.Empty className="px-6 py-16 text-center">
                     <p className="text-[10px] font-black text-charcoal-40 uppercase tracking-[0.2em]">
-                      Zero dossiers matched query.
+                      No results found.
                     </p>
                   </Command.Empty>
 
@@ -124,7 +124,7 @@ export function CommandPalette() {
                   ))}
 
                   <Command.Group 
-                    heading={<div className="px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground/60">System Actions</div>}
+                    heading={<div className="px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground/60">Quick Actions</div>}
                   >
                     {NAV_ACTIONS.map((action) => (
                       <Command.Item
@@ -150,8 +150,8 @@ export function CommandPalette() {
                         <Sun className="w-4 h-4 text-accent-gold" />
                       </div>
                       <div className="flex-1">
-                        <p className="text-sm font-bold tracking-tight text-foreground">Light Protocol</p>
-                        <p className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">Switch to high-visibility light mode</p>
+                        <p className="text-sm font-bold tracking-tight text-foreground">Light Mode</p>
+                        <p className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">Switch to light theme</p>
                       </div>
                     </Command.Item>
 
@@ -163,8 +163,8 @@ export function CommandPalette() {
                         <Moon className="w-4 h-4 text-accent-blue" />
                       </div>
                       <div className="flex-1">
-                        <p className="text-sm font-bold tracking-tight text-foreground">Stealth Protocol</p>
-                        <p className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">Switch to tactical dark mode</p>
+                        <p className="text-sm font-bold tracking-tight text-foreground">Dark Mode</p>
+                        <p className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">Switch to dark theme</p>
                       </div>
                     </Command.Item>
                   </Command.Group>
@@ -173,9 +173,9 @@ export function CommandPalette() {
                 <div className="px-6 py-4 border-t border-border-glass bg-bg-glass flex items-center justify-between text-[10px] font-bold text-muted-foreground uppercase tracking-widest">
                   <div className="flex items-center gap-4">
                     <span className="flex items-center gap-1.5"><kbd className="px-1 py-0.5 bg-bg-glass-heavy border border-border-glass rounded text-[9px]">↑↓</kbd> Navigate</span>
-                    <span className="flex items-center gap-1.5"><kbd className="px-1 py-0.5 bg-bg-glass-heavy border border-border-glass rounded text-[9px]">ENTER</kbd> Execute</span>
+                    <span className="flex items-center gap-1.5"><kbd className="px-1 py-0.5 bg-bg-glass-heavy border border-border-glass rounded text-[9px]">ENTER</kbd> Open</span>
                   </div>
-                  <span className="opacity-40">CI_SYSTEM_V4.2</span>
+                  <span className="opacity-40">Quick Search</span>
                 </div>
               </Command>
             </motion.div>

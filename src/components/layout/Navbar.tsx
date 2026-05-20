@@ -64,7 +64,7 @@ function DesktopDropdown({
     <div ref={ref} className="relative">
       <button
         onClick={onToggle}
-        className={`flex items-center gap-2 px-4 py-2 rounded-full text-[13px] font-black uppercase tracking-[0.15em] transition-all ${
+        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-widest transition-all ${
           isActive
             ? `${colors.text} bg-background border border-border-glass-bright/30 shadow-sm`
             : "text-muted-foreground hover:text-foreground"
@@ -158,7 +158,7 @@ export default function Navbar() {
         <div className="h-full max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between">
           {/* Logo - Switch based on theme using CSS */}
           <Link href="/" className="flex items-center gap-3 group shrink-0">
-            <div className="relative h-16 w-40">
+            <div className="relative h-14 w-36">
               <Image
                 src="/Crime Intelligence Logo Light (225x100).svg"
                 alt="Crime Intelligence SA"
@@ -177,7 +177,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation — Pillar Dropdowns */}
-          <div className="hidden lg:flex items-center gap-2">
+          <div className="hidden lg:flex items-center gap-1 xl:gap-2">
             {NAV_PILLARS.map((pillar) => (
               <DesktopDropdown
                 key={pillar.id}
@@ -214,10 +214,10 @@ export default function Navbar() {
             {/* Report CTA — Desktop */}
             <Link
               href="/report"
-              className="hidden sm:inline-flex items-center gap-2 px-4 md:px-6 py-2.5 bg-accent-crimson text-white text-[11px] font-black uppercase tracking-widest rounded-full hover:opacity-80 active:scale-95 transition-all shadow-button-inset"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 md:px-4 py-2 bg-accent-crimson text-white text-[10px] md:text-[11px] font-bold uppercase tracking-widest rounded-full hover:opacity-80 active:scale-95 transition-all shadow-button-inset"
             >
               <Megaphone className="w-3.5 h-3.5" />
-              <span className="hidden md:inline">Secure Uplink</span>
+              <span className="hidden md:inline">Report</span>
             </Link>
 
             {/* Mobile Hamburger */}
@@ -332,7 +332,7 @@ export default function Navbar() {
                         </div>
                         <div>
                           <p className="text-[14px] font-black uppercase tracking-tight">{user.user_metadata?.full_name || user.email?.split('@')[0]}</p>
-                          <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest">Verified Operative</p>
+                          <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest">Signed In</p>
                         </div>
                       </div>
                       
@@ -357,7 +357,7 @@ export default function Navbar() {
                       onClick={() => { setMobileOpen(false); signInWithGoogle(); }}
                       className="flex items-center gap-3 w-full p-4 bg-accent-blue text-white rounded-xl text-[11px] font-black uppercase tracking-[0.2em] shadow-glow-blue"
                     >
-                      <LogIn className="w-4 h-4" /> Sign In to Command
+                      <LogIn className="w-4 h-4" /> Sign In
                     </button>
                   )}
 

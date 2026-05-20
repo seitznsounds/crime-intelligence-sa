@@ -14,8 +14,12 @@ import {
   RefreshCw,
   Info,
   Fingerprint,
-  Network
+  Network,
+  Heart,
+  Megaphone,
+  MapPinned
 } from "lucide-react";
+import WhatNext from "@/components/layout/WhatNext";
 import { getTrcVolumes, triggerVolumeBackfill } from "./actions";
 import { createClient } from "@/lib/supabase/client";
 import PageShell from "@/components/layout/PageShell";
@@ -101,11 +105,12 @@ export default function AccountabilityClient({
   return (
     <PageShell
       title="Accountability Board"
-      subtitle="Tracking unpunished perpetrators cross-referenced with TRC narratives."
-      badge="Justice Monitoring"
+      subtitle="Tracking individuals who committed crimes but have never been prosecuted or held accountable."
+      badge="Accountability"
       badgeColor="crimson"
       icon={<UserX className="w-6 h-6 text-accent-crimson" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Accountability", href: "/accountability" }]}
+      guidance="This page tracks officials and individuals who committed crimes — including corruption, state capture, and political violence — but have never been prosecuted or held accountable."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/accountability" }, { label: "Accountability", href: "/accountability" }]}
       actions={
         <div className="flex gap-4">
           <Link href="/accountability/leadership" className="px-6 py-2.5 bg-bg-glass border border-border-glass text-foreground rounded-full text-[11px] font-black uppercase tracking-widest hover:bg-bg-glass-heavy transition-all flex items-center gap-2">
@@ -255,6 +260,12 @@ export default function AccountabilityClient({
           )}
         </motion.div>
       </AnimatePresence>
+
+      <WhatNext suggestions={[
+        { title: "Court Rulings", description: "Browse real criminal court judgments.", href: "/justice/judgments", icon: Scale },
+        { title: "Honouring Victims", description: "Read the stories of victims of political violence.", href: "/victims", icon: Heart },
+        { title: "Report Corruption", description: "Report crimes you have witnessed anonymously.", href: "/report", icon: Megaphone },
+      ]} />
     </PageShell>
   );
 }

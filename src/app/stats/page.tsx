@@ -1,7 +1,8 @@
 import { createServerClient } from "@/lib/supabase-server";
-import { Award, AlertTriangle, ShieldCheck, ArrowUpRight } from "lucide-react";
+import { Award, AlertTriangle, ShieldCheck, ArrowUpRight, Globe, Building2 } from "lucide-react";
 import Link from "next/link";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 import OversightRadar from "@/components/intel/OversightRadar";
 import { getOversightMetrics } from "@/components/intel/actions";
 import { MobileExpandableChart } from "@/components/ui/MobileExpandableChart";
@@ -27,11 +28,12 @@ export default async function StatsPage() {
 
   return (
     <PageShell
-      title="Performance Leaderboard"
-      subtitle="Comparative station audit across all 1,154 SAPS stations nationwide."
-      badge="Comparative Station Audit"
+      title="Police Station Rankings"
+      subtitle="Compare crime statistics across all 1,154 police stations in South Africa."
+      badge="Crime Statistics"
       badgeColor="blue"
       icon={<Award className="w-6 h-6 text-accent-blue" />}
+      guidance="This page ranks every police station in South Africa by the number of reported crimes. You can see which stations have the most crime, compare violent crime ratios, and explore how official statistics may undercount real crime levels."
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Data", href: "/stats" },
@@ -72,22 +74,22 @@ export default async function StatsPage() {
           
           <div className="glass-card p-8 border-border-glass bg-bg-glass">
             <h3 className="text-[10px] font-black uppercase tracking-[0.3em] text-accent-blue mb-6 flex items-center gap-2 text-nowrap">
-              Intelligence Foundation
+              Key Findings
             </h3>
             <div className="space-y-4">
               <Link href="/stats/void" className="block group">
                 <div className="p-5 rounded-xl bg-accent-crimson/5 border border-accent-crimson/20 hover:border-accent-crimson/50 hover:bg-accent-crimson/10 transition-all">
                   <div className="flex justify-between items-start mb-2">
                     <p className="text-[12px] font-black text-accent-crimson uppercase tracking-widest italic flex items-center gap-2">
-                      <AlertTriangle className="w-3.5 h-3.5" /> The 4.9x Multiplier
+                      <AlertTriangle className="w-3.5 h-3.5" /> The Hidden Crime Gap
                     </p>
                     <ArrowUpRight className="w-4 h-4 text-accent-crimson group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                   </div>
                   <p className="text-[11px] text-muted-foreground leading-relaxed font-light mb-3">
-                    Derived from the structural delta between StatsSA experienced crime surveys and SAPS official recordings for Home Robbery.
+                    Research shows nearly 5× more home robberies happen than police officially record.
                   </p>
                   <span className="inline-block px-3 py-1 bg-background text-[9px] font-bold uppercase tracking-widest text-foreground rounded-full border border-border">
-                    View Interactive Reality Void
+                    Explore the Gap
                   </span>
                 </div>
               </Link>
@@ -95,6 +97,10 @@ export default async function StatsPage() {
           </div>
         </div>
       </div>
+      <WhatNext suggestions={[
+        { title: "Crime Map", description: "See crime density across South Africa on an interactive map.", href: "/map", icon: "Globe" },
+        { title: "Government Audits", description: "Review audits of police and government departments.", href: "/audits", icon: "Building2" },
+      ]} />
     </PageShell>
   );
 }

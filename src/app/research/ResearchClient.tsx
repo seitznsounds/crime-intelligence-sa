@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, Brain, Loader2, CheckCircle2, AlertCircle, ChevronRight, FileText, Network, Zap, Globe } from "lucide-react";
+import { Search, Brain, Loader2, CheckCircle2, AlertCircle, ChevronRight, FileText, Network, Zap, Globe, ShieldCheck, Scale } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 import { startInvestigation, checkInvestigationStatus, fetchInvestigationResults } from "./actions";
 
 export default function ResearchClient() {
@@ -67,12 +68,13 @@ export default function ResearchClient() {
 
   return (
     <PageShell
-      title="Deep Research Portal"
-      subtitle="Autonomous investigative intelligence agents connecting disparate corruption nodes."
-      badge="Autonomous Intel"
+      title="AI Investigator"
+      subtitle="Use our AI tool to search across thousands of documents, news articles, and public records to find connections and evidence."
+      badge="Research Tool"
       badgeColor="blue"
       icon={<Brain className="w-6 h-6 text-accent-blue" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Research", href: "/research" }]}
+      guidance="Type in what you want to investigate, choose how deep you want the AI to search, and click start. The AI will scan the internet and our databases to find relevant information."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/research" }]}
     >
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         
@@ -256,6 +258,12 @@ export default function ResearchClient() {
           </AnimatePresence>
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Anti-Corruption Tracker", description: "Track progress on reforms.", href: "/anticorruption", icon: ShieldCheck },
+        { title: "Court Rulings", description: "Read real court judgments.", href: "/justice/judgments", icon: Scale },
+        { title: "People of Interest", description: "See individuals linked to corruption.", href: "/expose", icon: Search },
+      ]} />
     </PageShell>
   );
 }

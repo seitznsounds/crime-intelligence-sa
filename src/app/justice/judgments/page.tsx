@@ -1,7 +1,8 @@
 import { fetchAllJudgments } from "@/lib/intelligence-actions";
 import PageShell from "@/components/layout/PageShell";
-import { Scale, Calendar, MapPin, ChevronRight, Gavel, Globe, Info } from "lucide-react";
+import { Scale, Calendar, MapPin, ChevronRight, Gavel, Globe, Info, Heart, ShieldAlert, Award } from "lucide-react";
 import Link from "next/link";
+import WhatNext from "@/components/layout/WhatNext";
 import JudgmentFilters from "./JudgmentFilters";
 
 export const dynamic = "force-dynamic";
@@ -16,12 +17,13 @@ export default async function JudgmentsPage({ searchParams }: { searchParams: Pr
 
   return (
     <PageShell
-      title="Judicial Intelligence Corpus"
-      subtitle="Examine authoritative criminal judgments extracted from high court archives. Forensics for the public interest."
-      badge="Legal Intelligence"
+      title="Court Rulings"
+      subtitle="Read real court judgments from major corruption and organized crime cases in South Africa."
+      badge="Court Cases"
       badgeColor="blue"
       icon={<Scale className="w-6 h-6 text-accent-blue" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Justice", href: "/justice" }, { label: "Judgments", href: "/justice/judgments" }]}
+      guidance="Browse actual court documents and rulings. You can filter by category or search for specific cases to see how the justice system has handled corruption."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/justice" }, { label: "Court Rulings", href: "/justice/judgments" }]}
       actions={
         <Link 
             href="/justice/heatmap" 
@@ -114,6 +116,12 @@ export default async function JudgmentsPage({ searchParams }: { searchParams: Pr
             </div>
         )}
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Honouring Victims", description: "Read the stories of victims of political violence.", href: "/victims", icon: "Heart" },
+        { title: "Unpunished Perpetrators", description: "See who has committed crimes but avoided justice.", href: "/accountability", icon: "ShieldAlert" },
+        { title: "Anti-Corruption Tracker", description: "Track progress on legal reforms.", href: "/anticorruption", icon: "Award" },
+      ]} />
     </PageShell>
   );
 }

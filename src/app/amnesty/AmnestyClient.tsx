@@ -2,8 +2,9 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { Scale, ShieldAlert, History, Activity, ChevronRight, UserCheck, XCircle, Search, FileText, Filter, CheckCircle2 } from "lucide-react";
+import { Scale, ShieldAlert, History, Activity, ChevronRight, UserCheck, XCircle, Search, FileText, Filter, CheckCircle2, Heart, UserX } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 
 interface AmnestyApp {
   id: string;
@@ -30,12 +31,13 @@ export default function AmnestyPage({ initialApplications }: { initialApplicatio
 
   return (
     <PageShell
-      title="Amnesty Tracker"
+      title="Amnesty Decisions"
       subtitle="Tracking every TRC Amnesty Committee decision. 7,112 applications processed — only 16.4% granted."
-      badge="TRC Phase 5: Amnesty Tracking Sector"
+      badge="Amnesty Tracker"
       badgeColor="blue"
       icon={<Scale className="w-6 h-6 text-accent-blue" />}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "History & Justice", href: "/accountability" }, { label: "Amnesty Tracker", href: "/amnesty" }]}
+      guidance="This page lists decisions made by the Truth and Reconciliation Commission's Amnesty Committee. You can browse who was granted amnesty, who was denied, and what crimes were involved."
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Explore", href: "/accountability" }, { label: "Amnesty Decisions", href: "/amnesty" }]}
       actions={
         <div className="flex items-center gap-3">
           <div className="relative">
@@ -156,6 +158,12 @@ export default function AmnestyPage({ initialApplications }: { initialApplicatio
           </motion.div>
         )}
       </AnimatePresence>
+
+      <WhatNext suggestions={[
+        { title: "Honouring Victims", description: "Read the stories of victims of political violence.", href: "/victims", icon: Heart },
+        { title: "Court Rulings", description: "Browse real criminal court judgments.", href: "/justice/judgments", icon: Scale },
+        { title: "Unpunished Perpetrators", description: "Track those who committed crimes but were never held accountable.", href: "/accountability", icon: UserX },
+      ]} />
     </PageShell>
   );
 }

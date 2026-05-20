@@ -3,8 +3,9 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import Link from "next/link";
-import { ShieldCheck, Lock, Key, Fingerprint, Activity, ShieldAlert, Terminal as TerminalIcon, ChevronRight, Database, Hash, RefreshCw, Briefcase, FileSignature, Globe } from "lucide-react";
+import { ShieldCheck, Lock, Key, Fingerprint, Activity, ShieldAlert, Terminal as TerminalIcon, ChevronRight, Database, Hash, RefreshCw, Briefcase, FileSignature, Globe, Scale, Megaphone, UserX } from "lucide-react";
 import PageShell from "@/components/layout/PageShell";
+import WhatNext from "@/components/layout/WhatNext";
 import { packageEvidence } from "@/lib/evidence-actions";
 
 interface SealedPackage {
@@ -29,7 +30,7 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
 
   const handleCreatePackage = async () => {
     setIsPackaging(true);
-    addLog("Aggregating high-risk dossiers...");
+    addLog("Gathering evidence files...");
     try {
       const result = await packageEvidence({
         title: "State Capture 2.0 // Senior Officials",
@@ -59,12 +60,13 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
 
   return (
     <PageShell
-      title="Zero-Knowledge Vault"
-      subtitle="Whistleblower Protection 2.0 — AES-256 encryption with ZKP identity masking. Your anonymity is the default operational standard."
-      badge="Whistleblower Protection 2.0"
+      title="Evidence Vault"
+      subtitle="Securely stored evidence packages, digitally signed and ready for submission to international justice bodies like the ICC. Your anonymity is fully protected."
+      badge="Secure Evidence"
       badgeColor="blue"
       icon={<ShieldCheck className="w-6 h-6 text-accent-blue" />}
       breadcrumbs={[{ label: "Home", href: "/" }, { label: "History & Justice", href: "/accountability" }, { label: "TRC Vault", href: "/vault" }]}
+      guidance="This vault contains evidence packages that have been compiled from our investigations and digitally signed for authenticity. These packages can be submitted to international courts. The verification process below confirms your identity is protected."
     >
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
         <div className="lg:col-span-2 space-y-6">
@@ -74,13 +76,13 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
               <Activity className={`w-4 h-4 ${isVerifying ? 'text-accent-blue animate-pulse' : 'text-muted-foreground/30'}`} />
             </div>
             <h3 className="text-[12px] font-bold uppercase tracking-[0.3em] text-muted-foreground mb-8 flex items-center gap-3 font-sans">
-              <TerminalIcon className="w-4 h-4" /> ZKP_VERIFICATION_GATE
+              <TerminalIcon className="w-4 h-4" /> Identity Protection Check
             </h3>
 
             <div className="space-y-8">
               {/* Step indicators */}
               <div className="flex items-center justify-between gap-4">
-                {[{ label: "Identity Masking", icon: <Fingerprint className="w-5 h-5" /> }, { label: "Challenge Response", icon: <Key className="w-5 h-5" /> }, { label: "Proof Generation", icon: <Hash className="w-5 h-5" /> }, { label: "Vault Seal", icon: <Lock className="w-5 h-5" /> }].map((step, i) => (
+                {[{ label: "Hide Identity", icon: <Fingerprint className="w-5 h-5" /> }, { label: "Security Check", icon: <Key className="w-5 h-5" /> }, { label: "Create Proof", icon: <Hash className="w-5 h-5" /> }, { label: "Seal Evidence", icon: <Lock className="w-5 h-5" /> }].map((step, i) => (
                   <div key={i} className="flex flex-col items-center gap-3 flex-1">
                     <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl border flex items-center justify-center transition-all ${zkpStep >= i ? 'bg-accent-blue/10 border-accent-blue text-accent-blue' : 'bg-bg-glass-heavy border-border-glass text-muted-foreground/40'}`}>
                       {step.icon}
@@ -93,8 +95,8 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
               {/* Live Protocol Logs */}
               <div className="bg-bg-glass-heavy border border-border-glass rounded-2xl p-5 space-y-2">
                 <div className="flex justify-between items-center text-[11px] text-muted-foreground mb-3 border-b border-border-glass pb-3 font-sans">
-                  <span className="uppercase tracking-[0.2em]">Live Protocol Logs</span>
-                  <span className="flex items-center gap-2"><RefreshCw className={`w-3 h-3 ${isVerifying ? 'animate-spin' : ''}`} /> SYNC_ACTIVE</span>
+                  <span className="uppercase tracking-[0.2em]">Activity Log</span>
+                  <span className="flex items-center gap-2"><RefreshCw className={`w-3 h-3 ${isVerifying ? 'animate-spin' : ''}`} /> Active</span>
                 </div>
                 {logs.map((log, i) => (
                   <motion.p key={i} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className={`text-[12px] ${log.includes('Verified') ? 'text-accent-blue' : 'text-muted-foreground'}`}>{log}</motion.p>
@@ -102,21 +104,21 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
               </div>
 
               <button onClick={startVerification} disabled={isVerifying || zkpStep === 3} className="w-full py-5 bg-accent-blue text-white text-[12px] font-bold uppercase tracking-[0.3em] rounded-2xl hover:scale-[1.01] transition-all disabled:opacity-50 disabled:cursor-not-allowed font-sans">
-                {zkpStep === 3 ? "IDENTITY_VERIFIED_SECURE" : isVerifying ? "PROVING_IDENTITY_MASK..." : "INITIATE_ZKP_HANDSHAKE"}
+                {zkpStep === 3 ? "✓ Identity Verified" : isVerifying ? "Verifying..." : "Verify My Identity Securely"}
               </button>
             </div>
           </div>
 
           <div className="glass-card p-6 border-accent-crimson/20 bg-accent-crimson/[0.01]">
-            <div className="flex items-center gap-4 mb-4"><ShieldAlert className="w-5 h-5 text-accent-crimson" /><h4 className="text-[12px] font-bold uppercase tracking-[0.3em] text-accent-crimson">Vulnerability Alert: Metadata Leakage</h4></div>
-            <p className="text-[13px] text-muted-foreground leading-relaxed font-light">Our ZKP protocol automatically strips EXIF data, device fingerprints, and routing headers before proof generation. Absolute anonymity is not an option; it is the default operational standard.</p>
+            <div className="flex items-center gap-4 mb-4"><ShieldAlert className="w-5 h-5 text-accent-crimson" /><h4 className="text-[12px] font-bold uppercase tracking-[0.3em] text-accent-crimson">Your Privacy Is Protected</h4></div>
+            <p className="text-[13px] text-muted-foreground leading-relaxed font-light">We automatically remove all traces of your identity from uploaded files — including hidden data like GPS tags, device information, and file metadata. Your anonymity is guaranteed.</p>
           </div>
         </div>
 
         {/* Sealed Evidence Vault Sidebar */}
         <div className="space-y-6">
           <div className="glass-card p-6 border-border-glass bg-bg-glass">
-            <h3 className="text-[12px] font-bold uppercase tracking-[0.3em] text-muted-foreground mb-6 flex items-center gap-3"><Database className="w-4 h-4" /> Sealed Evidence</h3>
+            <h3 className="text-[12px] font-bold uppercase tracking-[0.3em] text-muted-foreground mb-6 flex items-center gap-3"><Database className="w-4 h-4" /> Evidence Packages</h3>
             <div className="space-y-4">
               {packages.map((pkg) => (
                 <Link key={pkg.id} href={`/justice/${pkg.id}`}>
@@ -146,13 +148,13 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
                 className="w-full mt-6 py-4 bg-accent-blue/10 border border-accent-blue/30 text-accent-blue text-[11px] font-bold uppercase tracking-widest hover:bg-accent-blue hover:text-white transition-all flex items-center justify-center gap-3 rounded-2xl"
             >
                 <FileSignature className={`w-4 h-4 ${isPackaging ? 'animate-pulse' : ''}`} />
-                {isPackaging ? 'AGGREGATING_INTEL...' : 'Package for Justice'}
+                {isPackaging ? 'Packaging evidence...' : 'Create Evidence Package'}
             </button>
           </div>
           <div className="glass-card p-6 border-accent-blue/20 bg-accent-blue/[0.02]">
-            <div className="flex items-center gap-3 mb-4"><ShieldCheck className="w-4 h-4 text-accent-blue" /><span className="text-[12px] font-bold uppercase tracking-widest text-accent-blue">ZKP Integrity</span></div>
+            <div className="flex items-center gap-3 mb-4"><ShieldCheck className="w-4 h-4 text-accent-blue" /><span className="text-[12px] font-bold uppercase tracking-widest text-accent-blue">Security Status</span></div>
             <div className="space-y-3">
-              {[["Network_Entropy", "MAX"], ["Anonymity_Set", "12,402 Nodes"]].map(([k, v]) => (
+              {[["Security Level", "MAX"], ["Protected Users", "12,402 Nodes"]].map(([k, v]) => (
                 <div key={k} className="flex justify-between text-[12px] font-mono">
                   <span className="text-muted-foreground uppercase">{k}</span>
                   <span className="text-accent-blue font-bold">{v}</span>
@@ -162,6 +164,12 @@ export default function VaultPage({ initialPackages }: { initialPackages: Sealed
           </div>
         </div>
       </div>
+
+      <WhatNext suggestions={[
+        { title: "Court Rulings", description: "Browse real criminal court judgments related to the evidence in this vault.", href: "/justice/judgments", icon: Scale },
+        { title: "Report Corruption", description: "Have evidence of your own? Submit it anonymously and securely.", href: "/report", icon: Megaphone },
+        { title: "Unpunished Perpetrators", description: "See who has committed crimes but has never been held accountable.", href: "/accountability", icon: UserX },
+      ]} />
     </PageShell>
   );
 }

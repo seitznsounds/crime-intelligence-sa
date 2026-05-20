@@ -19,11 +19,15 @@ import {
   Info,
   Brain,
   Activity,
-  History
+  History,
+  Megaphone,
+  Users
 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { fetchRecentIntelligence } from "@/lib/intelligence-actions";
 import { NAV_PILLARS } from "@/lib/navigation";
+import OnboardingBanner from "@/components/layout/OnboardingBanner";
+import WhatNext from "@/components/layout/WhatNext";
 
 export default function Home() {
   const [recentIntel, setRecentIntel] = useState<{ judgments: any[], news: any[] }>({ judgments: [], news: [] });
@@ -62,6 +66,9 @@ export default function Home() {
           initial="hidden"
           animate="visible"
         >
+          {/* ONBOARDING BANNER — First-time visitors */}
+          <OnboardingBanner />
+
           {/* HERO SECTION */}
           <div className="text-center mb-24 sm:mb-32">
             <motion.div
@@ -72,24 +79,24 @@ export default function Home() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-crimson opacity-20"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-crimson"></span>
               </span>
-              <span className="text-[10px] font-black tracking-[0.25em] uppercase text-muted-foreground">Digital Vigilance Protocol Active</span>
+              <span className="text-[10px] font-black tracking-[0.25em] uppercase text-muted-foreground">Live — Tracking Corruption in Real Time</span>
             </motion.div>
 
             <motion.h1
               variants={itemVariants}
               className="text-[10vw] sm:text-5xl lg:text-6xl font-black mb-10 tracking-tight leading-[1.05] text-foreground italic break-words"
             >
-              DEMOCRATIZING <br />
-              <span className="text-muted-foreground font-normal not-italic">INTELLIGENCE FOR</span> <br />
-              <span className="text-accent-blue">JUSTICE.</span>
+              EXPOSING <br />
+              <span className="text-muted-foreground font-normal not-italic">CORRUPTION.</span> <br />
+              <span className="text-accent-blue">EMPOWERING CITIZENS.</span>
             </motion.h1>
 
             <motion.p
               variants={itemVariants}
               className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
             >
-              South Africa's first high-fidelity intelligence hub.
-              We track the lifecycle of systemic corruption from street-level symptoms to the officials who facilitate them.
+              South Africa's largest independent corruption tracker.
+              We follow the money, map the networks, and give you the evidence.
             </motion.p>
 
             <motion.div
@@ -97,10 +104,10 @@ export default function Home() {
               className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6"
             >
               <Link href="/expose" className="w-full sm:w-auto px-10 py-5 bg-foreground text-background text-[12px] font-black uppercase tracking-[0.2em] rounded-2xl transition-all hover:bg-accent-crimson hover:text-white active:scale-95 shadow-button-inset flex items-center justify-center gap-2">
-                Expose Board <ChevronRight className="w-4 h-4" />
+                Explore the Evidence <ChevronRight className="w-4 h-4" />
               </Link>
               <Link href="/about" className="w-full sm:w-auto px-10 py-5 bg-bg-glass hover:bg-bg-glass-heavy text-foreground text-[12px] font-black uppercase tracking-[0.2em] rounded-2xl border border-border transition-all flex items-center justify-center gap-2 group">
-                <Info className="w-4 h-4 text-accent-blue group-hover:rotate-12 transition-transform" /> About Project
+                <Info className="w-4 h-4 text-accent-blue group-hover:rotate-12 transition-transform" /> How This Works
               </Link>
             </motion.div>
           </div>
@@ -111,8 +118,8 @@ export default function Home() {
             className="mb-32 space-y-12"
           >
             <div className="text-center space-y-3 mb-16">
-              <h2 className="text-sm font-black uppercase tracking-[0.3em] text-accent-crimson">Operational Lifecycle</h2>
-              <p className="text-2xl font-black uppercase tracking-tight italic text-foreground">How we dismantle systemic failure.</p>
+              <h2 className="text-sm font-black uppercase tracking-[0.3em] text-accent-crimson">How We Work</h2>
+              <p className="text-2xl font-black uppercase tracking-tight italic text-foreground">How we uncover and expose corruption.</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-1 relative">
@@ -122,22 +129,22 @@ export default function Home() {
               {[
                 {
                   step: "01",
-                  title: "Intelligence Capture",
-                  desc: "We ingest thousands of forensic documents, TRC archives, and live news feeds into our secure node network.",
+                  title: "We Gather the Evidence",
+                  desc: "We collect thousands of documents — court records, government tenders, TRC archives, and news reports — into our secure database.",
                   icon: Database,
                   color: "blue"
                 },
                 {
                   step: "02",
-                  title: "Agentic Distillation",
-                  desc: "AI-driven RAG pipelines extract and cross-reference high-value entities, relationship links, and SCM anomalies.",
+                  title: "AI Finds the Connections",
+                  desc: "Our AI reads every document and automatically identifies the people, organisations, and money flows that connect corrupt officials to crime networks.",
                   icon: Brain,
                   color: "gold"
                 },
                 {
                   step: "03",
-                  title: "Radical Exposure",
-                  desc: "Validated intelligence is surfaced through risk-ranked dossiers and interactive corruption maps for public accountability.",
+                  title: "You See the Truth",
+                  desc: "The evidence is presented through searchable profiles, interactive maps, and network diagrams so you can see exactly who is involved and how.",
                   icon: ShieldAlert,
                   color: "crimson"
                 }
@@ -198,14 +205,14 @@ export default function Home() {
 
             <div className="relative z-10 max-w-2xl">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-accent-blue/30 bg-accent-blue/5 text-accent-blue text-[9px] font-black uppercase tracking-widest mb-6">
-                <Zap className="w-3 h-3" /> System Architecture
+                <Zap className="w-3 h-3" /> Under the Hood
               </div>
-              <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tighter text-foreground mb-6 italic">The Intelligence Engine</h2>
+              <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tighter text-foreground mb-6 italic">How the Platform Works</h2>
               <p className="text-sm text-muted-foreground leading-relaxed mb-8">
-                Our platform utilizes an agentic RAG (Retrieval-Augmented Generation) pipeline to process thousands of forensic documents. From TRC archives to modern SCM tender data, we connect the nodes that the powerful try to hide.
+                We use AI to automatically read thousands of documents — from court records to government tenders — and find the hidden connections between corrupt officials, shell companies, and crime syndicates.
               </p>
               <Link href="/about#engine" className="inline-flex items-center gap-2 text-[11px] font-black uppercase tracking-widest text-accent-blue hover:underline">
-                Explore Architecture <ArrowRight className="w-4 h-4" />
+                Learn More <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </motion.div>
@@ -216,10 +223,10 @@ export default function Home() {
             className="pt-16 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16"
           >
             {[
-              { label: "Indexed Records", value: "32,433", icon: <Database className="w-4 h-4 text-accent-gold" /> },
-              { label: "High-Value Targets", value: "1,204", icon: <Fingerprint className="w-4 h-4 text-accent-crimson" /> },
-              { label: "SAPS Stations Map", value: "1,154", icon: <Globe className="w-4 h-4 text-accent-blue" /> },
-              { label: "Verified Evidence", value: "8.4k", icon: <ShieldCheck className="w-4 h-4 text-emerald-500" /> }
+              { label: "Documents Analysed", value: "32,433", icon: <Database className="w-4 h-4 text-accent-gold" /> },
+              { label: "People of Interest", value: "1,204", icon: <Fingerprint className="w-4 h-4 text-accent-crimson" /> },
+              { label: "Police Stations Tracked", value: "1,154", icon: <Globe className="w-4 h-4 text-accent-blue" /> },
+              { label: "Evidence Items", value: "8.4k", icon: <ShieldCheck className="w-4 h-4 text-emerald-500" /> }
             ].map((stat, i) => (
               <div key={i} className="text-center sm:text-left space-y-2">
                 <div className="flex items-center justify-center sm:justify-start gap-2 text-muted-foreground">
@@ -244,11 +251,11 @@ export default function Home() {
                       <Scale className="w-6 h-6 text-accent-blue" />
                     </div>
                     <div>
-                      <h3 className="text-[14px] font-black uppercase tracking-tight">Judicial Corpus</h3>
-                      <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest italic">Authoritative Rulings</p>
+                      <h3 className="text-[14px] font-black uppercase tracking-tight">Latest Court Rulings</h3>
+                       <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest italic">Criminal Cases</p>
                     </div>
                   </div>
-                  <Link href="/justice/judgments" className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] hover:underline">Full Archive</Link>
+                   <Link href="/justice/judgments" className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] hover:underline">View All</Link>
                </div>
 
                <div className="space-y-4">
@@ -261,7 +268,7 @@ export default function Home() {
                        <h4 className="text-[13px] font-bold leading-tight group-hover/item:text-accent-blue transition-colors line-clamp-1">{j.title}</h4>
                     </Link>
                   ))}
-                  {recentIntel.judgments.length === 0 && <p className="text-[10px] uppercase font-mono text-muted-foreground animate-pulse">Syncing Judicial Nodes...</p>}
+                   {recentIntel.judgments.length === 0 && <p className="text-[10px] uppercase font-mono text-muted-foreground animate-pulse">Loading court rulings...</p>}
                </div>
             </div>
 
@@ -273,8 +280,8 @@ export default function Home() {
                       <History className="w-6 h-6 text-accent-crimson" />
                     </div>
                     <div>
-                      <h3 className="text-[14px] font-black uppercase tracking-tight">Field Intelligence</h3>
-                      <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest italic">Street-Level Reports</p>
+                      <h3 className="text-[14px] font-black uppercase tracking-tight">Latest News</h3>
+                       <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest italic">Recent Reports</p>
                     </div>
                   </div>
                   <Activity className="w-5 h-5 text-accent-crimson animate-pulse" />
@@ -290,10 +297,17 @@ export default function Home() {
                        <h4 className="text-[13px] font-bold leading-tight line-clamp-1">{n.title}</h4>
                     </div>
                   ))}
-                  {recentIntel.news.length === 0 && <p className="text-[10px] uppercase font-mono text-muted-foreground animate-pulse">Scanning Field Reports...</p>}
-               </div>
+                   {recentIntel.news.length === 0 && <p className="text-[10px] uppercase font-mono text-muted-foreground animate-pulse">Loading recent reports...</p>}
+                </div>
             </div>
           </motion.div>
+
+          {/* WHERE TO GO NEXT */}
+          <WhatNext suggestions={[
+            { title: "People of Interest", description: "Browse profiles of politicians and officials linked to corruption.", href: "/expose", icon: "Search" },
+            { title: "Crime Map", description: "See where crime is happening across South Africa on an interactive map.", href: "/map", icon: "Globe" },
+            { title: "Report Corruption", description: "Anonymously report corruption — your identity is fully protected.", href: "/report", icon: "Megaphone" },
+          ]} />
         </motion.div>
       </div>
     </div>

@@ -76,7 +76,7 @@ export default function RootLayout({
                       className="hidden dark:block object-contain"
                     />
                   </div>
-                  <span className="text-[10px] font-black uppercase tracking-[0.3em] text-muted-foreground/60 mb-3">Digital Vigilance Protocol</span>
+                  <span className="text-[10px] font-black uppercase tracking-[0.3em] text-muted-foreground/60 mb-3">Independent Corruption Tracker</span>
                   <p className="text-[12px] text-muted-foreground max-w-sm font-light leading-relaxed italic">
                     "Transparency is the ultimate weapon against systemic corruption. We document the truth to protect the future."
                   </p>
@@ -101,7 +101,7 @@ export default function RootLayout({
                    <p className="text-[11px] font-mono text-muted-foreground uppercase tracking-widest mb-4">© 2026 Crime Intel SA</p>
                    <div className="inline-flex items-center gap-3 px-4 py-2 border border-border-glass rounded-full bg-bg-glass">
                       <div className="w-1.5 h-1.5 bg-accent-blue rounded-full animate-pulse" />
-                      <span className="text-[11px] font-mono text-muted-foreground tracking-wider uppercase">Encryption Active</span>
+                      <span className="text-[11px] font-mono text-muted-foreground tracking-wider uppercase">Secure Connection</span>
                    </div>
                 </div>
               </div>
