@@ -31,6 +31,26 @@ export async function signOut() {
   return redirect("/");
 }
 
+export async function signUp(data: any) {
+  const supabase = await createServerClient();
+  const { email, password, full_name } = data;
+
+  const { error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      data: {
+        full_name,
+      },
+      emailRedirectTo: `${(await headers()).get("origin")}/auth/callback`,
+    },
+  });
+
+  if (error) {
+    throw error;
+  }
+}
+
 export async function getUser() {
   const supabase = await createServerClient();
   const { data: { user }, error } = await supabase.auth.getUser();

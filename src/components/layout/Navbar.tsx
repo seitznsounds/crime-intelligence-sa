@@ -353,13 +353,15 @@ export default function Navbar() {
                       </div>
                     </div>
                   ) : (
-                    <button
-                      onClick={() => { setMobileOpen(false); signInWithGoogle(); }}
-                      className="flex items-center gap-3 w-full p-4 bg-accent-blue text-white rounded-xl text-[11px] font-black uppercase tracking-[0.2em] shadow-glow-blue"
+                    <Link
+                      href="/login"
+                      onClick={() => setMobileOpen(false)}
+                      className="flex items-center gap-3 w-full p-4 bg-accent-blue text-white rounded-xl text-[11px] font-black uppercase tracking-[0.2em] shadow-glow-blue justify-center"
                     >
-                      <LogIn className="w-4 h-4" /> Sign In
-                    </button>
+                      <LogIn className="w-4 h-4" /> Sign In to Command
+                    </Link>
                   )}
+
 
                   {NAV_ACTIONS.map((action) => (
                     <Link

@@ -98,6 +98,13 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Full-Text Search**: pg_trgm fuzzy matching + tsvector GIN indexes on people/incidents/historical_records. `search_intelligence()` and `search_people_fuzzy()` functions deployed.
 - **Data Quality**: Auto-`updated_at` triggers, FK columns linking incidents to stations/locations/categories/provinces.
 
+### 12. Public Accessibility Overhaul [COMPLETED]
+
+- **Jargon Elimination**: Refactored titles, badges, and navigation labels platform-wide to plain English (e.g., "Zero-Knowledge Vault" -> "Evidence Vault", "Geospatial Intelligence" -> "Crime Map").
+- **Contextual Guidance**: Integrated expandable guidance tooltips on all intelligence modules via `PageShell`.
+- **Continuous Flow**: Deployed `<WhatNext>` cross-navigation components to maintain user engagement and prevent dead-ends.
+- **Layout Optimization**: Refined global navigation components (`Navbar`, `MobileBottomBar`, `CommandPalette`) for better scaling and density control on varied viewports.
+
 ### 12. Data Science Analysis & Quality [COMPLETED]
 
 - **Deep Analysis**: 13-finding report across 23.6M crime data points, 11 years of SAPS data, 1,143 stations.

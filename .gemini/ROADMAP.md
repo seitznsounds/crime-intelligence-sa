@@ -66,11 +66,22 @@ _Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all 
 - [x] **Government Gazette Pipeline**: Established a high-fidelity ingestion pipeline (`scripts/scrape_gazettes.ts`) tracking tender awards and liquidation signals.
 - [x] **Legal Heatmap Module**: Launched the Judicial Intelligence Heatmap (`/justice/heatmap`) to visualize criminal judgment density across High Court divisions.
 
+## Phase 8: UX Accessibility & Plain-Language Overhaul (Completed)
+
+**Objective**: Demystify the platform's technical jargon and make high-stakes intelligence accessible to the general public.
+
+- [x] **Plain-Language Navigation**: Refactored `navigation.ts` and `Navbar.tsx` to use accessible terminology ("Data" instead of "Statistics & Maps") and optimized header layout for readability.
+- [x] **Page-Level Context (Guidance)**: Implemented an expandable `guidance` tooltip in `<PageShell>` across 15+ core modules to explain page functionality in simple terms.
+- [x] **Cross-Navigation Engine**: Deployed `<WhatNext>` component dynamically at the bottom of all modules to prevent user dead-ends and suggest logical next steps.
+- [x] **First-Visit Onboarding**: Integrated `<OnboardingBanner>` on the homepage to clearly communicate the platform's mission to new users.
+
 # Operational Cycle: Watchdog Omega (Upcoming)
 
-**Objective**: Scaling the automated research fleet and establishing external data-sharing protocols.
+**Objective**: Scaling the automated research fleet, establishing external data-sharing protocols, and hardening field security.
 
 - [ ] **Automated PIR Watchdog**: Deploy daily cron tasks to scan for deltas on all 10 Priority Intelligence Requirements.
 - [ ] **Forensic Media Kits**: Export high-fidelity investigative reports as signed PDF packages for journalism partners.
 - [ ] **Real-time Incident Trigger**: Auto-dispatch `deep-research` actors when high-severity incidents appear in the field ticker.
+- [ ] **PWA & Offline Optimization**: Implement service workers and local caching (IndexedDB) for investigation rosters in low-connectivity zones.
 - [ ] **Biometric Access Tier**: Secure high-risk evidence nodes behind WebAuthn-based step-up authentication.
+- [ ] **Advanced Witness Protection Interface**: Expand the WPU module with client-side PGP-encrypted incident logs and a mobile "Panic Button" for field operatives.

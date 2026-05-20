@@ -23,13 +23,13 @@ export default function UserMenu({ user }: { user: SupabaseUser | null }) {
 
   if (!user) {
     return (
-      <button
-        onClick={() => signInWithGoogle()}
+      <Link
+        href="/login"
         className="flex items-center gap-2 px-5 py-2.5 bg-background border border-border-glass-bright/30 rounded-full text-[11px] font-black uppercase tracking-widest hover:border-accent-blue/50 transition-all shadow-sm active:scale-95"
       >
         <LogIn className="w-3.5 h-3.5" />
         <span className="hidden sm:inline">Sign In</span>
-      </button>
+      </Link>
     );
   }
 
