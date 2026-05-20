@@ -5,10 +5,13 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown, Search as SearchIcon, Megaphone, Cpu, Brain, WifiOff } from "lucide-react";
+import { Menu, X, ChevronDown, Search as SearchIcon, Megaphone, Cpu, Brain, WifiOff, LogOut, Shield, LogIn } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import { CommandPalette } from "./CommandPalette";
 import { usePwa } from "@/components/providers/PwaProvider";
+import { useAuth } from "@/components/providers/AuthProvider";
+import UserMenu from "@/components/auth/UserMenu";
+import { signInWithGoogle, signOut } from "@/lib/supabase/auth-actions";
 import { NAV_PILLARS, NAV_ACTIONS, getActivePillar, type NavPillar } from "@/lib/navigation";
 
 const PILLAR_COLORS = {
@@ -137,6 +140,7 @@ export default function Navbar() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { isOffline } = usePwa();
+  const { user } = useAuth();
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -190,7 +194,7 @@ export default function Navbar() {
           </div>
 
           {/* Right Actions */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
               <div className="hidden sm:block">
                 <CommandPalette />
               </div>
@@ -202,12 +206,15 @@ export default function Navbar() {
                 </div>
               )}
 
-              <ThemeToggle />
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <ThemeToggle />
+                <UserMenu user={user} />
+              </div>
 
             {/* Report CTA — Desktop */}
             <Link
               href="/report"
-              className="hidden sm:inline-flex items-center gap-2 px-6 py-2.5 bg-accent-crimson text-white text-[11px] font-black uppercase tracking-widest rounded-full hover:opacity-80 active:scale-95 transition-all shadow-button-inset"
+              className="hidden sm:inline-flex items-center gap-2 px-4 md:px-6 py-2.5 bg-accent-crimson text-white text-[11px] font-black uppercase tracking-widest rounded-full hover:opacity-80 active:scale-95 transition-all shadow-button-inset"
             >
               <Megaphone className="w-3.5 h-3.5" />
               <span className="hidden md:inline">Secure Uplink</span>
@@ -312,7 +319,48 @@ export default function Navbar() {
                 })}
 
                 {/* Actions */}
-                <div className="pt-4 border-t border-border-glass space-y-2">
+                <div className="pt-4 border-t border-border-glass space-y-4">
+                  {user ? (
+                    <div className="px-1 py-4 space-y-4">
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 rounded-full bg-accent-blue/10 border border-accent-blue/20 flex items-center justify-center text-accent-blue text-sm font-black overflow-hidden">
+                          {user.user_metadata?.avatar_url ? (
+                            <img src={user.user_metadata.avatar_url} alt="Avatar" className="w-full h-full object-cover" />
+                          ) : (
+                            user.email?.substring(0, 2).toUpperCase()
+                          )}
+                        </div>
+                        <div>
+                          <p className="text-[14px] font-black uppercase tracking-tight">{user.user_metadata?.full_name || user.email?.split('@')[0]}</p>
+                          <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest">Verified Operative</p>
+                        </div>
+                      </div>
+                      
+                      <div className="grid grid-cols-2 gap-2">
+                        <button 
+                          onClick={() => signOut()}
+                          className="flex items-center justify-center gap-2 p-3 bg-accent-crimson/10 border border-accent-crimson/20 rounded-xl text-accent-crimson text-[11px] font-black uppercase tracking-widest"
+                        >
+                          <LogOut className="w-3.5 h-3.5" /> Logout
+                        </button>
+                        <Link
+                          href="/admin"
+                          onClick={() => setMobileOpen(false)}
+                          className="flex items-center justify-center gap-2 p-3 bg-accent-blue/10 border border-accent-blue/20 rounded-xl text-accent-blue text-[11px] font-black uppercase tracking-widest"
+                        >
+                          <Shield className="w-3.5 h-3.5" /> Admin
+                        </Link>
+                      </div>
+                    </div>
+                  ) : (
+                    <button
+                      onClick={() => { setMobileOpen(false); signInWithGoogle(); }}
+                      className="flex items-center gap-3 w-full p-4 bg-accent-blue text-white rounded-xl text-[11px] font-black uppercase tracking-[0.2em] shadow-glow-blue"
+                    >
+                      <LogIn className="w-4 h-4" /> Sign In to Command
+                    </button>
+                  )}
+
                   {NAV_ACTIONS.map((action) => (
                     <Link
                       key={action.href}
