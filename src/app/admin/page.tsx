@@ -1,16 +1,27 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { ShieldAlert, Users, Link as LinkIcon, FileText, Activity, Zap, ChevronRight, Settings, ExternalLink } from "lucide-react";
+import { useState, useEffect } from "react";
+import { ShieldAlert, Users, Link as LinkIcon, FileText, Activity, Zap, ChevronRight, Settings, ExternalLink, Loader2 } from "lucide-react";
 import Link from "next/link";
 import PageShell from "@/components/layout/PageShell";
+import { getAdminStats } from "./actions";
 
 export default function AdminDashboard() {
+  const [counts, setCounts] = useState({ dossiers: 0, syndicates: 0, entities: 0, health: "98%" });
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    getAdminStats().then(data => {
+        setCounts(data);
+        setLoading(false);
+    });
+  }, []);
+
   const stats = [
-    { label: "Active Dossiers", value: "24", icon: <FileText className="w-4 h-4" />, color: "blue" },
-    { label: "Tracked Syndicates", value: "139", icon: <ShieldAlert className="w-4 h-4" />, color: "crimson" },
-    { label: "Verified Entities", value: "842", icon: <Users className="w-4 h-4" />, color: "gold" },
-    { label: "System Health", value: "98%", icon: <Activity className="w-4 h-4" />, color: "emerald" },
+    { label: "Active Dossiers", value: counts.dossiers.toString(), icon: <FileText className="w-4 h-4" />, color: "blue" },
+    { label: "Tracked Syndicates", value: counts.syndicates.toString(), icon: <ShieldAlert className="w-4 h-4" />, color: "crimson" },
+    { label: "Verified Entities", value: counts.entities.toString(), icon: <Users className="w-4 h-4" />, color: "gold" },
+    { label: "System Health", value: counts.health, icon: <Activity className="w-4 h-4" />, color: "emerald" },
   ];
 
   const tools = [
