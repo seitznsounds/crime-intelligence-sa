@@ -177,7 +177,7 @@ export async function getDeepIntel(entityId: string) {
   try {
     const supabase = await createServerClient();
     
-    // First try to find the entity name from supabase
+    // 1. Fetch metadata from people/orgs first
     let entityName = "";
     const { data: person } = await supabase.from('people').select('full_name').eq('id', entityId).single();
     if (person) {
@@ -189,68 +189,55 @@ export async function getDeepIntel(entityId: string) {
 
     if (!entityName) return null;
 
-    // Load the JSON graph
+    // 2. Try to find a DB-stored dossier in historical_records
+    const { data: dbDossier } = await supabase
+        .from('historical_records')
+        .select('content, metadata')
+        .eq('category', 'DOSSIER')
+        .or(`metadata->>entity_id.eq.${entityId},title.ilike.%${entityName}%`)
+        .maybeSingle();
+
+    // 3. Fallback to Graph if needed
     const filePath = path.join(process.cwd(), 'intelligence', 'corruption_knowledge_graph.json');
-    if (!fs.existsSync(filePath)) return null;
-    
-    const fileData = fs.readFileSync(filePath, 'utf-8');
-    const graph = JSON.parse(fileData);
+    let graphNode: any = null;
+    let connections: any[] = [];
 
-    // Try to match node
-    const node = graph.nodes.find((n: any) => 
-      n.name.toLowerCase().includes(entityName.toLowerCase()) || 
-      entityName.toLowerCase().includes(n.name.toLowerCase()) ||
-      n.id === entityId
-    );
-
-    if (!node) {
-      return {
-        summary: `No classified dossier found for ${entityName}. Entity profile relies on baseline heuristics.`,
-        narrative: ["Profile data is currently limited to structural nodes. Deep intelligence extraction is pending."],
-        status: "ACTIVE"
-      };
+    if (fs.existsSync(filePath)) {
+        const graph = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        graphNode = graph.nodes.find((n: any) => n.id === entityId || n.name.toLowerCase().includes(entityName.toLowerCase()));
+        
+        if (graphNode) {
+            connections = graph.edges
+                .filter((e: any) => e.source === graphNode.id || e.target === graphNode.id)
+                .map((e: any) => {
+                    const otherId = e.source === graphNode.id ? e.target : e.source;
+                    const otherNode = graph.nodes.find((n: any) => n.id === otherId);
+                    return {
+                        name: otherNode ? otherNode.name : otherId,
+                        context: `${e.relationship}: ${e.description}`
+                    };
+                });
+        }
     }
 
-    // Check for a published dossier file
-    let fullDossier = null;
-    const dossierPath = path.join(process.cwd(), 'intelligence', 'dossiers', `${node.id}.md`);
-    if (fs.existsSync(dossierPath)) {
-      fullDossier = fs.readFileSync(dossierPath, 'utf-8');
-    }
-
-    // Find connections in the JSON
-    const connections = graph.edges
-      .filter((e: any) => e.source === node.id || e.target === node.id)
-      .map((e: any) => {
-        const otherId = e.source === node.id ? e.target : e.source;
-        const otherNode = graph.nodes.find((n: any) => n.id === otherId);
-        return {
-          name: otherNode ? otherNode.name : otherId,
-          context: `${e.relationship}: ${e.description}`
-        };
-      });
-
-    // Mock a timeline based on relationships or specific hardcoded events from INGEST.md
+    // Determine timeline (Mock or dynamic)
     const timeline = [];
-    if (node.id === 'cat-matlala') {
+    if (entityId === 'cat-matlala' || entityName.includes('Matlala')) {
        timeline.push({ year: 2021, title: "Deokaran Assassination", description: "Whistleblower killed after exposing irregular contracts linked to Matlala.", isKey: true });
        timeline.push({ year: 2024, title: "SAPS Contract", description: "Medicare 24 awarded R360m health-services contract." });
        timeline.push({ year: 2025, title: "Arrest", description: "Arrested for attempted murder, fraud, and illicit firearms.", isKey: true });
-    } else if (node.id === 'katiso-molefe') {
-       timeline.push({ year: 2022, title: "DJ Sumbody Murder", description: "Allegedly masterminded the killing of DJ Sumbody.", isKey: true });
-       timeline.push({ year: 2025, title: "Arrest & Bail", description: "Arrested in August, released on controversial R400k bail in October." });
     }
 
     return {
-      summary: node.metadata?.description || "High-priority intelligence subject.",
-      narrative: node.metadata?.narrative || [
+      summary: dbDossier?.metadata?.description || graphNode?.metadata?.description || "High-priority intelligence subject.",
+      narrative: dbDossier?.metadata?.narrative || graphNode?.metadata?.narrative || [
         "Intelligence indicates this entity is deeply embedded in the systemic capture network.",
         "Further operational details are subject to ongoing Madlanga Commission investigations."
       ],
       connections: connections,
-      status: node.risk_score > 90 ? "CRITICAL RISK" : "UNDER INVESTIGATION",
+      status: (graphNode?.risk_score || 0) > 90 ? "CRITICAL RISK" : "UNDER INVESTIGATION",
       timeline: timeline,
-      dossier: fullDossier,
+      dossier: dbDossier?.content || null,
       sources: [
         "Madlanga Commission Interim Reports",
         "Crime Intelligence Unit Transcripts",
