@@ -3,14 +3,15 @@ import PageShell from "@/components/layout/PageShell";
 import WhatNext from "@/components/layout/WhatNext";
 import { Search, Network, Users, Megaphone } from "lucide-react";
 import ExposeClient from "./ExposeClient";
-import { getExposeData, getUniqueStatuses } from "./actions";
+import { getExposeData, getUniqueStatuses, getSyndicates } from "./actions";
 
 export const dynamic = "force-dynamic";
 
 export default async function ExposePage() {
-  const [initialData, uniqueStatuses] = await Promise.all([
+  const [initialData, uniqueStatuses, syndicates] = await Promise.all([
     getExposeData({ page: 1, pageSize: 12 }),
-    getUniqueStatuses()
+    getUniqueStatuses(),
+    getSyndicates()
   ]);
 
   return (
@@ -30,6 +31,7 @@ export default async function ExposePage() {
         initialPeople={initialData.people} 
         initialTotalCount={initialData.totalCount}
         uniqueStatuses={uniqueStatuses}
+        syndicates={syndicates}
       />
       <WhatNext suggestions={[
         { title: "Corruption Connections", description: "See how these people are connected to each other and to crime networks.", href: "/network", icon: "Network" },

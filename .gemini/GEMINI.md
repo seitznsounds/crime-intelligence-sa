@@ -220,9 +220,14 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 
 ### 30. Intelligence Stream & Judicial UI [COMPLETED]
 - **IntelligenceDrawer Component**: Created a global, real-time side-drawer surfacing the latest court rulings and field news across the entire app.
-- **Judicial Intelligence Corpus**: Launched a dedicated portal at `/justice/judgments` for browsing and filtering criminal jurisprudence.
-- **Forensic Case View**: Implemented detailed evidence dossiers for judgments, linking legal outcomes directly to intelligence nodes.
-- **KG Legal Synchronization**: Developed `scripts/link_judgments_to_graph.ts` to automatically inject legal actors (judges, defendants) as nodes into the master Knowledge Graph.
+- [x] **Judicial Intelligence Corpus**: Launched a dedicated portal at `/justice/judgments` for browsing and filtering criminal jurisprudence.
+- [x] **Forensic Case View**: Implemented detailed evidence dossiers for judgments, linking legal outcomes directly to intelligence nodes.
+- [x] **KG Legal Synchronization**: Developed `scripts/link_judgments_to_graph.ts` to automatically inject legal actors (judges, defendants) as nodes into the master Knowledge Graph.
+
+### 31. Financial Asset & Syndicate Hardening [COMPLETED]
+- **Asset Migration**: Added polymorphic `assets` and `entity_asset_links` tables to track real estate, vehicles, trusts, crypto wallets, and shell companies.
+- **Syndicate Dashboard**: Refactored `/admin/syndicates` into a deep intelligence profile with dropdowns for strict categorisation.
+- **Automated Threat Logic**: Implemented dynamic Risk Score aggregation based on the average threat level of known associates and gang size multipliers.
 
 # 🔮 Next Operational Cycle (Watchdog Phase)
 

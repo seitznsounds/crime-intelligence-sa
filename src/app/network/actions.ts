@@ -170,21 +170,26 @@ function cosineSimilarity(vecA: number[], vecB: number[]) {
     return magnitude === 0 ? 0 : dotProduct / magnitude;
 }
 
-import fs from 'fs';
-import path from 'path';
-
 export async function getDeepIntel(entityId: string) {
   try {
     const supabase = await createServerClient();
     
     // 1. Fetch metadata from people/orgs first
     let entityName = "";
-    const { data: person } = await supabase.from('people').select('full_name').eq('id', entityId).single();
+    let entityObj: any = null;
+    let entityType = 'PERSON';
+    
+    const { data: person } = await supabase.from('people').select('*').eq('id', entityId).single();
     if (person) {
       entityName = person.full_name;
+      entityObj = person;
     } else {
-      const { data: org } = await supabase.from('organizations').select('name').eq('id', entityId).single();
-      if (org) entityName = org.name;
+      const { data: org } = await supabase.from('organizations').select('*').eq('id', entityId).single();
+      if (org) {
+        entityName = org.name;
+        entityObj = org;
+        entityType = 'ORG';
+      }
     }
 
     if (!entityName) return null;
@@ -192,57 +197,133 @@ export async function getDeepIntel(entityId: string) {
     // 2. Try to find a DB-stored dossier in historical_records
     const { data: dbDossier } = await supabase
         .from('historical_records')
-        .select('content, metadata')
+        .select('content, metadata, source_url')
         .eq('category', 'DOSSIER')
         .or(`metadata->>entity_id.eq.${entityId},title.ilike.%${entityName}%`)
         .maybeSingle();
 
-    // 3. Fallback to Graph if needed
-    const filePath = path.join(process.cwd(), 'intelligence', 'corruption_knowledge_graph.json');
-    let graphNode: any = null;
+    // 3. Dynamic Connections
     let connections: any[] = [];
-
-    if (fs.existsSync(filePath)) {
-        const graph = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        graphNode = graph.nodes.find((n: any) => n.id === entityId || n.name.toLowerCase().includes(entityName.toLowerCase()));
+    if (entityType === 'PERSON') {
+        const { data: rels } = await supabase.from('person_relationships')
+            .select(`relationship_type, confidence, source:source_person_id(id, full_name), target:target_person_id(id, full_name)`)
+            .or(`source_person_id.eq.${entityId},target_person_id.eq.${entityId}`);
+            
+        if (rels) {
+            rels.forEach((r: any) => {
+                const other = r.source?.id === entityId ? r.target : r.source;
+                if (other) {
+                    connections.push({
+                        name: other.full_name,
+                        context: `${r.relationship_type}` + (r.confidence ? ` (${r.confidence}% conf)` : '')
+                    });
+                }
+            });
+        }
         
-        if (graphNode) {
-            connections = graph.edges
-                .filter((e: any) => e.source === graphNode.id || e.target === graphNode.id)
-                .map((e: any) => {
-                    const otherId = e.source === graphNode.id ? e.target : e.source;
-                    const otherNode = graph.nodes.find((n: any) => n.id === otherId);
-                    return {
-                        name: otherNode ? otherNode.name : otherId,
-                        context: `${e.relationship}: ${e.description}`
-                    };
-                });
+        const { data: orgLinks } = await supabase.from('person_org_links')
+            .select(`role, confidence, org:organizations(name)`)
+            .eq('person_id', entityId);
+            
+        if (orgLinks) {
+            orgLinks.forEach((l: any) => {
+               if (l.org) {
+                   connections.push({
+                       name: l.org.name,
+                       context: `${l.role}` + (l.confidence ? ` (${l.confidence}% conf)` : '')
+                   });
+               }
+            });
+        }
+    } else {
+        const { data: personLinks } = await supabase.from('person_org_links')
+            .select(`role, confidence, person:people(full_name)`)
+            .eq('org_id', entityId);
+            
+        if (personLinks) {
+            personLinks.forEach((l: any) => {
+                if (l.person) {
+                    connections.push({
+                        name: l.person.full_name,
+                        context: `${l.role}` + (l.confidence ? ` (${l.confidence}% conf)` : '')
+                    });
+                }
+            });
         }
     }
+    
+    // Deduplicate connections
+    connections = connections.filter((conn, index, self) => 
+      index === self.findIndex((c) => c.name === conn.name)
+    );
 
-    // Determine timeline (Mock or dynamic)
-    const timeline = [];
-    if (entityId === 'cat-matlala' || entityName.includes('Matlala')) {
-       timeline.push({ year: 2021, title: "Deokaran Assassination", description: "Whistleblower killed after exposing irregular contracts linked to Matlala.", isKey: true });
-       timeline.push({ year: 2024, title: "SAPS Contract", description: "Medicare 24 awarded R360m health-services contract." });
-       timeline.push({ year: 2025, title: "Arrest", description: "Arrested for attempted murder, fraud, and illicit firearms.", isKey: true });
+    // 4. Dynamic Timeline and Incidents
+    const timeline: any[] = [];
+    const sourceSet = new Set<string>();
+    
+    if (entityObj.source_file) sourceSet.add(entityObj.source_file);
+    if (entityObj.verification_source) sourceSet.add(entityObj.verification_source);
+    if (entityObj.metadata?.source) sourceSet.add(entityObj.metadata.source);
+    if (entityObj.metadata?.original_source) sourceSet.add(entityObj.metadata.original_source);
+    if (dbDossier?.source_url) sourceSet.add(dbDossier.source_url);
+    if (dbDossier?.metadata?.source) sourceSet.add(dbDossier.metadata.source);
+
+    if (entityType === 'PERSON') {
+        const { data: incidentLinks } = await supabase.from('person_incident_links')
+            .select(`role, incident:incidents(id, title, summary, occurred_at, source_name, source_url)`)
+            .eq('person_id', entityId);
+            
+        if (incidentLinks) {
+            incidentLinks.forEach((l: any) => {
+                if (l.incident) {
+                    if (l.incident.source_name) sourceSet.add(l.incident.source_name);
+                    if (l.incident.source_url) sourceSet.add(l.incident.source_url);
+                    
+                    if (l.incident.occurred_at) {
+                        timeline.push({
+                            year: new Date(l.incident.occurred_at).getFullYear(),
+                            title: l.incident.title,
+                            description: l.incident.summary || `Implicated as ${l.role || 'participant'}.`
+                        });
+                    }
+                }
+            });
+        }
+    }
+    
+    timeline.sort((a, b) => b.year - a.year);
+    
+    if (timeline.length === 0 && entityObj.metadata?.timeline && Array.isArray(entityObj.metadata.timeline)) {
+        timeline.push(...entityObj.metadata.timeline);
+    }
+    
+    const sources = Array.from(sourceSet).filter(Boolean);
+    if (sources.length === 0) {
+        sources.push("Investigative Data Repository");
     }
 
+    // 5. Dynamic Narrative
+    let narrative = dbDossier?.metadata?.narrative || entityObj.metadata?.narrative;
+    
+    if (!narrative || (Array.isArray(narrative) && narrative.length === 0)) {
+        narrative = [
+            `Intelligence profile for ${entityName}.`,
+            entityObj.description ? `Entity Description: ${entityObj.description}` : `Classified as ${entityObj.role || 'an operative'} within the monitored network.`,
+            entityObj.status ? `Current status indicates they are ${entityObj.status}.` : "Status is currently subject to ongoing verification.",
+            `Calculated Risk Exposure: ${entityObj.risk_score || 50}%.`
+        ].filter(Boolean);
+    }
+
+    const summary = dbDossier?.metadata?.description || entityObj.description || entityObj.metadata?.description || `High-priority intelligence subject: ${entityName}.`;
+    
     return {
-      summary: dbDossier?.metadata?.description || graphNode?.metadata?.description || "High-priority intelligence subject.",
-      narrative: dbDossier?.metadata?.narrative || graphNode?.metadata?.narrative || [
-        "Intelligence indicates this entity is deeply embedded in the systemic capture network.",
-        "Further operational details are subject to ongoing Madlanga Commission investigations."
-      ],
-      connections: connections,
-      status: (graphNode?.risk_score || 0) > 90 ? "CRITICAL RISK" : "UNDER INVESTIGATION",
-      timeline: timeline,
+      summary,
+      narrative,
+      connections,
+      status: entityObj.status || ((entityObj.risk_score || 0) > 80 ? "CRITICAL RISK" : "UNDER INVESTIGATION"),
+      timeline,
       dossier: dbDossier?.content || null,
-      sources: [
-        "Madlanga Commission Interim Reports",
-        "Crime Intelligence Unit Transcripts",
-        "Investigative Extractions (2025-2026)"
-      ]
+      sources
     };
   } catch (err) {
     console.error(err);

@@ -3,17 +3,19 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { ExposureCard } from "@/components/ExposureCard";
 import { offlineStorage } from "@/lib/offline-storage";
-import { WifiOff, Search, Filter, ChevronLeft, ChevronRight, UserMinus, UserCheck, Skull } from "lucide-react";
+import { WifiOff, Search, Filter, ChevronLeft, ChevronRight, UserMinus, UserCheck, Skull, ShieldAlert, Star, Users, Info } from "lucide-react";
 import { getExposeData } from "./actions";
 
 export default function ExposeClient({ 
   initialPeople, 
   initialTotalCount,
-  uniqueStatuses 
+  uniqueStatuses,
+  syndicates
 }: { 
   initialPeople: any[], 
   initialTotalCount: number,
-  uniqueStatuses: string[]
+  uniqueStatuses: string[],
+  syndicates: {id: string, name: string}[]
 }) {
   const [people, setPeople] = useState(initialPeople);
   const [totalCount, setTotalCount] = useState(initialTotalCount);
@@ -24,6 +26,8 @@ export default function ExposeClient({
   const [searchQuery, setSearchQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState("ALL");
   const [tierFilter, setTierFilter] = useState("ALL");
+  const [riskLevelFilter, setRiskLevelFilter] = useState("ALL");
+  const [syndicateFilter, setSyndicateFilter] = useState("ALL");
   const [vitalStatusFilter, setVitalStatusFilter] = useState("ALL"); // ALL, ALIVE, DECEASED
   const [page, setPage] = useState(1);
   const pageSize = 12;
@@ -41,6 +45,8 @@ export default function ExposeClient({
       query: debouncedQuery,
       status: statusFilter,
       tier: tierFilter,
+      riskLevel: riskLevelFilter,
+      syndicateId: syndicateFilter,
       isDeceased: vitalStatusFilter === "DECEASED" ? true : vitalStatusFilter === "ALIVE" ? false : null,
       page,
       pageSize
@@ -56,11 +62,11 @@ export default function ExposeClient({
     if (result.people.length > 0 && storage) {
       result.people.forEach(p => storage.saveDossier(p));
     }
-  }, [debouncedQuery, statusFilter, tierFilter, vitalStatusFilter, page]);
+  }, [debouncedQuery, statusFilter, tierFilter, riskLevelFilter, syndicateFilter, vitalStatusFilter, page]);
 
   useEffect(() => {
     // Skip first load if we have initial data and it's page 1 with no filters
-    if (page === 1 && debouncedQuery === "" && statusFilter === "ALL" && tierFilter === "ALL" && vitalStatusFilter === "ALL") {
+    if (page === 1 && debouncedQuery === "" && statusFilter === "ALL" && tierFilter === "ALL" && vitalStatusFilter === "ALL" && riskLevelFilter === "ALL" && syndicateFilter === "ALL") {
       return;
     }
     fetchData();
@@ -133,21 +139,72 @@ export default function ExposeClient({
               <Skull className="absolute right-3 top-1/2 -translate-y-1/2 w-3 h-3 text-muted-foreground/50 pointer-events-none" />
             </div>
 
-            {/* Tier Filter */}
+            {/* Syndicate Filter */}
             <div className="relative">
+              <select 
+                value={syndicateFilter}
+                onChange={(e) => {
+                  setSyndicateFilter(e.target.value);
+                  setPage(1);
+                }}
+                className="appearance-none bg-background border border-border-glass rounded-lg py-2.5 pl-4 pr-10 text-[11px] font-bold uppercase tracking-widest text-muted-foreground focus:outline-none focus:border-accent-blue/50 transition-all min-w-[160px]"
+              >
+                <option value="ALL">All Syndicates</option>
+                {syndicates.map(s => (
+                  <option key={s.id} value={s.id}>{s.name}</option>
+                ))}
+              </select>
+              <Users className="absolute right-3 top-1/2 -translate-y-1/2 w-3 h-3 text-muted-foreground/50 pointer-events-none" />
+            </div>
+
+            {/* Tier Filter */}
+            <div className="relative group z-30">
               <select 
                 value={tierFilter}
                 onChange={(e) => {
                   setTierFilter(e.target.value);
                   setPage(1);
                 }}
-                className="appearance-none bg-background border border-border-glass rounded-lg py-2.5 pl-4 pr-10 text-[11px] font-bold uppercase tracking-widest text-muted-foreground focus:outline-none focus:border-accent-blue/50 transition-all min-w-[120px]"
+                className="appearance-none bg-background border border-border-glass rounded-lg py-2.5 pl-4 pr-10 text-[11px] font-bold uppercase tracking-widest text-muted-foreground focus:outline-none focus:border-accent-blue/50 transition-all min-w-[140px]"
               >
-                <option value="ALL">All Entities</option>
-                <option value="PEP">PEP Only</option>
-                <option value="NON-PEP">Non-PEP Only</option>
+                <option value="ALL">All Tiers</option>
+                <option value="1">Tier 1 (National)</option>
+                <option value="2">Tier 2 (Execs/Judges)</option>
+                <option value="3">Tier 3 (Proxies)</option>
+                <option value="PEP">Any PEP</option>
+                <option value="NON-PEP">Non-PEP</option>
               </select>
-              <Filter className="absolute right-3 top-1/2 -translate-y-1/2 w-3 h-3 text-muted-foreground/50 pointer-events-none" />
+              <Star className="absolute right-3 top-1/2 -translate-y-1/2 w-3 h-3 text-muted-foreground/50 pointer-events-none" />
+              <div className="absolute top-12 left-0 hidden group-hover:block w-72 p-4 bg-background border border-accent-blue/30 rounded-xl shadow-xl text-[11px] normal-case tracking-normal text-muted-foreground">
+                <p className="font-black text-white mb-2 tracking-widest uppercase text-[10px] flex items-center gap-2"><Info className="w-3 h-3 text-accent-blue"/> PEP Tiers</p>
+                <ul className="list-disc pl-4 space-y-1.5">
+                   <li><strong className="text-white/90">Tier 1:</strong> Heads of state, cabinet ministers, national politicians.</li>
+                   <li><strong className="text-white/90">Tier 2:</strong> Senior SOE executives, judges, high-ranking officials.</li>
+                   <li><strong className="text-white/90">Tier 3:</strong> Suspects, intermediaries, and close proxies.</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Risk Filter */}
+            <div className="relative group z-20">
+              <select 
+                value={riskLevelFilter}
+                onChange={(e) => {
+                  setRiskLevelFilter(e.target.value);
+                  setPage(1);
+                }}
+                className="appearance-none bg-background border border-border-glass rounded-lg py-2.5 pl-4 pr-10 text-[11px] font-bold uppercase tracking-widest text-muted-foreground focus:outline-none focus:border-accent-blue/50 transition-all min-w-[150px]"
+              >
+                <option value="ALL">All Risks</option>
+                <option value="CRITICAL">Critical Risk (8-10)</option>
+                <option value="ELEVATED">Elevated Risk (5-7)</option>
+                <option value="LOW">Low Risk (&lt; 5)</option>
+              </select>
+              <ShieldAlert className="absolute right-3 top-1/2 -translate-y-1/2 w-3 h-3 text-muted-foreground/50 pointer-events-none" />
+              <div className="absolute top-12 right-0 hidden group-hover:block w-64 p-4 bg-background border border-accent-crimson/30 rounded-xl shadow-xl text-[11px] normal-case tracking-normal text-muted-foreground">
+                <p className="font-black text-white mb-2 tracking-widest uppercase text-[10px] flex items-center gap-2"><Info className="w-3 h-3 text-accent-crimson"/> Risk Score Index</p>
+                A quantitative metric (1.0 - 10.0) indicating an individual&apos;s threat level based on proven involvement in criminal incidents, proximity to syndicates, and positions of authority.
+              </div>
             </div>
           </div>
         </div>

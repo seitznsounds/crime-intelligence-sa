@@ -6,6 +6,8 @@ export interface ExposeFilters {
   query?: string;
   status?: string;
   tier?: string;
+  riskLevel?: string;
+  syndicateId?: string;
   isDeceased?: boolean | null;
   page?: number;
   pageSize?: number;
@@ -16,6 +18,8 @@ export async function getExposeData(filters: ExposeFilters = {}) {
     query = "",
     status = "ALL",
     tier = "ALL",
+    riskLevel = "ALL",
+    syndicateId = "ALL",
     isDeceased = null,
     page = 1,
     pageSize = 12
@@ -23,9 +27,14 @@ export async function getExposeData(filters: ExposeFilters = {}) {
 
   const supabase = await createServerClient();
 
+  let selectStr = "id, full_name, pep_tier, risk_score, status, role, profile_image_url, metadata, is_deceased";
+  if (syndicateId !== "ALL") {
+      selectStr += ", person_org_links!inner(org_id)";
+  }
+
   let dbQuery = supabase
     .from("people")
-    .select("id, full_name, pep_tier, risk_score, status, role, profile_image_url, metadata, is_deceased", { count: "exact" });
+    .select(selectStr, { count: "exact" });
 
   // Apply Search
   if (query) {
@@ -42,6 +51,22 @@ export async function getExposeData(filters: ExposeFilters = {}) {
     dbQuery = dbQuery.not("pep_tier", "is", null);
   } else if (tier === "NON-PEP") {
     dbQuery = dbQuery.is("pep_tier", null);
+  } else if (tier === "1" || tier === "2" || tier === "3") {
+    dbQuery = dbQuery.eq("pep_tier", parseInt(tier));
+  }
+
+  // Apply Risk Level Filter
+  if (riskLevel === "CRITICAL") {
+    dbQuery = dbQuery.gte("risk_score", 8);
+  } else if (riskLevel === "ELEVATED") {
+    dbQuery = dbQuery.gte("risk_score", 5).lt("risk_score", 8);
+  } else if (riskLevel === "LOW") {
+    dbQuery = dbQuery.lt("risk_score", 5);
+  }
+
+  // Apply Syndicate Filter
+  if (syndicateId !== "ALL") {
+    dbQuery = dbQuery.eq("person_org_links.org_id", syndicateId);
   }
 
   // Apply Alive/Deceased Filter
@@ -78,4 +103,13 @@ export async function getUniqueStatuses() {
         if (p.status) statuses.add(p.status);
     });
     return Array.from(statuses).sort();
+}
+
+export async function getSyndicates() {
+    const supabase = await createServerClient();
+    const { data } = await supabase.from('organizations')
+        .select('id, name')
+        .eq('type', 'syndicate')
+        .order('name');
+    return data || [];
 }

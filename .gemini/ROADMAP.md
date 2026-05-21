@@ -75,6 +75,14 @@ _Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all 
 - [x] **Cross-Navigation Engine**: Deployed `<WhatNext>` component dynamically at the bottom of all modules to prevent user dead-ends and suggest logical next steps.
 - [x] **First-Visit Onboarding**: Integrated `<OnboardingBanner>` on the homepage to clearly communicate the platform's mission to new users.
 
+## Phase 9: Financial Intelligence & Asset Tracking (Completed)
+
+**Objective**: Expand the database to capture the exact links between money, power, and crime by tracking physical and corporate assets.
+
+- [x] **Asset Database Upgrades**: Migrated the schema to include `assets` and `entity_asset_links` to capture Shell Companies, Vehicles, Real Estate, Trusts, and Crypto Wallets.
+- [x] **Relational Intelligence Dashboards**: Upgraded `/admin/syndicates` to automatically compute syndicate Risk Scores based on known associates' aggregated threat levels.
+- [x] **Asset & Associate Linking UI**: Built comprehensive UI modals allowing admins to register assets and forge "Known Associate" connections directly inside the syndicate profiles, updating operational footprint dynamically.
+
 # Operational Cycle: Watchdog Omega (Upcoming)
 
 **Objective**: Scaling the automated research fleet, establishing external data-sharing protocols, and hardening field security.
