@@ -65,6 +65,7 @@ _Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all 
 - [x] **Syndicate Hierarchy Reconstruction**: Automatically updated the `organizations` table using inferred links from judicial metadata (+140 new forensic organization nodes).
 - [x] **Government Gazette Pipeline**: Established a high-fidelity ingestion pipeline (`scripts/scrape_gazettes.ts`) tracking tender awards and liquidation signals.
 - [x] **Legal Heatmap Module**: Launched the Judicial Intelligence Heatmap (`/justice/heatmap`) to visualize criminal judgment density across High Court divisions.
+- [x] **Admin Security Gate**: Built a moderated Report Queue (`/admin/reports`) allowing admins to vet citizen intelligence, map aliases, and securely archive rejected reports with recorded reasons.
 
 ## Phase 8: UX Accessibility & Plain-Language Overhaul (Completed)
 

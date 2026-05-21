@@ -58,6 +58,8 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 
 - **Secure Uplink**: Anonymous 4-step reporting flow with simulated AES-256 encryption.
 - **Evidence Drop**: High-fidelity drag-and-drop uploader with metadata stripping protocols.
+- **Admin Security Gate**: Verified queue system for vetting citizen intelligence and mapping aliases to authoritative entities.
+- **Archival Rejections**: Moderation engine requiring reasoned rejections that archive rather than delete invalid reports.
 
 ### 7. Community Governance [COMPLETED]
 
