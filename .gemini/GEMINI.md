@@ -231,6 +231,13 @@ Crime in South Africa is not just a street-level issue; it is a systemic failure
 - **Syndicate Dashboard**: Refactored `/admin/syndicates` into a deep intelligence profile with dropdowns for strict categorisation.
 - **Automated Threat Logic**: Implemented dynamic Risk Score aggregation based on the average threat level of known associates and gang size multipliers.
 
+### 32. Capacitor Mobile Integration [COMPLETED]
+- **Platform Setup**: Installed Capacitor core and CLI, and added native platforms for Android (`android/`) and iOS (`ios/`).
+- **Identity Registration**: Registered the app under name `Visita Crime Intelligence` and package identifier `za.co.visita.crime.app`.
+- **Hybrid Live URL Integration**: Configured `capacitor.config.ts` to load the production server URL `https://crime.visita.co.za`, bypassing Next.js static export limits for Server Actions and Route Handlers.
+- **Asset Generation**: Used `@capacitor/assets` to automatically compile custom launcher icons and splash screens from source images in the `/public` folder.
+
+
 # 🔮 Next Operational Cycle (Watchdog Phase)
 
 1. **Daily Watchdog Delta**: Automated execution of `scripts/watchdog.ts` for real-time extraction of new leads.

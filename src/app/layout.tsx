@@ -99,6 +99,10 @@ export default function RootLayout({
 
                 <div className="flex flex-col items-center md:items-end text-center md:text-right">
                    <p className="text-[11px] font-mono text-muted-foreground uppercase tracking-widest mb-4">© 2026 Crime Intel SA</p>
+                   <div className="flex items-center gap-4 text-[11px] font-bold uppercase tracking-widest text-muted-foreground mb-6">
+                     <Link href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
+                     <Link href="/terms" className="hover:text-foreground transition-colors">Terms of Use</Link>
+                   </div>
                    <div className="inline-flex items-center gap-3 px-4 py-2 border border-border-glass rounded-full bg-bg-glass">
                       <div className="w-1.5 h-1.5 bg-accent-blue rounded-full animate-pulse" />
                       <span className="text-[11px] font-mono text-muted-foreground tracking-wider uppercase">Secure Connection</span>

@@ -40,6 +40,7 @@ _Goal: Deploy the new `ResponsiveDataGrid` and `FullScreenDataModal` across all 
 
 **Objective**: Finalize the platform for high-stakes investigative field use and ensure cross-platform operationality.
 
+- [x] **Capacitor Mobile Wrapper**: Integrated Capacitor to generate native Android (`android/`) and iOS (`ios/`) wraps targeting the production server URL `https://crime.visita.co.za` with custom compiled assets (icon & splash image).
 - [ ] **PWA & Offline Optimization**: Implement service workers and local caching (IndexedDB) for investigation rosters and high-risk dossiers in low-connectivity zones.
 - [ ] **Biometric Access Tier**: Integrate WebAuthn (Biometrics) for secure "Step-up" authentication when accessing high-risk evidence packages.
 - [x] **Live News Ingestion Pipeline**: Integrated Paystack donation system and optimized global UI/UX for dual-theme accessibility.
